@@ -26,11 +26,24 @@ class DishResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\TextInput::make('restaurant_id')
-                    ->numeric(),
+                Forms\Components\Select::make('restaurant_id')
+                    ->relationship('restaurant', 'name')
+                    ->required(),
+                Forms\Components\Select::make('food_category_id')
+                    ->relationship('food_category', 'name')
+                    ->required(),
                 Forms\Components\TextInput::make('name')
                     ->required()
                     ->maxLength(255),
+                Forms\Components\TextInput::make('slug')
+                    ->required()
+                    ->maxLength(255),
+                Forms\Components\TextInput::make('sold_quantity')
+                    ->required()
+                    ->numeric(),
+                Forms\Components\FileUpload::make('image')
+                    ->image()
+                    ->required(),
                 Forms\Components\Textarea::make('description')
                     ->columnSpanFull(),
                 Forms\Components\TextInput::make('price')
@@ -46,7 +59,8 @@ class DishResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('restaurant_id')
+                Tables\Columns\ImageColumn::make('image'),
+                Tables\Columns\TextColumn::make('restaurant.name')
                     ->numeric()
                     ->sortable(),
                 Tables\Columns\TextColumn::make('name')

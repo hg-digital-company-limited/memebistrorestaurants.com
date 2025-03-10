@@ -2,7 +2,7 @@
 
 
     <head>
-        <title>Home 3 &#8211; Delicioz</title>
+        <title>Trang chủ</title>
         <meta name='robots' content='max-image-preview:large' />
         <link rel="dns-prefetch" href="//fonts.googleapis.com">
         <link rel="dns-prefetch" href="//s.w.org">
@@ -10,9 +10,9 @@
         <link rel='dns-prefetch' href='//fonts.googleapis.com' />
         <link rel='dns-prefetch' href='//s.w.org' />
         <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Feed"
-            href="https://demo2.themelexus.com/delicioz/feed/" />
+            href="/delicioz/feed/" />
         <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Comments Feed"
-            href="https://demo2.themelexus.com/delicioz/comments/feed/" />
+            href="/delicioz/comments/feed/" />
         <script>
             window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/demo2.themelexus.com\/delicioz\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.2" } };
             /*! This file is auto-generated */
@@ -33,7 +33,7 @@
             }
         </style>
         <link rel='stylesheet' id='wp-block-library-css'
-            href='https://demo2.themelexus.com/delicioz/wp-includes/css/dist/block-library/style.min.css?ver=6.0.2'
+            href='/delicioz/wp-includes/css/dist/block-library/style.min.css?ver=6.0.2'
             media='all' />
         <style id='wp-block-library-theme-inline-css'>
             .wp-block-audio figcaption {
@@ -209,13 +209,13 @@
             }
         </style>
         <link rel='stylesheet' id='wc-blocks-vendors-style-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css?ver=8.0.0'
+            href='/delicioz/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css?ver=8.0.0'
             media='all' />
         <link rel='stylesheet' id='wc-blocks-style-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=8.0.0'
+            href='/delicioz/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=8.0.0'
             media='all' />
         <link rel='stylesheet' id='delicioz-gutenberg-blocks-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/css/base/gutenberg-blocks.css?ver=1.0.1'
+            href='/delicioz/wp-content/themes/delicioz/assets/css/base/gutenberg-blocks.css?ver=1.0.1'
             media='all' />
         <style id='global-styles-inline-css'>
             body {
@@ -468,47 +468,47 @@
             }
         </style>
         <link rel='stylesheet' id='contact-form-7-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.6.2'
+            href='/delicioz/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.6.2'
             media='all' />
         <link rel='stylesheet' id='-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/plugins/opal-demo/style.css?ver=6.0.2' media='all' />
+            href='/delicioz/wp-content/plugins/opal-demo/style.css?ver=6.0.2' media='all' />
         <style id='woocommerce-inline-inline-css'>
             .woocommerce form .form-row .required {
                 visibility: visible;
             }
         </style>
         <link rel='stylesheet' id='hfe-style-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.13'
+            href='/delicioz/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.13'
             media='all' />
         <link rel='stylesheet' id='elementor-icons-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.16.0'
+            href='/delicioz/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.16.0'
             media='all' />
         <link rel='stylesheet' id='elementor-frontend-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/uploads/elementor/css/custom-frontend-lite.min.css?ver=1661932570'
+            href='/delicioz/wp-content/uploads/elementor/css/custom-frontend-lite.min.css?ver=1661932570'
             media='all' />
         <link rel='stylesheet' id='elementor-post-7-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/uploads/elementor/css/post-7.css?ver=1661932570'
+            href='/delicioz/wp-content/uploads/elementor/css/post-7.css?ver=1661932570'
             media='all' />
         <link rel='stylesheet' id='elementor-global-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/uploads/elementor/css/global.css?ver=1661932571'
+            href='/delicioz/wp-content/uploads/elementor/css/global.css?ver=1661932571'
             media='all' />
         <link rel='stylesheet' id='elementor-post-24-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/uploads/elementor/css/post-24.css?ver=1661933102'
+            href='/delicioz/wp-content/uploads/elementor/css/post-24.css?ver=1661933102'
             media='all' />
         <link rel='stylesheet' id='hfe-widgets-style-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.13'
+            href='/delicioz/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.13'
             media='all' />
         <link rel='stylesheet' id='elementor-post-88-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/uploads/elementor/css/post-88.css?ver=1661933102'
+            href='/delicioz/wp-content/uploads/elementor/css/post-88.css?ver=1661933102'
             media='all' />
         <link rel='stylesheet' id='elementor-post-92-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/uploads/elementor/css/post-92.css?ver=1661932571'
+            href='/delicioz/wp-content/uploads/elementor/css/post-92.css?ver=1661932571'
             media='all' />
         <link rel='stylesheet' id='elementor-post-98-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/uploads/elementor/css/post-98.css?ver=1661932571'
+            href='/delicioz/wp-content/uploads/elementor/css/post-98.css?ver=1661932571'
             media='all' />
         <link rel='stylesheet' id='woo-variation-swatches-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/plugins/woo-variation-swatches/assets/css/frontend.min.css?ver=1660386322'
+            href='/delicioz/wp-content/plugins/woo-variation-swatches/assets/css/frontend.min.css?ver=1660386322'
             media='all' />
         <style id='woo-variation-swatches-inline-css'>
             :root {
@@ -521,34 +521,34 @@
             }
         </style>
         <link rel='stylesheet' id='hint-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/hint/hint.min.css?ver=6.0.2'
+            href='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/hint/hint.min.css?ver=6.0.2'
             media='all' />
         <link rel='stylesheet' id='perfect-scrollbar-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/perfect-scrollbar/css/perfect-scrollbar.min.css?ver=6.0.2'
+            href='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/perfect-scrollbar/css/perfect-scrollbar.min.css?ver=6.0.2'
             media='all' />
         <link rel='stylesheet' id='perfect-scrollbar-wpc-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/perfect-scrollbar/css/custom-theme.css?ver=6.0.2'
+            href='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/perfect-scrollbar/css/custom-theme.css?ver=6.0.2'
             media='all' />
         <link rel='stylesheet' id='woosc-frontend-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/plugins/woo-smart-compare/assets/css/frontend.css?ver=5.1.5'
+            href='/delicioz/wp-content/plugins/woo-smart-compare/assets/css/frontend.css?ver=5.1.5'
             media='all' />
         <link rel='stylesheet' id='slick-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/plugins/woo-smart-quick-view/assets/libs/slick/slick.css?ver=6.0.2'
+            href='/delicioz/wp-content/plugins/woo-smart-quick-view/assets/libs/slick/slick.css?ver=6.0.2'
             media='all' />
         <link rel='stylesheet' id='magnific-popup-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/css/libs/magnific-popup.css?ver=1.0.1'
+            href='/delicioz/wp-content/themes/delicioz/assets/css/libs/magnific-popup.css?ver=1.0.1'
             media='all' />
         <link rel='stylesheet' id='woosq-feather-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/plugins/woo-smart-quick-view/assets/libs/feather/feather.css?ver=6.0.2'
+            href='/delicioz/wp-content/plugins/woo-smart-quick-view/assets/libs/feather/feather.css?ver=6.0.2'
             media='all' />
         <link rel='stylesheet' id='woosq-frontend-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/plugins/woo-smart-quick-view/assets/css/frontend.css?ver=3.1.2'
+            href='/delicioz/wp-content/plugins/woo-smart-quick-view/assets/css/frontend.css?ver=3.1.2'
             media='all' />
         <link rel='stylesheet' id='woosw-feather-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/plugins/woo-smart-wishlist/assets/libs/feather/feather.css?ver=6.0.2'
+            href='/delicioz/wp-content/plugins/woo-smart-wishlist/assets/libs/feather/feather.css?ver=6.0.2'
             media='all' />
         <link rel='stylesheet' id='woosw-frontend-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/plugins/woo-smart-wishlist/assets/css/frontend.css?ver=4.3.1'
+            href='/delicioz/wp-content/plugins/woo-smart-wishlist/assets/css/frontend.css?ver=4.3.1'
             media='all' />
         <style id='woosw-frontend-inline-css'>
             .woosw-popup .woosw-popup-inner .woosw-popup-content .woosw-popup-content-bot .woosw-notice {
@@ -564,7 +564,7 @@
             href='//fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&#038;subset=latin%2Clatin-ext&#038;display=swap'
             media='all' />
         <link rel='stylesheet' id='delicioz-style-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/style.css?ver=1.0.1' media='all' />
+            href='/delicioz/wp-content/themes/delicioz/style.css?ver=1.0.1' media='all' />
         <style id='delicioz-style-inline-css'>
             .col-full {
                 max-width: 1290px
@@ -981,58 +981,58 @@
             }
         </style>
         <link rel='stylesheet' id='delicioz-slick-style-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/css/base/slick.css?ver=1.0.1'
+            href='/delicioz/wp-content/themes/delicioz/assets/css/base/slick.css?ver=1.0.1'
             media='all' />
         <link rel='stylesheet' id='delicioz-slick-theme-style-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/css/base/slick-theme.css?ver=1.0.1'
+            href='/delicioz/wp-content/themes/delicioz/assets/css/base/slick-theme.css?ver=1.0.1'
             media='all' />
         <link rel='stylesheet' id='elementor-post-101-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/uploads/elementor/css/post-101.css?ver=1661932571'
+            href='/delicioz/wp-content/uploads/elementor/css/post-101.css?ver=1661932571'
             media='all' />
         <link rel='stylesheet' id='delicioz-elementor-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/css/base/elementor.css?ver=1.0.1'
+            href='/delicioz/wp-content/themes/delicioz/assets/css/base/elementor.css?ver=1.0.1'
             media='all' />
         <link rel='stylesheet' id='delicioz-woocommerce-style-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/css/woocommerce/woocommerce.css?ver=1.0.1'
+            href='/delicioz/wp-content/themes/delicioz/assets/css/woocommerce/woocommerce.css?ver=1.0.1'
             media='all' />
         <link rel='stylesheet' id='delicioz-child-style-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/themes/demo-child/style.css?ver=1.0.0' media='all' />
+            href='/delicioz/wp-content/themes/demo-child/style.css?ver=1.0.0' media='all' />
         <link rel='stylesheet' id='google-fonts-1-css'
             href='https://fonts.googleapis.com/css?family=Manrope%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRajdhani%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.0.2'
             media='all' />
         <link rel='stylesheet' id='elementor-icons-shared-0-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3'
+            href='/delicioz/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3'
             media='all' />
         <link rel='stylesheet' id='elementor-icons-fa-brands-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3'
+            href='/delicioz/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3'
             media='all' />
         <script type="text/template" id="tmpl-variation-template">
 </script>
         <script type="text/template" id="tmpl-unavailable-variation-template">
 	<p>Sorry, this product is unavailable. Please choose a different combination.</p>
 </script>
-        <script src='https://demo2.themelexus.com/delicioz/wp-includes/js/jquery/jquery.min.js?ver=3.6.0'
+        <script src='/delicioz/wp-includes/js/jquery/jquery.min.js?ver=3.6.0'
             id='jquery-core-js'></script>
-        <script src='https://demo2.themelexus.com/delicioz/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2'
+        <script src='/delicioz/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2'
             id='jquery-migrate-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/js/libs/jarallax.js?ver=6.0.2'
+            src='/delicioz/wp-content/themes/delicioz/assets/js/libs/jarallax.js?ver=6.0.2'
             id='jarallax-js'></script>
-        <link rel="https://api.w.org/" href="https://demo2.themelexus.com/delicioz/wp-json/" />
+        <link rel="https://api.w.org/" href="/delicioz/wp-json/" />
         <link rel="alternate" type="application/json"
-            href="https://demo2.themelexus.com/delicioz/wp-json/wp/v2/pages/24" />
+            href="/delicioz/wp-json/wp/v2/pages/24" />
         <link rel="EditURI" type="application/rsd+xml" title="RSD"
-            href="https://demo2.themelexus.com/delicioz/xmlrpc.php?rsd" />
+            href="/delicioz/xmlrpc.php?rsd" />
         <link rel="wlwmanifest" type="application/wlwmanifest+xml"
-            href="https://demo2.themelexus.com/delicioz/wp-includes/wlwmanifest.xml" />
+            href="/delicioz/wp-includes/wlwmanifest.xml" />
         <meta name="generator" content="WordPress 6.0.2" />
         <meta name="generator" content="WooCommerce 6.8.2" />
-        <link rel="canonical" href="https://demo2.themelexus.com/delicioz/home-3/" />
-        <link rel='shortlink' href='https://demo2.themelexus.com/delicioz/?p=24' />
+        <link rel="canonical" href="/delicioz/home-3/" />
+        <link rel='shortlink' href='/delicioz/?p=24' />
         <link rel="alternate" type="application/json+oembed"
-            href="https://demo2.themelexus.com/delicioz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo2.themelexus.com%2Fdelicioz%2Fhome-3%2F" />
+            href="/delicioz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo2.themelexus.com%2Fdelicioz%2Fhome-3%2F" />
         <link rel="alternate" type="text/xml+oembed"
-            href="https://demo2.themelexus.com/delicioz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo2.themelexus.com%2Fdelicioz%2Fhome-3%2F&#038;format=xml" />
+            href="/delicioz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo2.themelexus.com%2Fdelicioz%2Fhome-3%2F&#038;format=xml" />
         <noscript>
             <style>
                 .woocommerce-product-gallery {
@@ -1217,928 +1217,7 @@
             </defs>
         </svg>
         <div id="page" class="hfeed site">
-            <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-                <p class="main-title bhf-hidden" itemprop="headline"><a href="https://demo2.themelexus.com/delicioz"
-                        title="Delicioz" rel="home">Delicioz</a></p>
-                <div data-elementor-type="wp-post" data-elementor-id="88" class="elementor elementor-88">
-                    <div class="elementor-section elementor-top-section elementor-element elementor-element-588df1b elementor-section-content-middle elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                        data-id="588df1b" data-element_type="section"
-                        data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-6889d0a"
-                                data-id="6889d0a" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-7eaed09 elementor-widget elementor-widget-site-logo"
-                                        data-id="7eaed09" data-element_type="widget"
-                                        data-widget_type="site-logo.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="hfe-site-logo">
-                                                <a data-elementor-open-lightbox="" class='elementor-clickable'
-                                                    href="https://demo2.themelexus.com/delicioz">
-                                                    <div class="hfe-site-logo-set">
-                                                        <div class="hfe-site-logo-container">
-                                                            <img class="hfe-site-logo-img elementor-animation-"
-                                                                src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/07/logo.svg"
-                                                                alt="" />
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-bca3371 elementor-hidden-tablet elementor-hidden-mobile_extra elementor-hidden-mobile"
-                                data-id="bca3371" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-6e3069c elementor-widget__width-initial elementor-widget elementor-widget-delicioz-search"
-                                        data-id="6e3069c" data-element_type="widget"
-                                        data-widget_type="delicioz-search.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="site-search ajax-search">
-                                                <div class="widget woocommerce widget_product_search">
-                                                    <div class="ajax-search-result d-none"></div>
-                                                    <form role="search" method="get" class="woocommerce-product-search"
-                                                        action="https://demo2.themelexus.com/delicioz/">
-                                                        <label class="screen-reader-text"
-                                                            for="woocommerce-product-search-field-1">Search for:</label>
-                                                        <input type="search" id="woocommerce-product-search-field-1"
-                                                            class="search-field" placeholder="Search products&hellip;"
-                                                            autocomplete="off" value="" name="s" />
-                                                        <button type="submit" value="Search">Search</button>
-                                                        <input type="hidden" name="post_type" value="product" />
-                                                        <div class="search-by-category input-dropdown">
-                                                            <div class="input-dropdown-inner delicioz-scroll-content">
-                                                                <!--                    <input type="hidden" name="product_cat" value="0">-->
-                                                                <a href="#" data-val="0"><span>All category</span></a>
-                                                                <select name='product_cat' id='product_cat0'
-                                                                    class='dropdown_product_cat_ajax'>
-                                                                    <option value='' selected='selected'>All category
-                                                                    </option>
-                                                                    <option class="level-0" value="accessories">
-                                                                        Accessories</option>
-                                                                    <option class="level-0" value="desserts">Desserts
-                                                                    </option>
-                                                                    <option class="level-0" value="food">Food</option>
-                                                                    <option class="level-0" value="humburger">Humburger
-                                                                    </option>
-                                                                    <option class="level-0" value="recipes">Recipes
-                                                                    </option>
-                                                                    <option class="level-0" value="uncategorized">
-                                                                        Uncategorized</option>
-                                                                    <option class="level-0" value="whiskey">Whiskey
-                                                                    </option>
-                                                                </select>
-                                                                <div class="list-wrapper delicioz-scroll">
-                                                                    <ul class="delicioz-scroll-content">
-                                                                        <li class="d-none">
-                                                                            <a href="#" data-val="0">All category</a>
-                                                                        </li>
-                                                                        <li class="cat-item cat-item-42"><a
-                                                                                class="pf-value"
-                                                                                href="https://demo2.themelexus.com/delicioz/product-category/accessories/"
-                                                                                data-val="accessories"
-                                                                                data-title="Accessories">Accessories</a>
-                                                                        </li>
-                                                                        <li class="cat-item cat-item-35"><a
-                                                                                class="pf-value"
-                                                                                href="https://demo2.themelexus.com/delicioz/product-category/desserts/"
-                                                                                data-val="desserts"
-                                                                                data-title="Desserts">Desserts</a>
-                                                                        </li>
-                                                                        <li class="cat-item cat-item-38"><a
-                                                                                class="pf-value"
-                                                                                href="https://demo2.themelexus.com/delicioz/product-category/food/"
-                                                                                data-val="food"
-                                                                                data-title="Food">Food</a>
-                                                                        </li>
-                                                                        <li class="cat-item cat-item-40"><a
-                                                                                class="pf-value"
-                                                                                href="https://demo2.themelexus.com/delicioz/product-category/humburger/"
-                                                                                data-val="humburger"
-                                                                                data-title="Humburger">Humburger</a>
-                                                                        </li>
-                                                                        <li class="cat-item cat-item-39"><a
-                                                                                class="pf-value"
-                                                                                href="https://demo2.themelexus.com/delicioz/product-category/recipes/"
-                                                                                data-val="recipes"
-                                                                                data-title="Recipes">Recipes</a>
-                                                                        </li>
-                                                                        <li class="cat-item cat-item-15"><a
-                                                                                class="pf-value"
-                                                                                href="https://demo2.themelexus.com/delicioz/product-category/uncategorized/"
-                                                                                data-val="uncategorized"
-                                                                                data-title="Uncategorized">Uncategorized</a>
-                                                                        </li>
-                                                                        <li class="cat-item cat-item-37"><a
-                                                                                class="pf-value"
-                                                                                href="https://demo2.themelexus.com/delicioz/product-category/whiskey/"
-                                                                                data-val="whiskey"
-                                                                                data-title="Whiskey">Whiskey</a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-446ebd2"
-                                data-id="446ebd2" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-e3e1baa elementor-widget__width-auto elementor-hidden-tablet elementor-hidden-mobile_extra elementor-hidden-mobile elementor-widget elementor-widget-delicioz-header-group"
-                                        data-id="e3e1baa" data-element_type="widget"
-                                        data-widget_type="delicioz-header-group.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="elementor-header-group-wrapper">
-                                                <div class="header-group-action">
-
-
-                                                    <div class="site-header-account">
-                                                        <a href="https://demo2.themelexus.com/delicioz/my-account/">
-                                                            <i class="delicioz-icon-account"></i>
-                                                        </a>
-                                                        <div class="account-dropdown">
-
-                                                        </div>
-                                                    </div>
-
-
-                                                    <div class="site-header-cart menu">
-                                                        <a class="cart-contents"
-                                                            href="https://demo2.themelexus.com/delicioz/cart/"
-                                                            title="View your shopping cart">
-                                                            <span class="count">1</span>
-                                                            <span class="woocommerce-Price-amount amount"><bdi><span
-                                                                        class="woocommerce-Price-currencySymbol">&#36;</span>805.24</bdi></span>
-                                                        </a>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="elementor-element elementor-element-67a505d elementor-widget__width-auto elementor-hidden-tablet elementor-hidden-mobile_extra elementor-hidden-mobile elementor-button-default elementor-widget elementor-widget-button"
-                                        data-id="67a505d" data-element_type="widget" data-widget_type="button.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="elementor-button-wrapper">
-                                                <a href="https://demo2.themelexus.com/delicioz/reservation/"
-                                                    class="elementor-button-link elementor-button elementor-size-sm"
-                                                    role="button">
-                                                    <span class="elementor-button-content-wrapper">
-                                                        <span class="elementor-button-text">reservation</span>
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="elementor-element elementor-element-da2da57 elementor-widget__width-auto elementor-hidden-desktop elementor-hidden-laptop elementor-hidden-tablet_extra delicioz-canvas-menu-layout-2 elementor-widget elementor-widget-delicioz-menu-canvas"
-                                        data-id="da2da57" data-element_type="widget"
-                                        data-widget_type="delicioz-menu-canvas.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="elementor-canvas-menu-wrapper">
-                                                <a href="#" class="menu-mobile-nav-button">
-                                                    <span class="toggle-text screen-reader-text">Menu</span>
-                                                    <div class="delicioz-icon">
-                                                        <span class="icon-1"></span>
-                                                        <span class="icon-2"></span>
-                                                        <span class="icon-3"></span>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="elementor-section elementor-top-section elementor-element elementor-element-2ff0cd2 elementor-section-content-middle elementor-section-stretched elementor-hidden-tablet elementor-hidden-mobile_extra elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                        data-id="2ff0cd2" data-element_type="section"
-                        data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-20a0d28"
-                                data-id="20a0d28" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-431e843 elementor-hidden-tablet elementor-hidden-mobile_extra elementor-hidden-mobile elementor-widget elementor-widget-delicioz-nav-menu"
-                                        data-id="431e843" data-element_type="widget"
-                                        data-widget_type="delicioz-nav-menu.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="elementor-nav-menu-wrapper">
-                                                <nav class="main-navigation" role="navigation"
-                                                    aria-label="Primary Navigation">
-                                                    <div class="primary-navigation">
-                                                        <ul id="menu-1-431e843" class="menu">
-                                                            <li id="menu-item-58"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-58 has-mega-menu has-stretchwidth">
-                                                                <a href="https://demo2.themelexus.com/delicioz/"><span
-                                                                        class="menu-title">Home</span></a>
-                                                                <ul class="sub-menu mega-menu mega-stretchwidth">
-                                                                    <li class="mega-menu-item">
-                                                                        <div data-elementor-type="page"
-                                                                            data-elementor-id="671"
-                                                                            class="elementor elementor-671">
-                                                                            <div class="elementor-section elementor-top-section elementor-element elementor-element-2ebe1ba0 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                                                                data-id="2ebe1ba0"
-                                                                                data-element_type="section"
-                                                                                data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-                                                                                <div
-                                                                                    class="elementor-container elementor-column-gap-no">
-                                                                                    <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-20abfc4d"
-                                                                                        data-id="20abfc4d"
-                                                                                        data-element_type="column">
-                                                                                        <div
-                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                            <div class="elementor-element elementor-element-29fbefba image-style-delicioz-yes elementor-widget elementor-widget-image"
-                                                                                                data-id="29fbefba"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="image.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <style>
-                                                                                                        /*! elementor - v3.7.3 - 29-08-2022 */
-                                                                                                        .elementor-widget-image {
-                                                                                                            text-align: center
-                                                                                                        }
-
-                                                                                                        .elementor-widget-image a {
-                                                                                                            display: inline-block
-                                                                                                        }
-
-                                                                                                        .elementor-widget-image a img[src$=".svg"] {
-                                                                                                            width: 48px
-                                                                                                        }
-
-                                                                                                        .elementor-widget-image img {
-                                                                                                            vertical-align: middle;
-                                                                                                            display: inline-block
-                                                                                                        }
-                                                                                                    </style> <a
-                                                                                                        href="https://demo2.themelexus.com/delicioz/">
-                                                                                                        <img width="242"
-                                                                                                            height="280"
-                                                                                                            src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/07/megamenu_home-1-2.jpg"
-                                                                                                            class="attachment-full size-full"
-                                                                                                            alt=""
-                                                                                                            loading="lazy" />
-                                                                                                    </a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-7da49b5d elementor-align-center elementor-button-link elementor-widget elementor-widget-button"
-                                                                                                data-id="7da49b5d"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="button.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="elementor-button-wrapper">
-                                                                                                        <a href="https://demo2.themelexus.com/delicioz/"
-                                                                                                            class="elementor-button-link elementor-button elementor-size-sm"
-                                                                                                            role="button">
-                                                                                                            <span
-                                                                                                                class="elementor-button-content-wrapper">
-                                                                                                                <span
-                                                                                                                    class="elementor-button-text">Homepage
-                                                                                                                    01</span>
-                                                                                                            </span>
-                                                                                                        </a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-17448c6"
-                                                                                        data-id="17448c6"
-                                                                                        data-element_type="column">
-                                                                                        <div
-                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                            <div class="elementor-element elementor-element-524921db image-style-delicioz-yes elementor-widget elementor-widget-image"
-                                                                                                data-id="524921db"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="image.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <a
-                                                                                                        href="https://demo2.themelexus.com/delicioz/home-2/">
-                                                                                                        <img width="242"
-                                                                                                            height="280"
-                                                                                                            src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/07/megamenu_home-2.jpg"
-                                                                                                            class="attachment-full size-full"
-                                                                                                            alt=""
-                                                                                                            loading="lazy" />
-                                                                                                    </a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-45abb5b3 elementor-align-center elementor-button-link elementor-widget elementor-widget-button"
-                                                                                                data-id="45abb5b3"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="button.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="elementor-button-wrapper">
-                                                                                                        <a href="https://demo2.themelexus.com/delicioz/home-2/"
-                                                                                                            class="elementor-button-link elementor-button elementor-size-sm"
-                                                                                                            role="button">
-                                                                                                            <span
-                                                                                                                class="elementor-button-content-wrapper">
-                                                                                                                <span
-                                                                                                                    class="elementor-button-text">Homepage
-                                                                                                                    02</span>
-                                                                                                            </span>
-                                                                                                        </a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-2421fb4f"
-                                                                                        data-id="2421fb4f"
-                                                                                        data-element_type="column">
-                                                                                        <div
-                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                            <div class="elementor-element elementor-element-4a9e54bd image-style-delicioz-yes elementor-widget elementor-widget-image"
-                                                                                                data-id="4a9e54bd"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="image.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <a
-                                                                                                        href="https://demo2.themelexus.com/delicioz/home-3/">
-                                                                                                        <img width="242"
-                                                                                                            height="280"
-                                                                                                            src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/07/megamenu_home-3.jpg"
-                                                                                                            class="attachment-full size-full"
-                                                                                                            alt=""
-                                                                                                            loading="lazy" />
-                                                                                                    </a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-41569e16 elementor-align-center elementor-button-link elementor-widget elementor-widget-button"
-                                                                                                data-id="41569e16"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="button.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="elementor-button-wrapper">
-                                                                                                        <a href="https://demo2.themelexus.com/delicioz/home-3/"
-                                                                                                            class="elementor-button-link elementor-button elementor-size-sm"
-                                                                                                            role="button">
-                                                                                                            <span
-                                                                                                                class="elementor-button-content-wrapper">
-                                                                                                                <span
-                                                                                                                    class="elementor-button-text">Homepage
-                                                                                                                    03</span>
-                                                                                                            </span>
-                                                                                                        </a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-7e891abb"
-                                                                                        data-id="7e891abb"
-                                                                                        data-element_type="column">
-                                                                                        <div
-                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                            <div class="elementor-element elementor-element-21182a21 image-style-delicioz-yes elementor-widget elementor-widget-image"
-                                                                                                data-id="21182a21"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="image.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <a
-                                                                                                        href="https://demo2.themelexus.com/delicioz/home-4/">
-                                                                                                        <img width="242"
-                                                                                                            height="280"
-                                                                                                            src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/07/megamenu_home-4.jpg"
-                                                                                                            class="attachment-full size-full"
-                                                                                                            alt=""
-                                                                                                            loading="lazy" />
-                                                                                                    </a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-5571447 elementor-align-center elementor-button-link elementor-widget elementor-widget-button"
-                                                                                                data-id="5571447"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="button.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="elementor-button-wrapper">
-                                                                                                        <a href="https://demo2.themelexus.com/delicioz/home-4/"
-                                                                                                            class="elementor-button-link elementor-button elementor-size-sm"
-                                                                                                            role="button">
-                                                                                                            <span
-                                                                                                                class="elementor-button-content-wrapper">
-                                                                                                                <span
-                                                                                                                    class="elementor-button-text">Homepage
-                                                                                                                    04</span>
-                                                                                                            </span>
-                                                                                                        </a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-3bf6e6b2"
-                                                                                        data-id="3bf6e6b2"
-                                                                                        data-element_type="column">
-                                                                                        <div
-                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                            <div class="elementor-element elementor-element-17437caa image-style-delicioz-yes elementor-widget elementor-widget-image"
-                                                                                                data-id="17437caa"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="image.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <a
-                                                                                                        href="https://demo2.themelexus.com/delicioz/home-5/">
-                                                                                                        <img width="242"
-                                                                                                            height="280"
-                                                                                                            src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/07/megamenu_home-5.jpg"
-                                                                                                            class="attachment-full size-full"
-                                                                                                            alt=""
-                                                                                                            loading="lazy" />
-                                                                                                    </a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-44e223f2 elementor-align-center elementor-button-link elementor-widget elementor-widget-button"
-                                                                                                data-id="44e223f2"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="button.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="elementor-button-wrapper">
-                                                                                                        <a href="https://demo2.themelexus.com/delicioz/home-5/"
-                                                                                                            class="elementor-button-link elementor-button elementor-size-sm"
-                                                                                                            role="button">
-                                                                                                            <span
-                                                                                                                class="elementor-button-content-wrapper">
-                                                                                                                <span
-                                                                                                                    class="elementor-button-text">Homepage
-                                                                                                                    05</span>
-                                                                                                            </span>
-                                                                                                        </a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                            <li id="menu-item-66"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-66">
-                                                                <a
-                                                                    href="https://demo2.themelexus.com/delicioz/about-us-1/"><span
-                                                                        class="menu-title">About</span></a>
-                                                                <ul class="sub-menu">
-                                                                    <li id="menu-item-67"
-                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67">
-                                                                        <a
-                                                                            href="https://demo2.themelexus.com/delicioz/about-us-1/"><span
-                                                                                class="menu-title">About us 1</span></a>
-                                                                    </li>
-                                                                    <li id="menu-item-65"
-                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65">
-                                                                        <a
-                                                                            href="https://demo2.themelexus.com/delicioz/about-us-2/"><span
-                                                                                class="menu-title">About us 2</span></a>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                            <li id="menu-item-64"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-64 has-mega-menu has-stretchwidth">
-                                                                <a
-                                                                    href="https://demo2.themelexus.com/delicioz/menu-list-01/"><span
-                                                                        class="menu-title">Menu</span></a>
-                                                                <ul class="sub-menu mega-menu mega-stretchwidth">
-                                                                    <li class="mega-menu-item">
-                                                                        <div data-elementor-type="page"
-                                                                            data-elementor-id="705"
-                                                                            class="elementor elementor-705">
-                                                                            <div class="elementor-section elementor-top-section elementor-element elementor-element-8308cc2 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                                                                data-id="8308cc2"
-                                                                                data-element_type="section"
-                                                                                data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-                                                                                <div
-                                                                                    class="elementor-container elementor-column-gap-no">
-                                                                                    <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-412f26c7"
-                                                                                        data-id="412f26c7"
-                                                                                        data-element_type="column">
-                                                                                        <div
-                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                            <div class="elementor-element elementor-element-711441a2 image-style-delicioz-yes elementor-widget elementor-widget-image"
-                                                                                                data-id="711441a2"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="image.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <a
-                                                                                                        href="https://demo2.themelexus.com/delicioz/menu-list-01/">
-                                                                                                        <img width="242"
-                                                                                                            height="242"
-                                                                                                            src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-1.jpg"
-                                                                                                            class="attachment-full size-full"
-                                                                                                            alt=""
-                                                                                                            loading="lazy"
-                                                                                                            srcset="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-1.jpg 242w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-1-150x150.jpg 150w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-1-100x100.jpg 100w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-1-50x50.jpg 50w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-1-96x96.jpg 96w"
-                                                                                                            sizes="(max-width: 242px) 100vw, 242px" />
-                                                                                                    </a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-19203ac5 elementor-align-center elementor-button-link elementor-widget elementor-widget-button"
-                                                                                                data-id="19203ac5"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="button.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="elementor-button-wrapper">
-                                                                                                        <a href="https://demo2.themelexus.com/delicioz/menu-list-01/"
-                                                                                                            class="elementor-button-link elementor-button elementor-size-sm"
-                                                                                                            role="button">
-                                                                                                            <span
-                                                                                                                class="elementor-button-content-wrapper">
-                                                                                                                <span
-                                                                                                                    class="elementor-button-text">Menu
-                                                                                                                    List
-                                                                                                                    01</span>
-                                                                                                            </span>
-                                                                                                        </a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-1bb7add7"
-                                                                                        data-id="1bb7add7"
-                                                                                        data-element_type="column">
-                                                                                        <div
-                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                            <div class="elementor-element elementor-element-78cd9d6d image-style-delicioz-yes elementor-widget elementor-widget-image"
-                                                                                                data-id="78cd9d6d"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="image.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <a
-                                                                                                        href="https://demo2.themelexus.com/delicioz/menu-list-02/">
-                                                                                                        <img width="242"
-                                                                                                            height="242"
-                                                                                                            src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-2.jpg"
-                                                                                                            class="attachment-full size-full"
-                                                                                                            alt=""
-                                                                                                            loading="lazy"
-                                                                                                            srcset="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-2.jpg 242w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-2-150x150.jpg 150w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-2-100x100.jpg 100w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-2-50x50.jpg 50w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-2-96x96.jpg 96w"
-                                                                                                            sizes="(max-width: 242px) 100vw, 242px" />
-                                                                                                    </a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-66f8dfac elementor-align-center elementor-button-link elementor-widget elementor-widget-button"
-                                                                                                data-id="66f8dfac"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="button.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="elementor-button-wrapper">
-                                                                                                        <a href="https://demo2.themelexus.com/delicioz/menu-list-02/"
-                                                                                                            class="elementor-button-link elementor-button elementor-size-sm"
-                                                                                                            role="button">
-                                                                                                            <span
-                                                                                                                class="elementor-button-content-wrapper">
-                                                                                                                <span
-                                                                                                                    class="elementor-button-text">Menu
-                                                                                                                    List
-                                                                                                                    02</span>
-                                                                                                            </span>
-                                                                                                        </a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-1283da95"
-                                                                                        data-id="1283da95"
-                                                                                        data-element_type="column">
-                                                                                        <div
-                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                            <div class="elementor-element elementor-element-1d3acd1c image-style-delicioz-yes elementor-widget elementor-widget-image"
-                                                                                                data-id="1d3acd1c"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="image.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <a
-                                                                                                        href="https://demo2.themelexus.com/delicioz/menu-grid/">
-                                                                                                        <img width="242"
-                                                                                                            height="242"
-                                                                                                            src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-3.jpg"
-                                                                                                            class="attachment-full size-full"
-                                                                                                            alt=""
-                                                                                                            loading="lazy"
-                                                                                                            srcset="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-3.jpg 242w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-3-150x150.jpg 150w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-3-100x100.jpg 100w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-3-50x50.jpg 50w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-3-96x96.jpg 96w"
-                                                                                                            sizes="(max-width: 242px) 100vw, 242px" />
-                                                                                                    </a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-29eb3d89 elementor-align-center elementor-button-link elementor-widget elementor-widget-button"
-                                                                                                data-id="29eb3d89"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="button.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="elementor-button-wrapper">
-                                                                                                        <a href="https://demo2.themelexus.com/delicioz/menu-grid/"
-                                                                                                            class="elementor-button-link elementor-button elementor-size-sm"
-                                                                                                            role="button">
-                                                                                                            <span
-                                                                                                                class="elementor-button-content-wrapper">
-                                                                                                                <span
-                                                                                                                    class="elementor-button-text">Menu
-                                                                                                                    Grid</span>
-                                                                                                            </span>
-                                                                                                        </a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-52670eb5"
-                                                                                        data-id="52670eb5"
-                                                                                        data-element_type="column">
-                                                                                        <div
-                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                            <div class="elementor-element elementor-element-3559280d image-style-delicioz-yes elementor-widget elementor-widget-image"
-                                                                                                data-id="3559280d"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="image.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <a
-                                                                                                        href="https://demo2.themelexus.com/delicioz/menu-tab/">
-                                                                                                        <img width="242"
-                                                                                                            height="242"
-                                                                                                            src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-4.jpg"
-                                                                                                            class="attachment-full size-full"
-                                                                                                            alt=""
-                                                                                                            loading="lazy"
-                                                                                                            srcset="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-4.jpg 242w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-4-150x150.jpg 150w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-4-100x100.jpg 100w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-4-50x50.jpg 50w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-4-96x96.jpg 96w"
-                                                                                                            sizes="(max-width: 242px) 100vw, 242px" />
-                                                                                                    </a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-38710ae9 elementor-align-center elementor-button-link elementor-widget elementor-widget-button"
-                                                                                                data-id="38710ae9"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="button.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="elementor-button-wrapper">
-                                                                                                        <a href="https://demo2.themelexus.com/delicioz/menu-tab/"
-                                                                                                            class="elementor-button-link elementor-button elementor-size-sm"
-                                                                                                            role="button">
-                                                                                                            <span
-                                                                                                                class="elementor-button-content-wrapper">
-                                                                                                                <span
-                                                                                                                    class="elementor-button-text">Menu
-                                                                                                                    Tab</span>
-                                                                                                            </span>
-                                                                                                        </a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-7c6e8400"
-                                                                                        data-id="7c6e8400"
-                                                                                        data-element_type="column">
-                                                                                        <div
-                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                            <div class="elementor-element elementor-element-27918604 image-style-delicioz-yes elementor-widget elementor-widget-image"
-                                                                                                data-id="27918604"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="image.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <a
-                                                                                                        href="https://demo2.themelexus.com/delicioz/menu-woocommerce/">
-                                                                                                        <img width="242"
-                                                                                                            height="242"
-                                                                                                            src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-5.jpg"
-                                                                                                            class="attachment-full size-full"
-                                                                                                            alt=""
-                                                                                                            loading="lazy"
-                                                                                                            srcset="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-5.jpg 242w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-5-150x150.jpg 150w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-5-100x100.jpg 100w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-5-50x50.jpg 50w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/menu_list-5-96x96.jpg 96w"
-                                                                                                            sizes="(max-width: 242px) 100vw, 242px" />
-                                                                                                    </a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-2a338196 elementor-align-center elementor-button-link elementor-widget elementor-widget-button"
-                                                                                                data-id="2a338196"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="button.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="elementor-button-wrapper">
-                                                                                                        <a href="https://demo2.themelexus.com/delicioz/menu-woocommerce/"
-                                                                                                            class="elementor-button-link elementor-button elementor-size-sm"
-                                                                                                            role="button">
-                                                                                                            <span
-                                                                                                                class="elementor-button-content-wrapper">
-                                                                                                                <span
-                                                                                                                    class="elementor-button-text">Menu
-                                                                                                                    Woocommerce</span>
-                                                                                                            </span>
-                                                                                                        </a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                            <li id="menu-item-73"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-73">
-                                                                <a href="https://demo2.themelexus.com/delicioz/blog/"><span
-                                                                        class="menu-title">Blog</span></a>
-                                                                <ul class="sub-menu">
-                                                                    <li id="menu-item-222"
-                                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-222">
-                                                                        <a
-                                                                            href="https://demo2.themelexus.com/delicioz/blog/"><span
-                                                                                class="menu-title">Blog
-                                                                                Standard</span></a></li>
-                                                                    <li id="menu-item-223"
-                                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-223">
-                                                                        <a
-                                                                            href="https://demo2.themelexus.com/delicioz/blog/?blog_style=style-2&#038;blog_columns=3&#038;blog_sidebar=none"><span
-                                                                                class="menu-title">Blog Grid
-                                                                                01</span></a></li>
-                                                                    <li id="menu-item-224"
-                                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-224">
-                                                                        <a
-                                                                            href="https://demo2.themelexus.com/delicioz/blog/?blog_style=style-1&#038;blog_columns=3&#038;blog_sidebar=none"><span
-                                                                                class="menu-title">Blog Grid
-                                                                                02</span></a></li>
-                                                                    <li id="menu-item-225"
-                                                                        class="menu-item menu-item-type-post_type menu-item-object-post menu-item-225">
-                                                                        <a
-                                                                            href="https://demo2.themelexus.com/delicioz/how-to-choose-the-best-type-of-combi-oven/"><span
-                                                                                class="menu-title">Single
-                                                                                Post</span></a></li>
-                                                                </ul>
-                                                            </li>
-                                                            <li id="menu-item-74"
-                                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-74">
-                                                                <a href="#"><span class="menu-title">Pages</span></a>
-                                                                <ul class="sub-menu">
-                                                                    <li id="menu-item-77"
-                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77">
-                                                                        <a
-                                                                            href="https://demo2.themelexus.com/delicioz/reservation/"><span
-                                                                                class="menu-title">Reservation (Contact
-                                                                                Form 7)</span></a></li>
-                                                                    <li id="menu-item-76"
-                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76">
-                                                                        <a
-                                                                            href="https://demo2.themelexus.com/delicioz/reservation-2/"><span
-                                                                                class="menu-title">Reservation (Open
-                                                                                Table)</span></a></li>
-                                                                    <li id="menu-item-79"
-                                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-79">
-                                                                        <a
-                                                                            href="https://demo2.themelexus.com/delicioz/404"><span
-                                                                                class="menu-title">404 Error</span></a>
-                                                                    </li>
-                                                                    <li id="menu-item-82"
-                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82">
-                                                                        <a
-                                                                            href="https://demo2.themelexus.com/delicioz/icons/"><span
-                                                                                class="menu-title">Icons</span></a></li>
-                                                                </ul>
-                                                            </li>
-                                                            <li id="menu-item-506"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-506">
-                                                                <a href="https://demo2.themelexus.com/delicioz/shop/"><span
-                                                                        class="menu-title">Shop</span></a>
-                                                                <ul class="sub-menu">
-                                                                    <li id="menu-item-507"
-                                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-507">
-                                                                        <a
-                                                                            href="https://demo2.themelexus.com/delicioz/shop/?woocommerce_archive_sidebar=left"><span
-                                                                                class="menu-title">Shop
-                                                                                Sidebar</span></a></li>
-                                                                    <li id="menu-item-508"
-                                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-508">
-                                                                        <a
-                                                                            href="https://demo2.themelexus.com/delicioz/shop/?woocommerce_archive_layout=canvas&#038;woocommerce_catalog_columns=4"><span
-                                                                                class="menu-title">Shop
-                                                                                Fullwidth</span></a></li>
-                                                                    <li id="menu-item-509"
-                                                                        class="menu-item menu-item-type-post_type menu-item-object-product menu-item-509">
-                                                                        <a
-                                                                            href="https://demo2.themelexus.com/delicioz/product/grilled-salmon/"><span
-                                                                                class="menu-title">Single
-                                                                                Product</span></a></li>
-                                                                </ul>
-                                                            </li>
-                                                            <li id="menu-item-75"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75">
-                                                                <a
-                                                                    href="https://demo2.themelexus.com/delicioz/contact-us/"><span
-                                                                        class="menu-title">Contact</span></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </nav>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6e7a0be elementor-hidden-tablet elementor-hidden-mobile_extra elementor-hidden-mobile"
-                                data-id="6e7a0be" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-908fc27 elementor-align-left elementor-widget__width-initial elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                        data-id="908fc27" data-element_type="widget"
-                                        data-widget_type="icon-list.default">
-                                        <div class="elementor-widget-container">
-                                            <link rel="stylesheet"
-                                                href="https://demo2.themelexus.com/delicioz/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css?ver=1661932589">
-                                            <ul class="elementor-icon-list-items">
-                                                <li class="elementor-icon-list-item">
-                                                    <span class="elementor-icon-list-icon">
-                                                        <i aria-hidden="true"
-                                                            class="delicioz-icon- delicioz-icon-phone-line"></i> </span>
-                                                    <span class="elementor-icon-list-text">Hotline order</span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="elementor-element elementor-element-32ecb20 elementor-widget elementor-widget-heading"
-                                        data-id="32ecb20" data-element_type="widget" data-widget_type="heading.default">
-                                        <div class="elementor-widget-container">
-                                            <style>
-                                                /*! elementor - v3.7.3 - 29-08-2022 */
-                                                .elementor-heading-title {
-                                                    padding: 0;
-                                                    margin: 0;
-                                                    line-height: 1
-                                                }
-
-                                                .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
-                                                    color: inherit;
-                                                    font-size: inherit;
-                                                    line-height: inherit
-                                                }
-
-                                                .elementor-widget-heading .elementor-heading-title.elementor-size-small {
-                                                    font-size: 15px
-                                                }
-
-                                                .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
-                                                    font-size: 19px
-                                                }
-
-                                                .elementor-widget-heading .elementor-heading-title.elementor-size-large {
-                                                    font-size: 29px
-                                                }
-
-                                                .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
-                                                    font-size: 39px
-                                                }
-
-                                                .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
-                                                    font-size: 59px
-                                                }
-                                            </style>
-                                            <h2 class="elementor-heading-title elementor-size-default">+39-055-123456
-                                            </h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
+            @livewire('inc.header-home')
 
             <div class="breadcrumb-wrap">
                 <div data-elementor-type="wp-post" data-elementor-id="101" class="elementor elementor-101">
@@ -2157,7 +1236,7 @@
                                         <div class="elementor-widget-container">
                                             <div class="delicioz-woocommerce-title">Home 3</div>
                                             <nav class="woocommerce-breadcrumb"><a
-                                                    href="https://demo2.themelexus.com/delicioz">Home Page</a><i
+                                                    href="/">Home Page</a><i
                                                     class="delicioz-icon-arrow-right-s-line"></i>Home 3</nav>
                                         </div>
                                     </div>
@@ -2616,7 +1695,7 @@
 
                                                                                     <div class="powerered-description">
                                                                                         <span>*Powered by</span>
-                                                                                        <img src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/reservation2-1.png"
+                                                                                        <img src="/delicioz/wp-content/uploads/2022/08/reservation2-1.png"
                                                                                             title="reservation2-1"
                                                                                             alt="reservation2-1" />
                                                                                     </div>
@@ -2738,10 +1817,10 @@
                                                                     data-widget_type="image.default">
                                                                     <div class="elementor-widget-container">
                                                                         <img width="530" height="620"
-                                                                            src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/home3_img-1.jpg"
+                                                                            src="/delicioz/wp-content/uploads/2022/08/home3_img-1.jpg"
                                                                             class="attachment-full size-full" alt=""
                                                                             loading="lazy"
-                                                                            srcset="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/home3_img-1.jpg 530w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/home3_img-1-256x300.jpg 256w"
+                                                                            srcset="/delicioz/wp-content/uploads/2022/08/home3_img-1.jpg 530w, /delicioz/wp-content/uploads/2022/08/home3_img-1-256x300.jpg 256w"
                                                                             sizes="(max-width: 530px) 100vw, 530px" />
                                                                     </div>
                                                                 </div>
@@ -2756,10 +1835,10 @@
                                                                     data-widget_type="image.default">
                                                                     <div class="elementor-widget-container">
                                                                         <img width="580" height="390"
-                                                                            src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/home3_img-2.jpg"
+                                                                            src="/delicioz/wp-content/uploads/2022/08/home3_img-2.jpg"
                                                                             class="attachment-full size-full" alt=""
                                                                             loading="lazy"
-                                                                            srcset="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/home3_img-2.jpg 580w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/home3_img-2-300x202.jpg 300w"
+                                                                            srcset="/delicioz/wp-content/uploads/2022/08/home3_img-2.jpg 580w, /delicioz/wp-content/uploads/2022/08/home3_img-2-300x202.jpg 300w"
                                                                             sizes="(max-width: 580px) 100vw, 580px" />
                                                                     </div>
                                                                 </div>
@@ -2783,7 +1862,7 @@
                                                                     data-widget_type="button.default">
                                                                     <div class="elementor-widget-container">
                                                                         <div class="elementor-button-wrapper">
-                                                                            <a href="https://demo2.themelexus.com/delicioz/reservation/"
+                                                                            <a href="/delicioz/reservation/"
                                                                                 class="elementor-button-link elementor-button elementor-size-sm"
                                                                                 role="button">
                                                                                 <span
@@ -2820,7 +1899,7 @@
                                                             <div class="elementor-cta__bg-wrapper">
                                                                 <div class="elementor-cta__bg-overlay"></div>
                                                                 <div class="elementor-cta__bg elementor-bg"
-                                                                    style="background-image: url(https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/home3_img-3.jpg);">
+                                                                    style="background-image: url(/delicioz/wp-content/uploads/2022/08/home3_img-3.jpg);">
                                                                 </div>
                                                             </div>
                                                             <div class="elementor-cta__content">
@@ -2875,7 +1954,7 @@
                                                             <div class="elementor-cta__bg-wrapper">
                                                                 <div class="elementor-cta__bg-overlay"></div>
                                                                 <div class="elementor-cta__bg elementor-bg"
-                                                                    style="background-image: url(https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/home3_img-4.jpg);">
+                                                                    style="background-image: url(/delicioz/wp-content/uploads/2022/08/home3_img-4.jpg);">
                                                                 </div>
                                                             </div>
                                                             <div class="elementor-cta__content">
@@ -2932,7 +2011,7 @@
                                                             <div class="elementor-cta__bg-wrapper">
                                                                 <div class="elementor-cta__bg-overlay"></div>
                                                                 <div class="elementor-cta__bg elementor-bg"
-                                                                    style="background-image: url(https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/home3_img-5.jpg);">
+                                                                    style="background-image: url(/delicioz/wp-content/uploads/2022/08/home3_img-5.jpg);">
                                                                 </div>
                                                             </div>
                                                             <div class="elementor-cta__content">
@@ -3031,12 +2110,12 @@
                                                                 <div class="column-item elementor-menu-list-item">
 
                                                                     <div class="elementor-menu-list-image">
-                                                                        <img src="https://demo2.themelexus.com/delicioz/wp-content/uploads/elementor/thumbs/best-speciaties_1-psuk36f7n7hhpivuclvqs61ynqb4sle2339y80iix4.jpg"
+                                                                        <img src="/delicioz/wp-content/uploads/elementor/thumbs/best-speciaties_1-psuk36f7n7hhpivuclvqs61ynqb4sle2339y80iix4.jpg"
                                                                             alt="Spaghetti Pasta" />
                                                                     </div>
                                                                     <div class="elementor-menu-list-text">
                                                                         <div class="elementor-menu-list-title"><a
-                                                                                href="https://demo2.themelexus.com/delicioz/product/grilled-steak-kebabs/">Spaghetti
+                                                                                href="/delicioz/product/grilled-steak-kebabs/">Spaghetti
                                                                                 Pasta</a></div>
                                                                         <div class="elementor-menu-list-description">
                                                                             Ground beef, onion, chopped, garlic, minced,
@@ -3050,12 +2129,12 @@
                                                                 <div class="column-item elementor-menu-list-item">
 
                                                                     <div class="elementor-menu-list-image">
-                                                                        <img src="https://demo2.themelexus.com/delicioz/wp-content/uploads/elementor/thumbs/best-speciaties_2-psuk398q7plcocrqw53mhnccfvx8fop93h8enueceg.jpg"
+                                                                        <img src="/delicioz/wp-content/uploads/elementor/thumbs/best-speciaties_2-psuk398q7plcocrqw53mhnccfvx8fop93h8enueceg.jpg"
                                                                             alt="Beef Meat Steak" />
                                                                     </div>
                                                                     <div class="elementor-menu-list-text">
                                                                         <div class="elementor-menu-list-title"><a
-                                                                                href="https://demo2.themelexus.com/delicioz/product/steak-sandwich/">Beef
+                                                                                href="/delicioz/product/steak-sandwich/">Beef
                                                                                 Meat Steak</a></div>
                                                                         <div class="elementor-menu-list-description">
                                                                             These are stewed in a soy sauce and lemon
@@ -3069,12 +2148,12 @@
                                                                 <div class="column-item elementor-menu-list-item">
 
                                                                     <div class="elementor-menu-list-image">
-                                                                        <img src="https://demo2.themelexus.com/delicioz/wp-content/uploads/elementor/thumbs/best-speciaties_3-psuk3b4eldnxbkp0l5wvmmv9mnnyv2wprqjdmebk20.jpg"
+                                                                        <img src="/delicioz/wp-content/uploads/elementor/thumbs/best-speciaties_3-psuk3b4eldnxbkp0l5wvmmv9mnnyv2wprqjdmebk20.jpg"
                                                                             alt="Lomo De Salmon" />
                                                                     </div>
                                                                     <div class="elementor-menu-list-text">
                                                                         <div class="elementor-menu-list-title"><a
-                                                                                href="https://demo2.themelexus.com/delicioz/product/pasta-bolognese/">Lomo
+                                                                                href="/delicioz/product/pasta-bolognese/">Lomo
                                                                                 De Salmon</a></div>
                                                                         <div class="elementor-menu-list-description">
                                                                             Tomatoes and the garlic, mix it with the
@@ -3088,12 +2167,12 @@
                                                                 <div class="column-item elementor-menu-list-item">
 
                                                                     <div class="elementor-menu-list-image">
-                                                                        <img src="https://demo2.themelexus.com/delicioz/wp-content/uploads/elementor/thumbs/best-speciaties_4-psuk3d02z1qhysmaa6q4rme6tfepah46fzucky8rpk.jpg"
+                                                                        <img src="/delicioz/wp-content/uploads/elementor/thumbs/best-speciaties_4-psuk3d02z1qhysmaa6q4rme6tfepah46fzucky8rpk.jpg"
                                                                             alt="Steamed Lobster" />
                                                                     </div>
                                                                     <div class="elementor-menu-list-text">
                                                                         <div class="elementor-menu-list-title"><a
-                                                                                href="https://demo2.themelexus.com/delicioz/product/veggie-burger/">Steamed
+                                                                                href="/delicioz/product/veggie-burger/">Steamed
                                                                                 Lobster</a></div>
                                                                         <div class="elementor-menu-list-description">The
                                                                             meat from steamed lobsters is more tender
@@ -3136,12 +2215,12 @@
                                                                 <div class="column-item elementor-menu-list-item">
 
                                                                     <div class="elementor-menu-list-image">
-                                                                        <img src="https://demo2.themelexus.com/delicioz/wp-content/uploads/elementor/thumbs/best-speciaties_5-psuk3ftljjucxmi6tpy0h3okll0sxkfdgdst0s4l6w.jpg"
+                                                                        <img src="/delicioz/wp-content/uploads/elementor/thumbs/best-speciaties_5-psuk3ftljjucxmi6tpy0h3okll0sxkfdgdst0s4l6w.jpg"
                                                                             alt="Pumpkin Soup" />
                                                                     </div>
                                                                     <div class="elementor-menu-list-text">
                                                                         <div class="elementor-menu-list-title"><a
-                                                                                href="https://demo2.themelexus.com/delicioz/product/beef-bourguignon/">Pumpkin
+                                                                                href="/delicioz/product/beef-bourguignon/">Pumpkin
                                                                                 Soup</a></div>
                                                                         <div class="elementor-menu-list-description">
                                                                             This pumpkin soup is creamy and healthy! It
@@ -3155,12 +2234,12 @@
                                                                 <div class="column-item elementor-menu-list-item">
 
                                                                     <div class="elementor-menu-list-image">
-                                                                        <img src="https://demo2.themelexus.com/delicioz/wp-content/uploads/elementor/thumbs/best-speciaties_6-psuk3jkyavzi82cq7rkir2qez4i9scuasweqxvz0i0.jpg"
+                                                                        <img src="/delicioz/wp-content/uploads/elementor/thumbs/best-speciaties_6-psuk3jkyavzi82cq7rkir2qez4i9scuasweqxvz0i0.jpg"
                                                                             alt="Garlic Shrimp Spaghetti" />
                                                                     </div>
                                                                     <div class="elementor-menu-list-text">
                                                                         <div class="elementor-menu-list-title"><a
-                                                                                href="https://demo2.themelexus.com/delicioz/product/classic-fried-catfish/">Garlic
+                                                                                href="/delicioz/product/classic-fried-catfish/">Garlic
                                                                                 Shrimp Spaghetti</a></div>
                                                                         <div class="elementor-menu-list-description">
                                                                             Garlic shrimp tossed in a delectable and
@@ -3174,12 +2253,12 @@
                                                                 <div class="column-item elementor-menu-list-item">
 
                                                                     <div class="elementor-menu-list-image">
-                                                                        <img src="https://demo2.themelexus.com/delicioz/wp-content/uploads/elementor/thumbs/best-speciaties_7-psuk3kishq0sjobd29z5bkhvkidn01y15128f5xmbs.jpg"
+                                                                        <img src="/delicioz/wp-content/uploads/elementor/thumbs/best-speciaties_7-psuk3kishq0sjobd29z5bkhvkidn01y15128f5xmbs.jpg"
                                                                             alt="Mixed Vegetable Noodles" />
                                                                     </div>
                                                                     <div class="elementor-menu-list-text">
                                                                         <div class="elementor-menu-list-title"><a
-                                                                                href="https://demo2.themelexus.com/delicioz/product/baked-meat/">Mixed
+                                                                                href="/delicioz/product/baked-meat/">Mixed
                                                                                 Vegetable Noodles</a></div>
                                                                         <div class="elementor-menu-list-description">
                                                                             Garlic, chopped, onion, finely sliced,
@@ -3193,12 +2272,12 @@
                                                                 <div class="column-item elementor-menu-list-item">
 
                                                                     <div class="elementor-menu-list-image">
-                                                                        <img src="https://demo2.themelexus.com/delicioz/wp-content/uploads/elementor/thumbs/best-speciaties_8-psuk3ncb284nii79lt7111s9cnzqn5985f0ouztft4.jpg"
+                                                                        <img src="/delicioz/wp-content/uploads/elementor/thumbs/best-speciaties_8-psuk3ncb284nii79lt7111s9cnzqn5985f0ouztft4.jpg"
                                                                             alt="Fish Salad Asian" />
                                                                     </div>
                                                                     <div class="elementor-menu-list-text">
                                                                         <div class="elementor-menu-list-title"><a
-                                                                                href="https://demo2.themelexus.com/delicioz/product/grilled-ribs/">Fish
+                                                                                href="/delicioz/product/grilled-ribs/">Fish
                                                                                 Salad Asian</a></div>
                                                                         <div class="elementor-menu-list-description">
                                                                             Fish Salad is an explosion of flavor with
@@ -3229,7 +2308,7 @@
                                                     data-widget_type="button.default">
                                                     <div class="elementor-widget-container">
                                                         <div class="elementor-button-wrapper">
-                                                            <a href="https://demo2.themelexus.com/delicioz/shop/"
+                                                            <a href="/delicioz/shop/"
                                                                 class="elementor-button-link elementor-button elementor-size-sm"
                                                                 role="button">
                                                                 <span class="elementor-button-content-wrapper">
@@ -3314,7 +2393,7 @@
 
                                                                                     <div
                                                                                         class="elementor-menu-list-image">
-                                                                                        <img src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/starters_menu_1.jpg"
+                                                                                        <img src="/delicioz/wp-content/uploads/2022/08/starters_menu_1.jpg"
                                                                                             alt="Greek Salab " />
                                                                                     </div>
                                                                                     <div
@@ -3340,7 +2419,7 @@
 
                                                                                     <div
                                                                                         class="elementor-menu-list-image">
-                                                                                        <img src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/starters_menu_2.jpg"
+                                                                                        <img src="/delicioz/wp-content/uploads/2022/08/starters_menu_2.jpg"
                                                                                             alt="Tortilla Espanola" />
                                                                                     </div>
                                                                                     <div
@@ -3366,7 +2445,7 @@
 
                                                                                     <div
                                                                                         class="elementor-menu-list-image">
-                                                                                        <img src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/starters_menu_5.jpg"
+                                                                                        <img src="/delicioz/wp-content/uploads/2022/08/starters_menu_5.jpg"
                                                                                             alt="Lasagne" />
                                                                                     </div>
                                                                                     <div
@@ -3425,7 +2504,7 @@
 
                                                                                     <div
                                                                                         class="elementor-menu-list-image">
-                                                                                        <img src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/main_dishes_1.jpg"
+                                                                                        <img src="/delicioz/wp-content/uploads/2022/08/main_dishes_1.jpg"
                                                                                             alt="Lomo De Salmon" />
                                                                                     </div>
                                                                                     <div
@@ -3451,7 +2530,7 @@
 
                                                                                     <div
                                                                                         class="elementor-menu-list-image">
-                                                                                        <img src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/main_dishes_2.jpg"
+                                                                                        <img src="/delicioz/wp-content/uploads/2022/08/main_dishes_2.jpg"
                                                                                             alt="Fried Pork Chop" />
                                                                                     </div>
                                                                                     <div
@@ -3477,7 +2556,7 @@
 
                                                                                     <div
                                                                                         class="elementor-menu-list-image">
-                                                                                        <img src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/main_dishes_3.jpg"
+                                                                                        <img src="/delicioz/wp-content/uploads/2022/08/main_dishes_3.jpg"
                                                                                             alt="Roast Chicken Drumsticks " />
                                                                                     </div>
                                                                                     <div
@@ -3537,7 +2616,7 @@
 
                                                                                     <div
                                                                                         class="elementor-menu-list-image">
-                                                                                        <img src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/drink_1.jpg"
+                                                                                        <img src="/delicioz/wp-content/uploads/2022/08/drink_1.jpg"
                                                                                             alt="Coffee Latte" />
                                                                                     </div>
                                                                                     <div
@@ -3563,7 +2642,7 @@
 
                                                                                     <div
                                                                                         class="elementor-menu-list-image">
-                                                                                        <img src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/drink_2.jpg"
+                                                                                        <img src="/delicioz/wp-content/uploads/2022/08/drink_2.jpg"
                                                                                             alt="Coffee Macchiato" />
                                                                                     </div>
                                                                                     <div
@@ -3590,7 +2669,7 @@
 
                                                                                     <div
                                                                                         class="elementor-menu-list-image">
-                                                                                        <img src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/drink_3.jpg"
+                                                                                        <img src="/delicioz/wp-content/uploads/2022/08/drink_3.jpg"
                                                                                             alt="Gin Cocktails" />
                                                                                     </div>
                                                                                     <div
@@ -3635,7 +2714,7 @@
                                                     data-widget_type="button.default">
                                                     <div class="elementor-widget-container">
                                                         <div class="elementor-button-wrapper">
-                                                            <a href="https://demo2.themelexus.com/delicioz/shop/"
+                                                            <a href="/delicioz/shop/"
                                                                 class="elementor-button-link elementor-button elementor-size-sm"
                                                                 role="button">
                                                                 <span class="elementor-button-content-wrapper">
@@ -3706,10 +2785,10 @@
                                                                                 <div
                                                                                     class="elementor-testimonial-image">
                                                                                     <img width="390" height="300"
-                                                                                        src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg"
+                                                                                        src="/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg"
                                                                                         class="attachment-full size-full"
                                                                                         alt="" loading="lazy"
-                                                                                        srcset="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg 390w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/About_ourchef_01-300x231.jpg 300w"
+                                                                                        srcset="/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg 390w, /delicioz/wp-content/uploads/2022/08/About_ourchef_01-300x231.jpg 300w"
                                                                                         sizes="(max-width: 390px) 100vw, 390px" />
                                                                                 </div>
                                                                                 <div class="details-info">
@@ -3753,10 +2832,10 @@
                                                                                 <div
                                                                                     class="elementor-testimonial-image">
                                                                                     <img width="390" height="300"
-                                                                                        src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg"
+                                                                                        src="/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg"
                                                                                         class="attachment-full size-full"
                                                                                         alt="" loading="lazy"
-                                                                                        srcset="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg 390w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/About_ourchef_01-300x231.jpg 300w"
+                                                                                        srcset="/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg 390w, /delicioz/wp-content/uploads/2022/08/About_ourchef_01-300x231.jpg 300w"
                                                                                         sizes="(max-width: 390px) 100vw, 390px" />
                                                                                 </div>
                                                                                 <div class="details-info">
@@ -3800,10 +2879,10 @@
                                                                                 <div
                                                                                     class="elementor-testimonial-image">
                                                                                     <img width="390" height="300"
-                                                                                        src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg"
+                                                                                        src="/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg"
                                                                                         class="attachment-full size-full"
                                                                                         alt="" loading="lazy"
-                                                                                        srcset="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg 390w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/About_ourchef_01-300x231.jpg 300w"
+                                                                                        srcset="/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg 390w, /delicioz/wp-content/uploads/2022/08/About_ourchef_01-300x231.jpg 300w"
                                                                                         sizes="(max-width: 390px) 100vw, 390px" />
                                                                                 </div>
                                                                                 <div class="details-info">
@@ -3907,10 +2986,10 @@
                                                                             <div class="team-image">
 
                                                                                 <img width="390" height="300"
-                                                                                    src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg"
+                                                                                    src="/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg"
                                                                                     class="attachment-full size-full"
                                                                                     alt="" loading="lazy"
-                                                                                    srcset="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg 390w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/About_ourchef_01-300x231.jpg 300w"
+                                                                                    srcset="/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg 390w, /delicioz/wp-content/uploads/2022/08/About_ourchef_01-300x231.jpg 300w"
                                                                                     sizes="(max-width: 390px) 100vw, 390px" />
                                                                             </div>
                                                                             <div class="team-caption">
@@ -3974,10 +3053,10 @@
                                                                             <div class="team-image">
 
                                                                                 <img width="390" height="480"
-                                                                                    src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/About_ourchef_02.jpg"
+                                                                                    src="/delicioz/wp-content/uploads/2022/08/About_ourchef_02.jpg"
                                                                                     class="attachment-full size-full"
                                                                                     alt="" loading="lazy"
-                                                                                    srcset="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/About_ourchef_02.jpg 390w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/About_ourchef_02-244x300.jpg 244w"
+                                                                                    srcset="/delicioz/wp-content/uploads/2022/08/About_ourchef_02.jpg 390w, /delicioz/wp-content/uploads/2022/08/About_ourchef_02-244x300.jpg 244w"
                                                                                     sizes="(max-width: 390px) 100vw, 390px" />
                                                                             </div>
                                                                             <div class="team-caption">
@@ -4040,10 +3119,10 @@
                                                                             <div class="team-image">
 
                                                                                 <img width="390" height="300"
-                                                                                    src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/About_ourchef_03.jpg"
+                                                                                    src="/delicioz/wp-content/uploads/2022/08/About_ourchef_03.jpg"
                                                                                     class="attachment-full size-full"
                                                                                     alt="" loading="lazy"
-                                                                                    srcset="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/About_ourchef_03.jpg 390w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/About_ourchef_03-300x231.jpg 300w"
+                                                                                    srcset="/delicioz/wp-content/uploads/2022/08/About_ourchef_03.jpg 390w, /delicioz/wp-content/uploads/2022/08/About_ourchef_03-300x231.jpg 300w"
                                                                                     sizes="(max-width: 390px) 100vw, 390px" />
                                                                             </div>
                                                                             <div class="team-caption">
@@ -4126,7 +3205,7 @@
                                                                     data-widget_type="icon-box.default">
                                                                     <div class="elementor-widget-container">
                                                                         <link rel="stylesheet"
-                                                                            href="https://demo2.themelexus.com/delicioz/wp-content/uploads/elementor/css/custom-widget-icon-box.min.css?ver=1661932589">
+                                                                            href="/delicioz/wp-content/uploads/elementor/css/custom-widget-icon-box.min.css?ver=1661932589">
                                                                         <div class="elementor-icon-box-wrapper">
                                                                             <div class="elementor-icon-box-icon">
                                                                                 <span
@@ -4184,7 +3263,7 @@
                                                                     data-widget_type="button.default">
                                                                     <div class="elementor-widget-container">
                                                                         <div class="elementor-button-wrapper">
-                                                                            <a href="https://demo2.themelexus.com/delicioz/shop/"
+                                                                            <a href="/delicioz/shop/"
                                                                                 class="elementor-button-link elementor-button elementor-size-sm"
                                                                                 role="button">
                                                                                 <span
@@ -4212,9 +3291,9 @@
                                                     data-widget_type="image.default">
                                                     <div class="elementor-widget-container">
                                                         <img width="360" height="420"
-                                                            src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/home3_img-9.jpg"
+                                                            src="/delicioz/wp-content/uploads/2022/08/home3_img-9.jpg"
                                                             class="attachment-full size-full" alt="" loading="lazy"
-                                                            srcset="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/home3_img-9.jpg 360w, https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/home3_img-9-257x300.jpg 257w"
+                                                            srcset="/delicioz/wp-content/uploads/2022/08/home3_img-9.jpg 360w, /delicioz/wp-content/uploads/2022/08/home3_img-9-257x300.jpg 257w"
                                                             sizes="(max-width: 360px) 100vw, 360px" />
                                                     </div>
                                                 </div>
@@ -4261,25 +3340,25 @@
                                                                     class="column-item post-style-3 post-129 post type-post status-publish format-standard has-post-thumbnail hentry category-decoration category-healthy-food tag-desserts tag-recipes tag-style">
                                                                     <div class="post-inner">
                                                                         <div class="posted-on"><a
-                                                                                href="https://demo2.themelexus.com/delicioz/how-to-choose-the-best-type-of-combi-oven/"
+                                                                                href="/delicioz/how-to-choose-the-best-type-of-combi-oven/"
                                                                                 rel="bookmark">August 22, 2022</a></div>
                                                                         <div class="post-thumbnail"><img loading="lazy"
                                                                                 width="820" height="500"
-                                                                                src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/07/blog_1-820x500.jpg"
+                                                                                src="/delicioz/wp-content/uploads/2022/07/blog_1-820x500.jpg"
                                                                                 class="attachment-delicioz-post-grid size-delicioz-post-grid wp-post-image"
                                                                                 alt="" /></div>
                                                                         <div class="entry-content">
                                                                             <h3 class="entry-title"><a
-                                                                                    href="https://demo2.themelexus.com/delicioz/how-to-choose-the-best-type-of-combi-oven/"
+                                                                                    href="/delicioz/how-to-choose-the-best-type-of-combi-oven/"
                                                                                     rel="bookmark">How to choose the
                                                                                     best type of combi oven</a></h3>
                                                                             <div class="entry-meta">
                                                                                 <div class="categories-link"><span
                                                                                         class="screen-reader-text">Categories</span><a
-                                                                                        href="https://demo2.themelexus.com/delicioz/category/decoration/"
+                                                                                        href="/delicioz/category/decoration/"
                                                                                         rel="category tag">Decoration</a><span
                                                                                         class="dot">,</span><a
-                                                                                        href="https://demo2.themelexus.com/delicioz/category/healthy-food/"
+                                                                                        href="/delicioz/category/healthy-food/"
                                                                                         rel="category tag">Healthy
                                                                                         Food</a></div>
                                                                             </div>
@@ -4292,7 +3371,7 @@
 
                                                                             <div class="more-link-wrap">
                                                                                 <a class="more-link"
-                                                                                    href="https://demo2.themelexus.com/delicioz/how-to-choose-the-best-type-of-combi-oven/">
+                                                                                    href="/delicioz/how-to-choose-the-best-type-of-combi-oven/">
                                                                                     <span>Read More</span>
                                                                                 </a>
                                                                             </div>
@@ -4303,26 +3382,26 @@
                                                                     class="column-item post-style-3 post-130 post type-post status-publish format-standard has-post-thumbnail hentry category-company-news category-lifestyle tag-menu tag-recipes tag-restaurant">
                                                                     <div class="post-inner">
                                                                         <div class="posted-on"><a
-                                                                                href="https://demo2.themelexus.com/delicioz/10-restaurant-patio-decor-ideas-for-summer/"
+                                                                                href="/delicioz/10-restaurant-patio-decor-ideas-for-summer/"
                                                                                 rel="bookmark">August 22, 2022</a></div>
                                                                         <div class="post-thumbnail"><img width="820"
                                                                                 height="500"
-                                                                                src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/07/blog_2-820x500.jpg"
+                                                                                src="/delicioz/wp-content/uploads/2022/07/blog_2-820x500.jpg"
                                                                                 class="attachment-delicioz-post-grid size-delicioz-post-grid wp-post-image"
                                                                                 alt="" loading="lazy" /></div>
                                                                         <div class="entry-content">
                                                                             <h3 class="entry-title"><a
-                                                                                    href="https://demo2.themelexus.com/delicioz/10-restaurant-patio-decor-ideas-for-summer/"
+                                                                                    href="/delicioz/10-restaurant-patio-decor-ideas-for-summer/"
                                                                                     rel="bookmark">10 Restaurant patio
                                                                                     decor ideas for summer</a></h3>
                                                                             <div class="entry-meta">
                                                                                 <div class="categories-link"><span
                                                                                         class="screen-reader-text">Categories</span><a
-                                                                                        href="https://demo2.themelexus.com/delicioz/category/company-news/"
+                                                                                        href="/delicioz/category/company-news/"
                                                                                         rel="category tag">Company
                                                                                         News</a><span
                                                                                         class="dot">,</span><a
-                                                                                        href="https://demo2.themelexus.com/delicioz/category/lifestyle/"
+                                                                                        href="/delicioz/category/lifestyle/"
                                                                                         rel="category tag">Lifestyle</a>
                                                                                 </div>
                                                                             </div>
@@ -4335,7 +3414,7 @@
 
                                                                             <div class="more-link-wrap">
                                                                                 <a class="more-link"
-                                                                                    href="https://demo2.themelexus.com/delicioz/10-restaurant-patio-decor-ideas-for-summer/">
+                                                                                    href="/delicioz/10-restaurant-patio-decor-ideas-for-summer/">
                                                                                     <span>Read More</span>
                                                                                 </a>
                                                                             </div>
@@ -4346,26 +3425,26 @@
                                                                     class="column-item post-style-3 post-131 post type-post status-publish format-standard has-post-thumbnail hentry category-news category-tips-trick tag-dinning tag-menu tag-restaurant">
                                                                     <div class="post-inner">
                                                                         <div class="posted-on"><a
-                                                                                href="https://demo2.themelexus.com/delicioz/8-restaurant-entertainment-ideas-to-generate-buzz/"
+                                                                                href="/delicioz/8-restaurant-entertainment-ideas-to-generate-buzz/"
                                                                                 rel="bookmark">August 22, 2022</a></div>
                                                                         <div class="post-thumbnail"><img width="820"
                                                                                 height="500"
-                                                                                src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/07/blog_13-820x500.jpg"
+                                                                                src="/delicioz/wp-content/uploads/2022/07/blog_13-820x500.jpg"
                                                                                 class="attachment-delicioz-post-grid size-delicioz-post-grid wp-post-image"
                                                                                 alt="" loading="lazy" /></div>
                                                                         <div class="entry-content">
                                                                             <h3 class="entry-title"><a
-                                                                                    href="https://demo2.themelexus.com/delicioz/8-restaurant-entertainment-ideas-to-generate-buzz/"
+                                                                                    href="/delicioz/8-restaurant-entertainment-ideas-to-generate-buzz/"
                                                                                     rel="bookmark">8 Restaurant
                                                                                     entertainment ideas to generate
                                                                                     buzz</a></h3>
                                                                             <div class="entry-meta">
                                                                                 <div class="categories-link"><span
                                                                                         class="screen-reader-text">Categories</span><a
-                                                                                        href="https://demo2.themelexus.com/delicioz/category/news/"
+                                                                                        href="/delicioz/category/news/"
                                                                                         rel="category tag">News</a><span
                                                                                         class="dot">,</span><a
-                                                                                        href="https://demo2.themelexus.com/delicioz/category/tips-trick/"
+                                                                                        href="/delicioz/category/tips-trick/"
                                                                                         rel="category tag">Tips &amp;
                                                                                         Trick</a></div>
                                                                             </div>
@@ -4380,7 +3459,7 @@
 
                                                                             <div class="more-link-wrap">
                                                                                 <a class="more-link"
-                                                                                    href="https://demo2.themelexus.com/delicioz/8-restaurant-entertainment-ideas-to-generate-buzz/">
+                                                                                    href="/delicioz/8-restaurant-entertainment-ideas-to-generate-buzz/">
                                                                                     <span>Read More</span>
                                                                                 </a>
                                                                             </div>
@@ -4391,26 +3470,26 @@
                                                                     class="column-item post-style-3 post-132 post type-post status-publish format-standard has-post-thumbnail hentry category-decoration category-tips-trick tag-dinning tag-food tag-menu">
                                                                     <div class="post-inner">
                                                                         <div class="posted-on"><a
-                                                                                href="https://demo2.themelexus.com/delicioz/why-food-photography-styling-are-importan/"
+                                                                                href="/delicioz/why-food-photography-styling-are-importan/"
                                                                                 rel="bookmark">August 22, 2022</a></div>
                                                                         <div class="post-thumbnail"><img width="820"
                                                                                 height="500"
-                                                                                src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/07/blog_14-820x500.jpg"
+                                                                                src="/delicioz/wp-content/uploads/2022/07/blog_14-820x500.jpg"
                                                                                 class="attachment-delicioz-post-grid size-delicioz-post-grid wp-post-image"
                                                                                 alt="" loading="lazy" /></div>
                                                                         <div class="entry-content">
                                                                             <h3 class="entry-title"><a
-                                                                                    href="https://demo2.themelexus.com/delicioz/why-food-photography-styling-are-importan/"
+                                                                                    href="/delicioz/why-food-photography-styling-are-importan/"
                                                                                     rel="bookmark">Why Food Photography
                                                                                     &#038; Styling are importan?</a>
                                                                             </h3>
                                                                             <div class="entry-meta">
                                                                                 <div class="categories-link"><span
                                                                                         class="screen-reader-text">Categories</span><a
-                                                                                        href="https://demo2.themelexus.com/delicioz/category/decoration/"
+                                                                                        href="/delicioz/category/decoration/"
                                                                                         rel="category tag">Decoration</a><span
                                                                                         class="dot">,</span><a
-                                                                                        href="https://demo2.themelexus.com/delicioz/category/tips-trick/"
+                                                                                        href="/delicioz/category/tips-trick/"
                                                                                         rel="category tag">Tips &amp;
                                                                                         Trick</a></div>
                                                                             </div>
@@ -4424,7 +3503,7 @@
 
                                                                             <div class="more-link-wrap">
                                                                                 <a class="more-link"
-                                                                                    href="https://demo2.themelexus.com/delicioz/why-food-photography-styling-are-importan/">
+                                                                                    href="/delicioz/why-food-photography-styling-are-importan/">
                                                                                     <span>Read More</span>
                                                                                 </a>
                                                                             </div>
@@ -4435,26 +3514,26 @@
                                                                     class="column-item post-style-3 post-133 post type-post status-publish format-standard has-post-thumbnail hentry category-decoration category-news tag-recipes tag-restaurant tag-style">
                                                                     <div class="post-inner">
                                                                         <div class="posted-on"><a
-                                                                                href="https://demo2.themelexus.com/delicioz/celebrate-bastille-day-with-a-classic-croquembouche/"
+                                                                                href="/delicioz/celebrate-bastille-day-with-a-classic-croquembouche/"
                                                                                 rel="bookmark">July 30, 2022</a></div>
                                                                         <div class="post-thumbnail"><img width="820"
                                                                                 height="500"
-                                                                                src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/07/blog_15-820x500.jpg"
+                                                                                src="/delicioz/wp-content/uploads/2022/07/blog_15-820x500.jpg"
                                                                                 class="attachment-delicioz-post-grid size-delicioz-post-grid wp-post-image"
                                                                                 alt="" loading="lazy" /></div>
                                                                         <div class="entry-content">
                                                                             <h3 class="entry-title"><a
-                                                                                    href="https://demo2.themelexus.com/delicioz/celebrate-bastille-day-with-a-classic-croquembouche/"
+                                                                                    href="/delicioz/celebrate-bastille-day-with-a-classic-croquembouche/"
                                                                                     rel="bookmark">Celebrate Bastille
                                                                                     Day with a classic croquembouche</a>
                                                                             </h3>
                                                                             <div class="entry-meta">
                                                                                 <div class="categories-link"><span
                                                                                         class="screen-reader-text">Categories</span><a
-                                                                                        href="https://demo2.themelexus.com/delicioz/category/decoration/"
+                                                                                        href="/delicioz/category/decoration/"
                                                                                         rel="category tag">Decoration</a><span
                                                                                         class="dot">,</span><a
-                                                                                        href="https://demo2.themelexus.com/delicioz/category/news/"
+                                                                                        href="/delicioz/category/news/"
                                                                                         rel="category tag">News</a>
                                                                                 </div>
                                                                             </div>
@@ -4469,7 +3548,7 @@
 
                                                                             <div class="more-link-wrap">
                                                                                 <a class="more-link"
-                                                                                    href="https://demo2.themelexus.com/delicioz/celebrate-bastille-day-with-a-classic-croquembouche/">
+                                                                                    href="/delicioz/celebrate-bastille-day-with-a-classic-croquembouche/">
                                                                                     <span>Read More</span>
                                                                                 </a>
                                                                             </div>
@@ -4493,7 +3572,7 @@
                                                     data-widget_type="button.default">
                                                     <div class="elementor-widget-container">
                                                         <div class="elementor-button-wrapper">
-                                                            <a href="https://demo2.themelexus.com/delicioz/blog/"
+                                                            <a href="/delicioz/blog/"
                                                                 class="elementor-button-link elementor-button elementor-size-sm"
                                                                 role="button">
                                                                 <span class="elementor-button-content-wrapper">
@@ -4550,13 +3629,13 @@
                                             <div class="elementor-icon-box-wrapper">
                                                 <div class="elementor-icon-box-icon">
                                                     <a class="elementor-icon elementor-animation-"
-                                                        href="https://demo2.themelexus.com/delicioz/my-account/">
+                                                        href="/delicioz/my-account/">
                                                         <i aria-hidden="true"
                                                             class="delicioz-icon- delicioz-icon-account"></i> </a>
                                                 </div>
                                                 <div class="elementor-icon-box-content">
                                                     <h3 class="elementor-icon-box-title">
-                                                        <a href="https://demo2.themelexus.com/delicioz/my-account/">
+                                                        <a href="/delicioz/my-account/">
                                                             Account </a>
                                                     </h3>
                                                 </div>
@@ -4575,13 +3654,13 @@
                                             <div class="elementor-icon-box-wrapper">
                                                 <div class="elementor-icon-box-icon">
                                                     <a class="elementor-icon elementor-animation-"
-                                                        href="https://demo2.themelexus.com/delicioz/cart/">
+                                                        href="/delicioz/cart/">
                                                         <i aria-hidden="true"
                                                             class="delicioz-icon- delicioz-icon-cart-2"></i> </a>
                                                 </div>
                                                 <div class="elementor-icon-box-content">
                                                     <h3 class="elementor-icon-box-title">
-                                                        <a href="https://demo2.themelexus.com/delicioz/cart/">
+                                                        <a href="/delicioz/cart/">
                                                             Cart </a>
                                                     </h3>
                                                 </div>
@@ -4594,828 +3673,11 @@
                     </div>
                 </div>
             </div>
-            <footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
-                <div class='footer-width-fixer'>
-                    <div data-elementor-type="wp-post" data-elementor-id="92" class="elementor elementor-92">
-                        <div class="elementor-section elementor-top-section elementor-element elementor-element-32b9d2d elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                            data-id="32b9d2d" data-element_type="section"
-                            data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-                            <div class="elementor-container elementor-column-gap-no">
-                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d9d4eb2"
-                                    data-id="d9d4eb2" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-a714f29 elementor-widget__width-auto elementor-widget elementor-widget-site-logo"
-                                            data-id="a714f29" data-element_type="widget"
-                                            data-widget_type="site-logo.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="hfe-site-logo">
-                                                    <a data-elementor-open-lightbox="" class='elementor-clickable'
-                                                        href="https://demo2.themelexus.com/delicioz">
-                                                        <div class="hfe-site-logo-set">
-                                                            <div class="hfe-site-logo-container">
-                                                                <img class="hfe-site-logo-img elementor-animation-"
-                                                                    src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/07/logo.svg"
-                                                                    alt="" />
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-section elementor-inner-section elementor-element elementor-element-4a03cff elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                                            data-id="4a03cff" data-element_type="section">
-                                            <div class="elementor-container elementor-column-gap-no">
-                                                <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-1a21a13"
-                                                    data-id="1a21a13" data-element_type="column">
-                                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                                        <div class="elementor-element elementor-element-7bf769b elementor-widget elementor-widget-heading"
-                                                            data-id="7bf769b" data-element_type="widget"
-                                                            data-widget_type="heading.default">
-                                                            <div class="elementor-widget-container">
-                                                                <h2
-                                                                    class="elementor-heading-title elementor-size-default">
-                                                                    About restaurant</h2>
-                                                            </div>
-                                                        </div>
-                                                        <div class="elementor-element elementor-element-13bacbf elementor-widget__width-initial elementor-widget elementor-widget-text-editor"
-                                                            data-id="13bacbf" data-element_type="widget"
-                                                            data-widget_type="text-editor.default">
-                                                            <div class="elementor-widget-container">
-                                                                Be the first to know about new
-                                                                collections, special events, and what’s
-                                                                going on at Our Place. </div>
-                                                        </div>
-                                                        <div class="elementor-element elementor-element-f378fa4 e-grid-align-tablet-left e-grid-align-mobile_extra-left e-grid-align-mobile-center elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons"
-                                                            data-id="f378fa4" data-element_type="widget"
-                                                            data-widget_type="social-icons.default">
-                                                            <div class="elementor-widget-container">
-                                                                <style>
-                                                                    /*! elementor - v3.7.3 - 29-08-2022 */
-                                                                    .elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,
-                                                                    .elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,
-                                                                    .elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container {
-                                                                        line-height: 1;
-                                                                        font-size: 0
-                                                                    }
-
-                                                                    .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
-                                                                        display: inline-grid
-                                                                    }
-
-                                                                    .elementor-widget-social-icons .elementor-grid {
-                                                                        grid-column-gap: var(--grid-column-gap, 5px);
-                                                                        grid-row-gap: var(--grid-row-gap, 5px);
-                                                                        grid-template-columns: var(--grid-template-columns);
-                                                                        -webkit-box-pack: var(--justify-content, center);
-                                                                        -ms-flex-pack: var(--justify-content, center);
-                                                                        justify-content: var(--justify-content, center);
-                                                                        justify-items: var(--justify-content, center)
-                                                                    }
-
-                                                                    .elementor-icon.elementor-social-icon {
-                                                                        font-size: var(--icon-size, 25px);
-                                                                        line-height: var(--icon-size, 25px);
-                                                                        width: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)));
-                                                                        height: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)))
-                                                                    }
-
-                                                                    .elementor-social-icon {
-                                                                        --e-social-icon-icon-color: #fff;
-                                                                        display: -webkit-inline-box;
-                                                                        display: -ms-inline-flexbox;
-                                                                        display: inline-flex;
-                                                                        background-color: #818a91;
-                                                                        -webkit-box-align: center;
-                                                                        -ms-flex-align: center;
-                                                                        align-items: center;
-                                                                        -webkit-box-pack: center;
-                                                                        -ms-flex-pack: center;
-                                                                        justify-content: center;
-                                                                        text-align: center;
-                                                                        cursor: pointer
-                                                                    }
-
-                                                                    .elementor-social-icon i {
-                                                                        color: var(--e-social-icon-icon-color)
-                                                                    }
-
-                                                                    .elementor-social-icon svg {
-                                                                        fill: var(--e-social-icon-icon-color)
-                                                                    }
-
-                                                                    .elementor-social-icon:last-child {
-                                                                        margin: 0
-                                                                    }
-
-                                                                    .elementor-social-icon:hover {
-                                                                        opacity: .9;
-                                                                        color: #fff
-                                                                    }
-
-                                                                    .elementor-social-icon-android {
-                                                                        background-color: #a4c639
-                                                                    }
-
-                                                                    .elementor-social-icon-apple {
-                                                                        background-color: #999
-                                                                    }
-
-                                                                    .elementor-social-icon-behance {
-                                                                        background-color: #1769ff
-                                                                    }
-
-                                                                    .elementor-social-icon-bitbucket {
-                                                                        background-color: #205081
-                                                                    }
-
-                                                                    .elementor-social-icon-codepen {
-                                                                        background-color: #000
-                                                                    }
-
-                                                                    .elementor-social-icon-delicious {
-                                                                        background-color: #39f
-                                                                    }
-
-                                                                    .elementor-social-icon-deviantart {
-                                                                        background-color: #05cc47
-                                                                    }
-
-                                                                    .elementor-social-icon-digg {
-                                                                        background-color: #005be2
-                                                                    }
-
-                                                                    .elementor-social-icon-dribbble {
-                                                                        background-color: #ea4c89
-                                                                    }
-
-                                                                    .elementor-social-icon-elementor {
-                                                                        background-color: #d30c5c
-                                                                    }
-
-                                                                    .elementor-social-icon-envelope {
-                                                                        background-color: #ea4335
-                                                                    }
-
-                                                                    .elementor-social-icon-facebook,
-                                                                    .elementor-social-icon-facebook-f {
-                                                                        background-color: #3b5998
-                                                                    }
-
-                                                                    .elementor-social-icon-flickr {
-                                                                        background-color: #0063dc
-                                                                    }
-
-                                                                    .elementor-social-icon-foursquare {
-                                                                        background-color: #2d5be3
-                                                                    }
-
-                                                                    .elementor-social-icon-free-code-camp,
-                                                                    .elementor-social-icon-freecodecamp {
-                                                                        background-color: #006400
-                                                                    }
-
-                                                                    .elementor-social-icon-github {
-                                                                        background-color: #333
-                                                                    }
-
-                                                                    .elementor-social-icon-gitlab {
-                                                                        background-color: #e24329
-                                                                    }
-
-                                                                    .elementor-social-icon-globe {
-                                                                        background-color: #818a91
-                                                                    }
-
-                                                                    .elementor-social-icon-google-plus,
-                                                                    .elementor-social-icon-google-plus-g {
-                                                                        background-color: #dd4b39
-                                                                    }
-
-                                                                    .elementor-social-icon-houzz {
-                                                                        background-color: #7ac142
-                                                                    }
-
-                                                                    .elementor-social-icon-instagram {
-                                                                        background-color: #262626
-                                                                    }
-
-                                                                    .elementor-social-icon-jsfiddle {
-                                                                        background-color: #487aa2
-                                                                    }
-
-                                                                    .elementor-social-icon-link {
-                                                                        background-color: #818a91
-                                                                    }
-
-                                                                    .elementor-social-icon-linkedin,
-                                                                    .elementor-social-icon-linkedin-in {
-                                                                        background-color: #0077b5
-                                                                    }
-
-                                                                    .elementor-social-icon-medium {
-                                                                        background-color: #00ab6b
-                                                                    }
-
-                                                                    .elementor-social-icon-meetup {
-                                                                        background-color: #ec1c40
-                                                                    }
-
-                                                                    .elementor-social-icon-mixcloud {
-                                                                        background-color: #273a4b
-                                                                    }
-
-                                                                    .elementor-social-icon-odnoklassniki {
-                                                                        background-color: #f4731c
-                                                                    }
-
-                                                                    .elementor-social-icon-pinterest {
-                                                                        background-color: #bd081c
-                                                                    }
-
-                                                                    .elementor-social-icon-product-hunt {
-                                                                        background-color: #da552f
-                                                                    }
-
-                                                                    .elementor-social-icon-reddit {
-                                                                        background-color: #ff4500
-                                                                    }
-
-                                                                    .elementor-social-icon-rss {
-                                                                        background-color: #f26522
-                                                                    }
-
-                                                                    .elementor-social-icon-shopping-cart {
-                                                                        background-color: #4caf50
-                                                                    }
-
-                                                                    .elementor-social-icon-skype {
-                                                                        background-color: #00aff0
-                                                                    }
-
-                                                                    .elementor-social-icon-slideshare {
-                                                                        background-color: #0077b5
-                                                                    }
-
-                                                                    .elementor-social-icon-snapchat {
-                                                                        background-color: #fffc00
-                                                                    }
-
-                                                                    .elementor-social-icon-soundcloud {
-                                                                        background-color: #f80
-                                                                    }
-
-                                                                    .elementor-social-icon-spotify {
-                                                                        background-color: #2ebd59
-                                                                    }
-
-                                                                    .elementor-social-icon-stack-overflow {
-                                                                        background-color: #fe7a15
-                                                                    }
-
-                                                                    .elementor-social-icon-steam {
-                                                                        background-color: #00adee
-                                                                    }
-
-                                                                    .elementor-social-icon-stumbleupon {
-                                                                        background-color: #eb4924
-                                                                    }
-
-                                                                    .elementor-social-icon-telegram {
-                                                                        background-color: #2ca5e0
-                                                                    }
-
-                                                                    .elementor-social-icon-thumb-tack {
-                                                                        background-color: #1aa1d8
-                                                                    }
-
-                                                                    .elementor-social-icon-tripadvisor {
-                                                                        background-color: #589442
-                                                                    }
-
-                                                                    .elementor-social-icon-tumblr {
-                                                                        background-color: #35465c
-                                                                    }
-
-                                                                    .elementor-social-icon-twitch {
-                                                                        background-color: #6441a5
-                                                                    }
-
-                                                                    .elementor-social-icon-twitter {
-                                                                        background-color: #1da1f2
-                                                                    }
-
-                                                                    .elementor-social-icon-viber {
-                                                                        background-color: #665cac
-                                                                    }
-
-                                                                    .elementor-social-icon-vimeo {
-                                                                        background-color: #1ab7ea
-                                                                    }
-
-                                                                    .elementor-social-icon-vk {
-                                                                        background-color: #45668e
-                                                                    }
-
-                                                                    .elementor-social-icon-weibo {
-                                                                        background-color: #dd2430
-                                                                    }
-
-                                                                    .elementor-social-icon-weixin {
-                                                                        background-color: #31a918
-                                                                    }
-
-                                                                    .elementor-social-icon-whatsapp {
-                                                                        background-color: #25d366
-                                                                    }
-
-                                                                    .elementor-social-icon-wordpress {
-                                                                        background-color: #21759b
-                                                                    }
-
-                                                                    .elementor-social-icon-xing {
-                                                                        background-color: #026466
-                                                                    }
-
-                                                                    .elementor-social-icon-yelp {
-                                                                        background-color: #af0606
-                                                                    }
-
-                                                                    .elementor-social-icon-youtube {
-                                                                        background-color: #cd201f
-                                                                    }
-
-                                                                    .elementor-social-icon-500px {
-                                                                        background-color: #0099e5
-                                                                    }
-
-                                                                    .elementor-shape-rounded .elementor-icon.elementor-social-icon {
-                                                                        border-radius: 10%
-                                                                    }
-
-                                                                    .elementor-shape-circle .elementor-icon.elementor-social-icon {
-                                                                        border-radius: 50%
-                                                                    }
-                                                                </style>
-                                                                <div
-                                                                    class="elementor-social-icons-wrapper elementor-grid">
-                                                                    <span class="elementor-grid-item">
-                                                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-repeater-item-8354e4c"
-                                                                            href="https://www.facebook.com/themelexus"
-                                                                            target="_blank">
-                                                                            <span
-                                                                                class="elementor-screen-only">Facebook-f</span>
-                                                                            <i class="fab fa-facebook-f"></i> </a>
-                                                                    </span>
-                                                                    <span class="elementor-grid-item">
-                                                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-0bf8350"
-                                                                            href="https://twitter.com/themelexus"
-                                                                            target="_blank">
-                                                                            <span
-                                                                                class="elementor-screen-only">Twitter</span>
-                                                                            <i class="fab fa-twitter"></i> </a>
-                                                                    </span>
-                                                                    <span class="elementor-grid-item">
-                                                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-bfea011"
-                                                                            href="https://www.instagram.com/themelexus/"
-                                                                            target="_blank">
-                                                                            <span
-                                                                                class="elementor-screen-only">Instagram</span>
-                                                                            <i class="fab fa-instagram"></i> </a>
-                                                                    </span>
-                                                                    <span class="elementor-grid-item">
-                                                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-pinterest elementor-repeater-item-0efd42d"
-                                                                            href="https://www.pinterest.com/themelexus/"
-                                                                            target="_blank">
-                                                                            <span
-                                                                                class="elementor-screen-only">Pinterest</span>
-                                                                            <i class="fab fa-pinterest"></i> </a>
-                                                                    </span>
-                                                                    <span class="elementor-grid-item">
-                                                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-f83786e"
-                                                                            href="https://www.youtube.com/themelexus/"
-                                                                            target="_blank">
-                                                                            <span
-                                                                                class="elementor-screen-only">Youtube</span>
-                                                                            <i class="fab fa-youtube"></i> </a>
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-632e151"
-                                                    data-id="632e151" data-element_type="column">
-                                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                                        <div class="elementor-element elementor-element-1546c8f elementor-widget elementor-widget-heading"
-                                                            data-id="1546c8f" data-element_type="widget"
-                                                            data-widget_type="heading.default">
-                                                            <div class="elementor-widget-container">
-                                                                <h2
-                                                                    class="elementor-heading-title elementor-size-default">
-                                                                    get news & ofers</h2>
-                                                            </div>
-                                                        </div>
-                                                        <div class="elementor-element elementor-element-0d1148f elementor-widget__width-initial elementor-widget elementor-widget-text-editor"
-                                                            data-id="0d1148f" data-element_type="widget"
-                                                            data-widget_type="text-editor.default">
-                                                            <div class="elementor-widget-container">
-                                                                Subscrible &amp; get <a
-                                                                    style="font-weight: bold;">10%</a> discount. Get
-                                                                E-mail updates about our latest shop and<a
-                                                                    style="font-weight: bold;"> special offers.</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="elementor-element elementor-element-5712562 elementor-widget__width-initial form-mailchimp-style-1 elementor-widget elementor-widget-delicioz-mailchmip"
-                                                            data-id="5712562" data-element_type="widget"
-                                                            data-widget_type="delicioz-mailchmip.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div class="form-style">
-                                                                    <script>(function () {
-                                                                            window.mc4wp = window.mc4wp || {
-                                                                                listeners: [],
-                                                                                forms: {
-                                                                                    on: function (evt, cb) {
-                                                                                        window.mc4wp.listeners.push(
-                                                                                            {
-                                                                                                event: evt,
-                                                                                                callback: cb
-                                                                                            }
-                                                                                        );
-                                                                                    }
-                                                                                }
-                                                                            }
-                                                                        })();
-                                                                    </script><!-- Mailchimp for WordPress v4.8.8 - https://wordpress.org/plugins/mailchimp-for-wp/ -->
-                                                                    <form id="mc4wp-form-1"
-                                                                        class="mc4wp-form mc4wp-form-244" method="post"
-                                                                        data-id="244" data-name="">
-                                                                        <div class="mc4wp-form-fields">
-                                                                            <p class="form-input">
-                                                                                <i aria-hidden="true"
-                                                                                    class="delicioz-icon-mail-check-line"></i><input
-                                                                                    type="email" name="EMAIL"
-                                                                                    placeholder="Your email"
-                                                                                    autocomplete="off" required />
-                                                                            </p>
-                                                                            <p class="form-button">
-                                                                                <button type="submit"
-                                                                                    value="Sign up"><span>subscribe</span></button>
-                                                                            </p>
-                                                                        </div><label
-                                                                            style="display: none !important;">Leave this
-                                                                            field empty if you're human: <input
-                                                                                type="text" name="_mc4wp_honeypot"
-                                                                                value="" tabindex="-1"
-                                                                                autocomplete="off" /></label><input
-                                                                            type="hidden" name="_mc4wp_timestamp"
-                                                                            value="1741576032" /><input type="hidden"
-                                                                            name="_mc4wp_form_id" value="244" /><input
-                                                                            type="hidden" name="_mc4wp_form_element_id"
-                                                                            value="mc4wp-form-1" />
-                                                                        <div class="mc4wp-response"></div>
-                                                                    </form><!-- / Mailchimp for WordPress Plugin -->
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-cdf327b"
-                                                    data-id="cdf327b" data-element_type="column">
-                                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                                        <div class="elementor-element elementor-element-8bddd94 elementor-widget elementor-widget-heading"
-                                                            data-id="8bddd94" data-element_type="widget"
-                                                            data-widget_type="heading.default">
-                                                            <div class="elementor-widget-container">
-                                                                <h2
-                                                                    class="elementor-heading-title elementor-size-default">
-                                                                    contact us</h2>
-                                                            </div>
-                                                        </div>
-                                                        <div class="elementor-element elementor-element-04df446 elementor-widget__width-initial elementor-widget elementor-widget-text-editor"
-                                                            data-id="04df446" data-element_type="widget"
-                                                            data-widget_type="text-editor.default">
-                                                            <div class="elementor-widget-container">
-                                                                Delicioz Restaurant &amp; Fine dining,
-                                                                71 Madison Ave, New York, USA
-                                                            </div>
-                                                        </div>
-                                                        <div class="elementor-element elementor-element-8b0daca elementor-widget-mobile_extra__width-inherit elementor-widget elementor-widget-text-editor"
-                                                            data-id="8b0daca" data-element_type="widget"
-                                                            data-widget_type="text-editor.default">
-                                                            <div class="elementor-widget-container">
-                                                                +39-055-123456,+39-066-666999 </div>
-                                                        </div>
-                                                        <div class="elementor-element elementor-element-b07bab7 elementor-widget__width-initial elementor-widget elementor-widget-text-editor"
-                                                            data-id="b07bab7" data-element_type="widget"
-                                                            data-widget_type="text-editor.default">
-                                                            <div class="elementor-widget-container">
-                                                                <a href="/cdn-cgi/l/email-protection"
-                                                                    class="__cf_email__"
-                                                                    data-cfemail="691b0c1a0c1b1f081d0006071a290c11080419050c470a0604">[email&#160;protected]</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-section elementor-inner-section elementor-element elementor-element-c21bf80 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                                            data-id="c21bf80" data-element_type="section">
-                                            <div class="elementor-container elementor-column-gap-no">
-                                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3fee095"
-                                                    data-id="3fee095" data-element_type="column">
-                                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                                        <div class="elementor-element elementor-element-109d095 elementor-widget elementor-widget-text-editor"
-                                                            data-id="109d095" data-element_type="widget"
-                                                            data-widget_type="text-editor.default">
-                                                            <div class="elementor-widget-container">
-                                                                Copyright © 2022 <a style="font-weight: bold;"
-                                                                    href="https://demo2.themelexus.com/delicioz/">Delicioz</a>.
-                                                                All rights reserved. </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-000c4df"
-                                                    data-id="000c4df" data-element_type="column">
-                                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                                        <div class="elementor-element elementor-element-3d67de8 elementor-icon-list--layout-inline elementor-align-right elementor-mobile-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                                                            data-id="3d67de8" data-element_type="widget"
-                                                            data-widget_type="icon-list.default">
-                                                            <div class="elementor-widget-container">
-                                                                <ul
-                                                                    class="elementor-icon-list-items elementor-inline-items">
-                                                                    <li
-                                                                        class="elementor-icon-list-item elementor-inline-item">
-                                                                        <span class="elementor-icon-list-text">Privacy &
-                                                                            Cookie Policy </span>
-                                                                    </li>
-                                                                    <li
-                                                                        class="elementor-icon-list-item elementor-inline-item">
-                                                                        <span class="elementor-icon-list-text"> Terms of
-                                                                            Service</span>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
+            @livewire('inc.footer')
 
         </div><!-- #page -->
 
-        <div class="account-wrap d-none">
-            <div class="account-inner dashboard">
-                <ul class="account-dashboard">
-                    <li>
-                        <a href="https://demo2.themelexus.com/delicioz/my-account/" title="My account">Dashboard</a>
-                    </li>
-                    <li>
-                        <a href="https://demo2.themelexus.com/delicioz/my-account/orders/" title="Orders">Orders</a>
-                    </li>
-                    <li>
-                        <a href="https://demo2.themelexus.com/delicioz/my-account/downloads/"
-                            title="Downloads">Downloads</a>
-                    </li>
-                    <li>
-                        <a href="https://demo2.themelexus.com/delicioz/my-account/edit-address/"
-                            title="Edit Address">Edit Address</a>
-                    </li>
-                    <li>
-                        <a href="https://demo2.themelexus.com/delicioz/my-account/edit-account/"
-                            title="Account Details">Account Details</a>
-                    </li>
-                    <li>
-                        <a title="Log out" class="tips"
-                            href="https://demo2.themelexus.com/delicioz/wp-login.php?action=logout&#038;redirect_to=https%3A%2F%2Fdemo2.themelexus.com%2Fdelicioz&#038;_wpnonce=edf68471b3">Log
-                            Out</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="delicioz-mobile-nav">
-            <div class="menu-scroll-mobile">
-                <a href="#" class="mobile-nav-close"><i class="delicioz-icon-times"></i></a>
-                <div class="mobile-nav-tabs">
-                    <ul>
-                        <li class="mobile-tab-title mobile-pages-title active" data-menu="pages">
-                            <span>Main menu</span>
-                        </li>
-                    </ul>
-                </div>
-                <nav class="mobile-menu-tab mobile-navigation mobile-pages-menu active" aria-label="Mobile Navigation">
-                    <div class="handheld-navigation">
-                        <ul id="menu-main-menu" class="menu">
-                            <li
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-58">
-                                <a href="https://demo2.themelexus.com/delicioz/">Home</a>
-                                <ul class="sub-menu">
-                                    <li id="menu-item-53"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-53">
-                                        <a href="https://demo2.themelexus.com/delicioz/">Home 1</a></li>
-                                    <li id="menu-item-54"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-54"><a
-                                            href="https://demo2.themelexus.com/delicioz/home-2/">Home 2</a></li>
-                                    <li id="menu-item-55"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-24 current_page_item menu-item-55">
-                                        <a href="https://demo2.themelexus.com/delicioz/home-3/" aria-current="page">Home
-                                            3</a></li>
-                                    <li id="menu-item-56"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56"><a
-                                            href="https://demo2.themelexus.com/delicioz/home-4/">Home 4</a></li>
-                                    <li id="menu-item-57"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a
-                                            href="https://demo2.themelexus.com/delicioz/home-5/">Home 5</a></li>
-                                </ul>
-                            </li>
-                            <li
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-66">
-                                <a href="https://demo2.themelexus.com/delicioz/about-us-1/">About</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67"><a
-                                            href="https://demo2.themelexus.com/delicioz/about-us-1/">About us 1</a></li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a
-                                            href="https://demo2.themelexus.com/delicioz/about-us-2/">About us 2</a></li>
-                                </ul>
-                            </li>
-                            <li
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-64">
-                                <a href="https://demo2.themelexus.com/delicioz/menu-list-01/">Menu</a>
-                                <ul class="sub-menu">
-                                    <li id="menu-item-63"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a
-                                            href="https://demo2.themelexus.com/delicioz/menu-list-01/">Menu List 01</a>
-                                    </li>
-                                    <li id="menu-item-62"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a
-                                            href="https://demo2.themelexus.com/delicioz/menu-list-02/">Menu List 02</a>
-                                    </li>
-                                    <li id="menu-item-61"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61"><a
-                                            href="https://demo2.themelexus.com/delicioz/menu-grid/">Menu Grid</a></li>
-                                    <li id="menu-item-60"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60"><a
-                                            href="https://demo2.themelexus.com/delicioz/menu-tab/">Menu Tab</a></li>
-                                    <li id="menu-item-59"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59"><a
-                                            href="https://demo2.themelexus.com/delicioz/menu-woocommerce/">Menu
-                                            Woocommerce</a></li>
-                                </ul>
-                            </li>
-                            <li
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-73">
-                                <a href="https://demo2.themelexus.com/delicioz/blog/">Blog</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-222"><a
-                                            href="https://demo2.themelexus.com/delicioz/blog/">Blog Standard</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-223"><a
-                                            href="https://demo2.themelexus.com/delicioz/blog/?blog_style=style-2&#038;blog_columns=3&#038;blog_sidebar=none">Blog
-                                            Grid 01</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-224"><a
-                                            href="https://demo2.themelexus.com/delicioz/blog/?blog_style=style-1&#038;blog_columns=3&#038;blog_sidebar=none">Blog
-                                            Grid 02</a></li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-225">
-                                        <a
-                                            href="https://demo2.themelexus.com/delicioz/how-to-choose-the-best-type-of-combi-oven/">Single
-                                            Post</a></li>
-                                </ul>
-                            </li>
-                            <li
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-74">
-                                <a href="#">Pages</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77"><a
-                                            href="https://demo2.themelexus.com/delicioz/reservation/">Reservation
-                                            (Contact Form 7)</a></li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"><a
-                                            href="https://demo2.themelexus.com/delicioz/reservation-2/">Reservation
-                                            (Open Table)</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-79"><a
-                                            href="https://demo2.themelexus.com/delicioz/404">404 Error</a></li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a
-                                            href="https://demo2.themelexus.com/delicioz/icons/">Icons</a></li>
-                                </ul>
-                            </li>
-                            <li
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-506">
-                                <a href="https://demo2.themelexus.com/delicioz/shop/">Shop</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-507"><a
-                                            href="https://demo2.themelexus.com/delicioz/shop/?woocommerce_archive_sidebar=left">Shop
-                                            Sidebar</a></li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-508"><a
-                                            href="https://demo2.themelexus.com/delicioz/shop/?woocommerce_archive_layout=canvas&#038;woocommerce_catalog_columns=4">Shop
-                                            Fullwidth</a></li>
-                                    <li
-                                        class="menu-item menu-item-type-post_type menu-item-object-product menu-item-509">
-                                        <a href="https://demo2.themelexus.com/delicioz/product/grilled-salmon/">Single
-                                            Product</a></li>
-                                </ul>
-                            </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"><a
-                                    href="https://demo2.themelexus.com/delicioz/contact-us/">Contact</a></li>
-                        </ul>
-                    </div>
-                </nav>
-                <nav class="mobile-menu-tab mobile-navigation-categories mobile-categories-menu"
-                    aria-label="Mobile Navigation">
-                    <div class="menu">
-                        <ul>
-                            <li><a href="https://demo2.themelexus.com/delicioz/">Home</a></li>
-                            <li class="page_item page-item-30"><a
-                                    href="https://demo2.themelexus.com/delicioz/about-us-1/">About us 1</a></li>
-                            <li class="page_item page-item-32"><a
-                                    href="https://demo2.themelexus.com/delicioz/about-us-2/">About us 2</a></li>
-                            <li class="page_item page-item-68"><a
-                                    href="https://demo2.themelexus.com/delicioz/blog/">Blog</a></li>
-                            <li class="page_item page-item-10"><a
-                                    href="https://demo2.themelexus.com/delicioz/cart/">Cart</a></li>
-                            <li class="page_item page-item-11"><a
-                                    href="https://demo2.themelexus.com/delicioz/checkout/">Checkout</a></li>
-                            <li class="page_item page-item-34"><a
-                                    href="https://demo2.themelexus.com/delicioz/contact-us/">Contact us</a></li>
-                            <li class="page_item page-item-22"><a
-                                    href="https://demo2.themelexus.com/delicioz/home-2/">Home 2</a></li>
-                            <li class="page_item page-item-24 current_page_item"><a
-                                    href="https://demo2.themelexus.com/delicioz/home-3/" aria-current="page">Home 3</a>
-                            </li>
-                            <li class="page_item page-item-26"><a
-                                    href="https://demo2.themelexus.com/delicioz/home-4/">Home 4</a></li>
-                            <li class="page_item page-item-28"><a
-                                    href="https://demo2.themelexus.com/delicioz/home-5/">Home 5</a></li>
-                            <li class="page_item page-item-80"><a
-                                    href="https://demo2.themelexus.com/delicioz/icons/">Icons</a></li>
-                            <li class="page_item page-item-36"><a
-                                    href="https://demo2.themelexus.com/delicioz/landing-page/">Landing page</a></li>
-                            <li class="page_item page-item-46"><a
-                                    href="https://demo2.themelexus.com/delicioz/menu-grid/">Menu Grid</a></li>
-                            <li class="page_item page-item-42"><a
-                                    href="https://demo2.themelexus.com/delicioz/menu-list-01/">Menu List 01</a></li>
-                            <li class="page_item page-item-44"><a
-                                    href="https://demo2.themelexus.com/delicioz/menu-list-02/">Menu List 02</a></li>
-                            <li class="page_item page-item-49"><a
-                                    href="https://demo2.themelexus.com/delicioz/menu-tab/">Menu Tab</a></li>
-                            <li class="page_item page-item-51"><a
-                                    href="https://demo2.themelexus.com/delicioz/menu-woocommerce/">Menu Woocommerce</a>
-                            </li>
-                            <li class="page_item page-item-12"><a
-                                    href="https://demo2.themelexus.com/delicioz/my-account/">My account</a></li>
-                            <li class="page_item page-item-38"><a
-                                    href="https://demo2.themelexus.com/delicioz/reservation/">Reservation</a></li>
-                            <li class="page_item page-item-40"><a
-                                    href="https://demo2.themelexus.com/delicioz/reservation-2/">Reservation 2</a></li>
-                            <li class="page_item page-item-2"><a
-                                    href="https://demo2.themelexus.com/delicioz/sample-page/">Sample Page</a></li>
-                            <li class="page_item page-item-9"><a
-                                    href="https://demo2.themelexus.com/delicioz/shop/">Shop</a></li>
-                            <li class="page_item page-item-14"><a
-                                    href="https://demo2.themelexus.com/delicioz/wishlist/">Wishlist</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-            <div class="delicioz-language-switcher-mobile">
-                <ul class="menu">
-                    <li class="item">
-                        <div class="language-switcher-head">
-                            <img src="https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/images/language-switcher/en.jpg"
-                                alt="WPML">
-                        </div>
-                    </li>
-                    <li class="item">
-                        <div class="language-switcher-img">
-                            <a href="#">
-                                <img src="https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/images/language-switcher/de.jpg"
-                                    alt="WPML">
-                            </a>
-                        </div>
-                    </li>
-                    <li class="item">
-                        <div class="language-switcher-img">
-                            <a href="#">
-                                <img src="https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/images/language-switcher/it.jpg"
-                                    alt="WPML">
-                            </a>
-                        </div>
-                    </li>
-                    <li class="item">
-                        <div class="language-switcher-img">
-                            <a href="#">
-                                <img src="https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/images/language-switcher/hi.jpg"
-                                    alt="WPML">
-                            </a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="delicioz-overlay"></div>
+        @livewire('inc.menu-mobile')
 
         <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
         <script>
@@ -5433,7 +3695,7 @@
                     <div class="widget woocommerce widget_product_search">
                         <div class="ajax-search-result d-none"></div>
                         <form role="search" method="get" class="woocommerce-product-search"
-                            action="https://demo2.themelexus.com/delicioz/">
+                            action="/delicioz/">
                             <label class="screen-reader-text" for="woocommerce-product-search-field-2">Search
                                 for:</label>
                             <input type="search" id="woocommerce-product-search-field-2" class="search-field"
@@ -5460,32 +3722,32 @@
                                                 <a href="#" data-val="0">All category</a>
                                             </li>
                                             <li class="cat-item cat-item-42"><a class="pf-value"
-                                                    href="https://demo2.themelexus.com/delicioz/product-category/accessories/"
+                                                    href="/delicioz/product-category/accessories/"
                                                     data-val="accessories" data-title="Accessories">Accessories</a>
                                             </li>
                                             <li class="cat-item cat-item-35"><a class="pf-value"
-                                                    href="https://demo2.themelexus.com/delicioz/product-category/desserts/"
+                                                    href="/delicioz/product-category/desserts/"
                                                     data-val="desserts" data-title="Desserts">Desserts</a>
                                             </li>
                                             <li class="cat-item cat-item-38"><a class="pf-value"
-                                                    href="https://demo2.themelexus.com/delicioz/product-category/food/"
+                                                    href="/delicioz/product-category/food/"
                                                     data-val="food" data-title="Food">Food</a>
                                             </li>
                                             <li class="cat-item cat-item-40"><a class="pf-value"
-                                                    href="https://demo2.themelexus.com/delicioz/product-category/humburger/"
+                                                    href="/delicioz/product-category/humburger/"
                                                     data-val="humburger" data-title="Humburger">Humburger</a>
                                             </li>
                                             <li class="cat-item cat-item-39"><a class="pf-value"
-                                                    href="https://demo2.themelexus.com/delicioz/product-category/recipes/"
+                                                    href="/delicioz/product-category/recipes/"
                                                     data-val="recipes" data-title="Recipes">Recipes</a>
                                             </li>
                                             <li class="cat-item cat-item-15"><a class="pf-value"
-                                                    href="https://demo2.themelexus.com/delicioz/product-category/uncategorized/"
+                                                    href="/delicioz/product-category/uncategorized/"
                                                     data-val="uncategorized"
                                                     data-title="Uncategorized">Uncategorized</a>
                                             </li>
                                             <li class="cat-item cat-item-37"><a class="pf-value"
-                                                    href="https://demo2.themelexus.com/delicioz/product-category/whiskey/"
+                                                    href="/delicioz/product-category/whiskey/"
                                                     data-val="whiskey" data-title="Whiskey">Whiskey</a>
                                             </li>
                                         </ul>
@@ -5654,16 +3916,16 @@
             if (typeof revslider_showDoubleJqueryError === "undefined") { function revslider_showDoubleJqueryError(sliderID) { console.log("You have some jquery.js library include that comes after the Slider Revolution files js inclusion."); console.log("To fix this, you can:"); console.log("1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on"); console.log("2. Find the double jQuery.js inclusion and remove it"); return "Double Included jQuery Library"; } }
         </script>
         <link rel='stylesheet' id='elementor-post-671-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/uploads/elementor/css/post-671.css?ver=1661932588'
+            href='/delicioz/wp-content/uploads/elementor/css/post-671.css?ver=1661932588'
             media='all' />
         <link rel='stylesheet' id='elementor-post-705-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/uploads/elementor/css/post-705.css?ver=1661932588'
+            href='/delicioz/wp-content/uploads/elementor/css/post-705.css?ver=1661932588'
             media='all' />
         <link rel='stylesheet' id='jquery-ui-smoothness-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.min.css?ver=1.12.1'
+            href='/delicioz/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.min.css?ver=1.12.1'
             media='screen' />
         <link rel='stylesheet' id='rs-plugin-settings-css'
-            href='https://demo2.themelexus.com/delicioz/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.5.31'
+            href='/delicioz/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.5.31'
             media='all' />
         <style id='rs-plugin-settings-inline-css'>
             #rev_slider_2_1_wrapper .hebe.tp-bullets:before {
@@ -5805,188 +4067,188 @@
             }
         </style>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9'
+            src='/delicioz/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9'
             id='regenerator-runtime-js'></script>
-        <script src='https://demo2.themelexus.com/delicioz/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0'
+        <script src='/delicioz/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0'
             id='wp-polyfill-js'></script>
         <script id='contact-form-7-js-extra'>
             var wpcf7 = { "api": { "root": "https:\/\/demo2.themelexus.com\/delicioz\/wp-json\/", "namespace": "contact-form-7\/v1" }, "cached": "1" };
         </script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.6.2'
+            src='/delicioz/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.6.2'
             id='contact-form-7-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.5.18'
+            src='/delicioz/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.5.18'
             defer async id='tp-tools-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.5.31'
+            src='/delicioz/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.5.31'
             defer async id='revmin-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.6.8.2'
+            src='/delicioz/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.6.8.2'
             id='jquery-blockui-js'></script>
         <script id='wc-add-to-cart-js-extra'>
             var wc_add_to_cart_params = { "ajax_url": "\/delicioz\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/delicioz\/?wc-ajax=%%endpoint%%", "i18n_view_cart": "", "cart_url": "https:\/\/demo2.themelexus.com\/delicioz\/cart\/", "is_cart": "", "cart_redirect_after_add": "no" };
         </script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=6.8.2'
+            src='/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=6.8.2'
             id='wc-add-to-cart-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.6.8.2'
+            src='/delicioz/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.6.8.2'
             id='js-cookie-js'></script>
         <script id='woocommerce-js-extra'>
             var woocommerce_params = { "ajax_url": "\/delicioz\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/delicioz\/?wc-ajax=%%endpoint%%" };
         </script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=6.8.2'
+            src='/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=6.8.2'
             id='woocommerce-js'></script>
         <script id='wc-cart-fragments-js-extra'>
             var wc_cart_fragments_params = { "ajax_url": "\/delicioz\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/delicioz\/?wc-ajax=%%endpoint%%", "cart_hash_key": "wc_cart_hash_fb254261fa3641bff9c309f0d976a3b1", "fragment_name": "wc_fragments_fb254261fa3641bff9c309f0d976a3b1", "request_timeout": "5000" };
         </script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=6.8.2'
+            src='/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=6.8.2'
             id='wc-cart-fragments-js'></script>
-        <script src='https://demo2.themelexus.com/delicioz/wp-includes/js/underscore.min.js?ver=1.13.3'
+        <script src='/delicioz/wp-includes/js/underscore.min.js?ver=1.13.3'
             id='underscore-js'></script>
         <script id='wp-util-js-extra'>
             var _wpUtilSettings = { "ajax": { "url": "\/delicioz\/wp-admin\/admin-ajax.php" } };
         </script>
-        <script src='https://demo2.themelexus.com/delicioz/wp-includes/js/wp-util.min.js?ver=6.0.2'
+        <script src='/delicioz/wp-includes/js/wp-util.min.js?ver=6.0.2'
             id='wp-util-js'></script>
         <script id='woo-variation-swatches-js-extra'>
             var woo_variation_swatches_options = { "show_variation_label": "1", "clear_on_reselect": "", "variation_label_separator": ":", "is_mobile": "", "show_variation_stock": "", "stock_label_threshold": "5", "cart_redirect_after_add": "no", "enable_ajax_add_to_cart": "yes", "cart_url": "https:\/\/demo2.themelexus.com\/delicioz\/cart\/", "is_cart": "" };
         </script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/plugins/woo-variation-swatches/assets/js/frontend.min.js?ver=1660386322'
+            src='/delicioz/wp-content/plugins/woo-variation-swatches/assets/js/frontend.min.js?ver=1660386322'
             id='woo-variation-swatches-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/table-head-fixer/table-head-fixer.js?ver=5.1.5'
+            src='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/table-head-fixer/table-head-fixer.js?ver=5.1.5'
             id='table-head-fixer-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js?ver=5.1.5'
+            src='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js?ver=5.1.5'
             id='perfect-scrollbar-js'></script>
-        <script src='https://demo2.themelexus.com/delicioz/wp-includes/js/jquery/ui/core.min.js?ver=1.13.1'
+        <script src='/delicioz/wp-includes/js/jquery/ui/core.min.js?ver=1.13.1'
             id='jquery-ui-core-js'></script>
-        <script src='https://demo2.themelexus.com/delicioz/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.1'
+        <script src='/delicioz/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.1'
             id='jquery-ui-mouse-js'></script>
-        <script src='https://demo2.themelexus.com/delicioz/wp-includes/js/jquery/ui/sortable.min.js?ver=1.13.1'
+        <script src='/delicioz/wp-includes/js/jquery/ui/sortable.min.js?ver=1.13.1'
             id='jquery-ui-sortable-js'></script>
         <script id='woosc-frontend-js-extra'>
             var woosc_vars = { "ajax_url": "https:\/\/demo2.themelexus.com\/delicioz\/wp-admin\/admin-ajax.php", "user_id": "5aa4ef0c5f6af53f117a6e44ea55d787", "page_url": "#", "open_button": "", "open_button_action": "open_popup", "menu_action": "open_popup", "button_action": "show_table", "sidebar_position": "right", "message_position": "right-top", "message_added": "{name} has been added to Compare list.", "message_removed": "{name} has been removed from the Compare list.", "message_exists": "{name} is already in the Compare list.", "open_bar": "", "bar_bubble": "no", "adding": "prepend", "click_again": "no", "hide_empty": "no", "click_outside": "yes", "freeze_column": "yes", "freeze_row": "yes", "scrollbar": "yes", "limit": "100", "button_text_change": "yes", "remove_all": "Do you want to remove all products from the compare?", "limit_notice": "You can add a maximum of {limit} products to the compare table.", "copied_text": "Share link %s was copied to clipboard!", "button_text": "Compare", "button_text_added": "Compare" };
         </script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/plugins/woo-smart-compare/assets/js/frontend.js?ver=5.1.5'
+            src='/delicioz/wp-content/plugins/woo-smart-compare/assets/js/frontend.js?ver=5.1.5'
             id='woosc-frontend-js'></script>
         <script id='wc-add-to-cart-variation-js-extra'>
             var wc_add_to_cart_variation_params = { "wc_ajax_url": "\/delicioz\/?wc-ajax=%%endpoint%%", "i18n_no_matching_variations_text": "Sorry, no products matched your selection. Please choose a different combination.", "i18n_make_a_selection_text": "Please select some product options before adding this product to your cart.", "i18n_unavailable_text": "Sorry, this product is unavailable. Please choose a different combination." };
         </script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=6.8.2'
+            src='/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=6.8.2'
             id='wc-add-to-cart-variation-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/js/libs/slick.min.js?ver=1.0.1'
+            src='/delicioz/wp-content/themes/delicioz/assets/js/libs/slick.min.js?ver=1.0.1'
             id='slick-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/js/libs/jquery.magnific-popup.min.js?ver=1.0.1'
+            src='/delicioz/wp-content/themes/delicioz/assets/js/libs/jquery.magnific-popup.min.js?ver=1.0.1'
             id='magnific-popup-js'></script>
         <script id='woosq-frontend-js-extra'>
             var woosq_vars = { "ajax_url": "https:\/\/demo2.themelexus.com\/delicioz\/wp-admin\/admin-ajax.php", "view": "popup", "effect": "mfp-3d-unfold", "scrollbar": "yes", "hashchange": "no", "cart_redirect": "no", "cart_url": "https:\/\/demo2.themelexus.com\/delicioz\/cart\/", "close": "Close (Esc)", "next": "Next (Right arrow key)", "prev": "Previous (Left arrow key)", "thumbnails_effect": "no", "related_slick_params": "{\"slidesToShow\":2,\"slidesToScroll\":2,\"dots\":true,\"arrows\":false,\"adaptiveHeight\":true,\"rtl\":false}", "thumbnails_slick_params": "{\"slidesToShow\":1,\"slidesToScroll\":1,\"dots\":true,\"arrows\":true,\"adaptiveHeight\":false,\"rtl\":false}", "thumbnails_zoom_params": "{\"duration\":120,\"magnify\":1}" };
         </script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/plugins/woo-smart-quick-view/assets/js/frontend.js?ver=3.1.2'
+            src='/delicioz/wp-content/plugins/woo-smart-quick-view/assets/js/frontend.js?ver=3.1.2'
             id='woosq-frontend-js'></script>
         <script id='woosw-frontend-js-extra'>
             var woosw_vars = { "ajax_url": "https:\/\/demo2.themelexus.com\/delicioz\/wp-admin\/admin-ajax.php", "menu_action": "open_page", "perfect_scrollbar": "yes", "wishlist_url": "https:\/\/demo2.themelexus.com\/delicioz\/wishlist\/", "button_action": "list", "message_position": "right-top", "button_action_added": "popup", "empty_confirm": "This action cannot be undone. Are you sure?", "delete_confirm": "This action cannot be undone. Are you sure?", "copied_text": "Copied the wishlist link:", "menu_text": "Wishlist", "button_text": "Add to wishlist", "button_text_added": "Browse wishlist" };
         </script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/plugins/woo-smart-wishlist/assets/js/frontend.js?ver=4.3.1'
+            src='/delicioz/wp-content/plugins/woo-smart-wishlist/assets/js/frontend.js?ver=4.3.1'
             id='woosw-frontend-js'></script>
         <script id='delicioz-theme-js-extra'>
             var deliciozAjax = { "ajaxurl": "https:\/\/demo2.themelexus.com\/delicioz\/wp-admin\/admin-ajax.php" };
         </script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/js/frontend/main.js?ver=1.0.1'
+            src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/main.js?ver=1.0.1'
             id='delicioz-theme-js'></script>
-        <script src='https://demo2.themelexus.com/delicioz/wp-includes/js/imagesloaded.min.js?ver=4.1.4'
+        <script src='/delicioz/wp-includes/js/imagesloaded.min.js?ver=4.1.4'
             id='imagesloaded-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/js/frontend/search-popup.js?ver=1.0.1'
+            src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/search-popup.js?ver=1.0.1'
             id='delicioz-search-popup-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/js/frontend/text-editor.js?ver=1.0.1'
+            src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/text-editor.js?ver=1.0.1'
             id='delicioz-text-editor-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/js/frontend/nav-mobile.js?ver=1.0.1'
+            src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/nav-mobile.js?ver=1.0.1'
             id='delicioz-nav-mobile-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/inc/megamenu/assets/js/frontend.js?ver=1.0.1'
+            src='/delicioz/wp-content/themes/delicioz/inc/megamenu/assets/js/frontend.js?ver=1.0.1'
             id='delicioz-megamenu-frontend-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/header-cart.min.js?ver=1.0.1'
+            src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/header-cart.min.js?ver=1.0.1'
             id='delicioz-header-cart-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/js/libs/tooltipster.bundle.js?ver=1.0.1'
+            src='/delicioz/wp-content/themes/delicioz/assets/js/libs/tooltipster.bundle.js?ver=1.0.1'
             id='tooltipster-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/product-ajax-search.min.js?ver=1.0.1'
+            src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/product-ajax-search.min.js?ver=1.0.1'
             id='delicioz-products-ajax-search-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/main.min.js?ver=1.0.1'
+            src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/main.min.js?ver=1.0.1'
             id='delicioz-products-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/quantity.min.js?ver=1.0.1'
+            src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/quantity.min.js?ver=1.0.1'
             id='delicioz-input-quantity-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/off-canvas.min.js?ver=1.0.1'
+            src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/off-canvas.min.js?ver=1.0.1'
             id='delicioz-off-canvas-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/cart-canvas.min.js?ver=1.0.1'
+            src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/cart-canvas.min.js?ver=1.0.1'
             id='delicioz-cart-canvas-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.7.3'
+            src='/delicioz/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.7.3'
             id='elementor-webpack-runtime-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.7.3'
+            src='/delicioz/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.7.3'
             id='elementor-frontend-modules-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2'
+            src='/delicioz/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2'
             id='elementor-waypoints-js'></script>
         <script id='elementor-frontend-js-before'>
             var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Extra", "value": 880, "default_value": 880, "direction": "max", "is_enabled": true }, "tablet": { "label": "Tablet", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Extra", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": true }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": true }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.7.3", "is_static": false, "experimentalFeatures": { "e_dom_optimization": true, "e_optimized_assets_loading": true, "e_optimized_css_loading": true, "a11y_improvements": true, "additional_custom_breakpoints": true, "e_import_export": true, "e_hidden_wordpress_widgets": true, "landing-pages": true, "elements-color-picker": true, "favorite-widgets": true, "admin-top-bar": true }, "urls": { "assets": "https:\/\/demo2.themelexus.com\/delicioz\/wp-content\/plugins\/elementor\/assets\/" }, "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_mobile_extra", "viewport_tablet", "viewport_tablet_extra", "viewport_laptop"], "body_background_background": "classic", "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 24, "title": "Home%203%20%E2%80%93%20Delicioz", "excerpt": "", "featuredImage": false }, "user": { "roles": ["customer"] } };
         </script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.7.3'
+            src='/delicioz/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.7.3'
             id='elementor-frontend-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/js/elementor/reservation-form.js?ver=1.0.1'
+            src='/delicioz/wp-content/themes/delicioz/assets/js/elementor/reservation-form.js?ver=1.0.1'
             id='delicioz-elementor-reservation-form-js'></script>
-        <script src='https://demo2.themelexus.com/delicioz/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.1'
+        <script src='/delicioz/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.1'
             id='jquery-ui-datepicker-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/js/elementor/menu-list.js?ver=1.0.1'
+            src='/delicioz/wp-content/themes/delicioz/assets/js/elementor/menu-list.js?ver=1.0.1'
             id='delicioz-elementor-menu-list-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/js/libs/TweenMax.min.js?ver=1.11.1'
+            src='/delicioz/wp-content/themes/delicioz/assets/js/libs/TweenMax.min.js?ver=1.11.1'
             id='tweenmax-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/js/elementor/testimonial.js?ver=1.0.1'
+            src='/delicioz/wp-content/themes/delicioz/assets/js/elementor/testimonial.js?ver=1.0.1'
             id='delicioz-elementor-testimonial-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/js/elementor/posts-grid.js?ver=1.0.1'
+            src='/delicioz/wp-content/themes/delicioz/assets/js/elementor/posts-grid.js?ver=1.0.1'
             id='delicioz-elementor-posts-grid-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/plugins/make-column-clickable-elementor/assets/js/make-column-clickable.js?ver=1.4.0'
+            src='/delicioz/wp-content/plugins/make-column-clickable-elementor/assets/js/make-column-clickable.js?ver=1.4.0'
             id='make-column-clickable-elementor-js'></script>
         <script defer
-            src='https://demo2.themelexus.com/delicioz/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.8.8'
+            src='/delicioz/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.8.8'
             id='mc4wp-forms-api-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/js/elementor-frontend.js?ver=1.0.1'
+            src='/delicioz/wp-content/themes/delicioz/assets/js/elementor-frontend.js?ver=1.0.1'
             id='delicioz-elementor-frontend-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/js/frontend/jquery.sticky.js?ver=1.0.1'
+            src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/jquery.sticky.js?ver=1.0.1'
             id='elementor-sticky-js'></script>
         <script
-            src='https://demo2.themelexus.com/delicioz/wp-content/themes/delicioz/assets/js/libs/sticky.js?ver=1.0.1'
+            src='/delicioz/wp-content/themes/delicioz/assets/js/libs/sticky.js?ver=1.0.1'
             id='delicioz-elementor-sticky-js'></script>
         <script id="rs-initialisation-scripts">
             var tpj = jQuery;
