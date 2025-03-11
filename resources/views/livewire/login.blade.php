@@ -1254,14 +1254,6 @@
                                         <div class="u-columns col2-set" id="customer_login">
 
                                             <div class="u-column1 login-form-col col-1">
-
-                                                <div>
-
-
-                                                    @if (session()->has('error'))
-                                                        <div class="error">{{ session('error') }}</div>
-                                                    @endif
-                                                </div>
                                                 <form class="woocommerce-form woocommerce-form-login login"
                                                 wire:submit.prevent="login">
 
