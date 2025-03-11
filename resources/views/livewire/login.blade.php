@@ -11,8 +11,7 @@
         <link rel='dns-prefetch' href='//demo2.themelexus.com' />
         <link rel='dns-prefetch' href='//fonts.googleapis.com' />
         <link rel='dns-prefetch' href='//s.w.org' />
-        <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Feed"
-            href="/delicioz/feed/" />
+        <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Feed" href="/delicioz/feed/" />
         <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Comments Feed"
             href="/delicioz/comments/feed/" />
         <script>
@@ -35,8 +34,7 @@
             }
         </style>
         <link rel='stylesheet' id='wp-block-library-css'
-            href='/delicioz/wp-includes/css/dist/block-library/style.min.css?ver=6.0.2'
-            media='all' />
+            href='/delicioz/wp-includes/css/dist/block-library/style.min.css?ver=6.0.2' media='all' />
         <style id='wp-block-library-theme-inline-css'>
             .wp-block-audio figcaption {
                 color: #555;
@@ -217,8 +215,7 @@
             href='/delicioz/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=8.0.0'
             media='all' />
         <link rel='stylesheet' id='delicioz-gutenberg-blocks-css'
-            href='/delicioz/wp-content/themes/delicioz/assets/css/base/gutenberg-blocks.css?ver=1.0.1'
-            media='all' />
+            href='/delicioz/wp-content/themes/delicioz/assets/css/base/gutenberg-blocks.css?ver=1.0.1' media='all' />
         <style id='global-styles-inline-css'>
             body {
                 --wp--preset--color--black: #000000;
@@ -470,13 +467,11 @@
             }
         </style>
         <link rel='stylesheet' id='contact-form-7-css'
-            href='/delicioz/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.6.2'
+            href='/delicioz/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.6.2' media='all' />
+        <link rel='stylesheet' id='-css' href='/delicioz/wp-content/plugins/opal-demo/style.css?ver=6.0.2'
             media='all' />
-        <link rel='stylesheet' id='-css'
-            href='/delicioz/wp-content/plugins/opal-demo/style.css?ver=6.0.2' media='all' />
         <link rel='stylesheet' id='select2-css'
-            href='/delicioz/wp-content/plugins/woocommerce/assets/css/select2.css?ver=6.8.2'
-            media='all' />
+            href='/delicioz/wp-content/plugins/woocommerce/assets/css/select2.css?ver=6.8.2' media='all' />
         <style id='woocommerce-inline-inline-css'>
             .woocommerce form .form-row .required {
                 visibility: visible;
@@ -489,26 +484,20 @@
             href='/delicioz/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.16.0'
             media='all' />
         <link rel='stylesheet' id='elementor-frontend-css'
-            href='/delicioz/wp-content/uploads/elementor/css/custom-frontend-lite.min.css?ver=1661932570'
-            media='all' />
+            href='/delicioz/wp-content/uploads/elementor/css/custom-frontend-lite.min.css?ver=1661932570' media='all' />
         <link rel='stylesheet' id='elementor-post-7-css'
-            href='/delicioz/wp-content/uploads/elementor/css/post-7.css?ver=1661932570'
-            media='all' />
+            href='/delicioz/wp-content/uploads/elementor/css/post-7.css?ver=1661932570' media='all' />
         <link rel='stylesheet' id='elementor-global-css'
-            href='/delicioz/wp-content/uploads/elementor/css/global.css?ver=1661932571'
-            media='all' />
+            href='/delicioz/wp-content/uploads/elementor/css/global.css?ver=1661932571' media='all' />
         <link rel='stylesheet' id='elementor-post-84-css'
-            href='/delicioz/wp-content/uploads/elementor/css/post-84.css?ver=1661932571'
-            media='all' />
+            href='/delicioz/wp-content/uploads/elementor/css/post-84.css?ver=1661932571' media='all' />
         <link rel='stylesheet' id='hfe-widgets-style-css'
             href='/delicioz/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.13'
             media='all' />
         <link rel='stylesheet' id='elementor-post-92-css'
-            href='/delicioz/wp-content/uploads/elementor/css/post-92.css?ver=1661932571'
-            media='all' />
+            href='/delicioz/wp-content/uploads/elementor/css/post-92.css?ver=1661932571' media='all' />
         <link rel='stylesheet' id='elementor-post-98-css'
-            href='/delicioz/wp-content/uploads/elementor/css/post-98.css?ver=1661932571'
-            media='all' />
+            href='/delicioz/wp-content/uploads/elementor/css/post-98.css?ver=1661932571' media='all' />
         <link rel='stylesheet' id='woo-variation-swatches-css'
             href='/delicioz/wp-content/plugins/woo-variation-swatches/assets/css/frontend.min.css?ver=1660386322'
             media='all' />
@@ -523,8 +512,7 @@
             }
         </style>
         <link rel='stylesheet' id='hint-css'
-            href='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/hint/hint.min.css?ver=6.0.2'
-            media='all' />
+            href='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/hint/hint.min.css?ver=6.0.2' media='all' />
         <link rel='stylesheet' id='perfect-scrollbar-css'
             href='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/perfect-scrollbar/css/perfect-scrollbar.min.css?ver=6.0.2'
             media='all' />
@@ -532,26 +520,22 @@
             href='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/perfect-scrollbar/css/custom-theme.css?ver=6.0.2'
             media='all' />
         <link rel='stylesheet' id='woosc-frontend-css'
-            href='/delicioz/wp-content/plugins/woo-smart-compare/assets/css/frontend.css?ver=5.1.5'
-            media='all' />
+            href='/delicioz/wp-content/plugins/woo-smart-compare/assets/css/frontend.css?ver=5.1.5' media='all' />
         <link rel='stylesheet' id='slick-css'
             href='/delicioz/wp-content/plugins/woo-smart-quick-view/assets/libs/slick/slick.css?ver=6.0.2'
             media='all' />
         <link rel='stylesheet' id='magnific-popup-css'
-            href='/delicioz/wp-content/themes/delicioz/assets/css/libs/magnific-popup.css?ver=1.0.1'
-            media='all' />
+            href='/delicioz/wp-content/themes/delicioz/assets/css/libs/magnific-popup.css?ver=1.0.1' media='all' />
         <link rel='stylesheet' id='woosq-feather-css'
             href='/delicioz/wp-content/plugins/woo-smart-quick-view/assets/libs/feather/feather.css?ver=6.0.2'
             media='all' />
         <link rel='stylesheet' id='woosq-frontend-css'
-            href='/delicioz/wp-content/plugins/woo-smart-quick-view/assets/css/frontend.css?ver=3.1.2'
-            media='all' />
+            href='/delicioz/wp-content/plugins/woo-smart-quick-view/assets/css/frontend.css?ver=3.1.2' media='all' />
         <link rel='stylesheet' id='woosw-feather-css'
             href='/delicioz/wp-content/plugins/woo-smart-wishlist/assets/libs/feather/feather.css?ver=6.0.2'
             media='all' />
         <link rel='stylesheet' id='woosw-frontend-css'
-            href='/delicioz/wp-content/plugins/woo-smart-wishlist/assets/css/frontend.css?ver=4.3.1'
-            media='all' />
+            href='/delicioz/wp-content/plugins/woo-smart-wishlist/assets/css/frontend.css?ver=4.3.1' media='all' />
         <style id='woosw-frontend-inline-css'>
             .woosw-popup .woosw-popup-inner .woosw-popup-content .woosw-popup-content-bot .woosw-notice {
                 background-color: #5fbd74;
@@ -565,8 +549,8 @@
         <link rel='stylesheet' id='delicioz-fonts-css'
             href='//fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&#038;subset=latin%2Clatin-ext&#038;display=swap'
             media='all' />
-        <link rel='stylesheet' id='delicioz-style-css'
-            href='/delicioz/wp-content/themes/delicioz/style.css?ver=1.0.1' media='all' />
+        <link rel='stylesheet' id='delicioz-style-css' href='/delicioz/wp-content/themes/delicioz/style.css?ver=1.0.1'
+            media='all' />
         <style id='delicioz-style-inline-css'>
             .col-full {
                 max-width: 1290px
@@ -983,20 +967,15 @@
             }
         </style>
         <link rel='stylesheet' id='delicioz-slick-style-css'
-            href='/delicioz/wp-content/themes/delicioz/assets/css/base/slick.css?ver=1.0.1'
-            media='all' />
+            href='/delicioz/wp-content/themes/delicioz/assets/css/base/slick.css?ver=1.0.1' media='all' />
         <link rel='stylesheet' id='delicioz-slick-theme-style-css'
-            href='/delicioz/wp-content/themes/delicioz/assets/css/base/slick-theme.css?ver=1.0.1'
-            media='all' />
+            href='/delicioz/wp-content/themes/delicioz/assets/css/base/slick-theme.css?ver=1.0.1' media='all' />
         <link rel='stylesheet' id='elementor-post-101-css'
-            href='/delicioz/wp-content/uploads/elementor/css/post-101.css?ver=1661932571'
-            media='all' />
+            href='/delicioz/wp-content/uploads/elementor/css/post-101.css?ver=1661932571' media='all' />
         <link rel='stylesheet' id='delicioz-elementor-css'
-            href='/delicioz/wp-content/themes/delicioz/assets/css/base/elementor.css?ver=1.0.1'
-            media='all' />
+            href='/delicioz/wp-content/themes/delicioz/assets/css/base/elementor.css?ver=1.0.1' media='all' />
         <link rel='stylesheet' id='delicioz-woocommerce-style-css'
-            href='/delicioz/wp-content/themes/delicioz/assets/css/woocommerce/woocommerce.css?ver=1.0.1'
-            media='all' />
+            href='/delicioz/wp-content/themes/delicioz/assets/css/woocommerce/woocommerce.css?ver=1.0.1' media='all' />
         <link rel='stylesheet' id='delicioz-child-style-css'
             href='/delicioz/wp-content/themes/demo-child/style.css?ver=1.0.0' media='all' />
         <link rel='stylesheet' id='google-fonts-1-css'
@@ -1013,20 +992,14 @@
         <script type="text/template" id="tmpl-unavailable-variation-template">
 	<p>Sorry, this product is unavailable. Please choose a different combination.</p>
 </script>
-        <script src='/delicioz/wp-includes/js/jquery/jquery.min.js?ver=3.6.0'
-            id='jquery-core-js'></script>
-        <script src='/delicioz/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2'
-            id='jquery-migrate-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/libs/jarallax.js?ver=6.0.2'
+        <script src='/delicioz/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+        <script src='/delicioz/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/jarallax.js?ver=6.0.2'
             id='jarallax-js'></script>
         <link rel="https://api.w.org/" href="/delicioz/wp-json/" />
-        <link rel="alternate" type="application/json"
-            href="/delicioz/wp-json/wp/v2/pages/12" />
-        <link rel="EditURI" type="application/rsd+xml" title="RSD"
-            href="/delicioz/xmlrpc.php?rsd" />
-        <link rel="wlwmanifest" type="application/wlwmanifest+xml"
-            href="/delicioz/wp-includes/wlwmanifest.xml" />
+        <link rel="alternate" type="application/json" href="/delicioz/wp-json/wp/v2/pages/12" />
+        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/delicioz/xmlrpc.php?rsd" />
+        <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/delicioz/wp-includes/wlwmanifest.xml" />
         <meta name="generator" content="WordPress 6.0.2" />
         <meta name="generator" content="WooCommerce 6.8.2" />
         <link rel="canonical" href="/delicioz/my-account/" />
@@ -1219,762 +1192,7 @@
             </defs>
         </svg>
         <div id="page" class="hfeed site">
-            <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-                <p class="main-title bhf-hidden" itemprop="headline"><a href="/"
-                        title="Delicioz" rel="home">Delicioz</a></p>
-                <div data-elementor-type="wp-post" data-elementor-id="84" class="elementor elementor-84">
-                    <div class="elementor-section elementor-top-section elementor-element elementor-element-8482736 elementor-section-content-middle elementor-section-stretched header-absolute elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                        data-id="8482736" data-element_type="section"
-                        data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-e890c86"
-                                data-id="e890c86" data-element_type="column"
-                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-a97701c elementor-widget elementor-widget-site-logo"
-                                        data-id="a97701c" data-element_type="widget"
-                                        data-widget_type="site-logo.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="hfe-site-logo">
-                                                <a data-elementor-open-lightbox="" class='elementor-clickable'
-                                                    href="/">
-                                                    <div class="hfe-site-logo-set">
-                                                        <div class="hfe-site-logo-container">
-                                                            <img class="hfe-site-logo-img elementor-animation-"
-                                                                src="/delicioz/wp-content/uploads/2022/07/logo.svg"
-                                                                alt="" />
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ab72718"
-                                data-id="ab72718" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-f19d126 elementor-hidden-tablet elementor-hidden-mobile_extra elementor-hidden-mobile elementor-widget elementor-widget-delicioz-nav-menu"
-                                        data-id="f19d126" data-element_type="widget"
-                                        data-widget_type="delicioz-nav-menu.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="elementor-nav-menu-wrapper">
-                                                <nav class="main-navigation" role="navigation"
-                                                    aria-label="Primary Navigation">
-                                                    <div class="primary-navigation">
-                                                        <ul id="menu-1-f19d126" class="menu">
-                                                            <li id="menu-item-58"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-58 has-mega-menu has-stretchwidth">
-                                                                <a href="/delicioz/"><span
-                                                                        class="menu-title">Home</span></a>
-                                                                <ul class="sub-menu mega-menu mega-stretchwidth">
-                                                                    <li class="mega-menu-item">
-                                                                        <div data-elementor-type="page"
-                                                                            data-elementor-id="671"
-                                                                            class="elementor elementor-671">
-                                                                            <div class="elementor-section elementor-top-section elementor-element elementor-element-2ebe1ba0 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                                                                data-id="2ebe1ba0"
-                                                                                data-element_type="section"
-                                                                                data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-                                                                                <div
-                                                                                    class="elementor-container elementor-column-gap-no">
-                                                                                    <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-20abfc4d"
-                                                                                        data-id="20abfc4d"
-                                                                                        data-element_type="column">
-                                                                                        <div
-                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                            <div class="elementor-element elementor-element-29fbefba image-style-delicioz-yes elementor-widget elementor-widget-image"
-                                                                                                data-id="29fbefba"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="image.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <style>
-                                                                                                        /*! elementor - v3.7.3 - 29-08-2022 */
-                                                                                                        .elementor-widget-image {
-                                                                                                            text-align: center
-                                                                                                        }
-
-                                                                                                        .elementor-widget-image a {
-                                                                                                            display: inline-block
-                                                                                                        }
-
-                                                                                                        .elementor-widget-image a img[src$=".svg"] {
-                                                                                                            width: 48px
-                                                                                                        }
-
-                                                                                                        .elementor-widget-image img {
-                                                                                                            vertical-align: middle;
-                                                                                                            display: inline-block
-                                                                                                        }
-                                                                                                    </style> <a
-                                                                                                        href="/delicioz/">
-                                                                                                        <img width="242"
-                                                                                                            height="280"
-                                                                                                            src="/delicioz/wp-content/uploads/2022/07/megamenu_home-1-2.jpg"
-                                                                                                            class="attachment-full size-full"
-                                                                                                            alt=""
-                                                                                                            loading="lazy" />
-                                                                                                    </a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-7da49b5d elementor-align-center elementor-button-link elementor-widget elementor-widget-button"
-                                                                                                data-id="7da49b5d"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="button.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="elementor-button-wrapper">
-                                                                                                        <a href="/delicioz/"
-                                                                                                            class="elementor-button-link elementor-button elementor-size-sm"
-                                                                                                            role="button">
-                                                                                                            <span
-                                                                                                                class="elementor-button-content-wrapper">
-                                                                                                                <span
-                                                                                                                    class="elementor-button-text">Homepage
-                                                                                                                    01</span>
-                                                                                                            </span>
-                                                                                                        </a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-17448c6"
-                                                                                        data-id="17448c6"
-                                                                                        data-element_type="column">
-                                                                                        <div
-                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                            <div class="elementor-element elementor-element-524921db image-style-delicioz-yes elementor-widget elementor-widget-image"
-                                                                                                data-id="524921db"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="image.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <a
-                                                                                                        href="/delicioz/home-2/">
-                                                                                                        <img width="242"
-                                                                                                            height="280"
-                                                                                                            src="/delicioz/wp-content/uploads/2022/07/megamenu_home-2.jpg"
-                                                                                                            class="attachment-full size-full"
-                                                                                                            alt=""
-                                                                                                            loading="lazy" />
-                                                                                                    </a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-45abb5b3 elementor-align-center elementor-button-link elementor-widget elementor-widget-button"
-                                                                                                data-id="45abb5b3"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="button.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="elementor-button-wrapper">
-                                                                                                        <a href="/delicioz/home-2/"
-                                                                                                            class="elementor-button-link elementor-button elementor-size-sm"
-                                                                                                            role="button">
-                                                                                                            <span
-                                                                                                                class="elementor-button-content-wrapper">
-                                                                                                                <span
-                                                                                                                    class="elementor-button-text">Homepage
-                                                                                                                    02</span>
-                                                                                                            </span>
-                                                                                                        </a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-2421fb4f"
-                                                                                        data-id="2421fb4f"
-                                                                                        data-element_type="column">
-                                                                                        <div
-                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                            <div class="elementor-element elementor-element-4a9e54bd image-style-delicioz-yes elementor-widget elementor-widget-image"
-                                                                                                data-id="4a9e54bd"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="image.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <a
-                                                                                                        href="/delicioz/home-3/">
-                                                                                                        <img width="242"
-                                                                                                            height="280"
-                                                                                                            src="/delicioz/wp-content/uploads/2022/07/megamenu_home-3.jpg"
-                                                                                                            class="attachment-full size-full"
-                                                                                                            alt=""
-                                                                                                            loading="lazy" />
-                                                                                                    </a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-41569e16 elementor-align-center elementor-button-link elementor-widget elementor-widget-button"
-                                                                                                data-id="41569e16"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="button.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="elementor-button-wrapper">
-                                                                                                        <a href="/delicioz/home-3/"
-                                                                                                            class="elementor-button-link elementor-button elementor-size-sm"
-                                                                                                            role="button">
-                                                                                                            <span
-                                                                                                                class="elementor-button-content-wrapper">
-                                                                                                                <span
-                                                                                                                    class="elementor-button-text">Homepage
-                                                                                                                    03</span>
-                                                                                                            </span>
-                                                                                                        </a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-7e891abb"
-                                                                                        data-id="7e891abb"
-                                                                                        data-element_type="column">
-                                                                                        <div
-                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                            <div class="elementor-element elementor-element-21182a21 image-style-delicioz-yes elementor-widget elementor-widget-image"
-                                                                                                data-id="21182a21"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="image.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <a
-                                                                                                        href="/delicioz/home-4/">
-                                                                                                        <img width="242"
-                                                                                                            height="280"
-                                                                                                            src="/delicioz/wp-content/uploads/2022/07/megamenu_home-4.jpg"
-                                                                                                            class="attachment-full size-full"
-                                                                                                            alt=""
-                                                                                                            loading="lazy" />
-                                                                                                    </a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-5571447 elementor-align-center elementor-button-link elementor-widget elementor-widget-button"
-                                                                                                data-id="5571447"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="button.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="elementor-button-wrapper">
-                                                                                                        <a href="/delicioz/home-4/"
-                                                                                                            class="elementor-button-link elementor-button elementor-size-sm"
-                                                                                                            role="button">
-                                                                                                            <span
-                                                                                                                class="elementor-button-content-wrapper">
-                                                                                                                <span
-                                                                                                                    class="elementor-button-text">Homepage
-                                                                                                                    04</span>
-                                                                                                            </span>
-                                                                                                        </a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-3bf6e6b2"
-                                                                                        data-id="3bf6e6b2"
-                                                                                        data-element_type="column">
-                                                                                        <div
-                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                            <div class="elementor-element elementor-element-17437caa image-style-delicioz-yes elementor-widget elementor-widget-image"
-                                                                                                data-id="17437caa"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="image.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <a
-                                                                                                        href="/delicioz/home-5/">
-                                                                                                        <img width="242"
-                                                                                                            height="280"
-                                                                                                            src="/delicioz/wp-content/uploads/2022/07/megamenu_home-5.jpg"
-                                                                                                            class="attachment-full size-full"
-                                                                                                            alt=""
-                                                                                                            loading="lazy" />
-                                                                                                    </a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-44e223f2 elementor-align-center elementor-button-link elementor-widget elementor-widget-button"
-                                                                                                data-id="44e223f2"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="button.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="elementor-button-wrapper">
-                                                                                                        <a href="/delicioz/home-5/"
-                                                                                                            class="elementor-button-link elementor-button elementor-size-sm"
-                                                                                                            role="button">
-                                                                                                            <span
-                                                                                                                class="elementor-button-content-wrapper">
-                                                                                                                <span
-                                                                                                                    class="elementor-button-text">Homepage
-                                                                                                                    05</span>
-                                                                                                            </span>
-                                                                                                        </a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                            <li id="menu-item-66"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-66">
-                                                                <a
-                                                                    href="/delicioz/about-us-1/"><span
-                                                                        class="menu-title">About</span></a>
-                                                                <ul class="sub-menu">
-                                                                    <li id="menu-item-67"
-                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67">
-                                                                        <a
-                                                                            href="/delicioz/about-us-1/"><span
-                                                                                class="menu-title">About us 1</span></a>
-                                                                    </li>
-                                                                    <li id="menu-item-65"
-                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65">
-                                                                        <a
-                                                                            href="/delicioz/about-us-2/"><span
-                                                                                class="menu-title">About us 2</span></a>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                            <li id="menu-item-64"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-64 has-mega-menu has-stretchwidth">
-                                                                <a
-                                                                    href="/delicioz/menu-list-01/"><span
-                                                                        class="menu-title">Menu</span></a>
-                                                                <ul class="sub-menu mega-menu mega-stretchwidth">
-                                                                    <li class="mega-menu-item">
-                                                                        <div data-elementor-type="page"
-                                                                            data-elementor-id="705"
-                                                                            class="elementor elementor-705">
-                                                                            <div class="elementor-section elementor-top-section elementor-element elementor-element-8308cc2 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                                                                data-id="8308cc2"
-                                                                                data-element_type="section"
-                                                                                data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-                                                                                <div
-                                                                                    class="elementor-container elementor-column-gap-no">
-                                                                                    <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-412f26c7"
-                                                                                        data-id="412f26c7"
-                                                                                        data-element_type="column">
-                                                                                        <div
-                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                            <div class="elementor-element elementor-element-711441a2 image-style-delicioz-yes elementor-widget elementor-widget-image"
-                                                                                                data-id="711441a2"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="image.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <a
-                                                                                                        href="/delicioz/menu-list-01/">
-                                                                                                        <img width="242"
-                                                                                                            height="242"
-                                                                                                            src="/delicioz/wp-content/uploads/2022/08/menu_list-1.jpg"
-                                                                                                            class="attachment-full size-full"
-                                                                                                            alt=""
-                                                                                                            loading="lazy"
-                                                                                                            srcset="/delicioz/wp-content/uploads/2022/08/menu_list-1.jpg 242w, /delicioz/wp-content/uploads/2022/08/menu_list-1-150x150.jpg 150w, /delicioz/wp-content/uploads/2022/08/menu_list-1-100x100.jpg 100w, /delicioz/wp-content/uploads/2022/08/menu_list-1-50x50.jpg 50w, /delicioz/wp-content/uploads/2022/08/menu_list-1-96x96.jpg 96w"
-                                                                                                            sizes="(max-width: 242px) 100vw, 242px" />
-                                                                                                    </a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-19203ac5 elementor-align-center elementor-button-link elementor-widget elementor-widget-button"
-                                                                                                data-id="19203ac5"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="button.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="elementor-button-wrapper">
-                                                                                                        <a href="/delicioz/menu-list-01/"
-                                                                                                            class="elementor-button-link elementor-button elementor-size-sm"
-                                                                                                            role="button">
-                                                                                                            <span
-                                                                                                                class="elementor-button-content-wrapper">
-                                                                                                                <span
-                                                                                                                    class="elementor-button-text">Menu
-                                                                                                                    List
-                                                                                                                    01</span>
-                                                                                                            </span>
-                                                                                                        </a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-1bb7add7"
-                                                                                        data-id="1bb7add7"
-                                                                                        data-element_type="column">
-                                                                                        <div
-                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                            <div class="elementor-element elementor-element-78cd9d6d image-style-delicioz-yes elementor-widget elementor-widget-image"
-                                                                                                data-id="78cd9d6d"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="image.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <a
-                                                                                                        href="/delicioz/menu-list-02/">
-                                                                                                        <img width="242"
-                                                                                                            height="242"
-                                                                                                            src="/delicioz/wp-content/uploads/2022/08/menu_list-2.jpg"
-                                                                                                            class="attachment-full size-full"
-                                                                                                            alt=""
-                                                                                                            loading="lazy"
-                                                                                                            srcset="/delicioz/wp-content/uploads/2022/08/menu_list-2.jpg 242w, /delicioz/wp-content/uploads/2022/08/menu_list-2-150x150.jpg 150w, /delicioz/wp-content/uploads/2022/08/menu_list-2-100x100.jpg 100w, /delicioz/wp-content/uploads/2022/08/menu_list-2-50x50.jpg 50w, /delicioz/wp-content/uploads/2022/08/menu_list-2-96x96.jpg 96w"
-                                                                                                            sizes="(max-width: 242px) 100vw, 242px" />
-                                                                                                    </a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-66f8dfac elementor-align-center elementor-button-link elementor-widget elementor-widget-button"
-                                                                                                data-id="66f8dfac"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="button.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="elementor-button-wrapper">
-                                                                                                        <a href="/delicioz/menu-list-02/"
-                                                                                                            class="elementor-button-link elementor-button elementor-size-sm"
-                                                                                                            role="button">
-                                                                                                            <span
-                                                                                                                class="elementor-button-content-wrapper">
-                                                                                                                <span
-                                                                                                                    class="elementor-button-text">Menu
-                                                                                                                    List
-                                                                                                                    02</span>
-                                                                                                            </span>
-                                                                                                        </a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-1283da95"
-                                                                                        data-id="1283da95"
-                                                                                        data-element_type="column">
-                                                                                        <div
-                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                            <div class="elementor-element elementor-element-1d3acd1c image-style-delicioz-yes elementor-widget elementor-widget-image"
-                                                                                                data-id="1d3acd1c"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="image.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <a
-                                                                                                        href="/delicioz/menu-grid/">
-                                                                                                        <img width="242"
-                                                                                                            height="242"
-                                                                                                            src="/delicioz/wp-content/uploads/2022/08/menu_list-3.jpg"
-                                                                                                            class="attachment-full size-full"
-                                                                                                            alt=""
-                                                                                                            loading="lazy"
-                                                                                                            srcset="/delicioz/wp-content/uploads/2022/08/menu_list-3.jpg 242w, /delicioz/wp-content/uploads/2022/08/menu_list-3-150x150.jpg 150w, /delicioz/wp-content/uploads/2022/08/menu_list-3-100x100.jpg 100w, /delicioz/wp-content/uploads/2022/08/menu_list-3-50x50.jpg 50w, /delicioz/wp-content/uploads/2022/08/menu_list-3-96x96.jpg 96w"
-                                                                                                            sizes="(max-width: 242px) 100vw, 242px" />
-                                                                                                    </a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-29eb3d89 elementor-align-center elementor-button-link elementor-widget elementor-widget-button"
-                                                                                                data-id="29eb3d89"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="button.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="elementor-button-wrapper">
-                                                                                                        <a href="/delicioz/menu-grid/"
-                                                                                                            class="elementor-button-link elementor-button elementor-size-sm"
-                                                                                                            role="button">
-                                                                                                            <span
-                                                                                                                class="elementor-button-content-wrapper">
-                                                                                                                <span
-                                                                                                                    class="elementor-button-text">Menu
-                                                                                                                    Grid</span>
-                                                                                                            </span>
-                                                                                                        </a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-52670eb5"
-                                                                                        data-id="52670eb5"
-                                                                                        data-element_type="column">
-                                                                                        <div
-                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                            <div class="elementor-element elementor-element-3559280d image-style-delicioz-yes elementor-widget elementor-widget-image"
-                                                                                                data-id="3559280d"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="image.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <a
-                                                                                                        href="/delicioz/menu-tab/">
-                                                                                                        <img width="242"
-                                                                                                            height="242"
-                                                                                                            src="/delicioz/wp-content/uploads/2022/08/menu_list-4.jpg"
-                                                                                                            class="attachment-full size-full"
-                                                                                                            alt=""
-                                                                                                            loading="lazy"
-                                                                                                            srcset="/delicioz/wp-content/uploads/2022/08/menu_list-4.jpg 242w, /delicioz/wp-content/uploads/2022/08/menu_list-4-150x150.jpg 150w, /delicioz/wp-content/uploads/2022/08/menu_list-4-100x100.jpg 100w, /delicioz/wp-content/uploads/2022/08/menu_list-4-50x50.jpg 50w, /delicioz/wp-content/uploads/2022/08/menu_list-4-96x96.jpg 96w"
-                                                                                                            sizes="(max-width: 242px) 100vw, 242px" />
-                                                                                                    </a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-38710ae9 elementor-align-center elementor-button-link elementor-widget elementor-widget-button"
-                                                                                                data-id="38710ae9"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="button.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="elementor-button-wrapper">
-                                                                                                        <a href="/delicioz/menu-tab/"
-                                                                                                            class="elementor-button-link elementor-button elementor-size-sm"
-                                                                                                            role="button">
-                                                                                                            <span
-                                                                                                                class="elementor-button-content-wrapper">
-                                                                                                                <span
-                                                                                                                    class="elementor-button-text">Menu
-                                                                                                                    Tab</span>
-                                                                                                            </span>
-                                                                                                        </a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-7c6e8400"
-                                                                                        data-id="7c6e8400"
-                                                                                        data-element_type="column">
-                                                                                        <div
-                                                                                            class="elementor-widget-wrap elementor-element-populated">
-                                                                                            <div class="elementor-element elementor-element-27918604 image-style-delicioz-yes elementor-widget elementor-widget-image"
-                                                                                                data-id="27918604"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="image.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <a
-                                                                                                        href="/delicioz/menu-woocommerce/">
-                                                                                                        <img width="242"
-                                                                                                            height="242"
-                                                                                                            src="/delicioz/wp-content/uploads/2022/08/menu_list-5.jpg"
-                                                                                                            class="attachment-full size-full"
-                                                                                                            alt=""
-                                                                                                            loading="lazy"
-                                                                                                            srcset="/delicioz/wp-content/uploads/2022/08/menu_list-5.jpg 242w, /delicioz/wp-content/uploads/2022/08/menu_list-5-150x150.jpg 150w, /delicioz/wp-content/uploads/2022/08/menu_list-5-100x100.jpg 100w, /delicioz/wp-content/uploads/2022/08/menu_list-5-50x50.jpg 50w, /delicioz/wp-content/uploads/2022/08/menu_list-5-96x96.jpg 96w"
-                                                                                                            sizes="(max-width: 242px) 100vw, 242px" />
-                                                                                                    </a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="elementor-element elementor-element-2a338196 elementor-align-center elementor-button-link elementor-widget elementor-widget-button"
-                                                                                                data-id="2a338196"
-                                                                                                data-element_type="widget"
-                                                                                                data-widget_type="button.default">
-                                                                                                <div
-                                                                                                    class="elementor-widget-container">
-                                                                                                    <div
-                                                                                                        class="elementor-button-wrapper">
-                                                                                                        <a href="/delicioz/menu-woocommerce/"
-                                                                                                            class="elementor-button-link elementor-button elementor-size-sm"
-                                                                                                            role="button">
-                                                                                                            <span
-                                                                                                                class="elementor-button-content-wrapper">
-                                                                                                                <span
-                                                                                                                    class="elementor-button-text">Menu
-                                                                                                                    Woocommerce</span>
-                                                                                                            </span>
-                                                                                                        </a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                            <li id="menu-item-73"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-73">
-                                                                <a href="/delicioz/blog/"><span
-                                                                        class="menu-title">Blog</span></a>
-                                                                <ul class="sub-menu">
-                                                                    <li id="menu-item-222"
-                                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-222">
-                                                                        <a
-                                                                            href="/delicioz/blog/"><span
-                                                                                class="menu-title">Blog
-                                                                                Standard</span></a></li>
-                                                                    <li id="menu-item-223"
-                                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-223">
-                                                                        <a
-                                                                            href="/delicioz/blog/?blog_style=style-2&#038;blog_columns=3&#038;blog_sidebar=none"><span
-                                                                                class="menu-title">Blog Grid
-                                                                                01</span></a></li>
-                                                                    <li id="menu-item-224"
-                                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-224">
-                                                                        <a
-                                                                            href="/delicioz/blog/?blog_style=style-1&#038;blog_columns=3&#038;blog_sidebar=none"><span
-                                                                                class="menu-title">Blog Grid
-                                                                                02</span></a></li>
-                                                                    <li id="menu-item-225"
-                                                                        class="menu-item menu-item-type-post_type menu-item-object-post menu-item-225">
-                                                                        <a
-                                                                            href="/delicioz/how-to-choose-the-best-type-of-combi-oven/"><span
-                                                                                class="menu-title">Single
-                                                                                Post</span></a></li>
-                                                                </ul>
-                                                            </li>
-                                                            <li id="menu-item-74"
-                                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-74">
-                                                                <a href="#"><span class="menu-title">Pages</span></a>
-                                                                <ul class="sub-menu">
-                                                                    <li id="menu-item-77"
-                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77">
-                                                                        <a
-                                                                            href="/delicioz/reservation/"><span
-                                                                                class="menu-title">Reservation (Contact
-                                                                                Form 7)</span></a></li>
-                                                                    <li id="menu-item-76"
-                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76">
-                                                                        <a
-                                                                            href="/delicioz/reservation-2/"><span
-                                                                                class="menu-title">Reservation (Open
-                                                                                Table)</span></a></li>
-                                                                    <li id="menu-item-79"
-                                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-79">
-                                                                        <a
-                                                                            href="/delicioz/404"><span
-                                                                                class="menu-title">404 Error</span></a>
-                                                                    </li>
-                                                                    <li id="menu-item-82"
-                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82">
-                                                                        <a
-                                                                            href="/delicioz/icons/"><span
-                                                                                class="menu-title">Icons</span></a></li>
-                                                                </ul>
-                                                            </li>
-                                                            <li id="menu-item-506"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-506">
-                                                                <a href="/delicioz/shop/"><span
-                                                                        class="menu-title">Shop</span></a>
-                                                                <ul class="sub-menu">
-                                                                    <li id="menu-item-507"
-                                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-507">
-                                                                        <a
-                                                                            href="/delicioz/shop/?woocommerce_archive_sidebar=left"><span
-                                                                                class="menu-title">Shop
-                                                                                Sidebar</span></a></li>
-                                                                    <li id="menu-item-508"
-                                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-508">
-                                                                        <a
-                                                                            href="/delicioz/shop/?woocommerce_archive_layout=canvas&#038;woocommerce_catalog_columns=4"><span
-                                                                                class="menu-title">Shop
-                                                                                Fullwidth</span></a></li>
-                                                                    <li id="menu-item-509"
-                                                                        class="menu-item menu-item-type-post_type menu-item-object-product menu-item-509">
-                                                                        <a
-                                                                            href="/delicioz/product/grilled-salmon/"><span
-                                                                                class="menu-title">Single
-                                                                                Product</span></a></li>
-                                                                </ul>
-                                                            </li>
-                                                            <li id="menu-item-75"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75">
-                                                                <a
-                                                                    href="/delicioz/contact-us/"><span
-                                                                        class="menu-title">Contact</span></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </nav>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="elementor-element elementor-element-6c082b3 elementor-widget__width-auto elementor-hidden-desktop elementor-hidden-laptop elementor-hidden-tablet_extra delicioz-canvas-menu-layout-2 elementor-widget elementor-widget-delicioz-menu-canvas"
-                                        data-id="6c082b3" data-element_type="widget"
-                                        data-widget_type="delicioz-menu-canvas.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="elementor-canvas-menu-wrapper">
-                                                <a href="#" class="menu-mobile-nav-button">
-                                                    <span class="toggle-text screen-reader-text">Menu</span>
-                                                    <div class="delicioz-icon">
-                                                        <span class="icon-1"></span>
-                                                        <span class="icon-2"></span>
-                                                        <span class="icon-3"></span>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-aa65abd elementor-hidden-tablet elementor-hidden-mobile_extra elementor-hidden-mobile"
-                                data-id="aa65abd" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-3d4bbca elementor-widget__width-auto elementor-widget elementor-widget-delicioz-header-group"
-                                        data-id="3d4bbca" data-element_type="widget"
-                                        data-widget_type="delicioz-header-group.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="elementor-header-group-wrapper">
-                                                <div class="header-group-action">
-
-
-                                                    <div class="site-header-account">
-                                                        <a href="/delicioz/my-account/">
-                                                            <i class="delicioz-icon-account"></i>
-                                                        </a>
-                                                        <div class="account-dropdown">
-
-                                                        </div>
-                                                    </div>
-
-
-                                                    <div class="site-header-cart menu">
-                                                        <a class="cart-contents"
-                                                            href="/delicioz/cart/"
-                                                            title="View your shopping cart">
-                                                            <span class="count">0</span>
-                                                            <span class="woocommerce-Price-amount amount"><bdi><span
-                                                                        class="woocommerce-Price-currencySymbol">&#36;</span>0.00</bdi></span>
-                                                        </a>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="elementor-element elementor-element-50a58f1 elementor-widget__width-auto elementor-button-default elementor-widget elementor-widget-button"
-                                        data-id="50a58f1" data-element_type="widget" data-widget_type="button.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="elementor-button-wrapper">
-                                                <a href="/delicioz/reservation/"
-                                                    class="elementor-button-link elementor-button elementor-size-sm"
-                                                    role="button">
-                                                    <span class="elementor-button-content-wrapper">
-                                                        <span class="elementor-button-text">reservation</span>
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
+            @livewire('inc.header')
 
             <div class="breadcrumb-wrap">
                 <div data-elementor-type="wp-post" data-elementor-id="101" class="elementor elementor-101">
@@ -1992,8 +1210,7 @@
                                         data-widget_type="woocommerce-breadcrumb.default">
                                         <div class="elementor-widget-container">
                                             <div class="delicioz-woocommerce-title">My account</div>
-                                            <nav class="woocommerce-breadcrumb"><a
-                                                    href="/">Home Page</a><i
+                                            <nav class="woocommerce-breadcrumb"><a href="/">Home Page</a><i
                                                     class="delicioz-icon-arrow-right-s-line"></i>My account</nav>
                                         </div>
                                     </div>
@@ -2006,7 +1223,26 @@
             <div id="content" class="site-content" tabindex="-1">
                 <div class="col-full">
 
-                    <div class="woocommerce"></div>
+                    <div class="woocommerce">
+                        @if (session()->has('message'))
+                            <ul class="woocommerce-error" style="background-color: green;" role="alert">
+                                <li>
+                                    <strong>Thông báo:</strong> {{ session('message') }}
+                                </li>
+                            </ul>
+
+                        @endif
+
+                        @if (session()->has('error'))
+                            <ul class="woocommerce-error" role="alert">
+                                <li>
+                                    <strong>Lỗi:</strong> {{ session('error') }}
+                                </li>
+                            </ul>
+
+                        @endif
+
+                    </div>
                     <div id="primary">
                         <main id="main" class="site-main">
 
@@ -2019,38 +1255,41 @@
 
                                             <div class="u-column1 login-form-col col-1">
 
+                                                <div>
 
+
+                                                    @if (session()->has('error'))
+                                                        <div class="error">{{ session('error') }}</div>
+                                                    @endif
+                                                </div>
                                                 <form class="woocommerce-form woocommerce-form-login login"
-                                                    method="post">
+                                                wire:submit.prevent="login">
 
                                                     <div class="woocommerce-form-login-wrap">
                                                         <h2 class="login-form-title">Login</h2>
                                                         <p
                                                             class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-                                                            <label for="username">Username or email address &nbsp;<span
+                                                            <label for="username">Email hoặc số điện thoại &nbsp;<span
                                                                     class="required">*</span></label>
                                                             <input type="text"
                                                                 class="woocommerce-Input woocommerce-Input--text input-text"
-                                                                name="username" id="username" autocomplete="username"
-                                                                value=""
-                                                                placeholder="Enter your username or email address..." />
+                                                                wire:model="email_or_phone"
+                                                                placeholder="Nhập email hoặc số điện thoại..." required />
                                                         </p>
                                                         <p
                                                             class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-                                                            <label for="password">Password &nbsp;<span
+                                                            <label for="password">Mật khẩu &nbsp;<span
                                                                     class="required">*</span></label>
                                                             <input
                                                                 class="woocommerce-Input woocommerce-Input--text input-text"
-                                                                type="password" name="password" id="password"
-                                                                autocomplete="current-password"
-                                                                placeholder="Enter your password..." />
+                                                                wire:model="password"
+                                                                placeholder="Nhập mật khẩu..." required />
                                                         </p>
                                                         <label
                                                             class="woocommerce-form__label woocommerce-form__label-for-checkbox woocommerce-form-login__rememberme">
-                                                            <input
+                                                            <input type="checkbox"
                                                                 class="woocommerce-form__input woocommerce-form__input-checkbox"
-                                                                name="rememberme" type="checkbox" id="rememberme"
-                                                                value="forever" />
+                                                                wire:model="remember" />
                                                             <span>Remember me</span>
                                                         </label>
                                                         <input type="hidden" id="woocommerce-login-nonce"
@@ -2058,13 +1297,12 @@
                                                             type="hidden" name="_wp_http_referer"
                                                             value="/delicioz/my-account/" />
                                                         <p class="woocommerce-LostPassword lost_password">
-                                                            <a
-                                                                href="/delicioz/my-account/lost-password/">Lost
+                                                            <a href="/delicioz/my-account/lost-password/">Lost
                                                                 your password?</a>
                                                         </p>
                                                         <button type="submit"
                                                             class="woocommerce-button button woocommerce-form-login__submit"
-                                                            name="login" value="Log in">Log in</button>
+                                                            >Log in</button>
                                                     </div>
 
 
@@ -2073,51 +1311,62 @@
 
 
                                             </div>
-
                                             <div class="u-column2 col-2">
-
-
-                                                <form method="post"
-                                                    class="woocommerce-form woocommerce-form-register register">
+                                                <form wire:submit.prevent="register" style="
+                                                min-width: 400px;
+                                                max-width: 440px;
+                                            " class="woocommerce-form woocommerce-form-register register">
 
                                                     <h2 class="register-from-title">Register</h2>
 
 
                                                     <p
                                                         class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-                                                        <label for="reg_email">Email address &nbsp;<span
-                                                                class="required">*</span></label>
-                                                        <input type="email"
+                                                        <label for="reg_email">Tên &nbsp;<span class="">*</span></label>
+                                                        <input type="text"
                                                             class="woocommerce-Input woocommerce-Input--text input-text"
-                                                            name="email" id="reg_email" autocomplete="email" value=""
-                                                            placeholder="Enter your email..." />
+                                                            wire:model="name" placeholder="Nhập tên..." />
                                                     </p>
 
 
-                                                    <p>A password will be sent to your email address.</p>
 
 
-                                                    <div class="woocommerce-privacy-policy-text">
-                                                        <p>Your personal data will be used to support your experience
-                                                            throughout this website, to manage access to your account,
-                                                            and for other purposes described in our <a href=""
-                                                                class="woocommerce-privacy-policy-link"
-                                                                target="_blank">privacy policy</a>.</p>
-                                                    </div>
+                                                    <p
+                                                        class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                                        <label for="reg_email">Email &nbsp;<span
+                                                                class="">*</span></label>
+                                                        <input type="email"
+                                                            class="woocommerce-Input woocommerce-Input--text input-text"
+                                                            wire:model="email" placeholder="Nhập email..." />
+                                                    </p>
+                                                    <p
+                                                        class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                                        <label for="reg_email">Số điện thoại &nbsp;<span
+                                                                class="">*</span></label>
+                                                        <input type="text"
+                                                            class="woocommerce-Input woocommerce-Input--text input-text"
+                                                            wire:model="phone" placeholder="Nhập số điện thoại..." />
+                                                    </p>
+                                                    <p
+                                                        class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                                        <label for="reg_email">Mật khẩu &nbsp;<span
+                                                                class="">*</span></label>
+                                                        <input type="password"
+                                                            class="woocommerce-Input woocommerce-Input--text input-text"
+                                                            wire:model="password_register" placeholder="Nhập mật khẩu..." />
+                                                    </p>
+
+
                                                     <p class="woocommerce-FormRow form-row">
-                                                        <input type="hidden" id="woocommerce-register-nonce"
-                                                            name="woocommerce-register-nonce"
-                                                            value="4548489b9a" /><input type="hidden"
-                                                            name="_wp_http_referer" value="/delicioz/my-account/" />
                                                         <button type="submit"
                                                             class="woocommerce-Button woocommerce-button button woocommerce-form-register__submit"
-                                                            name="register" value="Register">Register</button>
+                                                            type="submit">Đăng ký</button>
                                                     </p>
 
 
                                                 </form>
-
                                             </div>
+
 
                                         </div>
 
@@ -2132,87 +1381,7 @@
                 </div><!-- .col-full -->
             </div><!-- #content -->
 
-            <div class='footer-width-fixer'>
-                <div data-elementor-type="wp-post" data-elementor-id="98" class="elementor elementor-98">
-                    <div class="elementor-section elementor-top-section elementor-element elementor-element-cb25823 elementor-section-content-middle elementor-section-stretched elementor-hidden-desktop elementor-hidden-laptop elementor-hidden-tablet_extra elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                        data-id="cb25823" data-element_type="section"
-                        data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-c2b332e"
-                                data-id="c2b332e" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-79cef6e elementor-widget elementor-widget-delicioz-search"
-                                        data-id="79cef6e" data-element_type="widget"
-                                        data-widget_type="delicioz-search.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="site-header-search">
-                                                <a href="#" class="button-search-popup">
-                                                    <i class="delicioz-icon-search"></i>
-                                                    <span class="content">Search</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="make-column-clickable-elementor elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-810d48b"
-                                style="cursor: pointer;"
-                                data-column-clickable="https://demo2.themelexus.com/radist/my-account/"
-                                data-column-clickable-blank="_self" data-id="810d48b" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-689b65e elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                                        data-id="689b65e" data-element_type="widget"
-                                        data-widget_type="icon-box.default">
-                                        <div class="elementor-widget-container">
-                                            <link rel="stylesheet"
-                                                href="/delicioz/wp-content/uploads/elementor/css/custom-widget-icon-box.min.css?ver=1661932589">
-                                            <div class="elementor-icon-box-wrapper">
-                                                <div class="elementor-icon-box-icon">
-                                                    <a class="elementor-icon elementor-animation-"
-                                                        href="/delicioz/my-account/">
-                                                        <i aria-hidden="true"
-                                                            class="delicioz-icon- delicioz-icon-account"></i> </a>
-                                                </div>
-                                                <div class="elementor-icon-box-content">
-                                                    <h3 class="elementor-icon-box-title">
-                                                        <a href="/delicioz/my-account/">
-                                                            Account </a>
-                                                    </h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a3bae29"
-                                data-id="a3bae29" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-08c35d8 elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                                        data-id="08c35d8" data-element_type="widget"
-                                        data-widget_type="icon-box.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="elementor-icon-box-wrapper">
-                                                <div class="elementor-icon-box-icon">
-                                                    <a class="elementor-icon elementor-animation-"
-                                                        href="/delicioz/cart/">
-                                                        <i aria-hidden="true"
-                                                            class="delicioz-icon- delicioz-icon-cart-2"></i> </a>
-                                                </div>
-                                                <div class="elementor-icon-box-content">
-                                                    <h3 class="elementor-icon-box-title">
-                                                        <a href="/delicioz/cart/">
-                                                            Cart </a>
-                                                    </h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
             @livewire('inc.footer')
 
 
@@ -2220,87 +1389,7 @@
 
         @livewire('inc.menu-mobile')
 
-        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-        <script>
-            window.RS_MODULES = window.RS_MODULES || {};
-            window.RS_MODULES.modules = window.RS_MODULES.modules || {};
-            window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
-            window.RS_MODULES.defered = true;
-            window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
-            window.RS_MODULES.type = 'compiled';
-        </script>
-        <div class="site-search-popup">
-            <div class="site-search-popup-wrap">
-                <a href="#" class="site-search-popup-close"><i class="delicioz-icon-times-circle"></i></a>
-                <div class="site-search ajax-search">
-                    <div class="widget woocommerce widget_product_search">
-                        <div class="ajax-search-result d-none"></div>
-                        <form role="search" method="get" class="woocommerce-product-search"
-                            action="/delicioz/">
-                            <label class="screen-reader-text" for="woocommerce-product-search-field-1">Search
-                                for:</label>
-                            <input type="search" id="woocommerce-product-search-field-1" class="search-field"
-                                placeholder="Search products&hellip;" autocomplete="off" value="" name="s" />
-                            <button type="submit" value="Search">Search</button>
-                            <input type="hidden" name="post_type" value="product" />
-                            <div class="search-by-category input-dropdown">
-                                <div class="input-dropdown-inner delicioz-scroll-content">
-                                    <!--                    <input type="hidden" name="product_cat" value="0">-->
-                                    <a href="#" data-val="0"><span>All category</span></a>
-                                    <select name='product_cat' id='product_cat0' class='dropdown_product_cat_ajax'>
-                                        <option value='' selected='selected'>All category</option>
-                                        <option class="level-0" value="accessories">Accessories</option>
-                                        <option class="level-0" value="desserts">Desserts</option>
-                                        <option class="level-0" value="food">Food</option>
-                                        <option class="level-0" value="humburger">Humburger</option>
-                                        <option class="level-0" value="recipes">Recipes</option>
-                                        <option class="level-0" value="uncategorized">Uncategorized</option>
-                                        <option class="level-0" value="whiskey">Whiskey</option>
-                                    </select>
-                                    <div class="list-wrapper delicioz-scroll">
-                                        <ul class="delicioz-scroll-content">
-                                            <li class="d-none">
-                                                <a href="#" data-val="0">All category</a>
-                                            </li>
-                                            <li class="cat-item cat-item-42"><a class="pf-value"
-                                                    href="/delicioz/product-category/accessories/"
-                                                    data-val="accessories" data-title="Accessories">Accessories</a>
-                                            </li>
-                                            <li class="cat-item cat-item-35"><a class="pf-value"
-                                                    href="/delicioz/product-category/desserts/"
-                                                    data-val="desserts" data-title="Desserts">Desserts</a>
-                                            </li>
-                                            <li class="cat-item cat-item-38"><a class="pf-value"
-                                                    href="/delicioz/product-category/food/"
-                                                    data-val="food" data-title="Food">Food</a>
-                                            </li>
-                                            <li class="cat-item cat-item-40"><a class="pf-value"
-                                                    href="/delicioz/product-category/humburger/"
-                                                    data-val="humburger" data-title="Humburger">Humburger</a>
-                                            </li>
-                                            <li class="cat-item cat-item-39"><a class="pf-value"
-                                                    href="/delicioz/product-category/recipes/"
-                                                    data-val="recipes" data-title="Recipes">Recipes</a>
-                                            </li>
-                                            <li class="cat-item cat-item-15"><a class="pf-value"
-                                                    href="/delicioz/product-category/uncategorized/"
-                                                    data-val="uncategorized"
-                                                    data-title="Uncategorized">Uncategorized</a>
-                                            </li>
-                                            <li class="cat-item cat-item-37"><a class="pf-value"
-                                                    href="/delicioz/product-category/whiskey/"
-                                                    data-val="whiskey" data-title="Whiskey">Whiskey</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="site-search-popup-overlay"></div>
+
         <script>(function () {
                 function maybePrefixUrlField() {
                     if (this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
@@ -2451,73 +1540,58 @@
         </div>
         <div class="cart-side-overlay"></div>
         <link rel='stylesheet' id='elementor-post-671-css'
-            href='/delicioz/wp-content/uploads/elementor/css/post-671.css?ver=1661932588'
-            media='all' />
+            href='/delicioz/wp-content/uploads/elementor/css/post-671.css?ver=1661932588' media='all' />
         <link rel='stylesheet' id='elementor-post-705-css'
-            href='/delicioz/wp-content/uploads/elementor/css/post-705.css?ver=1661932588'
-            media='all' />
+            href='/delicioz/wp-content/uploads/elementor/css/post-705.css?ver=1661932588' media='all' />
         <link rel='stylesheet' id='rs-plugin-settings-css'
-            href='/delicioz/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.5.31'
-            media='all' />
+            href='/delicioz/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.5.31' media='all' />
         <style id='rs-plugin-settings-inline-css'>
             #rs-demo-id {}
         </style>
-        <script
-            src='/delicioz/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9'
+        <script src='/delicioz/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9'
             id='regenerator-runtime-js'></script>
-        <script src='/delicioz/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0'
-            id='wp-polyfill-js'></script>
+        <script src='/delicioz/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
         <script id='contact-form-7-js-extra'>
             var wpcf7 = { "api": { "root": "https:\/\/demo2.themelexus.com\/delicioz\/wp-json\/", "namespace": "contact-form-7\/v1" }, "cached": "1" };
         </script>
-        <script
-            src='/delicioz/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.6.2'
+        <script src='/delicioz/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.6.2'
             id='contact-form-7-js'></script>
-        <script
-            src='/delicioz/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.5.18'
-            defer async id='tp-tools-js'></script>
-        <script
-            src='/delicioz/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.5.31'
-            defer async id='revmin-js'></script>
+        <script src='/delicioz/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.5.18' defer async
+            id='tp-tools-js'></script>
+        <script src='/delicioz/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.5.31' defer async
+            id='revmin-js'></script>
         <script
             src='/delicioz/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.6.8.2'
             id='jquery-blockui-js'></script>
         <script id='wc-add-to-cart-js-extra'>
             var wc_add_to_cart_params = { "ajax_url": "\/delicioz\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/delicioz\/?wc-ajax=%%endpoint%%", "i18n_view_cart": "", "cart_url": "https:\/\/demo2.themelexus.com\/delicioz\/cart\/", "is_cart": "", "cart_redirect_after_add": "no" };
         </script>
-        <script
-            src='/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=6.8.2'
+        <script src='/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=6.8.2'
             id='wc-add-to-cart-js'></script>
         <script
             src='/delicioz/wp-content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js?ver=1.0.9-wc.6.8.2'
             id='selectWoo-js'></script>
-        <script
-            src='/delicioz/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.6.8.2'
+        <script src='/delicioz/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.6.8.2'
             id='js-cookie-js'></script>
         <script id='woocommerce-js-extra'>
             var woocommerce_params = { "ajax_url": "\/delicioz\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/delicioz\/?wc-ajax=%%endpoint%%" };
         </script>
-        <script
-            src='/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=6.8.2'
+        <script src='/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=6.8.2'
             id='woocommerce-js'></script>
         <script id='wc-cart-fragments-js-extra'>
             var wc_cart_fragments_params = { "ajax_url": "\/delicioz\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/delicioz\/?wc-ajax=%%endpoint%%", "cart_hash_key": "wc_cart_hash_fb254261fa3641bff9c309f0d976a3b1", "fragment_name": "wc_fragments_fb254261fa3641bff9c309f0d976a3b1", "request_timeout": "5000" };
         </script>
-        <script
-            src='/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=6.8.2'
+        <script src='/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=6.8.2'
             id='wc-cart-fragments-js'></script>
-        <script src='/delicioz/wp-includes/js/underscore.min.js?ver=1.13.3'
-            id='underscore-js'></script>
+        <script src='/delicioz/wp-includes/js/underscore.min.js?ver=1.13.3' id='underscore-js'></script>
         <script id='wp-util-js-extra'>
             var _wpUtilSettings = { "ajax": { "url": "\/delicioz\/wp-admin\/admin-ajax.php" } };
         </script>
-        <script src='/delicioz/wp-includes/js/wp-util.min.js?ver=6.0.2'
-            id='wp-util-js'></script>
+        <script src='/delicioz/wp-includes/js/wp-util.min.js?ver=6.0.2' id='wp-util-js'></script>
         <script id='woo-variation-swatches-js-extra'>
             var woo_variation_swatches_options = { "show_variation_label": "1", "clear_on_reselect": "", "variation_label_separator": ":", "is_mobile": "", "show_variation_stock": "", "stock_label_threshold": "5", "cart_redirect_after_add": "no", "enable_ajax_add_to_cart": "yes", "cart_url": "https:\/\/demo2.themelexus.com\/delicioz\/cart\/", "is_cart": "" };
         </script>
-        <script
-            src='/delicioz/wp-content/plugins/woo-variation-swatches/assets/js/frontend.min.js?ver=1660386322'
+        <script src='/delicioz/wp-content/plugins/woo-variation-swatches/assets/js/frontend.min.js?ver=1660386322'
             id='woo-variation-swatches-js'></script>
         <script
             src='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/table-head-fixer/table-head-fixer.js?ver=5.1.5'
@@ -2525,115 +1599,83 @@
         <script
             src='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js?ver=5.1.5'
             id='perfect-scrollbar-js'></script>
-        <script src='/delicioz/wp-includes/js/jquery/ui/core.min.js?ver=1.13.1'
-            id='jquery-ui-core-js'></script>
-        <script src='/delicioz/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.1'
-            id='jquery-ui-mouse-js'></script>
-        <script src='/delicioz/wp-includes/js/jquery/ui/sortable.min.js?ver=1.13.1'
-            id='jquery-ui-sortable-js'></script>
+        <script src='/delicioz/wp-includes/js/jquery/ui/core.min.js?ver=1.13.1' id='jquery-ui-core-js'></script>
+        <script src='/delicioz/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.1' id='jquery-ui-mouse-js'></script>
+        <script src='/delicioz/wp-includes/js/jquery/ui/sortable.min.js?ver=1.13.1' id='jquery-ui-sortable-js'></script>
         <script id='woosc-frontend-js-extra'>
             var woosc_vars = { "ajax_url": "https:\/\/demo2.themelexus.com\/delicioz\/wp-admin\/admin-ajax.php", "user_id": "0cdb64fab32a05bd393b20c8c351de9f", "page_url": "#", "open_button": "", "open_button_action": "open_popup", "menu_action": "open_popup", "button_action": "show_table", "sidebar_position": "right", "message_position": "right-top", "message_added": "{name} has been added to Compare list.", "message_removed": "{name} has been removed from the Compare list.", "message_exists": "{name} is already in the Compare list.", "open_bar": "", "bar_bubble": "no", "adding": "prepend", "click_again": "no", "hide_empty": "no", "click_outside": "yes", "freeze_column": "yes", "freeze_row": "yes", "scrollbar": "yes", "limit": "100", "button_text_change": "yes", "remove_all": "Do you want to remove all products from the compare?", "limit_notice": "You can add a maximum of {limit} products to the compare table.", "copied_text": "Share link %s was copied to clipboard!", "button_text": "Compare", "button_text_added": "Compare" };
         </script>
-        <script
-            src='/delicioz/wp-content/plugins/woo-smart-compare/assets/js/frontend.js?ver=5.1.5'
+        <script src='/delicioz/wp-content/plugins/woo-smart-compare/assets/js/frontend.js?ver=5.1.5'
             id='woosc-frontend-js'></script>
         <script id='wc-add-to-cart-variation-js-extra'>
             var wc_add_to_cart_variation_params = { "wc_ajax_url": "\/delicioz\/?wc-ajax=%%endpoint%%", "i18n_no_matching_variations_text": "Sorry, no products matched your selection. Please choose a different combination.", "i18n_make_a_selection_text": "Please select some product options before adding this product to your cart.", "i18n_unavailable_text": "Sorry, this product is unavailable. Please choose a different combination." };
         </script>
-        <script
-            src='/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=6.8.2'
+        <script src='/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=6.8.2'
             id='wc-add-to-cart-variation-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/libs/slick.min.js?ver=1.0.1'
-            id='slick-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/libs/jquery.magnific-popup.min.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/slick.min.js?ver=1.0.1' id='slick-js'></script>
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/jquery.magnific-popup.min.js?ver=1.0.1'
             id='magnific-popup-js'></script>
         <script id='woosq-frontend-js-extra'>
             var woosq_vars = { "ajax_url": "https:\/\/demo2.themelexus.com\/delicioz\/wp-admin\/admin-ajax.php", "view": "popup", "effect": "mfp-3d-unfold", "scrollbar": "yes", "hashchange": "no", "cart_redirect": "no", "cart_url": "https:\/\/demo2.themelexus.com\/delicioz\/cart\/", "close": "Close (Esc)", "next": "Next (Right arrow key)", "prev": "Previous (Left arrow key)", "thumbnails_effect": "no", "related_slick_params": "{\"slidesToShow\":2,\"slidesToScroll\":2,\"dots\":true,\"arrows\":false,\"adaptiveHeight\":true,\"rtl\":false}", "thumbnails_slick_params": "{\"slidesToShow\":1,\"slidesToScroll\":1,\"dots\":true,\"arrows\":true,\"adaptiveHeight\":false,\"rtl\":false}", "thumbnails_zoom_params": "{\"duration\":120,\"magnify\":1}" };
         </script>
-        <script
-            src='/delicioz/wp-content/plugins/woo-smart-quick-view/assets/js/frontend.js?ver=3.1.2'
+        <script src='/delicioz/wp-content/plugins/woo-smart-quick-view/assets/js/frontend.js?ver=3.1.2'
             id='woosq-frontend-js'></script>
         <script id='woosw-frontend-js-extra'>
             var woosw_vars = { "ajax_url": "https:\/\/demo2.themelexus.com\/delicioz\/wp-admin\/admin-ajax.php", "menu_action": "open_page", "perfect_scrollbar": "yes", "wishlist_url": "https:\/\/demo2.themelexus.com\/delicioz\/wishlist\/", "button_action": "list", "message_position": "right-top", "button_action_added": "popup", "empty_confirm": "This action cannot be undone. Are you sure?", "delete_confirm": "This action cannot be undone. Are you sure?", "copied_text": "Copied the wishlist link:", "menu_text": "Wishlist", "button_text": "Add to wishlist", "button_text_added": "Browse wishlist" };
         </script>
-        <script
-            src='/delicioz/wp-content/plugins/woo-smart-wishlist/assets/js/frontend.js?ver=4.3.1'
+        <script src='/delicioz/wp-content/plugins/woo-smart-wishlist/assets/js/frontend.js?ver=4.3.1'
             id='woosw-frontend-js'></script>
         <script id='delicioz-theme-js-extra'>
             var deliciozAjax = { "ajaxurl": "https:\/\/demo2.themelexus.com\/delicioz\/wp-admin\/admin-ajax.php" };
         </script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/main.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/main.js?ver=1.0.1'
             id='delicioz-theme-js'></script>
-        <script src='/delicioz/wp-includes/js/imagesloaded.min.js?ver=4.1.4'
-            id='imagesloaded-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/search-popup.js?ver=1.0.1'
+        <script src='/delicioz/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/search-popup.js?ver=1.0.1'
             id='delicioz-search-popup-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/text-editor.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/text-editor.js?ver=1.0.1'
             id='delicioz-text-editor-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/nav-mobile.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/nav-mobile.js?ver=1.0.1'
             id='delicioz-nav-mobile-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/inc/megamenu/assets/js/frontend.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/inc/megamenu/assets/js/frontend.js?ver=1.0.1'
             id='delicioz-megamenu-frontend-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/login.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/login.js?ver=1.0.1'
             id='delicioz-ajax-login-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/header-cart.min.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/header-cart.min.js?ver=1.0.1'
             id='delicioz-header-cart-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/libs/tooltipster.bundle.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/tooltipster.bundle.js?ver=1.0.1'
             id='tooltipster-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/product-ajax-search.min.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/product-ajax-search.min.js?ver=1.0.1'
             id='delicioz-products-ajax-search-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/main.min.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/main.min.js?ver=1.0.1'
             id='delicioz-products-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/quantity.min.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/quantity.min.js?ver=1.0.1'
             id='delicioz-input-quantity-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/off-canvas.min.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/off-canvas.min.js?ver=1.0.1'
             id='delicioz-off-canvas-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/cart-canvas.min.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/cart-canvas.min.js?ver=1.0.1'
             id='delicioz-cart-canvas-js'></script>
         <script
             src='/delicioz/wp-content/plugins/make-column-clickable-elementor/assets/js/make-column-clickable.js?ver=1.4.0'
             id='make-column-clickable-elementor-js'></script>
-        <script defer
-            src='/delicioz/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.8.8'
+        <script defer src='/delicioz/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.8.8'
             id='mc4wp-forms-api-js'></script>
-        <script
-            src='/delicioz/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.7.3'
+        <script src='/delicioz/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.7.3'
             id='elementor-webpack-runtime-js'></script>
-        <script
-            src='/delicioz/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.7.3'
+        <script src='/delicioz/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.7.3'
             id='elementor-frontend-modules-js'></script>
-        <script
-            src='/delicioz/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2'
+        <script src='/delicioz/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2'
             id='elementor-waypoints-js'></script>
         <script id='elementor-frontend-js-before'>
             var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Extra", "value": 880, "default_value": 880, "direction": "max", "is_enabled": true }, "tablet": { "label": "Tablet", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Extra", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": true }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": true }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.7.3", "is_static": false, "experimentalFeatures": { "e_dom_optimization": true, "e_optimized_assets_loading": true, "e_optimized_css_loading": true, "a11y_improvements": true, "additional_custom_breakpoints": true, "e_import_export": true, "e_hidden_wordpress_widgets": true, "landing-pages": true, "elements-color-picker": true, "favorite-widgets": true, "admin-top-bar": true }, "urls": { "assets": "https:\/\/demo2.themelexus.com\/delicioz\/wp-content\/plugins\/elementor\/assets\/" }, "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_mobile_extra", "viewport_tablet", "viewport_tablet_extra", "viewport_laptop"], "body_background_background": "classic", "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 12, "title": "My%20account%20%E2%80%93%20Delicioz", "excerpt": "", "featuredImage": false } };
         </script>
-        <script
-            src='/delicioz/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.7.3'
+        <script src='/delicioz/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.7.3'
             id='elementor-frontend-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/elementor-frontend.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/elementor-frontend.js?ver=1.0.1'
             id='delicioz-elementor-frontend-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/jquery.sticky.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/jquery.sticky.js?ver=1.0.1'
             id='elementor-sticky-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/libs/sticky.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/sticky.js?ver=1.0.1'
             id='delicioz-elementor-sticky-js'></script>
     </body>
 </div>

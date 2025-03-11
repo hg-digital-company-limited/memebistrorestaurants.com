@@ -1,6 +1,7 @@
 <div>
     <div class="account-wrap d-none">
         <div class="account-inner dashboard">
+            @if (!auth()->check())
             <ul class="account-dashboard">
                 <li>
                     <a href="/register"
@@ -12,6 +13,18 @@
                 </li>
 
             </ul>
+            @else
+            <ul class="account-dashboard">
+                <li>
+                    <a href="/my-account"
+                        title="Account Details">My Account</a>
+                </li>
+                <li>
+                    <a wire:click="logout"
+                        title="Account Details">Logout</a>
+                </li>
+            </ul>
+            @endif
         </div>
     </div>
     <div class="delicioz-mobile-nav">
