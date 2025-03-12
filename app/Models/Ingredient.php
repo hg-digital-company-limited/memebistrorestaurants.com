@@ -10,6 +10,11 @@ class Ingredient extends Model
     use HasFactory;
 
     protected $fillable = [
-        'name', 'quantity_in_stock'
+        'name', 'quantity_in_stock', 'minimum_threshold', 'unit', 'restaurant_id'
     ];
+
+    public function restaurant()
+    {
+        return $this->belongsTo(Restaurant::class);
+    }
 }
