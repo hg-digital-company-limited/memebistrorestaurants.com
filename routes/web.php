@@ -1,6 +1,8 @@
 <?php
 
 
+use App\Livewire\Promotion;
+use App\Livewire\PromotionDetail;
 use Illuminate\Support\Facades\Route;
 use App\Livewire\Home;
 use App\Livewire\BlogDetail;
@@ -26,8 +28,8 @@ Route::get('/register', Register::class);
 Route::get('/lost-password', LostPassword::class);
 Route::get('/my-account', MyAccount::class);
 Route::get('/order-received', OrderReceived::class);
-Route::get('/blog/{slug}', BlogDetail::class);
 Route::get('/product/{slug}', Product::class);
 Route::get('/reservation', Reservation::class);
 Route::get('/shop', Shop::class);
-Route::get('/blog', Blog::class);
+Route::get('/promotion', Promotion::class);
+Route::get('/promotion/{slug}', PromotionDetail::class);

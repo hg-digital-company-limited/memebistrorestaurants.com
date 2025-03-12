@@ -15,7 +15,6 @@ class OrderReceived extends Component
 
         // Check if the order was found
         if (!$this->order) {
-            dd('không tìm thấy đơn hàng');
             return redirect('/');
         }
 

@@ -29,7 +29,12 @@ class PromotionResource extends Resource
                 Forms\Components\TextInput::make('title')
                     ->required()
                     ->maxLength(255),
-                Forms\Components\Textarea::make('description')
+                Forms\Components\FileUpload::make('banner')
+                    ->required(),
+                Forms\Components\TextInput::make('slug')
+                    ->required()
+                    ->maxLength(255),
+                Forms\Components\RichEditor::make('description')
                     ->columnSpanFull(),
                 Forms\Components\DateTimePicker::make('start_date')
                     ->required(),
