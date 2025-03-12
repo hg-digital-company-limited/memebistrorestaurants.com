@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Mar 12, 2025 at 01:37 PM
+-- Generation Time: Mar 12, 2025 at 02:49 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.2.27
 
@@ -221,7 +221,10 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (20, '2025_03_12_181841_add_payment_status_to_orders_table', 12),
 (21, '2025_03_12_182130_add_address_to_users_table', 13),
 (22, '2025_03_12_182213_add_order_code_to_orders_table', 14),
-(23, '2025_03_12_184419_add_notes_to_orders_table', 15);
+(23, '2025_03_12_184419_add_notes_to_orders_table', 15),
+(24, '2025_03_12_205620_add_column_to_reservations_table', 16),
+(25, '2025_03_12_210147_add_columns_to_reservations_table', 17),
+(26, '2025_03_12_210600_add_columns_to_restaurants_table', 18);
 
 -- --------------------------------------------------------
 
@@ -554,12 +557,25 @@ CREATE TABLE `reservations` (
   `user_id` bigint UNSIGNED DEFAULT NULL,
   `restaurant_id` bigint UNSIGNED DEFAULT NULL,
   `number_of_people` int NOT NULL,
-  `reservation_time` datetime NOT NULL,
+  `reservation_time` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `status` enum('pending','confirmed','canceled') COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
-  `reservation_code` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL
+  `reservation_code` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `notes` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `phone` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `reservation_day` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `reservations`
+--
+
+INSERT INTO `reservations` (`id`, `user_id`, `restaurant_id`, `number_of_people`, `reservation_time`, `status`, `created_at`, `updated_at`, `reservation_code`, `notes`, `name`, `phone`, `reservation_day`) VALUES
+(1, 1, 1, 123, '21:17', 'pending', '2025-03-12 14:15:40', '2025-03-12 14:15:40', NULL, NULL, '123', '123', '2025-03-20'),
+(2, 1, 1, 2, '21:19', 'pending', '2025-03-12 14:19:25', '2025-03-12 14:19:25', 'RESERVATION_67D197ED711A1', '123', '123', '123', '2025-03-13'),
+(3, 1, NULL, 1, '09:00 pm', 'pending', '2025-03-12 14:25:59', '2025-03-12 14:25:59', 'RESERVATION_67D19977C1F5C', '1', '1', '1', '2025-03-13');
 
 -- --------------------------------------------------------
 
@@ -573,15 +589,18 @@ CREATE TABLE `restaurants` (
   `location` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `description` text COLLATE utf8mb4_unicode_ci,
   `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL
+  `updated_at` timestamp NULL DEFAULT NULL,
+  `map` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `phone` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `email` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `restaurants`
 --
 
-INSERT INTO `restaurants` (`id`, `name`, `location`, `description`, `created_at`, `updated_at`) VALUES
-(1, 'UNATOTO', '248 Đ. Nguyễn Hồng Đào, Phường 14, Tân Bình, Hồ Chí Minh', 'Món Lươn Nhật được cho là biểu tượng của dinh dưỡng, UNATOTO – thương hiệu cơm lươn Nhật Bản. Tại đây, thực khách sẽ có những trải nghiệm và món ăn tuyệt hảo nhất.', '2025-03-10 01:07:59', '2025-03-10 01:07:59');
+INSERT INTO `restaurants` (`id`, `name`, `location`, `description`, `created_at`, `updated_at`, `map`, `phone`, `email`) VALUES
+(1, 'UNATOTO', '248 Đ. Nguyễn Hồng Đào, Phường 14, Tân Bình, Hồ Chí Minh', 'Món Lươn Nhật được cho là biểu tượng của dinh dưỡng, UNATOTO – thương hiệu cơm lươn Nhật Bản. Tại đây, thực khách sẽ có những trải nghiệm và món ăn tuyệt hảo nhất.', '2025-03-10 01:07:59', '2025-03-10 01:07:59', NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -804,7 +823,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('nLMVcvZ8xKv0DcjCOZNDYxlYmOmvfo4AC5E6M1q5', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoibmxCVFRqUm5wbHY5TDUwbW1oZlV5TnJUckNBUDBjQUxIMjg0YWJaaSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzM6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9yZXNlcnZhdGlvbiI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6MzoidXJsIjthOjA6e31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxO3M6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTIkcHNIaHAxQnN6TVNUNW9Tc2JDS2E1Lm9nMHF2MFVXMllCa0Y2cFg5amhKUmpDNUpmaHhORDIiO3M6ODoiZmlsYW1lbnQiO2E6MDp7fX0=', 1741786624);
+('nLMVcvZ8xKv0DcjCOZNDYxlYmOmvfo4AC5E6M1q5', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoibmxCVFRqUm5wbHY5TDUwbW1oZlV5TnJUckNBUDBjQUxIMjg0YWJaaSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6NDU6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9teS1hY2NvdW50L2VkaXQtYWNjb3VudCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6MzoidXJsIjthOjA6e31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxO3M6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTIkcHNIaHAxQnN6TVNUNW9Tc2JDS2E1Lm9nMHF2MFVXMllCa0Y2cFg5amhKUmpDNUpmaHhORDIiO3M6ODoiZmlsYW1lbnQiO2E6MDp7fX0=', 1741790960);
 
 -- --------------------------------------------------------
 
@@ -1052,7 +1071,7 @@ ALTER TABLE `jobs`
 -- AUTO_INCREMENT for table `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 
 --
 -- AUTO_INCREMENT for table `orders`
@@ -1082,7 +1101,7 @@ ALTER TABLE `promotions`
 -- AUTO_INCREMENT for table `reservations`
 --
 ALTER TABLE `reservations`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `restaurants`

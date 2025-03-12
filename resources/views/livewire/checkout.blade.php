@@ -1226,21 +1226,21 @@
                                     <div class="woocommerce">
                                         <div class="woocommerce-notices-wrapper">
 
-                                        @if (session()->has('message'))
-                                        <ul class="woocommerce-error" style="background-color: green;" role="alert">
-                                            <li>
-                                                <strong>Thông báo:</strong> {{ session('message') }}
-                                            </li>
-                                        </ul>
-                                    @endif
-                                    @if (session()->has('error'))
-                                        <ul class="woocommerce-error"  style="background-color: red;" role="alert">
-                                            <li>
-                                                <strong>Lỗi:</strong> {{ session('error') }}
-                                            </li>
-                                        </ul>
-                                    @endif
-                                </div>
+                                            @if (session()->has('message'))
+                                                <ul class="woocommerce-error" style="background-color: green;" role="alert">
+                                                    <li>
+                                                        <strong>Thông báo:</strong> {{ session('message') }}
+                                                    </li>
+                                                </ul>
+                                            @endif
+                                            @if (session()->has('error'))
+                                                <ul class="woocommerce-error" style="background-color: red;" role="alert">
+                                                    <li>
+                                                        <strong>Lỗi:</strong> {{ session('error') }}
+                                                    </li>
+                                                </ul>
+                                            @endif
+                                        </div>
 
                                         <form name="checkout" wire:submit.prevent="placeOrder"
                                             class="checkout woocommerce-checkout">
@@ -1384,29 +1384,50 @@
                                                     <div>
                                                         <label>Payment Method:</label><br>
                                                         <label>
-                                                            <input type="radio" wire:model="paymentMethod" value="cod" required="">
+                                                            <input type="radio" wire:model="paymentMethod" value="cod"
+                                                                required="">
                                                             Cash on Delivery
                                                         </label><br>
                                                         <label>
-                                                            <input type="radio" wire:model="paymentMethod" value="bank" required="">
+                                                            <input type="radio" wire:model="paymentMethod" value="bank"
+                                                                required="">
                                                             Bank Transfer
                                                         </label>
                                                     </div>
-                                                <div class="form-row place-order">
-                                                <noscript>
-                                                    Since your browser does not support JavaScript, or it is disabled, please ensure you click the <em>Update Totals</em> button before placing your order. You may be charged more than the amount stated above if you fail to do so.			<br/><button type="submit" class="button alt" name="woocommerce_checkout_update_totals" value="Update totals">Update totals</button>
-                                                </noscript>
+                                                    <div class="form-row place-order">
+                                                        <noscript>
+                                                            Since your browser does not support JavaScript, or it is
+                                                            disabled, please ensure you click the <em>Update Totals</em>
+                                                            button before placing your order. You may be charged more
+                                                            than the amount stated above if you fail to do so.
+                                                            <br /><button type="submit" class="button alt"
+                                                                name="woocommerce_checkout_update_totals"
+                                                                value="Update totals">Update totals</button>
+                                                        </noscript>
 
-                                                    <div class="woocommerce-terms-and-conditions-wrapper">
-                                                <div class="woocommerce-privacy-policy-text"><p>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our <a href="" class="woocommerce-privacy-policy-link" target="_blank">privacy policy</a>.</p>
-                                        </div>
+                                                        <div class="woocommerce-terms-and-conditions-wrapper">
+                                                            <div class="woocommerce-privacy-policy-text">
+                                                                <p>Your personal data will be used to process your
+                                                                    order, support your experience throughout this
+                                                                    website, and for other purposes described in our <a
+                                                                        href="" class="woocommerce-privacy-policy-link"
+                                                                        target="_blank">privacy policy</a>.</p>
+                                                            </div>
+                                                        </div>
+
+
+                                                        <button type="submit" class="button alt"
+                                                            name="woocommerce_checkout_place_order" id="place_order"
+                                                            value="Place order" data-value="Place order">Place
+                                                            order</button>
+
+                                                        <input type="hidden" id="woocommerce-process-checkout-nonce"
+                                                            name="woocommerce-process-checkout-nonce"
+                                                            value="6a23f9862e"><input type="hidden"
+                                                            name="_wp_http_referer"
+                                                            value="/delicioz/?wc-ajax=update_order_review">
                                                     </div>
-
-
-                                                <button type="submit" class="button alt" name="woocommerce_checkout_place_order" id="place_order" value="Place order" data-value="Place order">Place order</button>
-
-                                                <input type="hidden" id="woocommerce-process-checkout-nonce" name="woocommerce-process-checkout-nonce" value="6a23f9862e"><input type="hidden" name="_wp_http_referer" value="/delicioz/?wc-ajax=update_order_review">	</div>
-                                        </div>
+                                                </div>
 
                                             </div>
 

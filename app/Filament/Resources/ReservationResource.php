@@ -16,10 +16,6 @@ use Illuminate\Database\Eloquent\SoftDeletingScope;
 class ReservationResource extends Resource
 {
     protected static ?string $model = Reservation::class;
-    public static function getPluralModelLabel(): string
-    {
-        return 'Danh sách đặt bàn';
-    }
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
@@ -37,6 +33,20 @@ class ReservationResource extends Resource
                 Forms\Components\DateTimePicker::make('reservation_time')
                     ->required(),
                 Forms\Components\TextInput::make('status')
+                    ->required(),
+                Forms\Components\TextInput::make('reservation_code')
+                    ->maxLength(255),
+                Forms\Components\TextInput::make('notes')
+                    ->required()
+                    ->maxLength(255),
+                Forms\Components\TextInput::make('name')
+                    ->required()
+                    ->maxLength(255),
+                Forms\Components\TextInput::make('phone')
+                    ->tel()
+                    ->required()
+                    ->maxLength(255),
+                Forms\Components\DatePicker::make('reservation_day')
                     ->required(),
             ]);
     }
@@ -66,6 +76,17 @@ class ReservationResource extends Resource
                     ->dateTime()
                     ->sortable()
                     ->toggleable(isToggledHiddenByDefault: true),
+                Tables\Columns\TextColumn::make('reservation_code')
+                    ->searchable(),
+                Tables\Columns\TextColumn::make('notes')
+                    ->searchable(),
+                Tables\Columns\TextColumn::make('name')
+                    ->searchable(),
+                Tables\Columns\TextColumn::make('phone')
+                    ->searchable(),
+                Tables\Columns\TextColumn::make('reservation_day')
+                    ->date()
+                    ->sortable(),
             ])
             ->filters([
                 //

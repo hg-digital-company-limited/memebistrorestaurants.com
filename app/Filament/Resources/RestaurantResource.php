@@ -16,10 +16,7 @@ use Illuminate\Database\Eloquent\SoftDeletingScope;
 class RestaurantResource extends Resource
 {
     protected static ?string $model = Restaurant::class;
-    public static function getPluralModelLabel(): string
-    {
-        return 'Danh sách nhà hàng';
-    }
+
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
     public static function form(Form $form): Form
@@ -34,6 +31,14 @@ class RestaurantResource extends Resource
                     ->maxLength(255),
                 Forms\Components\Textarea::make('description')
                     ->columnSpanFull(),
+                Forms\Components\TextInput::make('map')
+                    ->maxLength(255),
+                Forms\Components\TextInput::make('phone')
+                    ->tel()
+                    ->maxLength(255),
+                Forms\Components\TextInput::make('email')
+                    ->email()
+                    ->maxLength(255),
             ]);
     }
 
@@ -53,6 +58,12 @@ class RestaurantResource extends Resource
                     ->dateTime()
                     ->sortable()
                     ->toggleable(isToggledHiddenByDefault: true),
+                Tables\Columns\TextColumn::make('map')
+                    ->searchable(),
+                Tables\Columns\TextColumn::make('phone')
+                    ->searchable(),
+                Tables\Columns\TextColumn::make('email')
+                    ->searchable(),
             ])
             ->filters([
                 //

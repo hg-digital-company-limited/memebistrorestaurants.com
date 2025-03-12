@@ -1,8 +1,12 @@
 <?php
 
 
+use App\Livewire\EditAccount;
+use App\Livewire\Logout;
+use App\Livewire\Orders;
 use App\Livewire\Promotion;
 use App\Livewire\PromotionDetail;
+use App\Livewire\Reservations;
 use Illuminate\Support\Facades\Route;
 use App\Livewire\Home;
 use App\Livewire\BlogDetail;
@@ -27,6 +31,17 @@ Route::get('/login', Login::class);
 Route::get('/register', Register::class);
 Route::get('/lost-password', LostPassword::class);
 Route::get('/my-account', MyAccount::class);
+Route::get('/my-account/edit-account', EditAccount::class);
+Route::get('/my-account/orders', Orders::class);
+Route::get('/my-account/reservations', Reservations::class);
+Route::get('/my-account/edit-account', EditAccount::class);
+Route::get('/my-account/logout', Logout::class);
+
+
+
+
+
+
 Route::get('/order-received', OrderReceived::class);
 Route::get('/product/{slug}', Product::class);
 Route::get('/reservation', Reservation::class);
