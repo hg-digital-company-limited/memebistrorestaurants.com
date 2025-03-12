@@ -60,13 +60,13 @@
                                 <div class="elementor-icon-box-wrapper">
                                     <div class="elementor-icon-box-icon">
                                         <a class="elementor-icon elementor-animation-"
-                                            href="/delicioz/cart/">
+                                            href="/cart/">
                                             <i aria-hidden="true"
                                                 class="delicioz-icon- delicioz-icon-cart-2"></i> </a>
                                     </div>
                                     <div class="elementor-icon-box-content">
                                         <h3 class="elementor-icon-box-title">
-                                            <a href="/delicioz/cart/">
+                                            <a href="/cart/">
                                                 Cart </a>
                                         </h3>
                                     </div>

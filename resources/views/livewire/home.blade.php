@@ -3824,16 +3824,6 @@
                 document.body.className = c;
             })();
         </script>
-        <div class="site-header-cart-side">
-            <div class="cart-side-heading">
-                <span class="cart-side-title">Shopping cart</span>
-                <a href="#" class="close-cart-side">close</a>
-            </div>
-            <div class="widget woocommerce widget_shopping_cart">
-                <div class="widget_shopping_cart_content"></div>
-            </div>
-        </div>
-        <div class="cart-side-overlay"></div>
         <script>
             if (typeof revslider_showDoubleJqueryError === "undefined") { function revslider_showDoubleJqueryError(sliderID) { console.log("You have some jquery.js library include that comes after the Slider Revolution files js inclusion."); console.log("To fix this, you can:"); console.log("1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on"); console.log("2. Find the double jQuery.js inclusion and remove it"); return "Double Included jQuery Library"; } }
         </script>

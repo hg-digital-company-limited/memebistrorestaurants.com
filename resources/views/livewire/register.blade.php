@@ -1507,16 +1507,7 @@
                 document.body.className = c;
             })();
         </script>
-        <div class="site-header-cart-side">
-            <div class="cart-side-heading">
-                <span class="cart-side-title">Shopping cart</span>
-                <a href="#" class="close-cart-side">close</a>
-            </div>
-            <div class="widget woocommerce widget_shopping_cart">
-                <div class="widget_shopping_cart_content"></div>
-            </div>
-        </div>
-        <div class="cart-side-overlay"></div>
+
         <link rel='stylesheet' id='elementor-post-671-css'
             href='/delicioz/wp-content/uploads/elementor/css/post-671.css?ver=1661932588' media='all' />
         <link rel='stylesheet' id='elementor-post-705-css'

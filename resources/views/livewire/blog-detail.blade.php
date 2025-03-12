@@ -1947,7 +1947,7 @@
 
                                                     <div class="site-header-cart menu">
                                                         <a class="cart-contents"
-                                                            href="/delicioz/cart/"
+                                                            href="/cart/"
                                                             title="View your shopping cart">
                                                             <span class="count">1</span>
                                                             <span class="woocommerce-Price-amount amount"><bdi><span
@@ -2629,87 +2629,7 @@
                 </div><!-- .col-full -->
             </div><!-- #content -->
 
-            <div class='footer-width-fixer'>
-                <div data-elementor-type="wp-post" data-elementor-id="98" class="elementor elementor-98">
-                    <div class="elementor-section elementor-top-section elementor-element elementor-element-cb25823 elementor-section-content-middle elementor-section-stretched elementor-hidden-desktop elementor-hidden-laptop elementor-hidden-tablet_extra elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                        data-id="cb25823" data-element_type="section"
-                        data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-                        <div class="elementor-container elementor-column-gap-no">
-                            <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-c2b332e"
-                                data-id="c2b332e" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-79cef6e elementor-widget elementor-widget-delicioz-search"
-                                        data-id="79cef6e" data-element_type="widget"
-                                        data-widget_type="delicioz-search.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="site-header-search">
-                                                <a href="#" class="button-search-popup">
-                                                    <i class="delicioz-icon-search"></i>
-                                                    <span class="content">Search</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="make-column-clickable-elementor elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-810d48b"
-                                style="cursor: pointer;"
-                                data-column-clickable="https://demo2.themelexus.com/radist/my-account/"
-                                data-column-clickable-blank="_self" data-id="810d48b" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-689b65e elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                                        data-id="689b65e" data-element_type="widget"
-                                        data-widget_type="icon-box.default">
-                                        <div class="elementor-widget-container">
-                                            <link rel="stylesheet"
-                                                href="/delicioz/wp-content/uploads/elementor/css/custom-widget-icon-box.min.css?ver=1661932589">
-                                            <div class="elementor-icon-box-wrapper">
-                                                <div class="elementor-icon-box-icon">
-                                                    <a class="elementor-icon elementor-animation-"
-                                                        href="/delicioz/my-account/">
-                                                        <i aria-hidden="true"
-                                                            class="delicioz-icon- delicioz-icon-account"></i> </a>
-                                                </div>
-                                                <div class="elementor-icon-box-content">
-                                                    <h3 class="elementor-icon-box-title">
-                                                        <a href="/delicioz/my-account/">
-                                                            Account </a>
-                                                    </h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a3bae29"
-                                data-id="a3bae29" data-element_type="column">
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-08c35d8 elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                                        data-id="08c35d8" data-element_type="widget"
-                                        data-widget_type="icon-box.default">
-                                        <div class="elementor-widget-container">
-                                            <div class="elementor-icon-box-wrapper">
-                                                <div class="elementor-icon-box-icon">
-                                                    <a class="elementor-icon elementor-animation-"
-                                                        href="/delicioz/cart/">
-                                                        <i aria-hidden="true"
-                                                            class="delicioz-icon- delicioz-icon-cart-2"></i> </a>
-                                                </div>
-                                                <div class="elementor-icon-box-content">
-                                                    <h3 class="elementor-icon-box-title">
-                                                        <a href="/delicioz/cart/">
-                                                            Cart </a>
-                                                    </h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
             @livewire('inc.footer')
 
 
@@ -2937,16 +2857,6 @@
                 document.body.className = c;
             })();
         </script>
-        <div class="site-header-cart-side">
-            <div class="cart-side-heading">
-                <span class="cart-side-title">Shopping cart</span>
-                <a href="#" class="close-cart-side">close</a>
-            </div>
-            <div class="widget woocommerce widget_shopping_cart">
-                <div class="widget_shopping_cart_content"></div>
-            </div>
-        </div>
-        <div class="cart-side-overlay"></div>
         <link rel='stylesheet' id='elementor-post-671-css'
             href='/delicioz/wp-content/uploads/elementor/css/post-671.css?ver=1661932588'
             media='all' />

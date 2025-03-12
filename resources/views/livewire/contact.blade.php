@@ -1953,7 +1953,7 @@
 
                                                     <div class="site-header-cart menu">
                                                         <a class="cart-contents"
-                                                            href="/delicioz/cart/"
+                                                            href="/cart/"
                                                             title="View your shopping cart">
                                                             <span class="count">1</span>
                                                             <span class="woocommerce-Price-amount amount"><bdi><span
@@ -2722,13 +2722,13 @@
                                             <div class="elementor-icon-box-wrapper">
                                                 <div class="elementor-icon-box-icon">
                                                     <a class="elementor-icon elementor-animation-"
-                                                        href="/delicioz/cart/">
+                                                        href="/cart/">
                                                         <i aria-hidden="true"
                                                             class="delicioz-icon- delicioz-icon-cart-2"></i> </a>
                                                 </div>
                                                 <div class="elementor-icon-box-content">
                                                     <h3 class="elementor-icon-box-title">
-                                                        <a href="/delicioz/cart/">
+                                                        <a href="/cart/">
                                                             Cart </a>
                                                     </h3>
                                                 </div>
@@ -2969,16 +2969,7 @@
                 document.body.className = c;
             })();
         </script>
-        <div class="site-header-cart-side">
-            <div class="cart-side-heading">
-                <span class="cart-side-title">Shopping cart</span>
-                <a href="#" class="close-cart-side">close</a>
-            </div>
-            <div class="widget woocommerce widget_shopping_cart">
-                <div class="widget_shopping_cart_content"></div>
-            </div>
-        </div>
-        <div class="cart-side-overlay"></div>
+
         <link rel='stylesheet' id='elementor-post-671-css'
             href='/delicioz/wp-content/uploads/elementor/css/post-671.css?ver=1661932588'
             media='all' />

@@ -135,7 +135,7 @@
 
 
                                         <div class="site-header-cart menu">
-                                            <a class="cart-contents" href="/delicioz/cart/"
+                                            <a class="cart-contents" href="/cart/"
                                                 title="View your shopping cart">
                                                 <span class="count">1</span>
                                                 <span class="woocommerce-Price-amount amount"><bdi><span
