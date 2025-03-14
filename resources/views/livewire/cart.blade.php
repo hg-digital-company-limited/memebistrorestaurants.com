@@ -1261,7 +1261,7 @@
                                     <div class="woocommerce">
                                         <div class="woocommerce-notices-wrapper"></div>
                                         <form class="woocommerce-cart-form"
-                                            action="/delicioz/cart/" method="post">
+                                        >
 
                                             <table
                                                 class="shop_table shop_table_responsive cart woocommerce-cart-form__contents"

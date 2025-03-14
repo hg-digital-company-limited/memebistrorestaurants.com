@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Mar 14, 2025 at 12:14 PM
+-- Generation Time: Mar 14, 2025 at 12:33 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.2.27
 
@@ -840,7 +840,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('CwI62ihsd2kb4bbZH19r8sZY31p8OqNzPBQ8Ni0k', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiTjhSOXQ0Q0FUTUZmcDF1TGJIcEl1VGJTSTRzUk1lVUVsYlE5Z2c1NCI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mzc6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9zaG9wP2NhdGVnb3J5PTEiO31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxO3M6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTIkcHNIaHAxQnN6TVNUNW9Tc2JDS2E1Lm9nMHF2MFVXMllCa0Y2cFg5amhKUmpDNUpmaHhORDIiO30=', 1741954436);
+('zieR3oleGF9r709IEDMNwcC6j6dPGkvPIVaSrDEn', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiTjhSOXQ0Q0FUTUZmcDF1TGJIcEl1VGJTSTRzUk1lVUVsYlE5Z2c1NCI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzI6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9teS1hY2NvdW50Ijt9czoxNzoicGFzc3dvcmRfaGFzaF93ZWIiO3M6NjA6IiQyeSQxMiRwc0hocDFCc3pNU1Q1b1NzYkNLYTUub2cwcXYwVVcyWUJrRjZwWDlqaEpSakM1SmZoeE5EMiI7czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTt9', 1741955571);
 
 -- --------------------------------------------------------
 
@@ -882,7 +882,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `phone`, `created_at`, `updated_at`, `address`, `loyalty_points`) VALUES
-(1, 'admin@gmail.com', 'admin@gmail.com', NULL, '$2y$12$psHhp1BszMST5oSsbCKa5.og0qv0UW2YBkF6pX9jhJRjC5JfhxND2', NULL, NULL, '2025-03-09 21:32:39', '2025-03-14 11:51:32', NULL, 50000),
+(1, 'admin@gmail.com', 'admin@gmail.com', NULL, '$2y$12$aiS9uNykzNVb7lQuB8JtI.xDf27q81jxHxQHggRHn4d2gCeJCYyJq', NULL, 'admin@gmail.com', '2025-03-09 21:32:39', '2025-03-14 12:32:48', 'admin@gmail.com', 50000),
 (2, '2509roblox@gmail.com', '2509roblox@gmail.com', NULL, '$2y$12$Or2tM4Ujr9MQ3v97e29QOei0WUkREf/gxvf/m0ooutyKhkGHacZiC', 'uwzfzqYmmWnWMk7uURCmyaKVps6J79AaQ2dtpmXHEpd9OxNdLvJmC3xofoCC', NULL, '2025-03-09 22:06:36', '2025-03-09 22:07:45', NULL, 0),
 (3, '2509robloxzzzz@gmail.com', '2509robloxzzzz@gmail.com', NULL, '$2y$12$8z/Uea2523e784fRRjRC.u3kd4gpAPIByo4SYGI1Y0t.1BCrj.CJe', NULL, NULL, '2025-03-10 02:01:42', '2025-03-10 02:01:42', NULL, 0),
 (4, '2509robloxx@gmail.com', '2509robloxx@gmail.com', NULL, '$2y$12$OSVm70wU32pr/F2W4NNl4eEwdc.fiIaB1tZz/IBa9/mVsC0gXy97.', NULL, NULL, '2025-03-11 03:38:32', '2025-03-11 03:38:32', NULL, 0),

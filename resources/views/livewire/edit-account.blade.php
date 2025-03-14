@@ -1233,29 +1233,28 @@
 
 
                                         <div class="woocommerce-MyAccount-content">
-                                            <div class="woocommerce-notices-wrapper"></div>
-                                            <form class="woocommerce-EditAccountForm edit-account" action=""
-                                                method="post">
+                                            <div class="woocommerce-notices-wrapper">
+
+                                                @if (session()->has('message'))
+                                                    <ul class="woocommerce-error" style="background-color: green;" role="alert">
+                                                        <li>
+                                                            <strong>Thông báo:</strong> {{ session('message') }}
+                                                        </li>
+                                                    </ul>
+                                                @endif
+                                                @if (session()->has('error'))
+                                                    <ul class="woocommerce-error" style="background-color: red;" role="alert">
+                                                        <li>
+                                                            <strong>Lỗi:</strong> {{ session('error') }}
+                                                        </li>
+                                                    </ul>
+                                                @endif
+                                            </div>
+
+                                            <form class="woocommerce-EditAccountForm edit-account" wire:submit.prevent="updateAccount">
 
 
-                                                <p
-                                                    class="woocommerce-form-row woocommerce-form-row--first form-row form-row-first">
-                                                    <label for="account_first_name">First name&nbsp;<span
-                                                            class="required">*</span></label>
-                                                    <input type="text"
-                                                        class="woocommerce-Input woocommerce-Input--text input-text"
-                                                        name="account_first_name" id="account_first_name"
-                                                        autocomplete="given-name" value="">
-                                                </p>
-                                                <p
-                                                    class="woocommerce-form-row woocommerce-form-row--last form-row form-row-last">
-                                                    <label for="account_last_name">Last name&nbsp;<span
-                                                            class="required">*</span></label>
-                                                    <input type="text"
-                                                        class="woocommerce-Input woocommerce-Input--text input-text"
-                                                        name="account_last_name" id="account_last_name"
-                                                        autocomplete="family-name" value="">
-                                                </p>
+
                                                 <div class="clear"></div>
 
                                                 <p
@@ -1265,8 +1264,25 @@
                                                     <input type="text"
                                                         class="woocommerce-Input woocommerce-Input--text input-text"
                                                         name="account_display_name" id="account_display_name"
-                                                        value="2508roblox"> <span><em>This will be how your name will be
-                                                            displayed in the account section and in reviews</em></span>
+                                                        wire:model="name">
+                                                </p>
+                                                <p
+                                                    class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                                    <label for="account_display_name">Phone&nbsp;<span
+                                                            class="required">*</span></label>
+                                                    <input type="text"
+                                                        class="woocommerce-Input woocommerce-Input--text input-text"
+                                                        name="account_display_name" id="account_display_name"
+                                                        wire:model="phone">
+                                                </p>
+                                                <p
+                                                    class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                                    <label for="account_display_name">Address&nbsp;<span
+                                                            class="required">*</span></label>
+                                                    <input type="text"
+                                                        class="woocommerce-Input woocommerce-Input--text input-text"
+                                                        name="account_display_name" id="account_display_name"
+                                                        wire:model="address">
                                                 </p>
                                                 <div class="clear"></div>
 
@@ -1277,7 +1293,7 @@
                                                     <input type="email"
                                                         class="woocommerce-Input woocommerce-Input--email input-text"
                                                         name="account_email" id="account_email" autocomplete="email"
-                                                        value="2508roblox@gmail.com">
+                                                        value="{{ auth()->user()->email }}" readonly>
                                                 </p>
 
                                                 <fieldset>
@@ -1290,7 +1306,7 @@
                                                         <span class="password-input"><input type="password"
                                                                 class="woocommerce-Input woocommerce-Input--password input-text"
                                                                 name="password_current" id="password_current"
-                                                                autocomplete="off"><span
+                                                                autocomplete="off" wire:model="current_password"><span
                                                                 class="show-password-input"></span></span>
                                                     </p>
                                                     <p
@@ -1300,7 +1316,7 @@
                                                         <span class="password-input"><input type="password"
                                                                 class="woocommerce-Input woocommerce-Input--password input-text"
                                                                 name="password_1" id="password_1"
-                                                                autocomplete="off"><span
+                                                                autocomplete="off" wire:model="new_password"><span
                                                                 class="show-password-input"></span></span>
                                                     </p>
                                                     <p
@@ -1309,7 +1325,7 @@
                                                         <span class="password-input"><input type="password"
                                                                 class="woocommerce-Input woocommerce-Input--password input-text"
                                                                 name="password_2" id="password_2"
-                                                                autocomplete="off"><span
+                                                                autocomplete="off" wire:model="new_password_confirmation"><span
                                                                 class="show-password-input"></span></span>
                                                     </p>
                                                 </fieldset>
@@ -1317,14 +1333,10 @@
 
 
                                                 <p>
-                                                    <input type="hidden" id="save-account-details-nonce"
-                                                        name="save-account-details-nonce" value="d49ba95040"><input
-                                                        type="hidden" name="_wp_http_referer"
-                                                        value="/delicioz/my-account/edit-account/"> <button
+                                                    <button
                                                         type="submit" class="woocommerce-Button button"
                                                         name="save_account_details" value="Save changes">Save
                                                         changes</button>
-                                                    <input type="hidden" name="action" value="save_account_details">
                                                 </p>
 
                                             </form>
