@@ -1003,7 +1003,7 @@
         <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/delicioz/wp-includes/wlwmanifest.xml" />
         <meta name="generator" content="WordPress 6.0.2" />
         <meta name="generator" content="WooCommerce 6.8.2" />
-        <link rel="canonical" href="/delicioz/reservation/" />
+        <link rel="canonical" href="/reservation/" />
         <link rel='shortlink' href='/delicioz/?p=38' />
         <link rel="alternate" type="application/json+oembed"
             href="/delicioz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo2.themelexus.com%2Fdelicioz%2Freservation%2F" />
@@ -1640,7 +1640,7 @@
                                                         <div class="elementor-widget-container">
                                                             <div class="elementor-image-box-wrapper">
                                                                 <figure class="elementor-image-box-img"><a
-                                                                        href="/delicioz/blog/"><img width="640"
+                                                                        href="/promotion"><img width="640"
                                                                             height="370"
                                                                             src="/delicioz/wp-content/uploads/2022/08/reservation03.jpg"
                                                                             class="attachment-full size-full" alt=""
@@ -1650,14 +1650,14 @@
                                                                             class="delicioz-icon- delicioz-icon-event"></i>
                                                                     </div>
                                                                     <h3 class="elementor-image-box-title"><a
-                                                                            href="/delicioz/blog/">Upcoming</a>
+                                                                            href="/promotion">Upcoming</a>
                                                                     </h3>
                                                                     <div class="elementor-image-box-sub-title">
                                                                         events</div>
                                                                     <p class="elementor-image-box-description">Wine
                                                                         tasting event coming soon</p>
                                                                     <div class="elementor-image-box-button-wrapper">
-                                                                        <a href="/delicioz/blog/"
+                                                                        <a href="/promotion"
                                                                             class="elementor-image-box-button"><span
                                                                                 class="elementor-image-box-button-text">
                                                                                 Discover now</span></a>

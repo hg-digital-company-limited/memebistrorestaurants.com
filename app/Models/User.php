@@ -23,7 +23,7 @@ class User extends Authenticatable
         'password',
         'address',
         'phone',
-
+        'loyalty_points',
     ];
 
     /**

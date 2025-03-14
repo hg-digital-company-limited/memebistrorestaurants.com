@@ -31,8 +31,7 @@
             }
         </style>
         <link rel='stylesheet' id='wp-block-library-css'
-            href='/delicioz/wp-includes/css/dist/block-library/style.min.css?ver=6.0.2'
-            media='all' />
+            href='/delicioz/wp-includes/css/dist/block-library/style.min.css?ver=6.0.2' media='all' />
         <style id='wp-block-library-theme-inline-css'>
             .wp-block-audio figcaption {
                 color: #555;
@@ -213,8 +212,7 @@
             href='/delicioz/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=8.0.0'
             media='all' />
         <link rel='stylesheet' id='delicioz-gutenberg-blocks-css'
-            href='/delicioz/wp-content/themes/delicioz/assets/css/base/gutenberg-blocks.css?ver=1.0.1'
-            media='all' />
+            href='/delicioz/wp-content/themes/delicioz/assets/css/base/gutenberg-blocks.css?ver=1.0.1' media='all' />
         <style id='global-styles-inline-css'>
             body {
                 --wp--preset--color--black: #000000;
@@ -466,13 +464,11 @@
             }
         </style>
         <link rel='stylesheet' id='contact-form-7-css'
-            href='/delicioz/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.6.2'
+            href='/delicioz/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.6.2' media='all' />
+        <link rel='stylesheet' id='-css' href='/delicioz/wp-content/plugins/opal-demo/style.css?ver=6.0.2'
             media='all' />
-        <link rel='stylesheet' id='-css'
-            href='/delicioz/wp-content/plugins/opal-demo/style.css?ver=6.0.2' media='all' />
         <link rel='stylesheet' id='select2-css'
-            href='/delicioz/wp-content/plugins/woocommerce/assets/css/select2.css?ver=6.8.2'
-            media='all' />
+            href='/delicioz/wp-content/plugins/woocommerce/assets/css/select2.css?ver=6.8.2' media='all' />
         <style id='woocommerce-inline-inline-css'>
             .woocommerce form .form-row .required {
                 visibility: visible;
@@ -485,26 +481,20 @@
             href='/delicioz/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.16.0'
             media='all' />
         <link rel='stylesheet' id='elementor-frontend-css'
-            href='/delicioz/wp-content/uploads/elementor/css/custom-frontend-lite.min.css?ver=1661932570'
-            media='all' />
+            href='/delicioz/wp-content/uploads/elementor/css/custom-frontend-lite.min.css?ver=1661932570' media='all' />
         <link rel='stylesheet' id='elementor-post-7-css'
-            href='/delicioz/wp-content/uploads/elementor/css/post-7.css?ver=1661932570'
-            media='all' />
+            href='/delicioz/wp-content/uploads/elementor/css/post-7.css?ver=1661932570' media='all' />
         <link rel='stylesheet' id='elementor-global-css'
-            href='/delicioz/wp-content/uploads/elementor/css/global.css?ver=1661932571'
-            media='all' />
+            href='/delicioz/wp-content/uploads/elementor/css/global.css?ver=1661932571' media='all' />
         <link rel='stylesheet' id='elementor-post-84-css'
-            href='/delicioz/wp-content/uploads/elementor/css/post-84.css?ver=1661932571'
-            media='all' />
+            href='/delicioz/wp-content/uploads/elementor/css/post-84.css?ver=1661932571' media='all' />
         <link rel='stylesheet' id='hfe-widgets-style-css'
             href='/delicioz/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.13'
             media='all' />
         <link rel='stylesheet' id='elementor-post-92-css'
-            href='/delicioz/wp-content/uploads/elementor/css/post-92.css?ver=1661932571'
-            media='all' />
+            href='/delicioz/wp-content/uploads/elementor/css/post-92.css?ver=1661932571' media='all' />
         <link rel='stylesheet' id='elementor-post-98-css'
-            href='/delicioz/wp-content/uploads/elementor/css/post-98.css?ver=1661932571'
-            media='all' />
+            href='/delicioz/wp-content/uploads/elementor/css/post-98.css?ver=1661932571' media='all' />
         <link rel='stylesheet' id='woo-variation-swatches-css'
             href='/delicioz/wp-content/plugins/woo-variation-swatches/assets/css/frontend.min.css?ver=1660386322'
             media='all' />
@@ -519,8 +509,7 @@
             }
         </style>
         <link rel='stylesheet' id='hint-css'
-            href='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/hint/hint.min.css?ver=6.0.2'
-            media='all' />
+            href='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/hint/hint.min.css?ver=6.0.2' media='all' />
         <link rel='stylesheet' id='perfect-scrollbar-css'
             href='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/perfect-scrollbar/css/perfect-scrollbar.min.css?ver=6.0.2'
             media='all' />
@@ -528,26 +517,22 @@
             href='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/perfect-scrollbar/css/custom-theme.css?ver=6.0.2'
             media='all' />
         <link rel='stylesheet' id='woosc-frontend-css'
-            href='/delicioz/wp-content/plugins/woo-smart-compare/assets/css/frontend.css?ver=5.1.5'
-            media='all' />
+            href='/delicioz/wp-content/plugins/woo-smart-compare/assets/css/frontend.css?ver=5.1.5' media='all' />
         <link rel='stylesheet' id='slick-css'
             href='/delicioz/wp-content/plugins/woo-smart-quick-view/assets/libs/slick/slick.css?ver=6.0.2'
             media='all' />
         <link rel='stylesheet' id='magnific-popup-css'
-            href='/delicioz/wp-content/themes/delicioz/assets/css/libs/magnific-popup.css?ver=1.0.1'
-            media='all' />
+            href='/delicioz/wp-content/themes/delicioz/assets/css/libs/magnific-popup.css?ver=1.0.1' media='all' />
         <link rel='stylesheet' id='woosq-feather-css'
             href='/delicioz/wp-content/plugins/woo-smart-quick-view/assets/libs/feather/feather.css?ver=6.0.2'
             media='all' />
         <link rel='stylesheet' id='woosq-frontend-css'
-            href='/delicioz/wp-content/plugins/woo-smart-quick-view/assets/css/frontend.css?ver=3.1.2'
-            media='all' />
+            href='/delicioz/wp-content/plugins/woo-smart-quick-view/assets/css/frontend.css?ver=3.1.2' media='all' />
         <link rel='stylesheet' id='woosw-feather-css'
             href='/delicioz/wp-content/plugins/woo-smart-wishlist/assets/libs/feather/feather.css?ver=6.0.2'
             media='all' />
         <link rel='stylesheet' id='woosw-frontend-css'
-            href='/delicioz/wp-content/plugins/woo-smart-wishlist/assets/css/frontend.css?ver=4.3.1'
-            media='all' />
+            href='/delicioz/wp-content/plugins/woo-smart-wishlist/assets/css/frontend.css?ver=4.3.1' media='all' />
         <style id='woosw-frontend-inline-css'>
             .woosw-popup .woosw-popup-inner .woosw-popup-content .woosw-popup-content-bot .woosw-notice {
                 background-color: #5fbd74;
@@ -561,8 +546,8 @@
         <link rel='stylesheet' id='delicioz-fonts-css'
             href='//fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&#038;subset=latin%2Clatin-ext&#038;display=swap'
             media='all' />
-        <link rel='stylesheet' id='delicioz-style-css'
-            href='/delicioz/wp-content/themes/delicioz/style.css?ver=1.0.1' media='all' />
+        <link rel='stylesheet' id='delicioz-style-css' href='/delicioz/wp-content/themes/delicioz/style.css?ver=1.0.1'
+            media='all' />
         <style id='delicioz-style-inline-css'>
             .col-full {
                 max-width: 1290px
@@ -979,20 +964,15 @@
             }
         </style>
         <link rel='stylesheet' id='delicioz-slick-style-css'
-            href='/delicioz/wp-content/themes/delicioz/assets/css/base/slick.css?ver=1.0.1'
-            media='all' />
+            href='/delicioz/wp-content/themes/delicioz/assets/css/base/slick.css?ver=1.0.1' media='all' />
         <link rel='stylesheet' id='delicioz-slick-theme-style-css'
-            href='/delicioz/wp-content/themes/delicioz/assets/css/base/slick-theme.css?ver=1.0.1'
-            media='all' />
+            href='/delicioz/wp-content/themes/delicioz/assets/css/base/slick-theme.css?ver=1.0.1' media='all' />
         <link rel='stylesheet' id='elementor-post-101-css'
-            href='/delicioz/wp-content/uploads/elementor/css/post-101.css?ver=1661932571'
-            media='all' />
+            href='/delicioz/wp-content/uploads/elementor/css/post-101.css?ver=1661932571' media='all' />
         <link rel='stylesheet' id='delicioz-elementor-css'
-            href='/delicioz/wp-content/themes/delicioz/assets/css/base/elementor.css?ver=1.0.1'
-            media='all' />
+            href='/delicioz/wp-content/themes/delicioz/assets/css/base/elementor.css?ver=1.0.1' media='all' />
         <link rel='stylesheet' id='delicioz-woocommerce-style-css'
-            href='/delicioz/wp-content/themes/delicioz/assets/css/woocommerce/woocommerce.css?ver=1.0.1'
-            media='all' />
+            href='/delicioz/wp-content/themes/delicioz/assets/css/woocommerce/woocommerce.css?ver=1.0.1' media='all' />
         <link rel='stylesheet' id='delicioz-child-style-css'
             href='/delicioz/wp-content/themes/demo-child/style.css?ver=1.0.0' media='all' />
         <link rel='stylesheet' id='google-fonts-1-css'
@@ -1009,20 +989,15 @@
         <script type="text/template" id="tmpl-unavailable-variation-template">
         <p>Sorry, this product is unavailable. Please choose a different combination.</p>
     </script>
-        <script src='/delicioz/wp-includes/js/jquery/jquery.min.js?ver=3.6.0'
-            id='jquery-core-js'></script>
-        <script src='/delicioz/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2'
-            id='jquery-migrate-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/libs/jarallax.js?ver=6.0.2'
+        <script src='/delicioz/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+        <script src='/delicioz/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/jarallax.js?ver=6.0.2'
             id='jarallax-js'></script>
         <link rel="https://api.w.org/" href="/delicioz/wp-json/" />
-        <link rel="alternate" type="application/json"
-            href="/delicioz/wp-json/wp/v2/pages/12" />
+        <link rel="alternate" type="application/json" href="/delicioz/wp-json/wp/v2/pages/12" />
         <link rel="EditURI" type="application/rsd+xml" title="RSD"
             href="https://demo2.themelexus.com/delicioz/xmlrpc.php?rsd" />
-        <link rel="wlwmanifest" type="application/wlwmanifest+xml"
-            href="/delicioz/wp-includes/wlwmanifest.xml" />
+        <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/delicioz/wp-includes/wlwmanifest.xml" />
         <meta name="generator" content="WordPress 6.0.2" />
         <meta name="generator" content="WooCommerce 6.8.2" />
         <link rel="canonical" href="https://demo2.themelexus.com/delicioz/my-account/" />
@@ -1215,7 +1190,7 @@
             </defs>
         </svg>
         <div id="page" class="hfeed site">
-       @livewire('inc.header')
+            @livewire('inc.header')
 
             <div class="breadcrumb-wrap">
                 <div data-elementor-type="wp-post" data-elementor-id="101" class="elementor elementor-101">
@@ -1259,19 +1234,100 @@
 
                                         <div class="woocommerce-MyAccount-content">
                                             <div class="woocommerce-notices-wrapper"></div>
-                                            <p>
-                                                Hello <strong>{{ Auth::user()->name }}</strong> (not <strong>{{ Auth::user()->name }}</strong>? <a
-                                                    href="https://demo2.themelexus.com/delicioz/my-account/customer-logout/?_wpnonce=c690371e25">Log
-                                                    out</a>)</p>
+                                            <form class="woocommerce-EditAccountForm edit-account" action=""
+                                                method="post">
 
-                                            <p>
-                                                From your account dashboard you can view your <a
-                                                    href="https://demo2.themelexus.com/delicioz/my-account/orders/">recent
-                                                    orders</a>, manage your <a
-                                                    href="https://demo2.themelexus.com/delicioz/my-account/edit-address/">shipping
-                                                    and billing addresses</a>, and <a
-                                                    href="https://demo2.themelexus.com/delicioz/my-account/edit-account/">edit
-                                                    your password and account details</a>.</p>
+
+                                                <p
+                                                    class="woocommerce-form-row woocommerce-form-row--first form-row form-row-first">
+                                                    <label for="account_first_name">First name&nbsp;<span
+                                                            class="required">*</span></label>
+                                                    <input type="text"
+                                                        class="woocommerce-Input woocommerce-Input--text input-text"
+                                                        name="account_first_name" id="account_first_name"
+                                                        autocomplete="given-name" value="">
+                                                </p>
+                                                <p
+                                                    class="woocommerce-form-row woocommerce-form-row--last form-row form-row-last">
+                                                    <label for="account_last_name">Last name&nbsp;<span
+                                                            class="required">*</span></label>
+                                                    <input type="text"
+                                                        class="woocommerce-Input woocommerce-Input--text input-text"
+                                                        name="account_last_name" id="account_last_name"
+                                                        autocomplete="family-name" value="">
+                                                </p>
+                                                <div class="clear"></div>
+
+                                                <p
+                                                    class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                                    <label for="account_display_name">Display name&nbsp;<span
+                                                            class="required">*</span></label>
+                                                    <input type="text"
+                                                        class="woocommerce-Input woocommerce-Input--text input-text"
+                                                        name="account_display_name" id="account_display_name"
+                                                        value="2508roblox"> <span><em>This will be how your name will be
+                                                            displayed in the account section and in reviews</em></span>
+                                                </p>
+                                                <div class="clear"></div>
+
+                                                <p
+                                                    class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                                    <label for="account_email">Email address&nbsp;<span
+                                                            class="required">*</span></label>
+                                                    <input type="email"
+                                                        class="woocommerce-Input woocommerce-Input--email input-text"
+                                                        name="account_email" id="account_email" autocomplete="email"
+                                                        value="2508roblox@gmail.com">
+                                                </p>
+
+                                                <fieldset>
+                                                    <legend>Password change</legend>
+
+                                                    <p
+                                                        class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                                        <label for="password_current">Current password (leave blank to
+                                                            leave unchanged)</label>
+                                                        <span class="password-input"><input type="password"
+                                                                class="woocommerce-Input woocommerce-Input--password input-text"
+                                                                name="password_current" id="password_current"
+                                                                autocomplete="off"><span
+                                                                class="show-password-input"></span></span>
+                                                    </p>
+                                                    <p
+                                                        class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                                        <label for="password_1">New password (leave blank to leave
+                                                            unchanged)</label>
+                                                        <span class="password-input"><input type="password"
+                                                                class="woocommerce-Input woocommerce-Input--password input-text"
+                                                                name="password_1" id="password_1"
+                                                                autocomplete="off"><span
+                                                                class="show-password-input"></span></span>
+                                                    </p>
+                                                    <p
+                                                        class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                                        <label for="password_2">Confirm new password</label>
+                                                        <span class="password-input"><input type="password"
+                                                                class="woocommerce-Input woocommerce-Input--password input-text"
+                                                                name="password_2" id="password_2"
+                                                                autocomplete="off"><span
+                                                                class="show-password-input"></span></span>
+                                                    </p>
+                                                </fieldset>
+                                                <div class="clear"></div>
+
+
+                                                <p>
+                                                    <input type="hidden" id="save-account-details-nonce"
+                                                        name="save-account-details-nonce" value="d49ba95040"><input
+                                                        type="hidden" name="_wp_http_referer"
+                                                        value="/delicioz/my-account/edit-account/"> <button
+                                                        type="submit" class="woocommerce-Button button"
+                                                        name="save_account_details" value="Save changes">Save
+                                                        changes</button>
+                                                    <input type="hidden" name="action" value="save_account_details">
+                                                </p>
+
+                                            </form>
 
                                         </div>
                                     </div>
@@ -1285,11 +1341,11 @@
                 </div><!-- .col-full -->
             </div><!-- #content -->
 
-           @livewire('inc.footer')
+            @livewire('inc.footer')
 
         </div><!-- #page -->
 
-       @livewire('inc.menu-mobile')
+        @livewire('inc.menu-mobile')
         <script data-cfasync="false"
             src="/cdn-cgi/scripts/email-decode.min.js-cb/cloudflare-static/email-decode.min.js"></script>
         <script>
@@ -1508,84 +1564,60 @@
                 document.body.className = c;
             })();
         </script>
-        <div class="site-header-cart-side">
-            <div class="cart-side-heading">
-                <span class="cart-side-title">Shopping cart</span>
-                <a href="#" class="close-cart-side">close</a>
-            </div>
-            <div class="widget woocommerce widget_shopping_cart">
-                <div class="widget_shopping_cart_content"></div>
-            </div>
-        </div>
-        <div class="cart-side-overlay"></div>
+
         <link rel='stylesheet' id='elementor-post-671-css'
-            href='/delicioz/wp-content/uploads/elementor/css/post-671.css?ver=1661932588'
-            media='all' />
+            href='/delicioz/wp-content/uploads/elementor/css/post-671.css?ver=1661932588' media='all' />
         <link rel='stylesheet' id='elementor-post-705-css'
-            href='/delicioz/wp-content/uploads/elementor/css/post-705.css?ver=1661932588'
-            media='all' />
+            href='/delicioz/wp-content/uploads/elementor/css/post-705.css?ver=1661932588' media='all' />
         <link rel='stylesheet' id='rs-plugin-settings-css'
-            href='/delicioz/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.5.31'
-            media='all' />
+            href='/delicioz/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.5.31' media='all' />
         <style id='rs-plugin-settings-inline-css'>
             #rs-demo-id {}
         </style>
-        <script
-            src='/delicioz/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9'
+        <script src='/delicioz/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9'
             id='regenerator-runtime-js'></script>
-        <script src='/delicioz/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0'
-            id='wp-polyfill-js'></script>
+        <script src='/delicioz/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
         <script id='contact-form-7-js-extra'>
             var wpcf7 = { "api": { "root": "https:\/\/demo2.themelexus.com\/delicioz\/wp-json\/", "namespace": "contact-form-7\/v1" }, "cached": "1" };
         </script>
-        <script
-            src='/delicioz/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.6.2'
+        <script src='/delicioz/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.6.2'
             id='contact-form-7-js'></script>
-        <script
-            src='/delicioz/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.5.18'
-            defer async id='tp-tools-js'></script>
-        <script
-            src='/delicioz/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.5.31'
-            defer async id='revmin-js'></script>
+        <script src='/delicioz/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.5.18' defer async
+            id='tp-tools-js'></script>
+        <script src='/delicioz/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.5.31' defer async
+            id='revmin-js'></script>
         <script
             src='/delicioz/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.6.8.2'
             id='jquery-blockui-js'></script>
         <script id='wc-add-to-cart-js-extra'>
             var wc_add_to_cart_params = { "ajax_url": "\/delicioz\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/delicioz\/?wc-ajax=%%endpoint%%", "i18n_view_cart": "", "cart_url": "https:\/\/demo2.themelexus.com\/delicioz\/cart\/", "is_cart": "", "cart_redirect_after_add": "no" };
         </script>
-        <script
-            src='/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=6.8.2'
+        <script src='/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=6.8.2'
             id='wc-add-to-cart-js'></script>
         <script
             src='/delicioz/wp-content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js?ver=1.0.9-wc.6.8.2'
             id='selectWoo-js'></script>
-        <script
-            src='/delicioz/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.6.8.2'
+        <script src='/delicioz/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.6.8.2'
             id='js-cookie-js'></script>
         <script id='woocommerce-js-extra'>
             var woocommerce_params = { "ajax_url": "\/delicioz\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/delicioz\/?wc-ajax=%%endpoint%%" };
         </script>
-        <script
-            src='/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=6.8.2'
+        <script src='/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=6.8.2'
             id='woocommerce-js'></script>
         <script id='wc-cart-fragments-js-extra'>
             var wc_cart_fragments_params = { "ajax_url": "\/delicioz\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/delicioz\/?wc-ajax=%%endpoint%%", "cart_hash_key": "wc_cart_hash_fb254261fa3641bff9c309f0d976a3b1", "fragment_name": "wc_fragments_fb254261fa3641bff9c309f0d976a3b1", "request_timeout": "5000" };
         </script>
-        <script
-            src='/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=6.8.2'
+        <script src='/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=6.8.2'
             id='wc-cart-fragments-js'></script>
-        <script src='/delicioz/wp-includes/js/underscore.min.js?ver=1.13.3'
-            id='underscore-js'></script>
+        <script src='/delicioz/wp-includes/js/underscore.min.js?ver=1.13.3' id='underscore-js'></script>
         <script id='wp-util-js-extra'>
             var _wpUtilSettings = { "ajax": { "url": "\/delicioz\/wp-admin\/admin-ajax.php" } };
         </script>
-        <script src='/delicioz/wp-includes/js/wp-util.min.js?ver=6.0.2'
-            id='wp-util-js'></script>
+        <script src='/delicioz/wp-includes/js/wp-util.min.js?ver=6.0.2' id='wp-util-js'></script>
         <script id='woo-variation-swatches-js-extra'>
             var woo_variation_swatches_options = { "show_variation_label": "1", "clear_on_reselect": "", "variation_label_separator": ":", "is_mobile": "", "show_variation_stock": "", "stock_label_threshold": "5", "cart_redirect_after_add": "no", "enable_ajax_add_to_cart": "yes", "cart_url": "https:\/\/demo2.themelexus.com\/delicioz\/cart\/", "is_cart": "" };
         </script>
-        <script
-            src='/delicioz/wp-content/plugins/woo-variation-swatches/assets/js/frontend.min.js?ver=1660386322'
+        <script src='/delicioz/wp-content/plugins/woo-variation-swatches/assets/js/frontend.min.js?ver=1660386322'
             id='woo-variation-swatches-js'></script>
         <script
             src='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/table-head-fixer/table-head-fixer.js?ver=5.1.5'
@@ -1593,112 +1625,81 @@
         <script
             src='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js?ver=5.1.5'
             id='perfect-scrollbar-js'></script>
-        <script src='/delicioz/wp-includes/js/jquery/ui/core.min.js?ver=1.13.1'
-            id='jquery-ui-core-js'></script>
-        <script src='/delicioz/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.1'
-            id='jquery-ui-mouse-js'></script>
-        <script src='/delicioz/wp-includes/js/jquery/ui/sortable.min.js?ver=1.13.1'
-            id='jquery-ui-sortable-js'></script>
+        <script src='/delicioz/wp-includes/js/jquery/ui/core.min.js?ver=1.13.1' id='jquery-ui-core-js'></script>
+        <script src='/delicioz/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.1' id='jquery-ui-mouse-js'></script>
+        <script src='/delicioz/wp-includes/js/jquery/ui/sortable.min.js?ver=1.13.1' id='jquery-ui-sortable-js'></script>
         <script id='woosc-frontend-js-extra'>
             var woosc_vars = { "ajax_url": "https:\/\/demo2.themelexus.com\/delicioz\/wp-admin\/admin-ajax.php", "user_id": "507cd05cd3b624f070c3beb15c1092c4", "page_url": "#", "open_button": "", "open_button_action": "open_popup", "menu_action": "open_popup", "button_action": "show_table", "sidebar_position": "right", "message_position": "right-top", "message_added": "{name} has been added to Compare list.", "message_removed": "{name} has been removed from the Compare list.", "message_exists": "{name} is already in the Compare list.", "open_bar": "", "bar_bubble": "no", "adding": "prepend", "click_again": "no", "hide_empty": "no", "click_outside": "yes", "freeze_column": "yes", "freeze_row": "yes", "scrollbar": "yes", "limit": "100", "button_text_change": "yes", "remove_all": "Do you want to remove all products from the compare?", "limit_notice": "You can add a maximum of {limit} products to the compare table.", "copied_text": "Share link %s was copied to clipboard!", "button_text": "Compare", "button_text_added": "Compare" };
         </script>
-        <script
-            src='/delicioz/wp-content/plugins/woo-smart-compare/assets/js/frontend.js?ver=5.1.5'
+        <script src='/delicioz/wp-content/plugins/woo-smart-compare/assets/js/frontend.js?ver=5.1.5'
             id='woosc-frontend-js'></script>
         <script id='wc-add-to-cart-variation-js-extra'>
             var wc_add_to_cart_variation_params = { "wc_ajax_url": "\/delicioz\/?wc-ajax=%%endpoint%%", "i18n_no_matching_variations_text": "Sorry, no products matched your selection. Please choose a different combination.", "i18n_make_a_selection_text": "Please select some product options before adding this product to your cart.", "i18n_unavailable_text": "Sorry, this product is unavailable. Please choose a different combination." };
         </script>
-        <script
-            src='/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=6.8.2'
+        <script src='/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=6.8.2'
             id='wc-add-to-cart-variation-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/libs/slick.min.js?ver=1.0.1'
-            id='slick-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/libs/jquery.magnific-popup.min.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/slick.min.js?ver=1.0.1' id='slick-js'></script>
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/jquery.magnific-popup.min.js?ver=1.0.1'
             id='magnific-popup-js'></script>
         <script id='woosq-frontend-js-extra'>
             var woosq_vars = { "ajax_url": "https:\/\/demo2.themelexus.com\/delicioz\/wp-admin\/admin-ajax.php", "view": "popup", "effect": "mfp-3d-unfold", "scrollbar": "yes", "hashchange": "no", "cart_redirect": "no", "cart_url": "https:\/\/demo2.themelexus.com\/delicioz\/cart\/", "close": "Close (Esc)", "next": "Next (Right arrow key)", "prev": "Previous (Left arrow key)", "thumbnails_effect": "no", "related_slick_params": "{\"slidesToShow\":2,\"slidesToScroll\":2,\"dots\":true,\"arrows\":false,\"adaptiveHeight\":true,\"rtl\":false}", "thumbnails_slick_params": "{\"slidesToShow\":1,\"slidesToScroll\":1,\"dots\":true,\"arrows\":true,\"adaptiveHeight\":false,\"rtl\":false}", "thumbnails_zoom_params": "{\"duration\":120,\"magnify\":1}" };
         </script>
-        <script
-            src='/delicioz/wp-content/plugins/woo-smart-quick-view/assets/js/frontend.js?ver=3.1.2'
+        <script src='/delicioz/wp-content/plugins/woo-smart-quick-view/assets/js/frontend.js?ver=3.1.2'
             id='woosq-frontend-js'></script>
         <script id='woosw-frontend-js-extra'>
             var woosw_vars = { "ajax_url": "https:\/\/demo2.themelexus.com\/delicioz\/wp-admin\/admin-ajax.php", "menu_action": "open_page", "perfect_scrollbar": "yes", "wishlist_url": "https:\/\/demo2.themelexus.com\/delicioz\/wishlist\/", "button_action": "list", "message_position": "right-top", "button_action_added": "popup", "empty_confirm": "This action cannot be undone. Are you sure?", "delete_confirm": "This action cannot be undone. Are you sure?", "copied_text": "Copied the wishlist link:", "menu_text": "Wishlist", "button_text": "Add to wishlist", "button_text_added": "Browse wishlist" };
         </script>
-        <script
-            src='/delicioz/wp-content/plugins/woo-smart-wishlist/assets/js/frontend.js?ver=4.3.1'
+        <script src='/delicioz/wp-content/plugins/woo-smart-wishlist/assets/js/frontend.js?ver=4.3.1'
             id='woosw-frontend-js'></script>
         <script id='delicioz-theme-js-extra'>
             var deliciozAjax = { "ajaxurl": "https:\/\/demo2.themelexus.com\/delicioz\/wp-admin\/admin-ajax.php" };
         </script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/main.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/main.js?ver=1.0.1'
             id='delicioz-theme-js'></script>
-        <script src='/delicioz/wp-includes/js/imagesloaded.min.js?ver=4.1.4'
-            id='imagesloaded-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/search-popup.js?ver=1.0.1'
+        <script src='/delicioz/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/search-popup.js?ver=1.0.1'
             id='delicioz-search-popup-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/text-editor.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/text-editor.js?ver=1.0.1'
             id='delicioz-text-editor-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/nav-mobile.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/nav-mobile.js?ver=1.0.1'
             id='delicioz-nav-mobile-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/inc/megamenu/assets/js/frontend.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/inc/megamenu/assets/js/frontend.js?ver=1.0.1'
             id='delicioz-megamenu-frontend-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/header-cart.min.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/header-cart.min.js?ver=1.0.1'
             id='delicioz-header-cart-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/libs/tooltipster.bundle.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/tooltipster.bundle.js?ver=1.0.1'
             id='tooltipster-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/product-ajax-search.min.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/product-ajax-search.min.js?ver=1.0.1'
             id='delicioz-products-ajax-search-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/main.min.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/main.min.js?ver=1.0.1'
             id='delicioz-products-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/quantity.min.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/quantity.min.js?ver=1.0.1'
             id='delicioz-input-quantity-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/off-canvas.min.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/off-canvas.min.js?ver=1.0.1'
             id='delicioz-off-canvas-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/cart-canvas.min.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/cart-canvas.min.js?ver=1.0.1'
             id='delicioz-cart-canvas-js'></script>
         <script
             src='/delicioz/wp-content/plugins/make-column-clickable-elementor/assets/js/make-column-clickable.js?ver=1.4.0'
             id='make-column-clickable-elementor-js'></script>
-        <script defer
-            src='/delicioz/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.8.8'
+        <script defer src='/delicioz/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.8.8'
             id='mc4wp-forms-api-js'></script>
-        <script
-            src='/delicioz/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.7.3'
+        <script src='/delicioz/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.7.3'
             id='elementor-webpack-runtime-js'></script>
-        <script
-            src='/delicioz/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.7.3'
+        <script src='/delicioz/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.7.3'
             id='elementor-frontend-modules-js'></script>
-        <script
-            src='/delicioz/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2'
+        <script src='/delicioz/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2'
             id='elementor-waypoints-js'></script>
         <script id='elementor-frontend-js-before'>
             var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Extra", "value": 880, "default_value": 880, "direction": "max", "is_enabled": true }, "tablet": { "label": "Tablet", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Extra", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": true }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": true }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.7.3", "is_static": false, "experimentalFeatures": { "e_dom_optimization": true, "e_optimized_assets_loading": true, "e_optimized_css_loading": true, "a11y_improvements": true, "additional_custom_breakpoints": true, "e_import_export": true, "e_hidden_wordpress_widgets": true, "landing-pages": true, "elements-color-picker": true, "favorite-widgets": true, "admin-top-bar": true }, "urls": { "assets": "https:\/\/demo2.themelexus.com\/delicioz\/wp-content\/plugins\/elementor\/assets\/" }, "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_mobile_extra", "viewport_tablet", "viewport_tablet_extra", "viewport_laptop"], "body_background_background": "classic", "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 12, "title": "My%20account%20%E2%80%93%20Delicioz", "excerpt": "", "featuredImage": false }, "user": { "roles": ["customer"] } };
         </script>
-        <script
-            src='/delicioz/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.7.3'
+        <script src='/delicioz/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.7.3'
             id='elementor-frontend-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/elementor-frontend.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/elementor-frontend.js?ver=1.0.1'
             id='delicioz-elementor-frontend-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/jquery.sticky.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/jquery.sticky.js?ver=1.0.1'
             id='elementor-sticky-js'></script>
-        <script
-            src='/delicioz/wp-content/themes/delicioz/assets/js/libs/sticky.js?ver=1.0.1'
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/sticky.js?ver=1.0.1'
             id='delicioz-elementor-sticky-js'></script>
     </body>
 

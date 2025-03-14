@@ -12,54 +12,51 @@
                         <i class="delicioz-icon-sliders-v"></i><span>Filter</span></a>
 
                     <p class="woocommerce-result-count">
-                        Showing {{ $dishes->firstItem() }}&ndash;{{ $dishes->lastItem() }} of {{ $dishes->total() }} results
+                        Showing {{ $dishes->firstItem() }}&ndash;{{ $dishes->lastItem() }} of {{ $dishes->total() }}
+                        results
                     </p>
                 </div>
                 <div class="delicioz-products-spacing ">
                     <ul class="delicioz-products products columns-3">
                         @foreach ($dishes as $dish)
-                        <li
-                            class="product type-product post-480 status-publish first instock product_cat-desserts product_cat-recipes product_tag-desserts product_tag-recipes has-post-thumbnail shipping-taxable purchasable product-type-simple">
-                            <div class="product-block">
-                                <div class="product-transition"><img width="300" height="300"
-                                        src="{{ Storage::url($dish->image) }}"
-                                        class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                        alt="" loading="lazy"
-                                        sizes="(max-width: 300px) 100vw, 300px" />
+                            <li
+                                class="product type-product post-480 status-publish first instock product_cat-desserts product_cat-recipes product_tag-desserts product_tag-recipes has-post-thumbnail shipping-taxable purchasable product-type-simple">
+                                <div class="product-block">
+                                    <div class="product-transition"><img width="300" height="300"
+                                            src="{{ Storage::url($dish->image) }}"
+                                            class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""
+                                            loading="lazy" sizes="(max-width: 300px) 100vw, 300px" />
 
-                                    <a href="/product/{{ $dish->slug }}"
-                                        class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a>
-                                </div>
-                                <div class="product-caption">
-                                    <h3 class="woocommerce-loop-product__title"><a
-                                            href="/product/{{ $dish->slug }}">{{ $dish->name }}</a></h3>
-                                    <div class="count-review">
-                                        <div class="star-rating" role="img"
-                                            aria-label="Rated 4.75 out of 5"><span style="width:95%">Rated
-                                                <strong class="rating">4.75</strong> out of 5</span></div>
-                                        <span></span>
+                                        <a href="/product/{{ $dish->slug }}"
+                                            class="woocommerce-LoopProduct-link woocommerce-loop-product__link"></a>
                                     </div>
-                                    <span class="price"><span
-                                            class="woocommerce-Price-amount amount"><bdi><span
-                                                    class="woocommerce-Price-currencySymbol"></span>{{ number_format($dish->price, 0, ',', '.') }} VNĐ</bdi></span></span>
-                                    <div class="product-caption-bottom"><a href="?add-to-cart=480"
-                                            data-quantity="1"
-                                            class="button product_type_simple add_to_cart_button ajax_add_to_cart"
-                                            data-product_id="480"
-                                            data-product_sku="rustic-linen-shirt-22033697"
-                                            aria-label="Add &ldquo;Rustic Linen Shirt&rdquo; to your cart"
-                                            rel="nofollow">Add to cart</a></div>
+                                    <div class="product-caption">
+                                        <h3 class="woocommerce-loop-product__title"><a
+                                                href="/product/{{ $dish->slug }}">{{ $dish->name }}</a></h3>
+                                        <div class="count-review">
+                                            <div class="star-rating" role="img" aria-label="Rated 4.75 out of 5"><span
+                                                    style="width:95%">Rated
+                                                    <strong class="rating">4.75</strong> out of 5</span></div>
+                                            <span></span>
+                                        </div>
+                                        <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span
+                                                        class="woocommerce-Price-currencySymbol"></span>{{ number_format($dish->price, 0, ',', '.') }}
+                                                    VNĐ</bdi></span></span>
+                                        <div class="product-caption-bottom"><a
+                                                class="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                wire:click="addToCart({{ $dish->id }})">Mua Ngay</a></div>
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                    @endforeach
+                            </li>
+                        @endforeach
 
                     </ul>
                 </div>
                 <nav class="woocommerce-pagination">
                     <ul class='page-numbers'>
                         @if ($dishes->onFirstPage())
-                            <li><span aria-current="page" class="page-numbers current">{{ $dishes->currentPage() }}</span></li>
+                            <li><span aria-current="page" class="page-numbers current">{{ $dishes->currentPage() }}</span>
+                            </li>
                         @else
                             <li><a class="page-numbers" wire:click.prevent="gotoPage(1)">1</a></li>
                         @endif
@@ -87,7 +84,7 @@
         </div><!-- #primary -->
         <div id="secondary" class="widget-area" role="complementary">
             <div id="woocommerce_product_categories-2" class="widget woocommerce widget_product_categories">
-                <span class="gamma widget-title">Product categories</span>
+                <span class="gamma widget-title">Danh mục món ăn</span>
                 <div class="widget-content">
                     <ul class="product-categories">
                         @foreach ($categories as $category)
@@ -100,123 +97,54 @@
                     </ul>
                 </div>
             </div>
+            <div id="woocommerce_product_categories-2" class="widget woocommerce widget_product_categories">
+                <span class="gamma widget-title">Danh mục nhà hàng</span>
+                <div class="widget-content">
+                    <ul class="product-categories">
+                        @foreach ($restaurants as $restaurant)
+                            <li class="cat-item cat-item-42"><a
+                                    onclick="window.location.href='/shop?restaurant={{ $restaurant->id }}'">{{ $restaurant->name }}</a>
+                                <span class="count">({{ $restaurant->dishes_count }})</span>
+                            </li>
+                        @endforeach
+
+                    </ul>
+                </div>
+            </div>
 
             <div id="woocommerce_products-2" class="widget woocommerce widget_products"><span
                     class="gamma widget-title">Best Seller</span>
                 <div class="widget-content">
                     <ul class="product_list_widget">
+                        @foreach ($topSellingDishes as $dish)
                         <li class="product">
                             <div class="product-list-inner">
                                 <div class="product-image">
-                                    <a href="/delicioz/product/veggie-burger/"
-                                        class="menu-thumb">
+                                    <a href="/product/{{ $dish->slug }}" class="menu-thumb">
                                         <img width="300" height="300"
-                                            src="/delicioz/wp-content/uploads/2022/07/product-16-1-300x300.jpg"
-                                            class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                            alt="" loading="lazy" /> </a>
+                                            src="{{ Storage::url($dish->image) }}"
+                                            class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""
+                                            loading="lazy" /> </a>
                                 </div>
 
                                 <div class="product-content">
                                     <h3 class="woocommerce-loop-product__title"><a
-                                            href="/delicioz/product/veggie-burger/">Veggie
-                                            Burger</a></h3>
+                                            href="/product/{{ $dish->slug }}">{{ $dish->name }}</a></h3>
                                     <div class="count-review">
-                                        <div class="star-rating" role="img"
-                                            aria-label="Rated 4.50 out of 5"><span style="width:90%">Rated
+                                        <div class="star-rating" role="img" aria-label="Rated 4.50 out of 5"><span
+                                                style="width:90%">Rated
                                                 <strong class="rating">4.50</strong> out of 5</span></div>
                                         <span></span>
                                     </div>
-                                    <span class="price"><span
-                                            class="woocommerce-Price-amount amount"><bdi><span
-                                                    class="woocommerce-Price-currencySymbol">&#36;</span>52.95</bdi></span></span>
+                                    <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span
+                                                    class="woocommerce-Price-currencySymbol"></span>{{ number_format($dish->price, 0, ',', '.') }}
+                                                    VNĐ</bdi></span></span>
                                 </div>
 
                             </div>
                         </li>
-                        <li class="product">
-                            <div class="product-list-inner">
-                                <div class="product-image">
-                                    <a href="/delicioz/product/steak-sandwich/"
-                                        class="menu-thumb">
-                                        <img width="300" height="300"
-                                            src="/delicioz/wp-content/uploads/2022/07/product-14-1-300x300.jpg"
-                                            class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                            alt="" loading="lazy" /> </a>
-                                </div>
+                        @endforeach
 
-                                <div class="product-content">
-                                    <h3 class="woocommerce-loop-product__title"><a
-                                            href="/delicioz/product/steak-sandwich/">Steak
-                                            Sandwich</a></h3>
-                                    <div class="count-review">
-                                        <div class="star-rating" role="img"
-                                            aria-label="Rated 4.25 out of 5"><span style="width:85%">Rated
-                                                <strong class="rating">4.25</strong> out of 5</span></div>
-                                        <span></span>
-                                    </div>
-                                    <span class="price"><span
-                                            class="woocommerce-Price-amount amount"><bdi><span
-                                                    class="woocommerce-Price-currencySymbol">&#36;</span>52.95</bdi></span></span>
-                                </div>
-
-                            </div>
-                        </li>
-                        <li class="product">
-                            <div class="product-list-inner">
-                                <div class="product-image">
-                                    <a href="/delicioz/product/grilled-steak-kebabs/"
-                                        class="menu-thumb">
-                                        <img width="300" height="300"
-                                            src="/delicioz/wp-content/uploads/2022/07/product-13-1-300x300.jpg"
-                                            class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                            alt="" loading="lazy" /> </a>
-                                </div>
-
-                                <div class="product-content">
-                                    <h3 class="woocommerce-loop-product__title"><a
-                                            href="/delicioz/product/grilled-steak-kebabs/">Grilled
-                                            Steak Kebabs</a></h3>
-                                    <div class="count-review">
-                                        <div class="star-rating" role="img"
-                                            aria-label="Rated 4.25 out of 5"><span style="width:85%">Rated
-                                                <strong class="rating">4.25</strong> out of 5</span></div>
-                                        <span></span>
-                                    </div>
-                                    <span class="price"><span
-                                            class="woocommerce-Price-amount amount"><bdi><span
-                                                    class="woocommerce-Price-currencySymbol">&#36;</span>22.95</bdi></span></span>
-                                </div>
-
-                            </div>
-                        </li>
-                        <li class="product">
-                            <div class="product-list-inner">
-                                <div class="product-image">
-                                    <a href="/delicioz/product/baked-meat/"
-                                        class="menu-thumb">
-                                        <img width="300" height="300"
-                                            src="/delicioz/wp-content/uploads/2022/07/product-10-1-300x300.jpg"
-                                            class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                            alt="" loading="lazy" /> </a>
-                                </div>
-
-                                <div class="product-content">
-                                    <h3 class="woocommerce-loop-product__title"><a
-                                            href="/delicioz/product/baked-meat/">Baked
-                                            Meat</a></h3>
-                                    <div class="count-review">
-                                        <div class="star-rating" role="img"
-                                            aria-label="Rated 3.50 out of 5"><span style="width:70%">Rated
-                                                <strong class="rating">3.50</strong> out of 5</span></div>
-                                        <span></span>
-                                    </div>
-                                    <span class="price"><span
-                                            class="woocommerce-Price-amount amount"><bdi><span
-                                                    class="woocommerce-Price-currencySymbol">&#36;</span>52.95</bdi></span></span>
-                                </div>
-
-                            </div>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -274,8 +202,8 @@
         <h2>Danh mục</h2>
         <ul>
             @foreach ($categories as $category)
-                <li onclick="window.location.href='/shop?category={{ $category->id }}'">{{ $category->name }}
-                    ({{ $category->dishes_count }})</li>
+            <li onclick="window.location.href='/shop?category={{ $category->id }}'">{{ $category->name }}
+                ({{ $category->dishes_count }})</li>
             @endforeach
         </ul>
     </div>
@@ -297,7 +225,7 @@
         <h2>Món ăn</h2>
         <ul>
             @foreach ($dishes as $dish)
-                <li>{{ $dish->name }} - {{ $dish->price }} VNĐ</li>
+            <li>{{ $dish->name }} - {{ $dish->price }} VNĐ</li>
             @endforeach
         </ul>
     </div>

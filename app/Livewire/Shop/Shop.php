@@ -2,6 +2,8 @@
 
 namespace App\Livewire\Shop;
 
+use App\Helpers\CartManagement;
+use App\Models\Restaurant;
 use Livewire\Component;
 use Livewire\WithPagination;
 use App\Models\Dish;
@@ -18,7 +20,7 @@ class Shop extends Component
     public $sort_by = 'created_at';
     public $sort_direction = 'asc';
     public $page = 1; // Thêm thuộc tính này
-
+    public $restaurant_id;
     protected $queryString = [
         'category_id',
         'search',
@@ -34,14 +36,24 @@ class Shop extends Component
         if (request()->get('category')) {
             $this->category_id = request()->get('category');
         }
+        if (request()->get('restaurant')) {
+            $this->restaurant_id = request()->get('restaurant');
+        }
     }
-
+    public function addToCart($id)
+    {
+        CartManagement::addItemToCart($id, 1);
+        return redirect('/cart');
+    }
     public function render()
     {
         $query = Dish::query();
 
         if ($this->category_id) {
             $query->where('food_category_id', $this->category_id);
+        }
+        if ($this->restaurant_id) {
+            $query->where('restaurant_id', $this->restaurant_id);
         }
 
         if ($this->search) {
@@ -51,12 +63,14 @@ class Shop extends Component
         $dishes = $query->whereBetween('price', [$this->price_min, $this->price_max])
             ->orderBy($this->sort_by, $this->sort_direction)
             ->paginate(9);
-
+            $topSellingDishes = Dish::orderBy('sold_quantity', 'desc')->take(4)->get();
         $categories = FoodCategory::withCount('dishes')->get();
-
+        $restaurants = Restaurant::withCount('dishes')->get();
         return view('livewire.shop.shop', [
             'dishes' => $dishes,
             'categories' => $categories,
+            'restaurants' => $restaurants,
+            'topSellingDishes' => $topSellingDishes,
         ]);
     }
 

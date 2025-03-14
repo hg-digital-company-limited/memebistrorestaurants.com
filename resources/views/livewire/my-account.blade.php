@@ -1264,14 +1264,8 @@
                                                     href="https://demo2.themelexus.com/delicioz/my-account/customer-logout/?_wpnonce=c690371e25">Log
                                                     out</a>)</p>
 
-                                            <p>
-                                                From your account dashboard you can view your <a
-                                                    href="https://demo2.themelexus.com/delicioz/my-account/orders/">recent
-                                                    orders</a>, manage your <a
-                                                    href="https://demo2.themelexus.com/delicioz/my-account/edit-address/">shipping
-                                                    and billing addresses</a>, and <a
-                                                    href="https://demo2.themelexus.com/delicioz/my-account/edit-account/">edit
-                                                    your password and account details</a>.</p>
+                                            <p>Điểm thưởng: {{ Auth::user()->loyalty_points }}
+                                                </p>
 
                                         </div>
                                     </div>
@@ -1508,16 +1502,7 @@
                 document.body.className = c;
             })();
         </script>
-        <div class="site-header-cart-side">
-            <div class="cart-side-heading">
-                <span class="cart-side-title">Shopping cart</span>
-                <a href="#" class="close-cart-side">close</a>
-            </div>
-            <div class="widget woocommerce widget_shopping_cart">
-                <div class="widget_shopping_cart_content"></div>
-            </div>
-        </div>
-        <div class="cart-side-overlay"></div>
+
         <link rel='stylesheet' id='elementor-post-671-css'
             href='/delicioz/wp-content/uploads/elementor/css/post-671.css?ver=1661932588'
             media='all' />

@@ -1797,13 +1797,13 @@
                                                             </li>
                                                             <li id="menu-item-73"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-68 current_page_item current_page_parent current-menu-ancestor current-menu-parent current_page_ancestor menu-item-has-children menu-item-73">
-                                                                <a href="/delicioz/blog/"><span
+                                                                <a href="/promotion"><span
                                                                         class="menu-title">Blog</span></a>
                                                                 <ul class="sub-menu">
                                                                     <li id="menu-item-222"
                                                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-222">
                                                                         <a
-                                                                            href="/delicioz/blog/"><span
+                                                                            href="/promotion"><span
                                                                                 class="menu-title">Blog
                                                                                 Standard</span></a></li>
                                                                     <li id="menu-item-223"
@@ -1833,7 +1833,7 @@
                                                                     <li id="menu-item-77"
                                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77">
                                                                         <a
-                                                                            href="/delicioz/reservation/"><span
+                                                                            href="/reservation/"><span
                                                                                 class="menu-title">Reservation (Contact
                                                                                 Form 7)</span></a></li>
                                                                     <li id="menu-item-76"
@@ -1857,7 +1857,7 @@
                                                             </li>
                                                             <li id="menu-item-506"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-506">
-                                                                <a href="/delicioz/shop/"><span
+                                                                <a href="/shop/"><span
                                                                         class="menu-title">Shop</span></a>
                                                                 <ul class="sub-menu">
                                                                     <li id="menu-item-507"
@@ -1948,7 +1948,7 @@
                                         data-id="50a58f1" data-element_type="widget" data-widget_type="button.default">
                                         <div class="elementor-widget-container">
                                             <div class="elementor-button-wrapper">
-                                                <a href="/delicioz/reservation/"
+                                                <a href="/reservation/"
                                                     class="elementor-button-link elementor-button elementor-size-sm"
                                                     role="button">
                                                     <span class="elementor-button-content-wrapper">

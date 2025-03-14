@@ -1683,6 +1683,10 @@
             href='/delicioz/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.5.31' media='all' />
         <style id='rs-plugin-settings-inline-css'>
             #rs-demo-id {}
+            #payment .place-order .button {
+    width: 100%;
+    white-space: initial;
+}
         </style>
         <script src='/delicioz/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9'
             id='regenerator-runtime-js'></script>

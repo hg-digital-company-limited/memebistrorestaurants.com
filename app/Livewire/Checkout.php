@@ -20,6 +20,10 @@ class Checkout extends Component
 
     public function mount()
     {
+        $this->name = auth()->user()->name;
+        $this->email = auth()->user()->email;
+        $this->phone = auth()->user()->phone;
+        $this->address = auth()->user()->address;
         $this->cartItems = CartManagement::getCartItemsFromCookie();
         if (empty($this->cartItems)) {
             return redirect('/cart');
@@ -65,6 +69,8 @@ class Checkout extends Component
         CartManagement::clearCartItems();
         if($this->paymentMethod == 'bank'){
             $this->paymentVNPAY($order->id,$this->totalAmount,$order->order_code);
+        }else{
+            return redirect('/order-received?vnp_TxnRef='.$order->order_code);
         }
         // Clear cart items after order is placed
 

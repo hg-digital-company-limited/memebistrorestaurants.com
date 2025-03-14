@@ -1812,13 +1812,13 @@
                                                             </li>
                                                             <li id="menu-item-73"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent current-menu-ancestor current-menu-parent current_page_ancestor menu-item-has-children menu-item-73">
-                                                                <a href="/delicioz/blog/"><span
+                                                                <a href="/promotion"><span
                                                                         class="menu-title">Blog</span></a>
                                                                 <ul class="sub-menu">
                                                                     <li id="menu-item-222"
                                                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-222">
                                                                         <a
-                                                                            href="/delicioz/blog/"><span
+                                                                            href="/promotion"><span
                                                                                 class="menu-title">Blog
                                                                                 Standard</span></a></li>
                                                                     <li id="menu-item-223"
@@ -1848,7 +1848,7 @@
                                                                     <li id="menu-item-77"
                                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77">
                                                                         <a
-                                                                            href="/delicioz/reservation/"><span
+                                                                            href="/reservation/"><span
                                                                                 class="menu-title">Reservation (Contact
                                                                                 Form 7)</span></a></li>
                                                                     <li id="menu-item-76"
@@ -1872,7 +1872,7 @@
                                                             </li>
                                                             <li id="menu-item-506"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-506">
-                                                                <a href="/delicioz/shop/"><span
+                                                                <a href="/shop/"><span
                                                                         class="menu-title">Shop</span></a>
                                                                 <ul class="sub-menu">
                                                                     <li id="menu-item-507"
@@ -1963,7 +1963,7 @@
                                         data-id="50a58f1" data-element_type="widget" data-widget_type="button.default">
                                         <div class="elementor-widget-container">
                                             <div class="elementor-button-wrapper">
-                                                <a href="/delicioz/reservation/"
+                                                <a href="/reservation/"
                                                     class="elementor-button-link elementor-button elementor-size-sm"
                                                     role="button">
                                                     <span class="elementor-button-content-wrapper">
@@ -2446,7 +2446,7 @@
                                                         </style>
                                                         <div class="elementor-image-box-wrapper">
                                                             <figure class="elementor-image-box-img"><a
-                                                                    href="/delicioz/reservation/"><img
+                                                                    href="/reservation/"><img
                                                                         width="410" height="264"
                                                                         src="/delicioz/wp-content/uploads/2022/07/demo06.jpg"
                                                                         class="attachment-full size-full" alt=""
@@ -2454,7 +2454,7 @@
                                                             <div class="elementor-image-box-content">
                                                                 <div class="icon"></div>
                                                                 <h3 class="elementor-image-box-title"><a
-                                                                        href="/delicioz/reservation/">About
+                                                                        href="/reservation/">About
                                                                         Our Restaurant</a></h3>
                                                                 <p class="elementor-image-box-description">By day,
                                                                     Delicioz provides a hub to meet friends and
@@ -2462,7 +2462,7 @@
                                                                     yet professional service and sophisticated menus all
                                                                     delivered in a relaxed setting.</p>
                                                                 <div class="elementor-image-box-button-wrapper"><a
-                                                                        href="/delicioz/reservation/"
+                                                                        href="/reservation/"
                                                                         class="elementor-image-box-button"><span
                                                                             class="elementor-image-box-button-text">
                                                                             Book a table</span></a></div>
