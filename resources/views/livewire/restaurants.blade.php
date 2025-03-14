@@ -1,21 +1,13 @@
 <div>
 
     <head>
-        <title>{{ $promotion->title }}</title>
+        <title>Restaurant</title>
         <meta name='robots' content='max-image-preview:large' />
         <link rel="dns-prefetch" href="//fonts.googleapis.com">
         <link rel="dns-prefetch" href="//s.w.org">
-        <link rel="pingback" href="https://demo2.themelexus.com/delicioz/xmlrpc.php">
         <link rel='dns-prefetch' href='//demo2.themelexus.com' />
         <link rel='dns-prefetch' href='//fonts.googleapis.com' />
         <link rel='dns-prefetch' href='//s.w.org' />
-        <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Feed"
-            href="https://demo2.themelexus.com/delicioz/feed/" />
-        <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Comments Feed"
-            href="https://demo2.themelexus.com/delicioz/comments/feed/" />
-        <link rel="alternate" type="application/rss+xml"
-            title="Delicioz &raquo; 10 Restaurant patio decor ideas for summer Comments Feed"
-            href="https://demo2.themelexus.com/delicioz/10-restaurant-patio-decor-ideas-for-summer/feed/" />
         <script>
             window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/demo2.themelexus.com\/delicioz\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.2" } };
             /*! This file is auto-generated */
@@ -997,19 +989,10 @@
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/jarallax.js?ver=6.0.2'
             id='jarallax-js'></script>
         <link rel="https://api.w.org/" href="/delicioz/wp-json/" />
-        <link rel="alternate" type="application/json" href="/delicioz/wp-json/wp/v2/posts/130" />
-        <link rel="EditURI" type="application/rsd+xml" title="RSD"
-            href="https://demo2.themelexus.com/delicioz/xmlrpc.php?rsd" />
+        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/delicioz/xmlrpc.php?rsd" />
         <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/delicioz/wp-includes/wlwmanifest.xml" />
         <meta name="generator" content="WordPress 6.0.2" />
         <meta name="generator" content="WooCommerce 6.8.2" />
-        <link rel="canonical"
-            href="https://demo2.themelexus.com/delicioz/10-restaurant-patio-decor-ideas-for-summer/" />
-        <link rel='shortlink' href='https://demo2.themelexus.com/delicioz/?p=130' />
-        <link rel="alternate" type="application/json+oembed"
-            href="/delicioz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo2.themelexus.com%2Fdelicioz%2F10-restaurant-patio-decor-ideas-for-summer%2F" />
-        <link rel="alternate" type="text/xml+oembed"
-            href="/delicioz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo2.themelexus.com%2Fdelicioz%2F10-restaurant-patio-decor-ideas-for-summer%2F&#038;format=xml" />
         <noscript>
             <style>
                 .woocommerce-product-gallery {
@@ -1071,7 +1054,7 @@
     </head>
 
     <body
-        class="post-template-default single single-post postid-130 single-format-standard logged-in wp-custom-logo wp-embed-responsive theme-delicioz woocommerce-no-js ehf-header ehf-footer ehf-template-delicioz ehf-stylesheet-demo-child woo-variation-swatches wvs-behavior-blur wvs-theme-demo-child wvs-show-label wvs-tooltip chrome delicioz-sidebar- has-post-thumbnail woocommerce-active product-block-style-1 elementor-default elementor-kit-7">
+        class="blog logged-in wp-custom-logo wp-embed-responsive theme-delicioz woocommerce-no-js ehf-header ehf-footer ehf-template-delicioz ehf-stylesheet-demo-child woo-variation-swatches wvs-behavior-blur wvs-theme-demo-child wvs-show-label wvs-tooltip chrome delicioz-full-width-content has-post-thumbnail woocommerce-active product-block-style-1 elementor-default elementor-kit-7">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
             style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
             <defs>
@@ -1211,11 +1194,9 @@
                                         data-id="f1766c2" data-element_type="widget"
                                         data-widget_type="woocommerce-breadcrumb.default">
                                         <div class="elementor-widget-container">
-                                            <div class="delicioz-woocommerce-title">{{ $promotion->title }}</div>
-                                            <nav class="woocommerce-breadcrumb"><a
-                                                    href="/">Trang chủ</a><i
-                                                    class="delicioz-icon-arrow-right-s-line"></i><a
-                                                    href="/promotion">Khuyến mãi</a><i class="delicioz-icon-arrow-right-s-line"></i>{{ $promotion->title }}</nav>
+                                            <div class="delicioz-woocommerce-title">Restaurant</div>
+                                            <nav class="woocommerce-breadcrumb"><a href="/">Home Page</a><i
+                                                    class="delicioz-icon-arrow-right-s-line"></i>Restaurant</nav>
                                         </div>
                                     </div>
                                 </div>
@@ -1230,190 +1211,56 @@
                     <div class="woocommerce"></div>
                     <div id="primary" class="content-area">
                         <main id="main" class="site-main">
-                            <article id="post-130"
-                                class="post-130 post type-post status-publish format-standard has-post-thumbnail hentry category-company-news category-lifestyle tag-menu tag-recipes tag-restaurant">
-                                <div class="single-content">
-                                    <header class="entry-header">
-                                        <div class="posted-on"><a
-                                                href="https://demo2.themelexus.com/delicioz/10-restaurant-patio-decor-ideas-for-summer/"
-                                                rel="bookmark">{{ $promotion->created_at->format('d/m/Y') }}</a></div>
-                                        <h1 class="alpha entry-title">{{ $promotion->title }}</h1>
 
-                                    </header><!-- .entry-header -->
-                                    <div class="post-thumbnail"><img width="1000" height="510"
-                                            src="{{ Storage::url($promotion->banner) }}" style="
-                                            width: 100%;
-                                        " class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
-                                    </div>
-                                    <div class="entry-content"> {!! $promotion->description !!}</div><!-- .entry-content -->
-                                </div>
+                            <div class="blog-style-grid" data-elementor-columns="3">
+                                @foreach ($restaurants as $restaurant)
+                                    <div
+                                        class="column-item post-style-1 post-129 post type-post status-publish format-standard has-post-thumbnail hentry category-decoration category-healthy-food tag-desserts tag-recipes tag-style">
+                                        <div class="post-inner">
+                                            <div class="post-thumbnail">
+                                               <img width="820" height="500"
+                                                    src="{{ Storage::url($restaurant->image) }}"
+                                                    class="attachment-delicioz-post-grid size-delicioz-post-grid wp-post-image"
+                                                    alt="" />
+                                            </div>
+                                            <div class="entry-content">
 
-                            </article><!-- #post-## -->
+                                                <h3 class="entry-title"><a href="/restaurant/{{ $restaurant->id }}"
+                                                        rel="bookmark">{{ $restaurant->name }}</a></h3>
+                                                <div class="entry-meta">
+                                                    <div class="categories-link"><span
+                                                            class="screen-reader-text">Categories</span><a
+                                                            href="/restaurant/{{ $restaurant->id }}"
+                                                            rel="category tag">{{ $restaurant->location }}</a></div>
+                                                </div>
+                                                <div class="excerpt-content">{{ $restaurant->description }}</div>
 
-                        </main><!-- #main -->
-                    </div><!-- #primary -->
-                    <div id="secondary" class="widget-area" role="complementary">
-                        <div id="block-8" class="widget widget_block">
-                            <div data-elementor-type="section" data-elementor-id="207" class="elementor elementor-207">
-                                <div class="elementor-section elementor-top-section elementor-element elementor-element-1d12e81 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                    data-id="1d12e81" data-element_type="section">
-                                    <div class="elementor-container elementor-column-gap-no">
-                                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-42c3205"
-                                            data-id="42c3205" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-d9fe0a5 elementor-position-top elementor-position-below elementor-vertical-align-top elementor-widget elementor-widget-image-box"
-                                                    data-id="d9fe0a5" data-element_type="widget"
-                                                    data-widget_type="image-box.default">
-                                                    <div class="elementor-widget-container">
-                                                        <style>
-                                                            .elementor-widget-image-box .elementor-image-box-content {
-                                                                width: 100%
-                                                            }
-
-                                                            @media (min-width:768px) {
-
-                                                                .elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper,
-                                                                .elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper {
-                                                                    display: -webkit-box;
-                                                                    display: -ms-flexbox;
-                                                                    display: flex
-                                                                }
-
-                                                                .elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper {
-                                                                    text-align: right;
-                                                                    -webkit-box-orient: horizontal;
-                                                                    -webkit-box-direction: reverse;
-                                                                    -ms-flex-direction: row-reverse;
-                                                                    flex-direction: row-reverse
-                                                                }
-
-                                                                .elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper {
-                                                                    text-align: left;
-                                                                    -webkit-box-orient: horizontal;
-                                                                    -webkit-box-direction: normal;
-                                                                    -ms-flex-direction: row;
-                                                                    flex-direction: row
-                                                                }
-
-                                                                .elementor-widget-image-box.elementor-position-top .elementor-image-box-img {
-                                                                    margin: auto
-                                                                }
-
-                                                                .elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper {
-                                                                    -webkit-box-align: start;
-                                                                    -ms-flex-align: start;
-                                                                    align-items: flex-start
-                                                                }
-
-                                                                .elementor-widget-image-box.elementor-vertical-align-middle .elementor-image-box-wrapper {
-                                                                    -webkit-box-align: center;
-                                                                    -ms-flex-align: center;
-                                                                    align-items: center
-                                                                }
-
-                                                                .elementor-widget-image-box.elementor-vertical-align-bottom .elementor-image-box-wrapper {
-                                                                    -webkit-box-align: end;
-                                                                    -ms-flex-align: end;
-                                                                    align-items: flex-end
-                                                                }
-                                                            }
-
-                                                            @media (max-width:767px) {
-                                                                .elementor-widget-image-box .elementor-image-box-img {
-                                                                    margin-left: auto !important;
-                                                                    margin-right: auto !important;
-                                                                    margin-bottom: 15px
-                                                                }
-                                                            }
-
-                                                            .elementor-widget-image-box .elementor-image-box-img {
-                                                                display: inline-block
-                                                            }
-
-                                                            .elementor-widget-image-box .elementor-image-box-title a {
-                                                                color: inherit
-                                                            }
-
-                                                            .elementor-widget-image-box .elementor-image-box-wrapper {
-                                                                text-align: center
-                                                            }
-
-                                                            .elementor-widget-image-box .elementor-image-box-description {
-                                                                margin: 0
-                                                            }
-                                                        </style>
-                                                        <div class="elementor-image-box-wrapper">
-                                                            <figure class="elementor-image-box-img"><a
-                                                                    href="/reservation/"><img
-                                                                        width="410" height="264"
-                                                                        src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/07/demo06.jpg"
-                                                                        class="attachment-full size-full" alt=""
-                                                                        loading="lazy"></a></figure>
-                                                            <div class="elementor-image-box-content">
-                                                                <div class="icon"></div>
-                                                                <h3 class="elementor-image-box-title"><a
-                                                                        href="/reservation/">About
-                                                                        Our Restaurant</a></h3>
-                                                                <p class="elementor-image-box-description">By day,
-                                                                    Delicioz provides a hub to meet friends and
-                                                                    colleagues with a well-crafted wine list, discreet
-                                                                    yet professional service and sophisticated menus all
-                                                                    delivered in a relaxed setting.</p>
-                                                                <div class="elementor-image-box-button-wrapper"><a
-                                                                        href="/reservation/"
-                                                                        class="elementor-image-box-button"><span
-                                                                            class="elementor-image-box-button-text">
-                                                                            Book a table</span></a></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                <div class="more-link-wrap">
+                                                    <a class="more-link" href="/restaurant/{{ $restaurant->id }}">
+                                                        <span>Read More</span>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                @endforeach
                             </div>
-                        </div>
 
-
-                        <div id="recent-posts-2" class="widget widget_recent_entries"> <span
-                                class="gamma widget-title">Latest Post</span>
-                            <div class="widget-content">
-                                <ul>
-                                    @foreach ($promotions as $promotion)
-                                    <li>
-                                        <div class="recent-posts-thumbnail">
-                                            <a
-                                                href="/promotion/{{ $promotion->slug }}">
-                                                <img width="150" height="150"
-                                                    src="{{ Storage::url($promotion->banner) }}"
-                                                    class="attachment-thumbnail size-thumbnail wp-post-image" alt=""
-                                                    loading="lazy"
-                                                    sizes="(max-width: 150px) 100vw, 150px"> </a>
-                                        </div>
-                                        <div class="recent-posts-info">
-                                            <span class="post-date">{{ $promotion->created_at->format('d/m/Y') }}</span>
-                                            <h4 class="post-title"><a
-                                                    href="/promotion/{{ $promotion->slug }}">{{ Str::limit($promotion->title, 100) }}</a></h4>
-                                        </div>
-
-                                    </li>
-                                    @endforeach
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
+                        </main><!-- #main -->
+                    </div><!-- #primary -->
 
 
                 </div><!-- .col-full -->
             </div><!-- #content -->
 
+
             @livewire('inc.footer')
+
 
         </div><!-- #page -->
 
         @livewire('inc.menu-mobile')
+
 
         <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
         <script>
@@ -1430,8 +1277,7 @@
                 <div class="site-search ajax-search">
                     <div class="widget woocommerce widget_product_search">
                         <div class="ajax-search-result d-none"></div>
-                        <form role="search" method="get" class="woocommerce-product-search"
-                            action="https://demo2.themelexus.com/delicioz/">
+                        <form role="search" method="get" class="woocommerce-product-search" action="/delicioz/">
                             <label class="screen-reader-text" for="woocommerce-product-search-field-1">Search
                                 for:</label>
                             <input type="search" id="woocommerce-product-search-field-1" class="search-field"
@@ -1458,33 +1304,33 @@
                                                 <a href="#" data-val="0">All category</a>
                                             </li>
                                             <li class="cat-item cat-item-42"><a class="pf-value"
-                                                    href="https://demo2.themelexus.com/delicioz/product-category/accessories/"
+                                                    href="/delicioz/product-category/accessories/"
                                                     data-val="accessories" data-title="Accessories">Accessories</a>
                                             </li>
                                             <li class="cat-item cat-item-35"><a class="pf-value"
-                                                    href="https://demo2.themelexus.com/delicioz/product-category/desserts/"
-                                                    data-val="desserts" data-title="Desserts">Desserts</a>
+                                                    href="/delicioz/product-category/desserts/" data-val="desserts"
+                                                    data-title="Desserts">Desserts</a>
                                             </li>
                                             <li class="cat-item cat-item-38"><a class="pf-value"
-                                                    href="https://demo2.themelexus.com/delicioz/product-category/food/"
-                                                    data-val="food" data-title="Food">Food</a>
+                                                    href="/delicioz/product-category/food/" data-val="food"
+                                                    data-title="Food">Food</a>
                                             </li>
                                             <li class="cat-item cat-item-40"><a class="pf-value"
-                                                    href="https://demo2.themelexus.com/delicioz/product-category/humburger/"
-                                                    data-val="humburger" data-title="Humburger">Humburger</a>
+                                                    href="/delicioz/product-category/humburger/" data-val="humburger"
+                                                    data-title="Humburger">Humburger</a>
                                             </li>
                                             <li class="cat-item cat-item-39"><a class="pf-value"
-                                                    href="https://demo2.themelexus.com/delicioz/product-category/recipes/"
-                                                    data-val="recipes" data-title="Recipes">Recipes</a>
+                                                    href="/delicioz/product-category/recipes/" data-val="recipes"
+                                                    data-title="Recipes">Recipes</a>
                                             </li>
                                             <li class="cat-item cat-item-15"><a class="pf-value"
-                                                    href="https://demo2.themelexus.com/delicioz/product-category/uncategorized/"
+                                                    href="/delicioz/product-category/uncategorized/"
                                                     data-val="uncategorized"
                                                     data-title="Uncategorized">Uncategorized</a>
                                             </li>
                                             <li class="cat-item cat-item-37"><a class="pf-value"
-                                                    href="https://demo2.themelexus.com/delicioz/product-category/whiskey/"
-                                                    data-val="whiskey" data-title="Whiskey">Whiskey</a>
+                                                    href="/delicioz/product-category/whiskey/" data-val="whiskey"
+                                                    data-title="Whiskey">Whiskey</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -1627,7 +1473,7 @@
 
         </script>
         <script
-            type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"Home Page","@id":"https:\/\/demo2.themelexus.com\/delicioz"}},{"@type":"ListItem","position":2,"item":{"name":"Company News","@id":"https:\/\/demo2.themelexus.com\/delicioz\/category\/company-news\/"}},{"@type":"ListItem","position":3,"item":{"name":"10 Restaurant patio decor ideas for summer","@id":"https:\/\/demo2.themelexus.com\/delicioz\/10-restaurant-patio-decor-ideas-for-summer\/"}}]}</script>
+            type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"Home Page","@id":"https:\/\/demo2.themelexus.com\/delicioz"}},{"@type":"ListItem","position":2,"item":{"name":"Blog","@id":"https:\/\/demo2.themelexus.com\/delicioz\/blog\/?blog_style=style-1&amp;blog_columns=3&amp;blog_sidebar=none"}}]}</script>
         <script type="text/javascript">
             (function () {
                 var c = document.body.className;
@@ -1636,13 +1482,10 @@
             })();
         </script>
 
-        <div class="cart-side-overlay"></div>
         <link rel='stylesheet' id='elementor-post-671-css'
             href='/delicioz/wp-content/uploads/elementor/css/post-671.css?ver=1661932588' media='all' />
         <link rel='stylesheet' id='elementor-post-705-css'
             href='/delicioz/wp-content/uploads/elementor/css/post-705.css?ver=1661932588' media='all' />
-        <link rel='stylesheet' id='elementor-post-207-css'
-            href='/delicioz/wp-content/uploads/elementor/css/post-207.css?ver=1661951547' media='all' />
         <link rel='stylesheet' id='rs-plugin-settings-css'
             href='/delicioz/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.5.31' media='all' />
         <style id='rs-plugin-settings-inline-css'>
@@ -1700,7 +1543,7 @@
         <script src='/delicioz/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.1' id='jquery-ui-mouse-js'></script>
         <script src='/delicioz/wp-includes/js/jquery/ui/sortable.min.js?ver=1.13.1' id='jquery-ui-sortable-js'></script>
         <script id='woosc-frontend-js-extra'>
-            var woosc_vars = { "ajax_url": "https:\/\/demo2.themelexus.com\/delicioz\/wp-admin\/admin-ajax.php", "user_id": "507cd05cd3b624f070c3beb15c1092c4", "page_url": "#", "open_button": "", "open_button_action": "open_popup", "menu_action": "open_popup", "button_action": "show_table", "sidebar_position": "right", "message_position": "right-top", "message_added": "{name} has been added to Compare list.", "message_removed": "{name} has been removed from the Compare list.", "message_exists": "{name} is already in the Compare list.", "open_bar": "", "bar_bubble": "no", "adding": "prepend", "click_again": "no", "hide_empty": "no", "click_outside": "yes", "freeze_column": "yes", "freeze_row": "yes", "scrollbar": "yes", "limit": "100", "button_text_change": "yes", "remove_all": "Do you want to remove all products from the compare?", "limit_notice": "You can add a maximum of {limit} products to the compare table.", "copied_text": "Share link %s was copied to clipboard!", "button_text": "Compare", "button_text_added": "Compare" };
+            var woosc_vars = { "ajax_url": "https:\/\/demo2.themelexus.com\/delicioz\/wp-admin\/admin-ajax.php", "user_id": "5aa4ef0c5f6af53f117a6e44ea55d787", "page_url": "#", "open_button": "", "open_button_action": "open_popup", "menu_action": "open_popup", "button_action": "show_table", "sidebar_position": "right", "message_position": "right-top", "message_added": "{name} has been added to Compare list.", "message_removed": "{name} has been removed from the Compare list.", "message_exists": "{name} is already in the Compare list.", "open_bar": "", "bar_bubble": "no", "adding": "prepend", "click_again": "no", "hide_empty": "no", "click_outside": "yes", "freeze_column": "yes", "freeze_row": "yes", "scrollbar": "yes", "limit": "100", "button_text_change": "yes", "remove_all": "Do you want to remove all products from the compare?", "limit_notice": "You can add a maximum of {limit} products to the compare table.", "copied_text": "Share link %s was copied to clipboard!", "button_text": "Compare", "button_text_added": "Compare" };
         </script>
         <script src='/delicioz/wp-content/plugins/woo-smart-compare/assets/js/frontend.js?ver=5.1.5'
             id='woosc-frontend-js'></script>
@@ -1730,7 +1573,6 @@
         <script src='/delicioz/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/search-popup.js?ver=1.0.1'
             id='delicioz-search-popup-js'></script>
-        <script src='/delicioz/wp-includes/js/comment-reply.min.js?ver=6.0.2' id='comment-reply-js'></script>
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/text-editor.js?ver=1.0.1'
             id='delicioz-text-editor-js'></script>
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/nav-mobile.js?ver=1.0.1'
@@ -1763,7 +1605,7 @@
         <script src='/delicioz/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2'
             id='elementor-waypoints-js'></script>
         <script id='elementor-frontend-js-before'>
-            var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Extra", "value": 880, "default_value": 880, "direction": "max", "is_enabled": true }, "tablet": { "label": "Tablet", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Extra", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": true }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": true }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.7.3", "is_static": false, "experimentalFeatures": { "e_dom_optimization": true, "e_optimized_assets_loading": true, "e_optimized_css_loading": true, "a11y_improvements": true, "additional_custom_breakpoints": true, "e_import_export": true, "e_hidden_wordpress_widgets": true, "landing-pages": true, "elements-color-picker": true, "favorite-widgets": true, "admin-top-bar": true }, "urls": { "assets": "https:\/\/demo2.themelexus.com\/delicioz\/wp-content\/plugins\/elementor\/assets\/" }, "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_mobile_extra", "viewport_tablet", "viewport_tablet_extra", "viewport_laptop"], "body_background_background": "classic", "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 130, "title": "10%20Restaurant%20patio%20decor%20ideas%20for%20summer%20%E2%80%93%20Delicioz", "excerpt": "A restaurant\u2019s success is often only seen from the front-of-house. The delicious food, extravagant menus, and mood setting decor all play a role in that success. ", "featuredImage": "https:\/\/demo2.themelexus.com\/delicioz\/wp-content\/uploads\/2022\/07\/blog_2-839x1024.jpg" }, "user": { "roles": ["customer"] } };
+            var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Extra", "value": 880, "default_value": 880, "direction": "max", "is_enabled": true }, "tablet": { "label": "Tablet", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Extra", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": true }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": true }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.7.3", "is_static": false, "experimentalFeatures": { "e_dom_optimization": true, "e_optimized_assets_loading": true, "e_optimized_css_loading": true, "a11y_improvements": true, "additional_custom_breakpoints": true, "e_import_export": true, "e_hidden_wordpress_widgets": true, "landing-pages": true, "elements-color-picker": true, "favorite-widgets": true, "admin-top-bar": true }, "urls": { "assets": "https:\/\/demo2.themelexus.com\/delicioz\/wp-content\/plugins\/elementor\/assets\/" }, "settings": { "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_mobile_extra", "viewport_tablet", "viewport_tablet_extra", "viewport_laptop"], "body_background_background": "classic", "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 0, "title": "Blog &#8211; Delicioz", "excerpt": "" }, "user": { "roles": ["customer"] } };
         </script>
         <script src='/delicioz/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.7.3'
             id='elementor-frontend-js'></script>

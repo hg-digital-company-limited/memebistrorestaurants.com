@@ -1,7 +1,7 @@
 <div>
 
     <head>
-        <title>{{ $promotion->title }}</title>
+        <title>{{ $restaurant->name }}</title>
         <meta name='robots' content='max-image-preview:large' />
         <link rel="dns-prefetch" href="//fonts.googleapis.com">
         <link rel="dns-prefetch" href="//s.w.org">
@@ -1211,11 +1211,11 @@
                                         data-id="f1766c2" data-element_type="widget"
                                         data-widget_type="woocommerce-breadcrumb.default">
                                         <div class="elementor-widget-container">
-                                            <div class="delicioz-woocommerce-title">{{ $promotion->title }}</div>
+                                            <div class="delicioz-woocommerce-title">{{ $restaurant->name }}</div>
                                             <nav class="woocommerce-breadcrumb"><a
                                                     href="/">Trang chủ</a><i
                                                     class="delicioz-icon-arrow-right-s-line"></i><a
-                                                    href="/promotion">Khuyến mãi</a><i class="delicioz-icon-arrow-right-s-line"></i>{{ $promotion->title }}</nav>
+                                                    href="/restaurant">Restaurant</a><i class="delicioz-icon-arrow-right-s-line"></i>{{ $restaurant->name }}</nav>
                                         </div>
                                     </div>
                                 </div>
@@ -1235,17 +1235,17 @@
                                 <div class="single-content">
                                     <header class="entry-header">
                                         <div class="posted-on"><a
-                                                href="https://demo2.themelexus.com/delicioz/10-restaurant-patio-decor-ideas-for-summer/"
-                                                rel="bookmark">{{ $promotion->created_at->format('d/m/Y') }}</a></div>
-                                        <h1 class="alpha entry-title">{{ $promotion->title }}</h1>
+                                                href="/restaurant/{{ $restaurant->id }}"
+                                                rel="bookmark">{{ $restaurant->location }}</a></div>
+
 
                                     </header><!-- .entry-header -->
                                     <div class="post-thumbnail"><img width="1000" height="510"
-                                            src="{{ Storage::url($promotion->banner) }}" style="
+                                            src="{{ Storage::url($restaurant->image) }}" style="
                                             width: 100%;
                                         " class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
                                     </div>
-                                    <div class="entry-content"> {!! $promotion->description !!}</div><!-- .entry-content -->
+                                    <div class="entry-content"> {!! $restaurant->description !!}</div><!-- .entry-content -->
                                 </div>
 
                             </article><!-- #post-## -->
@@ -1344,21 +1344,18 @@
                                                         </style>
                                                         <div class="elementor-image-box-wrapper">
                                                             <figure class="elementor-image-box-img"><a
-                                                                    href="/reservation/"><img
-                                                                        width="410" height="264"
-                                                                        src="https://demo2.themelexus.com/delicioz/wp-content/uploads/2022/07/demo06.jpg"
-                                                                        class="attachment-full size-full" alt=""
-                                                                        loading="lazy"></a></figure>
+                                                                    href="/reservation/">
+                                                                {!! $restaurant->map !!}
+                                                                </a></figure>
                                                             <div class="elementor-image-box-content">
                                                                 <div class="icon"></div>
                                                                 <h3 class="elementor-image-box-title"><a
                                                                         href="/reservation/">About
                                                                         Our Restaurant</a></h3>
-                                                                <p class="elementor-image-box-description">By day,
-                                                                    Delicioz provides a hub to meet friends and
-                                                                    colleagues with a well-crafted wine list, discreet
-                                                                    yet professional service and sophisticated menus all
-                                                                    delivered in a relaxed setting.</p>
+                                                                <p class="elementor-image-box-description">
+                                                                    Email: {{ $restaurant->email }} <br>
+                                                                    Phone: {{ $restaurant->phone }} <br>
+                                                                </p>
                                                                 <div class="elementor-image-box-button-wrapper"><a
                                                                         href="/reservation/"
                                                                         class="elementor-image-box-button"><span
@@ -1377,24 +1374,24 @@
 
 
                         <div id="recent-posts-2" class="widget widget_recent_entries"> <span
-                                class="gamma widget-title">Latest Post</span>
+                                class="gamma widget-title">Món ăn</span>
                             <div class="widget-content">
                                 <ul>
-                                    @foreach ($promotions as $promotion)
+                                    @foreach ($dishbyrestaurant as $dish)
                                     <li>
                                         <div class="recent-posts-thumbnail">
                                             <a
-                                                href="/promotion/{{ $promotion->slug }}">
+                                                href="/dish/{{ $dish->slug }}">
                                                 <img width="150" height="150"
-                                                    src="{{ Storage::url($promotion->banner) }}"
+                                                    src="{{ Storage::url($dish->image) }}"
                                                     class="attachment-thumbnail size-thumbnail wp-post-image" alt=""
                                                     loading="lazy"
                                                     sizes="(max-width: 150px) 100vw, 150px"> </a>
                                         </div>
                                         <div class="recent-posts-info">
-                                            <span class="post-date">{{ $promotion->created_at->format('d/m/Y') }}</span>
+                                            <span class="post-date">{{ number_format($dish->price, 0, ',', '.') }} VNĐ</span>
                                             <h4 class="post-title"><a
-                                                    href="/promotion/{{ $promotion->slug }}">{{ Str::limit($promotion->title, 100) }}</a></h4>
+                                                    href="/dish/{{ $dish->slug }}">{{ Str::limit($dish->name, 100) }}</a></h4>
                                         </div>
 
                                     </li>
