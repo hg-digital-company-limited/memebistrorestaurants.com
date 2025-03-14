@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Mar 14, 2025 at 01:27 PM
+-- Generation Time: Mar 14, 2025 at 01:41 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.2.27
 
@@ -55,6 +55,31 @@ CREATE TABLE `cache_locks` (
   `owner` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `expiration` int NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `contacts`
+--
+
+CREATE TABLE `contacts` (
+  `id` bigint UNSIGNED NOT NULL,
+  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `message` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `contacts`
+--
+
+INSERT INTO `contacts` (`id`, `name`, `email`, `message`, `created_at`, `updated_at`) VALUES
+(1, '123', '123@2', '123', '2025-03-14 13:31:49', '2025-03-14 13:31:49'),
+(2, '123', '1@1', 'Message123', '2025-03-14 13:33:56', '2025-03-14 13:33:56'),
+(3, '1', '2@2', '123', '2025-03-14 13:35:06', '2025-03-14 13:35:06'),
+(4, '123', '2509roblox@gmail.com', '123', '2025-03-14 13:35:32', '2025-03-14 13:35:32');
 
 -- --------------------------------------------------------
 
@@ -225,7 +250,9 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (24, '2025_03_12_205620_add_column_to_reservations_table', 16),
 (25, '2025_03_12_210147_add_columns_to_reservations_table', 17),
 (26, '2025_03_12_210600_add_columns_to_restaurants_table', 18),
-(27, '2025_03_14_184136_add_loyalty_points_to_users_table', 19);
+(27, '2025_03_14_184136_add_loyalty_points_to_users_table', 19),
+(28, '2025_03_14_190852_add_restaurant_id_to_dishes_table', 20),
+(29, '2025_03_14_202943_create_contacts_table', 20);
 
 -- --------------------------------------------------------
 
@@ -841,7 +868,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('OuFek1SGEYSEhniqRWLkbdSLEbwhuafGhIEFOtiu', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo3OntzOjk6Il9wcmV2aW91cyI7YToxOntzOjM6InVybCI7czozNDoiaHR0cDovLzEyNy4wLjAuMTo4MDAwL3Jlc3RhdXJhbnQvMSI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6NjoiX3Rva2VuIjtzOjQwOiJKdGFVS05QSkQxaHF3bTh0aXQ2MXNTaWxHbkp1cnd6UThVbXFWT1pVIjtzOjM6InVybCI7YTowOnt9czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTtzOjE3OiJwYXNzd29yZF9oYXNoX3dlYiI7czo2MDoiJDJ5JDEyJGFpUzl1Tnlrek5WYjdsUXVCOEp0SS54RGYyN3E4MWp4SHhRSGdnUkhuNGQyZ0NlSkNZeUpxIjtzOjg6ImZpbGFtZW50IjthOjA6e319', 1741958784);
+('OuFek1SGEYSEhniqRWLkbdSLEbwhuafGhIEFOtiu', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo3OntzOjk6Il9wcmV2aW91cyI7YToxOntzOjM6InVybCI7czoyOToiaHR0cDovLzEyNy4wLjAuMTo4MDAwL2NvbnRhY3QiO31zOjY6Il9mbGFzaCI7YToyOntzOjM6Im9sZCI7YTowOnt9czozOiJuZXciO2E6MDp7fX1zOjY6Il90b2tlbiI7czo0MDoiSnRhVUtOUEpEMWhxd204dGl0NjFzU2lsR25KdXJ3elE4VW1xVk9aVSI7czozOiJ1cmwiO2E6MDp7fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7czoxNzoicGFzc3dvcmRfaGFzaF93ZWIiO3M6NjA6IiQyeSQxMiRhaVM5dU55a3pOVmI3bFF1QjhKdEkueERmMjdxODFqeEh4UUhnZ1JIbjRkMmdDZUpDWXlKcSI7czo4OiJmaWxhbWVudCI7YTowOnt9fQ==', 1741959574);
 
 -- --------------------------------------------------------
 
@@ -904,6 +931,12 @@ ALTER TABLE `cache`
 --
 ALTER TABLE `cache_locks`
   ADD PRIMARY KEY (`key`);
+
+--
+-- Indexes for table `contacts`
+--
+ALTER TABLE `contacts`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `dishes`
@@ -1057,6 +1090,12 @@ ALTER TABLE `users`
 --
 
 --
+-- AUTO_INCREMENT for table `contacts`
+--
+ALTER TABLE `contacts`
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
 -- AUTO_INCREMENT for table `dishes`
 --
 ALTER TABLE `dishes`
@@ -1090,7 +1129,7 @@ ALTER TABLE `jobs`
 -- AUTO_INCREMENT for table `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 
 --
 -- AUTO_INCREMENT for table `orders`

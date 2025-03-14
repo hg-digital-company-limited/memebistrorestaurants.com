@@ -2120,40 +2120,38 @@
                                                             <div class="elementor-widget-container">
                                                                 <div role="form" class="wpcf7" id="wpcf7-f6-p34-o1"
                                                                     lang="en-US" dir="ltr">
-                                                                    <div class="screen-reader-response">
-                                                                        <p role="status" aria-live="polite"
-                                                                            aria-atomic="true"></p>
-                                                                        <ul></ul>
+                                                                    <div class="woocommerce">
+                                                                        @if (session()->has('message'))
+                                                                            <ul class="woocommerce-error" style="background-color: green;" role="alert">
+                                                                                <li>
+                                                                                    <strong>Thông báo:</strong> {{ session('message') }}
+                                                                                </li>
+                                                                            </ul>
+
+                                                                        @endif
+
+                                                                        @if (session()->has('error'))
+                                                                            <ul class="woocommerce-error" role="alert">
+                                                                                <li>
+                                                                                    <strong>Lỗi:</strong> {{ session('error') }}
+                                                                                </li>
+                                                                            </ul>
+
+                                                                        @endif
+
                                                                     </div>
-                                                                    <form action="/delicioz/contact-us/#wpcf7-f6-p34-o1"
-                                                                        method="post" class="wpcf7-form init"
-                                                                        novalidate="novalidate" data-status="init">
-                                                                        <div style="display: none;">
-                                                                            <input type="hidden" name="_wpcf7"
-                                                                                value="6" />
-                                                                            <input type="hidden" name="_wpcf7_version"
-                                                                                value="5.6.2" />
-                                                                            <input type="hidden" name="_wpcf7_locale"
-                                                                                value="en_US" />
-                                                                            <input type="hidden" name="_wpcf7_unit_tag"
-                                                                                value="wpcf7-f6-p34-o1" />
-                                                                            <input type="hidden"
-                                                                                name="_wpcf7_container_post"
-                                                                                value="34" />
-                                                                            <input type="hidden"
-                                                                                name="_wpcf7_posted_data_hash"
-                                                                                value="" />
-                                                                        </div>
+
+                                                                    <form   class="wpcf7-form init"
+                                                                    wire:submit.prevent="submit">
+
                                                                         <div class="row row-form">
                                                                             <div class="column-tablet-6 column-12">
                                                                                 <p><span class="wpcf7-form-control-wrap"
                                                                                         data-name="your-name"><input
-                                                                                            type="text" name="your-name"
+                                                                                            type="text"
                                                                                             value="" size="40"
                                                                                             class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                                                            id="form-name-2"
-                                                                                            aria-required="true"
-                                                                                            aria-invalid="false"
+                                                                                            wire:model="name" required
                                                                                             placeholder="Name *" /></span>
                                                                                 </p>
                                                                             </div>
@@ -2166,6 +2164,7 @@
                                                                                             class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
                                                                                             id="form-email-2"
                                                                                             aria-required="true"
+                                                                                            wire:model="email"
                                                                                             aria-invalid="false"
                                                                                             placeholder="Email *" /></span>
                                                                                 </p>
@@ -2179,34 +2178,18 @@
                                                                                             cols="40" rows="5"
                                                                                             class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required"
                                                                                             aria-required="true"
-                                                                                            aria-invalid="false">Message</textarea></span>
+                                                                                            wire:model="message"
+                                                                                            aria-invalid="false"></textarea></span>
                                                                                 </p>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="row row-form">
-                                                                            <div class="column-12">
-                                                                                <span class="wpcf7-form-control-wrap"
-                                                                                    data-name="checkbox-795"><span
-                                                                                        class="wpcf7-form-control wpcf7-checkbox wpcf7-validates-as-required"><span
-                                                                                            class="wpcf7-list-item first last"><label><input
-                                                                                                    type="checkbox"
-                                                                                                    name="checkbox-795[]"
-                                                                                                    value="Save my name, email, and website in this browser for the next time I comment." /><span
-                                                                                                    class="wpcf7-list-item-label">Save
-                                                                                                    my name, email, and
-                                                                                                    website in this
-                                                                                                    browser for the next
-                                                                                                    time I
-                                                                                                    comment.</span></label></span></span></span>
-                                                                            </div>
-                                                                        </div>
+
                                                                         <div class="wpcf7-button">
                                                                             <button type="submit"
                                                                                 value="Submit"><span>send your
                                                                                     message</span></button>
                                                                         </div>
-                                                                        <div class="wpcf7-response-output"
-                                                                            aria-hidden="true"></div>
+
                                                                     </form>
                                                                 </div>
                                                             </div>
