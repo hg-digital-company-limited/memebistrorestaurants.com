@@ -10,11 +10,15 @@ class Table extends Model
     use HasFactory;
 
     protected $fillable = [
-        'restaurant_id', 'table_number', 'status'
+        'restaurant_id', 'table_number', 'status', 'reservation_id'
     ];
 
     public function restaurant()
     {
         return $this->belongsTo(Restaurant::class);
+    }
+    public function reservation()
+    {
+        return $this->belongsTo(Reservation::class);
     }
 }

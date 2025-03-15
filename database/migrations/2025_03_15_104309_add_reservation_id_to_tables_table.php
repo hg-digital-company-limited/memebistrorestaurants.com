@@ -1,11 +1,10 @@
 <?php
 
-
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddAddressToUsersTable extends Migration
+class AddReservationIdToTablesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -14,8 +13,8 @@ class AddAddressToUsersTable extends Migration
      */
     public function up()
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->string('address')->nullable(); // Địa chỉ
+        Schema::table('tables', function (Blueprint $table) {
+            $table->unsignedBigInteger('reservation_id')->nullable()->after('status');
         });
     }
 
@@ -26,8 +25,8 @@ class AddAddressToUsersTable extends Migration
      */
     public function down()
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->dropColumn('address');
+        Schema::table('tables', function (Blueprint $table) {
+            $table->dropColumn('reservation_id');
         });
     }
 }
