@@ -12,6 +12,7 @@ use Filament\Tables;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use pxlrbt\FilamentExcel\Actions\Tables\ExportBulkAction;
 
 class DishResource extends Resource
 {
@@ -21,7 +22,7 @@ class DishResource extends Resource
     {
         return 'Danh sách món ăn';
     }
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-o-check-badge';
 
     public static function form(Form $form): Form
     {
@@ -56,6 +57,16 @@ class DishResource extends Resource
                                     ->required()
                                     ->numeric()
                                     ->columnSpanFull(),
+                                Forms\Components\Select::make('status')
+                                    ->label('Trạng thái')
+                                    ->options([
+                                        'available' => 'Có sẵn',
+                                        'unavailable' => 'Không có sẵn',
+                                    ])
+                                    ->default('available')
+                                    ->columnSpanFull()
+                                    ->required(),
+
                                 Forms\Components\FileUpload::make('image')
                                     ->label('Tải lên hình ảnh')
                                     ->image()
@@ -99,20 +110,34 @@ class DishResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\ImageColumn::make('image'),
+                Tables\Columns\TextColumn::make('id')
+                    ->label('Mã món ăn')
+                    ->sortable(),
+                Tables\Columns\ImageColumn::make('image')
+                    ->label('Hình ảnh')
+
+
+                  ,
+                Tables\Columns\TextColumn::make('food_category.name')
+                    ->label('Danh mục món ăn')
+                    ->sortable(),
                 Tables\Columns\TextColumn::make('restaurant.name')
-                    ->numeric()
+                    ->label('Nhà hàng')
                     ->sortable(),
                 Tables\Columns\TextColumn::make('name')
+                    ->label('Tên món ăn')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('price')
-                    ->money()
+                    ->label('Giá')
+                    ->money('VND')
                     ->sortable(),
                 Tables\Columns\TextColumn::make('created_at')
+                    ->label('Ngày tạo')
                     ->dateTime()
                     ->sortable()
-                    ->toggleable(isToggledHiddenByDefault: true),
+                  ,
                 Tables\Columns\TextColumn::make('updated_at')
+                    ->label('Ngày cập nhật')
                     ->dateTime()
                     ->sortable()
                     ->toggleable(isToggledHiddenByDefault: true),
@@ -121,15 +146,27 @@ class DishResource extends Resource
                 //
             ])
             ->actions([
-                Tables\Actions\EditAction::make(),
+                Tables\Actions\ActionGroup::make([
+                    Tables\Actions\ViewAction::make()
+                        ->label('Xem'), // Đổi nhãn sang tiếng Việt
+                    Tables\Actions\EditAction::make()
+                        ->label('Chỉnh Sửa'), // Đổi nhãn sang tiếng Việt
+                    Tables\Actions\DeleteAction::make()
+                        ->label('Xóa'), // Đổi nhãn sang tiếng Việt
+                ])
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
-                    Tables\Actions\DeleteBulkAction::make(),
+                    Tables\Actions\DeleteBulkAction::make()
+                        ->label('Xóa'), // Đổi nhãn sang tiếng Việt
+                        ExportBulkAction::make()
                 ]),
             ]);
     }
-
+     public static function getNavigationBadge(): ?string
+    {
+        return static::getModel()::count();
+    }
     public static function getRelations(): array
     {
         return [

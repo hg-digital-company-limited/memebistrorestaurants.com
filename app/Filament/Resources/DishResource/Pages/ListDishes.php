@@ -14,6 +14,8 @@ class ListDishes extends ListRecords
     {
         return [
             Actions\CreateAction::make(),
+
+
         ];
     }
 }
