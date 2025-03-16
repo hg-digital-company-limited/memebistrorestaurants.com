@@ -16,31 +16,59 @@ use Illuminate\Database\Eloquent\SoftDeletingScope;
 class RestaurantResource extends Resource
 {
     protected static ?string $model = Restaurant::class;
-
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationGroup = 'Quản lý Nhà Hàng';
+    public static function getPluralModelLabel(): string
+    {
+        return 'Danh sách Nhà Hàng';
+    }
+    protected static ?string $navigationIcon = 'heroicon-o-building-office';
 
     public static function form(Form $form): Form
     {
         return $form
             ->schema([
-                Forms\Components\TextInput::make('name')
-                    ->required()
-                    ->maxLength(255),
-                Forms\Components\FileUpload::make('image')
-                    ->image(),
-                Forms\Components\TextInput::make('location')
-                    ->required()
-                    ->maxLength(255),
-                Forms\Components\RichEditor::make('description')
-                    ->columnSpanFull(),
-                Forms\Components\TextInput::make('map')
-                    ->columnSpanFull(),
-                Forms\Components\TextInput::make('phone')
-                    ->tel()
-                    ->maxLength(255),
-                Forms\Components\TextInput::make('email')
-                    ->email()
-                    ->maxLength(255),
+                // Thông tin chung
+                Forms\Components\Section::make('Thông tin chung')
+                    ->schema([
+                        Forms\Components\TextInput::make('name')
+                            ->label('Tên')
+                            ->required()
+                            ->maxLength(255),
+                        Forms\Components\TextInput::make('location')
+                            ->label('Địa điểm')
+                            ->required()
+                            ->maxLength(255),
+                        Forms\Components\TextInput::make('phone')
+                            ->label('Số điện thoại')
+                            ->tel()
+                            ->maxLength(255),
+                        Forms\Components\TextInput::make('email')
+                            ->label('Email')
+                            ->email()
+                            ->maxLength(255),
+                    ]),
+
+                // Hình ảnh
+                Forms\Components\Section::make('Hình ảnh')
+                    ->schema([
+                        Forms\Components\FileUpload::make('image')
+                            ->label('Tải lên hình ảnh')
+                            ->image(),
+                    ]),
+
+                // Mô tả
+                Forms\Components\Section::make('Mô tả')
+                    ->schema([
+                        Forms\Components\Textarea::make('short_description')
+                            ->label('Mô tả ngắn')
+                            ->columnSpanFull(),
+                        Forms\Components\RichEditor::make('description')
+                            ->label('Mô tả chi tiết')
+                            ->columnSpanFull(),
+                        Forms\Components\TextInput::make('map')
+                            ->label('Bản đồ')
+                            ->columnSpanFull(),
+                    ]),
             ]);
     }
 
@@ -48,11 +76,17 @@ class RestaurantResource extends Resource
     {
         return $table
             ->columns([
+                Tables\Columns\TextColumn::make('id')
+                    ->label('ID')
+                    ->sortable(),
                 Tables\Columns\ImageColumn::make('image')
+                    ->label('Hình ảnh')
                     ->circular(),
                 Tables\Columns\TextColumn::make('name')
+                    ->label('Tên')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('location')
+                    ->label('Địa điểm')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('created_at')
                     ->dateTime()
@@ -62,24 +96,36 @@ class RestaurantResource extends Resource
                     ->dateTime()
                     ->sortable()
                     ->toggleable(isToggledHiddenByDefault: true),
-                Tables\Columns\TextColumn::make('map')
-                    ->searchable(),
                 Tables\Columns\TextColumn::make('phone')
+                    ->label('Số điện thoại')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('email')
+                    ->label('Email')
                     ->searchable(),
             ])
             ->filters([
                 //
             ])
             ->actions([
-                Tables\Actions\EditAction::make(),
+                Tables\Actions\ActionGroup::make([
+                    Tables\Actions\ViewAction::make()
+                        ->label('Xem'), // Đổi nhãn sang tiếng Việt
+                    Tables\Actions\EditAction::make()
+                        ->label('Chỉnh Sửa'), // Đổi nhãn sang tiếng Việt
+                    Tables\Actions\DeleteAction::make()
+                        ->label('Xóa'), // Đổi nhãn sang tiếng Việt
+                ])
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
-                    Tables\Actions\DeleteBulkAction::make(),
+                    Tables\Actions\DeleteBulkAction::make()
+                        ->label('Xóa'), // Đổi nhãn sang tiếng Việt
                 ]),
             ]);
+    }
+     public static function getNavigationBadge(): ?string
+    {
+        return static::getModel()::count();
     }
 
     public static function getRelations(): array

@@ -16,8 +16,13 @@ use Illuminate\Database\Eloquent\SoftDeletingScope;
 class ContactResource extends Resource
 {
     protected static ?string $model = Contact::class;
+    protected static ?string $navigationGroup = 'Quản lý Nhà Hàng';
+    public static function getPluralModelLabel(): string
+    {
+        return 'Danh sách liên hệ';
+    }
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-o-envelope';
 
     public static function form(Form $form): Form
     {

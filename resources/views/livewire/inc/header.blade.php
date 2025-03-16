@@ -46,7 +46,7 @@
                                                 </li>
                                                 <li id="menu-item-75"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75">
-                                                    <a href="/"><span class="menu-title">CƠ SỞ</span></a>
+                                                    <a href="/restaurant"><span class="menu-title">CƠ SỞ</span></a>
                                                 </li>
                                                 <li id="menu-item-75"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75">

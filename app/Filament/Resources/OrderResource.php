@@ -20,8 +20,8 @@ class OrderResource extends Resource
     {
         return 'Danh sách đơn hàng';
     }
-
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationGroup = 'Quản lý Nhà Hàng';
+    protected static ?string $navigationIcon = 'heroicon-o-shopping-cart';
 
     public static function form(Form $form): Form
     {

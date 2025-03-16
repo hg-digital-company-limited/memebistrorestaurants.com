@@ -16,8 +16,12 @@ use Illuminate\Database\Eloquent\SoftDeletingScope;
 class ReservationResource extends Resource
 {
     protected static ?string $model = Reservation::class;
-
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationGroup = 'Quản lý Nhà Hàng';
+    public static function getPluralModelLabel(): string
+    {
+        return 'Danh sách đặt bàn';
+    }
+    protected static ?string $navigationIcon = 'heroicon-o-calendar';
 
     public static function form(Form $form): Form
     {

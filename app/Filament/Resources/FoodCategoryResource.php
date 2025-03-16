@@ -17,7 +17,12 @@ class FoodCategoryResource extends Resource
 {
     protected static ?string $model = FoodCategory::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationGroup = 'Quản lý Món Ăn';
+    public static function getPluralModelLabel(): string
+    {
+        return 'Danh sách loại món ăn';
+    }
+    protected static ?string $navigationIcon = 'heroicon-o-tag';
 
     public static function form(Form $form): Form
     {

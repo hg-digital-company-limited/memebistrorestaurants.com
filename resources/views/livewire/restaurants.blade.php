@@ -1233,7 +1233,7 @@
                                                             href="/restaurant/{{ $restaurant->id }}"
                                                             rel="category tag">{{ $restaurant->location }}</a></div>
                                                 </div>
-                                                <div class="excerpt-content">{{ $restaurant->description }}</div>
+                                                <div class="excerpt-content">{{ $restaurant->short_description }}</div>
 
                                                 <div class="more-link-wrap">
                                                     <a class="more-link" href="/restaurant/{{ $restaurant->id }}">

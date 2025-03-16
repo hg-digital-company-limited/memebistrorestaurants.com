@@ -18,12 +18,12 @@ use Illuminate\Database\Eloquent\SoftDeletingScope;
 class TableResource extends Resource
 {
     protected static ?string $model = TableModel::class;
-    protected static ?string $navigationGroup = 'Quản lý bàn';
+    protected static ?string $navigationGroup = 'Quản lý Nhà Hàng';
     public static function getPluralModelLabel(): string
     {
         return 'Danh sách bàn';
     }
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-o-table-cells'; // Bàn làm việc
 
     public static function form(Form $form): Form
 {

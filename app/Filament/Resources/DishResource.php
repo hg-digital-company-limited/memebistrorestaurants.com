@@ -16,6 +16,7 @@ use Illuminate\Database\Eloquent\SoftDeletingScope;
 class DishResource extends Resource
 {
     protected static ?string $model = Dish::class;
+    protected static ?string $navigationGroup = 'Quản lý Món Ăn';
     public static function getPluralModelLabel(): string
     {
         return 'Danh sách món ăn';
@@ -26,35 +27,74 @@ class DishResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\Select::make('restaurant_id')
-                    ->relationship('restaurant', 'name')
-                    ->required(),
-                Forms\Components\Select::make('food_category_id')
-                    ->relationship('food_category', 'name')
-                    ->required(),
-                Forms\Components\TextInput::make('name')
-                    ->required()
-                    ->maxLength(255),
-                Forms\Components\TextInput::make('slug')
-                    ->required()
-                    ->maxLength(255),
-                Forms\Components\TextInput::make('sold_quantity')
-                    ->required()
-                    ->numeric(),
-                Forms\Components\FileUpload::make('image')
-                    ->image()
-                    ->required(),
-                Forms\Components\Textarea::make('description')
-                    ->columnSpanFull(),
-                Forms\Components\TextInput::make('price')
-                    ->required()
-                    ->numeric()
-                    ->prefix('$'),
-                Forms\Components\Textarea::make('recipe')
-                    ->columnSpanFull(),
+                Forms\Components\Tabs::make('Thông tin món ăn')
+                    ->tabs([
+                        Forms\Components\Tabs\Tab::make('Chi tiết')
+                            ->schema([
+                                Forms\Components\Select::make('restaurant_id')
+                                    ->relationship('restaurant', 'name')
+                                    ->label('Nhà hàng')
+                                    ->required()
+                                    ->columnSpanFull(),
+                                Forms\Components\Select::make('food_category_id')
+                                    ->relationship('food_category', 'name')
+                                    ->label('Danh mục món ăn')
+                                    ->required()
+                                    ->columnSpanFull(),
+                                Forms\Components\TextInput::make('name')
+                                    ->label('Tên món ăn')
+                                    ->required()
+                                    ->maxLength(255)
+                                    ->columnSpanFull(),
+                                Forms\Components\TextInput::make('slug')
+                                    ->label('Slug')
+                                    ->required()
+                                    ->maxLength(255)
+                                    ->columnSpanFull(),
+                                Forms\Components\TextInput::make('sold_quantity')
+                                    ->label('Số lượng đã bán')
+                                    ->required()
+                                    ->numeric()
+                                    ->columnSpanFull(),
+                                Forms\Components\FileUpload::make('image')
+                                    ->label('Tải lên hình ảnh')
+                                    ->image()
+                                    ->required()
+                                    ->columnSpanFull(),
+                                Forms\Components\Textarea::make('description')
+                                    ->label('Mô tả')
+                                    ->columnSpanFull(),
+                                Forms\Components\TextInput::make('price')
+                                    ->label('Giá')
+                                    ->required()
+                                    ->numeric()
+                                    ->prefix('$')
+                                    ->columnSpanFull(),
+                            ]),
+
+                        Forms\Components\Tabs\Tab::make('Công thức')
+                            ->schema([
+                                Forms\Components\Repeater::make('recipes')
+                                    ->relationship('recipes') // Mối quan hệ với model Recipe
+                                    ->schema([
+                                        Forms\Components\Select::make('ingredient_id')
+                                            ->relationship('ingredient', 'name')
+                                            ->label('Nguyên liệu')
+                                            ->required()
+                                            ->columnSpanFull(),
+                                        Forms\Components\TextInput::make('quantity')
+                                            ->label('Số lượng')
+                                            ->required()
+                                            ->numeric()
+                                            ->columnSpanFull(),
+                                    ])
+                                    ->createItemButtonLabel('Thêm nguyên liệu')
+                                    ->columnSpanFull(),
+                            ]),
+                    ])
+                    ->columnSpanFull(), // Đặt chiều rộng cho toàn bộ tab
             ]);
     }
-
     public static function table(Table $table): Table
     {
         return $table
