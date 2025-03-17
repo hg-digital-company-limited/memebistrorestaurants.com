@@ -3,9 +3,11 @@
 
 use App\Livewire\EditAccount;
 use App\Livewire\Logout;
+use App\Livewire\OrderDetail;
 use App\Livewire\Orders;
 use App\Livewire\Promotion;
 use App\Livewire\PromotionDetail;
+use App\Livewire\ReservationDetail;
 use App\Livewire\Reservations;
 use App\Livewire\RestaurantDetail;
 use App\Livewire\Restaurants;
@@ -33,7 +35,9 @@ Route::get('/lost-password', LostPassword::class);
 Route::get('/my-account', MyAccount::class);
 Route::get('/my-account/edit-account', EditAccount::class);
 Route::get('/my-account/orders', Orders::class);
+Route::get('/my-account/orders/{code}', OrderDetail::class);
 Route::get('/my-account/reservations', Reservations::class);
+Route::get('/my-account/reservations/{code}', ReservationDetail::class);
 Route::get('/my-account/edit-account', EditAccount::class);
 Route::get('/my-account/logout', Logout::class);
 

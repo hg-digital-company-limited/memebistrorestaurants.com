@@ -1,7 +1,7 @@
 <div>
 
     <head>
-        <title>My account &#8211; Delicioz</title>
+        <title>Orders {{ $order->order_code }}</title>
         <link rel="dns-prefetch" href="//fonts.googleapis.com">
         <link rel="dns-prefetch" href="//s.w.org">
         <link rel='dns-prefetch' href='//demo2.themelexus.com' />
@@ -1219,7 +1219,7 @@
                     </section>
                 </div>
             </div>
-            <div id="content" class="site-content" tabindex="-1">
+            <div id="content" class="site-content" tabindex="-1" wire:ignore>
                 <div class="col-full">
 
                     <div class="woocommerce"></div>
@@ -1238,74 +1238,64 @@
                                                 Hello <strong>{{ Auth::user()->name }}</strong> (not
                                                 <strong>{{ Auth::user()->name }}</strong>? <a
                                                     href="https://demo2.themelexus.com/delicioz/my-account/customer-logout/?_wpnonce=c690371e25">Log
-                                                    out</a>)</p>
+                                                    out</a>)
+                                            </p>
+                                            <div class="order-details">
+                                                <div class="customer-info">
+                                                    <h3>Thông tin khách hàng</h3>
+                                                    <div class="info-item"><strong>Mã đơn hàng:</strong> {{ $order->order_code }}</div>
+                                                    <div class="info-item"><strong>Tên khách hàng:</strong> {{ $order->name }}</div>
+                                                    <div class="info-item"><strong>Số điện thoại:</strong> {{ $order->phone }}</div>
+                                                    <div class="info-item"><strong>Email:</strong> {{ $order->email }}</div>
+                                                    <div class="info-item"><strong>Địa chỉ:</strong> {{ $order->address }}</div>
+                                                </div>
 
-                                            <div style="width: 100%; overflow-x: scroll;">
-
-                                                <table
-                                                    class="woocommerce-table woocommerce-table--order-details shop_table order_details">
-                                                    <thead>
-                                                        <tr>
-                                                            <th class="woocommerce-table__product-name product-name">
-                                                                Mã</th>
-                                                            <th class="woocommerce-table__product-name product-name">
-                                                                Nhà hàng</th>
-                                                            <th class="woocommerce-table__product-name product-name">
-                                                                Số người</th>
-                                                            <th class="woocommerce-table__product-name product-name">
-                                                                Ngày</th>
-                                                            <th class="woocommerce-table__product-name product-name">
-                                                                Giờ</th>
-                                                            <th class="woocommerce-table__product-name product-name">
-                                                                Trạng thái</th>
-                                                            <th class="woocommerce-table__product-name product-name">
-                                                                action</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        @foreach ($reservations as $reservation)
-                                                            <tr>
-                                                                <td style="cursor: pointer;"
-                                                                    class="woocommerce-table__product-name product-name"
-                                                                    wire:click="reservationDetail('{{ $reservation->reservation_code }}')">
-                                                                    {{ $reservation->reservation_code }}</td>
-                                                                <td class="woocommerce-table__product-name product-name">
-                                                                    {{ $reservation->restaurant->name }}</td>
-                                                                <td class="woocommerce-table__product-name product-name">
-                                                                    {{ $reservation->number_of_people }}</td>
-                                                                <td class="woocommerce-table__product-name product-name">
-                                                                    {{ $reservation->reservation_day }}</td>
-                                                                <td class="woocommerce-table__product-name product-name">
-                                                                    {{ $reservation->reservation_time }}</td>
-                                                                <td class="woocommerce-table__product-name product-name">
-                                                                    {{ $reservation->status }}</td>
-                                                                <td>
-                                                                    @if ($reservation->status == 'pending')
-                                                                        <form
-                                                                            wire:submit="cancelReservation({{ $reservation->id }})">
-                                                                            <button type="submit"
-                                                                                class="btn btn-danger">Hủy</button>
-                                                                        </form>
-                                                                    @endif
-                                                                </td>
-                                                            </tr>
-                                                        @endforeach
-                                                    </tbody>
-                                                </table>
+                                                <div class="order-summary">
+                                                    <h3>Danh sách món ăn</h3>
+                                                    <div class="table-responsive">
+                                                        <table>
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Tên món ăn</th>
+                                                                    <th>Số lượng</th>
+                                                                    <th>Giá</th>
+                                                                    <th>Tên nhà hàng</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                @foreach ($order->items as $item)
+                                                                    <tr>
+                                                                        <td>{{ $item->dish->name }}</td>
+                                                                        <td>{{ $item->quantity }}</td>
+                                                                        <td>{{ number_format($item->price, 0, ',', '.') }} VNĐ</td>
+                                                                        <td>{{ $item->dish->restaurant->name }}</td>
+                                                                    </tr>
+                                                                @endforeach
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    <div class="total-info">
+                                                        <div><strong>Tổng tiền:</strong> {{ number_format($order->total_amount, 0, ',', '.') }} VNĐ</div>
+                                                        <div><strong>Phương thức thanh toán:</strong> {{ $order->payment_method }}</div>
+                                                        <div><strong>Trạng thái thanh toán:</strong> {{ $order->payment_status }}</div>
+                                                        <div><strong>Trạng thái đơn hàng:</strong> {{ $order->status }}</div>
+                                                        <div><strong>Ghi chú:</strong> {{ $order->notes }}</div>
+                                                    </div>
+                                                </div>
                                             </div>
-
                                         </div>
-                                    </div>
-                                </div><!-- .entry-content -->
+                                    </div><!-- .entry-content -->
                             </article><!-- #post-## -->
-
+                            <style>
+                                tr,
+                                td,
+                                th {
+                                    white-space: nowrap;
+                                }
+                            </style>
                         </main><!-- #main -->
                     </div><!-- #primary -->
-                    <style>
-                        tr ,td,th{
-                            white-space: nowrap;
-                        }
-                    </style>
+
 
                 </div><!-- .col-full -->
             </div><!-- #content -->

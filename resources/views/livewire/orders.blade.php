@@ -1263,27 +1263,28 @@
                                                 Hello <strong>{{ Auth::user()->name }}</strong> (not <strong>{{ Auth::user()->name }}</strong>? <a
                                                     href="https://demo2.themelexus.com/delicioz/my-account/customer-logout/?_wpnonce=c690371e25">Log
                                                     out</a>)</p>
+                                                    <div style="width: 100%; overflow-x: scroll;">
 
                                             <table class="woocommerce-table woocommerce-table--order-details shop_table order_details">
                                                 <thead>
                                                     <tr>
-                                                        <th class="woocommerce-table__product-name product-name">order_code</th>
-                                                        <th class="woocommerce-table__product-name product-name">total_amount</th>
-                                                        <th class="woocommerce-table__product-name product-name">status</th>
-                                                        <th class="woocommerce-table__product-name product-name">created_at</th>
+                                                        <th class="woocommerce-table__product-name product-name">Mã</th>
+                                                        <th class="woocommerce-table__product-name product-name">Tổng tiền</th>
+                                                        <th class="woocommerce-table__product-name product-name">Trạng thái</th>
+                                                        <th class="woocommerce-table__product-name product-name">Ngày</th>
                                                         <th class="woocommerce-table__product-name product-name">action</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     @foreach ($orders as $order)
                                                         <tr>
-                                                            <td class="woocommerce-table__product-name product-name">{{ $order->order_code }}</td>
+                                                            <td style="cursor: pointer;" class="woocommerce-table__product-name product-name" wire:click="orderDetail('{{ $order->order_code }}')">{{ $order->order_code }}</td>
                                                             <td class="woocommerce-table__product-name product-name">{{ number_format($order->total_amount) }} VNĐ</td>
                                                             <td class="woocommerce-table__product-name product-name">{{ $order->status }}</td>
                                                             <td class="woocommerce-table__product-name product-name">{{ $order->created_at }}</td>
                                                             <td>
                                                                 @if ($order->status == 'pending')
-                                                                    <form wire:submit="cancelOrder({{ $order->id }})">
+                                                                    <form wire:submit.prevent="cancelOrder({{ $order->id }})">
                                                                         <button type="submit" class="btn btn-danger">Hủy</button>
                                                                     </form>
                                                                 @endif
@@ -1293,12 +1294,16 @@
                                                 </tbody>
                                             </table>
 
-
+                                            </div>
                                         </div>
                                     </div>
                                 </div><!-- .entry-content -->
                             </article><!-- #post-## -->
-
+                            <style>
+                                tr ,td,th{
+                                    white-space: nowrap;
+                                }
+                            </style>
                         </main><!-- #main -->
                     </div><!-- #primary -->
 

@@ -1,7 +1,7 @@
 <div>
 
     <head>
-        <title>My account &#8211; Delicioz</title>
+        <title>{{ $reservation->reservation_code }}</title>
         <link rel="dns-prefetch" href="//fonts.googleapis.com">
         <link rel="dns-prefetch" href="//s.w.org">
         <link rel='dns-prefetch' href='//demo2.themelexus.com' />
@@ -1238,61 +1238,95 @@
                                                 Hello <strong>{{ Auth::user()->name }}</strong> (not
                                                 <strong>{{ Auth::user()->name }}</strong>? <a
                                                     href="https://demo2.themelexus.com/delicioz/my-account/customer-logout/?_wpnonce=c690371e25">Log
-                                                    out</a>)</p>
+                                                    out</a>)
+                                            </p>
 
-                                            <div style="width: 100%; overflow-x: scroll;">
-
-                                                <table
-                                                    class="woocommerce-table woocommerce-table--order-details shop_table order_details">
-                                                    <thead>
-                                                        <tr>
-                                                            <th class="woocommerce-table__product-name product-name">
-                                                                Mã</th>
-                                                            <th class="woocommerce-table__product-name product-name">
-                                                                Nhà hàng</th>
-                                                            <th class="woocommerce-table__product-name product-name">
-                                                                Số người</th>
-                                                            <th class="woocommerce-table__product-name product-name">
-                                                                Ngày</th>
-                                                            <th class="woocommerce-table__product-name product-name">
-                                                                Giờ</th>
-                                                            <th class="woocommerce-table__product-name product-name">
-                                                                Trạng thái</th>
-                                                            <th class="woocommerce-table__product-name product-name">
-                                                                action</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        @foreach ($reservations as $reservation)
-                                                            <tr>
-                                                                <td style="cursor: pointer;"
-                                                                    class="woocommerce-table__product-name product-name"
-                                                                    wire:click="reservationDetail('{{ $reservation->reservation_code }}')">
-                                                                    {{ $reservation->reservation_code }}</td>
-                                                                <td class="woocommerce-table__product-name product-name">
-                                                                    {{ $reservation->restaurant->name }}</td>
-                                                                <td class="woocommerce-table__product-name product-name">
-                                                                    {{ $reservation->number_of_people }}</td>
-                                                                <td class="woocommerce-table__product-name product-name">
-                                                                    {{ $reservation->reservation_day }}</td>
-                                                                <td class="woocommerce-table__product-name product-name">
-                                                                    {{ $reservation->reservation_time }}</td>
-                                                                <td class="woocommerce-table__product-name product-name">
-                                                                    {{ $reservation->status }}</td>
-                                                                <td>
-                                                                    @if ($reservation->status == 'pending')
-                                                                        <form
-                                                                            wire:submit="cancelReservation({{ $reservation->id }})">
-                                                                            <button type="submit"
-                                                                                class="btn btn-danger">Hủy</button>
-                                                                        </form>
-                                                                    @endif
-                                                                </td>
-                                                            </tr>
-                                                        @endforeach
-                                                    </tbody>
-                                                </table>
+                                            <div class="reservation-details">
+                                                <div class="details-section">
+                                                    <h3>Thông tin đặt bàn</h3>
+                                                    <div class="detail-item"><strong>Mã đặt bàn:</strong>
+                                                        {{ $reservation->reservation_code }}</div>
+                                                    <div class="detail-item"><strong>Tên khách hàng:</strong>
+                                                        {{ $reservation->name }}</div>
+                                                    <div class="detail-item"><strong>Số điện thoại:</strong>
+                                                        {{ $reservation->phone }}</div>
+                                                    <div class="detail-item"><strong>Ngày đặt bàn:</strong>
+                                                        {{ $reservation->reservation_day }}</div>
+                                                    <div class="detail-item"><strong>Giờ đặt bàn:</strong>
+                                                        {{ $reservation->reservation_time }}</div>
+                                                    <div class="detail-item"><strong>Email:</strong>
+                                                        {{ $reservation->email }}</div>
+                                                    <div class="detail-item"><strong>Địa chỉ:</strong>
+                                                        {{ $reservation->address }}</div>
+                                                </div>
+                                                <div class="details-section">
+                                                    <h3>Thông tin khác</h3>
+                                                    <div class="detail-item"><strong>Số lượng người:</strong>
+                                                        {{ $reservation->number_of_people }}</div>
+                                                    <div class="detail-item"><strong>Trạng thái đơn hàng:</strong>
+                                                        {{ $reservation->status }}</div>
+                                                    <div class="detail-item"><strong>Ghi chú:</strong>
+                                                        {{ $reservation->notes }}</div>
+                                                </div>
                                             </div>
+                                            <style>
+                                                .reservation-details {
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                    margin: 20px;
+                                                    padding: 20px;
+                                                    border: 1px solid #ddd;
+                                                    border-radius: 8px;
+                                                    background-color: #f9f9f9;
+                                                }
+
+                                                .details-section {
+                                                    flex: 1;
+                                                    margin: 0 10px;
+                                                }
+
+                                                h3 {
+                                                    margin-bottom: 15px;
+                                                    color: #333;
+                                                }
+
+                                                .detail-item {
+                                                    margin-bottom: 10px;
+                                                    font-size: 16px;
+                                                    color: #555;
+                                                }
+
+                                                .detail-item strong {
+                                                    color: #000;
+                                                }
+
+                                                /* Responsive Styles */
+                                                @media (max-width: 768px) {
+                                                    .reservation-details {
+                                                        flex-direction: column;
+                                                        /* Stack sections vertically */
+                                                        margin: 10px;
+                                                        /* Adjust margin for smaller screens */
+                                                    }
+
+                                                    .details-section {
+                                                        margin: 10px 0;
+                                                        /* Adjust margins for vertical stacking */
+                                                    }
+                                                }
+
+                                                @media (max-width: 480px) {
+                                                    h3 {
+                                                        font-size: 18px;
+                                                        /* Smaller font size for headings */
+                                                    }
+
+                                                    .detail-item {
+                                                        font-size: 14px;
+                                                        /* Smaller font size for details */
+                                                    }
+                                                }
+                                            </style>
 
                                         </div>
                                     </div>
@@ -1302,7 +1336,9 @@
                         </main><!-- #main -->
                     </div><!-- #primary -->
                     <style>
-                        tr ,td,th{
+                        tr,
+                        td,
+                        th {
                             white-space: nowrap;
                         }
                     </style>

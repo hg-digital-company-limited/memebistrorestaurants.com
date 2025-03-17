@@ -12,6 +12,10 @@ class Orders extends Component
     {
         $this->orders = Order::where('user_id', auth()->user()->id)->get();
     }
+    public function orderDetail($code)
+    {
+        return redirect('/my-account/orders/'.$code);
+    }
     public function cancelOrder($id)
     {
         $order = Order::find($id);

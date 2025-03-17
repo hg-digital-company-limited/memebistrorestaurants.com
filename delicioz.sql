@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Mar 17, 2025 at 11:48 AM
+-- Generation Time: Mar 17, 2025 at 01:00 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.2.27
 
@@ -328,7 +328,7 @@ CREATE TABLE `orders` (
 INSERT INTO `orders` (`id`, `user_id`, `status`, `total_amount`, `payment_method`, `created_at`, `updated_at`, `payment_status`, `address`, `name`, `phone`, `email`, `order_code`, `notes`) VALUES
 (1, 1, 'confirmed', '1200000.00', 'cod', '2025-03-12 11:34:44', '2025-03-12 11:34:44', 'unpaid', 'z', 'a', 'a', '2@2', 'ORDER_67D171544CA4E', NULL),
 (2, 1, 'canceled', '1200000.00', 'cod', '2025-03-12 11:34:57', '2025-03-17 11:45:24', 'unpaid', 'z', 'a', 'a', '2@2', 'ORDER_67D17161B6FFA', NULL),
-(3, 1, 'canceled', '1200000.00', NULL, '2025-03-12 11:35:29', '2025-03-17 11:45:36', 'unpaid', '123', '123', '123', '123@2', 'ORDER_67D17181E8D14', NULL),
+(3, 1, 'canceled', '1200000.00', 'cod', '2025-03-12 11:35:29', '2025-03-17 11:45:36', 'unpaid', '123', '123', '123', '123@2', 'ORDER_67D17181E8D14', NULL),
 (4, 1, 'canceled', '1200000.00', 'cod', '2025-03-12 11:35:32', '2025-03-17 11:46:29', 'unpaid', '123', '123', '123', '123@2', 'ORDER_67D171846C01F', NULL),
 (5, 1, 'pending', '0.00', 'cod', '2025-03-12 11:36:05', '2025-03-12 11:36:05', 'unpaid', 'a', 'a', 'a', 'a@2', 'ORDER_67D171A59CF85', NULL),
 (6, 1, 'canceled', '100000.00', 'bank', '2025-03-12 11:47:47', '2025-03-17 11:46:43', 'unpaid', '123', '123', '123', '123', 'ORDER_67D17463082DC', NULL),
@@ -341,11 +341,11 @@ INSERT INTO `orders` (`id`, `user_id`, `status`, `total_amount`, `payment_method
 (13, 1, 'pending', '100000.00', 'bank', '2025-03-14 11:53:15', '2025-03-14 11:53:22', 'failed', '123', 'admin@gmail.com', '123', 'admin@gmail.com', 'ORDER_67D418AB1D56A', NULL),
 (14, 1, 'pending', '100000.00', 'cod', '2025-03-14 11:57:11', '2025-03-14 11:57:11', 'unpaid', '123', 'admin@gmail.com', '123', 'admin@gmail.com', 'ORDER_67D4199761E5B', NULL),
 (15, 1, 'pending', '100000.00', 'cod', '2025-03-14 11:57:13', '2025-03-14 11:57:13', 'unpaid', '123', 'admin@gmail.com', '123', 'admin@gmail.com', 'ORDER_67D41999B012F', NULL),
-(16, 1, 'pending', '100000.00', 'cod', '2025-03-14 11:57:35', '2025-03-14 11:57:35', 'unpaid', '123', 'admin@gmail.com', '123', 'admin@gmail.com', 'ORDER_67D419AF7242A', NULL),
-(17, 1, 'pending', '100000.00', 'bank', '2025-03-14 12:00:15', '2025-03-14 12:00:15', 'unpaid', '123', 'admin@gmail.com', '123', 'admin@gmail.com', 'ORDER_67D41A4FF0437', NULL),
-(18, 1, 'pending', '100000.00', 'cod', '2025-03-14 12:00:30', '2025-03-14 12:01:18', 'paid', '123', 'admin@gmail.com', '123', 'admin@gmail.com', 'ORDER_67D41A5E46F77', NULL),
-(19, 1, 'pending', '400000.00', 'bank', '2025-03-16 13:50:16', '2025-03-16 13:50:21', 'failed', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'ORDER_67D6D718122C7', NULL),
-(20, 1, 'pending', '1600000.00', 'cod', '2025-03-17 02:40:03', '2025-03-17 02:40:03', 'paid', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'ORDER_67D78B8307AEE', NULL);
+(16, 1, 'canceled', '100000.00', 'cod', '2025-03-14 11:57:35', '2025-03-17 11:49:44', 'unpaid', '123', 'admin@gmail.com', '123', 'admin@gmail.com', 'ORDER_67D419AF7242A', NULL),
+(17, 1, 'canceled', '100000.00', 'bank', '2025-03-14 12:00:15', '2025-03-17 11:49:52', 'unpaid', '123', 'admin@gmail.com', '123', 'admin@gmail.com', 'ORDER_67D41A4FF0437', NULL),
+(18, 1, 'canceled', '100000.00', 'cod', '2025-03-14 12:00:30', '2025-03-17 11:49:30', 'paid', '123', 'admin@gmail.com', '123', 'admin@gmail.com', 'ORDER_67D41A5E46F77', NULL),
+(19, 1, 'canceled', '400000.00', 'bank', '2025-03-16 13:50:16', '2025-03-17 11:49:21', 'failed', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'ORDER_67D6D718122C7', NULL),
+(20, 1, 'canceled', '1600000.00', 'cod', '2025-03-17 02:40:03', '2025-03-17 11:49:23', 'paid', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'ORDER_67D78B8307AEE', NULL);
 
 -- --------------------------------------------------------
 
@@ -668,10 +668,10 @@ CREATE TABLE `reservations` (
 --
 
 INSERT INTO `reservations` (`id`, `user_id`, `restaurant_id`, `number_of_people`, `reservation_time`, `status`, `created_at`, `updated_at`, `reservation_code`, `notes`, `name`, `phone`, `reservation_day`) VALUES
-(9, 1, 1, 1, '07:00 pm', 'pending', '2025-03-17 10:52:33', '2025-03-17 10:52:33', 'RESERVATION_67D7FEF1AA863', '123', 'admin', '0999999999', '2025-03-20'),
-(10, 1, 1, 1, '18:03:00', 'pending', '2025-03-17 11:03:36', '2025-03-17 11:32:56', 'RESERVATION_67D8018839DEE', '23', 'admin@gmail.com', '0999999999', '2025-03-17'),
-(11, 1, 1, 1, '18:07', 'pending', '2025-03-17 11:07:41', '2025-03-17 11:07:41', 'RESERVATION_67D8027D45909', '123', 'admin@gmail.com1132', 'admin@gmail.com123', '2025-03-17'),
-(12, 1, 1, 1, '18:08', 'pending', '2025-03-17 11:08:31', '2025-03-17 11:08:31', 'RESERVATION_67D802AFB99DB', NULL, 'admin@gmail.com', 'admin@gmail.com', '2025-03-17');
+(9, 1, 1, 1, '07:00 pm', 'canceled', '2025-03-17 10:52:33', '2025-03-17 12:39:32', 'RESERVATION_67D7FEF1AA863', '123', 'admin', '0999999999', '2025-03-20'),
+(10, 1, 1, 1, '18:03:00', 'canceled', '2025-03-17 11:03:36', '2025-03-17 12:39:00', 'RESERVATION_67D8018839DEE', '23', 'admin@gmail.com', '0999999999', '2025-03-17'),
+(11, 1, 1, 1, '18:07', 'canceled', '2025-03-17 11:07:41', '2025-03-17 12:38:48', 'RESERVATION_67D8027D45909', '123', 'admin@gmail.com1132', 'admin@gmail.com123', '2025-03-17'),
+(12, 1, 1, 1, '18:08', 'canceled', '2025-03-17 11:08:31', '2025-03-17 12:39:18', 'RESERVATION_67D802AFB99DB', NULL, 'admin@gmail.com', 'admin@gmail.com', '2025-03-17');
 
 -- --------------------------------------------------------
 
@@ -889,7 +889,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('09dNRvncmOvKXlKhHd7fzwzDmX6TPkDKbdPKplCr', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoiQm5HdlNkbHB2SGRtN1pnVFhWWDhrdElNcGNRdUlyMFZCT0JvZk1obSI7czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTtzOjk6Il9wcmV2aW91cyI7YToxOntzOjM6InVybCI7czozOToiaHR0cDovLzEyNy4wLjAuMTo4MDAwL215LWFjY291bnQvb3JkZXJzIjt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czoxNzoicGFzc3dvcmRfaGFzaF93ZWIiO3M6NjA6IiQyeSQxMiRhaVM5dU55a3pOVmI3bFF1QjhKdEkueERmMjdxODFqeEh4UUhnZ1JIbjRkMmdDZUpDWXlKcSI7czo4OiJmaWxhbWVudCI7YTowOnt9czo2OiJ0YWJsZXMiO2E6MTp7czozMjoiTGlzdFJlc2VydmF0aW9uc190b2dnbGVkX2NvbHVtbnMiO2E6NDp7czoxNjoicmVzZXJ2YXRpb25fdGltZSI7YjoxO3M6NToibm90ZXMiO2I6MDtzOjEwOiJjcmVhdGVkX2F0IjtiOjA7czoxMDoidXBkYXRlZF9hdCI7YjowO319fQ==', 1742212086);
+('Wdigh5SyRhq94p89liJWilPztyobNXMZdrdGzw67', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoiQm5HdlNkbHB2SGRtN1pnVFhWWDhrdElNcGNRdUlyMFZCT0JvZk1obSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzM6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbi91c2VycyI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTIkYWlTOXVOeWt6TlZiN2xRdUI4SnRJLnhEZjI3cTgxanhIeFFIZ2dSSG40ZDJnQ2VKQ1l5SnEiO3M6ODoiZmlsYW1lbnQiO2E6MDp7fXM6NjoidGFibGVzIjthOjE6e3M6MzI6Ikxpc3RSZXNlcnZhdGlvbnNfdG9nZ2xlZF9jb2x1bW5zIjthOjQ6e3M6MTY6InJlc2VydmF0aW9uX3RpbWUiO2I6MTtzOjU6Im5vdGVzIjtiOjA7czoxMDoiY3JlYXRlZF9hdCI7YjowO3M6MTA6InVwZGF0ZWRfYXQiO2I6MDt9fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7fQ==', 1742216410);
 
 -- --------------------------------------------------------
 
@@ -941,7 +941,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `phone`, `created_at`, `updated_at`, `address`, `loyalty_points`, `theme`, `theme_color`) VALUES
-(1, 'admin@gmail.com', 'admin@gmail.com', NULL, '$2y$12$aiS9uNykzNVb7lQuB8JtI.xDf27q81jxHxQHggRHn4d2gCeJCYyJq', 'l03nfzgW6HtVbWoAUvNWcPCRCbQybOFReEHpilVbhgSdOk3PNXYxTLhhruR0', 'admin@gmail.com', '2025-03-09 21:32:39', '2025-03-14 12:32:48', 'admin@gmail.com', 50000, 'default', NULL),
+(1, 'admin@gmail.com', 'admin@gmail.com', NULL, '$2y$12$aiS9uNykzNVb7lQuB8JtI.xDf27q81jxHxQHggRHn4d2gCeJCYyJq', 'MTYZ6qEzq2iygAuwg1QysfpW4d03T2wrpTvSUAQjRYopVXbA8S31WNum0JGB', 'admin@gmail.com', '2025-03-09 21:32:39', '2025-03-14 12:32:48', 'admin@gmail.com', 50000, 'default', NULL),
 (6, 'beptruong@gmail.com', 'beptruong@gmail.com', NULL, '$2y$12$AnKMLUKYHLoinNGtE/nrtu.gTPFi3XbDCaKYv.nwHSJ3EfL3cAr1a', NULL, NULL, '2025-03-16 13:25:36', '2025-03-16 13:25:46', NULL, 0, 'default', NULL);
 
 --
