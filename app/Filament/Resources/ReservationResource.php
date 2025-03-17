@@ -5,6 +5,7 @@ namespace App\Filament\Resources;
 use App\Filament\Resources\ReservationResource\Pages;
 use App\Filament\Resources\ReservationResource\RelationManagers;
 use App\Models\Reservation;
+use App\Models\Restaurant;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -55,7 +56,7 @@ class ReservationResource extends Resource
                         Forms\Components\DatePicker::make('reservation_day')
                             ->required()
                             ->label('Ngày đặt'),
-                        Forms\Components\DateTimePicker::make('reservation_time')
+                        Forms\Components\TimePicker::make('reservation_time')
                             ->required()
                             ->label('Thời gian đặt'),
                         Forms\Components\TextInput::make('reservation_code')
@@ -99,12 +100,13 @@ class ReservationResource extends Resource
                     ->sortable(),
                 Tables\Columns\TextColumn::make('number_of_people')
                     ->numeric()
+                    ->label('Số lượng người')
                     ->sortable(),
                 Tables\Columns\TextColumn::make('reservation_time')
-                    ->dateTime()
                     ->sortable()
-                    ->label('Thời gian đặt')
-                    ->toggleable(isToggledHiddenByDefault: true),
+                    ->searchable()
+                    ->label('Giờ đặt')
+                   ,
                 Tables\Columns\TextColumn::make('notes')
                     ->searchable()
                     ->label('Ghi chú')
@@ -116,7 +118,7 @@ class ReservationResource extends Resource
                     ->searchable()
                     ->label('Số điện thoại'),
                 Tables\Columns\TextColumn::make('reservation_day')
-                    ->date()
+                    ->searchable()
                     ->sortable()
                     ->label('Ngày đặt'),
                 Tables\Columns\TextColumn::make('status')
@@ -124,7 +126,7 @@ class ReservationResource extends Resource
                     ->label('Trạng thái'),
                 Tables\Columns\TextColumn::make('created_at')
                     ->dateTime()
-                    ->label('Ngày đặt')
+                    ->label('Ngày tạo')
                     ->sortable()
                     ->toggleable(isToggledHiddenByDefault: true),
                 Tables\Columns\TextColumn::make('updated_at')
@@ -136,7 +138,20 @@ class ReservationResource extends Resource
 
             ])
             ->filters([
-                //
+                Tables\Filters\SelectFilter::make('restaurant_id')
+                    ->label('Nhà hàng')
+                    ->options(Restaurant::all()->pluck('name', 'id'))
+                    ->searchable()
+                    ->placeholder('Chọn nhà hàng'),
+
+                Tables\Filters\SelectFilter::make('status')
+                    ->label('Trạng thái')
+                    ->options([
+                        'pending' => 'Chờ xác nhận',
+                        'confirmed' => 'Đã xác nhận',
+                        'cancelled' => 'Đã hủy',
+                    ])
+                    ->placeholder('Chọn trạng thái'),
             ])
             ->actions([
                 Tables\Actions\ActionGroup::make([

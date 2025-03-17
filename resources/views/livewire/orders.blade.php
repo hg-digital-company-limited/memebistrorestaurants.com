@@ -1,7 +1,7 @@
 <div>
 
     <head>
-        <title>My account &#8211; Delicioz</title>
+        <title>Orders</title>
         <link rel="dns-prefetch" href="//fonts.googleapis.com">
         <link rel="dns-prefetch" href="//s.w.org">
         <link rel='dns-prefetch' href='//demo2.themelexus.com' />
@@ -1244,7 +1244,7 @@
                     </section>
                 </div>
             </div>
-            <div id="content" class="site-content" tabindex="-1">
+            <div id="content" class="site-content" tabindex="-1" wire:ignore>
                 <div class="col-full">
 
                     <div class="woocommerce"></div>
@@ -1264,14 +1264,35 @@
                                                     href="https://demo2.themelexus.com/delicioz/my-account/customer-logout/?_wpnonce=c690371e25">Log
                                                     out</a>)</p>
 
-                                            <p>
-                                                From your account dashboard you can view your <a
-                                                    href="https://demo2.themelexus.com/delicioz/my-account/orders/">recent
-                                                    orders</a>, manage your <a
-                                                    href="https://demo2.themelexus.com/delicioz/my-account/edit-address/">shipping
-                                                    and billing addresses</a>, and <a
-                                                    href="https://demo2.themelexus.com/delicioz/my-account/edit-account/">edit
-                                                    your password and account details</a>.</p>
+                                            <table class="woocommerce-table woocommerce-table--order-details shop_table order_details">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="woocommerce-table__product-name product-name">order_code</th>
+                                                        <th class="woocommerce-table__product-name product-name">total_amount</th>
+                                                        <th class="woocommerce-table__product-name product-name">status</th>
+                                                        <th class="woocommerce-table__product-name product-name">created_at</th>
+                                                        <th class="woocommerce-table__product-name product-name">action</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    @foreach ($orders as $order)
+                                                        <tr>
+                                                            <td class="woocommerce-table__product-name product-name">{{ $order->order_code }}</td>
+                                                            <td class="woocommerce-table__product-name product-name">{{ number_format($order->total_amount) }} VNĐ</td>
+                                                            <td class="woocommerce-table__product-name product-name">{{ $order->status }}</td>
+                                                            <td class="woocommerce-table__product-name product-name">{{ $order->created_at }}</td>
+                                                            <td>
+                                                                @if ($order->status == 'pending')
+                                                                    <form wire:submit="cancelOrder({{ $order->id }})">
+                                                                        <button type="submit" class="btn btn-danger">Hủy</button>
+                                                                    </form>
+                                                                @endif
+                                                            </td>
+                                                        </tr>
+                                                    @endforeach
+                                                </tbody>
+                                            </table>
+
 
                                         </div>
                                     </div>
