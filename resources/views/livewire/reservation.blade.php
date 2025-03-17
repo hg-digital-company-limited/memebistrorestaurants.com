@@ -1352,31 +1352,30 @@
                                                                     <ul></ul>
                                                                 </div>
 
-                                                                <form wire:submit.prevent="submit">
+                                                                <form wire:submit.prevent="submit" wire:key="reservation-form" >
 
                                                                     <div class="row row-form">
                                                                         <div class="column-tablet-6 column-12">
                                                                             <p><span class="wpcf7-form-control-wrap"
-                                                                                    data-name="your-name"><input
-                                                                                        type="text" name="your-name"
-                                                                                        value="" size="40"
+                                                                                  >
+
+                                                                                  <input
+                                                                                        type="text"
+                                                                                        size="40"
                                                                                         wire:model="name"
                                                                                         class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                                                        aria-required="true"
-                                                                                        aria-invalid="false"
+
                                                                                         placeholder="Your Name"
                                                                                          /></span>
                                                                             </p>
                                                                         </div>
                                                                         <div class="column-tablet-6 column-12">
                                                                             <p><span class="wpcf7-form-control-wrap"
-                                                                                    data-name="phone-number"><input
-                                                                                        type="text" name="phone-number"
-                                                                                        value="" size="40"
+                                                                                  ><input
+                                                                                        type="text"
+                                                                                        size="40"
                                                                                         wire:model="phone"
                                                                                         class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                                                        aria-required="true"
-                                                                                        aria-invalid="false"
                                                                                         placeholder="Phone Number"
                                                                                          /></span>
                                                                             </p>
@@ -1440,9 +1439,7 @@
 
                                                                             <p><span class="wpcf7-form-control-wrap"
                                                                                     data-name="your-message">
-                                                                                    <select name="" id="">
-                                                                                        <option value="">Select a
-                                                                                            restaurant</option>
+                                                                                    <select name="" id=""  wire:model="restaurant_id">
                                                                                         @foreach ($restaurants as $restaurant)
                                                                                             <option
                                                                                                 value="{{ $restaurant->id }}">
@@ -2062,9 +2059,7 @@
 <script src='/delicioz/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9'
     id='regenerator-runtime-js'></script>
 <script src='/delicioz/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
-<script id='contact-form-7-js-extra'>
-    var wpcf7 = { "api": { "root": "https:\/\/demo2.themelexus.com\/delicioz\/wp-json\/", "namespace": "contact-form-7\/v1" }, "cached": "1" };
-</script>
+
 <script src='/delicioz/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.6.2'
     id='contact-form-7-js'></script>
 <script src='/delicioz/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.5.18' defer async

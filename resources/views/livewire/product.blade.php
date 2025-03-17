@@ -1326,260 +1326,50 @@
                                             <li class="description_tab" id="tab-title-description" role="tab"
                                                 aria-controls="tab-description">
                                                 <a href="#tab-description">
-                                                    Description </a>
+                                                    Mô tả </a>
                                             </li>
                                             <li class="reviews_tab" id="tab-title-reviews" role="tab"
                                                 aria-controls="tab-reviews">
                                                 <a href="#tab-reviews">
-                                                    Reviews (5) </a>
+                                                    Thành phần </a>
                                             </li>
                                         </ul>
                                         <h2 class="resp-accordion tab-description active" role="tab"
-                                            data-control=".description_tab" aria-controls="#tab-description">Description
+                                            data-control=".description_tab" aria-controls="#tab-description">Mô tả
                                         </h2>
                                         <div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--description panel entry-content wc-tab"
                                             id="tab-description" role="tabpanel"
                                             aria-labelledby="tab-title-description">
 
-                                            <h2>Description</h2>
+                                            {{ $product->description }}
 
-                                            <p>{{ $product->description }}</p>
+
 
                                         </div>
                                         <h2 class="resp-accordion tab-reviews" role="tab" data-control=".reviews_tab"
-                                            aria-controls="#tab-reviews">Reviews (5)</h2>
+                                            aria-controls="#tab-reviews">Thành phần</h2>
                                         <div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--reviews panel entry-content wc-tab"
                                             id="tab-reviews" role="tabpanel" aria-labelledby="tab-title-reviews">
                                             <div id="reviews" class="woocommerce-Reviews">
                                                 <div id="comments">
-                                                    <h2 class="woocommerce-Reviews-title">
-                                                        5 reviews for <span>Grilled Salmon</span> </h2>
 
-                                                    <ol class="commentlist">
-                                                        <li class="review even thread-even depth-1" id="li-comment-149">
 
-                                                            <div id="comment-149" class="comment_container">
-
-                                                                <img alt=''
-                                                                    src='https://secure.gravatar.com/avatar/8eb1b522f60d11fa897de1dc6351b7e8?s=60&#038;d=mm&#038;r=g'
-                                                                    srcset='https://secure.gravatar.com/avatar/8eb1b522f60d11fa897de1dc6351b7e8?s=120&#038;d=mm&#038;r=g 2x'
-                                                                    class='avatar avatar-60 photo' height='60'
-                                                                    width='60' loading='lazy' />
-                                                                <div class="comment-text">
-
-                                                                    <div class="star-rating" role="img"
-                                                                        aria-label="Rated 4 out of 5"><span
-                                                                            style="width:80%">Rated <strong
-                                                                                class="rating">4</strong> out of
-                                                                            5</span></div>
-                                                                    <p class="meta">
-                                                                        <strong class="woocommerce-review__author">Kay
-                                                                            Mills </strong>
-                                                                        <span
-                                                                            class="woocommerce-review__dash">&ndash;</span>
-                                                                        <time class="woocommerce-review__published-date"
-                                                                            datetime="2022-07-30T02:41:57+00:00">July
-                                                                            30, 2022</time>
-                                                                    </p>
-
-                                                                    <div class="description">
-                                                                        <p>Awesome</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </li><!-- #comment-## -->
-                                                        <li class="review odd alt thread-odd thread-alt depth-1"
-                                                            id="li-comment-150">
-
-                                                            <div id="comment-150" class="comment_container">
-
-                                                                <img alt=''
-                                                                    src='https://secure.gravatar.com/avatar/8eb1b522f60d11fa897de1dc6351b7e8?s=60&#038;d=mm&#038;r=g'
-                                                                    srcset='https://secure.gravatar.com/avatar/8eb1b522f60d11fa897de1dc6351b7e8?s=120&#038;d=mm&#038;r=g 2x'
-                                                                    class='avatar avatar-60 photo' height='60'
-                                                                    width='60' loading='lazy' />
-                                                                <div class="comment-text">
-
-                                                                    <div class="star-rating" role="img"
-                                                                        aria-label="Rated 4 out of 5"><span
-                                                                            style="width:80%">Rated <strong
-                                                                                class="rating">4</strong> out of
-                                                                            5</span></div>
-                                                                    <p class="meta">
-                                                                        <strong
-                                                                            class="woocommerce-review__author">Philip
-                                                                            King </strong>
-                                                                        <span
-                                                                            class="woocommerce-review__dash">&ndash;</span>
-                                                                        <time class="woocommerce-review__published-date"
-                                                                            datetime="2022-07-30T02:41:59+00:00">July
-                                                                            30, 2022</time>
-                                                                    </p>
-
-                                                                    <div class="description">
-                                                                        <p>I like</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </li><!-- #comment-## -->
-                                                        <li class="review even thread-even depth-1" id="li-comment-151">
-
-                                                            <div id="comment-151" class="comment_container">
-
-                                                                <img alt=''
-                                                                    src='https://secure.gravatar.com/avatar/8eb1b522f60d11fa897de1dc6351b7e8?s=60&#038;d=mm&#038;r=g'
-                                                                    srcset='https://secure.gravatar.com/avatar/8eb1b522f60d11fa897de1dc6351b7e8?s=120&#038;d=mm&#038;r=g 2x'
-                                                                    class='avatar avatar-60 photo' height='60'
-                                                                    width='60' loading='lazy' />
-                                                                <div class="comment-text">
-
-                                                                    <div class="star-rating" role="img"
-                                                                        aria-label="Rated 3 out of 5"><span
-                                                                            style="width:60%">Rated <strong
-                                                                                class="rating">3</strong> out of
-                                                                            5</span></div>
-                                                                    <p class="meta">
-                                                                        <strong
-                                                                            class="woocommerce-review__author">Amanda
-                                                                        </strong>
-                                                                        <span
-                                                                            class="woocommerce-review__dash">&ndash;</span>
-                                                                        <time class="woocommerce-review__published-date"
-                                                                            datetime="2022-07-30T02:42:01+00:00">July
-                                                                            30, 2022</time>
-                                                                    </p>
-
-                                                                    <div class="description">
-                                                                        <p>I am 6 feet tall and 220 lbs. This shirt fit
-                                                                            me perfectly in the chest and shoulders. My
-                                                                            only complaint is that it is so long! I like
-                                                                            to wear polo shirts untucked. This shirt
-                                                                            goes completely past my rear end. If I wore
-                                                                            it with ordinary shorts, you probably
-                                                                            wouldnt be able to see the shorts at all
-                                                                            &#8211; completely hidden by the shirt. It
-                                                                            needs to be 4 to 5 inches shorter in terms
-                                                                            of length to suit me. I have many RL polo
-                                                                            shirts, and this one is by far the longest.
-                                                                            I dont understand why.</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </li><!-- #comment-## -->
-                                                        <li class="review odd alt thread-odd thread-alt depth-1"
-                                                            id="li-comment-152">
-
-                                                            <div id="comment-152" class="comment_container">
-
-                                                                <img alt=''
-                                                                    src='https://secure.gravatar.com/avatar/8eb1b522f60d11fa897de1dc6351b7e8?s=60&#038;d=mm&#038;r=g'
-                                                                    srcset='https://secure.gravatar.com/avatar/8eb1b522f60d11fa897de1dc6351b7e8?s=120&#038;d=mm&#038;r=g 2x'
-                                                                    class='avatar avatar-60 photo' height='60'
-                                                                    width='60' loading='lazy' />
-                                                                <div class="comment-text">
-
-                                                                    <div class="star-rating" role="img"
-                                                                        aria-label="Rated 5 out of 5"><span
-                                                                            style="width:100%">Rated <strong
-                                                                                class="rating">5</strong> out of
-                                                                            5</span></div>
-                                                                    <p class="meta">
-                                                                        <strong class="woocommerce-review__author">Ervin
-                                                                            Arlington </strong>
-                                                                        <span
-                                                                            class="woocommerce-review__dash">&ndash;</span>
-                                                                        <time class="woocommerce-review__published-date"
-                                                                            datetime="2022-07-30T02:42:03+00:00">July
-                                                                            30, 2022</time>
-                                                                    </p>
-
-                                                                    <div class="description">
-                                                                        <p>The shirt was not the fabric I believed it to
-                                                                            be. It says Classic Fit but was made like
-                                                                            the older versions, not the soft cotton like
-                                                                            my others. I don’t understand how the labels
-                                                                            are the same but a completely different
-                                                                            shirt. Oh well, stuck with it now.</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </li><!-- #comment-## -->
-                                                        <li class="review even thread-even depth-1" id="li-comment-153">
-
-                                                            <div id="comment-153" class="comment_container">
-
-                                                                <img alt=''
-                                                                    src='https://secure.gravatar.com/avatar/8eb1b522f60d11fa897de1dc6351b7e8?s=60&#038;d=mm&#038;r=g'
-                                                                    srcset='https://secure.gravatar.com/avatar/8eb1b522f60d11fa897de1dc6351b7e8?s=120&#038;d=mm&#038;r=g 2x'
-                                                                    class='avatar avatar-60 photo' height='60'
-                                                                    width='60' loading='lazy' />
-                                                                <div class="comment-text">
-
-                                                                    <div class="star-rating" role="img"
-                                                                        aria-label="Rated 3 out of 5"><span
-                                                                            style="width:60%">Rated <strong
-                                                                                class="rating">3</strong> out of
-                                                                            5</span></div>
-                                                                    <p class="meta">
-                                                                        <strong
-                                                                            class="woocommerce-review__author">Patrick
-                                                                            M. Newman </strong>
-                                                                        <span
-                                                                            class="woocommerce-review__dash">&ndash;</span>
-                                                                        <time class="woocommerce-review__published-date"
-                                                                            datetime="2022-07-30T02:42:05+00:00">July
-                                                                            30, 2022</time>
-                                                                    </p>
-
-                                                                    <div class="description">
-                                                                        <p>Real authentic genuine quality however it fit
-                                                                            me like an XL size when In fact Im L. Beware
-                                                                        </p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </li><!-- #comment-## -->
-                                                    </ol>
+                                                    <table>
+                                                        <tr>
+                                                            <td>Thành phần</td>
+                                                            <td>Số lượng</td>
+                                                        </tr>
+                                                        @foreach ($product->recipes as $recipe)
+                                                            <tr>
+                                                                <td>{{ $recipe->ingredient->name }}</td>
+                                                                <td>{{ $recipe->quantity }} {{ $recipe->ingredient->unit }}</td>
+                                                            </tr>
+                                                        @endforeach
+                                                    </table>
 
                                                 </div>
 
-                                                <div id="review_form_wrapper">
-                                                    <div id="review_form">
-                                                        <div id="respond" class="comment-respond">
-                                                            <span id="reply-title" class="comment-reply-title">Add a
-                                                                review <small><a rel="nofollow"
-                                                                        id="cancel-comment-reply-link"
-                                                                        href="/delicioz/product/grilled-salmon/#respond"
-                                                                        style="display:none;">Cancel
-                                                                        reply</a></small></span>
-                                                            <form action="/delicioz/wp-comments-post.php" method="post"
-                                                                id="commentform" class="comment-form" novalidate>
-                                                                <div class="comment-form-rating"><label
-                                                                        for="rating">Your rating&nbsp;<span
-                                                                            class="required">*</span></label><select
-                                                                        name="rating" id="rating" required>
-                                                                        <option value="">Rate&hellip;</option>
-                                                                        <option value="5">Perfect</option>
-                                                                        <option value="4">Good</option>
-                                                                        <option value="3">Average</option>
-                                                                        <option value="2">Not that bad</option>
-                                                                        <option value="1">Very poor</option>
-                                                                    </select></div>
-                                                                <p class="comment-form-comment"><textarea id="comment"
-                                                                        name="comment" cols="45" rows="8" required
-                                                                        placeholder="Your review *"></textarea></p>
-                                                                <p class="form-submit"><button type="submit" id="submit"
-                                                                        class="submit"
-                                                                        value="Submit"><span>Submit</span></button>
-                                                                    <input type='hidden' name='comment_post_ID'
-                                                                        value='474' id='comment_post_ID' />
-                                                                    <input type='hidden' name='comment_parent'
-                                                                        id='comment_parent' value='0' />
-                                                                </p>
-                                                            </form>
-                                                        </div><!-- #respond -->
-                                                    </div>
-                                                </div>
+
 
                                                 <div class="clear"></div>
                                             </div>

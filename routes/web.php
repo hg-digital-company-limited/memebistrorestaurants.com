@@ -42,6 +42,7 @@ Route::get('/my-account/logout', Logout::class);
 
 
 
+
 Route::get('/order-received', OrderReceived::class);
 Route::get('/product/{slug}', Product::class);
 Route::get('/reservation', Reservation::class);
