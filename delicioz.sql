@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Mar 17, 2025 at 01:00 PM
+-- Generation Time: Mar 17, 2025 at 01:19 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.2.27
 
@@ -264,7 +264,8 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (31, '2025_03_16_193606_add_short_description_to_restaurants_table', 22),
 (32, '2025_03_16_194909_create_recipes_table', 23),
 (33, '2025_03_16_204145_add_status_to_dishes_table', 24),
-(34, '2025_03_17_094501_add_themes_settings_to_users_table', 25);
+(34, '2025_03_17_094501_add_themes_settings_to_users_table', 25),
+(35, '2025_03_17_200419_add_is_locked_to_users_table', 26);
 
 -- --------------------------------------------------------
 
@@ -671,7 +672,8 @@ INSERT INTO `reservations` (`id`, `user_id`, `restaurant_id`, `number_of_people`
 (9, 1, 1, 1, '07:00 pm', 'canceled', '2025-03-17 10:52:33', '2025-03-17 12:39:32', 'RESERVATION_67D7FEF1AA863', '123', 'admin', '0999999999', '2025-03-20'),
 (10, 1, 1, 1, '18:03:00', 'canceled', '2025-03-17 11:03:36', '2025-03-17 12:39:00', 'RESERVATION_67D8018839DEE', '23', 'admin@gmail.com', '0999999999', '2025-03-17'),
 (11, 1, 1, 1, '18:07', 'canceled', '2025-03-17 11:07:41', '2025-03-17 12:38:48', 'RESERVATION_67D8027D45909', '123', 'admin@gmail.com1132', 'admin@gmail.com123', '2025-03-17'),
-(12, 1, 1, 1, '18:08', 'canceled', '2025-03-17 11:08:31', '2025-03-17 12:39:18', 'RESERVATION_67D802AFB99DB', NULL, 'admin@gmail.com', 'admin@gmail.com', '2025-03-17');
+(12, 1, 1, 1, '18:08', 'canceled', '2025-03-17 11:08:31', '2025-03-17 12:39:18', 'RESERVATION_67D802AFB99DB', NULL, 'admin@gmail.com', 'admin@gmail.com', '2025-03-17'),
+(13, 1, 1, 1, '20:03', 'pending', '2025-03-17 13:03:21', '2025-03-17 13:03:21', 'RESERVATION_67D81D9985752', NULL, 'admin@gmail.com', 'admin@gmail.com', '2025-03-17');
 
 -- --------------------------------------------------------
 
@@ -889,7 +891,8 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('Wdigh5SyRhq94p89liJWilPztyobNXMZdrdGzw67', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoiQm5HdlNkbHB2SGRtN1pnVFhWWDhrdElNcGNRdUlyMFZCT0JvZk1obSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzM6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbi91c2VycyI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTIkYWlTOXVOeWt6TlZiN2xRdUI4SnRJLnhEZjI3cTgxanhIeFFIZ2dSSG40ZDJnQ2VKQ1l5SnEiO3M6ODoiZmlsYW1lbnQiO2E6MDp7fXM6NjoidGFibGVzIjthOjE6e3M6MzI6Ikxpc3RSZXNlcnZhdGlvbnNfdG9nZ2xlZF9jb2x1bW5zIjthOjQ6e3M6MTY6InJlc2VydmF0aW9uX3RpbWUiO2I6MTtzOjU6Im5vdGVzIjtiOjA7czoxMDoiY3JlYXRlZF9hdCI7YjowO3M6MTA6InVwZGF0ZWRfYXQiO2I6MDt9fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7fQ==', 1742216410);
+('pMlomljOsjCvJRgGqJfrh5DPeVlGU1Ttj2DpceRr', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoidVFpSE9LTVJnR2M5WjdCRGN4UDJUUlZnRnpQQjJOcHBHa1ZwbWdMZSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjc6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9sb2dpbiI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjE6e2k6MDtzOjU6ImVycm9yIjt9czozOiJuZXciO2E6MDp7fX19', 1742217243),
+('Wdigh5SyRhq94p89liJWilPztyobNXMZdrdGzw67', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoiQm5HdlNkbHB2SGRtN1pnVFhWWDhrdElNcGNRdUlyMFZCT0JvZk1obSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6NDI6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbi9kaXNoZXMvMTAvZWRpdCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTIkYWlTOXVOeWt6TlZiN2xRdUI4SnRJLnhEZjI3cTgxanhIeFFIZ2dSSG40ZDJnQ2VKQ1l5SnEiO3M6ODoiZmlsYW1lbnQiO2E6MDp7fXM6NjoidGFibGVzIjthOjE6e3M6MzI6Ikxpc3RSZXNlcnZhdGlvbnNfdG9nZ2xlZF9jb2x1bW5zIjthOjQ6e3M6MTY6InJlc2VydmF0aW9uX3RpbWUiO2I6MTtzOjU6Im5vdGVzIjtiOjA7czoxMDoiY3JlYXRlZF9hdCI7YjowO3M6MTA6InVwZGF0ZWRfYXQiO2I6MDt9fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7fQ==', 1742217421);
 
 -- --------------------------------------------------------
 
@@ -927,6 +930,7 @@ CREATE TABLE `users` (
   `email_verified_at` timestamp NULL DEFAULT NULL,
   `password` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `remember_token` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `is_locked` tinyint(1) NOT NULL DEFAULT '0',
   `phone` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
@@ -940,9 +944,9 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `phone`, `created_at`, `updated_at`, `address`, `loyalty_points`, `theme`, `theme_color`) VALUES
-(1, 'admin@gmail.com', 'admin@gmail.com', NULL, '$2y$12$aiS9uNykzNVb7lQuB8JtI.xDf27q81jxHxQHggRHn4d2gCeJCYyJq', 'MTYZ6qEzq2iygAuwg1QysfpW4d03T2wrpTvSUAQjRYopVXbA8S31WNum0JGB', 'admin@gmail.com', '2025-03-09 21:32:39', '2025-03-14 12:32:48', 'admin@gmail.com', 50000, 'default', NULL),
-(6, 'beptruong@gmail.com', 'beptruong@gmail.com', NULL, '$2y$12$AnKMLUKYHLoinNGtE/nrtu.gTPFi3XbDCaKYv.nwHSJ3EfL3cAr1a', NULL, NULL, '2025-03-16 13:25:36', '2025-03-16 13:25:46', NULL, 0, 'default', NULL);
+INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `is_locked`, `phone`, `created_at`, `updated_at`, `address`, `loyalty_points`, `theme`, `theme_color`) VALUES
+(1, 'admin@gmail.com', 'admin@gmail.com', NULL, '$2y$12$aiS9uNykzNVb7lQuB8JtI.xDf27q81jxHxQHggRHn4d2gCeJCYyJq', 'MTYZ6qEzq2iygAuwg1QysfpW4d03T2wrpTvSUAQjRYopVXbA8S31WNum0JGB', 1, 'admin@gmail.com', '2025-03-09 21:32:39', '2025-03-17 13:13:45', 'admin@gmail.com', 50000, 'default', NULL),
+(6, 'beptruong@gmail.com', 'beptruong@gmail.com', NULL, '$2y$12$AnKMLUKYHLoinNGtE/nrtu.gTPFi3XbDCaKYv.nwHSJ3EfL3cAr1a', NULL, 0, NULL, '2025-03-16 13:25:36', '2025-03-16 13:25:46', NULL, 0, 'default', NULL);
 
 --
 -- Indexes for dumped tables
@@ -1165,7 +1169,7 @@ ALTER TABLE `jobs`
 -- AUTO_INCREMENT for table `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
 
 --
 -- AUTO_INCREMENT for table `orders`
@@ -1201,7 +1205,7 @@ ALTER TABLE `recipes`
 -- AUTO_INCREMENT for table `reservations`
 --
 ALTER TABLE `reservations`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `restaurants`

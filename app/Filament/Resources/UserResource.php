@@ -28,21 +28,48 @@ class UserResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\TextInput::make('name')
-                    ->required()
-                    ->maxLength(255),
-                Forms\Components\TextInput::make('email')
-                    ->email()
-                    ->required()
-                    ->maxLength(255),
+                // Thông tin cá nhân
+                Forms\Components\Section::make('Thông tin cá nhân')->schema([
+                    Forms\Components\TextInput::make('name')
+                        ->label('Tên')
+                        ->required()
+                        ->maxLength(255),
+                    Forms\Components\TextInput::make('email')
+                        ->label('Email')
+                        ->email()
+                        ->required()
+                        ->maxLength(255),
+                    Forms\Components\TextInput::make('address')
+                        ->label('Địa chỉ')
+                        ->required()
+                        ->maxLength(255),
+                    Forms\Components\TextInput::make('phone')
+                        ->label('Số điện thoại')
+                        ->required()
+                        ->maxLength(255),
+                    Forms\Components\Checkbox::make('is_locked')
+                        ->label('Khóa tài khoản'),
+                    Forms\Components\TextInput::make('loyalty_points')
+                        ->label('Điểm thưởng')
+                        ->required()
+                        ->maxLength(255),
+                ]),
+                // Quyền
+                Forms\Components\Section::make('Quyền')->schema([
                     Forms\Components\CheckboxList::make('roles')
-                    ->relationship('roles', 'name')
-                    ->searchable(),
-                Forms\Components\DateTimePicker::make('email_verified_at'),
-                Forms\Components\TextInput::make('password')
+                        ->label('Vai trò')
+                        ->relationship('roles', 'name')
+                        ->searchable(),
+                ]),
+                // Mật khẩu
+                Forms\Components\Section::make('Mật khẩu')->schema([
+                    Forms\Components\TextInput::make('password')
                     ->password()
-                    ->required()
-                    ->maxLength(255),
+                    ->minLength(8)
+                    ->dehydrateStateUsing(fn($state) => bcrypt($state))
+                    ->dehydrated(fn($state) => filled($state))
+                    ->label('Password'),
+                ]),
             ]);
     }
 
@@ -50,17 +77,31 @@ class UserResource extends Resource
     {
         return $table
             ->columns([
+                Tables\Columns\TextColumn::make('id')
+                    ->label('ID')
+                    ->sortable(),
                 Tables\Columns\TextColumn::make('name')
+                    ->label('Tên')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('email')
+                    ->label('Email')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('roles.name')
-                    ->label('Roles')
+                    ->label('Vai trò')
                     ->badge()
                     ->color('success'),
-                Tables\Columns\TextColumn::make('email_verified_at')
-                    ->dateTime()
-                    ->sortable(),
+                Tables\Columns\TextColumn::make('phone')
+                    ->searchable()
+                    ->label('Số điện thoại'),
+                Tables\Columns\TextColumn::make('address')
+                    ->searchable()
+                    ->label('Địa chỉ'),
+                Tables\Columns\TextColumn::make('loyalty_points')
+                    ->label('Điểm thưởng'),
+                Tables\Columns\TextColumn::make('is_locked')
+                    ->label('Khóa tài khoản')
+                    ->badge()
+                    ->color('success'),
                 Tables\Columns\TextColumn::make('created_at')
                     ->dateTime()
                     ->sortable()
@@ -74,15 +115,26 @@ class UserResource extends Resource
                 //
             ])
             ->actions([
-                Tables\Actions\EditAction::make(),
+                Tables\Actions\ActionGroup::make([
+                    Tables\Actions\ViewAction::make()
+                        ->label('Xem'), // Đổi nhãn sang tiếng Việt
+                    Tables\Actions\EditAction::make()
+                        ->label('Chỉnh Sửa'), // Đổi nhãn sang tiếng Việt
+                    Tables\Actions\DeleteAction::make()
+                        ->label('Xóa'), // Đổi nhãn sang tiếng Việt
+                ])
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
-                    Tables\Actions\DeleteBulkAction::make(),
+                    Tables\Actions\DeleteBulkAction::make()
+                        ->label('Xóa'), // Đổi nhãn sang tiếng Việt
                 ]),
             ]);
     }
-
+     public static function getNavigationBadge(): ?string
+    {
+        return static::getModel()::count();
+    }
     public static function getRelations(): array
     {
         return [

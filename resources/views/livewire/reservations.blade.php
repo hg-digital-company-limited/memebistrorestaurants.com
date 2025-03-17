@@ -1,7 +1,7 @@
 <div>
 
     <head>
-        <title>My account &#8211; Delicioz</title>
+        <title>Reservations</title>
         <link rel="dns-prefetch" href="//fonts.googleapis.com">
         <link rel="dns-prefetch" href="//s.w.org">
         <link rel='dns-prefetch' href='//demo2.themelexus.com' />
