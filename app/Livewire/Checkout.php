@@ -2,6 +2,7 @@
 
 namespace App\Livewire;
 
+use Illuminate\Support\Facades\Auth;
 use Livewire\Component;
 use App\Helpers\CartManagement;
 use App\Models\Order;
@@ -20,6 +21,9 @@ class Checkout extends Component
 
     public function mount()
     {
+        if (!Auth::check()) {
+            return redirect('/login');
+        }
         $this->name = auth()->user()->name;
         $this->email = auth()->user()->email;
         $this->phone = auth()->user()->phone;

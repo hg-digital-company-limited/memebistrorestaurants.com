@@ -21,6 +21,7 @@ class ContactResource extends Resource
     {
         return 'Danh sách liên hệ';
     }
+    protected static ?int $navigationSort = 2;
 
     protected static ?string $navigationIcon = 'heroicon-o-envelope';
 

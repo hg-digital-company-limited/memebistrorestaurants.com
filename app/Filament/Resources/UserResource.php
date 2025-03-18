@@ -22,6 +22,7 @@ class UserResource extends Resource
     {
         return 'Danh sách tài khoản';
     }
+
     protected static ?string $navigationIcon = 'heroicon-o-user-circle';
 
     public static function form(Form $form): Form

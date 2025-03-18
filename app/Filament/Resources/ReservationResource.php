@@ -23,6 +23,7 @@ class ReservationResource extends Resource
         return 'Danh sách đặt bàn';
     }
     protected static ?string $navigationIcon = 'heroicon-o-calendar';
+    protected static ?int $navigationSort = 2;
 
     public static function form(Form $form): Form
     {

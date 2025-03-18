@@ -16,6 +16,7 @@ use Illuminate\Database\Eloquent\SoftDeletingScope;
 class FoodCategoryResource extends Resource
 {
     protected static ?string $model = FoodCategory::class;
+    protected static ?int $navigationSort = 2;
 
     protected static ?string $navigationGroup = 'Quản lý Món Ăn';
     public static function getPluralModelLabel(): string

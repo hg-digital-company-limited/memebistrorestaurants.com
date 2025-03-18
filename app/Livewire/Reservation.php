@@ -19,6 +19,10 @@ class Reservation extends Component
 
     public function mount()
     {
+        if (!Auth::check()) {
+            return redirect('/login');
+
+        }
         $this->name = Auth::user()->name;
         $this->phone = Auth::user()->phone;
         $this->reservation_time = date('H:i');

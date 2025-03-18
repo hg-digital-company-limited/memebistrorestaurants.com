@@ -22,6 +22,8 @@ class DishResource extends Resource
     {
         return 'Danh sách món ăn';
     }
+    protected static ?int $navigationSort = 2;
+
     protected static ?string $navigationIcon = 'heroicon-o-check-badge';
 
     public static function form(Form $form): Form

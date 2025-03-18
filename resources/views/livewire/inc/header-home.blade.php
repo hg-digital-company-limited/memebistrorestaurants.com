@@ -35,12 +35,12 @@
                                     <div class="widget woocommerce widget_product_search">
                                         <div class="ajax-search-result d-none"></div>
                                         <form role="search" method="get" class="woocommerce-product-search"
-                                            action="/delicioz/">
+                                            action="/shop/">
                                             <label class="screen-reader-text"
                                                 for="woocommerce-product-search-field-1">Search for:</label>
                                             <input type="search" id="woocommerce-product-search-field-1"
                                                 class="search-field" placeholder="Search products&hellip;"
-                                                autocomplete="off" value="" name="s" />
+                                                autocomplete="off" value="" name="search" />
                                             <button type="submit" value="Search">Search</button>
                                             <input type="hidden" name="post_type" value="product" />
                                             <div class="search-by-category input-dropdown">

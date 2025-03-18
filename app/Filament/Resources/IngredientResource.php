@@ -15,6 +15,8 @@ use Illuminate\Database\Eloquent\SoftDeletingScope;
 
 class IngredientResource extends Resource
 {
+    protected static ?int $navigationSort = 2;
+
     protected static ?string $model = Ingredient::class;
     protected static ?string $navigationGroup = 'Quản lý Món Ăn';
     public static function getPluralModelLabel(): string

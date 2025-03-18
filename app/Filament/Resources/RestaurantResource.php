@@ -22,6 +22,7 @@ class RestaurantResource extends Resource
         return 'Danh sách Nhà Hàng';
     }
     protected static ?string $navigationIcon = 'heroicon-o-building-office';
+    protected static ?int $navigationSort = 2;
 
     public static function form(Form $form): Form
     {

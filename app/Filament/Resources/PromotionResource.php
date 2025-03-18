@@ -22,6 +22,7 @@ class PromotionResource extends Resource
         return 'Danh sách khuyến mãi';
     }
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?int $navigationSort = 2;
 
     public static function form(Form $form): Form
     {
