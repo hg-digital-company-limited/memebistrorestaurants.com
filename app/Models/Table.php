@@ -21,4 +21,8 @@ class Table extends Model
     {
         return $this->belongsTo(Reservation::class);
     }
+    public function tableDishes()
+{
+    return $this->hasMany(TableDish::class);
+}
 }

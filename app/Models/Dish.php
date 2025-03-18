@@ -32,4 +32,8 @@ class Dish extends Model
     {
         return $this->hasMany(Recipe::class);
     }
+    public function tableDishes()
+    {
+        return $this->hasMany(TableDish::class);
+    }
 }

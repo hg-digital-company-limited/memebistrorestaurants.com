@@ -2,6 +2,7 @@
 
 namespace App\Filament\Resources;
 
+use App\Filament\Resources\TableDishRelationManagerResource\RelationManagers\TableDishRelationManagerRelationManager;
 use App\Filament\Resources\TableResource\Pages;
 use App\Filament\Resources\TableResource\RelationManagers;
 use App\Models\Reservation;
@@ -104,12 +105,13 @@ class TableResource extends Resource
                     ->dateTime()
                     ->sortable()
                     ->label('Ngày tạo')
-                    ->toggleable(isToggledHiddenByDefault: true)
+
                    ,
                 Tables\Columns\TextColumn::make('updated_at')
                     ->dateTime()
                     ->sortable()
                     ->label('Ngày cập nhật')
+                    ->toggleable(isToggledHiddenByDefault: true)
                    ,
             ])
             ->filters([
@@ -148,7 +150,7 @@ class TableResource extends Resource
     public static function getRelations(): array
     {
         return [
-            //
+            TableDishRelationManagerRelationManager::class,
         ];
     }
 
