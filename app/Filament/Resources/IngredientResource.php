@@ -34,6 +34,11 @@ class IngredientResource extends Resource
                             ->label('Tên nguyên liệu')
                             ->required()
                             ->maxLength(255),
+                        Forms\Components\FileUpload::make('image')
+                            ->label('Ảnh')
+                            ->image()
+                            ->required()
+                            ->imageEditor(),
 
                         Forms\Components\TextInput::make('quantity_in_stock')
                             ->label('Số lượng trong kho')
@@ -61,25 +66,39 @@ class IngredientResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('name')
-                    ->searchable(),
-                Tables\Columns\TextColumn::make('quantity_in_stock')
-                    ->numeric()
+                Tables\Columns\TextColumn::make('id')
+                    ->label('ID')
                     ->sortable(),
+                Tables\Columns\ImageColumn::make('image')
+                    ->label('Ảnh')
+                    ,
+                Tables\Columns\TextColumn::make('name')
+                    ->label('Tên nguyên liệu')
+                    ->searchable(),
+                    Tables\Columns\TextColumn::make('quantity_in_stock')
+                    ->label('Số lượng trong kho')
+                    ->numeric()
+                    ->sortable()
+                    ->badge(fn ($record) => $record->quantity_in_stock < $record->minimum_threshold ? 'danger' : 'success'),
                 Tables\Columns\TextColumn::make('created_at')
+                    ->label('Ngày tạo')
                     ->dateTime()
                     ->sortable()
                     ->toggleable(isToggledHiddenByDefault: true),
                 Tables\Columns\TextColumn::make('updated_at')
+                    ->label('Ngày cập nhật')
                     ->dateTime()
                     ->sortable()
                     ->toggleable(isToggledHiddenByDefault: true),
                 Tables\Columns\TextColumn::make('minimum_threshold')
+                    ->label('Ngưỡng tối thiểu')
                     ->numeric()
                     ->sortable(),
                 Tables\Columns\TextColumn::make('unit')
+                    ->label('Đơn vị')
                     ->searchable(),
-                Tables\Columns\TextColumn::make('restaurant_id')
+                Tables\Columns\TextColumn::make('restaurant.name')
+                    ->label('Nhà hàng')
                     ->numeric()
                     ->sortable(),
             ])
@@ -87,15 +106,26 @@ class IngredientResource extends Resource
                 //
             ])
             ->actions([
-                Tables\Actions\EditAction::make(),
+                Tables\Actions\ActionGroup::make([
+                    Tables\Actions\ViewAction::make()
+                        ->label('Xem'), // Đổi nhãn sang tiếng Việt
+                    Tables\Actions\EditAction::make()
+                        ->label('Chỉnh Sửa'), // Đổi nhãn sang tiếng Việt
+                    Tables\Actions\DeleteAction::make()
+                        ->label('Xóa'), // Đổi nhãn sang tiếng Việt
+                ])
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
-                    Tables\Actions\DeleteBulkAction::make(),
+                    Tables\Actions\DeleteBulkAction::make()
+                        ->label('Xóa'), // Đổi nhãn sang tiếng Việt
                 ]),
             ]);
     }
-
+     public static function getNavigationBadge(): ?string
+    {
+        return static::getModel()::count();
+    }
     public static function getRelations(): array
     {
         return [

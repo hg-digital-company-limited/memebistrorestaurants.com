@@ -27,15 +27,57 @@ class OrderResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\TextInput::make('user_id')
-                    ->numeric(),
-                Forms\Components\TextInput::make('status')
-                    ->required(),
-                Forms\Components\TextInput::make('total_amount')
-                    ->required()
-                    ->numeric(),
-                Forms\Components\TextInput::make('payment_method')
-                    ->required(),
+                Forms\Components\Section::make('Thông tin đơn hàng')
+                    ->description('Nhập thông tin chi tiết cho đơn hàng.')
+                    ->schema([
+                        Forms\Components\Select::make('user_id')
+                            ->relationship('user', 'name') // Kết nối với model User
+                            ->required()
+                            ->label('Người đặt'),
+
+                        Forms\Components\Select::make('status')
+                            ->options([
+                                'pending' => 'Đang chờ',
+                                'confirmed' => 'Đã xác nhận',
+                                'preparing' => 'Đang chuẩn bị',
+                                'on_the_way' => 'Đang giao hàng',
+                                'delivered' => 'Đã giao hàng',
+                                'canceled' => 'Đã hủy',
+                            ])
+                            ->required()
+                            ->label('Trạng thái'),
+
+                        Forms\Components\TextInput::make('total_amount')
+                            ->required()
+                            ->numeric()
+                            ->label('Tổng tiền'),
+
+                        Forms\Components\Select::make('payment_method')
+                            ->options([
+                                'cod' => 'Thanh toán tiền mặt',
+                                'bank' => 'Chuyển khoản',
+                            ])
+                            ->required()
+                            ->label('Phương thức thanh toán'),
+                            Forms\Components\Select::make('payment_status')
+                            ->options([
+                                'unpaid' => 'Chưa thanh toán',
+                                'paid' => 'Đã thanh toán',
+                            ])
+                            ->required()
+                            ->label('Trạng thái thanh toán'),
+                        Forms\Components\TextInput::make('address')
+                            ->label('Địa chỉ giao hàng')
+                            ->required(),
+
+                        Forms\Components\DateTimePicker::make('created_at')
+                            ->label('Ngày đặt hàng')
+                            ->default(now()),
+
+                        Forms\Components\Textarea::make('notes')
+                            ->label('Ghi chú')
+                            ->rows(3),
+                    ]),
             ]);
     }
 
