@@ -10,7 +10,7 @@ class Ingredient extends Model
     use HasFactory;
 
     protected $fillable = [
-        'name', 'image', 'quantity_in_stock', 'minimum_threshold', 'unit', 'restaurant_id'
+        'name', 'image', 'quantity_in_stock', 'minimum_threshold', 'unit', 'restaurant_id', 'expiration_date'
     ];
 
     public function restaurant()

@@ -59,6 +59,9 @@ class IngredientResource extends Resource
                             ->relationship('restaurant', 'name')
                             ->label('Nhà hàng')
                             ->required(),
+                        Forms\Components\DatePicker::make('expiration_date')
+                            ->label('Ngày hạn sử dụng')
+                            ->required(),
                     ])
                     ->columns(2) // Chia thành 2 cột trong section
                     ->label('Thông tin nguyên liệu'),
@@ -95,6 +98,10 @@ class IngredientResource extends Resource
                 Tables\Columns\TextColumn::make('minimum_threshold')
                     ->label('Ngưỡng tối thiểu')
                     ->numeric()
+                    ->sortable(),
+                Tables\Columns\BadgeColumn::make('expiration_date')
+                    ->label('Ngày hạn sử dụng')
+                    ->color(fn ($record) => $record->expiration_date < now() ? 'danger' : 'success')
                     ->sortable(),
                 Tables\Columns\TextColumn::make('unit')
                     ->label('Đơn vị')
