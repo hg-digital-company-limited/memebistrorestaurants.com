@@ -1488,7 +1488,7 @@
                                             <div class="elementor-widget-wrap">
                                             </div>
                                         </div>
-                                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ac55357"
+                                        {{-- <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ac55357"
                                             data-id="ac55357" data-element_type="column">
                                             <div class="elementor-widget-wrap elementor-element-populated">
                                                 <div class="elementor-section elementor-inner-section elementor-element elementor-element-d32a7bd elementor-section-boxed elementor-section-height-default elementor-section-height-default"
@@ -1681,7 +1681,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div>
                                 <div class="elementor-section elementor-top-section elementor-element elementor-element-a611004 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
@@ -2243,7 +2243,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-section elementor-top-section elementor-element elementor-element-7cc5f43 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                {{-- <div class="elementor-section elementor-top-section elementor-element elementor-element-7cc5f43 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                     data-id="7cc5f43" data-element_type="section"
                                     data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-container elementor-column-gap-no">
@@ -2627,8 +2627,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="elementor-section elementor-top-section elementor-element elementor-element-44b8f56 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                </div> --}}
+                                {{-- <div class="elementor-section elementor-top-section elementor-element elementor-element-44b8f56 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                     data-id="44b8f56" data-element_type="section"
                                     data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
                                     <div class="elementor-container elementor-column-gap-no">
@@ -2665,7 +2665,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
                                 <div class="elementor-section elementor-top-section elementor-element elementor-element-d9e67d1 elementor-section-stretched elementor-reverse-tablet elementor-reverse-mobile_extra elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                     data-id="d9e67d1" data-element_type="section"
                                     data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
@@ -2715,7 +2715,6 @@
                                                                                         src="/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg"
                                                                                         class="attachment-full size-full"
                                                                                         alt="" loading="lazy"
-                                                                                        srcset="/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg 390w, /delicioz/wp-content/uploads/2022/08/About_ourchef_01-300x231.jpg 300w"
                                                                                         sizes="(max-width: 390px) 100vw, 390px" />
                                                                                 </div>
                                                                                 <div class="details-info">
@@ -2983,7 +2982,6 @@
                                                                                     src="/delicioz/wp-content/uploads/2022/08/About_ourchef_02.jpg"
                                                                                     class="attachment-full size-full"
                                                                                     alt="" loading="lazy"
-                                                                                    srcset="/delicioz/wp-content/uploads/2022/08/About_ourchef_02.jpg 390w, /delicioz/wp-content/uploads/2022/08/About_ourchef_02-244x300.jpg 244w"
                                                                                     sizes="(max-width: 390px) 100vw, 390px" />
                                                                             </div>
                                                                             <div class="team-caption">
