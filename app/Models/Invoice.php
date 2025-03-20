@@ -13,6 +13,7 @@ class Invoice extends Model
         'invoice_code',
         'restaurant_id',
         'total_amount',
+
     ];
 
     /**

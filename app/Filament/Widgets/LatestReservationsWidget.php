@@ -9,12 +9,8 @@ use Filament\Widgets\TableWidget as BaseWidget;
 
 class LatestReservationsWidget extends BaseWidget
 {
-    protected static ?string $heading = 'Lịch đặt bàn mới nhất';
+    protected static ?string $heading = 'Lịch đặt bàn đang chờ';
     protected static ?int $sort = 1;
-    public function getColumnSpan(): array
-    {
-        return ['lg' => 12]; // Đặt widget chiếm toàn bộ chiều rộng trên màn hình lớn
-    }
 
     public function table(Table $table): Table
     {
