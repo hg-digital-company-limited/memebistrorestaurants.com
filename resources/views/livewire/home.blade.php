@@ -2136,10 +2136,9 @@
                                                                 <div class="icon"><i aria-hidden="true"
                                                                         class="delicioz-icon- delicioz-icon-fork-knife"></i>
                                                                 </div>
-                                                                <h3 class="elementor-image-box-title">Best Specialties
+                                                                <h3 class="elementor-image-box-title">Món ăn
                                                                 </h3>
-                                                                <div class="elementor-image-box-sub-title">Special
-                                                                    Offers</div>
+                                                                <div class="elementor-image-box-sub-title">Đặc sản</div>
                                                             </div>
                                                         </div>
                                                     </div>

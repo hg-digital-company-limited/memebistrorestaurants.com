@@ -1,7 +1,7 @@
 <div>
 
     <head>
-        <title>Orders</title>
+        <title>Danh sách đơn hàng</title>
         <link rel="dns-prefetch" href="//fonts.googleapis.com">
         <link rel="dns-prefetch" href="//s.w.org">
         <link rel='dns-prefetch' href='//demo2.themelexus.com' />
@@ -1232,10 +1232,10 @@
                                         data-id="901b06e" data-element_type="widget"
                                         data-widget_type="woocommerce-breadcrumb.default">
                                         <div class="elementor-widget-container">
-                                            <div class="delicioz-woocommerce-title">My account</div>
+                                            <div class="delicioz-woocommerce-title">Danh sách đơn hàng</div>
                                             <nav class="woocommerce-breadcrumb"><a
-                                                    href="https://demo2.themelexus.com/delicioz">Home Page</a><i
-                                                    class="delicioz-icon-arrow-right-s-line"></i>My account</nav>
+                                                    href="/">Trang chủ</a><i
+                                                    class="delicioz-icon-arrow-right-s-line"></i>Danh sách đơn hàng</nav>
                                         </div>
                                     </div>
                                 </div>
@@ -1271,7 +1271,7 @@
                                                         <th class="woocommerce-table__product-name product-name">Mã</th>
                                                         <th class="woocommerce-table__product-name product-name">Tổng tiền</th>
                                                         <th class="woocommerce-table__product-name product-name">Trạng thái</th>
-                                                        <th class="woocommerce-table__product-name product-name">Ngày</th>
+                                                        <th class="woocommerce-table__product-name product-name">Thời gian đặt</th>
                                                         <th class="woocommerce-table__product-name product-name">action</th>
                                                     </tr>
                                                 </thead>

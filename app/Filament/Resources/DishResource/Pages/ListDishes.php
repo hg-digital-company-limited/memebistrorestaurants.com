@@ -16,7 +16,8 @@ class ListDishes extends ListRecords
     protected function getHeaderActions(): array
     {
         return [
-            Actions\CreateAction::make(),
+            Actions\CreateAction::make()
+            ->label('Tạo mới món ăn'),
             \EightyNine\ExcelImport\ExcelImportAction::make()
             ->processCollectionUsing(function (string $modelClass, Collection $collection) {
                 foreach ($collection as $item) {

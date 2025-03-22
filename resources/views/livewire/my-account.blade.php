@@ -1,7 +1,7 @@
 <div>
 
     <head>
-        <title>My account &#8211; Delicioz</title>
+        <title>Tài khoản của tôi</title>
         <link rel="dns-prefetch" href="//fonts.googleapis.com">
         <link rel="dns-prefetch" href="//s.w.org">
         <link rel='dns-prefetch' href='//demo2.themelexus.com' />
@@ -1232,10 +1232,10 @@
                                         data-id="901b06e" data-element_type="widget"
                                         data-widget_type="woocommerce-breadcrumb.default">
                                         <div class="elementor-widget-container">
-                                            <div class="delicioz-woocommerce-title">My account</div>
+                                            <div class="delicioz-woocommerce-title">Tài khoản của tôi</div>
                                             <nav class="woocommerce-breadcrumb"><a
-                                                    href="https://demo2.themelexus.com/delicioz">Home Page</a><i
-                                                    class="delicioz-icon-arrow-right-s-line"></i>My account</nav>
+                                                    href="/">Trang chủ</a><i
+                                                    class="delicioz-icon-arrow-right-s-line"></i>Tài khoản của tôi</nav>
                                         </div>
                                     </div>
                                 </div>

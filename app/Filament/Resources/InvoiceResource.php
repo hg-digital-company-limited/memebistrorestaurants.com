@@ -19,6 +19,9 @@ class InvoiceResource extends Resource
 {
     protected static ?string $model = Invoice::class;
     protected static ?string $navigationGroup = 'Quản lý Hóa đơn';
+    protected static ?string $navigationLabel = 'Hóa đơn';
+    protected static ?string $title = 'Hóa đơn';
+
     public static function getPluralModelLabel(): string
     {
         return 'Danh sách hóa đơn';

@@ -13,7 +13,8 @@ class ListRestaurants extends ListRecords
     protected function getHeaderActions(): array
     {
         return [
-            Actions\CreateAction::make(),
+            Actions\CreateAction::make()
+            ->label('Tạo mới cơ sở'),
         ];
     }
 }

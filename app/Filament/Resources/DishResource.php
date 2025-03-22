@@ -18,6 +18,8 @@ class DishResource extends Resource
 {
     protected static ?string $model = Dish::class;
     protected static ?string $navigationGroup = 'Quản lý Món Ăn';
+    protected static ?string $navigationLabel = 'Món ăn';
+    protected static ?string $title = 'Món ăn';
     public static function getPluralModelLabel(): string
     {
         return 'Danh sách món ăn';
