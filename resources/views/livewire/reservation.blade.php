@@ -2,19 +2,11 @@
 
 
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-        <link rel="profile" href="//gmpg.org/xfn/11">
-        <title>Reservation &#8211; Delicioz</title>
-        <meta name='robots' content='max-image-preview:large' />
+        <title>Đặt bàn online</title>
         <link rel="dns-prefetch" href="//fonts.googleapis.com">
         <link rel="dns-prefetch" href="//s.w.org">
-        <link rel='dns-prefetch' href='//demo2.themelexus.com' />
         <link rel='dns-prefetch' href='//fonts.googleapis.com' />
         <link rel='dns-prefetch' href='//s.w.org' />
-        <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Feed" href="/delicioz/feed/" />
-        <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Comments Feed"
-            href="/delicioz/comments/feed/" />
         <script>
             window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/demo2.themelexus.com\/delicioz\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.2" } };
             /*! This file is auto-generated */
@@ -997,18 +989,6 @@
         <script src='/delicioz/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/jarallax.js?ver=6.0.2'
             id='jarallax-js'></script>
-        <link rel="https://api.w.org/" href="/delicioz/wp-json/" />
-        <link rel="alternate" type="application/json" href="/delicioz/wp-json/wp/v2/pages/38" />
-        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/delicioz/xmlrpc.php?rsd" />
-        <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/delicioz/wp-includes/wlwmanifest.xml" />
-        <meta name="generator" content="WordPress 6.0.2" />
-        <meta name="generator" content="WooCommerce 6.8.2" />
-        <link rel="canonical" href="/reservation/" />
-        <link rel='shortlink' href='/delicioz/?p=38' />
-        <link rel="alternate" type="application/json+oembed"
-            href="/delicioz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo2.themelexus.com%2Fdelicioz%2Freservation%2F" />
-        <link rel="alternate" type="text/xml+oembed"
-            href="/delicioz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo2.themelexus.com%2Fdelicioz%2Freservation%2F&#038;format=xml" />
         <noscript>
             <style>
                 .woocommerce-product-gallery {
@@ -1210,9 +1190,9 @@
                                         data-id="901b06e" data-element_type="widget"
                                         data-widget_type="woocommerce-breadcrumb.default">
                                         <div class="elementor-widget-container">
-                                            <div class="delicioz-woocommerce-title">Reservation</div>
-                                            <nav class="woocommerce-breadcrumb"><a href="/">Home Page</a><i
-                                                    class="delicioz-icon-arrow-right-s-line"></i>Reservation</nav>
+                                            <div class="delicioz-woocommerce-title">Đặt bàn online</div>
+                                            <nav class="woocommerce-breadcrumb"><a href="/">Trang chủ</a><i
+                                                    class="delicioz-icon-arrow-right-s-line"></i>Đặt bàn online</nav>
                                         </div>
                                     </div>
                                 </div>
@@ -1280,7 +1260,7 @@
                                                                 }
                                                             </style>
                                                             <h2 class="elementor-heading-title elementor-size-default">
-                                                                Online reservation</h2>
+                                                                Đặt bàn online</h2>
                                                         </div>
                                                     </div>
                                                     <div class="elementor-element elementor-element-50c9855 elementor-widget elementor-widget-text-editor"
@@ -1337,7 +1317,7 @@
                                                                     display: inline-block
                                                                 }
                                                             </style>
-                                                            <p>Book your table for lunch or dinner.</p>
+                                                            <p>Đặt bàn online</p>
                                                         </div>
                                                     </div>
                                                     <div class="elementor-element elementor-element-e27bec2 contact-form-align-center contact-form-special-yes elementor-widget elementor-widget-delicioz-contactform"
@@ -1365,7 +1345,7 @@
                                                                                         wire:model="name"
                                                                                         class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
 
-                                                                                        placeholder="Your Name"
+                                                                                        placeholder="Tên bạn"
                                                                                          /></span>
                                                                             </p>
                                                                         </div>
@@ -1376,7 +1356,7 @@
                                                                                         size="40"
                                                                                         wire:model="phone"
                                                                                         class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                                                        placeholder="Phone Number"
+                                                                                        placeholder="Số điện thoại"
                                                                                          /></span>
                                                                             </p>
                                                                         </div>
@@ -1391,15 +1371,15 @@
                                                                                         aria-required="true"
                                                                                         aria-invalid="false">
                                                                                         <option value="1">1
-                                                                                            Person</option>
+                                                                                            người</option>
                                                                                         <option value="2">2
-                                                                                            Person</option>
+                                                                                            người</option>
                                                                                         <option value="3">3
-                                                                                            Person</option>
+                                                                                            người</option>
                                                                                         <option value="4">4
-                                                                                            Person</option>
+                                                                                            người</option>
                                                                                         <option value="5">5
-                                                                                            Person</option>
+                                                                                            người</option>
                                                                                     </select></span></p>
                                                                         </div>
                                                                         <div class="column-tablet-4 column-12">
@@ -1456,13 +1436,13 @@
                                                                                         class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required"
                                                                                         aria-required="true"
                                                                                         aria-invalid="false"
-                                                                                        placeholder="Special Requests"></textarea>
+                                                                                        placeholder="Yêu cầu đặt bàn"></textarea>
                                                                                 </span>
                                                                             </p>
                                                                         </div>
                                                                     </div>
                                                                     <div class="wpcf7-button wpcf7-button-2"><input
-                                                                            type="submit" value="Book A Table"
+                                                                            type="submit" value="Đặt bàn"
                                                                             class="wpcf7-form-control has-spinner wpcf7-submit" />
                                                                     </div>
                                                                 </form>

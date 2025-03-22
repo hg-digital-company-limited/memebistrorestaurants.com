@@ -89,7 +89,7 @@ class ReservationResource extends Resource
                 Tables\Columns\TextColumn::make('reservation_code')
                     ->searchable()
                     ->label('Mã đặt bàn'),
-                Tables\Columns\TextColumn::make('user.name')
+                Tables\Columns\TextColumn::make('name')
                     ->numeric()
                     ->searchable()
                     ->label('Tên người đặt')

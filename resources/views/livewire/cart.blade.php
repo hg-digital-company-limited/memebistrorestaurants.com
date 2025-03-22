@@ -1237,7 +1237,14 @@
                             <article id="post-10" class="post-10 page type-page status-publish hentry">
                                 <div class="entry-content">
                                     <div class="woocommerce">
-                                        <div class="woocommerce-notices-wrapper"></div>
+                                        <div class="woocommerce-notices-wrapper">
+                                            <ul class="woocommerce-error" style="background-color: green;" role="alert">
+                                                <li>
+                                                    <strong>Thông báo:</strong> Khi bạn đăng ký tài khoản - sẽ được tích điểm theo giá trị đơn hàng
+                                                    Để xem chi tiết cũng như trạng thái đơn hàng, bạn vui lòng đăng ký tài khoản bằng SĐT đã đặt đơn.
+                                                </li>
+                                            </ul>
+                                        </div>
                                         <form class="woocommerce-cart-form"
                                         >
 
@@ -1255,8 +1262,9 @@
                                                     </tr>
                                                 </thead>
                                                 <tbody>
-                                                    @foreach ($cartItems as $item)
-                                                    <tr class="woocommerce-cart-form__cart-item cart_item">
+                                                    @if ($cartItems)
+                                                        @foreach ($cartItems as $item)
+                                                            <tr class="woocommerce-cart-form__cart-item cart_item">
 
                                                         <td class="product-remove">
                                                             <a  wire:click="remove({{ $item['product_id'] }})"
@@ -1302,7 +1310,12 @@
                                                     </tr>
 
                                                 @endforeach
-
+                                            @else
+                                                <tr>
+                                                    <td colspan="6" class="text-center">Không có sản phẩm trong giỏ hàng
+                                                        </td>
+                                                </tr>
+                                            @endif
 
 
 

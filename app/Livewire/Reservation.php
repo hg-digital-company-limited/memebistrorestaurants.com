@@ -19,12 +19,10 @@ class Reservation extends Component
 
     public function mount()
     {
-        if (!Auth::check()) {
-            return redirect('/login');
-
+        if (Auth::check()) {
+            $this->name = Auth::user()->name;
+            $this->phone = Auth::user()->phone;
         }
-        $this->name = Auth::user()->name;
-        $this->phone = Auth::user()->phone;
         $this->reservation_time = date('H:i');
         $this->reservation_day = date('Y-m-d');
         $this->restaurant_id = Restaurant::first()->id;
@@ -42,7 +40,7 @@ class Reservation extends Component
         $reservation_code = strtoupper(uniqid('RESERVATION_')); // Use uniqid to generate a unique code
 
         $reservation = ReservationModel::create([
-            'user_id' => Auth::id(),
+            'user_id' => Auth::check() ? Auth::id() : null,
             'restaurant_id' => $this->restaurant_id,
             'number_of_people' => $this->number_of_people,
             'reservation_time' => $this->reservation_time,

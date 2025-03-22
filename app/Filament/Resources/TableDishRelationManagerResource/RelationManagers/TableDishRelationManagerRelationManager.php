@@ -32,11 +32,13 @@ class TableDishRelationManagerRelationManager extends RelationManager
             Forms\Components\TextInput::make('quantity')
                 ->required()
                 ->numeric()
+                ->default(1)
                 ->label('Số lượng'),
 
             Forms\Components\DateTimePicker::make('served_at')
                 ->label('Thời gian phục vụ')
                 ->nullable()
+                ->default(now())
                 ,
             Forms\Components\Select::make('status')
                 ->options([
@@ -44,6 +46,8 @@ class TableDishRelationManagerRelationManager extends RelationManager
                     'served' => 'Đã phục vụ',
                 ])
                 ->label('Trạng thái')
+                ->default('pending')
+                ->required()
         ]);
     }
 
