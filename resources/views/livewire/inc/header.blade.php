@@ -17,7 +17,9 @@
                                         <div class="hfe-site-logo-set">
                                             <div class="hfe-site-logo-container">
                                                 <img class="hfe-site-logo-img elementor-animation-"
-                                                    src="/delicioz/wp-content/uploads/2022/07/logo.svg" alt="" />
+                                                    src="/logo.png" alt="" style="
+                                                    height: 100px;
+                                                "/>
                                             </div>
                                         </div>
                                     </a>
@@ -125,7 +127,7 @@
                                     <a href="/reservation/"
                                         class="elementor-button-link elementor-button elementor-size-sm" role="button">
                                         <span class="elementor-button-content-wrapper">
-                                            <span class="elementor-button-text">reservation</span>
+                                            <span class="elementor-button-text">Đặt Bàn</span>
                                         </span>
                                     </a>
                                 </div>

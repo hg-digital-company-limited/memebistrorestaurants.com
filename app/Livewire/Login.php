@@ -84,6 +84,7 @@ class Login extends Component
             session()->flash('error', 'Số điện thoại đã tồn tại.');
             return;
         }
+        dd( $this->email, $this->phone, $this->password);
         if (empty($this->email) || empty($this->phone) || empty($this->password)) {
             session()->flash('error', 'Vui lòng nhập đầy đủ thông tin.');
             return;

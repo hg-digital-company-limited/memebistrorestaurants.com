@@ -21,7 +21,7 @@
                                             <div class="hfe-site-logo-set">
                                                 <div class="hfe-site-logo-container">
                                                     <img class="hfe-site-logo-img elementor-animation-"
-                                                        src="/delicioz/wp-content/uploads/2022/07/logo.svg"
+                                                        src="/logo.png"
                                                         alt="" />
                                                 </div>
                                             </div>
@@ -510,7 +510,7 @@
                                                 data-id="8b0daca" data-element_type="widget"
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    +39-055-123456,+39-066-666999 </div>
+                                                    0329 081 960,+39-066-666999 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-b07bab7 elementor-widget__width-initial elementor-widget elementor-widget-text-editor"
                                                 data-id="b07bab7" data-element_type="widget"

@@ -4,6 +4,7 @@ namespace App\Filament\Resources;
 
 use App\Filament\Resources\InvoiceResource\Pages;
 use App\Filament\Resources\InvoiceResource\RelationManagers;
+use App\Filament\Resources\InvoiceResource\RelationManagers\InvoiceItemsRelationManager;
 use App\Models\Invoice;
 use App\Models\Restaurant;
 use Filament\Forms;
@@ -108,7 +109,6 @@ class InvoiceResource extends Resource
     public static function getRelations(): array
     {
         return [
-            //
         ];
     }
 

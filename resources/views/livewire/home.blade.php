@@ -13,9 +13,61 @@
         <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Comments Feed"
             href="/delicioz/comments/feed/" />
         <script>
-            window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/demo2.themelexus.com\/delicioz\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.2" } };
+            window._wpemojiSettings = {
+                "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
+                "ext": ".png",
+                "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
+                "svgExt": ".svg",
+                "source": {
+                    "concatemoji": "https:\/\/demo2.themelexus.com\/delicioz\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.2"
+                }
+            };
             /*! This file is auto-generated */
-            !function (e, a, t) { var n, r, o, i = a.createElement("canvas"), p = i.getContext && i.getContext("2d"); function s(e, t) { var a = String.fromCharCode, e = (p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0), i.toDataURL()); return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL() } function c(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0; r < o.length; r++)t.supports[o[r]] = function (e) { if (!p || !p.fillText) return !1; switch (p.textBaseline = "top", p.font = "600 32px Arial", e) { case "flag": return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]); case "emoji": return !s([129777, 127995, 8205, 129778, 127999], [129777, 127995, 8203, 129778, 127999]) }return !1 }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e.wpemoji))) }(window, document, window._wpemojiSettings);
+            ! function(e, a, t) {
+                var n, r, o, i = a.createElement("canvas"),
+                    p = i.getContext && i.getContext("2d");
+
+                function s(e, t) {
+                    var a = String.fromCharCode,
+                        e = (p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0), i.toDataURL());
+                    return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL()
+                }
+
+                function c(e) {
+                    var t = a.createElement("script");
+                    t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
+                }
+                for (o = Array("flag", "emoji"), t.supports = {
+                        everything: !0,
+                        everythingExceptFlag: !0
+                    }, r = 0; r < o.length; r++) t.supports[o[r]] = function(e) {
+                    if (!p || !p.fillText) return !1;
+                    switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
+                        case "flag":
+                            return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([
+                                55356, 56826, 55356, 56819
+                            ], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418,
+                                56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447
+                            ], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203,
+                                56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447
+                            ]);
+                        case "emoji":
+                            return !s([129777, 127995, 8205, 129778, 127999], [129777, 127995, 8203, 129778, 127999])
+                    }
+                    return !1
+                }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports
+                    .everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+                t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t
+                    .readyCallback = function() {
+                        t.DOMReady = !0
+                    }, t.supports.everything || (n = function() {
+                        t.readyCallback()
+                    }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !
+                        1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
+                        "complete" === a.readyState && t.readyCallback()
+                    })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e
+                        .wpemoji)))
+            }(window, document, window._wpemojiSettings);
         </script>
         <style>
             img.wp-smiley,
@@ -480,7 +532,8 @@
             href='/delicioz/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.16.0'
             media='all' />
         <link rel='stylesheet' id='elementor-frontend-css'
-            href='/delicioz/wp-content/uploads/elementor/css/custom-frontend-lite.min.css?ver=1661932570' media='all' />
+            href='/delicioz/wp-content/uploads/elementor/css/custom-frontend-lite.min.css?ver=1661932570'
+            media='all' />
         <link rel='stylesheet' id='elementor-post-7-css'
             href='/delicioz/wp-content/uploads/elementor/css/post-7.css?ver=1661932570' media='all' />
         <link rel='stylesheet' id='elementor-global-css'
@@ -510,7 +563,8 @@
             }
         </style>
         <link rel='stylesheet' id='hint-css'
-            href='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/hint/hint.min.css?ver=6.0.2' media='all' />
+            href='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/hint/hint.min.css?ver=6.0.2'
+            media='all' />
         <link rel='stylesheet' id='perfect-scrollbar-css'
             href='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/perfect-scrollbar/css/perfect-scrollbar.min.css?ver=6.0.2'
             media='all' />
@@ -528,7 +582,8 @@
             href='/delicioz/wp-content/plugins/woo-smart-quick-view/assets/libs/feather/feather.css?ver=6.0.2'
             media='all' />
         <link rel='stylesheet' id='woosq-frontend-css'
-            href='/delicioz/wp-content/plugins/woo-smart-quick-view/assets/css/frontend.css?ver=3.1.2' media='all' />
+            href='/delicioz/wp-content/plugins/woo-smart-quick-view/assets/css/frontend.css?ver=3.1.2'
+            media='all' />
         <link rel='stylesheet' id='woosw-feather-css'
             href='/delicioz/wp-content/plugins/woo-smart-wishlist/assets/libs/feather/feather.css?ver=6.0.2'
             media='all' />
@@ -547,8 +602,8 @@
         <link rel='stylesheet' id='delicioz-fonts-css'
             href='//fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&#038;subset=latin%2Clatin-ext&#038;display=swap'
             media='all' />
-        <link rel='stylesheet' id='delicioz-style-css' href='/delicioz/wp-content/themes/delicioz/style.css?ver=1.0.1'
-            media='all' />
+        <link rel='stylesheet' id='delicioz-style-css'
+            href='/delicioz/wp-content/themes/delicioz/style.css?ver=1.0.1' media='all' />
         <style id='delicioz-style-inline-css'>
             .col-full {
                 max-width: 1290px
@@ -973,7 +1028,8 @@
         <link rel='stylesheet' id='delicioz-elementor-css'
             href='/delicioz/wp-content/themes/delicioz/assets/css/base/elementor.css?ver=1.0.1' media='all' />
         <link rel='stylesheet' id='delicioz-woocommerce-style-css'
-            href='/delicioz/wp-content/themes/delicioz/assets/css/woocommerce/woocommerce.css?ver=1.0.1' media='all' />
+            href='/delicioz/wp-content/themes/delicioz/assets/css/woocommerce/woocommerce.css?ver=1.0.1'
+            media='all' />
         <link rel='stylesheet' id='delicioz-child-style-css'
             href='/delicioz/wp-content/themes/demo-child/style.css?ver=1.0.0' media='all' />
         <link rel='stylesheet' id='google-fonts-1-css'
@@ -992,8 +1048,7 @@
 </script>
         <script src='/delicioz/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
         <script src='/delicioz/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
-        <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/jarallax.js?ver=6.0.2'
-            id='jarallax-js'></script>
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/jarallax.js?ver=6.0.2' id='jarallax-js'></script>
         <link rel="https://api.w.org/" href="/delicioz/wp-json/" />
         <link rel="alternate" type="application/json" href="/delicioz/wp-json/wp/v2/pages/24" />
         <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/delicioz/xmlrpc.php?rsd" />
@@ -1015,7 +1070,8 @@
         </noscript>
         <meta name="generator"
             content="Powered by Slider Revolution 6.5.31 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
-        <script>function setREVStartSize(e) {
+        <script>
+            function setREVStartSize(e) {
                 //window.requestAnimationFrame(function() {
                 window.RSIW = window.RSIW === undefined ? window.innerWidth : window.RSIW;
                 window.RSIH = window.RSIH === undefined ? window.innerHeight : window.RSIH;
@@ -1034,10 +1090,12 @@
                         newh = Math.max(e.mh, window.RSIH);
                     else {
                         e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
-                        for (var i in e.rl) if (e.gw[i] === undefined || e.gw[i] === 0) e.gw[i] = e.gw[i - 1];
+                        for (var i in e.rl)
+                            if (e.gw[i] === undefined || e.gw[i] === 0) e.gw[i] = e.gw[i - 1];
                         e.gh = e.el === undefined || e.el === "" || (Array.isArray(e.el) && e.el.length == 0) ? e.gh : e.el;
                         e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
-                        for (var i in e.rl) if (e.gh[i] === undefined || e.gh[i] === 0) e.gh[i] = e.gh[i - 1];
+                        for (var i in e.rl)
+                            if (e.gh[i] === undefined || e.gh[i] === 0) e.gh[i] = e.gh[i - 1];
 
                         var nl = new Array(e.rl.length),
                             ix = 0,
@@ -1048,7 +1106,11 @@
                         e.thumbh = e.thumbhide >= pw ? 0 : e.thumbh;
                         for (var i in e.rl) nl[i] = e.rl[i] < window.RSIW ? 0 : e.rl[i];
                         sl = nl[0];
-                        for (var i in nl) if (sl > nl[i] && nl[i] > 0) { sl = nl[i]; ix = i; }
+                        for (var i in nl)
+                            if (sl > nl[i] && nl[i] > 0) {
+                                sl = nl[i];
+                                ix = i;
+                            }
                         var m = pw > (e.gw[ix] + e.tabw + e.thumbw) ? 1 : (pw - (e.tabw + e.thumbw)) / (e.gw[ix]);
                         newh = (e.gh[ix] * m) + (e.tabh + e.thumbh);
                     }
@@ -1063,13 +1125,14 @@
                     console.log("Failure at Presize of Slider:" + e)
                 }
                 //});
-            };</script>
+            };
+        </script>
     </head>
 
     <body
         class="page-template page-template-template-homepage page-template-template-homepage-php page page-id-24 logged-in wp-custom-logo wp-embed-responsive theme-delicioz woocommerce-no-js ehf-header ehf-footer ehf-template-delicioz ehf-stylesheet-demo-child woo-variation-swatches wvs-behavior-blur wvs-theme-demo-child wvs-show-label wvs-tooltip chrome woocommerce-active product-block-style-1 elementor-default elementor-kit-7 elementor-page elementor-page-24">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-            style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
             <defs>
                 <filter id="wp-duotone-dark-grayscale">
                     <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
@@ -1083,8 +1146,9 @@
                     <feComposite in2="SourceGraphic" operator="in" />
                 </filter>
             </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
-            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0"
+            focusable="false" role="none"
+            style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
             <defs>
                 <filter id="wp-duotone-grayscale">
                     <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
@@ -1098,8 +1162,9 @@
                     <feComposite in2="SourceGraphic" operator="in" />
                 </filter>
             </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
-            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0"
+            focusable="false" role="none"
+            style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
             <defs>
                 <filter id="wp-duotone-purple-yellow">
                     <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
@@ -1113,8 +1178,9 @@
                     <feComposite in2="SourceGraphic" operator="in" />
                 </filter>
             </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
-            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0"
+            focusable="false" role="none"
+            style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
             <defs>
                 <filter id="wp-duotone-blue-red">
                     <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
@@ -1128,8 +1194,9 @@
                     <feComposite in2="SourceGraphic" operator="in" />
                 </filter>
             </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
-            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0"
+            focusable="false" role="none"
+            style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
             <defs>
                 <filter id="wp-duotone-midnight">
                     <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
@@ -1143,8 +1210,9 @@
                     <feComposite in2="SourceGraphic" operator="in" />
                 </filter>
             </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
-            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0"
+            focusable="false" role="none"
+            style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
             <defs>
                 <filter id="wp-duotone-magenta-yellow">
                     <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
@@ -1158,8 +1226,9 @@
                     <feComposite in2="SourceGraphic" operator="in" />
                 </filter>
             </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
-            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0"
+            focusable="false" role="none"
+            style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
             <defs>
                 <filter id="wp-duotone-purple-green">
                     <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
@@ -1173,8 +1242,9 @@
                     <feComposite in2="SourceGraphic" operator="in" />
                 </filter>
             </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
-            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0"
+            focusable="false" role="none"
+            style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
             <defs>
                 <filter id="wp-duotone-blue-orange">
                     <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
@@ -1252,8 +1322,8 @@
                                                                             data-anim="adpr:false;" data-in="o:0;"
                                                                             data-out="a:false;">
                                                                             <img src="//demo2.themelexus.com/delicioz/wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                                                alt="" title="rev_h3" width="1920"
-                                                                                height="800"
+                                                                                alt="" title="rev_h3"
+                                                                                width="1920" height="800"
                                                                                 class="rev-slidebg tp-rs-img rs-lazyload"
                                                                                 data-lazyload="//demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/rev_h3.jpg"
                                                                                 data-panzoom="d:10000;ss:100;se:110%;"
@@ -1262,19 +1332,19 @@
                                                                                 class="rev_row_zone_middle"
                                                                                 style="z-index: 13;"><!--
 
-								--><rs-row id="slider-2-slide-4-layer-0" data-type="row" data-xy="xo:50px;yo:50px;" data-rsp_bd="off"
+        --><rs-row id="slider-2-slide-4-layer-0" data-type="row" data-xy="xo:50px;yo:50px;" data-rsp_bd="off"
                                                                                     data-margin="t:80,80,80,50;r:90,90,90,15;b:95,95,95,50;l:90,90,90,15;"
                                                                                     data-frame_0="o:1;"
                                                                                     data-frame_999="o:0;st:w;sR:8700;sA:9000;"
                                                                                     style="z-index:1;"><!--
-									--><rs-column id="slider-2-slide-4-layer-1" data-type="column" data-xy="xo:50px;yo:50px;"
+         --><rs-column id="slider-2-slide-4-layer-1" data-type="column" data-xy="xo:50px;yo:50px;"
                                                                                         data-text="a:left,left,center,center;"
                                                                                         data-rsp_bd="off"
                                                                                         data-column="w:100%;"
                                                                                         data-frame_0="o:1;"
                                                                                         data-frame_999="o:0;st:w;sR:8700;sA:9000;"
                                                                                         style="z-index:2;width:100%;"><!--
-										--><rs-layer id="slider-2-slide-4-layer-4" data-type="text" data-rsp_ch="on" data-xy="xo:50px;yo:50px;"
+          --><rs-layer id="slider-2-slide-4-layer-4" data-type="text" data-rsp_ch="on" data-xy="xo:50px;yo:50px;"
                                                                                             data-text="w:normal;s:80,70,70,60;l:88,76,70,62;a:left,left,center,center;"
                                                                                             data-disp="inline-block"
                                                                                             data-padding="t:13;b:7;"
@@ -1286,7 +1356,7 @@
                                                                                             of passion
                                                                                         </rs-layer><!--
 
-										--><rs-layer id="slider-2-slide-4-layer-3" data-type="shape" data-rsp_ch="on" data-xy="xo:50px,34px,25px,15px;yo:50px,34px,25px,15px;"
+          --><rs-layer id="slider-2-slide-4-layer-3" data-type="shape" data-rsp_ch="on" data-xy="xo:50px,34px,25px,15px;yo:50px,34px,25px,15px;"
                                                                                             data-text="w:normal;s:20,13,9,5;c:both;l:0,17,12,7;"
                                                                                             data-flcr="c:both;"
                                                                                             data-dim="w:100%;h:1px;"
@@ -1294,7 +1364,7 @@
                                                                                             style="z-index:4;">
                                                                                         </rs-layer><!--
 
-										--><rs-layer id="slider-2-slide-4-layer-2" data-type="text" data-rsp_ch="on" data-xy="xo:50px;yo:50px;"
+          --><rs-layer id="slider-2-slide-4-layer-2" data-type="text" data-rsp_ch="on" data-xy="xo:50px;yo:50px;"
                                                                                             data-text="w:normal;s:18,18,18,16;l:26;a:center;"
                                                                                             data-disp="inline-block"
                                                                                             data-frame_0="x:-50;"
@@ -1305,7 +1375,7 @@
                                                                                             Delicioz!
                                                                                         </rs-layer><!--
 
-										--><rs-layer id="slider-2-slide-4-layer-15" data-type="shape" data-rsp_ch="on" data-xy="xo:50px,34px,25px,15px;yo:50px,34px,25px,15px;"
+          --><rs-layer id="slider-2-slide-4-layer-15" data-type="shape" data-rsp_ch="on" data-xy="xo:50px,34px,25px,15px;yo:50px,34px,25px,15px;"
                                                                                             data-text="w:normal;s:20,13,9,5;c:both;l:0,17,12,7;"
                                                                                             data-flcr="c:both;"
                                                                                             data-dim="w:100%;h:1px;"
@@ -1313,7 +1383,7 @@
                                                                                             style="z-index:6;">
                                                                                         </rs-layer><!--
 
-										--><rs-layer id="slider-2-slide-4-layer-14" class="rev-btn-outline rev-btn" data-type="button"
+          --><rs-layer id="slider-2-slide-4-layer-14" class="rev-btn-outline rev-btn" data-type="button"
                                                                                             data-xy="xo:50px;yo:50px;"
                                                                                             data-text="w:normal;s:12;l:54,54,50,46;ls:3px;fw:700;"
                                                                                             data-dim="minh:0px,none,none,none;"
@@ -1325,14 +1395,15 @@
                                                                                             data-border="bos:solid;boc:#ffdea0;bow:1px,1px,1px,1px;"
                                                                                             data-frame_0="x:-50;"
                                                                                             data-frame_1="st:1490;sp:1500;sR:1490;"
+                                                                                            onclick="window.location.href = '/shop'"
                                                                                             data-frame_999="o:0;st:w;sR:6010;"
                                                                                             data-frame_hover="c:#000;bgc:rgba(0,0,0,0);boc:#ffdea0;bor:0px,0px,0px,0px;bos:solid;bow:1px,1px,1px,1px;e:power1.inOut;"
                                                                                             style="z-index:7;background-color:rgba(0,0,0,0);font-family:'Manrope';display:inline-block;">DISCOVER
                                                                                             MENU
                                                                                         </rs-layer><!--
-									--></rs-column><!--
-								--></rs-row><!--
-							--></rs-zone><!--
+         --></rs-column><!--
+        --></rs-row><!--
+       --></rs-zone><!--
 --> </rs-slide>
                                                                         <rs-slide style="position: absolute;"
                                                                             data-key="rs-7" data-title="Slide"
@@ -1340,8 +1411,8 @@
                                                                             data-anim="adpr:false;" data-in="o:0;"
                                                                             data-out="a:false;">
                                                                             <img src="//demo2.themelexus.com/delicioz/wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                                                alt="" title="rev_h3_01" width="1920"
-                                                                                height="800"
+                                                                                alt="" title="rev_h3_01"
+                                                                                width="1920" height="800"
                                                                                 class="rev-slidebg tp-rs-img rs-lazyload"
                                                                                 data-lazyload="//demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/rev_h3_01.jpg"
                                                                                 data-panzoom="d:10000;ss:100;se:110%;"
@@ -1350,19 +1421,19 @@
                                                                                 class="rev_row_zone_middle"
                                                                                 style="z-index: 13;"><!--
 
-								--><rs-row id="slider-2-slide-7-layer-0" data-type="row" data-xy="xo:50px;yo:50px;" data-rsp_bd="off"
+        --><rs-row id="slider-2-slide-7-layer-0" data-type="row" data-xy="xo:50px;yo:50px;" data-rsp_bd="off"
                                                                                     data-margin="t:80,80,80,50;r:90,90,90,15;b:95,95,95,50;l:90,90,90,15;"
                                                                                     data-frame_0="o:1;"
                                                                                     data-frame_999="o:0;st:w;sR:8700;sA:9000;"
                                                                                     style="z-index:1;"><!--
-									--><rs-column id="slider-2-slide-7-layer-1" data-type="column" data-xy="xo:50px;yo:50px;"
+         --><rs-column id="slider-2-slide-7-layer-1" data-type="column" data-xy="xo:50px;yo:50px;"
                                                                                         data-text="a:left,left,center,center;"
                                                                                         data-rsp_bd="off"
                                                                                         data-column="w:100%;"
                                                                                         data-frame_0="o:1;"
                                                                                         data-frame_999="o:0;st:w;sR:8700;sA:9000;"
                                                                                         style="z-index:2;width:100%;"><!--
-										--><rs-layer id="slider-2-slide-7-layer-4" data-type="text" data-rsp_ch="on" data-xy="xo:50px;yo:50px;"
+          --><rs-layer id="slider-2-slide-7-layer-4" data-type="text" data-rsp_ch="on" data-xy="xo:50px;yo:50px;"
                                                                                             data-text="w:normal;s:80,70,70,50;l:88,76,70,55;a:left,left,center,center;"
                                                                                             data-dim="w:auto,630px,auto,auto;"
                                                                                             data-disp="inline-block"
@@ -1375,7 +1446,7 @@
                                                                                             Restaurant
                                                                                         </rs-layer><!--
 
-										--><rs-layer id="slider-2-slide-7-layer-3" data-type="shape" data-rsp_ch="on" data-xy="xo:50px,34px,25px,15px;yo:50px,34px,25px,15px;"
+          --><rs-layer id="slider-2-slide-7-layer-3" data-type="shape" data-rsp_ch="on" data-xy="xo:50px,34px,25px,15px;yo:50px,34px,25px,15px;"
                                                                                             data-text="w:normal;s:20,13,9,5;c:both;l:0,17,12,7;"
                                                                                             data-flcr="c:both;"
                                                                                             data-dim="w:100%;h:1px;"
@@ -1383,7 +1454,7 @@
                                                                                             style="z-index:4;">
                                                                                         </rs-layer><!--
 
-										--><rs-layer id="slider-2-slide-7-layer-2" data-type="text" data-rsp_ch="on" data-xy="xo:50px;yo:50px;"
+          --><rs-layer id="slider-2-slide-7-layer-2" data-type="text" data-rsp_ch="on" data-xy="xo:50px;yo:50px;"
                                                                                             data-text="w:normal;s:18,18,18,14;l:26;a:center;"
                                                                                             data-disp="inline-block"
                                                                                             data-frame_0="x:-50;"
@@ -1394,7 +1465,7 @@
                                                                                             Delicioz!
                                                                                         </rs-layer><!--
 
-										--><rs-layer id="slider-2-slide-7-layer-15" data-type="shape" data-rsp_ch="on" data-xy="xo:50px,34px,25px,15px;yo:50px,34px,25px,15px;"
+          --><rs-layer id="slider-2-slide-7-layer-15" data-type="shape" data-rsp_ch="on" data-xy="xo:50px,34px,25px,15px;yo:50px,34px,25px,15px;"
                                                                                             data-text="w:normal;s:20,13,9,5;c:both;l:0,17,12,7;"
                                                                                             data-flcr="c:both;"
                                                                                             data-dim="w:100%;h:1px;"
@@ -1402,7 +1473,7 @@
                                                                                             style="z-index:6;">
                                                                                         </rs-layer><!--
 
-										--><rs-layer id="slider-2-slide-7-layer-14" class="rev-btn-outline rev-btn" data-type="button"
+          --><rs-layer id="slider-2-slide-7-layer-14" class="rev-btn-outline rev-btn" data-type="button"
                                                                                             data-xy="xo:50px,41px,31px,19px;yo:50px,41px,31px,19px;"
                                                                                             data-text="w:normal;s:12;l:54,54,50,46;ls:3px;fw:700;"
                                                                                             data-dim="minh:0px,none,none,none;"
@@ -1415,18 +1486,19 @@
                                                                                             data-frame_0="x:-50;"
                                                                                             data-frame_1="st:1490;sp:1500;sR:1490;"
                                                                                             data-frame_999="o:0;st:w;sR:6010;"
+                                                                                            onclick="window.location.href = '/shop'"
                                                                                             data-frame_hover="c:#000;bgc:rgba(0,0,0,0);boc:#ffdea0;bor:0px,0px,0px,0px;bos:solid;bow:1px,1px,1px,1px;e:power1.inOut;"
                                                                                             style="z-index:7;background-color:rgba(0,0,0,0);font-family:'Manrope';display:inline-block;">DISCOVER
                                                                                             MENU
                                                                                         </rs-layer><!--
-									--></rs-column><!--
-								--></rs-row><!--
-							--></rs-zone><!--
+         --></rs-column><!--
+        --></rs-row><!--
+       --></rs-zone><!--
 --> </rs-slide>
                                                                     </rs-slides>
                                                                     <rs-static-layers><!--
 
-							--><rs-group id="slider-2-slide-2-layer-5" class="rs-layer-static" data-type="group"
+       --><rs-group id="slider-2-slide-2-layer-5" class="rs-layer-static" data-type="group"
                                                                             data-xy="x:c;y:m,m,b,b;yo:0,0,30px,30px;"
                                                                             data-text="w:normal;"
                                                                             data-dim="w:100%;h:50px;"
@@ -1436,7 +1508,7 @@
                                                                             data-frame_0="o:1;"
                                                                             data-frame_999="o:0;st:w;sA:9000;"
                                                                             style="z-index:10;"><!--
-								--><rs-layer id="slider-2-slide-2-layer-6" class="rev-btn rs-layer-static" data-type="button"
+        --><rs-layer id="slider-2-slide-2-layer-6" class="rev-btn rs-layer-static" data-type="button"
                                                                                 data-xy="x:l,l,r,r;xo:60px,30px,80px,80px;y:m;"
                                                                                 data-text="w:normal;l:40;a:center;"
                                                                                 data-dim="w:40px;h:40px;minh:0px,none,none,none;"
@@ -1450,24 +1522,41 @@
                                                                                     class="material-icons">arrow_back</i>
                                                                             </rs-layer><!--
 
-								--><rs-layer id="slider-2-slide-2-layer-7" class="rev-btn rs-layer-static" data-type="button"
+        --><rs-layer id="slider-2-slide-2-layer-7" class="rev-btn rs-layer-static" data-type="button"
                                                                                 data-xy="x:r;xo:60px,30px,30px,30px;y:m;"
                                                                                 data-text="w:normal;l:40;a:center;"
                                                                                 data-dim="w:40px;h:40px;minh:0px,none,none,none;"
                                                                                 data-actions='o:click;a:jumptoslide;slide:next;'
                                                                                 data-rsp_o="off" data-rsp_bd="off"
-                                                                                data-onslides="s:1;" data-margin="l:20;"
+                                                                                data-onslides="s:1;"
+                                                                                data-margin="l:20;"
                                                                                 data-border="bos:solid;boc:#ffffff;bow:1px,1px,1px,1px;bor:30px,30px,30px,30px;"
                                                                                 data-frame_999="o:0;st:w;"
                                                                                 data-frame_hover="c:#ffdea0;bgc:rgba(0,0,0,0);boc:rgba(255,222,160,0.75);bor:30px,30px,30px,30px;bos:solid;bow:1px,1px,1px,1px;e:power1.inOut;"
                                                                                 style="z-index:8;background-color:rgba(0,0,0,0);font-family:'Roboto';cursor:pointer;"><i
                                                                                     class="material-icons">arrow_forward</i>
                                                                             </rs-layer><!--
-							--></rs-group><!--
-					--></rs-static-layers>
+       --></rs-group><!--
+     --></rs-static-layers>
                                                                 </rs-module>
                                                                 <script>
-                                                                    setREVStartSize({ c: 'rev_slider_2_1', rl: [1240, 1024, 778, 480], el: [800, 700, 600, 500], gw: [1470, 1024, 778, 480], gh: [800, 700, 600, 500], type: 'standard', justify: '', layout: 'fullwidth', mh: "0" }); if (window.RS_MODULES !== undefined && window.RS_MODULES.modules !== undefined && window.RS_MODULES.modules["revslider21"] !== undefined) { window.RS_MODULES.modules["revslider21"].once = false; window.revapi2 = undefined; if (window.RS_MODULES.checkMinimal !== undefined) window.RS_MODULES.checkMinimal() }
+                                                                    setREVStartSize({
+                                                                        c: 'rev_slider_2_1',
+                                                                        rl: [1240, 1024, 778, 480],
+                                                                        el: [800, 700, 600, 500],
+                                                                        gw: [1470, 1024, 778, 480],
+                                                                        gh: [800, 700, 600, 500],
+                                                                        type: 'standard',
+                                                                        justify: '',
+                                                                        layout: 'fullwidth',
+                                                                        mh: "0"
+                                                                    });
+                                                                    if (window.RS_MODULES !== undefined && window.RS_MODULES.modules !== undefined && window.RS_MODULES.modules[
+                                                                            "revslider21"] !== undefined) {
+                                                                        window.RS_MODULES.modules["revslider21"].once = false;
+                                                                        window.revapi2 = undefined;
+                                                                        if (window.RS_MODULES.checkMinimal !== undefined) window.RS_MODULES.checkMinimal()
+                                                                    }
                                                                 </script>
                                                             </rs-module-wrap>
                                                             <!-- END REVOLUTION SLIDER -->
@@ -1488,7 +1577,8 @@
                                             <div class="elementor-widget-wrap">
                                             </div>
                                         </div>
-                                        {{-- <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ac55357"
+                                        {{-- <div
+                                            class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ac55357"
                                             data-id="ac55357" data-element_type="column">
                                             <div class="elementor-widget-wrap elementor-element-populated">
                                                 <div class="elementor-section elementor-inner-section elementor-element elementor-element-d32a7bd elementor-section-boxed elementor-section-height-default elementor-section-height-default"
@@ -1790,8 +1880,8 @@
                                                                     <div class="elementor-widget-container">
                                                                         <img width="530" height="620"
                                                                             src="/delicioz/wp-content/uploads/2022/08/home3_img-1.jpg"
-                                                                            class="attachment-full size-full" alt=""
-                                                                            loading="lazy"
+                                                                            class="attachment-full size-full"
+                                                                            alt="" loading="lazy"
                                                                             srcset="/delicioz/wp-content/uploads/2022/08/home3_img-1.jpg 530w, /delicioz/wp-content/uploads/2022/08/home3_img-1-256x300.jpg 256w"
                                                                             sizes="(max-width: 530px) 100vw, 530px" />
                                                                     </div>
@@ -1808,8 +1898,8 @@
                                                                     <div class="elementor-widget-container">
                                                                         <img width="580" height="390"
                                                                             src="/delicioz/wp-content/uploads/2022/08/home3_img-2.jpg"
-                                                                            class="attachment-full size-full" alt=""
-                                                                            loading="lazy"
+                                                                            class="attachment-full size-full"
+                                                                            alt="" loading="lazy"
                                                                             srcset="/delicioz/wp-content/uploads/2022/08/home3_img-2.jpg 580w, /delicioz/wp-content/uploads/2022/08/home3_img-2-300x202.jpg 300w"
                                                                             sizes="(max-width: 580px) 100vw, 580px" />
                                                                     </div>
@@ -1826,7 +1916,7 @@
                                                                     <div class="elementor-widget-container">
                                                                         <h2
                                                                             class="elementor-heading-title elementor-size-default">
-                                                                            +39-055-123456</h2>
+                                                                            0329 081 960</h2>
                                                                     </div>
                                                                 </div>
                                                                 <div class="elementor-element elementor-element-12a588a elementor-align-right elementor-mobile-align-center elementor-button-default elementor-widget elementor-widget-button"
@@ -2079,7 +2169,7 @@
                                                                 data-elementor-columns-tablet="4"
                                                                 data-elementor-columns-mobile-extra="2"
                                                                 data-elementor-columns-mobile="1">
-                                                                @foreach($dishes as $dish)
+                                                                @foreach ($dishes as $dish)
                                                                     <div class="column-item elementor-menu-list-item">
 
                                                                         <div class="elementor-menu-list-image">
@@ -2090,7 +2180,8 @@
                                                                             <div class="elementor-menu-list-title"><a
                                                                                     href="/product/{{ $dish->slug }}">{{ $dish->name }}</a>
                                                                             </div>
-                                                                            <div class="elementor-menu-list-description">
+                                                                            <div
+                                                                                class="elementor-menu-list-description">
                                                                                 {{ Str::limit($dish->description, 100) }}
                                                                             </div>
                                                                             <div class="elementor-menu-list-price">
@@ -2099,8 +2190,6 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
-
-
                                                                 @endforeach
                                                             </div>
                                                         </div>
@@ -2243,7 +2332,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <div class="elementor-section elementor-top-section elementor-element elementor-element-7cc5f43 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                {{-- <div
+                                    class="elementor-section elementor-top-section elementor-element elementor-element-7cc5f43 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                     data-id="7cc5f43" data-element_type="section"
                                     data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-container elementor-column-gap-no">
@@ -2628,7 +2718,8 @@
                                         </div>
                                     </div>
                                 </div> --}}
-                                {{-- <div class="elementor-section elementor-top-section elementor-element elementor-element-44b8f56 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                {{-- <div
+                                    class="elementor-section elementor-top-section elementor-element elementor-element-44b8f56 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                     data-id="44b8f56" data-element_type="section"
                                     data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
                                     <div class="elementor-container elementor-column-gap-no">
@@ -2666,7 +2757,7 @@
                                         </div>
                                     </div>
                                 </div> --}}
-                                <div class="elementor-section elementor-top-section elementor-element elementor-element-d9e67d1 elementor-section-stretched elementor-reverse-tablet elementor-reverse-mobile_extra elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                {{-- <div class="elementor-section elementor-top-section elementor-element elementor-element-d9e67d1 elementor-section-stretched elementor-reverse-tablet elementor-reverse-mobile_extra elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                     data-id="d9e67d1" data-element_type="section"
                                     data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-container elementor-column-gap-no">
@@ -2685,7 +2776,8 @@
                                                                     <div class="inner">
 
                                                                         <div class="testimonial-content">
-                                                                            <div class="content">“ This cozy restaurant
+                                                                            <div class="content">“ This cozy
+                                                                                restaurant
                                                                                 has left the best impressions!
                                                                                 Hospitable hosts, delicious dishes,
                                                                                 beautiful presentation, wide wine list
@@ -2711,10 +2803,12 @@
                                                                             <div class="details">
                                                                                 <div
                                                                                     class="elementor-testimonial-image">
-                                                                                    <img width="390" height="300"
+                                                                                    <img width="390"
+                                                                                        height="300"
                                                                                         src="/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg"
                                                                                         class="attachment-full size-full"
-                                                                                        alt="" loading="lazy"
+                                                                                        alt=""
+                                                                                        loading="lazy"
                                                                                         sizes="(max-width: 390px) 100vw, 390px" />
                                                                                 </div>
                                                                                 <div class="details-info">
@@ -2731,7 +2825,8 @@
                                                                     <div class="inner">
 
                                                                         <div class="testimonial-content">
-                                                                            <div class="content">“ This cozy restaurant
+                                                                            <div class="content">“ This cozy
+                                                                                restaurant
                                                                                 has left the best impressions!
                                                                                 Hospitable hosts, delicious dishes,
                                                                                 beautiful presentation, wide wine list
@@ -2757,10 +2852,12 @@
                                                                             <div class="details">
                                                                                 <div
                                                                                     class="elementor-testimonial-image">
-                                                                                    <img width="390" height="300"
+                                                                                    <img width="390"
+                                                                                        height="300"
                                                                                         src="/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg"
                                                                                         class="attachment-full size-full"
-                                                                                        alt="" loading="lazy"
+                                                                                        alt=""
+                                                                                        loading="lazy"
                                                                                         srcset="/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg 390w, /delicioz/wp-content/uploads/2022/08/About_ourchef_01-300x231.jpg 300w"
                                                                                         sizes="(max-width: 390px) 100vw, 390px" />
                                                                                 </div>
@@ -2778,7 +2875,8 @@
                                                                     <div class="inner">
 
                                                                         <div class="testimonial-content">
-                                                                            <div class="content">“ This cozy restaurant
+                                                                            <div class="content">“ This cozy
+                                                                                restaurant
                                                                                 has left the best impressions!
                                                                                 Hospitable hosts, delicious dishes,
                                                                                 beautiful presentation, wide wine list
@@ -2804,10 +2902,12 @@
                                                                             <div class="details">
                                                                                 <div
                                                                                     class="elementor-testimonial-image">
-                                                                                    <img width="390" height="300"
+                                                                                    <img width="390"
+                                                                                        height="300"
                                                                                         src="/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg"
                                                                                         class="attachment-full size-full"
-                                                                                        alt="" loading="lazy"
+                                                                                        alt=""
+                                                                                        loading="lazy"
                                                                                         srcset="/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg 390w, /delicioz/wp-content/uploads/2022/08/About_ourchef_01-300x231.jpg 300w"
                                                                                         sizes="(max-width: 390px) 100vw, 390px" />
                                                                                 </div>
@@ -2873,7 +2973,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
                                 <div class="elementor-section elementor-top-section elementor-element elementor-element-05416e0 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                     data-id="05416e0" data-element_type="section"
                                     data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
@@ -2890,8 +2990,10 @@
                                                                 <div class="icon"><i aria-hidden="true"
                                                                         class="delicioz-icon- delicioz-icon-chef"></i>
                                                                 </div>
-                                                                <h3 class="elementor-image-box-title">Meet Our Chef</h3>
-                                                                <div class="elementor-image-box-sub-title">amazing team
+                                                                <h3 class="elementor-image-box-title">Meet Our Chef
+                                                                </h3>
+                                                                <div class="elementor-image-box-sub-title">amazing
+                                                                    team
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -2921,7 +3023,8 @@
                                                                             <div class="team-caption">
                                                                                 <div class="team-name">Lorenzo Morelli
                                                                                 </div>
-                                                                                <div class="team-job"> CEO &amp; FOUNDER
+                                                                                <div class="team-job"> CEO &amp;
+                                                                                    FOUNDER
                                                                                 </div>
                                                                                 <div class="description-text">Aenean
                                                                                     commodo ligula eget dolor. Aenean
@@ -2987,7 +3090,8 @@
                                                                             <div class="team-caption">
                                                                                 <div class="team-name">Wesley Brewer
                                                                                 </div>
-                                                                                <div class="team-job">MASTER CHEF</div>
+                                                                                <div class="team-job">MASTER CHEF
+                                                                                </div>
                                                                                 <div class="description-text">Lorem
                                                                                     ipsum dolor sit amet, consectetuer
                                                                                     adipiscing elit.
@@ -3051,10 +3155,13 @@
                                                                                     sizes="(max-width: 390px) 100vw, 390px" />
                                                                             </div>
                                                                             <div class="team-caption">
-                                                                                <div class="team-name">Aaliyah Williams
+                                                                                <div class="team-name">Aaliyah
+                                                                                    Williams
                                                                                 </div>
-                                                                                <div class="team-job">PASTRY CHEF</div>
-                                                                                <div class="description-text">Donec pede
+                                                                                <div class="team-job">PASTRY CHEF
+                                                                                </div>
+                                                                                <div class="description-text">Donec
+                                                                                    pede
                                                                                     justo, fringilla vel, aliquet nec,
                                                                                     vulputate eget.
                                                                                     In enim justo, rhoncus ut, imperdiet
@@ -3217,7 +3324,8 @@
                                                     <div class="elementor-widget-container">
                                                         <img width="360" height="420"
                                                             src="/delicioz/wp-content/uploads/2022/08/home3_img-9.jpg"
-                                                            class="attachment-full size-full" alt="" loading="lazy"
+                                                            class="attachment-full size-full" alt=""
+                                                            loading="lazy"
                                                             srcset="/delicioz/wp-content/uploads/2022/08/home3_img-9.jpg 360w, /delicioz/wp-content/uploads/2022/08/home3_img-9-257x300.jpg 257w"
                                                             sizes="(max-width: 360px) 100vw, 360px" />
                                                     </div>
@@ -3242,7 +3350,8 @@
                                                                 <div class="icon"><i aria-hidden="true"
                                                                         class="delicioz-icon- delicioz-icon-event-like"></i>
                                                                 </div>
-                                                                <h3 class="elementor-image-box-title">News & Events</h3>
+                                                                <h3 class="elementor-image-box-title">News & Events
+                                                                </h3>
                                                                 <div class="elementor-image-box-sub-title">Today
                                                                     Specials</div>
                                                             </div>
@@ -3254,7 +3363,8 @@
                                                     data-widget_type="delicioz-post-grid.default">
                                                     <div class="elementor-widget-container">
                                                         <div class="elementor-post-wrapper layout-post-style-3">
-                                                            <div class=" row" data-elementor-columns-widescreen="3"
+                                                            <div class=" row"
+                                                                data-elementor-columns-widescreen="3"
                                                                 data-elementor-columns="3"
                                                                 data-elementor-columns-laptop="3"
                                                                 data-elementor-columns-tablet-extra="3"
@@ -3262,32 +3372,37 @@
                                                                 data-elementor-columns-mobile-extra="2"
                                                                 data-elementor-columns-mobile="1">
                                                                 @foreach ($latestPromotions as $promotion)
-                                                                <div
-                                                                    class="column-item post-style-3 post-129 post type-post status-publish format-standard has-post-thumbnail hentry category-decoration category-healthy-food tag-desserts tag-recipes tag-style">
-                                                                    <div class="post-inner">
-                                                                        <div class="posted-on"><a
-                                                                                href="/promotion/{{ $promotion->slug }}"
-                                                                                rel="bookmark">{{ $promotion->created_at->format('d/m/Y') }}</a></div>
-                                                                        <div class="post-thumbnail"><img loading="lazy"
-                                                                                width="820" height="500"
-                                                                                src="{{ asset('storage/' . $promotion->banner) }}"
-                                                                                class="attachment-delicioz-post-grid size-delicioz-post-grid wp-post-image"
-                                                                                alt="" /></div>
-                                                                        <div class="entry-content">
-                                                                            <h3 class="entry-title"><a
+                                                                    <div
+                                                                        class="column-item post-style-3 post-129 post type-post status-publish format-standard has-post-thumbnail hentry category-decoration category-healthy-food tag-desserts tag-recipes tag-style">
+                                                                        <div class="post-inner">
+                                                                            <div class="posted-on"><a
                                                                                     href="/promotion/{{ $promotion->slug }}"
-                                                                                    rel="bookmark">{{ $promotion->title }}</a></h3>
-                                                                            <div class="excerpt-content">{{ Str::limit($promotion->description, 100) }}</div>
+                                                                                    rel="bookmark">{{ $promotion->created_at->format('d/m/Y') }}</a>
+                                                                            </div>
+                                                                            <div class="post-thumbnail"><img
+                                                                                    loading="lazy" width="820"
+                                                                                    height="500"
+                                                                                    src="{{ asset('storage/' . $promotion->banner) }}"
+                                                                                    class="attachment-delicioz-post-grid size-delicioz-post-grid wp-post-image"
+                                                                                    alt="" /></div>
+                                                                            <div class="entry-content">
+                                                                                <h3 class="entry-title"><a
+                                                                                        href="/promotion/{{ $promotion->slug }}"
+                                                                                        rel="bookmark">{{ $promotion->title }}</a>
+                                                                                </h3>
+                                                                                <div class="excerpt-content">
+                                                                                    {{ Str::limit($promotion->description, 100) }}
+                                                                                </div>
 
-                                                                            <div class="more-link-wrap">
-                                                                                <a class="more-link"
-                                                                                    href="/promotion/{{ $promotion->slug }}">
-                                                                                    <span>Read More</span>
-                                                                                </a>
+                                                                                <div class="more-link-wrap">
+                                                                                    <a class="more-link"
+                                                                                        href="/promotion/{{ $promotion->slug }}">
+                                                                                        <span>Read More</span>
+                                                                                    </a>
+                                                                                </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                </div>
                                                                 @endforeach
 
                                                             </div>
@@ -3351,18 +3466,21 @@
                 <div class="site-search ajax-search">
                     <div class="widget woocommerce widget_product_search">
                         <div class="ajax-search-result d-none"></div>
-                        <form role="search" method="get" class="woocommerce-product-search" action="/delicioz/">
+                        <form role="search" method="get" class="woocommerce-product-search"
+                            action="/delicioz/">
                             <label class="screen-reader-text" for="woocommerce-product-search-field-2">Search
                                 for:</label>
                             <input type="search" id="woocommerce-product-search-field-2" class="search-field"
-                                placeholder="Search products&hellip;" autocomplete="off" value="" name="s" />
+                                placeholder="Search products&hellip;" autocomplete="off" value=""
+                                name="s" />
                             <button type="submit" value="Search">Search</button>
                             <input type="hidden" name="post_type" value="product" />
                             <div class="search-by-category input-dropdown">
                                 <div class="input-dropdown-inner delicioz-scroll-content">
                                     <!--                    <input type="hidden" name="product_cat" value="0">-->
                                     <a href="#" data-val="0"><span>All category</span></a>
-                                    <select name='product_cat' id='product_cat1' class='dropdown_product_cat_ajax'>
+                                    <select name='product_cat' id='product_cat1'
+                                        class='dropdown_product_cat_ajax'>
                                         <option value='' selected='selected'>All category</option>
                                         <option class="level-0" value="accessories">Accessories</option>
                                         <option class="level-0" value="desserts">Desserts</option>
@@ -3390,8 +3508,8 @@
                                                     data-title="Food">Food</a>
                                             </li>
                                             <li class="cat-item cat-item-40"><a class="pf-value"
-                                                    href="/delicioz/product-category/humburger/" data-val="humburger"
-                                                    data-title="Humburger">Humburger</a>
+                                                    href="/delicioz/product-category/humburger/"
+                                                    data-val="humburger" data-title="Humburger">Humburger</a>
                                             </li>
                                             <li class="cat-item cat-item-39"><a class="pf-value"
                                                     href="/delicioz/product-category/recipes/" data-val="recipes"
@@ -3416,7 +3534,8 @@
             </div>
         </div>
         <div class="site-search-popup-overlay"></div>
-        <script>(function () {
+        <script>
+            (function() {
                 function maybePrefixUrlField() {
                     if (this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
                         this.value = "http://" + this.value;
@@ -3429,14 +3548,16 @@
                         urlFields[j].addEventListener('blur', maybePrefixUrlField);
                     }
                 }
-            })();</script>
+            })();
+        </script>
         <div class="woosc-popup woosc-search">
             <div class="woosc-popup-inner">
                 <div class="woosc-popup-content">
                     <div class="woosc-popup-content-inner">
                         <div class="woosc-popup-close"></div>
                         <div class="woosc-search-input">
-                            <input type="search" id="woosc_search_input" placeholder="Type any keyword to search..." />
+                            <input type="search" id="woosc_search_input"
+                                placeholder="Type any keyword to search..." />
                         </div>
                         <div class="woosc-search-result"></div>
                     </div>
@@ -3458,37 +3579,52 @@
                         </ul>
                         Select the fields to be shown. Others will be hidden. Drag and drop to rearrange the order. <ul
                             class="woosc-settings-fields">
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="image" checked /><span class="label">Image</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="sku" checked /><span class="label">SKU</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="rating" checked /><span class="label">Rating</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="price" checked /><span class="label">Price</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="stock" checked /><span class="label">Stock</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="availability" checked /><span class="label">Availability</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="add_to_cart" checked /><span class="label">Add to cart</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="description" checked /><span class="label">Description</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="content" checked /><span class="label">Content</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="weight" checked /><span class="label">Weight</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="dimensions" checked /><span class="label">Dimensions</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="additional" checked /><span class="label">Additional information</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="attributes" checked /><span class="label">Attributes</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="custom_attributes" checked /><span class="label">Custom attributes</span>
+                            <li class="woosc-settings-field-li"><input type="checkbox"
+                                    class="woosc-settings-field" value="image" checked /><span
+                                    class="label">Image</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox"
+                                    class="woosc-settings-field" value="sku" checked /><span
+                                    class="label">SKU</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox"
+                                    class="woosc-settings-field" value="rating" checked /><span
+                                    class="label">Rating</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox"
+                                    class="woosc-settings-field" value="price" checked /><span
+                                    class="label">Price</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox"
+                                    class="woosc-settings-field" value="stock" checked /><span
+                                    class="label">Stock</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox"
+                                    class="woosc-settings-field" value="availability" checked /><span
+                                    class="label">Availability</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox"
+                                    class="woosc-settings-field" value="add_to_cart" checked /><span
+                                    class="label">Add to cart</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox"
+                                    class="woosc-settings-field" value="description" checked /><span
+                                    class="label">Description</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox"
+                                    class="woosc-settings-field" value="content" checked /><span
+                                    class="label">Content</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox"
+                                    class="woosc-settings-field" value="weight" checked /><span
+                                    class="label">Weight</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox"
+                                    class="woosc-settings-field" value="dimensions" checked /><span
+                                    class="label">Dimensions</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox"
+                                    class="woosc-settings-field" value="additional" checked /><span
+                                    class="label">Additional information</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox"
+                                    class="woosc-settings-field" value="attributes" checked /><span
+                                    class="label">Attributes</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox"
+                                    class="woosc-settings-field" value="custom_attributes" checked /><span
+                                    class="label">Custom attributes</span>
                             </li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="custom_fields" checked /><span class="label">Custom fields</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox"
+                                    class="woosc-settings-field" value="custom_fields" checked /><span
+                                    class="label">Custom fields</span></li>
                         </ul>
                     </div>
                 </div>
@@ -3543,8 +3679,9 @@
                 </div>
             </div>
         </div>
-        <div id="woosw_wishlist" class="woosw-popup woosw-popup-center"></div><a href="#" class="scrollup"><span
-                class="scrollup-icon delicioz-icon-angle-up"></span><span class="scrollup-label">Top</span></a>
+        <div id="woosw_wishlist" class="woosw-popup woosw-popup-center"></div><a href="#"
+            class="scrollup"><span class="scrollup-icon delicioz-icon-angle-up"></span><span
+                class="scrollup-label">Top</span></a>
         <script type="text/html" id="tmpl-ajax-live-search-template">
 
         </script>
@@ -3554,14 +3691,26 @@
             rel="stylesheet" property="stylesheet" media="all" type="text/css">
 
         <script type="text/javascript">
-            (function () {
+            (function() {
                 var c = document.body.className;
                 c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
                 document.body.className = c;
             })();
         </script>
         <script>
-            if (typeof revslider_showDoubleJqueryError === "undefined") { function revslider_showDoubleJqueryError(sliderID) { console.log("You have some jquery.js library include that comes after the Slider Revolution files js inclusion."); console.log("To fix this, you can:"); console.log("1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on"); console.log("2. Find the double jQuery.js inclusion and remove it"); return "Double Included jQuery Library"; } }
+            if (typeof revslider_showDoubleJqueryError === "undefined") {
+                function revslider_showDoubleJqueryError(sliderID) {
+                    console.log(
+                        "You have some jquery.js library include that comes after the Slider Revolution files js inclusion."
+                        );
+                    console.log("To fix this, you can:");
+                    console.log(
+                        "1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on"
+                        );
+                    console.log("2. Find the double jQuery.js inclusion and remove it");
+                    return "Double Included jQuery Library";
+                }
+            }
         </script>
         <link rel='stylesheet' id='elementor-post-671-css'
             href='/delicioz/wp-content/uploads/elementor/css/post-671.css?ver=1661932588' media='all' />
@@ -3711,50 +3860,85 @@
                 -moz-osx-font-smoothing: grayscale
             }
         </style>
-        <script src='/delicioz/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9'
-            id='regenerator-runtime-js'></script>
+        <script src='/delicioz/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9' id='regenerator-runtime-js'>
+        </script>
         <script src='/delicioz/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
         <script id='contact-form-7-js-extra'>
-            var wpcf7 = { "api": { "root": "https:\/\/demo2.themelexus.com\/delicioz\/wp-json\/", "namespace": "contact-form-7\/v1" }, "cached": "1" };
+            var wpcf7 = {
+                "api": {
+                    "root": "https:\/\/demo2.themelexus.com\/delicioz\/wp-json\/",
+                    "namespace": "contact-form-7\/v1"
+                },
+                "cached": "1"
+            };
         </script>
-        <script src='/delicioz/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.6.2'
-            id='contact-form-7-js'></script>
+        <script src='/delicioz/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.6.2' id='contact-form-7-js'>
+        </script>
         <script src='/delicioz/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.5.18' defer async
             id='tp-tools-js'></script>
-        <script src='/delicioz/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.5.31' defer async
-            id='revmin-js'></script>
-        <script
-            src='/delicioz/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.6.8.2'
+        <script src='/delicioz/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.5.31' defer async id='revmin-js'>
+        </script>
+        <script src='/delicioz/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.6.8.2'
             id='jquery-blockui-js'></script>
         <script id='wc-add-to-cart-js-extra'>
-            var wc_add_to_cart_params = { "ajax_url": "\/delicioz\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/delicioz\/?wc-ajax=%%endpoint%%", "i18n_view_cart": "", "cart_url": "https:\/\/demo2.themelexus.com\/delicioz\/cart\/", "is_cart": "", "cart_redirect_after_add": "no" };
+            var wc_add_to_cart_params = {
+                "ajax_url": "\/delicioz\/wp-admin\/admin-ajax.php",
+                "wc_ajax_url": "\/delicioz\/?wc-ajax=%%endpoint%%",
+                "i18n_view_cart": "",
+                "cart_url": "https:\/\/demo2.themelexus.com\/delicioz\/cart\/",
+                "is_cart": "",
+                "cart_redirect_after_add": "no"
+            };
         </script>
         <script src='/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=6.8.2'
             id='wc-add-to-cart-js'></script>
         <script src='/delicioz/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.6.8.2'
             id='js-cookie-js'></script>
         <script id='woocommerce-js-extra'>
-            var woocommerce_params = { "ajax_url": "\/delicioz\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/delicioz\/?wc-ajax=%%endpoint%%" };
+            var woocommerce_params = {
+                "ajax_url": "\/delicioz\/wp-admin\/admin-ajax.php",
+                "wc_ajax_url": "\/delicioz\/?wc-ajax=%%endpoint%%"
+            };
         </script>
         <script src='/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=6.8.2'
             id='woocommerce-js'></script>
         <script id='wc-cart-fragments-js-extra'>
-            var wc_cart_fragments_params = { "ajax_url": "\/delicioz\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/delicioz\/?wc-ajax=%%endpoint%%", "cart_hash_key": "wc_cart_hash_fb254261fa3641bff9c309f0d976a3b1", "fragment_name": "wc_fragments_fb254261fa3641bff9c309f0d976a3b1", "request_timeout": "5000" };
+            var wc_cart_fragments_params = {
+                "ajax_url": "\/delicioz\/wp-admin\/admin-ajax.php",
+                "wc_ajax_url": "\/delicioz\/?wc-ajax=%%endpoint%%",
+                "cart_hash_key": "wc_cart_hash_fb254261fa3641bff9c309f0d976a3b1",
+                "fragment_name": "wc_fragments_fb254261fa3641bff9c309f0d976a3b1",
+                "request_timeout": "5000"
+            };
         </script>
         <script src='/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=6.8.2'
             id='wc-cart-fragments-js'></script>
         <script src='/delicioz/wp-includes/js/underscore.min.js?ver=1.13.3' id='underscore-js'></script>
         <script id='wp-util-js-extra'>
-            var _wpUtilSettings = { "ajax": { "url": "\/delicioz\/wp-admin\/admin-ajax.php" } };
+            var _wpUtilSettings = {
+                "ajax": {
+                    "url": "\/delicioz\/wp-admin\/admin-ajax.php"
+                }
+            };
         </script>
         <script src='/delicioz/wp-includes/js/wp-util.min.js?ver=6.0.2' id='wp-util-js'></script>
         <script id='woo-variation-swatches-js-extra'>
-            var woo_variation_swatches_options = { "show_variation_label": "1", "clear_on_reselect": "", "variation_label_separator": ":", "is_mobile": "", "show_variation_stock": "", "stock_label_threshold": "5", "cart_redirect_after_add": "no", "enable_ajax_add_to_cart": "yes", "cart_url": "https:\/\/demo2.themelexus.com\/delicioz\/cart\/", "is_cart": "" };
+            var woo_variation_swatches_options = {
+                "show_variation_label": "1",
+                "clear_on_reselect": "",
+                "variation_label_separator": ":",
+                "is_mobile": "",
+                "show_variation_stock": "",
+                "stock_label_threshold": "5",
+                "cart_redirect_after_add": "no",
+                "enable_ajax_add_to_cart": "yes",
+                "cart_url": "https:\/\/demo2.themelexus.com\/delicioz\/cart\/",
+                "is_cart": ""
+            };
         </script>
         <script src='/delicioz/wp-content/plugins/woo-variation-swatches/assets/js/frontend.min.js?ver=1660386322'
             id='woo-variation-swatches-js'></script>
-        <script
-            src='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/table-head-fixer/table-head-fixer.js?ver=5.1.5'
+        <script src='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/table-head-fixer/table-head-fixer.js?ver=5.1.5'
             id='table-head-fixer-js'></script>
         <script
             src='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js?ver=5.1.5'
@@ -3763,12 +3947,46 @@
         <script src='/delicioz/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.1' id='jquery-ui-mouse-js'></script>
         <script src='/delicioz/wp-includes/js/jquery/ui/sortable.min.js?ver=1.13.1' id='jquery-ui-sortable-js'></script>
         <script id='woosc-frontend-js-extra'>
-            var woosc_vars = { "ajax_url": "https:\/\/demo2.themelexus.com\/delicioz\/wp-admin\/admin-ajax.php", "user_id": "5aa4ef0c5f6af53f117a6e44ea55d787", "page_url": "#", "open_button": "", "open_button_action": "open_popup", "menu_action": "open_popup", "button_action": "show_table", "sidebar_position": "right", "message_position": "right-top", "message_added": "{name} has been added to Compare list.", "message_removed": "{name} has been removed from the Compare list.", "message_exists": "{name} is already in the Compare list.", "open_bar": "", "bar_bubble": "no", "adding": "prepend", "click_again": "no", "hide_empty": "no", "click_outside": "yes", "freeze_column": "yes", "freeze_row": "yes", "scrollbar": "yes", "limit": "100", "button_text_change": "yes", "remove_all": "Do you want to remove all products from the compare?", "limit_notice": "You can add a maximum of {limit} products to the compare table.", "copied_text": "Share link %s was copied to clipboard!", "button_text": "Compare", "button_text_added": "Compare" };
+            var woosc_vars = {
+                "ajax_url": "https:\/\/demo2.themelexus.com\/delicioz\/wp-admin\/admin-ajax.php",
+                "user_id": "5aa4ef0c5f6af53f117a6e44ea55d787",
+                "page_url": "#",
+                "open_button": "",
+                "open_button_action": "open_popup",
+                "menu_action": "open_popup",
+                "button_action": "show_table",
+                "sidebar_position": "right",
+                "message_position": "right-top",
+                "message_added": "{name} has been added to Compare list.",
+                "message_removed": "{name} has been removed from the Compare list.",
+                "message_exists": "{name} is already in the Compare list.",
+                "open_bar": "",
+                "bar_bubble": "no",
+                "adding": "prepend",
+                "click_again": "no",
+                "hide_empty": "no",
+                "click_outside": "yes",
+                "freeze_column": "yes",
+                "freeze_row": "yes",
+                "scrollbar": "yes",
+                "limit": "100",
+                "button_text_change": "yes",
+                "remove_all": "Do you want to remove all products from the compare?",
+                "limit_notice": "You can add a maximum of {limit} products to the compare table.",
+                "copied_text": "Share link %s was copied to clipboard!",
+                "button_text": "Compare",
+                "button_text_added": "Compare"
+            };
         </script>
-        <script src='/delicioz/wp-content/plugins/woo-smart-compare/assets/js/frontend.js?ver=5.1.5'
-            id='woosc-frontend-js'></script>
+        <script src='/delicioz/wp-content/plugins/woo-smart-compare/assets/js/frontend.js?ver=5.1.5' id='woosc-frontend-js'>
+        </script>
         <script id='wc-add-to-cart-variation-js-extra'>
-            var wc_add_to_cart_variation_params = { "wc_ajax_url": "\/delicioz\/?wc-ajax=%%endpoint%%", "i18n_no_matching_variations_text": "Sorry, no products matched your selection. Please choose a different combination.", "i18n_make_a_selection_text": "Please select some product options before adding this product to your cart.", "i18n_unavailable_text": "Sorry, this product is unavailable. Please choose a different combination." };
+            var wc_add_to_cart_variation_params = {
+                "wc_ajax_url": "\/delicioz\/?wc-ajax=%%endpoint%%",
+                "i18n_no_matching_variations_text": "Sorry, no products matched your selection. Please choose a different combination.",
+                "i18n_make_a_selection_text": "Please select some product options before adding this product to your cart.",
+                "i18n_unavailable_text": "Sorry, this product is unavailable. Please choose a different combination."
+            };
         </script>
         <script src='/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=6.8.2'
             id='wc-add-to-cart-variation-js'></script>
@@ -3776,20 +3994,50 @@
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/jquery.magnific-popup.min.js?ver=1.0.1'
             id='magnific-popup-js'></script>
         <script id='woosq-frontend-js-extra'>
-            var woosq_vars = { "ajax_url": "https:\/\/demo2.themelexus.com\/delicioz\/wp-admin\/admin-ajax.php", "view": "popup", "effect": "mfp-3d-unfold", "scrollbar": "yes", "hashchange": "no", "cart_redirect": "no", "cart_url": "https:\/\/demo2.themelexus.com\/delicioz\/cart\/", "close": "Close (Esc)", "next": "Next (Right arrow key)", "prev": "Previous (Left arrow key)", "thumbnails_effect": "no", "related_slick_params": "{\"slidesToShow\":2,\"slidesToScroll\":2,\"dots\":true,\"arrows\":false,\"adaptiveHeight\":true,\"rtl\":false}", "thumbnails_slick_params": "{\"slidesToShow\":1,\"slidesToScroll\":1,\"dots\":true,\"arrows\":true,\"adaptiveHeight\":false,\"rtl\":false}", "thumbnails_zoom_params": "{\"duration\":120,\"magnify\":1}" };
+            var woosq_vars = {
+                "ajax_url": "https:\/\/demo2.themelexus.com\/delicioz\/wp-admin\/admin-ajax.php",
+                "view": "popup",
+                "effect": "mfp-3d-unfold",
+                "scrollbar": "yes",
+                "hashchange": "no",
+                "cart_redirect": "no",
+                "cart_url": "https:\/\/demo2.themelexus.com\/delicioz\/cart\/",
+                "close": "Close (Esc)",
+                "next": "Next (Right arrow key)",
+                "prev": "Previous (Left arrow key)",
+                "thumbnails_effect": "no",
+                "related_slick_params": "{\"slidesToShow\":2,\"slidesToScroll\":2,\"dots\":true,\"arrows\":false,\"adaptiveHeight\":true,\"rtl\":false}",
+                "thumbnails_slick_params": "{\"slidesToShow\":1,\"slidesToScroll\":1,\"dots\":true,\"arrows\":true,\"adaptiveHeight\":false,\"rtl\":false}",
+                "thumbnails_zoom_params": "{\"duration\":120,\"magnify\":1}"
+            };
         </script>
-        <script src='/delicioz/wp-content/plugins/woo-smart-quick-view/assets/js/frontend.js?ver=3.1.2'
-            id='woosq-frontend-js'></script>
+        <script src='/delicioz/wp-content/plugins/woo-smart-quick-view/assets/js/frontend.js?ver=3.1.2' id='woosq-frontend-js'>
+        </script>
         <script id='woosw-frontend-js-extra'>
-            var woosw_vars = { "ajax_url": "https:\/\/demo2.themelexus.com\/delicioz\/wp-admin\/admin-ajax.php", "menu_action": "open_page", "perfect_scrollbar": "yes", "wishlist_url": "https:\/\/demo2.themelexus.com\/delicioz\/wishlist\/", "button_action": "list", "message_position": "right-top", "button_action_added": "popup", "empty_confirm": "This action cannot be undone. Are you sure?", "delete_confirm": "This action cannot be undone. Are you sure?", "copied_text": "Copied the wishlist link:", "menu_text": "Wishlist", "button_text": "Add to wishlist", "button_text_added": "Browse wishlist" };
+            var woosw_vars = {
+                "ajax_url": "https:\/\/demo2.themelexus.com\/delicioz\/wp-admin\/admin-ajax.php",
+                "menu_action": "open_page",
+                "perfect_scrollbar": "yes",
+                "wishlist_url": "https:\/\/demo2.themelexus.com\/delicioz\/wishlist\/",
+                "button_action": "list",
+                "message_position": "right-top",
+                "button_action_added": "popup",
+                "empty_confirm": "This action cannot be undone. Are you sure?",
+                "delete_confirm": "This action cannot be undone. Are you sure?",
+                "copied_text": "Copied the wishlist link:",
+                "menu_text": "Wishlist",
+                "button_text": "Add to wishlist",
+                "button_text_added": "Browse wishlist"
+            };
         </script>
-        <script src='/delicioz/wp-content/plugins/woo-smart-wishlist/assets/js/frontend.js?ver=4.3.1'
-            id='woosw-frontend-js'></script>
+        <script src='/delicioz/wp-content/plugins/woo-smart-wishlist/assets/js/frontend.js?ver=4.3.1' id='woosw-frontend-js'>
+        </script>
         <script id='delicioz-theme-js-extra'>
-            var deliciozAjax = { "ajaxurl": "https:\/\/demo2.themelexus.com\/delicioz\/wp-admin\/admin-ajax.php" };
+            var deliciozAjax = {
+                "ajaxurl": "https:\/\/demo2.themelexus.com\/delicioz\/wp-admin\/admin-ajax.php"
+            };
         </script>
-        <script src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/main.js?ver=1.0.1'
-            id='delicioz-theme-js'></script>
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/main.js?ver=1.0.1' id='delicioz-theme-js'></script>
         <script src='/delicioz/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/search-popup.js?ver=1.0.1'
             id='delicioz-search-popup-js'></script>
@@ -3801,8 +4049,8 @@
             id='delicioz-megamenu-frontend-js'></script>
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/header-cart.min.js?ver=1.0.1'
             id='delicioz-header-cart-js'></script>
-        <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/tooltipster.bundle.js?ver=1.0.1'
-            id='tooltipster-js'></script>
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/tooltipster.bundle.js?ver=1.0.1' id='tooltipster-js'>
+        </script>
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/product-ajax-search.min.js?ver=1.0.1'
             id='delicioz-products-ajax-search-js'></script>
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/main.min.js?ver=1.0.1'
@@ -3820,33 +4068,149 @@
         <script src='/delicioz/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2'
             id='elementor-waypoints-js'></script>
         <script id='elementor-frontend-js-before'>
-            var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Extra", "value": 880, "default_value": 880, "direction": "max", "is_enabled": true }, "tablet": { "label": "Tablet", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Extra", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": true }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": true }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.7.3", "is_static": false, "experimentalFeatures": { "e_dom_optimization": true, "e_optimized_assets_loading": true, "e_optimized_css_loading": true, "a11y_improvements": true, "additional_custom_breakpoints": true, "e_import_export": true, "e_hidden_wordpress_widgets": true, "landing-pages": true, "elements-color-picker": true, "favorite-widgets": true, "admin-top-bar": true }, "urls": { "assets": "https:\/\/demo2.themelexus.com\/delicioz\/wp-content\/plugins\/elementor\/assets\/" }, "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_mobile_extra", "viewport_tablet", "viewport_tablet_extra", "viewport_laptop"], "body_background_background": "classic", "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 24, "title": "Home%203%20%E2%80%93%20Delicioz", "excerpt": "", "featuredImage": false }, "user": { "roles": ["customer"] } };
+            var elementorFrontendConfig = {
+                "environmentMode": {
+                    "edit": false,
+                    "wpPreview": false,
+                    "isScriptDebug": false
+                },
+                "i18n": {
+                    "shareOnFacebook": "Share on Facebook",
+                    "shareOnTwitter": "Share on Twitter",
+                    "pinIt": "Pin it",
+                    "download": "Download",
+                    "downloadImage": "Download image",
+                    "fullscreen": "Fullscreen",
+                    "zoom": "Zoom",
+                    "share": "Share",
+                    "playVideo": "Play Video",
+                    "previous": "Previous",
+                    "next": "Next",
+                    "close": "Close"
+                },
+                "is_rtl": false,
+                "breakpoints": {
+                    "xs": 0,
+                    "sm": 480,
+                    "md": 768,
+                    "lg": 1025,
+                    "xl": 1440,
+                    "xxl": 1600
+                },
+                "responsive": {
+                    "breakpoints": {
+                        "mobile": {
+                            "label": "Mobile",
+                            "value": 767,
+                            "default_value": 767,
+                            "direction": "max",
+                            "is_enabled": true
+                        },
+                        "mobile_extra": {
+                            "label": "Mobile Extra",
+                            "value": 880,
+                            "default_value": 880,
+                            "direction": "max",
+                            "is_enabled": true
+                        },
+                        "tablet": {
+                            "label": "Tablet",
+                            "value": 1024,
+                            "default_value": 1024,
+                            "direction": "max",
+                            "is_enabled": true
+                        },
+                        "tablet_extra": {
+                            "label": "Tablet Extra",
+                            "value": 1200,
+                            "default_value": 1200,
+                            "direction": "max",
+                            "is_enabled": true
+                        },
+                        "laptop": {
+                            "label": "Laptop",
+                            "value": 1366,
+                            "default_value": 1366,
+                            "direction": "max",
+                            "is_enabled": true
+                        },
+                        "widescreen": {
+                            "label": "Widescreen",
+                            "value": 2400,
+                            "default_value": 2400,
+                            "direction": "min",
+                            "is_enabled": false
+                        }
+                    }
+                },
+                "version": "3.7.3",
+                "is_static": false,
+                "experimentalFeatures": {
+                    "e_dom_optimization": true,
+                    "e_optimized_assets_loading": true,
+                    "e_optimized_css_loading": true,
+                    "a11y_improvements": true,
+                    "additional_custom_breakpoints": true,
+                    "e_import_export": true,
+                    "e_hidden_wordpress_widgets": true,
+                    "landing-pages": true,
+                    "elements-color-picker": true,
+                    "favorite-widgets": true,
+                    "admin-top-bar": true
+                },
+                "urls": {
+                    "assets": "https:\/\/demo2.themelexus.com\/delicioz\/wp-content\/plugins\/elementor\/assets\/"
+                },
+                "settings": {
+                    "page": [],
+                    "editorPreferences": []
+                },
+                "kit": {
+                    "active_breakpoints": ["viewport_mobile", "viewport_mobile_extra", "viewport_tablet",
+                        "viewport_tablet_extra", "viewport_laptop"
+                    ],
+                    "body_background_background": "classic",
+                    "global_image_lightbox": "yes",
+                    "lightbox_enable_counter": "yes",
+                    "lightbox_enable_fullscreen": "yes",
+                    "lightbox_enable_zoom": "yes",
+                    "lightbox_enable_share": "yes",
+                    "lightbox_title_src": "title",
+                    "lightbox_description_src": "description"
+                },
+                "post": {
+                    "id": 24,
+                    "title": "Home%203%20%E2%80%93%20Delicioz",
+                    "excerpt": "",
+                    "featuredImage": false
+                },
+                "user": {
+                    "roles": ["customer"]
+                }
+            };
         </script>
-        <script src='/delicioz/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.7.3'
-            id='elementor-frontend-js'></script>
+        <script src='/delicioz/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.7.3' id='elementor-frontend-js'>
+        </script>
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/elementor/reservation-form.js?ver=1.0.1'
             id='delicioz-elementor-reservation-form-js'></script>
-        <script src='/delicioz/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.1'
-            id='jquery-ui-datepicker-js'></script>
+        <script src='/delicioz/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.1' id='jquery-ui-datepicker-js'></script>
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/elementor/menu-list.js?ver=1.0.1'
             id='delicioz-elementor-menu-list-js'></script>
-        <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/TweenMax.min.js?ver=1.11.1'
-            id='tweenmax-js'></script>
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/TweenMax.min.js?ver=1.11.1' id='tweenmax-js'></script>
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/elementor/testimonial.js?ver=1.0.1'
             id='delicioz-elementor-testimonial-js'></script>
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/elementor/posts-grid.js?ver=1.0.1'
             id='delicioz-elementor-posts-grid-js'></script>
-        <script
-            src='/delicioz/wp-content/plugins/make-column-clickable-elementor/assets/js/make-column-clickable.js?ver=1.4.0'
+        <script src='/delicioz/wp-content/plugins/make-column-clickable-elementor/assets/js/make-column-clickable.js?ver=1.4.0'
             id='make-column-clickable-elementor-js'></script>
-        <script defer src='/delicioz/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.8.8'
-            id='mc4wp-forms-api-js'></script>
+        <script defer src='/delicioz/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.8.8' id='mc4wp-forms-api-js'>
+        </script>
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/elementor-frontend.js?ver=1.0.1'
             id='delicioz-elementor-frontend-js'></script>
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/jquery.sticky.js?ver=1.0.1'
             id='elementor-sticky-js'></script>
-        <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/sticky.js?ver=1.0.1'
-            id='delicioz-elementor-sticky-js'></script>
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/sticky.js?ver=1.0.1' id='delicioz-elementor-sticky-js'>
+        </script>
         <script id="rs-initialisation-scripts">
             var tpj = jQuery;
 
@@ -3855,11 +4219,22 @@
             if (window.RS_MODULES === undefined) window.RS_MODULES = {};
             if (RS_MODULES.modules === undefined) RS_MODULES.modules = {};
             RS_MODULES.modules["revslider21"] = {
-                once: RS_MODULES.modules["revslider21"] !== undefined ? RS_MODULES.modules["revslider21"].once : undefined, init: function () {
-                    window.revapi2 = window.revapi2 === undefined || window.revapi2 === null || window.revapi2.length === 0 ? document.getElementById("rev_slider_2_1") : window.revapi2;
-                    if (window.revapi2 === null || window.revapi2 === undefined || window.revapi2.length == 0) { window.revapi2initTry = window.revapi2initTry === undefined ? 0 : window.revapi2initTry + 1; if (window.revapi2initTry < 20) requestAnimationFrame(function () { RS_MODULES.modules["revslider21"].init() }); return; }
+                once: RS_MODULES.modules["revslider21"] !== undefined ? RS_MODULES.modules["revslider21"].once : undefined,
+                init: function() {
+                    window.revapi2 = window.revapi2 === undefined || window.revapi2 === null || window.revapi2
+                        .length === 0 ? document.getElementById("rev_slider_2_1") : window.revapi2;
+                    if (window.revapi2 === null || window.revapi2 === undefined || window.revapi2.length == 0) {
+                        window.revapi2initTry = window.revapi2initTry === undefined ? 0 : window.revapi2initTry + 1;
+                        if (window.revapi2initTry < 20) requestAnimationFrame(function() {
+                            RS_MODULES.modules["revslider21"].init()
+                        });
+                        return;
+                    }
                     window.revapi2 = jQuery(window.revapi2);
-                    if (window.revapi2.revolution == undefined) { revslider_showDoubleJqueryError("rev_slider_2_1"); return; }
+                    if (window.revapi2.revolution == undefined) {
+                        revslider_showDoubleJqueryError("rev_slider_2_1");
+                        return;
+                    }
                     revapi2.revolutionInit({
                         revapi: "revapi2",
                         DPR: "dpr",
@@ -3873,7 +4248,9 @@
                         keepBPHeight: true,
                         editorheight: "800,700,600,500",
                         responsiveLevels: "1240,1024,778,480",
-                        progressBar: { disableProgressBar: true },
+                        progressBar: {
+                            disableProgressBar: true
+                        },
                         navigation: {
                             wheelCallDelay: 1000,
                             onHoverStop: false,
@@ -3898,7 +4275,9 @@
                 }
             } // End of RevInitScript
 
-            if (window.RS_MODULES.checkMinimal !== undefined) { window.RS_MODULES.checkMinimal(); };
+            if (window.RS_MODULES.checkMinimal !== undefined) {
+                window.RS_MODULES.checkMinimal();
+            };
         </script>
     </body>
 

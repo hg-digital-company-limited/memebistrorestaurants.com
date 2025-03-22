@@ -12,7 +12,7 @@ class Home extends Component
 
     public function mount()
     {
-        $this->topDishes = Dish::orderBy('sold_quantity', 'desc')->limit(4)->get();
+        $this->topDishes = Dish::orderBy('sold_quantity', 'desc')->limit(12)->get();
         $this->latestPromotions = Promotion::orderBy('created_at', 'desc')->limit(5)->get();
     }
 
