@@ -1249,7 +1249,7 @@
                                                             <th class="woocommerce-table__product-name product-name">
                                                                 Mã</th>
                                                             <th class="woocommerce-table__product-name product-name">
-                                                                Nhà hàng</th>
+                                                                Cơ sở</th>
                                                             <th class="woocommerce-table__product-name product-name">
                                                                 Số người</th>
                                                             <th class="woocommerce-table__product-name product-name">

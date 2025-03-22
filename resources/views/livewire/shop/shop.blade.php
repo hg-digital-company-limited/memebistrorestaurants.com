@@ -33,18 +33,21 @@
                                     <div class="product-caption">
                                         <h3 class="woocommerce-loop-product__title"><a
                                                 href="/product/{{ $dish->slug }}">{{ $dish->name }}</a></h3>
-                                        <div class="count-review">
+                                        {{-- <div class="count-review">
                                             <div class="star-rating" role="img" aria-label="Rated 4.75 out of 5"><span
                                                     style="width:95%">Rated
                                                     <strong class="rating">4.75</strong> out of 5</span></div>
                                             <span></span>
-                                        </div>
+                                        </div> --}}
                                         <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span
                                                         class="woocommerce-Price-currencySymbol"></span>{{ number_format($dish->price, 0, ',', '.') }}
                                                     VNĐ</bdi></span></span>
-                                        <div class="product-caption-bottom"><a
+                                        <div class="product-caption-bottom">
+
+                                            <a
                                                 class="button product_type_simple add_to_cart_button ajax_add_to_cart"
-                                                wire:click="addToCart({{ $dish->id }})">Mua Ngay</a></div>
+                                                wire:click="addToCart({{ $dish->id }})">Mua Ngay</a>
+                                        </div>
                                     </div>
                                 </div>
                             </li>
@@ -130,12 +133,12 @@
                                 <div class="product-content">
                                     <h3 class="woocommerce-loop-product__title"><a
                                             href="/product/{{ $dish->slug }}">{{ $dish->name }}</a></h3>
-                                    <div class="count-review">
+                                    {{-- <div class="count-review">
                                         <div class="star-rating" role="img" aria-label="Rated 4.50 out of 5"><span
                                                 style="width:90%">Rated
                                                 <strong class="rating">4.50</strong> out of 5</span></div>
                                         <span></span>
-                                    </div>
+                                    </div> --}}
                                     <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span
                                                     class="woocommerce-Price-currencySymbol"></span>{{ number_format($dish->price, 0, ',', '.') }}
                                                     VNĐ</bdi></span></span>

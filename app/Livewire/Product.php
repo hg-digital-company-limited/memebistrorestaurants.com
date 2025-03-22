@@ -27,6 +27,11 @@ class Product extends Component
     {
         $this->quantity++;
     }
+    public function addToCart_related($id)
+    {
+        CartManagement::addItemToCart($id, 1);
+        return redirect('/cart');
+    }
     public function decrementQuantity()
     {
         $this->quantity--;

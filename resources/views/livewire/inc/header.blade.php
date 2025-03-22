@@ -110,7 +110,7 @@
                                         <div class="site-header-cart menu">
                                             <a class="cart-contents" href="/cart/"
                                                 title="View your shopping cart">
-                                                <span class="count">0</span>
+                                                <span class="count">{{App\Helpers\CartManagement::countCart()}}</span>
                                                 <span class="woocommerce-Price-amount amount"><bdi><span
                                                             class="woocommerce-Price-currencySymbol">&#36;</span>0.00</bdi></span>
                                             </a>

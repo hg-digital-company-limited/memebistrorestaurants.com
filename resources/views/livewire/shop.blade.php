@@ -2,22 +2,7 @@
 
 
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-        <link rel="profile" href="//gmpg.org/xfn/11">
-        <title>Products &#8211; Delicioz</title>
-        <meta name='robots' content='max-image-preview:large' />
-        <link rel="dns-prefetch" href="//fonts.googleapis.com">
-        <link rel="dns-prefetch" href="//s.w.org">
-        <link rel='dns-prefetch' href='//demo2.themelexus.com' />
-        <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-        <link rel='dns-prefetch' href='//s.w.org' />
-        <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Feed"
-            href="/delicioz/feed/" />
-        <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Comments Feed"
-            href="/delicioz/comments/feed/" />
-        <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Products Feed"
-            href="/delicioz/shop/feed/" />
+        <title>Danh sách thực đơn</title>
         <script>
             window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/demo2.themelexus.com\/delicioz\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.2" } };
             /*! This file is auto-generated */
@@ -1231,10 +1216,10 @@
                                         data-id="901b06e" data-element_type="widget"
                                         data-widget_type="woocommerce-breadcrumb.default">
                                         <div class="elementor-widget-container">
-                                            <div class="delicioz-woocommerce-title">Shop</div>
+                                            <div class="delicioz-woocommerce-title">Danh sách thực đơn</div>
                                             <nav class="woocommerce-breadcrumb"><a
-                                                    href="/">Home Page</a><i
-                                                    class="delicioz-icon-arrow-right-s-line"></i>Shop</nav>
+                                                    href="/">Trang chủ</a><i
+                                                    class="delicioz-icon-arrow-right-s-line"></i>Danh sách thực đơn   </nav>
                                         </div>
                                     </div>
                                 </div>

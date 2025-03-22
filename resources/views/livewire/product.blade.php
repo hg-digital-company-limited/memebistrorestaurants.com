@@ -1350,11 +1350,6 @@
                                             <span class="inventory_status"><span
                                                     class="stock-title screen-reader-text">Availability:</span> In
                                                 Stock</span>
-                                            <div class="woocommerce-product-details__short-description">
-                                                <p>Nisi et unde cupiditate nemo. Ea est non consequuntur omnis ut ut. In
-                                                    illum velit quo. Harum enim ex nam.</p>
-                                            </div>
-
 
                                             <form class="cart" wire:submit.prevent="addToCart">
 
@@ -1375,7 +1370,8 @@
                                                 </div>
 
                                                 <button type="submit" name="add-to-cart" value="474"
-                                                    class="single_add_to_cart_button button alt">Add to cart</button>
+                                                    class="single_add_to_cart_button button alt">Thêm vào giỏ
+                                                    hàng</button>
 
                                             </form>
 
@@ -1383,7 +1379,7 @@
                                             <div class="product_meta">
 
 
-                                                <span class="posted_in">Categories: <a
+                                                <span class="posted_in">Danh mục: <a
                                                         href="/shop?category={{ $product->food_category->id }}"
                                                         rel="tag">{{ $product->food_category->name }}</a></span>
 
@@ -1458,7 +1454,7 @@
 
                                 <section class="related products">
 
-                                    <h2>Related products</h2>
+                                    <h2>Sản phẩm liên quan</h2>
                                     <div class="woocommerce delicioz-theme-carousel"
                                         data-settings="{&quot;navigation&quot;:&quot;dots&quot;,&quot;items&quot;:4,&quot;items_laptop&quot;:&quot;2&quot;,&quot;items_tablet_extra&quot;:false,&quot;items_tablet&quot;:false,&quot;items_mobile_extra&quot;:false,&quot;items_mobile&quot;:&quot;2&quot;}">
                                         <div class="delicioz-products-spacing ">
@@ -1483,26 +1479,22 @@
                                                                 <h3 class="woocommerce-loop-product__title"><a
                                                                         href="/product/{{ $related_product->slug }}">{{ $related_product->name }}</a>
                                                                 </h3>
-                                                                <div class="count-review">
+                                                                {{-- <div class="count-review">
                                                                     <div class="star-rating" role="img"
                                                                         aria-label="Rated 4.00 out of 5"><span
                                                                             style="width:80%">Rated <strong
                                                                                 class="rating">4.00</strong> out of
                                                                             5</span>
                                                                     </div><span></span>
-                                                                </div>
+                                                                </div> --}}
                                                                 <span class="price"><span
                                                                         class="woocommerce-Price-amount amount"><bdi><span
                                                                                 class="woocommerce-Price-currencySymbol"></span>{{ number_format($related_product->price, 0, ',', '.') }}
                                                                             VNĐ</bdi></span></span>
                                                                 <div class="product-caption-bottom"><a
-                                                                        href="?add-to-cart={{ $related_product->id }}"
-                                                                        data-quantity="1"
                                                                         class="button product_type_simple add_to_cart_button ajax_add_to_cart"
-                                                                        data-product_id="{{ $related_product->id }}"
-                                                                        data-product_sku="{{ $related_product->id }}"
-                                                                        aria-label="Add &ldquo;{{ $related_product->name }}&rdquo; to your cart"
-                                                                        rel="nofollow">Add to cart</a></div>
+                                                                        wire:click="addToCart_related({{ $related_product->id }})">Thêm
+                                                                        vào giỏ hàng</a></div>
                                                             </div>
                                                         </div>
                                                     </li>
@@ -1533,18 +1525,20 @@
                             class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""
                             loading="lazy" sizes="(max-width: 300px) 100vw, 300px" />
                         <div class="delicioz-sticky-add-to-cart__content-product-info">
-                            <span class="delicioz-sticky-add-to-cart__content-title">You&#039;re viewing:
-                                <strong>Grilled Salmon</strong></span>
+                            <span class="delicioz-sticky-add-to-cart__content-title">Bạn đang xem:
+                                <strong>{{ $product->name }}</strong></span>
                             <span class="delicioz-sticky-add-to-cart__content-price"><del aria-hidden="true"><span
                                         class="woocommerce-Price-amount amount"><bdi><span
-                                                class="woocommerce-Price-currencySymbol">&#36;</span>69.95</bdi></span></del>
+                                                class="woocommerce-Price-currencySymbol"></span>{{ number_format($product->price, 0, ',', '.') }}
+                                            VNĐ</bdi></span></del>
                                 <ins><span class="woocommerce-Price-amount amount"><bdi><span
-                                                class="woocommerce-Price-currencySymbol">&#36;</span>49.95</bdi></span></ins></span>
-                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5"><span
-                                    style="width:80%">Rated <strong class="rating">4.00</strong> out of 5</span></div>
+                                                class="woocommerce-Price-currencySymbol"></span>{{ number_format($product->price, 0, ',', '.') }}
+                                            VNĐ</bdi></span></ins></span>
+                            {{-- <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5"><span
+                                    style="width:80%">Rated <strong class="rating">4.00</strong> out of 5</span></div> --}}
                         </div>
-                        <a href="?add-to-cart=474" class="delicioz-sticky-add-to-cart__content-button button alt">
-                            Add to cart </a>
+                        <a wire:click="addToCart" class="delicioz-sticky-add-to-cart__content-button button alt">
+                            Thêm vào giỏ hàng </a>
                     </div>
                 </div>
             </section><!-- .delicioz-sticky-add-to-cart -->

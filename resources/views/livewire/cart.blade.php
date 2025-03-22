@@ -2,20 +2,13 @@
 
 
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-        <link rel="profile" href="//gmpg.org/xfn/11">
-        <title>Cart &#8211; Delicioz</title>
+        <title>Giỏ hàng</title>
         <meta name='robots' content='max-image-preview:large, noindex, follow' />
         <link rel="dns-prefetch" href="//fonts.googleapis.com">
         <link rel="dns-prefetch" href="//s.w.org">
         <link rel='dns-prefetch' href='//demo2.themelexus.com' />
         <link rel='dns-prefetch' href='//fonts.googleapis.com' />
         <link rel='dns-prefetch' href='//s.w.org' />
-        <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Feed"
-            href="/delicioz/feed/" />
-        <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Comments Feed"
-            href="/delicioz/comments/feed/" />
         <script>
             window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/demo2.themelexus.com\/delicioz\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.2" } };
             /*! This file is auto-generated */
@@ -1021,21 +1014,6 @@
         <script
             src='/delicioz/wp-content/themes/delicioz/assets/js/libs/jarallax.js?ver=6.0.2'
             id='jarallax-js'></script>
-        <link rel="https://api.w.org/" href="/delicioz/wp-json/" />
-        <link rel="alternate" type="application/json"
-            href="/delicioz/wp-json/wp/v2/pages/10" />
-        <link rel="EditURI" type="application/rsd+xml" title="RSD"
-            href="/delicioz/xmlrpc.php?rsd" />
-        <link rel="wlwmanifest" type="application/wlwmanifest+xml"
-            href="/delicioz/wp-includes/wlwmanifest.xml" />
-        <meta name="generator" content="WordPress 6.0.2" />
-        <meta name="generator" content="WooCommerce 6.8.2" />
-        <link rel="canonical" href="/cart/" />
-        <link rel='shortlink' href='/delicioz/?p=10' />
-        <link rel="alternate" type="application/json+oembed"
-            href="/delicioz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo2.themelexus.com%2Fdelicioz%2Fcart%2F" />
-        <link rel="alternate" type="text/xml+oembed"
-            href="/delicioz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo2.themelexus.com%2Fdelicioz%2Fcart%2F&#038;format=xml" />
         <noscript>
             <style>
                 .woocommerce-product-gallery {
@@ -1237,10 +1215,10 @@
                                         data-id="901b06e" data-element_type="widget"
                                         data-widget_type="woocommerce-breadcrumb.default">
                                         <div class="elementor-widget-container">
-                                            <div class="delicioz-woocommerce-title">Cart</div>
+                                            <div class="delicioz-woocommerce-title">Giỏ hàng</div>
                                             <nav class="woocommerce-breadcrumb"><a
-                                                    href="/">Home Page</a><i
-                                                    class="delicioz-icon-arrow-right-s-line"></i>Cart</nav>
+                                                    href="/">Trang chủ</a><i
+                                                    class="delicioz-icon-arrow-right-s-line"></i>Giỏ hàng</nav>
                                         </div>
                                     </div>
                                 </div>
@@ -1270,10 +1248,10 @@
                                                     <tr>
                                                         <th class="product-remove">&nbsp;</th>
                                                         <th class="product-thumbnail">&nbsp;</th>
-                                                        <th class="product-name">Product</th>
-                                                        <th class="product-price">Price</th>
-                                                        <th class="product-quantity">Quantity</th>
-                                                        <th class="product-subtotal">Subtotal</th>
+                                                        <th class="product-name">Tên sản phẩm</th>
+                                                        <th class="product-price">Giá</th>
+                                                        <th class="product-quantity">Số lượng</th>
+                                                        <th class="product-subtotal">Tổng tiền</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
@@ -1310,7 +1288,7 @@
                                                         <td class="product-quantity" data-title="Quantity">
                                                             <div class="quantity_wrap">
                                                                 <label class="quantity_label"
-                                                                    for="quantity_67ce591b2fd08">Quantity</label>
+                                                                    for="quantity_67ce591b2fd08">Số lượng</label>
                                                                     <div class="quantity buttons_added"><button type="button" class="minus" wire:click="decrement({{ $item['product_id'] }})"><i class="delicioz-icon-minus"></i></button>
                                                                         <input type="number" id="quantity_67ce591b2fd08" class="input-text qty text" step="1" min="0" max="999"  value="{{ $item['quantity'] }}" title="Qty" placeholder="" inputmode="numeric"><button type="button" wire:click="increment({{ $item['product_id'] }})" class="plus"><i class="delicioz-icon-plus"></i></button>
                                                                     </div>
@@ -1337,15 +1315,15 @@
                                             <div class="cart_totals ">
 
 
-                                                <h2>Cart totals</h2>
+                                                <h2>Tổng tiền</h2>
 
                                                 <table cellspacing="0" class="shop_table shop_table_responsive">
 
                                                     <tr class="cart-subtotal">
-                                                        <th>Subtotal</th>
+                                                                    <th>Tạm tính</th>
                                                         <td data-title="Subtotal"><span
                                                                 class="woocommerce-Price-amount amount"><bdi><span
-                                                                        class="woocommerce-Price-currencySymbol">&#36;</span>{{ number_format($grandTotal, 0, ',', '.') }} VNĐ</bdi></span>
+                                                                        class="woocommerce-Price-currencySymbol"></span>{{ number_format($grandTotal, 0, ',', '.') }} VNĐ</bdi></span>
                                                         </td>
                                                     </tr>
 
@@ -1355,10 +1333,10 @@
 
 
                                                     <tr class="order-total">
-                                                        <th>Total</th>
+                                                        <th>Tổng cộng</th>
                                                         <td data-title="Total"><strong><span
                                                                     class="woocommerce-Price-amount amount"><bdi><span
-                                                                            class="woocommerce-Price-currencySymbol">&#36;</span>{{ number_format($grandTotal, 0, ',', '.') }} VNĐ</bdi></span></strong>
+                                                                            class="woocommerce-Price-currencySymbol"></span>{{ number_format($grandTotal, 0, ',', '.') }} VNĐ</bdi></span></strong>
                                                         </td>
                                                     </tr>
 
@@ -1369,7 +1347,7 @@
 
                                                     <a href="/checkout/"
                                                         class="checkout-button button alt wc-forward">
-                                                        Proceed to checkout</a>
+                                                        Thanh toán</a>
                                                 </div>
 
 

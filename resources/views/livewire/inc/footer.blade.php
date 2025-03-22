@@ -41,16 +41,15 @@
                                                 <div class="elementor-widget-container">
                                                     <h2
                                                         class="elementor-heading-title elementor-size-default">
-                                                        About restaurant</h2>
+                                                        Về chúng tôi</h2>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-13bacbf elementor-widget__width-initial elementor-widget elementor-widget-text-editor"
                                                 data-id="13bacbf" data-element_type="widget"
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    Be the first to know about new
-                                                    collections, special events, and what’s
-                                                    going on at Our Place. </div>
+                                                    Đăng ký để nhận thông tin mới nhất và các sự kiện đặc biệt từ chúng tôi.
+                                                </div>
                                             </div>
                                             <div class="elementor-element elementor-element-f378fa4 e-grid-align-tablet-left e-grid-align-mobile_extra-left e-grid-align-mobile-center elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons"
                                                 data-id="f378fa4" data-element_type="widget"
@@ -419,17 +418,14 @@
                                                 <div class="elementor-widget-container">
                                                     <h2
                                                         class="elementor-heading-title elementor-size-default">
-                                                        get news & ofers</h2>
+                                                        Nhận tin tức và ưu đãi</h2>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-0d1148f elementor-widget__width-initial elementor-widget elementor-widget-text-editor"
                                                 data-id="0d1148f" data-element_type="widget"
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    Subscrible &amp; get <a
-                                                        style="font-weight: bold;">10%</a> discount. Get
-                                                    E-mail updates about our latest shop and<a
-                                                        style="font-weight: bold;"> special offers.</a>
+                                                    Đăng ký để nhận thông tin mới nhất và các sự kiện đặc biệt từ chúng tôi.
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-5712562 elementor-widget__width-initial form-mailchimp-style-1 elementor-widget elementor-widget-delicioz-mailchmip"
@@ -495,14 +491,14 @@
                                                 <div class="elementor-widget-container">
                                                     <h2
                                                         class="elementor-heading-title elementor-size-default">
-                                                        contact us</h2>
+                                                        Liên hệ chúng tôi</h2>
                                                 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-04df446 elementor-widget__width-initial elementor-widget elementor-widget-text-editor"
                                                 data-id="04df446" data-element_type="widget"
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    Delicioz Restaurant &amp; Fine dining,
+                                                    Nhà hàng Delicioz &amp; Đại sứ vị,
                                                     71 Madison Ave, New York, USA
                                                 </div>
                                             </div>
@@ -510,7 +506,7 @@
                                                 data-id="8b0daca" data-element_type="widget"
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    0329 081 960,+39-066-666999 </div>
+                                                    0329 081 960 </div>
                                             </div>
                                             <div class="elementor-element elementor-element-b07bab7 elementor-widget__width-initial elementor-widget elementor-widget-text-editor"
                                                 data-id="b07bab7" data-element_type="widget"
@@ -537,11 +533,11 @@
                                                 <div class="elementor-widget-container">
                                                     Copyright © 2022 <a style="font-weight: bold;"
                                                         href="/delicioz/">Delicioz</a>.
-                                                    All rights reserved. </div>
+                                                    Tất cả quyền được bảo lưu. </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-000c4df"
+                                    {{-- <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-000c4df"
                                         data-id="000c4df" data-element_type="column">
                                         <div class="elementor-widget-wrap elementor-element-populated">
                                             <div class="elementor-element elementor-element-3d67de8 elementor-icon-list--layout-inline elementor-align-right elementor-mobile-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
@@ -552,19 +548,17 @@
                                                         class="elementor-icon-list-items elementor-inline-items">
                                                         <li
                                                             class="elementor-icon-list-item elementor-inline-item">
-                                                            <span class="elementor-icon-list-text">Privacy &
-                                                                Cookie Policy </span>
+                                                            <span class="elementor-icon-list-text">Chính sách bảo mật và cookie</span>
                                                         </li>
                                                         <li
                                                             class="elementor-icon-list-item elementor-inline-item">
-                                                            <span class="elementor-icon-list-text"> Terms of
-                                                                Service</span>
+                                                            <span class="elementor-icon-list-text">Điều khoản dịch vụ</span>
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
