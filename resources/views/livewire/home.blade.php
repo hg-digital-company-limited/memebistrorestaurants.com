@@ -1351,9 +1351,9 @@
                                                                                             data-frame_0="x:-50;"
                                                                                             data-frame_1="st:220;sp:1500;sR:220;"
                                                                                             data-frame_999="o:0;st:w;sR:7280;"
-                                                                                            style="z-index:3;font-family:'Delicioz';text-transform:capitalize;display:inline-block;">The
-                                                                                            taste <br />
-                                                                                            of passion
+                                                                                            style="z-index:3;font-family:'Delicioz';text-transform:capitalize;display:inline-block;">Vị
+                                                                                            ngọt <br />
+                                                                                            của sự đam mê
                                                                                         </rs-layer><!--
 
           --><rs-layer id="slider-2-slide-4-layer-3" data-type="shape" data-rsp_ch="on" data-xy="xo:50px,34px,25px,15px;yo:50px,34px,25px,15px;"
@@ -1370,8 +1370,10 @@
                                                                                             data-frame_0="x:-50;"
                                                                                             data-frame_1="st:810;sp:1500;sR:810;"
                                                                                             data-frame_999="o:0;st:w;sR:6690;"
-                                                                                            style="z-index:5;font-family:'Manrope';display:inline-block;">Discover
-                                                                                            a world of culinary bliss at
+                                                                                            style="z-index:5;font-family:'Manrope';display:inline-block;">Khám
+                                                                                            phá
+                                                                                            một thế giới ăn uống tốt
+                                                                                            nhất tại
                                                                                             Delicioz!
                                                                                         </rs-layer><!--
 
@@ -1398,7 +1400,8 @@
                                                                                             onclick="window.location.href = '/shop'"
                                                                                             data-frame_999="o:0;st:w;sR:6010;"
                                                                                             data-frame_hover="c:#000;bgc:rgba(0,0,0,0);boc:#ffdea0;bor:0px,0px,0px,0px;bos:solid;bow:1px,1px,1px,1px;e:power1.inOut;"
-                                                                                            style="z-index:7;background-color:rgba(0,0,0,0);font-family:'Manrope';display:inline-block;">DISCOVER
+                                                                                            style="z-index:7;background-color:rgba(0,0,0,0);font-family:'Manrope';display:inline-block;">Khám
+                                                                                            phá
                                                                                             MENU
                                                                                         </rs-layer><!--
          --></rs-column><!--
@@ -1441,9 +1444,10 @@
                                                                                             data-frame_0="x:-50;"
                                                                                             data-frame_1="st:220;sp:1500;sR:220;"
                                                                                             data-frame_999="o:0;st:w;sR:7280;"
-                                                                                            style="z-index:3;font-family:'Delicioz';text-transform:capitalize;display:inline-block;">Welcome
-                                                                                            to <br />
-                                                                                            Restaurant
+                                                                                            style="z-index:3;font-family:'Delicioz';text-transform:capitalize;display:inline-block;">Chào
+                                                                                            mừng
+                                                                                            đến <br />
+                                                                                            Nhà hàng
                                                                                         </rs-layer><!--
 
           --><rs-layer id="slider-2-slide-7-layer-3" data-type="shape" data-rsp_ch="on" data-xy="xo:50px,34px,25px,15px;yo:50px,34px,25px,15px;"
@@ -1460,8 +1464,10 @@
                                                                                             data-frame_0="x:-50;"
                                                                                             data-frame_1="st:810;sp:1500;sR:810;"
                                                                                             data-frame_999="o:0;st:w;sR:6690;"
-                                                                                            style="z-index:5;font-family:'Manrope';display:inline-block;">Discover
-                                                                                            a world of culinary bliss at
+                                                                                            style="z-index:5;font-family:'Manrope';display:inline-block;">Khám
+                                                                                            phá
+                                                                                            một thế giới ăn uống tốt
+                                                                                            nhất tại
                                                                                             Delicioz!
                                                                                         </rs-layer><!--
 
@@ -1488,7 +1494,8 @@
                                                                                             data-frame_999="o:0;st:w;sR:6010;"
                                                                                             onclick="window.location.href = '/shop'"
                                                                                             data-frame_hover="c:#000;bgc:rgba(0,0,0,0);boc:#ffdea0;bor:0px,0px,0px,0px;bos:solid;bow:1px,1px,1px,1px;e:power1.inOut;"
-                                                                                            style="z-index:7;background-color:rgba(0,0,0,0);font-family:'Manrope';display:inline-block;">DISCOVER
+                                                                                            style="z-index:7;background-color:rgba(0,0,0,0);font-family:'Manrope';display:inline-block;">Khám
+                                                                                            phá
                                                                                             MENU
                                                                                         </rs-layer><!--
          --></rs-column><!--
@@ -1795,9 +1802,9 @@
                                                                     <div class="elementor-widget-container">
                                                                         <h2
                                                                             class="elementor-heading-title elementor-size-default">
-                                                                            The perfect place
-                                                                            for an exceptional
-                                                                            experience</h2>
+                                                                            Nơi lý tưởng
+                                                                            cho trải nghiệm tuyệt vời
+                                                                        </h2>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1842,11 +1849,14 @@
                                                                             .elementor-widget-text-editor .elementor-drop-cap-letter {
                                                                                 display: inline-block
                                                                             }
-                                                                        </style> By day, Delicioz provides a hub to meet
-                                                                        friends and colleagues with a well-crafted wine
-                                                                        list, discreet yet professional service and
-                                                                        sophisticated menus all delivered in a relaxed
-                                                                        setting.
+                                                                        </style>
+                                                                        Bất cứ ngày nào, Delicioz cung cấp một trung tâm
+                                                                        để gặp gỡ
+                                                                        bạn bè và đồng nghiệp với một danh sách rượu tốt
+                                                                        và
+                                                                        dịch vụ chuyên nghiệp, thương mại đa dạng và
+                                                                        thiết kế menu được thiết kế để đáp ứng nhu cầu
+                                                                        của bạn.
                                                                     </div>
                                                                 </div>
                                                                 <div class="elementor-element elementor-element-cdaebb3 elementor-widget__width-initial elementor-widget-tablet__width-inherit elementor-widget elementor-widget-text-editor"
@@ -1855,12 +1865,17 @@
                                                                     <div class="elementor-widget-container">
 
 
-                                                                        By night the scene is set for any and all
-                                                                        occasions. From intimate tables for two to small
-                                                                        groups or larger private events. Our
-                                                                        unparalleled attention to detail and strong
-                                                                        focus on delivering the best culinary
-                                                                        experiences is designed to exceed expectations.
+                                                                        Bất cứ đêm nào, cảnh sắc được thiết lập cho bất
+                                                                        kỳ và tất cả
+                                                                        các sự kiện. Từ bàn nhỏ cho hai người đến nhóm
+                                                                        nhỏ
+                                                                        hoặc sự kiện riêng tư lớn hơn. Sự chú ý không
+                                                                        thể đạt được
+                                                                        đến chi tiết và sự tập trung cao độ trong việc
+                                                                        cung cấp
+                                                                        những trải nghiệm ăn uống tốt nhất được thiết kế
+                                                                        để vượt
+                                                                        quá những kỳ vọng.
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1908,7 +1923,7 @@
                                                                     data-id="5ca450f" data-element_type="widget"
                                                                     data-widget_type="text-editor.default">
                                                                     <div class="elementor-widget-container">
-                                                                        Booking request </div>
+                                                                        Đặt bàn </div>
                                                                 </div>
                                                                 <div class="elementor-element elementor-element-8b6de7a elementor-widget elementor-widget-heading"
                                                                     data-id="8b6de7a" data-element_type="widget"
@@ -1930,8 +1945,8 @@
                                                                                 <span
                                                                                     class="elementor-button-content-wrapper">
                                                                                     <span
-                                                                                        class="elementor-button-text">make
-                                                                                        a reservation</span>
+                                                                                        class="elementor-button-text">Đặt
+                                                                                        bàn</span>
                                                                                 </span>
                                                                             </a>
                                                                         </div>
@@ -2138,7 +2153,8 @@
                                                                 </div>
                                                                 <h3 class="elementor-image-box-title">Món ăn
                                                                 </h3>
-                                                                <div class="elementor-image-box-sub-title">Đặc sản</div>
+                                                                <div class="elementor-image-box-sub-title">Đặc sản
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2756,7 +2772,8 @@
                                         </div>
                                     </div>
                                 </div> --}}
-                                {{-- <div class="elementor-section elementor-top-section elementor-element elementor-element-d9e67d1 elementor-section-stretched elementor-reverse-tablet elementor-reverse-mobile_extra elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                {{-- <div
+                                    class="elementor-section elementor-top-section elementor-element elementor-element-d9e67d1 elementor-section-stretched elementor-reverse-tablet elementor-reverse-mobile_extra elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                     data-id="d9e67d1" data-element_type="section"
                                     data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-container elementor-column-gap-no">
@@ -2802,12 +2819,10 @@
                                                                             <div class="details">
                                                                                 <div
                                                                                     class="elementor-testimonial-image">
-                                                                                    <img width="390"
-                                                                                        height="300"
+                                                                                    <img width="390" height="300"
                                                                                         src="/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg"
                                                                                         class="attachment-full size-full"
-                                                                                        alt=""
-                                                                                        loading="lazy"
+                                                                                        alt="" loading="lazy"
                                                                                         sizes="(max-width: 390px) 100vw, 390px" />
                                                                                 </div>
                                                                                 <div class="details-info">
@@ -2851,12 +2866,10 @@
                                                                             <div class="details">
                                                                                 <div
                                                                                     class="elementor-testimonial-image">
-                                                                                    <img width="390"
-                                                                                        height="300"
+                                                                                    <img width="390" height="300"
                                                                                         src="/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg"
                                                                                         class="attachment-full size-full"
-                                                                                        alt=""
-                                                                                        loading="lazy"
+                                                                                        alt="" loading="lazy"
                                                                                         srcset="/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg 390w, /delicioz/wp-content/uploads/2022/08/About_ourchef_01-300x231.jpg 300w"
                                                                                         sizes="(max-width: 390px) 100vw, 390px" />
                                                                                 </div>
@@ -2901,12 +2914,10 @@
                                                                             <div class="details">
                                                                                 <div
                                                                                     class="elementor-testimonial-image">
-                                                                                    <img width="390"
-                                                                                        height="300"
+                                                                                    <img width="390" height="300"
                                                                                         src="/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg"
                                                                                         class="attachment-full size-full"
-                                                                                        alt=""
-                                                                                        loading="lazy"
+                                                                                        alt="" loading="lazy"
                                                                                         srcset="/delicioz/wp-content/uploads/2022/08/About_ourchef_01.jpg 390w, /delicioz/wp-content/uploads/2022/08/About_ourchef_01-300x231.jpg 300w"
                                                                                         sizes="(max-width: 390px) 100vw, 390px" />
                                                                                 </div>
@@ -2989,10 +3000,12 @@
                                                                 <div class="icon"><i aria-hidden="true"
                                                                         class="delicioz-icon- delicioz-icon-chef"></i>
                                                                 </div>
-                                                                <h3 class="elementor-image-box-title">Meet Our Chef
+                                                                <h3 class="elementor-image-box-title">Nhà hàng của
+                                                                    chúng
+                                                                    tôi
                                                                 </h3>
-                                                                <div class="elementor-image-box-sub-title">amazing
-                                                                    team
+                                                                <div class="elementor-image-box-sub-title">Đội ngũ
+                                                                    tuyệt vời
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3020,7 +3033,8 @@
                                                                                     sizes="(max-width: 390px) 100vw, 390px" />
                                                                             </div>
                                                                             <div class="team-caption">
-                                                                                <div class="team-name">Lorenzo Morelli
+                                                                                <div class="team-name"> Lorenzo
+                                                                                    Morelli
                                                                                 </div>
                                                                                 <div class="team-job"> CEO &amp;
                                                                                     FOUNDER
@@ -3701,11 +3715,11 @@
                 function revslider_showDoubleJqueryError(sliderID) {
                     console.log(
                         "You have some jquery.js library include that comes after the Slider Revolution files js inclusion."
-                        );
+                    );
                     console.log("To fix this, you can:");
                     console.log(
                         "1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on"
-                        );
+                    );
                     console.log("2. Find the double jQuery.js inclusion and remove it");
                     return "Double Included jQuery Library";
                 }

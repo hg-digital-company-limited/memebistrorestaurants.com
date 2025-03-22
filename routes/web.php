@@ -30,7 +30,7 @@ Route::get('/cart', Cart::class);
 Route::get('/checkout', Checkout::class);
 Route::get('/contact', Contact::class);
 Route::get('/login', Login::class);
-Route::get('/register', Login::class);
+Route::get('/register', Register::class);
 Route::get('/lost-password', LostPassword::class);
 Route::get('/my-account', MyAccount::class);
 Route::get('/my-account/edit-account', EditAccount::class);

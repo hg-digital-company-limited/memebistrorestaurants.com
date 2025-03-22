@@ -1,10 +1,8 @@
 <div>
 
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <link rel="profile" href="//gmpg.org/xfn/11">
-        <title>My account &#8211; Delicioz</title>
+        <title>Đăng nhập</title>
         <meta name='robots' content='max-image-preview:large, noindex, follow' />
         <link rel="dns-prefetch" href="//fonts.googleapis.com">
         <link rel="dns-prefetch" href="//s.w.org">
@@ -1002,7 +1000,7 @@
         <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/delicioz/wp-includes/wlwmanifest.xml" />
         <meta name="generator" content="WordPress 6.0.2" />
         <meta name="generator" content="WooCommerce 6.8.2" />
-        <link rel="canonical" href="/delicioz/my-account/" />
+        <link rel="canonical" href="/my-account/" />
         <link rel='shortlink' href='/delicioz/?p=12' />
         <link rel="alternate" type="application/json+oembed"
             href="/delicioz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo2.themelexus.com%2Fdelicioz%2Fmy-account%2F" />
@@ -1251,14 +1249,17 @@
                                     <div class="woocommerce">
                                         <div class="woocommerce-notices-wrapper"></div>
 
-                                        <div class="u-columns col2-set" id="customer_login">
+                                        <div class="u-columns col2-set" id="customer_login" style="
+                                        display: flex;
+                                        justify-content: center;
+                                    ">
 
                                             <div class="u-column1 login-form-col col-1">
                                                 <form class="woocommerce-form woocommerce-form-login login"
                                                 wire:submit.prevent="login">
 
                                                     <div class="woocommerce-form-login-wrap">
-                                                        <h2 class="login-form-title">Login</h2>
+                                                        <h2 class="login-form-title">Đăng nhập</h2>
                                                         <p
                                                             class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
                                                             <label for="username">Email hoặc số điện thoại &nbsp;<span
@@ -1282,19 +1283,20 @@
                                                             <input type="checkbox"
                                                                 class="woocommerce-form__input woocommerce-form__input-checkbox"
                                                                 wire:model="remember" />
-                                                            <span>Remember me</span>
+                                                            <span>Nhớ tôi</span>
                                                         </label>
                                                         <input type="hidden" id="woocommerce-login-nonce"
                                                             name="woocommerce-login-nonce" value="b8f5bb0097" /><input
                                                             type="hidden" name="_wp_http_referer"
-                                                            value="/delicioz/my-account/" />
+                                                            value="/my-account/" />
                                                         <p class="woocommerce-LostPassword lost_password">
-                                                            <a href="/delicioz/my-account/lost-password/">Lost
-                                                                your password?</a>
+                                                            <a href="/lost-password/">Quên mật khẩu?</a>
                                                         </p>
                                                         <button type="submit"
                                                             class="woocommerce-button button woocommerce-form-login__submit"
-                                                            >Log in</button>
+                                                            >Đăng nhập</button>
+                                                            <br>
+                                                            <a href="/register"   class="register-link mt-3"> Chưa có tài khoản? Đăng ký</a>
                                                     </div>
 
 
@@ -1302,61 +1304,6 @@
                                                 </form>
 
 
-                                            </div>
-                                            <div class="u-column2 col-2">
-                                                <form wire:submit.prevent="register" style="
-                                                min-width: 400px;
-                                                max-width: 440px;
-                                            " class="woocommerce-form woocommerce-form-register register">
-
-                                                    <h2 class="register-from-title">Register</h2>
-
-
-                                                    <p
-                                                        class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-                                                        <label for="reg_email">Tên &nbsp;<span class="">*</span></label>
-                                                        <input type="text"
-                                                            class="woocommerce-Input woocommerce-Input--text input-text"
-                                                            wire:model="name" placeholder="Nhập tên..." />
-                                                    </p>
-
-
-
-
-                                                    <p
-                                                        class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-                                                        <label for="reg_email">Email &nbsp;<span
-                                                                class="">*</span></label>
-                                                        <input type="email"
-                                                            class="woocommerce-Input woocommerce-Input--text input-text"
-                                                            wire:model="email" placeholder="Nhập email..." />
-                                                    </p>
-                                                    <p
-                                                        class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-                                                        <label for="reg_email">Số điện thoại &nbsp;<span
-                                                                class="">*</span></label>
-                                                        <input type="text"
-                                                            class="woocommerce-Input woocommerce-Input--text input-text"
-                                                            wire:model="phone" placeholder="Nhập số điện thoại..." />
-                                                    </p>
-                                                    <p
-                                                        class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-                                                        <label for="reg_email">Mật khẩu &nbsp;<span
-                                                                class="">*</span></label>
-                                                        <input type="password"
-                                                            class="woocommerce-Input woocommerce-Input--text input-text"
-                                                            wire:model="password_register" placeholder="Nhập mật khẩu..." />
-                                                    </p>
-
-
-                                                    <p class="woocommerce-FormRow form-row">
-                                                        <button type="submit"
-                                                            class="woocommerce-Button woocommerce-button button woocommerce-form-register__submit"
-                                                            type="submit">Đăng ký</button>
-                                                    </p>
-
-
-                                                </form>
                                             </div>
 
 

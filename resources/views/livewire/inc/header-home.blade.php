@@ -127,7 +127,7 @@
 
 
                                         <div class="site-header-account">
-                                            <a href="/delicioz/my-account/">
+                                            <a href="/my-account/">
                                                 <i class="delicioz-icon-account"></i>
                                             </a>
                                             <div class="account-dropdown">
