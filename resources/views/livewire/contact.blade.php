@@ -1,11 +1,6 @@
 <div>
     <head>
-        <title>Contact us</title>
-        <link rel="dns-prefetch" href="//fonts.googleapis.com">
-        <link rel="dns-prefetch" href="//s.w.org">
-        <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-        <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-        <link rel='dns-prefetch' href='//s.w.org' />
+        <title>Liên hệ</title>
         <style>
             img.wp-smiley,
             img.emoji {
@@ -1006,21 +1001,6 @@
         <script
             src='/delicioz/wp-content/themes/delicioz/assets/js/libs/jarallax.js?ver=6.0.2'
             id='jarallax-js'></script>
-        <link rel="https://api.w.org/" href="/delicioz/wp-json/" />
-        <link rel="alternate" type="application/json"
-            href="/delicioz/wp-json/wp/v2/pages/34" />
-        <link rel="EditURI" type="application/rsd+xml" title="RSD"
-            href="/delicioz/xmlrpc.php?rsd" />
-        <link rel="wlwmanifest" type="application/wlwmanifest+xml"
-            href="/delicioz/wp-includes/wlwmanifest.xml" />
-        <meta name="generator" content="WordPress 6.0.2" />
-        <meta name="generator" content="WooCommerce 6.8.2" />
-        <link rel="canonical" href="/delicioz/contact-us/" />
-        <link rel='shortlink' href='/delicioz/?p=34' />
-        <link rel="alternate" type="application/json+oembed"
-            href="/delicioz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo2.themelexus.com%2Fdelicioz%2Fcontact-us%2F" />
-        <link rel="alternate" type="text/xml+oembed"
-            href="/delicioz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo2.themelexus.com%2Fdelicioz%2Fcontact-us%2F&#038;format=xml" />
         <noscript>
             <style>
                 .woocommerce-product-gallery {
@@ -1222,10 +1202,10 @@
                                         data-id="901b06e" data-element_type="widget"
                                         data-widget_type="woocommerce-breadcrumb.default">
                                         <div class="elementor-widget-container">
-                                            <div class="delicioz-woocommerce-title">Contact us</div>
+                                            <div class="delicioz-woocommerce-title">Liên hệ</div>
                                             <nav class="woocommerce-breadcrumb"><a
-                                                    href="/">Home Page</a><i
-                                                    class="delicioz-icon-arrow-right-s-line"></i>Contact us</nav>
+                                                    href="/">Trang chủ</a><i
+                                                    class="delicioz-icon-arrow-right-s-line"></i>Liên hệ</nav>
                                         </div>
                                     </div>
                                 </div>
@@ -1292,7 +1272,7 @@
                                                                 </style>
                                                                 <h2
                                                                     class="elementor-heading-title elementor-size-default">
-                                                                    Got Any Questions?</h2>
+                                                                   Bạn có câu hỏi gì không?</h2>
                                                             </div>
                                                         </div>
                                                         <div class="elementor-element elementor-element-512dbc6 elementor-widget elementor-widget-text-editor"
@@ -1331,8 +1311,7 @@
                                                                     .elementor-widget-text-editor .elementor-drop-cap-letter {
                                                                         display: inline-block
                                                                     }
-                                                                </style> Use the form below to get in touch with the
-                                                                sales team
+                                                                </style>
                                                             </div>
                                                         </div>
                                                         <div class="elementor-element elementor-element-9834bb5 contact-form-align-left contact-form-align-center elementor-widget elementor-widget-delicioz-contactform"
@@ -1373,7 +1352,7 @@
                                                                                             value="" size="40"
                                                                                             class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                                                             wire:model="name" required
-                                                                                            placeholder="Name *" /></span>
+                                                                                            placeholder="Tên *" /></span>
                                                                                 </p>
                                                                             </div>
                                                                             <div class="column-tablet-6 column-12">
@@ -1387,7 +1366,7 @@
                                                                                             aria-required="true"
                                                                                             wire:model="email"
                                                                                             aria-invalid="false"
-                                                                                            placeholder="Email *" /></span>
+                                                                                                placeholder="Email *" /></span>
                                                                                 </p>
                                                                             </div>
                                                                         </div>
@@ -1400,6 +1379,7 @@
                                                                                             class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required"
                                                                                             aria-required="true"
                                                                                             wire:model="message"
+                                                                                            placeholder="Nội dung *"
                                                                                             aria-invalid="false"></textarea></span>
                                                                                 </p>
                                                                             </div>
@@ -1407,8 +1387,7 @@
 
                                                                         <div class="wpcf7-button">
                                                                             <button type="submit"
-                                                                                value="Submit"><span>send your
-                                                                                    message</span></button>
+                                                                                value="Gửi tin nhắn"><span>Gửi tin nhắn</span></button>
                                                                         </div>
 
                                                                     </form>
@@ -1462,8 +1441,8 @@
                                                             <div class="elementor-widget-container">
                                                                 <h2
                                                                     class="elementor-heading-title elementor-size-default">
-                                                                    Visit Delicioz <br>
-                                                                    Restaurant</h2>
+                                                                    Đến Me Me Bistore <br>
+                                                                    </h2>
                                                             </div>
                                                         </div>
                                                         <div class="elementor-element elementor-element-0a647ab elementor-widget__width-auto elementor-view-default elementor-widget elementor-widget-icon"
@@ -1500,7 +1479,7 @@
                                                             data-id="f3a04f7" data-element_type="widget"
                                                             data-widget_type="text-editor.default">
                                                             <div class="elementor-widget-container">
-                                                                Booking request </div>
+                                                                Đặt hàng </div>
                                                         </div>
                                                         <div class="elementor-element elementor-element-423ea65 elementor-widget elementor-widget-heading"
                                                             data-id="423ea65" data-element_type="widget"
@@ -1517,14 +1496,14 @@
                                                             <div class="elementor-widget-container">
                                                                 <h2
                                                                     class="elementor-heading-title elementor-size-default">
-                                                                    Location</h2>
+                                                                    Địa chỉ</h2>
                                                             </div>
                                                         </div>
                                                         <div class="elementor-element elementor-element-38bda7b elementor-widget__width-initial elementor-widget elementor-widget-text-editor"
                                                             data-id="38bda7b" data-element_type="widget"
                                                             data-widget_type="text-editor.default">
                                                             <div class="elementor-widget-container">
-                                                                Delicioz Restaurant &#038; Fine dining,
+                                                                Me Me Bistore,
                                                                 71 Madison Ave, New York, USA </div>
                                                         </div>
                                                     </div>

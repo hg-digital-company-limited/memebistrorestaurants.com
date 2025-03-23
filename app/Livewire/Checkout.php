@@ -29,6 +29,7 @@ class Checkout extends Component
         $this->phone = auth()->user()->phone;
         $this->address = auth()->user()->address;
         $this->cartItems = CartManagement::getCartItemsFromCookie();
+        $this->paymentMethod = 'cod';
         if (empty($this->cartItems)) {
             return redirect('/cart');
         }

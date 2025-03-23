@@ -1245,7 +1245,7 @@
                                                     <div class="hfe-site-logo-set">
                                                         <div class="hfe-site-logo-container">
                                                             <img class="hfe-site-logo-img elementor-animation-"
-                                                                src="/logo.png"
+                                                                src="/logo_.png"
                                                                 alt="" />
                                                         </div>
                                                     </div>

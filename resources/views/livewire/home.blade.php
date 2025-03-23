@@ -3374,10 +3374,10 @@
                                                                 <div class="icon"><i aria-hidden="true"
                                                                         class="delicioz-icon- delicioz-icon-event-like"></i>
                                                                 </div>
-                                                                <h3 class="elementor-image-box-title">News & Events
+                                                                <h3 class="elementor-image-box-title">Tin tức & Sự kiện
                                                                 </h3>
-                                                                <div class="elementor-image-box-sub-title">Today
-                                                                    Specials</div>
+                                                                <div class="elementor-image-box-sub-title">Ưu đãi hôm nay
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -3438,8 +3438,8 @@
                                                     data-id="f886650" data-element_type="widget"
                                                     data-widget_type="text-editor.default">
                                                     <div class="elementor-widget-container">
-                                                        Read the news of our restaurant, recipes for delicious fears,
-                                                        tips for your home kitchen in our blog! </div>
+                                                        Đọc tin tức của nhà hàng của chúng tôi, công thức cho đồ ăn ngon,
+                                                        mẹo cho nhà bếp gia đình của bạn! </div>
                                                 </div>
                                                 <div class="elementor-element elementor-element-45e70b0 elementor-align-center elementor-button-outline elementor-widget elementor-widget-button"
                                                     data-id="45e70b0" data-element_type="widget"
@@ -3450,8 +3450,7 @@
                                                                 class="elementor-button-link elementor-button elementor-size-sm"
                                                                 role="button">
                                                                 <span class="elementor-button-content-wrapper">
-                                                                    <span class="elementor-button-text">view our
-                                                                        blog</span>
+                                                                    <span class="elementor-button-text">Xem ƯU ĐÃI</span>
                                                                 </span>
                                                             </a>
                                                         </div>

@@ -17,7 +17,7 @@
                                         <div class="hfe-site-logo-set">
                                             <div class="hfe-site-logo-container">
                                                 <img class="hfe-site-logo-img elementor-animation-"
-                                                    src="/logo.png" alt="" style="
+                                                    src="/logo_.png" alt="" style="
                                                     height: 100px;
                                                 "/>
                                             </div>
