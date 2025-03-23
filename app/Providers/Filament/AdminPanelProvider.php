@@ -56,6 +56,6 @@ class AdminPanelProvider extends PanelProvider
                 \BezhanSalleh\FilamentShield\FilamentShieldPlugin::make(),
                 \Hasnayeen\Themes\ThemesPlugin::make()
             ])
-            ->brandName('Delicioz Admin');
+            ->brandName('ME ME BISTRO Admin');
     }
 }

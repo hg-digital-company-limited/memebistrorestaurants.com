@@ -15,6 +15,7 @@ use Illuminate\Database\Eloquent\SoftDeletingScope;
 
 class UserResource extends Resource
 {
+    protected static ?int $navigationSort = 2;
     protected static ?string $model = User::class;
 
     protected static ?string $navigationGroup = 'Filament Shield';
@@ -31,29 +32,29 @@ class UserResource extends Resource
             ->schema([
                 // Thông tin cá nhân
                 Forms\Components\Section::make('Thông tin cá nhân')->schema([
-                    Forms\Components\TextInput::make('name')
-                        ->label('Tên')
-                        ->required()
-                        ->maxLength(255),
+                    // Forms\Components\TextInput::make('name')
+                    //     ->label('Tên')
+                    //     ->required()
+                    //     ->maxLength(255),
                     Forms\Components\TextInput::make('email')
                         ->label('Email')
                         ->email()
                         ->required()
                         ->maxLength(255),
-                    Forms\Components\TextInput::make('address')
-                        ->label('Địa chỉ')
-                        ->required()
-                        ->maxLength(255),
-                    Forms\Components\TextInput::make('phone')
-                        ->label('Số điện thoại')
-                        ->required()
-                        ->maxLength(255),
-                    Forms\Components\Checkbox::make('is_locked')
-                        ->label('Khóa tài khoản'),
-                    Forms\Components\TextInput::make('loyalty_points')
-                        ->label('Điểm thưởng')
-                        ->required()
-                        ->maxLength(255),
+                    // Forms\Components\TextInput::make('address')
+                    //     ->label('Địa chỉ')
+                    //     ->required()
+                    //     ->maxLength(255),
+                    // Forms\Components\TextInput::make('phone')
+                    //     ->label('Số điện thoại')
+                    //     ->required()
+                    //     ->maxLength(255),
+                    // Forms\Components\Checkbox::make('is_locked')
+                    //     ->label('Khóa tài khoản'),
+                    // Forms\Components\TextInput::make('loyalty_points')
+                    //     ->label('Điểm thưởng')
+                    //     ->required()
+                    //     ->maxLength(255),
                 ]),
                 // Quyền
                 Forms\Components\Section::make('Quyền')->schema([
@@ -81,9 +82,9 @@ class UserResource extends Resource
                 Tables\Columns\TextColumn::make('id')
                     ->label('ID')
                     ->sortable(),
-                Tables\Columns\TextColumn::make('name')
-                    ->label('Tên')
-                    ->searchable(),
+                // Tables\Columns\TextColumn::make('name')
+                //     ->label('Tên')
+                //     ->searchable(),
                 Tables\Columns\TextColumn::make('email')
                     ->label('Email')
                     ->searchable(),
@@ -91,22 +92,23 @@ class UserResource extends Resource
                     ->label('Vai trò')
                     ->badge()
                     ->color('success'),
-                Tables\Columns\TextColumn::make('phone')
-                    ->searchable()
-                    ->label('Số điện thoại'),
-                Tables\Columns\TextColumn::make('address')
-                    ->searchable()
-                    ->label('Địa chỉ'),
-                Tables\Columns\TextColumn::make('loyalty_points')
-                    ->label('Điểm thưởng'),
-                Tables\Columns\TextColumn::make('is_locked')
-                    ->label('Khóa tài khoản')
-                    ->badge()
-                    ->color('success'),
+                // Tables\Columns\TextColumn::make('phone')
+                //     ->searchable()
+                //     ->label('Số điện thoại'),
+                // Tables\Columns\TextColumn::make('address')
+                //     ->searchable()
+                //     ->label('Địa chỉ'),
+                // Tables\Columns\TextColumn::make('loyalty_points')
+                //     ->label('Điểm thưởng'),
+                // Tables\Columns\TextColumn::make('is_locked')
+                //     ->label('Khóa tài khoản')
+                //     ->badge()
+                //     ->color('success'),
                 Tables\Columns\TextColumn::make('created_at')
                     ->dateTime()
+                    ->label('Ngày tạo')
                     ->sortable()
-                    ->toggleable(isToggledHiddenByDefault: true),
+                  ,
                 Tables\Columns\TextColumn::make('updated_at')
                     ->dateTime()
                     ->sortable()

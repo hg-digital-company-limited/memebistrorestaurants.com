@@ -14,6 +14,7 @@ use Filament\Tables;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use pxlrbt\FilamentExcel\Actions\Tables\ExportBulkAction;
 
 class InvoiceResource extends Resource
 {
@@ -65,8 +66,8 @@ class InvoiceResource extends Resource
                     ->label('Mã hóa đơn')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('restaurant.name')
-                    ->label('Nhà hàng')
-                    ->numeric()
+                    ->label('Cơ sở')
+                    ->searchable()
                     ->sortable(),
                 Tables\Columns\TextColumn::make('total_amount')
                     ->label('Tổng tiền')
@@ -101,6 +102,8 @@ class InvoiceResource extends Resource
                 Tables\Actions\BulkActionGroup::make([
                     Tables\Actions\DeleteBulkAction::make()
                         ->label('Xóa'), // Đổi nhãn sang tiếng Việt
+                        ExportBulkAction::make()
+
                 ]),
             ]);
     }
