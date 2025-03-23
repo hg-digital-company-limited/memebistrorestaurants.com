@@ -7,6 +7,8 @@
         <link rel="dns-prefetch" href="//fonts.googleapis.com">
         <link rel="dns-prefetch" href="//s.w.org">
         <link rel='dns-prefetch' href='//demo2.themelexus.com' />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
         <link rel='dns-prefetch' href='//fonts.googleapis.com' />
         <link rel='dns-prefetch' href='//s.w.org' />
         <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Feed" href="/delicioz/feed/" />
@@ -2204,6 +2206,15 @@
                                                                                 VNĐ
                                                                             </div>
                                                                         </div>
+                                                                        <div class="elementor-menu-list-button">
+                                                                            <button class="icon-button" wire:click="addToCart({{ $dish->id }})">
+                                                                                <i class="fas fa-cart-plus"></i>
+                                                                            </button>
+                                                                            <button class="icon-button" wire:click="buyNow({{ $dish->id }})">
+                                                                                <i class="fas fa-bolt"></i>
+                                                                            </button>
+                                                                        </div>
+
                                                                     </div>
                                                                 @endforeach
                                                             </div>

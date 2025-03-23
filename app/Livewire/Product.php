@@ -22,6 +22,7 @@ class Product extends Component
     public function addToCart()
     {
         CartManagement::addItemToCart($this->product->id, $this->quantity);
+        return redirect('/cart');
     }
     public function incrementQuantity()
     {

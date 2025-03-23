@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Mar 23, 2025 at 12:10 PM
+-- Generation Time: Mar 23, 2025 at 12:24 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.2.27
 
@@ -1085,7 +1085,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('qHjdYfwfNUxL4RI5s810LxO1Y48adkqzO7sKs9TP', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoiMHFDOHJSdm9yangwSXdVTWVLcElhYnV1RFhHRFBnNjF3TzJuVFBOOSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjc6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbiI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6MzoidXJsIjthOjA6e31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxO3M6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTIkYWlTOXVOeWt6TlZiN2xRdUI4SnRJLnhEZjI3cTgxanhIeFFIZ2dSSG40ZDJnQ2VKQ1l5SnEiO3M6ODoiZmlsYW1lbnQiO2E6MDp7fX0=', 1742731834);
+('qHjdYfwfNUxL4RI5s810LxO1Y48adkqzO7sKs9TP', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoiMHFDOHJSdm9yangwSXdVTWVLcElhYnV1RFhHRFBnNjF3TzJuVFBOOSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjY6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9jYXJ0Ijt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czozOiJ1cmwiO2E6MDp7fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7czoxNzoicGFzc3dvcmRfaGFzaF93ZWIiO3M6NjA6IiQyeSQxMiRhaVM5dU55a3pOVmI3bFF1QjhKdEkueERmMjdxODFqeEh4UUhnZ1JIbjRkMmdDZUpDWXlKcSI7czo4OiJmaWxhbWVudCI7YTowOnt9fQ==', 1742732656);
 
 -- --------------------------------------------------------
 

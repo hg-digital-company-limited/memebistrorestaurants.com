@@ -45,9 +45,16 @@
                                         <div class="product-caption-bottom">
 
                                             <a
+                                                class="button product_type_simple add_to_cart_button ajax_add_to_cart" style="
+                                                font-size: 10px;
+                                                margin-bottom: 10px;
+                                            "
+                                                wire:click="addToCart({{ $dish->id }})">Thêm vào giỏ hàng</a>
+                                            <a
                                                 class="button product_type_simple add_to_cart_button ajax_add_to_cart"
-                                                wire:click="addToCart({{ $dish->id }})">Mua Ngay</a>
+                                                wire:click="buyNow({{ $dish->id }})">Mua Ngay</a>
                                         </div>
+
                                     </div>
                                 </div>
                             </li>
@@ -197,7 +204,11 @@
                 </div>
             </div>
         </div><!-- #secondary -->
-
+        <style>
+            .delicioz-products.products.columns-3 img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail {
+                height: 320px;
+            }
+        </style>
     </div><!-- .col-full -->
 </div><!-- #content -->
 {{-- <div>

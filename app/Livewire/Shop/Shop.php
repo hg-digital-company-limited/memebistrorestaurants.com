@@ -45,6 +45,11 @@ class Shop extends Component
         CartManagement::addItemToCart($id, 1);
         return redirect('/cart');
     }
+    public function buyNow($id)
+    {
+        CartManagement::addItemToCart($id, 1);
+        return redirect('/checkout');
+    }
     public function render()
     {
         $query = Dish::query();
