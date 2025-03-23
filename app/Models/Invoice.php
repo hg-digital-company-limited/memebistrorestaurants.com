@@ -24,12 +24,24 @@ class Invoice extends Model
         return $this->belongsTo(Restaurant::class);
     }
     public function invoiceItems()
-{
-    return $this->hasMany(InvoiceItem::class);
-}
-public function items()
-{
-    return $this->hasMany(InvoiceItem::class);
-}
+    {
+        return $this->hasMany(InvoiceItem::class);
+    }
+    public function items()
+    {
+        return $this->hasMany(InvoiceItem::class);
+    }
+    protected static function boot()
+    {
+        parent::boot();
+
+        static::creating(function ($invoice) {
+            do {
+                $code = 'INV-' . strtoupper(uniqid());
+            } while (self::where('invoice_code', $code)->exists());
+
+            $invoice->invoice_code = $code;
+        });
+    }
 
 }

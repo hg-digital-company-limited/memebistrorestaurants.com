@@ -5,11 +5,15 @@ namespace App\Filament\Resources;
 use App\Filament\Resources\TableDishRelationManagerResource\RelationManagers\TableDishRelationManagerRelationManager;
 use App\Filament\Resources\TableResource\Pages;
 use App\Filament\Resources\TableResource\RelationManagers;
+use App\Models\Invoice;
+use App\Models\InvoiceItem;
 use App\Models\Reservation;
 use App\Models\Restaurant;
 use App\Models\Table as TableModel;
+use App\Models\TableDish;
 use Filament\Forms;
 use Filament\Forms\Form;
+use Filament\Notifications\Notification;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -135,6 +139,12 @@ class TableResource extends Resource
                         ->label('Chỉnh Sửa'), // Đổi nhãn sang tiếng Việt
                     Tables\Actions\DeleteAction::make()
                         ->label('Xóa'), // Đổi nhãn sang tiếng Việt
+                        Tables\Actions\Action::make('createInvoice')
+                        ->label('Tạo Hóa Đơn')
+                        ->icon('heroicon-o-document-text')
+                        ->color('success')
+                        ->requiresConfirmation()
+                        ->action(fn ($record) => static::generateInvoice($record))
                 ])
             ])
             ->bulkActions([
@@ -153,6 +163,62 @@ class TableResource extends Resource
         return [
             TableDishRelationManagerRelationManager::class,
         ];
+    }
+    public static function generateInvoice($table)
+    {
+        if ($table->status === 'available') {
+            Notification::make()
+                ->title('Bàn trống không thể tạo hóa đơn!')
+                ->danger()
+                ->send();
+            return;
+        }
+
+        $tableDishes = TableDish::where('table_id', $table->id)->get();
+        if ($tableDishes->isEmpty()) {
+            Notification::make()
+                ->title('Không có món ăn nào để tạo hóa đơn!')
+                ->danger()
+                ->send();
+            return;
+        }
+
+        // Tạo hóa đơn mới
+        $invoice = Invoice::create([
+            'table_id' => $table->id,
+            'restaurant_id' => $table->restaurant_id,
+            'total_amount' => 0, // Sẽ tính lại tổng tiền bên dưới
+            'status' => 'pending',
+        ]);
+
+        $totalAmount = 0;
+
+        // Thêm các món vào invoice_items
+        foreach ($tableDishes as $dish) {
+            InvoiceItem::create([
+                'invoice_id' => $invoice->id,
+                'dish_id' => $dish->dish_id,
+                'quantity' => $dish->quantity,
+                'unit_price' => $dish->dish->price, // Giả sử bảng dishes có cột price
+                'total_price' => $dish->quantity * $dish->dish->price,
+            ]);
+
+            $totalAmount += $dish->quantity * $dish->dish->price;
+        }
+
+        // Cập nhật tổng tiền cho hóa đơn
+        $invoice->update(['total_amount' => $totalAmount]);
+
+        // Xóa các món ăn khỏi bàn
+        TableDish::where('table_id', $table->id)->delete();
+
+        // Cập nhật trạng thái bàn
+        $table->update(['status' => 'available']);
+
+        Notification::make()
+            ->title('Hóa đơn đã được tạo thành công!')
+            ->success()
+            ->send();
     }
 
     public static function getPages(): array

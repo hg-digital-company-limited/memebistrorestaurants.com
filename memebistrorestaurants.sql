@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Mar 23, 2025 at 11:57 AM
+-- Generation Time: Mar 23, 2025 at 12:10 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.2.27
 
@@ -295,12 +295,7 @@ CREATE TABLE `invoices` (
 --
 
 INSERT INTO `invoices` (`id`, `invoice_code`, `restaurant_id`, `total_amount`, `status`, `created_at`, `updated_at`) VALUES
-(1, 'INV-67D9229572BF8', 1, '27195000.00', 'pending', '2025-02-26 07:36:59', '2025-03-23 11:40:45'),
-(2, 'INV-67D9306648806', 2, '123123123.00', 'pending', '2025-03-18 08:35:54', '2025-03-18 08:35:54'),
-(3, 'INV-67D9308D1AD3F', 1, '123123.00', 'pending', '2025-03-18 08:36:34', '2025-03-18 08:36:34'),
-(4, 'INV-67DAC7D15D5D9', 1, '100000.00', 'pending', '2025-03-19 13:34:14', '2025-03-19 13:34:14'),
-(5, 'INV-67DAC7E014DDE', 2, '1231231231.00', 'pending', '2025-03-19 13:34:27', '2025-03-19 13:34:27'),
-(6, 'INV-67DB6DD94E61E', 1, '123123.00', 'pending', '2025-03-20 01:22:38', '2025-03-20 01:22:38');
+(10, 'INV-67DFF9FF77A03', 1, '245000.00', 'pending', '2025-03-23 12:09:35', '2025-03-23 12:09:35');
 
 -- --------------------------------------------------------
 
@@ -324,7 +319,7 @@ CREATE TABLE `invoice_items` (
 --
 
 INSERT INTO `invoice_items` (`id`, `invoice_id`, `dish_id`, `quantity`, `unit_price`, `total_price`, `created_at`, `updated_at`) VALUES
-(2, 1, 12, 111, '245000.00', '27195000.00', '2025-03-23 11:40:45', '2025-03-23 11:40:45');
+(4, 10, 12, 1, '245000.00', '245000.00', '2025-03-23 12:09:35', '2025-03-23 12:09:35');
 
 -- --------------------------------------------------------
 
@@ -1090,7 +1085,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('qHjdYfwfNUxL4RI5s810LxO1Y48adkqzO7sKs9TP', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo4OntzOjY6Il90b2tlbiI7czo0MDoiMHFDOHJSdm9yangwSXdVTWVLcElhYnV1RFhHRFBnNjF3TzJuVFBOOSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzM6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9yZXNlcnZhdGlvbiI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjE6e2k6MDtzOjc6Im1lc3NhZ2UiO31zOjM6Im5ldyI7YTowOnt9fXM6MzoidXJsIjthOjA6e31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxO3M6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTIkYWlTOXVOeWt6TlZiN2xRdUI4SnRJLnhEZjI3cTgxanhIeFFIZ2dSSG40ZDJnQ2VKQ1l5SnEiO3M6ODoiZmlsYW1lbnQiO2E6MDp7fXM6NzoibWVzc2FnZSI7czozMzoiUmVzZXJ2YXRpb24gc3VjY2Vzc2Z1bGx5IGNyZWF0ZWQuIjt9', 1742731018);
+('qHjdYfwfNUxL4RI5s810LxO1Y48adkqzO7sKs9TP', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoiMHFDOHJSdm9yangwSXdVTWVLcElhYnV1RFhHRFBnNjF3TzJuVFBOOSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjc6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbiI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6MzoidXJsIjthOjA6e31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxO3M6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTIkYWlTOXVOeWt6TlZiN2xRdUI4SnRJLnhEZjI3cTgxanhIeFFIZ2dSSG40ZDJnQ2VKQ1l5SnEiO3M6ODoiZmlsYW1lbnQiO2E6MDp7fX0=', 1742731834);
 
 -- --------------------------------------------------------
 
@@ -1113,7 +1108,7 @@ CREATE TABLE `tables` (
 --
 
 INSERT INTO `tables` (`id`, `restaurant_id`, `table_number`, `status`, `reservation_id`, `created_at`, `updated_at`) VALUES
-(1, 1, 123, 'available', NULL, '2025-03-15 03:54:38', '2025-03-18 03:37:12');
+(1, 1, 123, 'available', NULL, '2025-03-15 03:54:38', '2025-03-23 12:09:35');
 
 -- --------------------------------------------------------
 
@@ -1131,13 +1126,6 @@ CREATE TABLE `table_dishes` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Dumping data for table `table_dishes`
---
-
-INSERT INTO `table_dishes` (`id`, `dish_id`, `table_id`, `quantity`, `served_at`, `status`, `created_at`, `updated_at`) VALUES
-(7, 13, 1, 1, '2025-03-22 12:47:05', 'pending', '2025-03-22 12:20:24', '2025-03-22 12:45:06');
 
 -- --------------------------------------------------------
 
@@ -1432,13 +1420,13 @@ ALTER TABLE `ingredients`
 -- AUTO_INCREMENT for table `invoices`
 --
 ALTER TABLE `invoices`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `invoice_items`
 --
 ALTER TABLE `invoice_items`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `jobs`
@@ -1516,7 +1504,7 @@ ALTER TABLE `tables`
 -- AUTO_INCREMENT for table `table_dishes`
 --
 ALTER TABLE `table_dishes`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `users`
