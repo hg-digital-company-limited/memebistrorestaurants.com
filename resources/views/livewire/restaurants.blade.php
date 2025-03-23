@@ -1,7 +1,7 @@
 <div>
 
     <head>
-        <title>Restaurant</title>
+        <title>Danh sách cơ sở</title>
         <meta name='robots' content='max-image-preview:large' />
         <link rel="dns-prefetch" href="//fonts.googleapis.com">
         <link rel="dns-prefetch" href="//s.w.org">
@@ -1194,9 +1194,9 @@
                                         data-id="f1766c2" data-element_type="widget"
                                         data-widget_type="woocommerce-breadcrumb.default">
                                         <div class="elementor-widget-container">
-                                            <div class="delicioz-woocommerce-title">Restaurant</div>
-                                            <nav class="woocommerce-breadcrumb"><a href="/">Home Page</a><i
-                                                    class="delicioz-icon-arrow-right-s-line"></i>Restaurant</nav>
+                                            <div class="delicioz-woocommerce-title">Danh sách cơ sở</div>
+                                            <nav class="woocommerce-breadcrumb"><a href="/">Trang chủ</a><i
+                                                    class="delicioz-icon-arrow-right-s-line"></i>Danh sách cơ sở</nav>
                                         </div>
                                     </div>
                                 </div>

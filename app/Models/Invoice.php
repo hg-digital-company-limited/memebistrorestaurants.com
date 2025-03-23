@@ -13,7 +13,7 @@ class Invoice extends Model
         'invoice_code',
         'restaurant_id',
         'total_amount',
-
+        'status',
     ];
 
     /**
@@ -23,4 +23,13 @@ class Invoice extends Model
     {
         return $this->belongsTo(Restaurant::class);
     }
+    public function invoiceItems()
+{
+    return $this->hasMany(InvoiceItem::class);
+}
+public function items()
+{
+    return $this->hasMany(InvoiceItem::class);
+}
+
 }

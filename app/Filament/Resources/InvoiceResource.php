@@ -1,7 +1,9 @@
 <?php
 
 namespace App\Filament\Resources;
-
+use Barryvdh\DomPDF\Facade\Pdf;
+use Illuminate\Support\Facades\Storage;
+use Filament\Tables\Actions\Action;
 use App\Filament\Resources\InvoiceResource\Pages;
 use App\Filament\Resources\InvoiceResource\RelationManagers;
 use App\Filament\Resources\InvoiceResource\RelationManagers\InvoiceItemsRelationManager;
@@ -55,6 +57,14 @@ class InvoiceResource extends Resource
                     ->required()
                     ->numeric()
                     ->suffix('VNĐ'),
+                Forms\Components\Select::make('status')
+                    ->label('Trạng thái')
+                    ->options([
+                        'pending' => 'Chưa thanh toán',
+                        'paid' => 'Đã thanh toán',
+                    ])
+                    ->default('pending')
+                    ->required(),
             ]);
     }
 
@@ -62,51 +72,35 @@ class InvoiceResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('invoice_code')
-                    ->label('Mã hóa đơn')
-                    ->searchable(),
-                Tables\Columns\TextColumn::make('restaurant.name')
-                    ->label('Cơ sở')
-                    ->searchable()
-                    ->sortable(),
-                Tables\Columns\TextColumn::make('total_amount')
-                    ->label('Tổng tiền')
-                    ->numeric()
-                    ->money('VND')
-                    ,
-                Tables\Columns\TextColumn::make('created_at')
-                    ->label('Ngày tạo')
-                    ->dateTime()
-                    ->sortable()
-                   ,
-                Tables\Columns\TextColumn::make('updated_at')
-                    ->label('Ngày cập nhật')
-                    ->dateTime()
-                    ->sortable()
-                    ->toggleable(isToggledHiddenByDefault: true),
-            ])
-            ->filters([
-                //
+                Tables\Columns\TextColumn::make('invoice_code')->label('Mã hóa đơn')->searchable(),
+                Tables\Columns\TextColumn::make('restaurant.name')->label('Cơ sở')->searchable()->sortable(),
+                Tables\Columns\TextColumn::make('total_amount')->label('Tổng tiền')->numeric()->money('VND'),
+                Tables\Columns\TextColumn::make('status')->label('Trạng thái')->badge(),
+                Tables\Columns\TextColumn::make('created_at')->label('Ngày tạo')->dateTime()->sortable(),
             ])
             ->actions([
                 Tables\Actions\ActionGroup::make([
                     Tables\Actions\ViewAction::make()
-                        ->label('Xem'), // Đổi nhãn sang tiếng Việt
+                        ->label('Xem'),
                     Tables\Actions\EditAction::make()
-                        ->label('Chỉnh Sửa'), // Đổi nhãn sang tiếng Việt
+                        ->label('Chỉnh sửa'),
                     Tables\Actions\DeleteAction::make()
-                        ->label('Xóa'), // Đổi nhãn sang tiếng Việt
-                ])
+                        ->label('Xóa'),
+                    Tables\Actions\Action::make('print')
+                        ->label('In hóa đơn')
+                        ->icon('heroicon-o-printer')
+                        ->url(fn (Invoice $record) => route('invoices.print', $record))
+                        ->openUrlInNewTab(), // Mở file PDF trong tab mới
+                ]),
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
-                    Tables\Actions\DeleteBulkAction::make()
-                        ->label('Xóa'), // Đổi nhãn sang tiếng Việt
-                        ExportBulkAction::make()
-
+                    Tables\Actions\DeleteBulkAction::make()->label('Xóa'),
+                    ExportBulkAction::make(),
                 ]),
             ]);
     }
+
      public static function getNavigationBadge(): ?string
     {
         return static::getModel()::count();
@@ -115,7 +109,18 @@ class InvoiceResource extends Resource
     public static function getRelations(): array
     {
         return [
+            InvoiceItemsRelationManager::class,
         ];
+    }
+
+    public static function printInvoice(Invoice $invoice)
+    {
+        $pdf = Pdf::loadView('pdf.invoice', ['invoice' => $invoice]);
+
+        $filePath = 'invoices/invoice_' . $invoice->invoice_code . '.pdf';
+        Storage::put('public/' . $filePath, $pdf->output());
+
+        return Storage::url($filePath);
     }
 
     public static function getPages(): array

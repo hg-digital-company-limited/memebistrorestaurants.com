@@ -5,6 +5,7 @@ namespace App\Filament\Resources\MaterialTransactionResource\Pages;
 use App\Filament\Resources\MaterialTransactionResource;
 use Filament\Actions;
 use Filament\Resources\Pages\ListRecords;
+use pxlrbt\FilamentExcel\Actions\Pages\ExportAction;
 
 class ListMaterialTransactions extends ListRecords
 {

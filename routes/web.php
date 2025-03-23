@@ -1,5 +1,8 @@
 <?php
-
+use App\Http\Controllers\InvoiceController;
+use App\Models\Invoice;
+use Barryvdh\DomPDF\Facade\Pdf;
+use Illuminate\Support\Facades\Storage;
 
 use App\Livewire\EditAccount;
 use App\Livewire\Logout;
@@ -55,3 +58,4 @@ Route::get('/promotion', Promotion::class);
 Route::get('/promotion/{slug}', PromotionDetail::class);
 Route::get('/restaurant', Restaurants::class);
 Route::get('/restaurant/{id}', RestaurantDetail::class);
+Route::get('/invoices/{invoice}/print', [InvoiceController::class, 'print'])->name('invoices.print');
