@@ -107,7 +107,7 @@
                     </ul>
                 </div>
             </div>
-            <div id="woocommerce_product_categories-2" class="widget woocommerce widget_product_categories">
+            {{-- <div id="woocommerce_product_categories-2" class="widget woocommerce widget_product_categories">
                 <span class="gamma widget-title">Danh mục nhà hàng</span>
                 <div class="widget-content">
                     <ul class="product-categories">
@@ -120,7 +120,7 @@
 
                     </ul>
                 </div>
-            </div>
+            </div> --}}
 
             <div id="woocommerce_products-2" class="widget woocommerce widget_products"><span
                     class="gamma widget-title">Best Seller</span>

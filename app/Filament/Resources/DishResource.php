@@ -36,11 +36,11 @@ class DishResource extends Resource
                     ->tabs([
                         Forms\Components\Tabs\Tab::make('Chi tiết')
                             ->schema([
-                                Forms\Components\Select::make('restaurant_id')
-                                    ->relationship('restaurant', 'name')
-                                    ->label('Nhà hàng')
-                                    ->required()
-                                    ->columnSpanFull(),
+                                // Forms\Components\Select::make('restaurant_id')
+                                //     ->relationship('restaurant', 'name')
+                                //     ->label('Nhà hàng')
+                                //     ->required()
+                                //     ->columnSpanFull(),
                                 Forms\Components\Select::make('food_category_id')
                                     ->relationship('food_category', 'name')
                                     ->label('Danh mục món ăn')
@@ -106,6 +106,19 @@ class DishResource extends Resource
                                     ->createItemButtonLabel('Thêm nguyên liệu')
                                     ->columnSpanFull(),
                             ]),
+                            Forms\Components\Tabs\Tab::make('Trạng thái món ăn')
+                            ->schema([
+                                Forms\Components\Select::make('status')
+                                    ->label('Trạng thái')
+                                    ->options([
+                                        'available' => 'Có sẵn',
+                                        'unavailable' => 'Không có sẵn',
+                                    ])
+                                    ->default('available')
+                                    ->required()
+                                    ->columnSpanFull(),
+                            ]),
+
                     ])
                     ->columnSpanFull(), // Đặt chiều rộng cho toàn bộ tab
             ]);
@@ -125,15 +138,22 @@ class DishResource extends Resource
                 Tables\Columns\TextColumn::make('food_category.name')
                     ->label('Danh mục món ăn')
                     ->sortable(),
-                Tables\Columns\TextColumn::make('restaurant.name')
-                    ->label('Nhà hàng')
-                    ->sortable(),
+                // Tables\Columns\TextColumn::make('restaurant.name')
+                //     ->label('Nhà hàng')
+                //     ->sortable(),
                 Tables\Columns\TextColumn::make('name')
                     ->label('Tên món ăn')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('price')
                     ->label('Giá')
                     ->money('VND')
+                    ->sortable(),
+                Tables\Columns\TextColumn::make('status')
+                    ->label('Trạng thái')
+                    ->badge()
+                    ->formatStateUsing(function ($state) {
+                        return $state == 'available' ? 'Có sẵn' : 'Không có sẵn';
+                    })
                     ->sortable(),
                 Tables\Columns\TextColumn::make('created_at')
                     ->label('Ngày tạo')
