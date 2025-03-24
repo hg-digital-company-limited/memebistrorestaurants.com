@@ -75,7 +75,14 @@ class InvoiceResource extends Resource
                 Tables\Columns\TextColumn::make('invoice_code')->label('Mã hóa đơn')->searchable(),
                 Tables\Columns\TextColumn::make('restaurant.name')->label('Cơ sở')->searchable()->sortable(),
                 Tables\Columns\TextColumn::make('total_amount')->label('Tổng tiền')->numeric()->money('VND'),
-                Tables\Columns\TextColumn::make('status')->label('Trạng thái')->badge(),
+                Tables\Columns\TextColumn::make('status')->label('Trạng thái')->badge()->formatStateUsing(function ($state) {
+                    switch ($state) {
+                        case 'pending':
+                            return 'Chưa thanh toán';
+                        case 'paid':
+                            return 'Đã thanh toán';
+                    }
+                }),
                 Tables\Columns\TextColumn::make('created_at')->label('Ngày tạo')->dateTime()->sortable(),
             ])
             ->actions([

@@ -47,8 +47,8 @@ class OrderReceived extends Component
             // Add 5% of the total amount to the user's loyalty points
             $user = User::find($this->order->user_id); // Assuming order has a user_id field
             if ($user) {
-                $loyaltyPointsToAdd = $this->order->total_amount * 0.05;
-                $user->loyalty_points += $loyaltyPointsToAdd; // Increase loyalty points
+                // $loyaltyPointsToAdd = $this->order->total_amount * 0.05;
+                // $user->loyalty_points += $loyaltyPointsToAdd; // Increase loyalty points
                 $user->save(); // Save the user
             }
             $this->order->payment_status = 'paid';

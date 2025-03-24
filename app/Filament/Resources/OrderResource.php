@@ -111,6 +111,23 @@ class OrderResource extends Resource
                     ->label('Email'),
                 Tables\Columns\TextColumn::make('status')
                     ->badge()
+                    ->formatStateUsing(function ($state) {
+                        switch ($state) {
+
+                            case 'pending':
+                                return 'Đang chờ';
+                            case 'confirmed':
+                                return 'Đã xác nhận';
+                            case 'preparing':
+                                return 'Đang chuẩn bị';
+                            case 'on_the_way':
+                                return 'Đang giao hàng';
+                            case 'delivered':
+                                return 'Đã giao hàng';
+                            case 'canceled':
+                                return 'Đã hủy';
+                        }
+                    })
                     ->label('Trạng thái'),
                 Tables\Columns\TextColumn::make('total_amount')
                     ->numeric()
@@ -121,6 +138,14 @@ class OrderResource extends Resource
                     ->label('Phương thức thanh toán'),
                 Tables\Columns\TextColumn::make('payment_status')
                     ->badge()
+                    ->formatStateUsing(function ($state) {
+                        switch ($state) {
+                            case 'unpaid':
+                                return 'Chưa thanh toán';
+                            case 'paid':
+                                return 'Đã thanh toán';
+                        }
+                    })
                     ->label('Trạng thái thanh toán'),
                 Tables\Columns\TextColumn::make('phone')
                     ->label('Số điện thoại'),

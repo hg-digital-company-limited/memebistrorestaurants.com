@@ -61,9 +61,10 @@ class Shop extends Component
         }
 
         $dishes = $query->whereBetween('price', [$this->price_min, $this->price_max])
+            ->where('status', 'available')
             ->orderBy($this->sort_by, $this->sort_direction)
             ->paginate(9);
-            $topSellingDishes = Dish::orderBy('sold_quantity', 'desc')->take(4)->get();
+        $topSellingDishes = Dish::orderBy('sold_quantity', 'desc')->where('status', 'available')->take(4)->get();
         $categories = FoodCategory::withCount('dishes')->get();
         return view('livewire.shop.shop', [
             'dishes' => $dishes,

@@ -93,13 +93,22 @@ class TableResource extends Resource
 
                     Tables\Columns\TextColumn::make('status')
                     ->label('Trạng thái')
+                    ->formatStateUsing(function ($state) {
+                        switch ($state) {
+                            case 'available':
+                                return 'Có sẵn';
+                            case 'occupied':
+                                return 'Đã sử dụng';
+                            case 'reserved':
+                                return 'Đã đặt';
+                        }
+                    })
                     ->badge(fn($record) => match ($record->status) {
                         'available' => 'success',
                         'occupied' => 'danger',
                         'reserved' => 'warning',
-                        default => 'secondary', // Fallback for undefined statuses
                     })
-                   ,
+                    ,
                     Tables\Columns\TextColumn::make('reservation.reservation_code')
                     ->label('Mã đặt bàn')
                     ->searchable()

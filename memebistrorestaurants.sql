@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Mar 24, 2025 at 01:02 PM
+-- Generation Time: Mar 24, 2025 at 01:32 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.2.27
 
@@ -104,7 +104,7 @@ CREATE TABLE `customers` (
 --
 
 INSERT INTO `customers` (`id`, `user_id`, `name`, `address`, `phone`, `is_locked`, `loyalty_points`, `created_at`, `updated_at`) VALUES
-(1, 1, 'Trần Lê Huy Hoàng fix', 'Quận 12, HCM a', '0999999999 a', 1, 9999, '2025-03-23 02:19:30', '2025-03-24 12:52:22');
+(1, 1, 'Trần Lê Huy Hoàng fix', 'Quận 12, HCM a', '0999999999 a', 1, 30499, '2025-03-23 02:19:30', '2025-03-24 13:26:38');
 
 -- --------------------------------------------------------
 
@@ -131,75 +131,75 @@ CREATE TABLE `dishes` (
 --
 
 INSERT INTO `dishes` (`id`, `name`, `description`, `price`, `created_at`, `updated_at`, `food_category_id`, `image`, `slug`, `sold_quantity`, `status`) VALUES
-(12, 'Gỏi tôm và sốt chanh tuyết', 'Gỏi tôm và sốt chanh tuyết', '245000.00', '2025-03-19 02:39:17', '2025-03-24 13:01:55', 2, 'goi-tom-va-sot-chanh-tuyet-1742351957.jpeg', 'goi-tom-va-sot-chanh-tuyet', 0, 'available'),
-(13, 'Lưỡi bò nướng chấm trứng lòng đào mắm tỏi và mắm me', 'Lưỡi bò nướng chấm trứng lòng đào mắm tỏi và mắm me', '205000.00', '2025-03-19 02:39:18', '2025-03-19 02:39:18', 2, 'luoi-bo-nuong-cham-trung-long-dao-mam-toi-va-mam-me-1742351958.jpeg', 'luoi-bo-nuong-cham-trung-long-dao-mam-toi-va-mam-me', 0, NULL),
-(14, 'Mực chiên trứng muối', 'Mực chiên trứng muối', '170000.00', '2025-03-19 02:39:19', '2025-03-19 02:39:19', 2, 'muc-chien-trung-muoi-1742351959.jpeg', 'muc-chien-trung-muoi', 0, NULL),
-(15, 'Xiên sườn bò Black Angus Mỹ nướng sốt Satay', 'Xiên sườn bò Black Angus Mỹ nướng sốt Satay', '175000.00', '2025-03-19 02:39:20', '2025-03-19 02:39:20', 2, 'xien-suon-bo-black-angus-my-nuong-sot-satay-1742351960.jpeg', 'xien-suon-bo-black-angus-my-nuong-sot-satay', 0, NULL),
-(16, 'Xiên Heo nướng ăn kèm bánh mì bơ dừa', 'Xiên Heo nướng ăn kèm bánh mì bơ dừa', '135000.00', '2025-03-19 02:39:21', '2025-03-19 02:39:21', 2, 'xien-heo-nuong-an-kem-banh-mi-bo-dua-1742351961.jpeg', 'xien-heo-nuong-an-kem-banh-mi-bo-dua', 0, NULL),
-(17, 'Gỏi phile cá diêu hồng kiểu Thái', 'Gỏi phile cá diêu hồng kiểu Thái', '195000.00', '2025-03-19 02:39:23', '2025-03-19 02:39:23', 2, 'goi-phile-ca-dieu-hong-kieu-thai-1742351963.png', 'goi-phile-ca-dieu-hong-kieu-thai', 0, NULL),
-(18, 'Cánh gà chiên kiểu Bangkok', 'Cánh gà chiên kiểu Bangkok', '110000.00', '2025-03-19 02:39:23', '2025-03-19 02:39:23', 2, 'canh-ga-chien-kieu-bangkok-1742351963.jpeg', 'canh-ga-chien-kieu-bangkok', 0, NULL),
-(19, 'Cánh gà chiên sốt Tom Yum', 'Cánh gà chiên sốt Tom Yum', '115000.00', '2025-03-19 02:39:24', '2025-03-19 02:39:24', 2, 'canh-ga-chien-sot-tom-yum-1742351964.jpeg', 'canh-ga-chien-sot-tom-yum', 0, NULL),
-(20, 'Ngao hấp bia Chang và lá chanh Thái', 'Ngao hấp bia Chang và lá chanh Thái', '145000.00', '2025-03-19 02:39:25', '2025-03-19 02:39:25', 2, 'ngao-hap-bia-chang-va-la-chanh-thai-1742351965.jpeg', 'ngao-hap-bia-chang-va-la-chanh-thai', 0, NULL),
-(21, 'Đậu hũ chiên sốt me', 'Đậu hũ chiên sốt me', '65000.00', '2025-03-19 02:39:26', '2025-03-19 02:39:26', 2, 'dau-hu-chien-sot-me-1742351966.jpeg', 'dau-hu-chien-sot-me', 0, NULL),
-(22, 'Gỏi trứng lòng đào trộn thịt bằm thính hành khô', 'Gỏi trứng lòng đào trộn thịt bằm thính hành khô', '110000.00', '2025-03-19 02:39:27', '2025-03-19 02:39:27', 2, 'goi-trung-long-dao-tron-thit-bam-thinh-hanh-kho-1742351967.jpeg', 'goi-trung-long-dao-tron-thit-bam-thinh-hanh-kho', 0, NULL),
-(23, 'Lạp heo phồng tôm', 'Lạp heo phồng tôm', '110000.00', '2025-03-19 02:39:28', '2025-03-19 02:39:28', 2, 'lap-heo-phong-tom-1742351968.jpeg', 'lap-heo-phong-tom', 0, NULL),
-(24, 'Thịt trâu lát mỏng tái chanh kiểu Thái', 'Thịt trâu lát mỏng tái chanh kiểu Thái', '150000.00', '2025-03-19 02:39:29', '2025-03-19 02:39:29', 2, 'thit-trau-lat-mong-tai-chanh-kieu-thai-1742351969.jpeg', 'thit-trau-lat-mong-tai-chanh-kieu-thai', 0, NULL),
-(25, 'Cơm cháy chấm sốt tôm thịt kiểu Thái', 'Cơm cháy chấm sốt tôm thịt kiểu Thái', '90000.00', '2025-03-19 02:39:29', '2025-03-19 02:39:29', 2, 'com-chay-cham-sot-tom-thit-kieu-thai-1742351969.jpeg', 'com-chay-cham-sot-tom-thit-kieu-thai', 0, NULL),
-(26, 'Nấm chiên giòn chua cay', 'Nấm chiên giòn chua cay', '75000.00', '2025-03-19 02:39:31', '2025-03-19 02:39:31', 2, 'nam-chien-gion-chua-cay-1742351971.jpeg', 'nam-chien-gion-chua-cay', 0, NULL),
-(27, 'Salad miến trộn hải sản cay', 'Salad miến trộn hải sản cay', '160000.00', '2025-03-19 02:39:32', '2025-03-19 02:39:32', 1, 'salad-mien-tron-hai-san-cay-1742351972.jpeg', 'salad-mien-tron-hai-san-cay', 0, NULL),
-(28, 'Gỏi bưởi hạt điều và dừa khô', 'Gỏi bưởi hạt điều và dừa khô', '120000.00', '2025-03-19 02:39:32', '2025-03-19 02:39:32', 1, 'goi-buoi-hat-dieu-va-dua-kho-1742351972.jpeg', 'goi-buoi-hat-dieu-va-dua-kho', 0, NULL),
-(29, 'Cải làn xào thịt heo quay - Rau thay đổi theo mùa)', 'Cải làn xào thịt heo quay - Rau thay đổi theo mùa)', '115000.00', '2025-03-19 02:39:33', '2025-03-19 02:39:33', 1, 'cai-lan-xao-thit-heo-quay-rau-thay-doi-theo-mua-1742351973.jpeg', 'cai-lan-xao-thit-heo-quay-rau-thay-doi-theo-mua', 0, NULL),
-(30, 'Gỏi Ngô', 'Gỏi Ngô', '105000.00', '2025-03-19 02:39:35', '2025-03-19 02:39:35', 1, 'goi-ngo-1742351975.png', 'goi-ngo', 0, NULL),
-(31, 'Gỏi Cá Hồi', 'Gỏi Cá Hồi', '245000.00', '2025-03-19 02:39:36', '2025-03-19 02:39:36', 1, 'goi-ca-hoi-1742351976.jpeg', 'goi-ca-hoi', 0, NULL),
-(32, 'Gỏi roi trộn', 'Gỏi roi trộn', '120000.00', '2025-03-19 02:39:37', '2025-03-19 02:39:37', 1, 'goi-roi-tron-1742351977.png', 'goi-roi-tron', 0, NULL),
-(33, 'Gỏi sò huyết Thái', 'Gỏi sò huyết Thái', '260000.00', '2025-03-19 02:39:38', '2025-03-19 02:39:38', 1, 'goi-so-huyet-thai-1742351978.png', 'goi-so-huyet-thai', 0, NULL),
-(34, 'Súp Tom Yum với Tôm', 'Súp Tom Yum với Tôm', '120000.00', '2025-03-19 02:39:39', '2025-03-19 02:39:39', 3, 'sup-tom-yum-voi-tom-1742351979.jpeg', 'sup-tom-yum-voi-tom', 0, NULL),
-(35, 'Súp thịt gà nước cốt dừa', 'Súp thịt gà nước cốt dừa', '115000.00', '2025-03-19 02:39:42', '2025-03-19 02:39:42', 3, 'sup-thit-ga-nuoc-cot-dua-1742351982.jpeg', 'sup-thit-ga-nuoc-cot-dua', 0, NULL),
-(36, 'Súp Tom Yum nước trong với chân gà', 'Súp Tom Yum nước trong với chân gà', '120000.00', '2025-03-19 02:39:44', '2025-03-19 02:39:44', 3, 'sup-tom-yum-nuoc-trong-voi-chan-ga-1742351984.jpeg', 'sup-tom-yum-nuoc-trong-voi-chan-ga', 0, NULL),
-(37, 'Súp sườn cay', 'Súp sườn cay', '225000.00', '2025-03-19 02:39:45', '2025-03-19 02:39:45', 3, 'sup-suon-cay-1742351985.jpeg', 'sup-suon-cay', 0, NULL),
-(38, 'Súp xoài xanh cá điêu hồng chua cay', 'Súp xoài xanh cá điêu hồng chua cay', '130000.00', '2025-03-19 02:39:46', '2025-03-19 02:39:46', 3, 'sup-xoai-xanh-ca-dieu-hong-chua-cay-1742351986.jpeg', 'sup-xoai-xanh-ca-dieu-hong-chua-cay', 0, NULL),
-(39, 'Bò lúc lắc với lá chanh Thái và ớt khô', 'Bò lúc lắc với lá chanh Thái và ớt khô', '200000.00', '2025-03-19 02:39:47', '2025-03-19 02:39:47', 4, 'bo-luc-lac-voi-la-chanh-thai-va-ot-kho-1742351987.jpeg', 'bo-luc-lac-voi-la-chanh-thai-va-ot-kho', 0, NULL),
-(40, 'Nọng heo nướng chấm sốt me', 'Nọng heo nướng chấm sốt me', '210000.00', '2025-03-19 02:39:48', '2025-03-19 02:39:48', 4, 'nong-heo-nuong-cham-sot-me-1742351988.jpeg', 'nong-heo-nuong-cham-sot-me', 0, NULL),
-(41, '1/2 Gà nướng kiểu Bắc Thái ăn kèm với gỏi xoài', '1/2 Gà nướng kiểu Bắc Thái ăn kèm với gỏi xoài', '225000.00', '2025-03-19 02:39:49', '2025-03-19 02:39:49', 4, '12-ga-nuong-kieu-bac-thai-an-kem-voi-goi-xoai-1742351989.jpeg', '12-ga-nuong-kieu-bac-thai-an-kem-voi-goi-xoai', 0, NULL),
-(42, 'Sườn nướng mật ong với sốt Nam Jim Jaew', 'Sườn nướng mật ong với sốt Nam Jim Jaew', '260000.00', '2025-03-19 02:39:50', '2025-03-19 02:39:50', 4, 'suon-nuong-mat-ong-voi-sot-nam-jim-jaew-1742351990.jpeg', 'suon-nuong-mat-ong-voi-sot-nam-jim-jaew', 0, NULL),
-(43, 'Cua lột cà ri trứng muối', 'Cua lột cà ri trứng muối', '395000.00', '2025-03-19 02:39:51', '2025-03-19 02:39:51', 4, 'cua-lot-ca-ri-trung-muoi-1742351991.jpeg', 'cua-lot-ca-ri-trung-muoi', 0, NULL),
-(44, 'Cá điêu hồng hấp sốt chanh', 'Cá điêu hồng hấp sốt chanh', '335000.00', '2025-03-19 02:39:53', '2025-03-19 02:39:53', 4, 'ca-dieu-hong-hap-sot-chanh-1742351993.jpeg', 'ca-dieu-hong-hap-sot-chanh', 0, NULL),
-(45, 'Sườn cay (suất 2 người)', 'Sườn cay (suất 2 người)', '385000.00', '2025-03-19 02:39:55', '2025-03-19 02:39:55', 4, 'suon-cay-suat-2-nguoi-1742351995.jpeg', 'suon-cay-suat-2-nguoi', 0, NULL),
-(46, 'Padthai xào tôm với trứng chần', 'Padthai xào tôm với trứng chần', '155000.00', '2025-03-19 02:39:56', '2025-03-19 02:39:56', 5, 'padthai-xao-tom-voi-trung-chan-1742351996.png', 'padthai-xao-tom-voi-trung-chan', 0, NULL),
-(47, 'Phở bản to xào gà và tôm kiểu Thái sốt cay', 'Phở bản to xào gà và tôm kiểu Thái sốt cay', '110000.00', '2025-03-19 02:39:58', '2025-03-19 02:39:58', 5, 'pho-ban-to-xao-ga-va-tom-kieu-thai-sot-cay-1742351998.jpeg', 'pho-ban-to-xao-ga-va-tom-kieu-thai-sot-cay', 0, NULL),
-(48, 'Bún cà ri cua', 'Bún cà ri cua', '170000.00', '2025-03-19 02:39:59', '2025-03-19 02:39:59', 5, 'bun-ca-ri-cua-1742351999.jpeg', 'bun-ca-ri-cua', 0, NULL),
-(49, 'Phở bản to xào Bò với sốt xì dầu', 'Phở bản to xào Bò với sốt xì dầu', '140000.00', '2025-03-19 02:40:01', '2025-03-19 02:40:01', 5, 'pho-ban-to-xao-bo-voi-sot-xi-dau-1742352001.jpeg', 'pho-ban-to-xao-bo-voi-sot-xi-dau', 0, NULL),
-(50, 'Cơm thịt Gà xe BBQ, trứng muối và trái vải', 'Cơm thịt Gà xe BBQ, trứng muối và trái vải', '150000.00', '2025-03-19 02:40:03', '2025-03-19 02:40:03', 5, 'com-thit-ga-xe-bbq-trung-muoi-va-trai-vai-1742352003.png', 'com-thit-ga-xe-bbq-trung-muoi-va-trai-vai', 0, NULL),
-(51, 'Cơm chiên dứa tôm và hạt điều', 'Cơm chiên dứa tôm và hạt điều', '155000.00', '2025-03-19 02:40:04', '2025-03-19 02:40:04', 5, 'com-chien-dua-tom-va-hat-dieu-1742352004.jpeg', 'com-chien-dua-tom-va-hat-dieu', 0, NULL),
-(52, 'Cơm chiên sốt Tom Yum', 'Cơm chiên sốt Tom Yum', '150000.00', '2025-03-19 02:40:08', '2025-03-19 02:40:08', 5, 'com-chien-sot-tom-yum-1742352008.jpeg', 'com-chien-sot-tom-yum', 0, NULL),
-(53, 'Mỳ bò trộn kiểu Thái', 'Mỳ bò trộn kiểu Thái', '215000.00', '2025-03-19 02:40:09', '2025-03-19 02:40:09', 5, 'my-bo-tron-kieu-thai-1742352009.jpeg', 'my-bo-tron-kieu-thai', 0, NULL),
-(54, 'Cơm thịt heo bằm, mực xào lá quế và trứng ốp la', 'Cơm thịt heo bằm, mực xào lá quế và trứng ốp la', '135000.00', '2025-03-19 02:40:10', '2025-03-19 02:40:10', 5, 'com-thit-heo-bam-muc-xao-la-que-va-trung-op-la-1742352010.jpeg', 'com-thit-heo-bam-muc-xao-la-que-va-trung-op-la', 0, NULL),
-(55, 'Miếm om tay cầm', 'Miếm om tay cầm', '155000.00', '2025-03-19 02:40:11', '2025-03-19 02:40:11', 5, 'miem-om-tay-cam-1742352011.jpeg', 'miem-om-tay-cam', 0, NULL),
-(56, 'Cà ri vịt nướng trái vải và dứa', 'Cà ri vịt nướng trái vải và dứa', '260000.00', '2025-03-19 02:40:12', '2025-03-19 02:40:12', 6, 'ca-ri-vit-nuong-trai-vai-va-dua-1742352012.jpeg', 'ca-ri-vit-nuong-trai-vai-va-dua', 0, NULL),
-(57, 'Cà ri đỏ với tôm', 'Cà ri đỏ với tôm', '170000.00', '2025-03-19 02:40:13', '2025-03-19 02:40:13', 6, 'ca-ri-do-voi-tom-1742352013.jpeg', 'ca-ri-do-voi-tom', 0, NULL),
-(58, 'Cà ri xanh với nấm, đậu phụ và cà tím', 'Cà ri xanh với nấm, đậu phụ và cà tím', '110000.00', '2025-03-19 02:40:14', '2025-03-19 02:40:14', 6, 'ca-ri-xanh-voi-nam-dau-phu-va-ca-tim-1742352014.jpeg', 'ca-ri-xanh-voi-nam-dau-phu-va-ca-tim', 0, NULL),
-(59, 'Cà ri Massaman bò Úc khoai tây và hạt điều', 'Cà ri Massaman bò Úc khoai tây và hạt điều', '250000.00', '2025-03-19 02:40:15', '2025-03-19 02:40:15', 6, 'ca-ri-massaman-bo-uc-khoai-tay-va-hat-dieu-1742352015.png', 'ca-ri-massaman-bo-uc-khoai-tay-va-hat-dieu', 0, NULL),
-(60, 'Tôm cà ri trứng', 'Tôm cà ri trứng', '215000.00', '2025-03-19 02:40:16', '2025-03-19 02:40:16', 6, 'tom-ca-ri-trung-1742352016.jpeg', 'tom-ca-ri-trung', 0, NULL),
-(61, 'Cà ri sake', 'Cà ri sake', '155000.00', '2025-03-19 02:40:17', '2025-03-19 02:40:17', 6, 'ca-ri-sake-1742352017.jpeg', 'ca-ri-sake', 0, NULL),
-(62, 'Xôi xoài', 'Xôi xoài', '75000.00', '2025-03-19 02:40:19', '2025-03-19 02:40:19', 6, 'xoi-xoai-1742352019.png', 'xoi-xoai', 0, NULL),
-(63, 'Kem dừa nhà làm', 'Kem dừa nhà làm', '65000.00', '2025-03-19 02:40:20', '2025-03-19 02:40:20', 6, 'kem-dua-nha-lam-1742352020.jpeg', 'kem-dua-nha-lam', 0, NULL),
-(64, 'Kem đốt sầu riêng và nếp cẩm', 'Kem đốt sầu riêng và nếp cẩm', '100000.00', '2025-03-19 02:40:21', '2025-03-19 02:40:21', 6, 'kem-dot-sau-rieng-va-nep-cam-1742352021.jpeg', 'kem-dot-sau-rieng-va-nep-cam', 0, NULL),
-(65, 'Pudding sữa sốt xoài', 'Pudding sữa sốt xoài', '60000.00', '2025-03-19 02:40:22', '2025-03-19 02:40:22', 6, 'pudding-sua-sot-xoai-1742352022.jpeg', 'pudding-sua-sot-xoai', 0, NULL),
-(66, 'Cơm nọng heo nướng với gỏi đu đủ & soup gà cốt dừa', 'Cơm nọng heo nướng với gỏi đu đủ & soup gà cốt dừa', '120000.00', '2025-03-19 02:40:23', '2025-03-19 02:40:23', 8, 'com-nong-heo-nuong-voi-goi-du-du-soup-ga-cot-dua-1742352023.png', 'com-nong-heo-nuong-voi-goi-du-du-soup-ga-cot-dua', 0, NULL),
-(67, 'Padthai với gỏi đu đủ & soup gà cốt dừa', 'Padthai với gỏi đu đủ & soup gà cốt dừa', '120000.00', '2025-03-19 02:40:25', '2025-03-19 02:40:25', 8, 'padthai-voi-goi-du-du-soup-ga-cot-dua-1742352025.png', 'padthai-voi-goi-du-du-soup-ga-cot-dua', 0, NULL),
-(68, 'Cơm cải làn xào heo quay với gỏi đu đủ & soup Tomyum', 'Cơm cải làn xào heo quay với gỏi đu đủ & soup Tomyum', '120000.00', '2025-03-19 02:40:26', '2025-03-19 02:40:26', 8, 'com-cai-lan-xao-heo-quay-voi-goi-du-du-soup-tomyum-1742352026.png', 'com-cai-lan-xao-heo-quay-voi-goi-du-du-soup-tomyum', 0, NULL),
-(69, 'Cơm curry đỏ với soup gà cốt dừa', 'Cơm curry đỏ với soup gà cốt dừa', '120000.00', '2025-03-19 02:40:27', '2025-03-19 02:40:27', 8, 'com-curry-do-voi-soup-ga-cot-dua-1742352027.png', 'com-curry-do-voi-soup-ga-cot-dua', 0, NULL),
-(70, 'Cơm bò lúc lắc với gỏi đu đủ & soup gà cốt dừa', 'Cơm bò lúc lắc với gỏi đu đủ & soup gà cốt dừa', '120000.00', '2025-03-19 02:40:30', '2025-03-19 02:40:30', 8, 'com-bo-luc-lac-voi-goi-du-du-soup-ga-cot-dua-1742352030.png', 'com-bo-luc-lac-voi-goi-du-du-soup-ga-cot-dua', 0, NULL),
-(71, 'Cơm curry xanh với soup gà cốt dừa', 'Cơm curry xanh với soup gà cốt dừa', '120000.00', '2025-03-19 02:40:31', '2025-03-19 02:40:31', 8, 'com-curry-xanh-voi-soup-ga-cot-dua-1742352031.png', 'com-curry-xanh-voi-soup-ga-cot-dua', 0, NULL),
-(72, 'Cơm thịt gà xé BBQ, trứng muối & trái vải với gỏi đu đủ & soup gà cốt dừa', 'Cơm thịt gà xé BBQ, trứng muối & trái vải với gỏi đu đủ & soup gà cốt dừa', '120000.00', '2025-03-19 02:40:33', '2025-03-19 02:40:33', 8, 'com-thit-ga-xe-bbq-trung-muoi-trai-vai-voi-goi-du-du-soup-ga-cot-dua-1742352033.png', 'com-thit-ga-xe-bbq-trung-muoi-trai-vai-voi-goi-du-du-soup-ga-cot-dua', 0, NULL),
-(73, 'Set Thư Thái (2-3 người)', 'Set Thư Thái (2-3 người)', '450000.00', '2025-03-19 02:40:34', '2025-03-19 02:40:34', 9, 'set-thu-thai-2-3-nguoi-1742352034.jpeg', 'set-thu-thai-2-3-nguoi', 0, NULL),
-(74, 'Set Sẻ Chia (4-6 người)', 'Set Sẻ Chia (4-6 người)', '610000.00', '2025-03-19 02:40:36', '2025-03-19 02:40:36', 9, 'set-se-chia-4-6-nguoi-1742352036.jpeg', 'set-se-chia-4-6-nguoi', 0, NULL),
-(75, 'Set Sum Vầy (6-8 người)', 'Set Sum Vầy (6-8 người)', '800000.00', '2025-03-19 02:40:37', '2025-03-19 02:40:37', 9, 'set-sum-vay-6-8-nguoi-1742352037.jpeg', 'set-sum-vay-6-8-nguoi', 0, NULL),
-(76, 'Bí Đỏ Chiên Giòn', 'Bí Đỏ Chiên Giòn', '75000.00', '2025-03-19 02:40:37', '2025-03-19 02:40:37', 10, 'bi-do-chien-gion-1742352037.jpeg', 'bi-do-chien-gion', 0, NULL),
-(77, 'Gỏi Má Heo nướng Ngó Sen', 'Gỏi Má Heo nướng Ngó Sen', '145000.00', '2025-03-19 02:40:38', '2025-03-19 02:40:38', 10, 'goi-ma-heo-nuong-ngo-sen-1742352038.jpeg', 'goi-ma-heo-nuong-ngo-sen', 0, NULL),
-(78, 'Lạp Bò với Tuỷ Bò nướng xúc Bánh Đa', 'Lạp Bò với Tuỷ Bò nướng xúc Bánh Đa', '135000.00', '2025-03-19 02:40:40', '2025-03-19 02:40:40', 10, 'lap-bo-voi-tuy-bo-nuong-xuc-banh-da-1742352040.jpeg', 'lap-bo-voi-tuy-bo-nuong-xuc-banh-da', 0, NULL),
-(79, 'Gà chiên giòn ăn kèm Gỏi Xoài chua ngọt', 'Gà chiên giòn ăn kèm Gỏi Xoài chua ngọt', '155000.00', '2025-03-19 02:40:41', '2025-03-19 02:40:41', 10, 'ga-chien-gion-an-kem-goi-xoai-chua-ngot-1742352041.jpeg', 'ga-chien-gion-an-kem-goi-xoai-chua-ngot', 0, NULL),
-(80, 'Soup Tomyum Thịt bằm', 'Soup Tomyum Thịt bằm', '120000.00', '2025-03-19 02:40:42', '2025-03-19 02:40:42', 10, 'soup-tomyum-thit-bam-1742352042.jpeg', 'soup-tomyum-thit-bam', 0, NULL);
+(12, 'Gỏi tôm và sốt chanh tuyết', 'Gỏi tôm và sốt chanh tuyết', '245000.00', '2025-03-19 02:39:17', '2025-03-24 13:21:34', 2, 'goi-tom-va-sot-chanh-tuyet-1742351957.jpeg', 'goi-tom-va-sot-chanh-tuyet', 0, 'unavailable'),
+(13, 'Lưỡi bò nướng chấm trứng lòng đào mắm tỏi và mắm me', 'Lưỡi bò nướng chấm trứng lòng đào mắm tỏi và mắm me', '205000.00', '2025-03-19 02:39:18', '2025-03-19 02:39:18', 2, 'luoi-bo-nuong-cham-trung-long-dao-mam-toi-va-mam-me-1742351958.jpeg', 'luoi-bo-nuong-cham-trung-long-dao-mam-toi-va-mam-me', 0, 'available'),
+(14, 'Mực chiên trứng muối', 'Mực chiên trứng muối', '170000.00', '2025-03-19 02:39:19', '2025-03-19 02:39:19', 2, 'muc-chien-trung-muoi-1742351959.jpeg', 'muc-chien-trung-muoi', 0, 'available'),
+(15, 'Xiên sườn bò Black Angus Mỹ nướng sốt Satay', 'Xiên sườn bò Black Angus Mỹ nướng sốt Satay', '175000.00', '2025-03-19 02:39:20', '2025-03-19 02:39:20', 2, 'xien-suon-bo-black-angus-my-nuong-sot-satay-1742351960.jpeg', 'xien-suon-bo-black-angus-my-nuong-sot-satay', 0, 'available'),
+(16, 'Xiên Heo nướng ăn kèm bánh mì bơ dừa', 'Xiên Heo nướng ăn kèm bánh mì bơ dừa', '135000.00', '2025-03-19 02:39:21', '2025-03-19 02:39:21', 2, 'xien-heo-nuong-an-kem-banh-mi-bo-dua-1742351961.jpeg', 'xien-heo-nuong-an-kem-banh-mi-bo-dua', 0, 'available'),
+(17, 'Gỏi phile cá diêu hồng kiểu Thái', 'Gỏi phile cá diêu hồng kiểu Thái', '195000.00', '2025-03-19 02:39:23', '2025-03-19 02:39:23', 2, 'goi-phile-ca-dieu-hong-kieu-thai-1742351963.png', 'goi-phile-ca-dieu-hong-kieu-thai', 0, 'available'),
+(18, 'Cánh gà chiên kiểu Bangkok', 'Cánh gà chiên kiểu Bangkok', '110000.00', '2025-03-19 02:39:23', '2025-03-19 02:39:23', 2, 'canh-ga-chien-kieu-bangkok-1742351963.jpeg', 'canh-ga-chien-kieu-bangkok', 0, 'available'),
+(19, 'Cánh gà chiên sốt Tom Yum', 'Cánh gà chiên sốt Tom Yum', '115000.00', '2025-03-19 02:39:24', '2025-03-19 02:39:24', 2, 'canh-ga-chien-sot-tom-yum-1742351964.jpeg', 'canh-ga-chien-sot-tom-yum', 0, 'available'),
+(20, 'Ngao hấp bia Chang và lá chanh Thái', 'Ngao hấp bia Chang và lá chanh Thái', '145000.00', '2025-03-19 02:39:25', '2025-03-19 02:39:25', 2, 'ngao-hap-bia-chang-va-la-chanh-thai-1742351965.jpeg', 'ngao-hap-bia-chang-va-la-chanh-thai', 0, 'available'),
+(21, 'Đậu hũ chiên sốt me', 'Đậu hũ chiên sốt me', '65000.00', '2025-03-19 02:39:26', '2025-03-19 02:39:26', 2, 'dau-hu-chien-sot-me-1742351966.jpeg', 'dau-hu-chien-sot-me', 0, 'available'),
+(22, 'Gỏi trứng lòng đào trộn thịt bằm thính hành khô', 'Gỏi trứng lòng đào trộn thịt bằm thính hành khô', '110000.00', '2025-03-19 02:39:27', '2025-03-19 02:39:27', 2, 'goi-trung-long-dao-tron-thit-bam-thinh-hanh-kho-1742351967.jpeg', 'goi-trung-long-dao-tron-thit-bam-thinh-hanh-kho', 0, 'available'),
+(23, 'Lạp heo phồng tôm', 'Lạp heo phồng tôm', '110000.00', '2025-03-19 02:39:28', '2025-03-19 02:39:28', 2, 'lap-heo-phong-tom-1742351968.jpeg', 'lap-heo-phong-tom', 0, 'available'),
+(24, 'Thịt trâu lát mỏng tái chanh kiểu Thái', 'Thịt trâu lát mỏng tái chanh kiểu Thái', '150000.00', '2025-03-19 02:39:29', '2025-03-19 02:39:29', 2, 'thit-trau-lat-mong-tai-chanh-kieu-thai-1742351969.jpeg', 'thit-trau-lat-mong-tai-chanh-kieu-thai', 0, 'available'),
+(25, 'Cơm cháy chấm sốt tôm thịt kiểu Thái', 'Cơm cháy chấm sốt tôm thịt kiểu Thái', '90000.00', '2025-03-19 02:39:29', '2025-03-19 02:39:29', 2, 'com-chay-cham-sot-tom-thit-kieu-thai-1742351969.jpeg', 'com-chay-cham-sot-tom-thit-kieu-thai', 0, 'available'),
+(26, 'Nấm chiên giòn chua cay', 'Nấm chiên giòn chua cay', '75000.00', '2025-03-19 02:39:31', '2025-03-19 02:39:31', 2, 'nam-chien-gion-chua-cay-1742351971.jpeg', 'nam-chien-gion-chua-cay', 0, 'available'),
+(27, 'Salad miến trộn hải sản cay', 'Salad miến trộn hải sản cay', '160000.00', '2025-03-19 02:39:32', '2025-03-19 02:39:32', 1, 'salad-mien-tron-hai-san-cay-1742351972.jpeg', 'salad-mien-tron-hai-san-cay', 0, 'available'),
+(28, 'Gỏi bưởi hạt điều và dừa khô', 'Gỏi bưởi hạt điều và dừa khô', '120000.00', '2025-03-19 02:39:32', '2025-03-19 02:39:32', 1, 'goi-buoi-hat-dieu-va-dua-kho-1742351972.jpeg', 'goi-buoi-hat-dieu-va-dua-kho', 0, 'available'),
+(29, 'Cải làn xào thịt heo quay - Rau thay đổi theo mùa)', 'Cải làn xào thịt heo quay - Rau thay đổi theo mùa)', '115000.00', '2025-03-19 02:39:33', '2025-03-19 02:39:33', 1, 'cai-lan-xao-thit-heo-quay-rau-thay-doi-theo-mua-1742351973.jpeg', 'cai-lan-xao-thit-heo-quay-rau-thay-doi-theo-mua', 0, 'available'),
+(30, 'Gỏi Ngô', 'Gỏi Ngô', '105000.00', '2025-03-19 02:39:35', '2025-03-19 02:39:35', 1, 'goi-ngo-1742351975.png', 'goi-ngo', 0, 'available'),
+(31, 'Gỏi Cá Hồi', 'Gỏi Cá Hồi', '245000.00', '2025-03-19 02:39:36', '2025-03-19 02:39:36', 1, 'goi-ca-hoi-1742351976.jpeg', 'goi-ca-hoi', 0, 'available'),
+(32, 'Gỏi roi trộn', 'Gỏi roi trộn', '120000.00', '2025-03-19 02:39:37', '2025-03-19 02:39:37', 1, 'goi-roi-tron-1742351977.png', 'goi-roi-tron', 0, 'available'),
+(33, 'Gỏi sò huyết Thái', 'Gỏi sò huyết Thái', '260000.00', '2025-03-19 02:39:38', '2025-03-19 02:39:38', 1, 'goi-so-huyet-thai-1742351978.png', 'goi-so-huyet-thai', 0, 'available'),
+(34, 'Súp Tom Yum với Tôm', 'Súp Tom Yum với Tôm', '120000.00', '2025-03-19 02:39:39', '2025-03-19 02:39:39', 3, 'sup-tom-yum-voi-tom-1742351979.jpeg', 'sup-tom-yum-voi-tom', 0, 'available'),
+(35, 'Súp thịt gà nước cốt dừa', 'Súp thịt gà nước cốt dừa', '115000.00', '2025-03-19 02:39:42', '2025-03-19 02:39:42', 3, 'sup-thit-ga-nuoc-cot-dua-1742351982.jpeg', 'sup-thit-ga-nuoc-cot-dua', 0, 'available'),
+(36, 'Súp Tom Yum nước trong với chân gà', 'Súp Tom Yum nước trong với chân gà', '120000.00', '2025-03-19 02:39:44', '2025-03-19 02:39:44', 3, 'sup-tom-yum-nuoc-trong-voi-chan-ga-1742351984.jpeg', 'sup-tom-yum-nuoc-trong-voi-chan-ga', 0, 'available'),
+(37, 'Súp sườn cay', 'Súp sườn cay', '225000.00', '2025-03-19 02:39:45', '2025-03-19 02:39:45', 3, 'sup-suon-cay-1742351985.jpeg', 'sup-suon-cay', 0, 'available'),
+(38, 'Súp xoài xanh cá điêu hồng chua cay', 'Súp xoài xanh cá điêu hồng chua cay', '130000.00', '2025-03-19 02:39:46', '2025-03-19 02:39:46', 3, 'sup-xoai-xanh-ca-dieu-hong-chua-cay-1742351986.jpeg', 'sup-xoai-xanh-ca-dieu-hong-chua-cay', 0, 'available'),
+(39, 'Bò lúc lắc với lá chanh Thái và ớt khô', 'Bò lúc lắc với lá chanh Thái và ớt khô', '200000.00', '2025-03-19 02:39:47', '2025-03-19 02:39:47', 4, 'bo-luc-lac-voi-la-chanh-thai-va-ot-kho-1742351987.jpeg', 'bo-luc-lac-voi-la-chanh-thai-va-ot-kho', 0, 'available'),
+(40, 'Nọng heo nướng chấm sốt me', 'Nọng heo nướng chấm sốt me', '210000.00', '2025-03-19 02:39:48', '2025-03-19 02:39:48', 4, 'nong-heo-nuong-cham-sot-me-1742351988.jpeg', 'nong-heo-nuong-cham-sot-me', 0, 'available'),
+(41, '1/2 Gà nướng kiểu Bắc Thái ăn kèm với gỏi xoài', '1/2 Gà nướng kiểu Bắc Thái ăn kèm với gỏi xoài', '225000.00', '2025-03-19 02:39:49', '2025-03-19 02:39:49', 4, '12-ga-nuong-kieu-bac-thai-an-kem-voi-goi-xoai-1742351989.jpeg', '12-ga-nuong-kieu-bac-thai-an-kem-voi-goi-xoai', 0, 'available'),
+(42, 'Sườn nướng mật ong với sốt Nam Jim Jaew', 'Sườn nướng mật ong với sốt Nam Jim Jaew', '260000.00', '2025-03-19 02:39:50', '2025-03-19 02:39:50', 4, 'suon-nuong-mat-ong-voi-sot-nam-jim-jaew-1742351990.jpeg', 'suon-nuong-mat-ong-voi-sot-nam-jim-jaew', 0, 'available'),
+(43, 'Cua lột cà ri trứng muối', 'Cua lột cà ri trứng muối', '395000.00', '2025-03-19 02:39:51', '2025-03-19 02:39:51', 4, 'cua-lot-ca-ri-trung-muoi-1742351991.jpeg', 'cua-lot-ca-ri-trung-muoi', 0, 'available'),
+(44, 'Cá điêu hồng hấp sốt chanh', 'Cá điêu hồng hấp sốt chanh', '335000.00', '2025-03-19 02:39:53', '2025-03-19 02:39:53', 4, 'ca-dieu-hong-hap-sot-chanh-1742351993.jpeg', 'ca-dieu-hong-hap-sot-chanh', 0, 'available'),
+(45, 'Sườn cay (suất 2 người)', 'Sườn cay (suất 2 người)', '385000.00', '2025-03-19 02:39:55', '2025-03-19 02:39:55', 4, 'suon-cay-suat-2-nguoi-1742351995.jpeg', 'suon-cay-suat-2-nguoi', 0, 'available'),
+(46, 'Padthai xào tôm với trứng chần', 'Padthai xào tôm với trứng chần', '155000.00', '2025-03-19 02:39:56', '2025-03-19 02:39:56', 5, 'padthai-xao-tom-voi-trung-chan-1742351996.png', 'padthai-xao-tom-voi-trung-chan', 0, 'available'),
+(47, 'Phở bản to xào gà và tôm kiểu Thái sốt cay', 'Phở bản to xào gà và tôm kiểu Thái sốt cay', '110000.00', '2025-03-19 02:39:58', '2025-03-19 02:39:58', 5, 'pho-ban-to-xao-ga-va-tom-kieu-thai-sot-cay-1742351998.jpeg', 'pho-ban-to-xao-ga-va-tom-kieu-thai-sot-cay', 0, 'available'),
+(48, 'Bún cà ri cua', 'Bún cà ri cua', '170000.00', '2025-03-19 02:39:59', '2025-03-19 02:39:59', 5, 'bun-ca-ri-cua-1742351999.jpeg', 'bun-ca-ri-cua', 0, 'available'),
+(49, 'Phở bản to xào Bò với sốt xì dầu', 'Phở bản to xào Bò với sốt xì dầu', '140000.00', '2025-03-19 02:40:01', '2025-03-19 02:40:01', 5, 'pho-ban-to-xao-bo-voi-sot-xi-dau-1742352001.jpeg', 'pho-ban-to-xao-bo-voi-sot-xi-dau', 0, 'available'),
+(50, 'Cơm thịt Gà xe BBQ, trứng muối và trái vải', 'Cơm thịt Gà xe BBQ, trứng muối và trái vải', '150000.00', '2025-03-19 02:40:03', '2025-03-19 02:40:03', 5, 'com-thit-ga-xe-bbq-trung-muoi-va-trai-vai-1742352003.png', 'com-thit-ga-xe-bbq-trung-muoi-va-trai-vai', 0, 'available'),
+(51, 'Cơm chiên dứa tôm và hạt điều', 'Cơm chiên dứa tôm và hạt điều', '155000.00', '2025-03-19 02:40:04', '2025-03-19 02:40:04', 5, 'com-chien-dua-tom-va-hat-dieu-1742352004.jpeg', 'com-chien-dua-tom-va-hat-dieu', 0, 'available'),
+(52, 'Cơm chiên sốt Tom Yum', 'Cơm chiên sốt Tom Yum', '150000.00', '2025-03-19 02:40:08', '2025-03-19 02:40:08', 5, 'com-chien-sot-tom-yum-1742352008.jpeg', 'com-chien-sot-tom-yum', 0, 'available'),
+(53, 'Mỳ bò trộn kiểu Thái', 'Mỳ bò trộn kiểu Thái', '215000.00', '2025-03-19 02:40:09', '2025-03-19 02:40:09', 5, 'my-bo-tron-kieu-thai-1742352009.jpeg', 'my-bo-tron-kieu-thai', 0, 'available'),
+(54, 'Cơm thịt heo bằm, mực xào lá quế và trứng ốp la', 'Cơm thịt heo bằm, mực xào lá quế và trứng ốp la', '135000.00', '2025-03-19 02:40:10', '2025-03-19 02:40:10', 5, 'com-thit-heo-bam-muc-xao-la-que-va-trung-op-la-1742352010.jpeg', 'com-thit-heo-bam-muc-xao-la-que-va-trung-op-la', 0, 'available'),
+(55, 'Miếm om tay cầm', 'Miếm om tay cầm', '155000.00', '2025-03-19 02:40:11', '2025-03-19 02:40:11', 5, 'miem-om-tay-cam-1742352011.jpeg', 'miem-om-tay-cam', 0, 'available'),
+(56, 'Cà ri vịt nướng trái vải và dứa', 'Cà ri vịt nướng trái vải và dứa', '260000.00', '2025-03-19 02:40:12', '2025-03-19 02:40:12', 6, 'ca-ri-vit-nuong-trai-vai-va-dua-1742352012.jpeg', 'ca-ri-vit-nuong-trai-vai-va-dua', 0, 'available'),
+(57, 'Cà ri đỏ với tôm', 'Cà ri đỏ với tôm', '170000.00', '2025-03-19 02:40:13', '2025-03-19 02:40:13', 6, 'ca-ri-do-voi-tom-1742352013.jpeg', 'ca-ri-do-voi-tom', 0, 'available'),
+(58, 'Cà ri xanh với nấm, đậu phụ và cà tím', 'Cà ri xanh với nấm, đậu phụ và cà tím', '110000.00', '2025-03-19 02:40:14', '2025-03-19 02:40:14', 6, 'ca-ri-xanh-voi-nam-dau-phu-va-ca-tim-1742352014.jpeg', 'ca-ri-xanh-voi-nam-dau-phu-va-ca-tim', 0, 'available'),
+(59, 'Cà ri Massaman bò Úc khoai tây và hạt điều', 'Cà ri Massaman bò Úc khoai tây và hạt điều', '250000.00', '2025-03-19 02:40:15', '2025-03-19 02:40:15', 6, 'ca-ri-massaman-bo-uc-khoai-tay-va-hat-dieu-1742352015.png', 'ca-ri-massaman-bo-uc-khoai-tay-va-hat-dieu', 0, 'available'),
+(60, 'Tôm cà ri trứng', 'Tôm cà ri trứng', '215000.00', '2025-03-19 02:40:16', '2025-03-19 02:40:16', 6, 'tom-ca-ri-trung-1742352016.jpeg', 'tom-ca-ri-trung', 0, 'available'),
+(61, 'Cà ri sake', 'Cà ri sake', '155000.00', '2025-03-19 02:40:17', '2025-03-19 02:40:17', 6, 'ca-ri-sake-1742352017.jpeg', 'ca-ri-sake', 0, 'available'),
+(62, 'Xôi xoài', 'Xôi xoài', '75000.00', '2025-03-19 02:40:19', '2025-03-19 02:40:19', 6, 'xoi-xoai-1742352019.png', 'xoi-xoai', 0, 'available'),
+(63, 'Kem dừa nhà làm', 'Kem dừa nhà làm', '65000.00', '2025-03-19 02:40:20', '2025-03-19 02:40:20', 6, 'kem-dua-nha-lam-1742352020.jpeg', 'kem-dua-nha-lam', 0, 'available'),
+(64, 'Kem đốt sầu riêng và nếp cẩm', 'Kem đốt sầu riêng và nếp cẩm', '100000.00', '2025-03-19 02:40:21', '2025-03-19 02:40:21', 6, 'kem-dot-sau-rieng-va-nep-cam-1742352021.jpeg', 'kem-dot-sau-rieng-va-nep-cam', 0, 'available'),
+(65, 'Pudding sữa sốt xoài', 'Pudding sữa sốt xoài', '60000.00', '2025-03-19 02:40:22', '2025-03-19 02:40:22', 6, 'pudding-sua-sot-xoai-1742352022.jpeg', 'pudding-sua-sot-xoai', 0, 'available'),
+(66, 'Cơm nọng heo nướng với gỏi đu đủ & soup gà cốt dừa', 'Cơm nọng heo nướng với gỏi đu đủ & soup gà cốt dừa', '120000.00', '2025-03-19 02:40:23', '2025-03-19 02:40:23', 8, 'com-nong-heo-nuong-voi-goi-du-du-soup-ga-cot-dua-1742352023.png', 'com-nong-heo-nuong-voi-goi-du-du-soup-ga-cot-dua', 0, 'available'),
+(67, 'Padthai với gỏi đu đủ & soup gà cốt dừa', 'Padthai với gỏi đu đủ & soup gà cốt dừa', '120000.00', '2025-03-19 02:40:25', '2025-03-19 02:40:25', 8, 'padthai-voi-goi-du-du-soup-ga-cot-dua-1742352025.png', 'padthai-voi-goi-du-du-soup-ga-cot-dua', 0, 'available'),
+(68, 'Cơm cải làn xào heo quay với gỏi đu đủ & soup Tomyum', 'Cơm cải làn xào heo quay với gỏi đu đủ & soup Tomyum', '120000.00', '2025-03-19 02:40:26', '2025-03-19 02:40:26', 8, 'com-cai-lan-xao-heo-quay-voi-goi-du-du-soup-tomyum-1742352026.png', 'com-cai-lan-xao-heo-quay-voi-goi-du-du-soup-tomyum', 0, 'available'),
+(69, 'Cơm curry đỏ với soup gà cốt dừa', 'Cơm curry đỏ với soup gà cốt dừa', '120000.00', '2025-03-19 02:40:27', '2025-03-19 02:40:27', 8, 'com-curry-do-voi-soup-ga-cot-dua-1742352027.png', 'com-curry-do-voi-soup-ga-cot-dua', 0, 'available'),
+(70, 'Cơm bò lúc lắc với gỏi đu đủ & soup gà cốt dừa', 'Cơm bò lúc lắc với gỏi đu đủ & soup gà cốt dừa', '120000.00', '2025-03-19 02:40:30', '2025-03-19 02:40:30', 8, 'com-bo-luc-lac-voi-goi-du-du-soup-ga-cot-dua-1742352030.png', 'com-bo-luc-lac-voi-goi-du-du-soup-ga-cot-dua', 0, 'available'),
+(71, 'Cơm curry xanh với soup gà cốt dừa', 'Cơm curry xanh với soup gà cốt dừa', '120000.00', '2025-03-19 02:40:31', '2025-03-19 02:40:31', 8, 'com-curry-xanh-voi-soup-ga-cot-dua-1742352031.png', 'com-curry-xanh-voi-soup-ga-cot-dua', 0, 'available'),
+(72, 'Cơm thịt gà xé BBQ, trứng muối & trái vải với gỏi đu đủ & soup gà cốt dừa', 'Cơm thịt gà xé BBQ, trứng muối & trái vải với gỏi đu đủ & soup gà cốt dừa', '120000.00', '2025-03-19 02:40:33', '2025-03-19 02:40:33', 8, 'com-thit-ga-xe-bbq-trung-muoi-trai-vai-voi-goi-du-du-soup-ga-cot-dua-1742352033.png', 'com-thit-ga-xe-bbq-trung-muoi-trai-vai-voi-goi-du-du-soup-ga-cot-dua', 0, 'available'),
+(73, 'Set Thư Thái (2-3 người)', 'Set Thư Thái (2-3 người)', '450000.00', '2025-03-19 02:40:34', '2025-03-19 02:40:34', 9, 'set-thu-thai-2-3-nguoi-1742352034.jpeg', 'set-thu-thai-2-3-nguoi', 0, 'available'),
+(74, 'Set Sẻ Chia (4-6 người)', 'Set Sẻ Chia (4-6 người)', '610000.00', '2025-03-19 02:40:36', '2025-03-19 02:40:36', 9, 'set-se-chia-4-6-nguoi-1742352036.jpeg', 'set-se-chia-4-6-nguoi', 0, 'available'),
+(75, 'Set Sum Vầy (6-8 người)', 'Set Sum Vầy (6-8 người)', '800000.00', '2025-03-19 02:40:37', '2025-03-19 02:40:37', 9, 'set-sum-vay-6-8-nguoi-1742352037.jpeg', 'set-sum-vay-6-8-nguoi', 0, 'available'),
+(76, 'Bí Đỏ Chiên Giòn', 'Bí Đỏ Chiên Giòn', '75000.00', '2025-03-19 02:40:37', '2025-03-19 02:40:37', 10, 'bi-do-chien-gion-1742352037.jpeg', 'bi-do-chien-gion', 0, 'available'),
+(77, 'Gỏi Má Heo nướng Ngó Sen', 'Gỏi Má Heo nướng Ngó Sen', '145000.00', '2025-03-19 02:40:38', '2025-03-19 02:40:38', 10, 'goi-ma-heo-nuong-ngo-sen-1742352038.jpeg', 'goi-ma-heo-nuong-ngo-sen', 0, 'available'),
+(78, 'Lạp Bò với Tuỷ Bò nướng xúc Bánh Đa', 'Lạp Bò với Tuỷ Bò nướng xúc Bánh Đa', '135000.00', '2025-03-19 02:40:40', '2025-03-19 02:40:40', 10, 'lap-bo-voi-tuy-bo-nuong-xuc-banh-da-1742352040.jpeg', 'lap-bo-voi-tuy-bo-nuong-xuc-banh-da', 0, 'available'),
+(79, 'Gà chiên giòn ăn kèm Gỏi Xoài chua ngọt', 'Gà chiên giòn ăn kèm Gỏi Xoài chua ngọt', '155000.00', '2025-03-19 02:40:41', '2025-03-19 02:40:41', 10, 'ga-chien-gion-an-kem-goi-xoai-chua-ngot-1742352041.jpeg', 'ga-chien-gion-an-kem-goi-xoai-chua-ngot', 0, 'available'),
+(80, 'Soup Tomyum Thịt bằm', 'Soup Tomyum Thịt bằm', '120000.00', '2025-03-19 02:40:42', '2025-03-19 02:40:42', 10, 'soup-tomyum-thit-bam-1742352042.jpeg', 'soup-tomyum-thit-bam', 0, 'available');
 
 -- --------------------------------------------------------
 
@@ -494,6 +494,13 @@ CREATE TABLE `orders` (
   `notes` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Dumping data for table `orders`
+--
+
+INSERT INTO `orders` (`id`, `user_id`, `status`, `total_amount`, `payment_method`, `created_at`, `updated_at`, `payment_status`, `address`, `name`, `phone`, `email`, `order_code`, `notes`) VALUES
+(25, 1, 'delivered', '205000.00', 'cod', '2025-03-24 13:26:08', '2025-03-24 13:26:38', 'paid', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'ORDER_67E15D707155D', NULL);
+
 -- --------------------------------------------------------
 
 --
@@ -509,6 +516,13 @@ CREATE TABLE `order_items` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `order_items`
+--
+
+INSERT INTO `order_items` (`id`, `order_id`, `dish_id`, `quantity`, `price`, `created_at`, `updated_at`) VALUES
+(22, 25, 13, 1, '205000.00', '2025-03-24 13:26:08', '2025-03-24 13:26:08');
 
 -- --------------------------------------------------------
 
@@ -1054,7 +1068,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('BsxnoRgwM8ap6IadD0vINBJsYz3ptffGsqo30SiZ', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo3OntzOjM6InVybCI7YTowOnt9czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzQ6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbi9kaXNoZXMiO31zOjY6Il9mbGFzaCI7YToyOntzOjM6Im9sZCI7YTowOnt9czozOiJuZXciO2E6MDp7fX1zOjY6Il90b2tlbiI7czo0MDoiVlc1NmM1Q2hSMllRTXIzenBaYk1xNTRXbXdpV21VZU56eldjWEJCdiI7czoxNzoicGFzc3dvcmRfaGFzaF93ZWIiO3M6NjA6IiQyeSQxMiRhaVM5dU55a3pOVmI3bFF1QjhKdEkueERmMjdxODFqeEh4UUhnZ1JIbjRkMmdDZUpDWXlKcSI7czo4OiJmaWxhbWVudCI7YTowOnt9czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTt9', 1742821323);
+('BsxnoRgwM8ap6IadD0vINBJsYz3ptffGsqo30SiZ', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo3OntzOjM6InVybCI7YTowOnt9czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjc6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbiI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6NjoiX3Rva2VuIjtzOjQwOiJWVzU2YzVDaFIyWVFNcjN6cFpiTXE1NFdtd2lXbVVlTnp6V2NYQkJ2IjtzOjE3OiJwYXNzd29yZF9oYXNoX3dlYiI7czo2MDoiJDJ5JDEyJGFpUzl1Tnlrek5WYjdsUXVCOEp0SS54RGYyN3E4MWp4SHhRSGdnUkhuNGQyZ0NlSkNZeUpxIjtzOjg6ImZpbGFtZW50IjthOjA6e31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxO30=', 1742823171);
 
 -- --------------------------------------------------------
 
@@ -1418,13 +1432,13 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 
 --
 -- AUTO_INCREMENT for table `order_items`
 --
 ALTER TABLE `order_items`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
 --
 -- AUTO_INCREMENT for table `permissions`
