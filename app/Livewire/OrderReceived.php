@@ -14,7 +14,10 @@ class OrderReceived extends Component
     {
 
         $this->order = Order::where('order_code', request()->vnp_TxnRef)->first();
-
+        if(!$this->order){
+            session()->flash('message', 'Đơn hàng không tồn tại!');
+            return redirect('/');
+        }
         // Check if the order was found
         if (!$this->order) {
             session()->flash('message', 'Đơn hàng không tồn tại!');

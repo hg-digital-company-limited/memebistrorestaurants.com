@@ -35,7 +35,18 @@ class OrderResource extends Resource
                             ->relationship('user', 'name') // Kết nối với model User
                             ->required()
                             ->label('Người đặt'),
-
+                        Forms\Components\TextInput::make('name')
+                            ->required()
+                            ->label('Tên người đặt'),
+                        Forms\Components\TextInput::make('email')
+                            ->required()
+                            ->label('Email'),
+                        Forms\Components\TextInput::make('phone')
+                            ->required()
+                            ->label('Số điện thoại'),
+                        Forms\Components\TextInput::make('address')
+                            ->required()
+                            ->label('Địa chỉ giao hàng'),
                         Forms\Components\Select::make('status')
                             ->options([
                                 'pending' => 'Đang chờ',
@@ -89,11 +100,15 @@ class OrderResource extends Resource
                 Tables\Columns\TextColumn::make('order_code')
                     ->searchable()
                     ->label('Mã đơn hàng'),
-                Tables\Columns\TextColumn::make('user.name')
+                Tables\Columns\TextColumn::make('name')
                     ->numeric()
                     ->searchable()
                     ->sortable()
                     ->label('Tên người đặt'),
+                Tables\Columns\TextColumn::make('email')
+                    ->searchable()
+                    ->sortable()
+                    ->label('Email'),
                 Tables\Columns\TextColumn::make('status')
                     ->badge()
                     ->label('Trạng thái'),
@@ -107,6 +122,10 @@ class OrderResource extends Resource
                 Tables\Columns\TextColumn::make('payment_status')
                     ->badge()
                     ->label('Trạng thái thanh toán'),
+                Tables\Columns\TextColumn::make('phone')
+                    ->label('Số điện thoại'),
+                Tables\Columns\TextColumn::make('address')
+                    ->label('Địa chỉ giao hàng'),
                 Tables\Columns\TextColumn::make('created_at')
                     ->dateTime()
                     ->sortable()

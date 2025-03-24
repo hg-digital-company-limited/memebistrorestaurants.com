@@ -21,13 +21,11 @@ class Checkout extends Component
 
     public function mount()
     {
-        if (!Auth::check()) {
-            return redirect('/login');
-        }
-        $this->name = auth()->user()->name;
-        $this->email = auth()->user()->email;
-        $this->phone = auth()->user()->phone;
-        $this->address = auth()->user()->address;
+
+        $this->name = auth()->user()->name ?? '';
+        $this->email = auth()->user()->email ?? '';
+        $this->phone = auth()->user()->phone ?? '';
+        $this->address = auth()->user()->address ?? '';
         $this->cartItems = CartManagement::getCartItemsFromCookie();
         $this->paymentMethod = 'cod';
         if (empty($this->cartItems)) {
@@ -50,7 +48,7 @@ class Checkout extends Component
 
         // Create the order
         $order = Order::create([
-            'user_id' => auth()->id(), // Assuming users are authenticated
+            'user_id' => auth()->id() ?? null, // Assuming users are authenticated
             'total_amount' => $this->totalAmount,
             'address' => $this->address,
             'name' => $this->name,

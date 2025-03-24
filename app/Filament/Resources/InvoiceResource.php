@@ -52,11 +52,11 @@ class InvoiceResource extends Resource
                     ->options(Restaurant::all()->pluck('name', 'id'))
                     ->required()
                    ,
-                Forms\Components\TextInput::make('total_amount')
-                    ->label('Tổng tiền')
-                    ->required()
-                    ->numeric()
-                    ->suffix('VNĐ'),
+                // Forms\Components\TextInput::make('total_amount')
+                //     ->label('Tổng tiền')
+                //     ->required()
+                //     ->numeric()
+                //     ->suffix('VNĐ'),
                 Forms\Components\Select::make('status')
                     ->label('Trạng thái')
                     ->options([
