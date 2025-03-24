@@ -1207,9 +1207,9 @@
                                         data-id="901b06e" data-element_type="widget"
                                         data-widget_type="woocommerce-breadcrumb.default">
                                         <div class="elementor-widget-container">
-                                            <div class="delicioz-woocommerce-title">My account</div>
+                                            <div class="delicioz-woocommerce-title">Đăng nhập</div>
                                             <nav class="woocommerce-breadcrumb"><a href="/">Home Page</a><i
-                                                    class="delicioz-icon-arrow-right-s-line"></i>My account</nav>
+                                                    class="delicioz-icon-arrow-right-s-line"></i>Đăng nhập</nav>
                                         </div>
                                     </div>
                                 </div>

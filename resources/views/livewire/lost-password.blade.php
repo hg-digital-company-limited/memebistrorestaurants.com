@@ -3,15 +3,11 @@
 
     <head>
         <title>Quên mật khẩu</title>
-        <meta name='robots' content='max-image-preview:large, noindex, follow' />
         <link rel="dns-prefetch" href="//fonts.googleapis.com">
         <link rel="dns-prefetch" href="//s.w.org">
         <link rel='dns-prefetch' href='//demo2.themelexus.com' />
         <link rel='dns-prefetch' href='//fonts.googleapis.com' />
         <link rel='dns-prefetch' href='//s.w.org' />
-        <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Feed" href="/delicioz/feed/" />
-        <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Comments Feed"
-            href="/delicioz/comments/feed/" />
         <script>
             window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/demo2.themelexus.com\/delicioz\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.2" } };
             /*! This file is auto-generated */
@@ -1233,31 +1229,31 @@
                                 <div class="entry-content">
                                     <div class="woocommerce">
                                         <div class="woocommerce-notices-wrapper"></div>
-                                        <form method="post" class="woocommerce-ResetPassword lost_reset_password">
+                                        <form wire:submit.prevent="sendResetLink" class="woocommerce-ResetPassword lost_reset_password" style="
+                                        display: flex;
+                                        flex-direction: column;
+                                    ">
+                                            <p>Quên mật khẩu? Vui lòng nhập email của bạn. Chúng tôi sẽ gửi một liên kết để đặt lại mật khẩu.</p>
 
-                                            <p>Quên mật khẩu? Vui lòng nhập tên tài khoản hoặc địa chỉ email. Bạn sẽ nhận được một liên kết để tạo mật khẩu mới qua email.</p>
-                                            <p
-                                                class="woocommerce-form-row woocommerce-form-row--first form-row form-row-first">
-                                                <label for="user_login">Nhập Email đăng ký</label>
+                                            <p class="woocommerce-form-row woocommerce-form-row--first form-row form-row-first">
+                                                <label for="email">Nhập Email đăng ký</label>
                                                 <input class="woocommerce-Input woocommerce-Input--text input-text"
-                                                    type="text" name="user_login" id="user_login"
-                                                    autocomplete="username" />
+                                                       type="email" id="email" wire:model="email" required>
                                             </p>
 
-                                            <div class="clear"></div>
-
+                                            @error('email')
+                                                <span class="text-red-500">{{ $message }}</span>
+                                            @enderror
 
                                             <p class="woocommerce-form-row form-row">
-                                                <input type="hidden" name="wc_reset_password" value="true" />
-                                                <button type="submit" class="woocommerce-Button button"
-                                                    value="Reset password">Gửi yêu cầu</button>
+                                                <button type="submit" class="woocommerce-Button button">Gửi yêu cầu</button>
                                             </p>
 
-                                            <input type="hidden" id="woocommerce-lost-password-nonce"
-                                                name="woocommerce-lost-password-nonce" value="80242ce2c1" /><input
-                                                type="hidden" name="_wp_http_referer"
-                                                value="/lost-password/" />
+                                            @if(session()->has('success'))
+                                                <p class="text-green-500">{{ session('success') }}</p>
+                                            @endif
                                         </form>
+
                                     </div>
                                 </div><!-- .entry-content -->
                             </article><!-- #post-## -->
@@ -1285,77 +1281,8 @@
             window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
             window.RS_MODULES.type = 'compiled';
         </script>
-        <div class="site-search-popup">
-            <div class="site-search-popup-wrap">
-                <a href="#" class="site-search-popup-close"><i class="delicioz-icon-times-circle"></i></a>
-                <div class="site-search ajax-search">
-                    <div class="widget woocommerce widget_product_search">
-                        <div class="ajax-search-result d-none"></div>
-                        <form role="search" method="get" class="woocommerce-product-search" action="/delicioz/">
-                            <label class="screen-reader-text" for="woocommerce-product-search-field-1">Search
-                                for:</label>
-                            <input type="search" id="woocommerce-product-search-field-1" class="search-field"
-                                placeholder="Search products&hellip;" autocomplete="off" value="" name="s" />
-                            <button type="submit" value="Search">Search</button>
-                            <input type="hidden" name="post_type" value="product" />
-                            <div class="search-by-category input-dropdown">
-                                <div class="input-dropdown-inner delicioz-scroll-content">
-                                    <!--                    <input type="hidden" name="product_cat" value="0">-->
-                                    <a href="#" data-val="0"><span>All category</span></a>
-                                    <select name='product_cat' id='product_cat0' class='dropdown_product_cat_ajax'>
-                                        <option value='' selected='selected'>All category</option>
-                                        <option class="level-0" value="accessories">Accessories</option>
-                                        <option class="level-0" value="desserts">Desserts</option>
-                                        <option class="level-0" value="food">Food</option>
-                                        <option class="level-0" value="humburger">Humburger</option>
-                                        <option class="level-0" value="recipes">Recipes</option>
-                                        <option class="level-0" value="uncategorized">Uncategorized</option>
-                                        <option class="level-0" value="whiskey">Whiskey</option>
-                                    </select>
-                                    <div class="list-wrapper delicioz-scroll">
-                                        <ul class="delicioz-scroll-content">
-                                            <li class="d-none">
-                                                <a href="#" data-val="0">All category</a>
-                                            </li>
-                                            <li class="cat-item cat-item-42"><a class="pf-value"
-                                                    href="/delicioz/product-category/accessories/"
-                                                    data-val="accessories" data-title="Accessories">Accessories</a>
-                                            </li>
-                                            <li class="cat-item cat-item-35"><a class="pf-value"
-                                                    href="/delicioz/product-category/desserts/" data-val="desserts"
-                                                    data-title="Desserts">Desserts</a>
-                                            </li>
-                                            <li class="cat-item cat-item-38"><a class="pf-value"
-                                                    href="/delicioz/product-category/food/" data-val="food"
-                                                    data-title="Food">Food</a>
-                                            </li>
-                                            <li class="cat-item cat-item-40"><a class="pf-value"
-                                                    href="/delicioz/product-category/humburger/" data-val="humburger"
-                                                    data-title="Humburger">Humburger</a>
-                                            </li>
-                                            <li class="cat-item cat-item-39"><a class="pf-value"
-                                                    href="/delicioz/product-category/recipes/" data-val="recipes"
-                                                    data-title="Recipes">Recipes</a>
-                                            </li>
-                                            <li class="cat-item cat-item-15"><a class="pf-value"
-                                                    href="/delicioz/product-category/uncategorized/"
-                                                    data-val="uncategorized"
-                                                    data-title="Uncategorized">Uncategorized</a>
-                                            </li>
-                                            <li class="cat-item cat-item-37"><a class="pf-value"
-                                                    href="/delicioz/product-category/whiskey/" data-val="whiskey"
-                                                    data-title="Whiskey">Whiskey</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="site-search-popup-overlay"></div>
+             @livewire('inc.search')
+
         <script>(function () {
                 function maybePrefixUrlField() {
                     if (this.value.trim() !== '' && this.value.indexOf('http') !== 0) {

@@ -14,5 +14,15 @@
     {{ $slot }}
     @livewireScripts
 </body>
+<style>
 
+         img.hfe-site-logo-img.elementor-animation- {
+            height: 80px !important;
+        }
+    @media (max-width: 768px) {
+        img.hfe-site-logo-img.elementor-animation- {
+            height: 50px !important;
+        }
+    }
+</style>
 </html>

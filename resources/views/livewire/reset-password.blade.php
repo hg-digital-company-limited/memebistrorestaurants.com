@@ -1,16 +1,13 @@
 <div>
 
+
     <head>
-        <title>{{ $reservation->reservation_code }}</title>
+        <title>Quên mật khẩu</title>
         <link rel="dns-prefetch" href="//fonts.googleapis.com">
         <link rel="dns-prefetch" href="//s.w.org">
         <link rel='dns-prefetch' href='//demo2.themelexus.com' />
         <link rel='dns-prefetch' href='//fonts.googleapis.com' />
         <link rel='dns-prefetch' href='//s.w.org' />
-        <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Feed"
-            href="https://demo2.themelexus.com/delicioz/feed/" />
-        <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Comments Feed"
-            href="https://demo2.themelexus.com/delicioz/comments/feed/" />
         <script>
             window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/demo2.themelexus.com\/delicioz\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.2" } };
             /*! This file is auto-generated */
@@ -985,23 +982,26 @@
             href='/delicioz/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3'
             media='all' />
         <script type="text/template" id="tmpl-variation-template">
-    </script>
+</script>
         <script type="text/template" id="tmpl-unavailable-variation-template">
-        <p>Sorry, this product is unavailable. Please choose a different combination.</p>
-    </script>
+	<p>Sorry, this product is unavailable. Please choose a different combination.</p>
+</script>
         <script src='/delicioz/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
         <script src='/delicioz/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+        <script id='zxcvbn-async-js-extra'>
+            var _zxcvbnSettings = { "src": "https:\/\/demo2.themelexus.com\/delicioz\/wp-includes\/js\/zxcvbn.min.js" };
+        </script>
+        <script src='/delicioz/wp-includes/js/zxcvbn-async.min.js?ver=1.0' id='zxcvbn-async-js'></script>
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/jarallax.js?ver=6.0.2'
             id='jarallax-js'></script>
         <link rel="https://api.w.org/" href="/delicioz/wp-json/" />
         <link rel="alternate" type="application/json" href="/delicioz/wp-json/wp/v2/pages/12" />
-        <link rel="EditURI" type="application/rsd+xml" title="RSD"
-            href="https://demo2.themelexus.com/delicioz/xmlrpc.php?rsd" />
+        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/delicioz/xmlrpc.php?rsd" />
         <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/delicioz/wp-includes/wlwmanifest.xml" />
         <meta name="generator" content="WordPress 6.0.2" />
         <meta name="generator" content="WooCommerce 6.8.2" />
-        <link rel="canonical" href="https://demo2.themelexus.com/delicioz/my-account/" />
-        <link rel='shortlink' href='https://demo2.themelexus.com/delicioz/?p=12' />
+        <link rel="canonical" href="/my-account/" />
+        <link rel='shortlink' href='/delicioz/?p=12' />
         <link rel="alternate" type="application/json+oembed"
             href="/delicioz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo2.themelexus.com%2Fdelicioz%2Fmy-account%2F" />
         <link rel="alternate" type="text/xml+oembed"
@@ -1067,7 +1067,7 @@
     </head>
 
     <body
-        class="page-template-default page page-id-12 logged-in wp-custom-logo wp-embed-responsive theme-delicioz woocommerce-account woocommerce-page woocommerce-no-js ehf-header ehf-footer ehf-template-delicioz ehf-stylesheet-demo-child woo-variation-swatches wvs-behavior-blur wvs-theme-demo-child wvs-show-label wvs-tooltip chrome woocommerce-active product-block-style-1 elementor-default elementor-kit-7">
+        class="page-template-default page page-id-12 wp-custom-logo wp-embed-responsive theme-delicioz woocommerce-account woocommerce-page woocommerce-lost-password woocommerce-no-js ehf-header ehf-footer ehf-template-delicioz ehf-stylesheet-demo-child woo-variation-swatches wvs-behavior-blur wvs-theme-demo-child wvs-show-label wvs-tooltip chrome woocommerce-active product-block-style-1 elementor-default elementor-kit-7">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
             style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
             <defs>
@@ -1190,7 +1190,7 @@
             </defs>
         </svg>
         <div id="page" class="hfeed site">
-            @livewire('inc.header')
+         @livewire('inc.header')
 
             <div class="breadcrumb-wrap">
                 <div data-elementor-type="wp-post" data-elementor-id="101" class="elementor elementor-101">
@@ -1207,10 +1207,9 @@
                                         data-id="901b06e" data-element_type="widget"
                                         data-widget_type="woocommerce-breadcrumb.default">
                                         <div class="elementor-widget-container">
-                                            <div class="delicioz-woocommerce-title">My account</div>
-                                            <nav class="woocommerce-breadcrumb"><a
-                                                    href="https://demo2.themelexus.com/delicioz">Home Page</a><i
-                                                    class="delicioz-icon-arrow-right-s-line"></i>My account</nav>
+                                            <div class="delicioz-woocommerce-title">Quên mật khẩu</div>
+                                            <nav class="woocommerce-breadcrumb"><a href="/">Trang chủ</a><i
+                                                    class="delicioz-icon-arrow-right-s-line"></i>Quên mật khẩu</nav>
                                         </div>
                                     </div>
                                 </div>
@@ -1225,134 +1224,103 @@
                     <div class="woocommerce"></div>
                     <div id="primary">
                         <main id="main" class="site-main">
-
                             <article id="post-12" class="post-12 page type-page status-publish hentry">
                                 <div class="entry-content">
                                     <div class="woocommerce">
-                                        @livewire('inc.account')
+                                        <div class="woocommerce-notices-wrapper">
+
+                                            @if (session()->has('message'))
+                                                <ul class="woocommerce-error" style="background-color: green;" role="alert">
+                                                    <li>
+                                                        <strong>Thông báo:</strong> {{ session('message') }}
+                                                    </li>
+                                                </ul>
+                                            @endif
+                                            @if (session()->has('error'))
+                                                <ul class="woocommerce-error" style="background-color: red;" role="alert">
+                                                    <li>
+                                                        <strong>Lỗi:</strong> {{ session('error') }}
+                                                    </li>
+                                                </ul>
+                                            @endif
+                                        </div>
+
+                                        <div class="u-columns col2-set" id="customer_login" style="
+                                        display: flex;
+                                        justify-content: center;
+                                    ">
+
+                                            <div class="u-column1 login-form-col col-1">
+                                                <form class="woocommerce-form woocommerce-form-login login"
+                                                wire:submit.prevent="resetPassword">
+                                                <input type="hidden" wire:model="token">
+                                                    <div class="woocommerce-form-login-wrap">
+                                                        <h2 class="login-form-title">Đổi mật khẩu</h2>
+                                                        <p
+                                                            class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                                            <label for="username">Email &nbsp;<span
+                                                                    class="required">*</span></label>
+                                                            <input type="text"
+                                                                class="woocommerce-Input woocommerce-Input--text input-text"
+                                                               wire:model="email"
+                                                                placeholder="Nhập email hoặc số điện thoại..." required disabled/>
+                                                        </p>
+                                                        <p
+                                                            class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                                            <label for="password">Mật khẩu mới &nbsp;<span
+                                                                    class="required">*</span></label>
+                                                            <input
+                                                                class="woocommerce-Input woocommerce-Input--text input-text"
+                                                               wire:model="password"
+                                                                placeholder="Nhập mật khẩu..." required />
+                                                        </p>
+
+                                                        <p
+                                                            class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                                            <label for="password_confirmation">Xác nhận mật khẩu &nbsp;<span
+                                                                    class="required">*</span></label>
+                                                            <input
+                                                                class="woocommerce-Input woocommerce-Input--text input-text"
+                                                               wire:model="password_confirmation"
+                                                                placeholder="Nhập mật khẩu..." required />
+                                                        </p>
 
 
-                                        <div class="woocommerce-MyAccount-content">
-                                            <div class="woocommerce-notices-wrapper"></div>
-                                            <p>
-                                                Hello <strong>{{ Auth::user()->name }}</strong> (not
-                                                <strong>{{ Auth::user()->name }}</strong>? <a
-                                                    href="https://demo2.themelexus.com/delicioz/my-account/customer-logout/?_wpnonce=c690371e25">Log
-                                                    out</a>)
-                                            </p>
+                                                        <button type="submit"
+                                                            class="woocommerce-button button woocommerce-form-login__submit"
+                                                            >Đổi mật khẩu</button>
+                                                    </div>
 
-                                            <div class="reservation-details">
-                                                <div class="details-section">
-                                                    <h3>Thông tin đặt bàn</h3>
-                                                    <div class="detail-item"><strong>Mã đặt bàn:</strong>
-                                                        {{ $reservation->reservation_code }}</div>
-                                                    <div class="detail-item"><strong>Tên khách hàng:</strong>
-                                                        {{ $reservation->name }}</div>
-                                                    <div class="detail-item"><strong>Số điện thoại:</strong>
-                                                        {{ $reservation->phone }}</div>
-                                                    <div class="detail-item"><strong>Ngày đặt bàn:</strong>
-                                                        {{ $reservation->reservation_day }}</div>
-                                                    <div class="detail-item"><strong>Giờ đặt bàn:</strong>
-                                                        {{ $reservation->reservation_time }}</div>
-                                                    <div class="detail-item"><strong>Email:</strong>
-                                                        {{ $reservation->email }}</div>
-                                                    <div class="detail-item"><strong>Địa chỉ:</strong>
-                                                        {{ $reservation->address }}</div>
-                                                </div>
-                                                <div class="details-section">
-                                                    <h3>Thông tin khác</h3>
-                                                    <div class="detail-item"><strong>Số lượng người:</strong>
-                                                        {{ $reservation->number_of_people }}</div>
-                                                    <div class="detail-item"><strong>Trạng thái đơn hàng:</strong>
-                                                        {{ $reservation->status }}</div>
-                                                    <div class="detail-item"><strong>Ghi chú:</strong>
-                                                        {{ $reservation->notes }}</div>
-                                                </div>
+
+
+                                                </form>
+
+
                                             </div>
-                                            <style>
-                                                .reservation-details {
-                                                    display: flex;
-                                                    justify-content: space-between;
-                                                    margin: 20px;
-                                                    padding: 20px;
-                                                    border: 1px solid #ddd;
-                                                    border-radius: 8px;
-                                                    background-color: #f9f9f9;
-                                                }
 
-                                                .details-section {
-                                                    flex: 1;
-                                                    margin: 0 10px;
-                                                }
-
-                                                h3 {
-                                                    margin-bottom: 15px;
-                                                    color: #333;
-                                                }
-
-                                                .detail-item {
-                                                    margin-bottom: 10px;
-                                                    font-size: 16px;
-                                                    color: #555;
-                                                }
-
-                                                .detail-item strong {
-                                                    color: #000;
-                                                }
-
-                                                /* Responsive Styles */
-                                                @media (max-width: 768px) {
-                                                    .reservation-details {
-                                                        flex-direction: column;
-                                                        /* Stack sections vertically */
-                                                        margin: 10px;
-                                                        /* Adjust margin for smaller screens */
-                                                    }
-
-                                                    .details-section {
-                                                        margin: 10px 0;
-                                                        /* Adjust margins for vertical stacking */
-                                                    }
-                                                }
-
-                                                @media (max-width: 480px) {
-                                                    h3 {
-                                                        font-size: 18px;
-                                                        /* Smaller font size for headings */
-                                                    }
-
-                                                    .detail-item {
-                                                        font-size: 14px;
-                                                        /* Smaller font size for details */
-                                                    }
-                                                }
-                                            </style>
 
                                         </div>
+
                                     </div>
                                 </div><!-- .entry-content -->
                             </article><!-- #post-## -->
 
+
                         </main><!-- #main -->
                     </div><!-- #primary -->
-                    <style>
-                        tr,
-                        td,
-                        th {
-                            white-space: nowrap;
-                        }
-                    </style>
+
 
                 </div><!-- .col-full -->
             </div><!-- #content -->
 
-            @livewire('inc.footer')
 
+            @livewire('inc.footer')
         </div><!-- #page -->
 
         @livewire('inc.menu-mobile')
-        <script data-cfasync="false"
-            src="/cdn-cgi/scripts/email-decode.min.js-cb/cloudflare-static/email-decode.min.js"></script>
+
+
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
         <script>
             window.RS_MODULES = window.RS_MODULES || {};
             window.RS_MODULES.modules = window.RS_MODULES.modules || {};
@@ -1361,7 +1329,7 @@
             window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
             window.RS_MODULES.type = 'compiled';
         </script>
-        @livewire('inc.search')
+             @livewire('inc.search')
 
         <script>(function () {
                 function maybePrefixUrlField() {
@@ -1377,121 +1345,9 @@
                     }
                 }
             })();</script>
-        <div class="woosc-popup woosc-search">
-            <div class="woosc-popup-inner">
-                <div class="woosc-popup-content">
-                    <div class="woosc-popup-content-inner">
-                        <div class="woosc-popup-close"></div>
-                        <div class="woosc-search-input">
-                            <input type="search" id="woosc_search_input" placeholder="Type any keyword to search..." />
-                        </div>
-                        <div class="woosc-search-result"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="woosc-popup woosc-settings">
-            <div class="woosc-popup-inner">
-                <div class="woosc-popup-content">
-                    <div class="woosc-popup-content-inner">
-                        <div class="woosc-popup-close"></div>
-                        <ul class="woosc-settings-tools">
-                            <li><label><input type="checkbox" class="woosc-settings-tool"
-                                        id="woosc_hide_similarities" /> Hide similarities </label></li>
-                            <li><label><input type="checkbox" class="woosc-settings-tool"
-                                        id="woosc_highlight_differences" /> Highlight differences </label></li>
-                        </ul>
-                        Select the fields to be shown. Others will be hidden. Drag and drop to rearrange the order. <ul
-                            class="woosc-settings-fields">
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="image" checked /><span class="label">Image</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="sku" checked /><span class="label">SKU</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="rating" checked /><span class="label">Rating</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="price" checked /><span class="label">Price</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="stock" checked /><span class="label">Stock</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="availability" checked /><span class="label">Availability</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="add_to_cart" checked /><span class="label">Add to cart</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="description" checked /><span class="label">Description</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="content" checked /><span class="label">Content</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="weight" checked /><span class="label">Weight</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="dimensions" checked /><span class="label">Dimensions</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="additional" checked /><span class="label">Additional information</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="attributes" checked /><span class="label">Attributes</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="custom_attributes" checked /><span class="label">Custom attributes</span>
-                            </li>
-                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
-                                    value="custom_fields" checked /><span class="label">Custom fields</span></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="woosc-popup woosc-share">
-            <div class="woosc-popup-inner">
-                <div class="woosc-popup-content">
-                    <div class="woosc-popup-content-inner">
-                        <div class="woosc-popup-close"></div>
-                        <div class="woosc-share-content"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="woosc-area"
-            class="woosc-area woosc-bar-bottom woosc-bar-right woosc-bar-click-outside-yes woosc-hide-checkout"
-            data-bg-color="#292a30" data-btn-color="#00a0d2">
-            <div class="woosc-inner">
-                <div class="woosc-table">
-                    <div class="woosc-table-inner">
-                        <a href="#close" id="woosc-table-close" class="woosc-table-close hint--left"
-                            aria-label="Close"><span class="woosc-table-close-icon"></span></a>
-                        <div class="woosc-table-items"></div>
-                    </div>
-                </div>
-                <div class="woosc-bar">
-                    <div class="woosc-bar-notice">
-                        Click outside to hide the compare bar </div>
-                    <a href="#share" class="woosc-bar-share hint--top" aria-label="Share"></a>
-                    <a href="#search" class="woosc-bar-search hint--top" aria-label="Add product"></a>
-                    <div class="woosc-bar-items"></div>
-                    <div class="woosc-bar-btn woosc-bar-btn-text">
-                        <div class="woosc-bar-btn-icon-wrapper">
-                            <div class="woosc-bar-btn-icon-inner"><span></span><span></span><span></span>
-                            </div>
-                        </div>
-                        Compare
-                    </div>
-                </div>
-                <div class="woosc-sidebar woosc-sidebar-position-right">
-                    <div class="woosc-sidebar-top">
-                        <span class="woosc-sidebar-heading">Compare</span>
-                        <span class="woosc-sidebar-count"></span>
-                        <span class="woosc-sidebar-close hint--left" aria-label="Close"> &times; </span>
-                    </div>
-                    <div class="woosc-sidebar-items"></div>
-                    <div class="woosc-sidebar-bot">
-                        <span class="woosc-sidebar-btn">Let&#039;s Compare!</span>
-                        <span class="woosc-sidebar-continue"><span>Continue shopping</span></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="woosw_wishlist" class="woosw-popup woosw-popup-center"></div><a href="#" class="scrollup"><span
-                class="scrollup-icon delicioz-icon-angle-up"></span><span class="scrollup-label">Top</span></a>
+
         <script
-            type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"Home Page","@id":"https:\/\/demo2.themelexus.com\/delicioz"}},{"@type":"ListItem","position":2,"item":{"name":"My account","@id":"https:\/\/demo2.themelexus.com\/delicioz\/my-account\/"}}]}</script>
+            type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"Home Page","@id":"https:\/\/demo2.themelexus.com\/delicioz"}},{"@type":"ListItem","position":2,"item":{"name":"My account","@id":"https:\/\/demo2.themelexus.com\/delicioz\/my-account\/"}},{"@type":"ListItem","position":3,"item":{"name":"Lost password","@id":"https:\/\/demo2.themelexus.com\/delicioz\/my-account\/lost-password\/"}}]}</script>
         <script type="text/javascript">
             (function () {
                 var c = document.body.className;
@@ -1500,7 +1356,6 @@
             })();
         </script>
 
-        <div class="cart-side-overlay"></div>
         <link rel='stylesheet' id='elementor-post-671-css'
             href='/delicioz/wp-content/uploads/elementor/css/post-671.css?ver=1661932588' media='all' />
         <link rel='stylesheet' id='elementor-post-705-css'
@@ -1533,6 +1388,24 @@
         <script
             src='/delicioz/wp-content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js?ver=1.0.9-wc.6.8.2'
             id='selectWoo-js'></script>
+        <script src='/delicioz/wp-includes/js/dist/hooks.min.js?ver=c6d64f2cb8f5c6bb49caca37f8828ce3'
+            id='wp-hooks-js'></script>
+        <script src='/delicioz/wp-includes/js/dist/i18n.min.js?ver=ebee46757c6a411e38fd079a7ac71d94'
+            id='wp-i18n-js'></script>
+        <script id='wp-i18n-js-after'>
+            wp.i18n.setLocaleData({ 'text direction\u0004ltr': ['ltr'] });
+        </script>
+        <script id='password-strength-meter-js-extra'>
+            var pwsL10n = { "unknown": "Password strength unknown", "short": "Very weak", "bad": "Weak", "good": "Medium", "strong": "Strong", "mismatch": "Mismatch" };
+        </script>
+        <script src='/delicioz/wp-admin/js/password-strength-meter.min.js?ver=6.0.2'
+            id='password-strength-meter-js'></script>
+        <script id='wc-password-strength-meter-js-extra'>
+            var wc_password_strength_meter_params = { "min_password_strength": "3", "stop_checkout": "", "i18n_password_error": "Please enter a stronger password.", "i18n_password_hint": "Hint: The password should be at least twelve characters long. To make it stronger, use upper and lower case letters, numbers, and symbols like ! \" ? $ % ^ & )." };
+        </script>
+        <script
+            src='/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/password-strength-meter.min.js?ver=6.8.2'
+            id='wc-password-strength-meter-js'></script>
         <script src='/delicioz/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.6.8.2'
             id='js-cookie-js'></script>
         <script id='woocommerce-js-extra'>
@@ -1540,6 +1413,8 @@
         </script>
         <script src='/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=6.8.2'
             id='woocommerce-js'></script>
+        <script src='/delicioz/wp-content/plugins/woocommerce/assets/js/frontend/lost-password.min.js?ver=6.8.2'
+            id='wc-lost-password-js'></script>
         <script id='wc-cart-fragments-js-extra'>
             var wc_cart_fragments_params = { "ajax_url": "\/delicioz\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/delicioz\/?wc-ajax=%%endpoint%%", "cart_hash_key": "wc_cart_hash_fb254261fa3641bff9c309f0d976a3b1", "fragment_name": "wc_fragments_fb254261fa3641bff9c309f0d976a3b1", "request_timeout": "5000" };
         </script>
@@ -1565,7 +1440,7 @@
         <script src='/delicioz/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.1' id='jquery-ui-mouse-js'></script>
         <script src='/delicioz/wp-includes/js/jquery/ui/sortable.min.js?ver=1.13.1' id='jquery-ui-sortable-js'></script>
         <script id='woosc-frontend-js-extra'>
-            var woosc_vars = { "ajax_url": "https:\/\/demo2.themelexus.com\/delicioz\/wp-admin\/admin-ajax.php", "user_id": "507cd05cd3b624f070c3beb15c1092c4", "page_url": "#", "open_button": "", "open_button_action": "open_popup", "menu_action": "open_popup", "button_action": "show_table", "sidebar_position": "right", "message_position": "right-top", "message_added": "{name} has been added to Compare list.", "message_removed": "{name} has been removed from the Compare list.", "message_exists": "{name} is already in the Compare list.", "open_bar": "", "bar_bubble": "no", "adding": "prepend", "click_again": "no", "hide_empty": "no", "click_outside": "yes", "freeze_column": "yes", "freeze_row": "yes", "scrollbar": "yes", "limit": "100", "button_text_change": "yes", "remove_all": "Do you want to remove all products from the compare?", "limit_notice": "You can add a maximum of {limit} products to the compare table.", "copied_text": "Share link %s was copied to clipboard!", "button_text": "Compare", "button_text_added": "Compare" };
+            var woosc_vars = { "ajax_url": "https:\/\/demo2.themelexus.com\/delicioz\/wp-admin\/admin-ajax.php", "user_id": "0cdb64fab32a05bd393b20c8c351de9f", "page_url": "#", "open_button": "", "open_button_action": "open_popup", "menu_action": "open_popup", "button_action": "show_table", "sidebar_position": "right", "message_position": "right-top", "message_added": "{name} has been added to Compare list.", "message_removed": "{name} has been removed from the Compare list.", "message_exists": "{name} is already in the Compare list.", "open_bar": "", "bar_bubble": "no", "adding": "prepend", "click_again": "no", "hide_empty": "no", "click_outside": "yes", "freeze_column": "yes", "freeze_row": "yes", "scrollbar": "yes", "limit": "100", "button_text_change": "yes", "remove_all": "Do you want to remove all products from the compare?", "limit_notice": "You can add a maximum of {limit} products to the compare table.", "copied_text": "Share link %s was copied to clipboard!", "button_text": "Compare", "button_text_added": "Compare" };
         </script>
         <script src='/delicioz/wp-content/plugins/woo-smart-compare/assets/js/frontend.js?ver=5.1.5'
             id='woosc-frontend-js'></script>
@@ -1601,6 +1476,8 @@
             id='delicioz-nav-mobile-js'></script>
         <script src='/delicioz/wp-content/themes/delicioz/inc/megamenu/assets/js/frontend.js?ver=1.0.1'
             id='delicioz-megamenu-frontend-js'></script>
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/login.js?ver=1.0.1'
+            id='delicioz-ajax-login-js'></script>
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/header-cart.min.js?ver=1.0.1'
             id='delicioz-header-cart-js'></script>
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/tooltipster.bundle.js?ver=1.0.1'
@@ -1627,7 +1504,7 @@
         <script src='/delicioz/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2'
             id='elementor-waypoints-js'></script>
         <script id='elementor-frontend-js-before'>
-            var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Extra", "value": 880, "default_value": 880, "direction": "max", "is_enabled": true }, "tablet": { "label": "Tablet", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Extra", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": true }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": true }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.7.3", "is_static": false, "experimentalFeatures": { "e_dom_optimization": true, "e_optimized_assets_loading": true, "e_optimized_css_loading": true, "a11y_improvements": true, "additional_custom_breakpoints": true, "e_import_export": true, "e_hidden_wordpress_widgets": true, "landing-pages": true, "elements-color-picker": true, "favorite-widgets": true, "admin-top-bar": true }, "urls": { "assets": "https:\/\/demo2.themelexus.com\/delicioz\/wp-content\/plugins\/elementor\/assets\/" }, "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_mobile_extra", "viewport_tablet", "viewport_tablet_extra", "viewport_laptop"], "body_background_background": "classic", "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 12, "title": "My%20account%20%E2%80%93%20Delicioz", "excerpt": "", "featuredImage": false }, "user": { "roles": ["customer"] } };
+            var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Extra", "value": 880, "default_value": 880, "direction": "max", "is_enabled": true }, "tablet": { "label": "Tablet", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Extra", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": true }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": true }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.7.3", "is_static": false, "experimentalFeatures": { "e_dom_optimization": true, "e_optimized_assets_loading": true, "e_optimized_css_loading": true, "a11y_improvements": true, "additional_custom_breakpoints": true, "e_import_export": true, "e_hidden_wordpress_widgets": true, "landing-pages": true, "elements-color-picker": true, "favorite-widgets": true, "admin-top-bar": true }, "urls": { "assets": "https:\/\/demo2.themelexus.com\/delicioz\/wp-content\/plugins\/elementor\/assets\/" }, "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_mobile_extra", "viewport_tablet", "viewport_tablet_extra", "viewport_laptop"], "body_background_background": "classic", "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 12, "title": "My%20account%20%E2%80%93%20Delicioz", "excerpt": "", "featuredImage": false } };
         </script>
         <script src='/delicioz/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.7.3'
             id='elementor-frontend-js'></script>

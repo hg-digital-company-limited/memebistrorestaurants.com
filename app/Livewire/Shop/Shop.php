@@ -39,6 +39,7 @@ class Shop extends Component
         if (request()->get('restaurant')) {
             $this->restaurant_id = request()->get('restaurant');
         }
+        $this->search = request()->get('search');
     }
     public function addToCart($id)
     {

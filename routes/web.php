@@ -1,5 +1,6 @@
 <?php
 use App\Http\Controllers\InvoiceController;
+use App\Livewire\ResetPassword;
 use App\Models\Invoice;
 use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Support\Facades\Storage;
@@ -32,7 +33,7 @@ Route::get('/', Home::class);
 Route::get('/cart', Cart::class);
 Route::get('/checkout', Checkout::class);
 Route::get('/contact', Contact::class);
-Route::get('/login', Login::class);
+Route::get('/login', Login::class)->name('login');
 Route::get('/register', Register::class);
 Route::get('/lost-password', LostPassword::class);
 Route::get('/my-account', MyAccount::class);
@@ -43,6 +44,7 @@ Route::get('/my-account/reservations', Reservations::class);
 Route::get('/my-account/reservations/{code}', ReservationDetail::class);
 Route::get('/my-account/edit-account', EditAccount::class);
 Route::get('/my-account/logout', Logout::class);
+Route::get('/reset-password', action: ResetPassword::class)->name('password.reset');
 
 
 
