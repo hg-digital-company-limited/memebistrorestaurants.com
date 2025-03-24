@@ -2,6 +2,7 @@
 
 namespace App\Livewire;
 
+use App\Models\Customer;
 use Illuminate\Support\Facades\Auth;
 use Livewire\Component;
 use Illuminate\Support\Facades\Validator;
@@ -64,6 +65,12 @@ class Register extends Component
             'email' => $this->email,
             'phone' => $this->phone,
             'password' => bcrypt($this->password_register),
+        ]);
+        Customer::create([
+            'user_id' => $user->id,
+            'name' => $this->name,
+            'email' => $this->email,
+            'phone' => $this->phone,
         ]);
         Auth::login($user);
 

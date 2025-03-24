@@ -47,7 +47,7 @@ class CustomerResource extends Resource
                     ->maxLength(255),
                 Forms\Components\Toggle::make('is_locked')
                     ->required()
-                    ->label('Trạng thái'),
+                    ->label('Khoá tài khoản'),
                 Forms\Components\TextInput::make('loyalty_points')
                     ->required()
                     ->numeric()
@@ -78,7 +78,7 @@ class CustomerResource extends Resource
                     ->numeric()
                     ->sortable(),
                     Tables\Columns\IconColumn::make('is_locked')
-                    ->label('Trạng thái')
+                    ->label('Khoá tài khoản')
                     ->boolean(),
                     Tables\Columns\TextColumn::make('address')
                     ->label('Địa chỉ')

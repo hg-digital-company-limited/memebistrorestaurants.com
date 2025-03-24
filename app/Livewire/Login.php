@@ -2,6 +2,7 @@
 
 namespace App\Livewire;
 
+use App\Models\Customer;
 use App\Models\User;
 use Livewire\Component;
 use Illuminate\Support\Facades\Auth;
@@ -34,10 +35,10 @@ class Login extends Component
         } else {
             $credentials['phone'] = $this->email_or_phone; // Giả định bạn có trường phone trong model User
         }
-        if (User::where('email', $this->email_or_phone)->where('is_locked', 1)->exists()) {
-            session()->flash('error', 'Tài khoản đã bị khóa.');
-            return;
-        }
+            if (Customer::where('user_id', User::where('email', $this->email_or_phone)->first()->id)->first()->is_locked == 1) {
+                session()->flash('error', 'Tài khoản đã bị khóa.');
+                return;
+            }
         if (Auth::attempt($credentials, $this->remember)) {
 
             // Đăng nhập thành công

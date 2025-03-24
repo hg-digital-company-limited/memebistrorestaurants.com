@@ -1264,7 +1264,7 @@
                                                     href="https://demo2.themelexus.com/delicioz/my-account/customer-logout/?_wpnonce=c690371e25">Log
                                                     out</a>)</p>
 
-                                            <p>Điểm thưởng: {{ Auth::user()->loyalty_points }}
+                                            <p>Điểm thưởng: {{ $customer->loyalty_points }}
                                                 </p>
 
                                         </div>

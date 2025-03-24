@@ -57,7 +57,7 @@ class RoleResource extends Resource implements HasShieldPermissions
                                     ->maxLength(255),
 
                                 Forms\Components\TextInput::make('guard_name')
-                                    ->label(__('filament-shield::filament-shield.field.guard_name'))
+                                    ->label(__('Mã chức vụ'))
                                     ->default(Utils::getFilamentAuthGuard())
                                     ->nullable()
                                     ->maxLength(255),
@@ -96,10 +96,7 @@ class RoleResource extends Resource implements HasShieldPermissions
                     ->label(__('filament-shield::filament-shield.column.name'))
                     ->formatStateUsing(fn ($state): string => Str::headline($state))
                     ->searchable(),
-                // Tables\Columns\TextColumn::make('guard_name')
-                //     ->badge()
-                //     ->color('warning')
-                //     ->label(__('filament-shield::filament-shield.column.guard_name')),
+
                 Tables\Columns\TextColumn::make('team.name')
                     ->default('Global')
                     ->badge()
@@ -107,6 +104,10 @@ class RoleResource extends Resource implements HasShieldPermissions
                     ->label(__('filament-shield::filament-shield.column.team'))
                     ->searchable()
                     ->visible(fn (): bool => static::shield()->isCentralApp() && Utils::isTenancyEnabled()),
+                    Tables\Columns\TextColumn::make('guard_name')
+                    ->badge()
+                    ->color('warning')
+                    ->label(__('Mã chức vụ')),
                 Tables\Columns\TextColumn::make('permissions_count')
                     ->badge()
                     ->label(__('filament-shield::filament-shield.column.permissions'))
