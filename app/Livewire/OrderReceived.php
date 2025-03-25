@@ -24,7 +24,7 @@ class OrderReceived extends Component
             // return redirect('/');
         }
         if($this->order->payment_method == 'cod'){
-            $this->order->payment_status = 'paid';
+            $this->order->payment_status = 'unpaid';
             $this->order->save();
             session()->flash('message', 'Đơn hàng đã được tạo thành công!');
             return ;

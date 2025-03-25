@@ -52,7 +52,7 @@
                                                 wire:click="addToCart({{ $dish->id }})">Thêm vào giỏ hàng</a>
                                             <a
                                                 class="button product_type_simple add_to_cart_button ajax_add_to_cart"
-                                                wire:click="buyNow({{ $dish->id }})">Mua Ngay</a>
+                                                href="/checkout?pd_id={{ $dish->id }}">Mua Ngay</a>
                                         </div>
 
                                     </div>

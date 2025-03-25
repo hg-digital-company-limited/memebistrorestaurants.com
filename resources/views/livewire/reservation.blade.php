@@ -1378,54 +1378,59 @@
 
                                                                         <div class="row row-form">
                                                                             <div class="column-tablet-4 column-12">
-                                                                                <p><span class="wpcf7-form-control-wrap"
-                                                                                        data-name="menu-498"><select
-                                                                                            wire:model="number_of_people"
-                                                                                            name="menu-498"
-                                                                                            class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
-                                                                                            aria-required="true"
-                                                                                            aria-invalid="false">
-                                                                                            <option value="1">1
-                                                                                                người</option>
-                                                                                            <option value="2">2
-                                                                                                người</option>
-                                                                                            <option value="3">3
-                                                                                                người</option>
-                                                                                            <option value="4">4
-                                                                                                người</option>
-                                                                                            <option value="5">5
-                                                                                                người</option>
-                                                                                        </select></span></p>
+                                                                                <p>
+                                                                                    <span class="wpcf7-form-control-wrap" data-name="menu-498">
+                                                                                        <input wire:model="number_of_people"
+                                                                                               type="number"
+                                                                                               name="menu-498"
+                                                                                               min="1"
+                                                                                               max="20"
+                                                                                               required
+                                                                                            class="wpcf7-form-control wpcf7-date wpcf7-validates-as-required wpcf7-validates-as-date"
+                                                                                               aria-required="true"
+                                                                                               aria-invalid="false" style="
+                                                                                               width: 100%;
+                                                                                           ">
+                                                                                    </span>
+                                                                                </p>
+
                                                                             </div>
                                                                             <div class="column-tablet-4 column-12">
                                                                                 <p><span class="wpcf7-form-control-wrap"
                                                                                         data-name="date-35"><input
                                                                                             type="date" name="date-35"
                                                                                             wire:model="reservation_day"
-                                                                                            class="wpcf7-form-control wpcf7-date wpcf7-validates-as-required wpcf7-validates-as-date"
+                                                                                         class="wpcf7-form-control wpcf7-date wpcf7-validates-as-required wpcf7-validates-as-date"
                                                                                             aria-required="true"
-                                                                                            aria-invalid="false" /></span>
+                                                                                            aria-invalid="false" style="
+                                                                                            width: 100%;
+                                                                                        "/></span>
                                                                                 </p>
                                                                             </div>
                                                                             <div class="column-tablet-4 column-12">
-                                                                                <p><span class="wpcf7-form-control-wrap"
-                                                                                        data-name="menu-498"><select
-                                                                                            wire:model="reservation_time"
-                                                                                            name="menu-498" required
-                                                                                            class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
-                                                                                            aria-required="true"
-                                                                                            aria-invalid="false">
-                                                                                            <option value="07:00 pm">
-                                                                                                07:00 pm</option>
-                                                                                            <option value="08:00 pm">
-                                                                                                08:00 pm</option>
-                                                                                            <option value="09:00 pm">
-                                                                                                09:00 pm</option>
-                                                                                            <option value="10:00 pm">
-                                                                                                10:00 pm</option>
-                                                                                            <option value="11:00 pm">
-                                                                                                11:00 pm</option>
-                                                                                        </select></span></p>
+                                                                                <p>
+                                                                                    <span class="wpcf7-form-control-wrap" data-name="menu-498">
+                                                                                        <input wire:model="reservation_time"
+                                                                                               type="time"
+                                                                                               name="menu-498"
+                                                                                               required
+                                                                                               class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                                                               aria-required="true"
+                                                                                               aria-invalid="false"
+                                                                                               style="
+                                                                                               color: #ffffff;
+                                                                                               background-color: transparent;
+                                                                                               width: 100%;
+                                                                                               border: initial;
+                                                                                               padding: 13px 30px;
+                                                                                               border-width: 1px;
+                                                                                               border-style: dashed;
+                                                                                               border-image: initial;
+                                                                                               border-color: var(--e-global-color-border);
+                                                                                           ">
+                                                                                    </span>
+                                                                                </p>
+
                                                                             </div>
                                                                         </div>
                                                                         <div class="row row-form">
@@ -2127,5 +2132,9 @@
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/sticky.js?ver=1.0.1'
             id='delicioz-elementor-sticky-js'></script>
     </body>
-
+<style>
+    option {
+    color: black;
+}
+</style>
 </div>

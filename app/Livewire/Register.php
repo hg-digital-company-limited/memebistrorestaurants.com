@@ -71,6 +71,7 @@ class Register extends Component
             'name' => $this->name,
             'email' => $this->email,
             'phone' => $this->phone,
+            'is_locked' => 0,
         ]);
         Auth::login($user);
 
