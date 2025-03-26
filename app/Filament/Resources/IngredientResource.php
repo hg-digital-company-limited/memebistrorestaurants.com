@@ -59,6 +59,14 @@ class IngredientResource extends Resource
                             ->relationship('restaurant', 'name')
                             ->label('Nhà hàng')
                             ->required(),
+                        Forms\Components\Select::make('status')
+                            ->label('Trạng thái')
+                            ->options([
+                                'in_stock' => 'còn ',
+                                'low_stock' => 'sắp hết',
+                                'out_of_stock' => 'hết hàng',
+                            ])
+                            ->required(),
                         Forms\Components\DatePicker::make('expiration_date')
                             ->label('Ngày hạn sử dụng')
                             ->required(),
@@ -80,8 +88,15 @@ class IngredientResource extends Resource
                 Tables\Columns\TextColumn::make('name')
                     ->label('Tên nguyên liệu')
                     ->searchable(),
+                Tables\Columns\SelectColumn::make('status')
+                    ->label('Trạng thái')
+                    ->options([
+                        'in_stock' => 'còn ',
+                        'low_stock' => 'sắp hết',
+                        'out_of_stock' => 'hết hàng',
+                    ]),
                     Tables\Columns\TextInputColumn::make('quantity_in_stock')
-                    ->label('Số lượng trong kho')
+                    ->label('Số lượng thực tế')
                     ->sortable()
                     ->afterStateUpdated(function ($state, $record) {
                         // Cập nhật số lượng trong kho khi có thay đổi
@@ -102,6 +117,10 @@ class IngredientResource extends Resource
                     ->label('Ngưỡng tối thiểu')
                     ->numeric()
                     ->sortable(),
+                Tables\Columns\TextColumn::make('quantity_auto_updated')
+                    ->label('Số lượng tự động cập nhật')
+                    ->numeric()
+                    ->sortable(),
                 Tables\Columns\BadgeColumn::make('expiration_date')
                     ->label('Ngày hạn sử dụng')
                     ->color(fn ($record) => $record->expiration_date < now() ? 'danger' : 'success')
@@ -115,7 +134,13 @@ class IngredientResource extends Resource
                     ->sortable(),
             ])
             ->filters([
-                //
+                Tables\Filters\SelectFilter::make('status')
+                    ->label('Trạng thái')
+                    ->options([
+                        'in_stock' => 'còn ',
+                        'low_stock' => 'sắp hết',
+                        'out_of_stock' => 'hết hàng',
+                    ]),
             ])
             ->actions([
                 Tables\Actions\ActionGroup::make([

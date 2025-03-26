@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Mar 26, 2025 at 11:47 AM
+-- Generation Time: Mar 26, 2025 at 11:56 AM
 -- Server version: 8.0.30
 -- PHP Version: 8.2.27
 
@@ -266,15 +266,17 @@ CREATE TABLE `ingredients` (
   `minimum_threshold` decimal(8,2) DEFAULT NULL,
   `unit` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `restaurant_id` bigint UNSIGNED DEFAULT NULL,
-  `expiration_date` date DEFAULT NULL
+  `expiration_date` date DEFAULT NULL,
+  `status` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `quantity_auto` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `ingredients`
 --
 
-INSERT INTO `ingredients` (`id`, `name`, `image`, `quantity_in_stock`, `created_at`, `updated_at`, `minimum_threshold`, `unit`, `restaurant_id`, `expiration_date`) VALUES
-(1, 'Bột tỏi', '01JPKPW1XFTPPNHS8G1XZE3W21.png', '2000.00', '2025-03-16 13:16:42', '2025-03-19 13:17:02', '100.00', 'gram', 1, '2025-03-18');
+INSERT INTO `ingredients` (`id`, `name`, `image`, `quantity_in_stock`, `created_at`, `updated_at`, `minimum_threshold`, `unit`, `restaurant_id`, `expiration_date`, `status`, `quantity_auto`) VALUES
+(1, 'Bột tỏi', '01JPKPW1XFTPPNHS8G1XZE3W21.png', '2000.00', '2025-03-16 13:16:42', '2025-03-26 11:51:52', '100.00', 'gram', 1, '2025-03-18', 'low_stock', '0');
 
 -- --------------------------------------------------------
 
@@ -1096,7 +1098,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('KLcIteWMwB7h86eVJ6h2kCnK3gALOGKM1gtCJpQ2', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo2OntzOjM6InVybCI7YTowOnt9czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mzk6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbi9pbmdyZWRpZW50cyI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6NjoiX3Rva2VuIjtzOjQwOiJyajRHQzlzWWljYWMzeFhBOU9nc2JtVkFiMU53dk0yVnhtazZjY0NMIjtzOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxO3M6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTIkYWlTOXVOeWt6TlZiN2xRdUI4SnRJLnhEZjI3cTgxanhIeFFIZ2dSSG40ZDJnQ2VKQ1l5SnEiO30=', 1742989623),
+('KLcIteWMwB7h86eVJ6h2kCnK3gALOGKM1gtCJpQ2', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo2OntzOjM6InVybCI7YTowOnt9czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6NDk6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbi9tYXRlcmlhbC10cmFuc2FjdGlvbnMiO31zOjY6Il9mbGFzaCI7YToyOntzOjM6Im9sZCI7YTowOnt9czozOiJuZXciO2E6MDp7fX1zOjY6Il90b2tlbiI7czo0MDoicmo0R0M5c1lpY2FjM3hYQTlPZ3NibVZBYjFOd3ZNMlZ4bWs2Y2NDTCI7czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTtzOjE3OiJwYXNzd29yZF9oYXNoX3dlYiI7czo2MDoiJDJ5JDEyJGFpUzl1Tnlrek5WYjdsUXVCOEp0SS54RGYyN3E4MWp4SHhRSGdnUkhuNGQyZ0NlSkNZeUpxIjt9', 1742990196),
 ('lm3SGjPKNz1PtM0sT1NGjj0X4S4h5m3gI7iyPxjp', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoiSFVmZllMMUJWcEtMblRUb2xUemFwdEtuV0xNWm5oVXk0a1hQMWFxUSI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czozOiJ1cmwiO2E6MDp7fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7czoxNzoicGFzc3dvcmRfaGFzaF93ZWIiO3M6NjA6IiQyeSQxMiRhaVM5dU55a3pOVmI3bFF1QjhKdEkueERmMjdxODFqeEh4UUhnZ1JIbjRkMmdDZUpDWXlKcSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mzk6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbi9pbmdyZWRpZW50cyI7fXM6ODoiZmlsYW1lbnQiO2E6MDp7fX0=', 1742989024),
 ('pXvAhpuBq7BKL1lSLyt2X5CNgxVcBklZV9LbIUul', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiallsTmRsb0Zycnp0bXQ4VW9RbmxlMXQ4ZEtHbmgxWDBwWjNZMUhSaiI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzQ6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9zdGF0aXN0aWNzLzEiO31zOjY6Il9mbGFzaCI7YToyOntzOjM6Im9sZCI7YTowOnt9czozOiJuZXciO2E6MDp7fX19', 1742985939);
 
