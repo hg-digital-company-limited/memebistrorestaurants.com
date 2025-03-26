@@ -10,6 +10,11 @@ class ListTableDishes extends ListRecords
 {
     protected static string $resource = TableDishResource::class;
 
+    protected function getTableActions(): array
+    {
+        return []; // Không cung cấp hành động nào cho bảng
+    }
+
     protected function getHeaderActions(): array
     {
         return [

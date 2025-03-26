@@ -40,7 +40,7 @@ class TableDishResource extends Resource
                     ->options(TableModel::all()->pluck('table_number', 'id'))
                     ->label('Bàn')
                     ->required()
-                  ,
+                ,
                 Forms\Components\TextInput::make('quantity')
                     ->label('Số lượng')
                     ->required()
@@ -79,11 +79,15 @@ class TableDishResource extends Resource
                     ->dateTime()
                     ->searchable()
                     ->sortable(),
-                Tables\Columns\TextColumn::make('status')
+                    Tables\Columns\SelectColumn::make('status')
                     ->label('Trạng thái')
-                    ->badge()
+                    ->options([
+                        'pending' => 'Chưa phục vụ',
+                        'served' => 'Đã phục vụ',
+                    ])
                     ->searchable()
-                    ->sortable(),
+                    ->sortable()
+                 , // Thêm yêu cầu nếu cần
                 Tables\Columns\TextColumn::make('created_at')
 
                     ->dateTime()
@@ -108,16 +112,7 @@ class TableDishResource extends Resource
                     ])
                     ->label('Trạng thái'),
             ])
-            ->actions([
-                Tables\Actions\ActionGroup::make([
-                    Tables\Actions\ViewAction::make()
-                        ->label('Xem'), // Đổi nhãn sang tiếng Việt
-                    Tables\Actions\EditAction::make()
-                        ->label('Chỉnh Sửa'), // Đổi nhãn sang tiếng Việt
-                    Tables\Actions\DeleteAction::make()
-                        ->label('Xóa'), // Đổi nhãn sang tiếng Việt
-                ])
-            ])
+
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
                     Tables\Actions\DeleteBulkAction::make()
