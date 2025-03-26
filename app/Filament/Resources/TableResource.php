@@ -41,7 +41,7 @@ class TableResource extends Resource
                     Forms\Components\Select::make('restaurant_id')
                         ->options(Restaurant::all()->pluck('name', 'id'))
                         ->required()
-                        ->label('Nhà hàng'),
+                        ->label('Cơ sở'),
 
                         Forms\Components\TextInput::make('table_number')
                         ->required()
@@ -67,6 +67,11 @@ class TableResource extends Resource
                         ->label('Mã đặt bàn')
                         ->searchable()
                         ,
+                        Forms\Components\TextInput::make('number_guest')
+                        ->required()
+                        ->numeric()
+                        ->label('Số người')
+                        ,
                 ]),
         ]);
 }
@@ -89,7 +94,7 @@ class TableResource extends Resource
                 Tables\Columns\TextColumn::make('restaurant.name')
                     ->sortable()
                     ->searchable()
-                    ->label('Nhà hàng'),
+                    ->label('Cơ sở'),
 
                     Tables\Columns\SelectColumn::make('status')
                     ->label('Trạng thái')
@@ -190,6 +195,7 @@ class TableResource extends Resource
             'status' => 'pending',
         ]);
 
+
         $totalAmount = 0;
 
         // Thêm các món vào invoice_items
@@ -210,9 +216,9 @@ class TableResource extends Resource
 
         // Xóa các món ăn khỏi bàn
         TableDish::where('table_id', $table->id)->delete();
-
         // Cập nhật trạng thái bàn
         $table->update(['status' => 'available']);
+        $table->update(['reservation_id' => null]);
 
         Notification::make()
             ->title('Hóa đơn đã được tạo thành công!')

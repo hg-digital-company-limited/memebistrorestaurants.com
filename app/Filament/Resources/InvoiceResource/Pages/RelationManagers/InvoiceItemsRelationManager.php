@@ -58,6 +58,7 @@ class InvoiceItemsRelationManager extends RelationManager
                 ->afterStateUpdated(fn ($state, callable $set, $get) =>
                     $set('total_price', $get('quantity') * $get('unit_price'))
                 ),
+
         ]);
 
     }
@@ -84,6 +85,7 @@ class InvoiceItemsRelationManager extends RelationManager
                     ->label('Thành tiền')
                     ->money('VND')
                     ->sortable(),
+
             ])
             ->filters([
                 //

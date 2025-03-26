@@ -122,8 +122,12 @@ class ReservationResource extends Resource
                     ->searchable()
                     ->sortable()
                     ->label('Ngày đặt'),
-                Tables\Columns\TextColumn::make('status')
-                    ->badge()
+                Tables\Columns\SelectColumn::make('status')
+                    ->options([
+                        'pending' => 'Chờ xác nhận',
+                        'confirmed' => 'Đã xác nhận',
+                        'cancelled' => 'Đã hủy',
+                    ])
                     ->label('Trạng thái'),
                 Tables\Columns\TextColumn::make('created_at')
                     ->dateTime()

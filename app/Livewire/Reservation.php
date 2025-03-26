@@ -37,11 +37,12 @@ class Reservation extends Component
 
     public function submit()
     {
-        if ($this->otpSent) {
-            $this->verifyOtp();
-        } else {
-            $this->sendOtp();
-        }
+        // if ($this->otpSent) {
+        //     $this->verifyOtp();
+        // } else {
+        //     $this->sendOtp();
+        // }
+        $this->createReservation();
     }
 
     public function sendOtp()

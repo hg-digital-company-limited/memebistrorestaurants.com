@@ -31,10 +31,10 @@ class OrderResource extends Resource
                 Forms\Components\Section::make('Thông tin đơn hàng')
                     ->description('Nhập thông tin chi tiết cho đơn hàng.')
                     ->schema([
-                        Forms\Components\Select::make('user_id')
-                            ->relationship('user', 'name') // Kết nối với model User
-                            ->required()
-                            ->label('Người đặt'),
+                        // Forms\Components\Select::make('user_id')
+                        //     ->relationship('user', 'name') // Kết nối với model User
+                        //     ->required()
+                        //     ->label('Người đặt'),
                         Forms\Components\TextInput::make('name')
                             ->required()
                             ->label('Tên người đặt'),
@@ -109,25 +109,15 @@ class OrderResource extends Resource
                     ->searchable()
                     ->sortable()
                     ->label('Email'),
-                Tables\Columns\TextColumn::make('status')
-                    ->badge()
-                    ->formatStateUsing(function ($state) {
-                        switch ($state) {
-
-                            case 'pending':
-                                return 'Đang chờ';
-                            case 'confirmed':
-                                return 'Đã xác nhận';
-                            case 'preparing':
-                                return 'Đang chuẩn bị';
-                            case 'on_the_way':
-                                return 'Đang giao hàng';
-                            case 'delivered':
-                                return 'Đã giao hàng';
-                            case 'canceled':
-                                return 'Đã hủy';
-                        }
-                    })
+                Tables\Columns\SelectColumn::make('status')
+                    ->options([
+                        'pending' => 'Đang chờ',
+                        'confirmed' => 'Đã xác nhận',
+                        'preparing' => 'Đang chuẩn bị',
+                        'on_the_way' => 'Đang giao hàng',
+                        'delivered' => 'Đã giao hàng',
+                        'canceled' => 'Đã hủy',
+                    ])
                     ->label('Trạng thái'),
                 Tables\Columns\TextColumn::make('total_amount')
                     ->numeric()
@@ -135,17 +125,16 @@ class OrderResource extends Resource
                     ->money('VND')
                     ->label('Tổng tiền'),
                 Tables\Columns\TextColumn::make('payment_method')
-                    ->label('Phương thức thanh toán'),
-                Tables\Columns\TextColumn::make('payment_status')
                     ->badge()
+                    ->label('Phương thức thanh toán')
                     ->formatStateUsing(function ($state) {
-                        switch ($state) {
-                            case 'unpaid':
-                                return 'Chưa thanh toán';
-                            case 'paid':
-                                return 'Đã thanh toán';
-                        }
-                    })
+                        return $state == 'cod' ? 'Thanh toán tiền mặt' : 'Chuyển khoản';
+                    }),
+                Tables\Columns\SelectColumn::make('payment_status')
+                    ->options([
+                        'unpaid' => 'Chưa thanh toán',
+                        'paid' => 'Đã thanh toán',
+                    ])
                     ->label('Trạng thái thanh toán'),
                 Tables\Columns\TextColumn::make('phone')
                     ->label('Số điện thoại'),

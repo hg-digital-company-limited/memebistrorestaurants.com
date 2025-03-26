@@ -1379,16 +1379,17 @@
                                                                         <div class="row row-form">
                                                                             <div class="column-tablet-4 column-12">
                                                                                 <p>
-                                                                                    <span class="wpcf7-form-control-wrap" data-name="menu-498">
-                                                                                        <input wire:model="number_of_people"
-                                                                                               type="number"
-                                                                                               name="menu-498"
-                                                                                               min="1"
-                                                                                               max="20"
-                                                                                               required
+                                                                                    <span
+                                                                                        class="wpcf7-form-control-wrap"
+                                                                                        data-name="menu-498">
+                                                                                        <input
+                                                                                            wire:model="number_of_people"
+                                                                                            type="number"
+                                                                                            name="menu-498" min="1"
+                                                                                            max="20" required
                                                                                             class="wpcf7-form-control wpcf7-date wpcf7-validates-as-required wpcf7-validates-as-date"
-                                                                                               aria-required="true"
-                                                                                               aria-invalid="false" style="
+                                                                                            aria-required="true"
+                                                                                            aria-invalid="false" style="
                                                                                                width: 100%;
                                                                                            ">
                                                                                     </span>
@@ -1400,24 +1401,25 @@
                                                                                         data-name="date-35"><input
                                                                                             type="date" name="date-35"
                                                                                             wire:model="reservation_day"
-                                                                                         class="wpcf7-form-control wpcf7-date wpcf7-validates-as-required wpcf7-validates-as-date"
+                                                                                            class="wpcf7-form-control wpcf7-date wpcf7-validates-as-required wpcf7-validates-as-date"
                                                                                             aria-required="true"
                                                                                             aria-invalid="false" style="
                                                                                             width: 100%;
-                                                                                        "/></span>
+                                                                                        " /></span>
                                                                                 </p>
                                                                             </div>
                                                                             <div class="column-tablet-4 column-12">
                                                                                 <p>
-                                                                                    <span class="wpcf7-form-control-wrap" data-name="menu-498">
-                                                                                        <input wire:model="reservation_time"
-                                                                                               type="time"
-                                                                                               name="menu-498"
-                                                                                               required
-                                                                                               class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                                                               aria-required="true"
-                                                                                               aria-invalid="false"
-                                                                                               style="
+                                                                                    <span
+                                                                                        class="wpcf7-form-control-wrap"
+                                                                                        data-name="menu-498">
+                                                                                        <input
+                                                                                            wire:model="reservation_time"
+                                                                                            type="time" name="menu-498"
+                                                                                            required
+                                                                                            class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                                                            aria-required="true"
+                                                                                            aria-invalid="false" style="
                                                                                                color: #ffffff;
                                                                                                background-color: transparent;
                                                                                                width: 100%;
@@ -1465,7 +1467,7 @@
                                                                                     </span>
 
                                                                                 </p>
-                                                                                <p><span class="wpcf7-form-control-wrap"
+                                                                                {{-- <p><span class="wpcf7-form-control-wrap"
                                                                                         data-name="your-message">
                                                                                         <input type="text" size="40"
                                                                                             wire:model="email"
@@ -1474,7 +1476,7 @@
                                                                                 width: 100%;
                                                                             " required placeholder="Email xác thực" />
                                                                                     </span>
-                                                                                </p>
+                                                                                </p> --}}
                                                                             </div>
                                                                         </div>
                                                                         <div class="wpcf7-button wpcf7-button-2"><input
@@ -2132,9 +2134,9 @@
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/sticky.js?ver=1.0.1'
             id='delicioz-elementor-sticky-js'></script>
     </body>
-<style>
-    option {
-    color: black;
-}
-</style>
+    <style>
+        option {
+            color: black;
+        }
+    </style>
 </div>

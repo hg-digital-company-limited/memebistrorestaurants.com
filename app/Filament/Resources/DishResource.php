@@ -148,12 +148,12 @@ class DishResource extends Resource
                     ->label('Giá')
                     ->money('VND')
                     ->sortable(),
-                Tables\Columns\TextColumn::make('status')
+                Tables\Columns\SelectColumn::make('status')
                     ->label('Trạng thái')
-                    ->badge()
-                    ->formatStateUsing(function ($state) {
-                        return $state == 'available' ? 'Có sẵn' : 'Không có sẵn';
-                    })
+                    ->options([
+                        'available' => 'Có sẵn',
+                        'unavailable' => 'Không có sẵn',
+                    ])
                     ->sortable(),
                 Tables\Columns\TextColumn::make('created_at')
                     ->label('Ngày tạo')

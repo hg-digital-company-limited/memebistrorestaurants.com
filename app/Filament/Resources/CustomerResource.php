@@ -77,9 +77,12 @@ class CustomerResource extends Resource
                     ->label('Điểm thưởng')
                     ->numeric()
                     ->sortable(),
-                    Tables\Columns\IconColumn::make('is_locked')
-                    ->label('Khoá tài khoản')
-                    ->boolean(),
+                    Tables\Columns\SelectColumn::make('is_locked')
+                    ->label('Trạng thái tài khoản')
+                    ->options([
+                        '0' => 'Đang hoạt động',
+                        '1' => 'Đã khoá',
+                    ]),
                     Tables\Columns\TextColumn::make('address')
                     ->label('Địa chỉ')
                     ->searchable(),
