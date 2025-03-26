@@ -15,7 +15,7 @@ class MyAccount extends Component
         if(!$this->user){
             return redirect()->route('login');
         }
-        $this->customer = Customer::where('user_id', $this->user->id)->first();
+        $this->customer = Customer::where('email', $this->user->email)->first();
     }
     public function render()
     {

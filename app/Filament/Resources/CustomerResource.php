@@ -29,8 +29,7 @@ class CustomerResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\Select::make('email')
-                    ->relationship('user', 'email')
+                Forms\Components\TextInput::make('email')
                     ->required()
                     ->label('Email'),
                 Forms\Components\TextInput::make('name')
@@ -66,7 +65,7 @@ class CustomerResource extends Resource
                 Tables\Columns\TextColumn::make('name')
                     ->label('Tên khách hàng')
                     ->sortable(),
-                Tables\Columns\TextColumn::make('user.email')
+                Tables\Columns\TextColumn::make('email')
                     ->label('Email')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('phone')

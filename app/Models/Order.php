@@ -31,7 +31,7 @@ class Order extends Model
     {
         // Kiểm tra trạng thái trước khi lưu
         if ($this->isDirty('status') && $this->status === 'delivered') {
-            $user = Customer::find($this->user_id);
+            $user = Customer::where('email', $this->email)->first();
             if ($user) {
                 // Tính loyalty points là 5% giá trị hóa đơn
                 $loyaltyPoints = round($this->total_amount * 0.05);

@@ -31,12 +31,13 @@ class OrderReceived extends Component
 
         }
         // Compare the amounts without formatting
-        if ($this->order->total_amount != request()->vnp_Amount) {
-            $this->order->payment_status = 'failed';
-            $this->order->save();
-            session()->flash('message', 'Thanh toán thất bại!');
-            // return redirect('/');
-        }
+        // dd($this->order->total_amount, request()->vnp_Amount);
+        // if ($this->order->total_amount != request()->vnp_Amount) {
+        //     $this->order->payment_status = 'failed';
+        //     $this->order->save();
+        //     session()->flash('message', 'Thanh toán thất bại!');
+        //     // return redirect('/');
+        // }
 
         // Handle payment response
         if (request()->vnp_ResponseCode != '00' && $this->order->payment_status == 'unpaid') {

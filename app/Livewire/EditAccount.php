@@ -17,7 +17,7 @@ class EditAccount extends Component
 
     public function mount()
     {
-        $customer = Customer::where('user_id', Auth::user()->id)->first();
+        $customer = Customer::where('email', Auth::user()->email)->first();
         $this->name = $customer->name;
         $this->address = $customer->address;
         $this->phone = $customer->phone;
@@ -43,7 +43,7 @@ class EditAccount extends Component
         return;
        }
        $user = Auth::user();
-       $customer = Customer::where('user_id', Auth::user()->id)->first();
+       $customer = Customer::where('email', Auth::user()->email)->first();
 
         $customer->name = $this->name;
         $customer->address = $this->address;

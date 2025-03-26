@@ -1,16 +1,18 @@
 <div >
-    <div id="statisticsContent" style="width: 678px;">
+    <div id="statisticsContent" style="width: 600px;">
+        <h1 style="text-align: center; font-size: 24px; margin-bottom: 20px;">Thống Kê Cơ Sở {{ $restaurant->name }}  - Tháng {{ date('m') }}</h1>
 
-    <h2 style="text-align: center; font-size: 24px; margin-bottom: 20px;">Thống Kê Hóa Đơn  - Tháng {{ date('m') }}</h2>
+    <h2 style="text-align: center; font-size: 24px; margin-bottom: 20px;">Thống Kê Doanh Thu Hóa Đơn  - Tháng {{ date('m') }}</h2>
     <canvas id="myChart"></canvas>
-    <h2 style="text-align: center; font-size: 24px; margin-top: 40px;">Thống Kê  Đơn Hàng - Tháng {{ date('m') }}</h2>
+    <h2 style="text-align: center; font-size: 24px; margin-top: 40px;">Thống Kê Doanh Thu Đơn Hàng - Tháng {{ date('m') }}</h2>
     <canvas id="orderRevenueChart"></canvas>
 
+<br>
 
-    <h2 style="text-align: center; font-size: 24px; margin-top: 40px;">Thống Kê Đặt Chỗ - Tháng {{ date('m') }}</h2>
+    <h2 style="text-align: center; font-size: 24px; margin-top: 40px;">Thống Kê Số Lượng Đặt Chỗ - Tháng {{ date('m') }}</h2>
     <canvas id="reservationChart"></canvas>
 
-    <h2 style="text-align: center; font-size: 24px; margin-top: 40px;">Thống Kê Khách Hàng Mới - Tháng {{ date('m') }}</h2>
+    <h2 style="text-align: center; font-size: 24px; margin-top: 40px;">Thống Kê Số Lượng Khách Hàng Mới - Tháng {{ date('m') }}</h2>
     <canvas id="customerChart"></canvas>
 </div>
 

@@ -2,6 +2,7 @@
 
 namespace App\Livewire;
 
+use App\Models\Customer;
 use App\Models\Dish;
 use Illuminate\Support\Facades\Auth;
 use Livewire\Component;
@@ -47,7 +48,8 @@ class Checkout extends Component
                     'unit_amount' => $product->price,
                 ]
             ];
-        $this->totalAmount = $product->price;
+            $this->totalAmount = intval(number_format($product->price, 0, '', ''));
+            // dd($this->totalAmount);
 
         } else {
             // Nếu không phải mua nhanh, lấy giỏ hàng từ cookie
@@ -103,7 +105,17 @@ class Checkout extends Component
         if (!request()->query('pd_id')) {
             CartManagement::clearCartItems();
         }
-
+        if (!auth()->user()) {
+            $customer = Customer::where('email', $this->email)->first();
+            if (!$customer) {
+                $customer = Customer::create([
+                    'email' => $this->email,
+                    'name' => $this->name,
+                    'phone' => $this->phone,
+                    'address' => $this->address,
+                ]);
+            }
+        }
         // Xử lý thanh toán
         if ($this->paymentMethod == 'bank') {
             return $this->paymentVNPAY($order->id, $this->totalAmount, $order->order_code);
