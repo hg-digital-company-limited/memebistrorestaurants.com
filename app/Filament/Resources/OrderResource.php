@@ -85,6 +85,10 @@ class OrderResource extends Resource
                         Forms\Components\DateTimePicker::make('created_at')
                             ->label('Ngày đặt hàng')
                             ->default(now()),
+                            Forms\Components\Select::make('restaurant_id')
+                            ->relationship('restaurant', 'name')
+                            ->required()
+                            ->label('Nhà hàng'),
 
                         Forms\Components\Textarea::make('notes')
                             ->label('Ghi chú')
@@ -108,7 +112,8 @@ class OrderResource extends Resource
                 Tables\Columns\TextColumn::make('email')
                     ->searchable()
                     ->sortable()
-                    ->label('Email'),
+                    ->label('Email')
+                    ->toggleable(isToggledHiddenByDefault: true),
                 Tables\Columns\SelectColumn::make('status')
                     ->options([
                         'pending' => 'Đang chờ',
@@ -119,6 +124,8 @@ class OrderResource extends Resource
                         'canceled' => 'Đã hủy',
                     ])
                     ->label('Trạng thái'),
+                Tables\Columns\TextColumn::make('restaurant.name')
+                    ->label('Cơ sở'),
                 Tables\Columns\TextColumn::make('total_amount')
                     ->numeric()
                     ->sortable()

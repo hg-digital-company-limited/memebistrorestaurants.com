@@ -10,7 +10,7 @@ class Order extends Model
     use HasFactory;
 
     protected $fillable = [
-        'user_id', 'status', 'total_amount', 'payment_method', 'address', 'name', 'phone', 'email', 'payment_status', 'order_code', 'notes'
+        'user_id', 'status', 'total_amount', 'payment_method', 'address', 'name', 'phone', 'email', 'payment_status', 'order_code', 'notes', 'restaurant_id'
     ];
 
     public function user()
@@ -43,5 +43,10 @@ class Order extends Model
 
         // Gọi phương thức save của lớp cha
         return parent::save($options);
+    }
+
+    public function restaurant()
+    {
+        return $this->belongsTo(Restaurant::class);
     }
 }

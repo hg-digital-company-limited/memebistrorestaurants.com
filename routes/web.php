@@ -1,6 +1,7 @@
 <?php
 use App\Http\Controllers\InvoiceController;
 use App\Livewire\ResetPassword;
+use App\Livewire\RestaurantStatistics;
 use App\Models\Invoice;
 use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Support\Facades\Storage;
@@ -45,6 +46,8 @@ Route::get('/my-account/reservations/{code}', ReservationDetail::class);
 Route::get('/my-account/edit-account', EditAccount::class);
 Route::get('/my-account/logout', Logout::class);
 Route::get('/reset-password', action: ResetPassword::class)->name('password.reset');
+Route::get('/statistics/{id}', RestaurantStatistics::class)->name('restaurant.statistics');
+
 
 
 

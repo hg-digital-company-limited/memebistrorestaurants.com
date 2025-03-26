@@ -5,6 +5,7 @@ namespace App\Filament\Resources;
 use App\Filament\Resources\RestaurantResource\Pages;
 use App\Filament\Resources\RestaurantResource\RelationManagers;
 use App\Models\Restaurant;
+use Barryvdh\DomPDF\Facade\Pdf;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -12,6 +13,7 @@ use Filament\Tables;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Illuminate\Support\Facades\Storage;
 
 class RestaurantResource extends Resource
 {
@@ -111,12 +113,18 @@ class RestaurantResource extends Resource
             ])
             ->actions([
                 Tables\Actions\ActionGroup::make([
+                    Tables\Actions\Action::make('Xuất Thống Kê')
+                    ->label('Xuất Thống Kê')
+                    ->action(fn (Restaurant $record) => redirect()->route('restaurant.statistics', $record->id)) // Call the export method
+                    ->icon('heroicon-o-document-text'), // Optionally add an icon
                     Tables\Actions\ViewAction::make()
+
                         ->label('Xem'), // Đổi nhãn sang tiếng Việt
                     Tables\Actions\EditAction::make()
                         ->label('Chỉnh Sửa'), // Đổi nhãn sang tiếng Việt
                     Tables\Actions\DeleteAction::make()
                         ->label('Xóa'), // Đổi nhãn sang tiếng Việt
+
                 ])
             ])
             ->bulkActions([
@@ -130,6 +138,15 @@ class RestaurantResource extends Resource
     {
         return static::getModel()::count();
     }
+    // public static function printStatistics(Restaurant $restaurant)
+    // {
+    //     $pdf = Pdf::loadView('pdf.restaurant-statistics', ['id' => $restaurant->id]);
+
+    //     $filePath = 'invoices/restaurant-statistics_' . $restaurant->id . '_' . now()->format('Y-m-d') . '.pdf';
+    //     Storage::put('public/' . $filePath, $pdf->output());
+
+    //     return Storage::url($filePath);
+    // }
 
     public static function getRelations(): array
     {
