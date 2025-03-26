@@ -80,11 +80,14 @@ class IngredientResource extends Resource
                 Tables\Columns\TextColumn::make('name')
                     ->label('Tên nguyên liệu')
                     ->searchable(),
-                    Tables\Columns\TextColumn::make('quantity_in_stock')
+                    Tables\Columns\TextInputColumn::make('quantity_in_stock')
                     ->label('Số lượng trong kho')
-                    ->numeric()
                     ->sortable()
-                    ->badge(fn ($record) => $record->quantity_in_stock < $record->minimum_threshold ? 'danger' : 'success'),
+                    ->afterStateUpdated(function ($state, $record) {
+                        // Cập nhật số lượng trong kho khi có thay đổi
+                        $record->quantity_in_stock = $state;
+                        $record->save();
+                    }),
                 Tables\Columns\TextColumn::make('created_at')
                     ->label('Ngày tạo')
                     ->dateTime()
@@ -123,6 +126,7 @@ class IngredientResource extends Resource
                     Tables\Actions\DeleteAction::make()
                         ->label('Xóa'), // Đổi nhãn sang tiếng Việt
                 ])
+
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([

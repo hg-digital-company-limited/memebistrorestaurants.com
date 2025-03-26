@@ -43,11 +43,13 @@ class TableResource extends Resource
                         ->required()
                         ->label('Cơ sở'),
 
-                        Forms\Components\TextInput::make('table_number')
+                        Forms\Components\TextInput::make('table_code')
                         ->required()
-                        ->numeric()
-                        ->unique(TableModel::class, 'table_number', ignoreRecord: true) // Ensure uniqueness, ignoring current record
-                        ->label('Số bàn'),
+                        ->default(function ($context) {
+                           return 'TABLE_' . rand(1000, 9999);
+                        })
+                        ->unique(TableModel::class, 'table_code', ignoreRecord: true) // Ensure uniqueness, ignoring current record
+                        ->label('Mã bàn'),
                 ]),
 
             Forms\Components\Section::make('Trạng thái bàn')
@@ -86,7 +88,7 @@ class TableResource extends Resource
 
                     ->label('ID')
                     ->toggleable(isToggledHiddenByDefault: true),
-                    Tables\Columns\TextColumn::make('table_number')
+                    Tables\Columns\TextColumn::make('table_code')
                     ->numeric()
                     ->sortable()
                     ->searchable()

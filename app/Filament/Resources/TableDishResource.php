@@ -37,7 +37,7 @@ class TableDishResource extends Resource
                     ->required()
                 ,
                 Forms\Components\Select::make('table_id')
-                    ->options(TableModel::all()->pluck('table_number', 'id'))
+                    ->options(TableModel::all()->pluck('table_code', 'id'))
                     ->label('Bàn')
                     ->required()
                 ,
@@ -66,7 +66,7 @@ class TableDishResource extends Resource
                     ->label('Món ăn')
                     ->searchable()
                     ->sortable(),
-                Tables\Columns\TextColumn::make('table.table_number')
+                Tables\Columns\TextColumn::make('table.table_code')
                     ->label('Bàn')
                     ->searchable()
                     ->sortable(),
@@ -103,7 +103,7 @@ class TableDishResource extends Resource
                     ->options(Dish::all()->pluck('name', 'id'))
                     ->label('Món ăn'),
                 Tables\Filters\SelectFilter::make('table_id')
-                    ->options(TableModel::all()->pluck('table_number', 'id'))
+                    ->options(TableModel::all()->pluck('table_code', 'id'))
                     ->label('Bàn'),
                 Tables\Filters\SelectFilter::make('status')
                     ->options([
