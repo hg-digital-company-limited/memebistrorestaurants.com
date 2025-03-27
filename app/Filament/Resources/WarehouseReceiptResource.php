@@ -93,7 +93,12 @@ class WarehouseReceiptResource extends Resource
     {
         return static::getModel()::count();
     }
-
+    public static function getRelations(): array
+    {
+        return [
+            RelationManagers\WarehouseReceiptDetailRelationManager::class,
+        ];
+    }
     public static function getPages(): array
     {
         return [

@@ -9,7 +9,7 @@ use Filament\Resources\Pages\EditRecord;
 class EditReturnIngredient extends EditRecord
 {
     protected static string $resource = ReturnIngredientResource::class;
-
+    protected static ?string $title = 'Chỉnh sửa đổi trả nguyên liệu';
     protected function getHeaderActions(): array
     {
         return [

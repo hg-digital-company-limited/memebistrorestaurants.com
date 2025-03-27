@@ -103,13 +103,16 @@ class ImportRequestResource extends Resource
     {
         return static::getModel()::count();
     }
+    public static function getNavigationBadgeColor(): ?string
+    {
+        return 'success';
+    }
     public static function getRelations(): array
     {
         return [
-            //
+            RelationManagers\ImportRequestDetailRelationManager::class,
         ];
     }
-
     public static function getPages(): array
     {
         return [
