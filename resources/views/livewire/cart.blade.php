@@ -1360,7 +1360,7 @@
 
                                                     <a href="/checkout/"
                                                         class="checkout-button button alt wc-forward">
-                                                        Thanh toán</a>
+                                                        Đặt hàng</a>
                                                 </div>
 
 

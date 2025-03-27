@@ -1401,7 +1401,7 @@
 
                                                         <button type="submit" class="button alt"
                                                             name="woocommerce_checkout_place_order" id="place_order"
-                                                            value="Đặt hàng" data-value="Đặt hàng">Đặt hàng</button>
+                                                            value="Thanh toán" data-value="Thanh toán">Thanh toán</button>
                                                     </div>
                                                 </div>
 

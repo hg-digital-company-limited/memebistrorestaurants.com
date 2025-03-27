@@ -7,10 +7,7 @@
         <link rel='dns-prefetch' href='//demo2.themelexus.com' />
         <link rel='dns-prefetch' href='//fonts.googleapis.com' />
         <link rel='dns-prefetch' href='//s.w.org' />
-        <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Feed"
-            href="https://demo2.themelexus.com/delicioz/feed/" />
-        <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Comments Feed"
-            href="https://demo2.themelexus.com/delicioz/comments/feed/" />
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <script>
             window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/demo2.themelexus.com\/delicioz\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.2" } };
             /*! This file is auto-generated */
@@ -1280,17 +1277,68 @@
                                                         <tr>
                                                             <td style="cursor: pointer;" class="woocommerce-table__product-name product-name" wire:click="orderDetail('{{ $order->order_code }}')">{{ $order->order_code }}</td>
                                                             <td class="woocommerce-table__product-name product-name">{{ number_format($order->total_amount) }} VNĐ</td>
-                                                            <td class="woocommerce-table__product-name product-name">{{ $order->status }}</td>
+                                                            <td class="woocommerce-table__product-name product-name">
+                                                                @switch($order->status)
+                                                                    @case('pending')
+                                                                        Chờ xác nhận
+                                                                        @break
+                                                                    @case('confirmed')
+                                                                        Đã xác nhận
+                                                                        @break
+                                                                    @case('preparing')
+                                                                        Đang chuẩn bị
+                                                                        @break
+                                                                    @case('on_the_way')
+                                                                        Đang giao hàng
+                                                                        @break
+                                                                    @case('delivered')
+                                                                        Đã giao hàng
+                                                                        @break
+                                                                    @case('canceled')
+                                                                        Đã hủy
+                                                                        @break
+                                                                    @default
+                                                                        Khác
+                                                                @endswitch
+                                                            </td>
                                                             <td class="woocommerce-table__product-name product-name">{{ $order->created_at }}</td>
                                                             <td>
                                                                 @if ($order->status == 'pending')
-                                                                    <form wire:submit.prevent="cancelOrder({{ $order->id }})">
-                                                                        <button type="submit" class="btn btn-danger">Hủy</button>
-                                                                    </form>
+                                                                    <button type="button" class="btn btn-danger" onclick="confirmCancel({{ $order->id }})">Hủy</button>
                                                                 @endif
                                                             </td>
+
                                                         </tr>
                                                     @endforeach
+                                                    <script>
+                                                        function confirmCancel(orderId) {
+                                                            Swal.fire({
+                                                                title: 'Xác nhận hủy?',
+                                                                text: 'Bạn có chắc chắn muốn hủy đơn hàng này?',
+                                                                icon: 'warning',
+                                                                showCancelButton: true,
+                                                                confirmButtonColor: '#d33',
+                                                                cancelButtonColor: '#3085d6',
+                                                                confirmButtonText: 'Có, hủy!',
+                                                                cancelButtonText: 'Không'
+                                                            }).then((result) => {
+                                                                if (result.isConfirmed) {
+                                                                    Livewire.dispatch('cancelOrder', { id: orderId });
+                                                                }
+                                                            });
+                                                        }
+                                                        document.addEventListener('livewire:init', () => {
+                                                            window.addEventListener('orderCancelled', (e) => {
+                                                                Swal.fire(
+                                                                    'Đã hủy!',
+                                                                'Đơn hàng đã được hủy thành công.',
+                                                                'success'
+                                                            );
+                                                            window.location.reload();
+                                                        });
+                                                    });
+                                                    </script>
+
                                                 </tbody>
                                             </table>
 
