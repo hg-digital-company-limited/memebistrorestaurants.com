@@ -2,9 +2,10 @@
 
 namespace App\Filament\Resources;
 
-use App\Filament\Resources\MaterialTransactionResource\Pages;
-use App\Filament\Resources\MaterialTransactionResource\RelationManagers;
-use App\Models\MaterialTransaction;
+use App\Filament\Resources\ReturnIngredientResource\Pages;
+use App\Filament\Resources\ReturnIngredientResource\RelationManagers;
+use App\Models\Ingredient;
+use App\Models\ReturnIngredient;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -12,46 +13,35 @@ use Filament\Tables;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
-use pxlrbt\FilamentExcel\Actions\Tables\ExportBulkAction;
 
-class MaterialTransactionResource extends Resource
+class ReturnIngredientResource extends Resource
 {
-    protected static ?string $model = MaterialTransaction::class;
+    protected static ?string $model = ReturnIngredient::class;
 
+    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
     protected static ?string $navigationGroup = 'Quản lý Nguyên Liệu';
+    protected static ?string $title = 'Danh sách đổi trả nguyên liệu';
+    protected static ?int $navigationSort = 100;
 
-    public static function getPluralModelLabel(): string
-    {
-        return 'Lịch sử nguyên liệu';
-    }
-    protected static ?int $navigationSort = 98;
-
-
-    protected static ?string $navigationIcon = 'heroicon-o-arrow-path';
+    protected static ?string $pluralModelLabel = 'Danh sách đổi trả nguyên liệu';
 
     public static function form(Form $form): Form
     {
         return $form
             ->schema([
                 Forms\Components\Select::make('ingredient_id')
-                    ->relationship('ingredient', 'name')
-                    ->label('Nguyên liệu')
+                    ->label('Mã nguyên liệu')
+                    ->options(Ingredient::all()->pluck('name', 'id'))
                     ->required()
-                  ,
-                Forms\Components\TextInput::make('reason')
-                    ->label('Lý do')
-                    ->required(),
-                Forms\Components\TextInput::make('quantity')
-                    ->label('Số lượng')
+               ,
+                Forms\Components\TextInput::make('returned_quantity')
+                    ->label('Số lượng trả lại')
                     ->required()
                     ->numeric(),
-                Forms\Components\Select::make('type')
-                    ->options([
-                        'import' => 'Nhập',
-                        'export' => 'Xuất',
-                    ])
-                    ->label('Loại')
-                    ->required(),
+                Forms\Components\Textarea::make('reason')
+                    ->label('Lý do trả lại')
+                    ->required()
+                    ->maxLength(255),
             ]);
     }
 
@@ -59,32 +49,27 @@ class MaterialTransactionResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\ImageColumn::make('ingredient.image')
-                    ->label('Ảnh')
-                 ,
                 Tables\Columns\TextColumn::make('ingredient.name')
-                    ->label('Nguyên liệu')
-                    ->numeric()
+                    ->label('Tên nguyên liệu')
+                    ->searchable()
                     ->sortable(),
-                    Tables\Columns\BadgeColumn::make('quantity')
-                    ->color(fn ($record) => $record->type === 'import' ? 'success' : 'danger')
-                ->label('Số lượng')
-                ->formatStateUsing(function ($state, $record) {
-                    return $record->type === 'import' ? '+' . $state : '-' . $state; // Thêm dấu + hoặc - dựa trên loại
-                })
-                ->sortable(),
-                Tables\Columns\TextColumn::make('reason')
-                    ->label('Lý do')
-                    ->searchable(),
+                Tables\Columns\TextColumn::make('returned_quantity')
+                    ->label('Số lượng trả lại')
 
-                Tables\Columns\TextColumn::make('type')
-                    ->label('Loại')
+                    ->numeric()
+                    ->formatStateUsing(function ($state, $record) {
+                        return $state . ' ' . '(' . Ingredient::find($record->ingredient_id)->unit . ')';
+                    })
+                    ->sortable(),
+                Tables\Columns\TextColumn::make('reason')
+                    ->label('Lý do trả lại')
+
                     ->searchable(),
                 Tables\Columns\TextColumn::make('created_at')
                     ->label('Ngày tạo')
                     ->dateTime()
                     ->sortable()
-                  ,
+                ,
                 Tables\Columns\TextColumn::make('updated_at')
                     ->label('Ngày cập nhật')
                     ->dateTime()
@@ -108,9 +93,6 @@ class MaterialTransactionResource extends Resource
                 Tables\Actions\BulkActionGroup::make([
                     Tables\Actions\DeleteBulkAction::make()
                         ->label('Xóa'), // Đổi nhãn sang tiếng Việt
-                        ExportBulkAction::make()
-                        ->label('Xuất Excel'), // Đổi nhãn sang tiếng Việt
-
                 ]),
             ]);
     }
@@ -128,9 +110,9 @@ class MaterialTransactionResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ListMaterialTransactions::route('/'),
-            'create' => Pages\CreateMaterialTransaction::route('/create'),
-            'edit' => Pages\EditMaterialTransaction::route('/{record}/edit'),
+            'index' => Pages\ListReturnIngredients::route('/'),
+            'create' => Pages\CreateReturnIngredient::route('/create'),
+            'edit' => Pages\EditReturnIngredient::route('/{record}/edit'),
         ];
     }
 }

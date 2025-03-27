@@ -29,7 +29,8 @@ class InvoiceResource extends Resource
     {
         return 'Danh sách hóa đơn';
     }
-    protected static ?int $navigationSort = 1;
+    protected static ?int $navigationSort = 2;
+
     protected static ?string $navigationIcon = 'heroicon-o-credit-card';
 
     public static function form(Form $form): Form

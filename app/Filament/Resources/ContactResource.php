@@ -17,11 +17,14 @@ class ContactResource extends Resource
 {
     protected static ?string $model = Contact::class;
     protected static ?string $navigationGroup = 'Quản lý Nhà Hàng';
+    protected static ?string $navigationLabel = 'Liên hệ';
     public static function getPluralModelLabel(): string
     {
         return 'Danh sách liên hệ';
     }
-    protected static ?int $navigationSort = 2;
+    protected static ?int $navigationSort = 1;
+
+
 
     protected static ?string $navigationIcon = 'heroicon-o-envelope';
 

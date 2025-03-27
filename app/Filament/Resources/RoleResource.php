@@ -28,7 +28,7 @@ class RoleResource extends Resource implements HasShieldPermissions
         return 'Danh sách chức vụ & phân quyền';
     }
 
-    protected static ?int $navigationSort = 2;
+    protected static ?int $navigationSort = 100;
 
     public static function getPermissionPrefixes(): array
     {
@@ -189,7 +189,7 @@ class RoleResource extends Resource implements HasShieldPermissions
 
     public static function getNavigationSort(): ?int
     {
-        return Utils::getResourceNavigationSort();
+        return 100;
     }
 
     public static function getSlug(): string

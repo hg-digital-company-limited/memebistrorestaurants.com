@@ -25,7 +25,7 @@ class TableDishResource extends Resource
         return 'Danh sách lên món';
     }
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
-    protected static ?int $navigationSort = 2;
+    protected static ?int $navigationSort = 1;
 
     public static function form(Form $form): Form
     {

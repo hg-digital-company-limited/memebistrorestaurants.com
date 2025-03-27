@@ -20,14 +20,16 @@ class RestaurantResource extends Resource
 {
     protected static ?string $model = Restaurant::class;
     protected static ?string $navigationGroup = 'Quản lý Nhà Hàng';
-    protected static ?string $navigationLabel = 'Danh sách Cơ sở';
+    protected static ?string $navigationLabel = 'Cơ sở';
+
     protected static ?string $title = 'Cơ sở';
     public static function getPluralModelLabel(): string
     {
         return 'Danh sách Cơ sở';
     }
     protected static ?string $navigationIcon = 'heroicon-o-building-office';
-    protected static ?int $navigationSort = 2;
+    protected static ?int $navigationSort = 1;
+
 
     public static function form(Form $form): Form
     {
@@ -127,8 +129,8 @@ class RestaurantResource extends Resource
                         ->label('Xem'), // Đổi nhãn sang tiếng Việt
                     Tables\Actions\EditAction::make()
                         ->label('Chỉnh Sửa'), // Đổi nhãn sang tiếng Việt
-                    Tables\Actions\DeleteAction::make()
-                        ->label('Xóa'), // Đổi nhãn sang tiếng Việt
+                    // Tables\Actions\DeleteAction::make()
+                    //     ->label('Xóa'), // Đổi nhãn sang tiếng Việt
 
                 ])
             ])

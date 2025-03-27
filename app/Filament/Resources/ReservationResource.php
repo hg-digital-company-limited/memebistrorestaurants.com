@@ -18,12 +18,14 @@ class ReservationResource extends Resource
 {
     protected static ?string $model = Reservation::class;
     protected static ?string $navigationGroup = 'Quản lý Nhà Hàng';
+    protected static ?string $navigationLabel = 'Lịch đặt bàn';
     public static function getPluralModelLabel(): string
     {
         return 'Danh sách Lịch đặt bàn';
     }
     protected static ?string $navigationIcon = 'heroicon-o-calendar';
-    protected static ?int $navigationSort = 2;
+    protected static ?int $navigationSort = 1;
+
 
     public static function form(Form $form): Form
     {

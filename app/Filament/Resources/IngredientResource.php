@@ -15,10 +15,11 @@ use Illuminate\Database\Eloquent\SoftDeletingScope;
 
 class IngredientResource extends Resource
 {
-    protected static ?int $navigationSort = 2;
+    protected static ?int $navigationSort = 97;
+
 
     protected static ?string $model = Ingredient::class;
-    protected static ?string $navigationGroup = 'Quản lý Món Ăn';
+    protected static ?string $navigationGroup = 'Quản lý Nguyên Liệu';
     public static function getPluralModelLabel(): string
     {
         return 'Danh sách nguyên liệu';
@@ -45,6 +46,7 @@ class IngredientResource extends Resource
                         Forms\Components\TextInput::make('quantity_in_stock')
                             ->label('Số lượng trong kho')
                             ->required()
+                            ->integer()
                             ->numeric(),
 
                         Forms\Components\TextInput::make('minimum_threshold')

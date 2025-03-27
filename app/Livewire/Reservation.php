@@ -2,6 +2,7 @@
 
 namespace App\Livewire;
 
+use App\Models\Customer;
 use App\Models\Reservation as ReservationModel;
 use App\Models\Restaurant;
 use Barryvdh\DomPDF\Facade\Pdf;
@@ -26,9 +27,15 @@ class Reservation extends Component
     public function mount()
     {
         if (Auth::check()) {
-            $this->name = Auth::user()->name;
-            $this->phone = Auth::user()->phone;
+            $this->name = Customer::where('email', Auth::user()->email)->first()->name;
+            $this->phone = Customer::where('email', Auth::user()->email)->first()->phone;
+            $this->email = Customer::where('email', Auth::user()->email)->first()->email;
+        }else{
+            $this->name = null;
+            $this->phone = null;
+            $this->email = null;
         }
+
         $this->reservation_time = date('H:i');
         $this->reservation_day = date('Y-m-d');
         $this->restaurant_id = Restaurant::first()->id;
@@ -66,6 +73,12 @@ class Reservation extends Component
     public function createReservation()
     {
         $reservation_code = strtoupper(uniqid('RESERVATION_'));
+
+        if ($this->name == null || $this->phone == null || $this->reservation_day == null || $this->reservation_time == null || $this->restaurant_id == null) {
+            dd($this->name, $this->phone, $this->email, $this->reservation_day, $this->reservation_time, $this->restaurant_id);
+            session()->flash('error', 'Vui lòng điền đầy đủ thông tin.');
+            return;
+        }
 
         $reservation = ReservationModel::create([
             'user_id' => Auth::check() ? Auth::id() : null,
