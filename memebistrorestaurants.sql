@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Mar 27, 2025 at 02:51 AM
+-- Generation Time: Mar 27, 2025 at 03:08 AM
 -- Server version: 8.0.30
 -- PHP Version: 8.2.27
 
@@ -38,9 +38,9 @@ CREATE TABLE `cache` (
 --
 
 INSERT INTO `cache` (`key`, `value`, `expiration`) VALUES
-('livewire-rate-limiter:a17961fa74e9275d529f489537f179c05d50c2f3', 'i:1;', 1743041663),
-('livewire-rate-limiter:a17961fa74e9275d529f489537f179c05d50c2f3:timer', 'i:1743041663;', 1743041663),
-('spatie.permission.cache', 'a:3:{s:5:\"alias\";a:5:{s:1:\"a\";s:2:\"id\";s:1:\"b\";s:4:\"name\";s:1:\"c\";s:10:\"guard_name\";s:1:\"r\";s:5:\"roles\";s:1:\"j\";s:4:\"code\";}s:11:\"permissions\";a:188:{i:0;a:4:{s:1:\"a\";i:1;s:1:\"b\";s:9:\"view_role\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:1;a:4:{s:1:\"a\";i:2;s:1:\"b\";s:13:\"view_any_role\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:2;a:4:{s:1:\"a\";i:3;s:1:\"b\";s:11:\"create_role\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:3;a:4:{s:1:\"a\";i:4;s:1:\"b\";s:11:\"update_role\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:4;a:4:{s:1:\"a\";i:5;s:1:\"b\";s:11:\"delete_role\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:5;a:4:{s:1:\"a\";i:6;s:1:\"b\";s:15:\"delete_any_role\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:6;a:4:{s:1:\"a\";i:7;s:1:\"b\";s:9:\"view_user\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:7;a:4:{s:1:\"a\";i:8;s:1:\"b\";s:13:\"view_any_user\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:8;a:4:{s:1:\"a\";i:9;s:1:\"b\";s:11:\"create_user\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:9;a:4:{s:1:\"a\";i:10;s:1:\"b\";s:11:\"update_user\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:10;a:4:{s:1:\"a\";i:11;s:1:\"b\";s:12:\"restore_user\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:11;a:4:{s:1:\"a\";i:12;s:1:\"b\";s:16:\"restore_any_user\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:12;a:4:{s:1:\"a\";i:13;s:1:\"b\";s:14:\"replicate_user\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:13;a:4:{s:1:\"a\";i:14;s:1:\"b\";s:12:\"reorder_user\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:14;a:4:{s:1:\"a\";i:15;s:1:\"b\";s:11:\"delete_user\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:15;a:4:{s:1:\"a\";i:16;s:1:\"b\";s:15:\"delete_any_user\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:16;a:4:{s:1:\"a\";i:17;s:1:\"b\";s:17:\"force_delete_user\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:17;a:4:{s:1:\"a\";i:18;s:1:\"b\";s:21:\"force_delete_any_user\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:18;a:4:{s:1:\"a\";i:19;s:1:\"b\";s:9:\"view_dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:19;a:4:{s:1:\"a\";i:20;s:1:\"b\";s:13:\"view_any_dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:20;a:4:{s:1:\"a\";i:21;s:1:\"b\";s:11:\"create_dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:21;a:4:{s:1:\"a\";i:22;s:1:\"b\";s:11:\"update_dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:22;a:4:{s:1:\"a\";i:23;s:1:\"b\";s:12:\"restore_dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:23;a:4:{s:1:\"a\";i:24;s:1:\"b\";s:16:\"restore_any_dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:24;a:4:{s:1:\"a\";i:25;s:1:\"b\";s:14:\"replicate_dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:25;a:4:{s:1:\"a\";i:26;s:1:\"b\";s:12:\"reorder_dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:26;a:4:{s:1:\"a\";i:27;s:1:\"b\";s:11:\"delete_dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:27;a:4:{s:1:\"a\";i:28;s:1:\"b\";s:15:\"delete_any_dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:28;a:4:{s:1:\"a\";i:29;s:1:\"b\";s:17:\"force_delete_dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:29;a:4:{s:1:\"a\";i:30;s:1:\"b\";s:21:\"force_delete_any_dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:30;a:4:{s:1:\"a\";i:31;s:1:\"b\";s:15:\"view_ingredient\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:31;a:4:{s:1:\"a\";i:32;s:1:\"b\";s:19:\"view_any_ingredient\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:32;a:4:{s:1:\"a\";i:33;s:1:\"b\";s:17:\"create_ingredient\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:33;a:4:{s:1:\"a\";i:34;s:1:\"b\";s:17:\"update_ingredient\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:34;a:4:{s:1:\"a\";i:35;s:1:\"b\";s:18:\"restore_ingredient\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:35;a:4:{s:1:\"a\";i:36;s:1:\"b\";s:22:\"restore_any_ingredient\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:36;a:4:{s:1:\"a\";i:37;s:1:\"b\";s:20:\"replicate_ingredient\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:37;a:4:{s:1:\"a\";i:38;s:1:\"b\";s:18:\"reorder_ingredient\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:38;a:4:{s:1:\"a\";i:39;s:1:\"b\";s:17:\"delete_ingredient\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:39;a:4:{s:1:\"a\";i:40;s:1:\"b\";s:21:\"delete_any_ingredient\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:40;a:4:{s:1:\"a\";i:41;s:1:\"b\";s:23:\"force_delete_ingredient\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:41;a:4:{s:1:\"a\";i:42;s:1:\"b\";s:27:\"force_delete_any_ingredient\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:42;a:4:{s:1:\"a\";i:43;s:1:\"b\";s:12:\"view_invoice\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:43;a:4:{s:1:\"a\";i:44;s:1:\"b\";s:16:\"view_any_invoice\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:44;a:4:{s:1:\"a\";i:45;s:1:\"b\";s:14:\"create_invoice\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:45;a:4:{s:1:\"a\";i:46;s:1:\"b\";s:14:\"update_invoice\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:46;a:4:{s:1:\"a\";i:47;s:1:\"b\";s:15:\"restore_invoice\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:47;a:4:{s:1:\"a\";i:48;s:1:\"b\";s:19:\"restore_any_invoice\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:48;a:4:{s:1:\"a\";i:49;s:1:\"b\";s:17:\"replicate_invoice\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:49;a:4:{s:1:\"a\";i:50;s:1:\"b\";s:15:\"reorder_invoice\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:50;a:4:{s:1:\"a\";i:51;s:1:\"b\";s:14:\"delete_invoice\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:51;a:4:{s:1:\"a\";i:52;s:1:\"b\";s:18:\"delete_any_invoice\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:52;a:4:{s:1:\"a\";i:53;s:1:\"b\";s:20:\"force_delete_invoice\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:53;a:4:{s:1:\"a\";i:54;s:1:\"b\";s:24:\"force_delete_any_invoice\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:54;a:4:{s:1:\"a\";i:55;s:1:\"b\";s:10:\"view_order\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:55;a:4:{s:1:\"a\";i:56;s:1:\"b\";s:14:\"view_any_order\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:56;a:4:{s:1:\"a\";i:57;s:1:\"b\";s:12:\"create_order\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:57;a:4:{s:1:\"a\";i:58;s:1:\"b\";s:12:\"update_order\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:58;a:4:{s:1:\"a\";i:59;s:1:\"b\";s:13:\"restore_order\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:59;a:4:{s:1:\"a\";i:60;s:1:\"b\";s:17:\"restore_any_order\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:60;a:4:{s:1:\"a\";i:61;s:1:\"b\";s:15:\"replicate_order\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:61;a:4:{s:1:\"a\";i:62;s:1:\"b\";s:13:\"reorder_order\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:62;a:4:{s:1:\"a\";i:63;s:1:\"b\";s:12:\"delete_order\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:63;a:4:{s:1:\"a\";i:64;s:1:\"b\";s:16:\"delete_any_order\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:64;a:4:{s:1:\"a\";i:65;s:1:\"b\";s:18:\"force_delete_order\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:65;a:4:{s:1:\"a\";i:66;s:1:\"b\";s:22:\"force_delete_any_order\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:66;a:3:{s:1:\"a\";i:67;s:1:\"b\";s:16:\"view_order::item\";s:1:\"c\";s:3:\"web\";}i:67;a:3:{s:1:\"a\";i:68;s:1:\"b\";s:20:\"view_any_order::item\";s:1:\"c\";s:3:\"web\";}i:68;a:3:{s:1:\"a\";i:69;s:1:\"b\";s:18:\"create_order::item\";s:1:\"c\";s:3:\"web\";}i:69;a:3:{s:1:\"a\";i:70;s:1:\"b\";s:18:\"update_order::item\";s:1:\"c\";s:3:\"web\";}i:70;a:3:{s:1:\"a\";i:71;s:1:\"b\";s:19:\"restore_order::item\";s:1:\"c\";s:3:\"web\";}i:71;a:3:{s:1:\"a\";i:72;s:1:\"b\";s:23:\"restore_any_order::item\";s:1:\"c\";s:3:\"web\";}i:72;a:3:{s:1:\"a\";i:73;s:1:\"b\";s:21:\"replicate_order::item\";s:1:\"c\";s:3:\"web\";}i:73;a:3:{s:1:\"a\";i:74;s:1:\"b\";s:19:\"reorder_order::item\";s:1:\"c\";s:3:\"web\";}i:74;a:3:{s:1:\"a\";i:75;s:1:\"b\";s:18:\"delete_order::item\";s:1:\"c\";s:3:\"web\";}i:75;a:3:{s:1:\"a\";i:76;s:1:\"b\";s:22:\"delete_any_order::item\";s:1:\"c\";s:3:\"web\";}i:76;a:3:{s:1:\"a\";i:77;s:1:\"b\";s:24:\"force_delete_order::item\";s:1:\"c\";s:3:\"web\";}i:77;a:3:{s:1:\"a\";i:78;s:1:\"b\";s:28:\"force_delete_any_order::item\";s:1:\"c\";s:3:\"web\";}i:78;a:4:{s:1:\"a\";i:79;s:1:\"b\";s:14:\"view_promotion\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:79;a:4:{s:1:\"a\";i:80;s:1:\"b\";s:18:\"view_any_promotion\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:80;a:4:{s:1:\"a\";i:81;s:1:\"b\";s:16:\"create_promotion\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:81;a:4:{s:1:\"a\";i:82;s:1:\"b\";s:16:\"update_promotion\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:82;a:4:{s:1:\"a\";i:83;s:1:\"b\";s:17:\"restore_promotion\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:83;a:4:{s:1:\"a\";i:84;s:1:\"b\";s:21:\"restore_any_promotion\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:84;a:4:{s:1:\"a\";i:85;s:1:\"b\";s:19:\"replicate_promotion\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:85;a:4:{s:1:\"a\";i:86;s:1:\"b\";s:17:\"reorder_promotion\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:86;a:4:{s:1:\"a\";i:87;s:1:\"b\";s:16:\"delete_promotion\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:87;a:4:{s:1:\"a\";i:88;s:1:\"b\";s:20:\"delete_any_promotion\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:88;a:4:{s:1:\"a\";i:89;s:1:\"b\";s:22:\"force_delete_promotion\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:89;a:4:{s:1:\"a\";i:90;s:1:\"b\";s:26:\"force_delete_any_promotion\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:90;a:4:{s:1:\"a\";i:91;s:1:\"b\";s:16:\"view_reservation\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:91;a:4:{s:1:\"a\";i:92;s:1:\"b\";s:20:\"view_any_reservation\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:92;a:4:{s:1:\"a\";i:93;s:1:\"b\";s:18:\"create_reservation\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:93;a:4:{s:1:\"a\";i:94;s:1:\"b\";s:18:\"update_reservation\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:94;a:4:{s:1:\"a\";i:95;s:1:\"b\";s:19:\"restore_reservation\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:95;a:4:{s:1:\"a\";i:96;s:1:\"b\";s:23:\"restore_any_reservation\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:96;a:4:{s:1:\"a\";i:97;s:1:\"b\";s:21:\"replicate_reservation\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:97;a:4:{s:1:\"a\";i:98;s:1:\"b\";s:19:\"reorder_reservation\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:98;a:4:{s:1:\"a\";i:99;s:1:\"b\";s:18:\"delete_reservation\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:99;a:4:{s:1:\"a\";i:100;s:1:\"b\";s:22:\"delete_any_reservation\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:100;a:4:{s:1:\"a\";i:101;s:1:\"b\";s:24:\"force_delete_reservation\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:101;a:4:{s:1:\"a\";i:102;s:1:\"b\";s:28:\"force_delete_any_reservation\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:102;a:4:{s:1:\"a\";i:103;s:1:\"b\";s:15:\"view_restaurant\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:103;a:4:{s:1:\"a\";i:104;s:1:\"b\";s:19:\"view_any_restaurant\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:104;a:4:{s:1:\"a\";i:105;s:1:\"b\";s:17:\"create_restaurant\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:105;a:4:{s:1:\"a\";i:106;s:1:\"b\";s:17:\"update_restaurant\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:106;a:4:{s:1:\"a\";i:107;s:1:\"b\";s:18:\"restore_restaurant\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:107;a:4:{s:1:\"a\";i:108;s:1:\"b\";s:22:\"restore_any_restaurant\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:108;a:4:{s:1:\"a\";i:109;s:1:\"b\";s:20:\"replicate_restaurant\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:109;a:4:{s:1:\"a\";i:110;s:1:\"b\";s:18:\"reorder_restaurant\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:110;a:4:{s:1:\"a\";i:111;s:1:\"b\";s:17:\"delete_restaurant\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:111;a:4:{s:1:\"a\";i:112;s:1:\"b\";s:21:\"delete_any_restaurant\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:112;a:4:{s:1:\"a\";i:113;s:1:\"b\";s:23:\"force_delete_restaurant\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:113;a:4:{s:1:\"a\";i:114;s:1:\"b\";s:27:\"force_delete_any_restaurant\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:114;a:4:{s:1:\"a\";i:115;s:1:\"b\";s:10:\"view_table\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:115;a:4:{s:1:\"a\";i:116;s:1:\"b\";s:14:\"view_any_table\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:116;a:4:{s:1:\"a\";i:117;s:1:\"b\";s:12:\"create_table\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:117;a:4:{s:1:\"a\";i:118;s:1:\"b\";s:12:\"update_table\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:118;a:4:{s:1:\"a\";i:119;s:1:\"b\";s:13:\"restore_table\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:119;a:4:{s:1:\"a\";i:120;s:1:\"b\";s:17:\"restore_any_table\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:120;a:4:{s:1:\"a\";i:121;s:1:\"b\";s:15:\"replicate_table\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:121;a:4:{s:1:\"a\";i:122;s:1:\"b\";s:13:\"reorder_table\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:122;a:4:{s:1:\"a\";i:123;s:1:\"b\";s:12:\"delete_table\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:123;a:4:{s:1:\"a\";i:124;s:1:\"b\";s:16:\"delete_any_table\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:124;a:4:{s:1:\"a\";i:125;s:1:\"b\";s:18:\"force_delete_table\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:125;a:4:{s:1:\"a\";i:126;s:1:\"b\";s:22:\"force_delete_any_table\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:126;a:4:{s:1:\"a\";i:127;s:1:\"b\";s:19:\"view_food::category\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:127;a:4:{s:1:\"a\";i:128;s:1:\"b\";s:23:\"view_any_food::category\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:128;a:4:{s:1:\"a\";i:129;s:1:\"b\";s:21:\"create_food::category\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:129;a:4:{s:1:\"a\";i:130;s:1:\"b\";s:21:\"update_food::category\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:130;a:4:{s:1:\"a\";i:131;s:1:\"b\";s:22:\"restore_food::category\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:131;a:4:{s:1:\"a\";i:132;s:1:\"b\";s:26:\"restore_any_food::category\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:132;a:4:{s:1:\"a\";i:133;s:1:\"b\";s:24:\"replicate_food::category\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:133;a:4:{s:1:\"a\";i:134;s:1:\"b\";s:22:\"reorder_food::category\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:134;a:4:{s:1:\"a\";i:135;s:1:\"b\";s:21:\"delete_food::category\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:135;a:4:{s:1:\"a\";i:136;s:1:\"b\";s:25:\"delete_any_food::category\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:136;a:4:{s:1:\"a\";i:137;s:1:\"b\";s:27:\"force_delete_food::category\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:137;a:4:{s:1:\"a\";i:138;s:1:\"b\";s:31:\"force_delete_any_food::category\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:138;a:3:{s:1:\"a\";i:139;s:1:\"b\";s:9:\"view_post\";s:1:\"c\";s:3:\"web\";}i:139;a:3:{s:1:\"a\";i:140;s:1:\"b\";s:13:\"view_any_post\";s:1:\"c\";s:3:\"web\";}i:140;a:3:{s:1:\"a\";i:141;s:1:\"b\";s:11:\"create_post\";s:1:\"c\";s:3:\"web\";}i:141;a:3:{s:1:\"a\";i:142;s:1:\"b\";s:11:\"update_post\";s:1:\"c\";s:3:\"web\";}i:142;a:3:{s:1:\"a\";i:143;s:1:\"b\";s:12:\"restore_post\";s:1:\"c\";s:3:\"web\";}i:143;a:3:{s:1:\"a\";i:144;s:1:\"b\";s:16:\"restore_any_post\";s:1:\"c\";s:3:\"web\";}i:144;a:3:{s:1:\"a\";i:145;s:1:\"b\";s:14:\"replicate_post\";s:1:\"c\";s:3:\"web\";}i:145;a:3:{s:1:\"a\";i:146;s:1:\"b\";s:12:\"reorder_post\";s:1:\"c\";s:3:\"web\";}i:146;a:3:{s:1:\"a\";i:147;s:1:\"b\";s:11:\"delete_post\";s:1:\"c\";s:3:\"web\";}i:147;a:3:{s:1:\"a\";i:148;s:1:\"b\";s:15:\"delete_any_post\";s:1:\"c\";s:3:\"web\";}i:148;a:3:{s:1:\"a\";i:149;s:1:\"b\";s:17:\"force_delete_post\";s:1:\"c\";s:3:\"web\";}i:149;a:3:{s:1:\"a\";i:150;s:1:\"b\";s:21:\"force_delete_any_post\";s:1:\"c\";s:3:\"web\";}i:150;a:3:{s:1:\"a\";i:151;s:1:\"b\";s:19:\"view_post::category\";s:1:\"c\";s:3:\"web\";}i:151;a:3:{s:1:\"a\";i:152;s:1:\"b\";s:23:\"view_any_post::category\";s:1:\"c\";s:3:\"web\";}i:152;a:3:{s:1:\"a\";i:153;s:1:\"b\";s:21:\"create_post::category\";s:1:\"c\";s:3:\"web\";}i:153;a:3:{s:1:\"a\";i:154;s:1:\"b\";s:21:\"update_post::category\";s:1:\"c\";s:3:\"web\";}i:154;a:3:{s:1:\"a\";i:155;s:1:\"b\";s:22:\"restore_post::category\";s:1:\"c\";s:3:\"web\";}i:155;a:3:{s:1:\"a\";i:156;s:1:\"b\";s:26:\"restore_any_post::category\";s:1:\"c\";s:3:\"web\";}i:156;a:3:{s:1:\"a\";i:157;s:1:\"b\";s:24:\"replicate_post::category\";s:1:\"c\";s:3:\"web\";}i:157;a:3:{s:1:\"a\";i:158;s:1:\"b\";s:22:\"reorder_post::category\";s:1:\"c\";s:3:\"web\";}i:158;a:3:{s:1:\"a\";i:159;s:1:\"b\";s:21:\"delete_post::category\";s:1:\"c\";s:3:\"web\";}i:159;a:3:{s:1:\"a\";i:160;s:1:\"b\";s:25:\"delete_any_post::category\";s:1:\"c\";s:3:\"web\";}i:160;a:3:{s:1:\"a\";i:161;s:1:\"b\";s:27:\"force_delete_post::category\";s:1:\"c\";s:3:\"web\";}i:161;a:3:{s:1:\"a\";i:162;s:1:\"b\";s:31:\"force_delete_any_post::category\";s:1:\"c\";s:3:\"web\";}i:162;a:4:{s:1:\"a\";i:163;s:1:\"b\";s:12:\"view_contact\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:163;a:4:{s:1:\"a\";i:164;s:1:\"b\";s:16:\"view_any_contact\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:164;a:4:{s:1:\"a\";i:165;s:1:\"b\";s:14:\"create_contact\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:165;a:4:{s:1:\"a\";i:166;s:1:\"b\";s:14:\"update_contact\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:166;a:4:{s:1:\"a\";i:167;s:1:\"b\";s:15:\"restore_contact\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:167;a:4:{s:1:\"a\";i:168;s:1:\"b\";s:19:\"restore_any_contact\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:168;a:4:{s:1:\"a\";i:169;s:1:\"b\";s:17:\"replicate_contact\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:169;a:4:{s:1:\"a\";i:170;s:1:\"b\";s:15:\"reorder_contact\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:170;a:4:{s:1:\"a\";i:171;s:1:\"b\";s:14:\"delete_contact\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:171;a:4:{s:1:\"a\";i:172;s:1:\"b\";s:18:\"delete_any_contact\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:172;a:4:{s:1:\"a\";i:173;s:1:\"b\";s:20:\"force_delete_contact\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:173;a:4:{s:1:\"a\";i:174;s:1:\"b\";s:24:\"force_delete_any_contact\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:174;a:4:{s:1:\"a\";i:175;s:1:\"b\";s:11:\"page_Themes\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:175;a:4:{s:1:\"a\";i:176;s:1:\"b\";s:16:\"view_table::dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:176;a:4:{s:1:\"a\";i:177;s:1:\"b\";s:20:\"view_any_table::dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:177;a:4:{s:1:\"a\";i:178;s:1:\"b\";s:18:\"create_table::dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:178;a:4:{s:1:\"a\";i:179;s:1:\"b\";s:18:\"update_table::dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:179;a:4:{s:1:\"a\";i:180;s:1:\"b\";s:19:\"restore_table::dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:180;a:4:{s:1:\"a\";i:181;s:1:\"b\";s:23:\"restore_any_table::dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:181;a:4:{s:1:\"a\";i:182;s:1:\"b\";s:21:\"replicate_table::dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:182;a:4:{s:1:\"a\";i:183;s:1:\"b\";s:19:\"reorder_table::dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:183;a:4:{s:1:\"a\";i:184;s:1:\"b\";s:18:\"delete_table::dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:184;a:4:{s:1:\"a\";i:185;s:1:\"b\";s:22:\"delete_any_table::dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:185;a:4:{s:1:\"a\";i:186;s:1:\"b\";s:24:\"force_delete_table::dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:186;a:4:{s:1:\"a\";i:187;s:1:\"b\";s:28:\"force_delete_any_table::dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}i:187;a:4:{s:1:\"a\";i:188;s:1:\"b\";s:6:\"HSHSHS\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:1:{i:0;i:1;}}}s:5:\"roles\";a:1:{i:0;a:4:{s:1:\"a\";i:1;s:1:\"b\";s:5:\"Admin\";s:1:\"c\";s:3:\"web\";s:1:\"j\";N;}}}', 1743060608);
+('livewire-rate-limiter:a17961fa74e9275d529f489537f179c05d50c2f3', 'i:2;', 1743044065),
+('livewire-rate-limiter:a17961fa74e9275d529f489537f179c05d50c2f3:timer', 'i:1743044065;', 1743044065),
+('spatie.permission.cache', 'a:3:{s:5:\"alias\";a:5:{s:1:\"a\";s:2:\"id\";s:1:\"b\";s:4:\"name\";s:1:\"c\";s:10:\"guard_name\";s:1:\"r\";s:5:\"roles\";s:1:\"j\";s:4:\"code\";}s:11:\"permissions\";a:217:{i:0;a:4:{s:1:\"a\";i:1;s:1:\"b\";s:9:\"view_role\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:1;a:4:{s:1:\"a\";i:2;s:1:\"b\";s:13:\"view_any_role\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:2;a:4:{s:1:\"a\";i:3;s:1:\"b\";s:11:\"create_role\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:3;a:4:{s:1:\"a\";i:4;s:1:\"b\";s:11:\"update_role\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:4;a:4:{s:1:\"a\";i:5;s:1:\"b\";s:11:\"delete_role\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:5;a:4:{s:1:\"a\";i:6;s:1:\"b\";s:15:\"delete_any_role\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:6;a:4:{s:1:\"a\";i:7;s:1:\"b\";s:9:\"view_user\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:7;a:4:{s:1:\"a\";i:8;s:1:\"b\";s:13:\"view_any_user\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:8;a:4:{s:1:\"a\";i:9;s:1:\"b\";s:11:\"create_user\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:9;a:4:{s:1:\"a\";i:10;s:1:\"b\";s:11:\"update_user\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:10;a:4:{s:1:\"a\";i:11;s:1:\"b\";s:12:\"restore_user\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:11;a:4:{s:1:\"a\";i:12;s:1:\"b\";s:16:\"restore_any_user\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:12;a:4:{s:1:\"a\";i:13;s:1:\"b\";s:14:\"replicate_user\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:13;a:4:{s:1:\"a\";i:14;s:1:\"b\";s:12:\"reorder_user\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:14;a:4:{s:1:\"a\";i:15;s:1:\"b\";s:11:\"delete_user\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:15;a:4:{s:1:\"a\";i:16;s:1:\"b\";s:15:\"delete_any_user\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:16;a:4:{s:1:\"a\";i:17;s:1:\"b\";s:17:\"force_delete_user\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:17;a:4:{s:1:\"a\";i:18;s:1:\"b\";s:21:\"force_delete_any_user\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:18;a:4:{s:1:\"a\";i:19;s:1:\"b\";s:9:\"view_dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:19;a:4:{s:1:\"a\";i:20;s:1:\"b\";s:13:\"view_any_dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:20;a:4:{s:1:\"a\";i:21;s:1:\"b\";s:11:\"create_dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:21;a:4:{s:1:\"a\";i:22;s:1:\"b\";s:11:\"update_dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:22;a:4:{s:1:\"a\";i:23;s:1:\"b\";s:12:\"restore_dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:23;a:4:{s:1:\"a\";i:24;s:1:\"b\";s:16:\"restore_any_dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:24;a:4:{s:1:\"a\";i:25;s:1:\"b\";s:14:\"replicate_dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:25;a:4:{s:1:\"a\";i:26;s:1:\"b\";s:12:\"reorder_dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:26;a:4:{s:1:\"a\";i:27;s:1:\"b\";s:11:\"delete_dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:27;a:4:{s:1:\"a\";i:28;s:1:\"b\";s:15:\"delete_any_dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:28;a:4:{s:1:\"a\";i:29;s:1:\"b\";s:17:\"force_delete_dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:29;a:4:{s:1:\"a\";i:30;s:1:\"b\";s:21:\"force_delete_any_dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:30;a:4:{s:1:\"a\";i:31;s:1:\"b\";s:15:\"view_ingredient\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:31;a:4:{s:1:\"a\";i:32;s:1:\"b\";s:19:\"view_any_ingredient\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:32;a:4:{s:1:\"a\";i:33;s:1:\"b\";s:17:\"create_ingredient\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:33;a:4:{s:1:\"a\";i:34;s:1:\"b\";s:17:\"update_ingredient\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:34;a:4:{s:1:\"a\";i:35;s:1:\"b\";s:18:\"restore_ingredient\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:35;a:4:{s:1:\"a\";i:36;s:1:\"b\";s:22:\"restore_any_ingredient\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:36;a:4:{s:1:\"a\";i:37;s:1:\"b\";s:20:\"replicate_ingredient\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:37;a:4:{s:1:\"a\";i:38;s:1:\"b\";s:18:\"reorder_ingredient\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:38;a:4:{s:1:\"a\";i:39;s:1:\"b\";s:17:\"delete_ingredient\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:39;a:4:{s:1:\"a\";i:40;s:1:\"b\";s:21:\"delete_any_ingredient\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:40;a:4:{s:1:\"a\";i:41;s:1:\"b\";s:23:\"force_delete_ingredient\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:41;a:4:{s:1:\"a\";i:42;s:1:\"b\";s:27:\"force_delete_any_ingredient\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:42;a:4:{s:1:\"a\";i:43;s:1:\"b\";s:12:\"view_invoice\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:43;a:4:{s:1:\"a\";i:44;s:1:\"b\";s:16:\"view_any_invoice\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:44;a:4:{s:1:\"a\";i:45;s:1:\"b\";s:14:\"create_invoice\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:45;a:4:{s:1:\"a\";i:46;s:1:\"b\";s:14:\"update_invoice\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:46;a:4:{s:1:\"a\";i:47;s:1:\"b\";s:15:\"restore_invoice\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:47;a:4:{s:1:\"a\";i:48;s:1:\"b\";s:19:\"restore_any_invoice\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:48;a:4:{s:1:\"a\";i:49;s:1:\"b\";s:17:\"replicate_invoice\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:49;a:4:{s:1:\"a\";i:50;s:1:\"b\";s:15:\"reorder_invoice\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:50;a:4:{s:1:\"a\";i:51;s:1:\"b\";s:14:\"delete_invoice\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:51;a:4:{s:1:\"a\";i:52;s:1:\"b\";s:18:\"delete_any_invoice\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:52;a:4:{s:1:\"a\";i:53;s:1:\"b\";s:20:\"force_delete_invoice\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:53;a:4:{s:1:\"a\";i:54;s:1:\"b\";s:24:\"force_delete_any_invoice\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:54;a:4:{s:1:\"a\";i:55;s:1:\"b\";s:10:\"view_order\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:55;a:4:{s:1:\"a\";i:56;s:1:\"b\";s:14:\"view_any_order\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:56;a:4:{s:1:\"a\";i:57;s:1:\"b\";s:12:\"create_order\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:57;a:4:{s:1:\"a\";i:58;s:1:\"b\";s:12:\"update_order\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:58;a:4:{s:1:\"a\";i:59;s:1:\"b\";s:13:\"restore_order\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:59;a:4:{s:1:\"a\";i:60;s:1:\"b\";s:17:\"restore_any_order\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:60;a:4:{s:1:\"a\";i:61;s:1:\"b\";s:15:\"replicate_order\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:61;a:4:{s:1:\"a\";i:62;s:1:\"b\";s:13:\"reorder_order\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:62;a:4:{s:1:\"a\";i:63;s:1:\"b\";s:12:\"delete_order\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:63;a:4:{s:1:\"a\";i:64;s:1:\"b\";s:16:\"delete_any_order\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:64;a:4:{s:1:\"a\";i:65;s:1:\"b\";s:18:\"force_delete_order\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:65;a:4:{s:1:\"a\";i:66;s:1:\"b\";s:22:\"force_delete_any_order\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:66;a:3:{s:1:\"a\";i:67;s:1:\"b\";s:16:\"view_order::item\";s:1:\"c\";s:3:\"web\";}i:67;a:3:{s:1:\"a\";i:68;s:1:\"b\";s:20:\"view_any_order::item\";s:1:\"c\";s:3:\"web\";}i:68;a:3:{s:1:\"a\";i:69;s:1:\"b\";s:18:\"create_order::item\";s:1:\"c\";s:3:\"web\";}i:69;a:3:{s:1:\"a\";i:70;s:1:\"b\";s:18:\"update_order::item\";s:1:\"c\";s:3:\"web\";}i:70;a:3:{s:1:\"a\";i:71;s:1:\"b\";s:19:\"restore_order::item\";s:1:\"c\";s:3:\"web\";}i:71;a:3:{s:1:\"a\";i:72;s:1:\"b\";s:23:\"restore_any_order::item\";s:1:\"c\";s:3:\"web\";}i:72;a:3:{s:1:\"a\";i:73;s:1:\"b\";s:21:\"replicate_order::item\";s:1:\"c\";s:3:\"web\";}i:73;a:3:{s:1:\"a\";i:74;s:1:\"b\";s:19:\"reorder_order::item\";s:1:\"c\";s:3:\"web\";}i:74;a:3:{s:1:\"a\";i:75;s:1:\"b\";s:18:\"delete_order::item\";s:1:\"c\";s:3:\"web\";}i:75;a:3:{s:1:\"a\";i:76;s:1:\"b\";s:22:\"delete_any_order::item\";s:1:\"c\";s:3:\"web\";}i:76;a:3:{s:1:\"a\";i:77;s:1:\"b\";s:24:\"force_delete_order::item\";s:1:\"c\";s:3:\"web\";}i:77;a:3:{s:1:\"a\";i:78;s:1:\"b\";s:28:\"force_delete_any_order::item\";s:1:\"c\";s:3:\"web\";}i:78;a:4:{s:1:\"a\";i:79;s:1:\"b\";s:14:\"view_promotion\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:79;a:4:{s:1:\"a\";i:80;s:1:\"b\";s:18:\"view_any_promotion\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:80;a:4:{s:1:\"a\";i:81;s:1:\"b\";s:16:\"create_promotion\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:81;a:4:{s:1:\"a\";i:82;s:1:\"b\";s:16:\"update_promotion\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:82;a:4:{s:1:\"a\";i:83;s:1:\"b\";s:17:\"restore_promotion\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:83;a:4:{s:1:\"a\";i:84;s:1:\"b\";s:21:\"restore_any_promotion\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:84;a:4:{s:1:\"a\";i:85;s:1:\"b\";s:19:\"replicate_promotion\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:85;a:4:{s:1:\"a\";i:86;s:1:\"b\";s:17:\"reorder_promotion\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:86;a:4:{s:1:\"a\";i:87;s:1:\"b\";s:16:\"delete_promotion\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:87;a:4:{s:1:\"a\";i:88;s:1:\"b\";s:20:\"delete_any_promotion\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:88;a:4:{s:1:\"a\";i:89;s:1:\"b\";s:22:\"force_delete_promotion\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:89;a:4:{s:1:\"a\";i:90;s:1:\"b\";s:26:\"force_delete_any_promotion\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:90;a:4:{s:1:\"a\";i:91;s:1:\"b\";s:16:\"view_reservation\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:91;a:4:{s:1:\"a\";i:92;s:1:\"b\";s:20:\"view_any_reservation\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:92;a:4:{s:1:\"a\";i:93;s:1:\"b\";s:18:\"create_reservation\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:93;a:4:{s:1:\"a\";i:94;s:1:\"b\";s:18:\"update_reservation\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:94;a:4:{s:1:\"a\";i:95;s:1:\"b\";s:19:\"restore_reservation\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:95;a:4:{s:1:\"a\";i:96;s:1:\"b\";s:23:\"restore_any_reservation\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:96;a:4:{s:1:\"a\";i:97;s:1:\"b\";s:21:\"replicate_reservation\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:97;a:4:{s:1:\"a\";i:98;s:1:\"b\";s:19:\"reorder_reservation\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:98;a:4:{s:1:\"a\";i:99;s:1:\"b\";s:18:\"delete_reservation\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:99;a:4:{s:1:\"a\";i:100;s:1:\"b\";s:22:\"delete_any_reservation\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:100;a:4:{s:1:\"a\";i:101;s:1:\"b\";s:24:\"force_delete_reservation\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:101;a:4:{s:1:\"a\";i:102;s:1:\"b\";s:28:\"force_delete_any_reservation\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:102;a:4:{s:1:\"a\";i:103;s:1:\"b\";s:15:\"view_restaurant\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:103;a:4:{s:1:\"a\";i:104;s:1:\"b\";s:19:\"view_any_restaurant\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:104;a:4:{s:1:\"a\";i:105;s:1:\"b\";s:17:\"create_restaurant\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:105;a:4:{s:1:\"a\";i:106;s:1:\"b\";s:17:\"update_restaurant\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:106;a:4:{s:1:\"a\";i:107;s:1:\"b\";s:18:\"restore_restaurant\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:107;a:4:{s:1:\"a\";i:108;s:1:\"b\";s:22:\"restore_any_restaurant\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:108;a:4:{s:1:\"a\";i:109;s:1:\"b\";s:20:\"replicate_restaurant\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:109;a:4:{s:1:\"a\";i:110;s:1:\"b\";s:18:\"reorder_restaurant\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:110;a:4:{s:1:\"a\";i:111;s:1:\"b\";s:17:\"delete_restaurant\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:111;a:4:{s:1:\"a\";i:112;s:1:\"b\";s:21:\"delete_any_restaurant\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:112;a:4:{s:1:\"a\";i:113;s:1:\"b\";s:23:\"force_delete_restaurant\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:113;a:4:{s:1:\"a\";i:114;s:1:\"b\";s:27:\"force_delete_any_restaurant\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:114;a:4:{s:1:\"a\";i:115;s:1:\"b\";s:10:\"view_table\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:115;a:4:{s:1:\"a\";i:116;s:1:\"b\";s:14:\"view_any_table\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:116;a:4:{s:1:\"a\";i:117;s:1:\"b\";s:12:\"create_table\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:117;a:4:{s:1:\"a\";i:118;s:1:\"b\";s:12:\"update_table\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:118;a:4:{s:1:\"a\";i:119;s:1:\"b\";s:13:\"restore_table\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:119;a:4:{s:1:\"a\";i:120;s:1:\"b\";s:17:\"restore_any_table\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:120;a:4:{s:1:\"a\";i:121;s:1:\"b\";s:15:\"replicate_table\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:121;a:4:{s:1:\"a\";i:122;s:1:\"b\";s:13:\"reorder_table\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:122;a:4:{s:1:\"a\";i:123;s:1:\"b\";s:12:\"delete_table\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:123;a:4:{s:1:\"a\";i:124;s:1:\"b\";s:16:\"delete_any_table\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:124;a:4:{s:1:\"a\";i:125;s:1:\"b\";s:18:\"force_delete_table\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:125;a:4:{s:1:\"a\";i:126;s:1:\"b\";s:22:\"force_delete_any_table\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:126;a:4:{s:1:\"a\";i:127;s:1:\"b\";s:19:\"view_food::category\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:127;a:4:{s:1:\"a\";i:128;s:1:\"b\";s:23:\"view_any_food::category\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:128;a:4:{s:1:\"a\";i:129;s:1:\"b\";s:21:\"create_food::category\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:129;a:4:{s:1:\"a\";i:130;s:1:\"b\";s:21:\"update_food::category\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:130;a:4:{s:1:\"a\";i:131;s:1:\"b\";s:22:\"restore_food::category\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:131;a:4:{s:1:\"a\";i:132;s:1:\"b\";s:26:\"restore_any_food::category\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:132;a:4:{s:1:\"a\";i:133;s:1:\"b\";s:24:\"replicate_food::category\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:133;a:4:{s:1:\"a\";i:134;s:1:\"b\";s:22:\"reorder_food::category\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:134;a:4:{s:1:\"a\";i:135;s:1:\"b\";s:21:\"delete_food::category\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:135;a:4:{s:1:\"a\";i:136;s:1:\"b\";s:25:\"delete_any_food::category\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:136;a:4:{s:1:\"a\";i:137;s:1:\"b\";s:27:\"force_delete_food::category\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:137;a:4:{s:1:\"a\";i:138;s:1:\"b\";s:31:\"force_delete_any_food::category\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:138;a:3:{s:1:\"a\";i:139;s:1:\"b\";s:9:\"view_post\";s:1:\"c\";s:3:\"web\";}i:139;a:3:{s:1:\"a\";i:140;s:1:\"b\";s:13:\"view_any_post\";s:1:\"c\";s:3:\"web\";}i:140;a:3:{s:1:\"a\";i:141;s:1:\"b\";s:11:\"create_post\";s:1:\"c\";s:3:\"web\";}i:141;a:3:{s:1:\"a\";i:142;s:1:\"b\";s:11:\"update_post\";s:1:\"c\";s:3:\"web\";}i:142;a:3:{s:1:\"a\";i:143;s:1:\"b\";s:12:\"restore_post\";s:1:\"c\";s:3:\"web\";}i:143;a:3:{s:1:\"a\";i:144;s:1:\"b\";s:16:\"restore_any_post\";s:1:\"c\";s:3:\"web\";}i:144;a:3:{s:1:\"a\";i:145;s:1:\"b\";s:14:\"replicate_post\";s:1:\"c\";s:3:\"web\";}i:145;a:3:{s:1:\"a\";i:146;s:1:\"b\";s:12:\"reorder_post\";s:1:\"c\";s:3:\"web\";}i:146;a:3:{s:1:\"a\";i:147;s:1:\"b\";s:11:\"delete_post\";s:1:\"c\";s:3:\"web\";}i:147;a:3:{s:1:\"a\";i:148;s:1:\"b\";s:15:\"delete_any_post\";s:1:\"c\";s:3:\"web\";}i:148;a:3:{s:1:\"a\";i:149;s:1:\"b\";s:17:\"force_delete_post\";s:1:\"c\";s:3:\"web\";}i:149;a:3:{s:1:\"a\";i:150;s:1:\"b\";s:21:\"force_delete_any_post\";s:1:\"c\";s:3:\"web\";}i:150;a:3:{s:1:\"a\";i:151;s:1:\"b\";s:19:\"view_post::category\";s:1:\"c\";s:3:\"web\";}i:151;a:3:{s:1:\"a\";i:152;s:1:\"b\";s:23:\"view_any_post::category\";s:1:\"c\";s:3:\"web\";}i:152;a:3:{s:1:\"a\";i:153;s:1:\"b\";s:21:\"create_post::category\";s:1:\"c\";s:3:\"web\";}i:153;a:3:{s:1:\"a\";i:154;s:1:\"b\";s:21:\"update_post::category\";s:1:\"c\";s:3:\"web\";}i:154;a:3:{s:1:\"a\";i:155;s:1:\"b\";s:22:\"restore_post::category\";s:1:\"c\";s:3:\"web\";}i:155;a:3:{s:1:\"a\";i:156;s:1:\"b\";s:26:\"restore_any_post::category\";s:1:\"c\";s:3:\"web\";}i:156;a:3:{s:1:\"a\";i:157;s:1:\"b\";s:24:\"replicate_post::category\";s:1:\"c\";s:3:\"web\";}i:157;a:3:{s:1:\"a\";i:158;s:1:\"b\";s:22:\"reorder_post::category\";s:1:\"c\";s:3:\"web\";}i:158;a:3:{s:1:\"a\";i:159;s:1:\"b\";s:21:\"delete_post::category\";s:1:\"c\";s:3:\"web\";}i:159;a:3:{s:1:\"a\";i:160;s:1:\"b\";s:25:\"delete_any_post::category\";s:1:\"c\";s:3:\"web\";}i:160;a:3:{s:1:\"a\";i:161;s:1:\"b\";s:27:\"force_delete_post::category\";s:1:\"c\";s:3:\"web\";}i:161;a:3:{s:1:\"a\";i:162;s:1:\"b\";s:31:\"force_delete_any_post::category\";s:1:\"c\";s:3:\"web\";}i:162;a:4:{s:1:\"a\";i:163;s:1:\"b\";s:12:\"view_contact\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:163;a:4:{s:1:\"a\";i:164;s:1:\"b\";s:16:\"view_any_contact\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:164;a:4:{s:1:\"a\";i:165;s:1:\"b\";s:14:\"create_contact\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:165;a:4:{s:1:\"a\";i:166;s:1:\"b\";s:14:\"update_contact\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:166;a:4:{s:1:\"a\";i:167;s:1:\"b\";s:15:\"restore_contact\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:167;a:4:{s:1:\"a\";i:168;s:1:\"b\";s:19:\"restore_any_contact\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:168;a:4:{s:1:\"a\";i:169;s:1:\"b\";s:17:\"replicate_contact\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:169;a:4:{s:1:\"a\";i:170;s:1:\"b\";s:15:\"reorder_contact\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:170;a:4:{s:1:\"a\";i:171;s:1:\"b\";s:14:\"delete_contact\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:171;a:4:{s:1:\"a\";i:172;s:1:\"b\";s:18:\"delete_any_contact\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:172;a:4:{s:1:\"a\";i:173;s:1:\"b\";s:20:\"force_delete_contact\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:173;a:4:{s:1:\"a\";i:174;s:1:\"b\";s:24:\"force_delete_any_contact\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:174;a:4:{s:1:\"a\";i:175;s:1:\"b\";s:11:\"page_Themes\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:175;a:4:{s:1:\"a\";i:176;s:1:\"b\";s:16:\"view_table::dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:176;a:4:{s:1:\"a\";i:177;s:1:\"b\";s:20:\"view_any_table::dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:177;a:4:{s:1:\"a\";i:178;s:1:\"b\";s:18:\"create_table::dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:178;a:4:{s:1:\"a\";i:179;s:1:\"b\";s:18:\"update_table::dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:179;a:4:{s:1:\"a\";i:180;s:1:\"b\";s:19:\"restore_table::dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:180;a:4:{s:1:\"a\";i:181;s:1:\"b\";s:23:\"restore_any_table::dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:181;a:4:{s:1:\"a\";i:182;s:1:\"b\";s:21:\"replicate_table::dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:182;a:4:{s:1:\"a\";i:183;s:1:\"b\";s:19:\"reorder_table::dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:183;a:4:{s:1:\"a\";i:184;s:1:\"b\";s:18:\"delete_table::dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:184;a:4:{s:1:\"a\";i:185;s:1:\"b\";s:22:\"delete_any_table::dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:185;a:4:{s:1:\"a\";i:186;s:1:\"b\";s:24:\"force_delete_table::dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:186;a:4:{s:1:\"a\";i:187;s:1:\"b\";s:28:\"force_delete_any_table::dish\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:187;a:3:{s:1:\"a\";i:188;s:1:\"b\";s:6:\"HSHSHS\";s:1:\"c\";s:3:\"web\";}i:188;a:4:{s:1:\"a\";i:189;s:1:\"b\";s:13:\"view_customer\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:189;a:4:{s:1:\"a\";i:190;s:1:\"b\";s:17:\"view_any_customer\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:190;a:4:{s:1:\"a\";i:191;s:1:\"b\";s:15:\"create_customer\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:191;a:4:{s:1:\"a\";i:192;s:1:\"b\";s:15:\"update_customer\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:192;a:4:{s:1:\"a\";i:193;s:1:\"b\";s:16:\"restore_customer\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:193;a:4:{s:1:\"a\";i:194;s:1:\"b\";s:20:\"restore_any_customer\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:194;a:4:{s:1:\"a\";i:195;s:1:\"b\";s:18:\"replicate_customer\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:195;a:4:{s:1:\"a\";i:196;s:1:\"b\";s:16:\"reorder_customer\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:196;a:4:{s:1:\"a\";i:197;s:1:\"b\";s:15:\"delete_customer\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:197;a:4:{s:1:\"a\";i:198;s:1:\"b\";s:19:\"delete_any_customer\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:198;a:4:{s:1:\"a\";i:199;s:1:\"b\";s:21:\"force_delete_customer\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:199;a:4:{s:1:\"a\";i:200;s:1:\"b\";s:25:\"force_delete_any_customer\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:200;a:4:{s:1:\"a\";i:201;s:1:\"b\";s:26:\"view_material::transaction\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:201;a:4:{s:1:\"a\";i:202;s:1:\"b\";s:30:\"view_any_material::transaction\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:202;a:4:{s:1:\"a\";i:203;s:1:\"b\";s:28:\"create_material::transaction\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:203;a:4:{s:1:\"a\";i:204;s:1:\"b\";s:28:\"update_material::transaction\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:204;a:4:{s:1:\"a\";i:205;s:1:\"b\";s:29:\"restore_material::transaction\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:205;a:4:{s:1:\"a\";i:206;s:1:\"b\";s:33:\"restore_any_material::transaction\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:206;a:4:{s:1:\"a\";i:207;s:1:\"b\";s:31:\"replicate_material::transaction\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:207;a:4:{s:1:\"a\";i:208;s:1:\"b\";s:29:\"reorder_material::transaction\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:208;a:4:{s:1:\"a\";i:209;s:1:\"b\";s:28:\"delete_material::transaction\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:209;a:4:{s:1:\"a\";i:210;s:1:\"b\";s:32:\"delete_any_material::transaction\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:210;a:4:{s:1:\"a\";i:211;s:1:\"b\";s:34:\"force_delete_material::transaction\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:211;a:4:{s:1:\"a\";i:212;s:1:\"b\";s:38:\"force_delete_any_material::transaction\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:212;a:4:{s:1:\"a\";i:213;s:1:\"b\";s:23:\"widget_ReservationStats\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:213;a:4:{s:1:\"a\";i:214;s:1:\"b\";s:30:\"widget_RestaurantRevenueWidget\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:214;a:4:{s:1:\"a\";i:215;s:1:\"b\";s:30:\"widget_RevenueByLocationWidget\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:215;a:4:{s:1:\"a\";i:216;s:1:\"b\";s:31:\"widget_LatestReservationsWidget\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}i:216;a:4:{s:1:\"a\";i:217;s:1:\"b\";s:25:\"widget_PendingOrdersTable\";s:1:\"c\";s:3:\"web\";s:1:\"r\";a:2:{i:0;i:1;i:1;i:8;}}}s:5:\"roles\";a:2:{i:0;a:4:{s:1:\"a\";i:1;s:1:\"b\";s:5:\"Admin\";s:1:\"c\";s:3:\"web\";s:1:\"j\";N;}i:1;a:4:{s:1:\"a\";i:8;s:1:\"b\";s:11:\"super_admin\";s:1:\"c\";s:3:\"web\";s:1:\"j\";N;}}}', 1743130387);
 
 -- --------------------------------------------------------
 
@@ -288,7 +288,7 @@ CREATE TABLE `invoices` (
   `id` bigint UNSIGNED NOT NULL,
   `invoice_code` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `restaurant_id` bigint UNSIGNED NOT NULL,
-  `total_amount` decimal(15,2) NOT NULL,
+  `total_amount` decimal(15,2) NOT NULL DEFAULT '0.00',
   `status` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'pending',
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
@@ -301,7 +301,8 @@ CREATE TABLE `invoices` (
 INSERT INTO `invoices` (`id`, `invoice_code`, `restaurant_id`, `total_amount`, `status`, `created_at`, `updated_at`) VALUES
 (10, 'INV-67DFF9FF77A03', 1, '245000.00', 'pending', '2025-03-23 12:09:35', '2025-03-23 12:09:35'),
 (11, 'INV-67E36C3D4038A', 1, '450000.00', 'pending', '2025-03-26 02:53:49', '2025-03-26 02:55:35'),
-(12, 'INV-67E36DC252F18', 1, '490000.00', 'pending', '2025-03-26 03:00:18', '2025-03-26 03:00:18');
+(12, 'INV-67E36DC252F18', 1, '490000.00', 'pending', '2025-03-26 03:00:18', '2025-03-26 03:00:18'),
+(13, 'INV-67E4BFA9C564B', 1, '0.00', 'pending', '2025-03-27 03:02:01', '2025-03-27 03:02:01');
 
 -- --------------------------------------------------------
 
@@ -773,7 +774,36 @@ INSERT INTO `permissions` (`id`, `name`, `guard_name`, `created_at`, `updated_at
 (185, 'delete_any_table::dish', 'web', '2025-03-18 07:27:27', '2025-03-18 07:27:27'),
 (186, 'force_delete_table::dish', 'web', '2025-03-18 07:27:27', '2025-03-18 07:27:27'),
 (187, 'force_delete_any_table::dish', 'web', '2025-03-18 07:27:27', '2025-03-18 07:27:27'),
-(188, 'HSHSHS', 'web', '2025-03-24 12:33:35', '2025-03-24 12:33:35');
+(188, 'HSHSHS', 'web', '2025-03-24 12:33:35', '2025-03-24 12:33:35'),
+(189, 'view_customer', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(190, 'view_any_customer', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(191, 'create_customer', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(192, 'update_customer', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(193, 'restore_customer', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(194, 'restore_any_customer', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(195, 'replicate_customer', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(196, 'reorder_customer', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(197, 'delete_customer', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(198, 'delete_any_customer', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(199, 'force_delete_customer', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(200, 'force_delete_any_customer', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(201, 'view_material::transaction', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(202, 'view_any_material::transaction', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(203, 'create_material::transaction', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(204, 'update_material::transaction', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(205, 'restore_material::transaction', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(206, 'restore_any_material::transaction', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(207, 'replicate_material::transaction', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(208, 'reorder_material::transaction', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(209, 'delete_material::transaction', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(210, 'delete_any_material::transaction', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(211, 'force_delete_material::transaction', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(212, 'force_delete_any_material::transaction', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(213, 'widget_ReservationStats', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(214, 'widget_RestaurantRevenueWidget', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(215, 'widget_RevenueByLocationWidget', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(216, 'widget_LatestReservationsWidget', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45'),
+(217, 'widget_PendingOrdersTable', 'web', '2025-03-27 02:52:45', '2025-03-27 02:52:45');
 
 -- --------------------------------------------------------
 
@@ -854,7 +884,8 @@ INSERT INTO `reservations` (`id`, `user_id`, `restaurant_id`, `number_of_people`
 (15, NULL, 1, 1, '20:06', 'pending', '2025-03-22 13:06:27', '2025-03-22 13:06:27', 'RESERVATION_67DEB5D38F49D', '123', '123', '123', '2025-03-22'),
 (16, 1, 1, 1, '18:53', 'canceled', '2025-03-23 11:54:13', '2025-03-27 02:51:02', 'RESERVATION_67DFF665B1266', NULL, 'admin@gmail.com', 'admin@gmail.com', '2025-03-23'),
 (17, 1, 1, 1, '18:56', 'canceled', '2025-03-23 11:56:58', '2025-03-27 02:51:22', 'RESERVATION_67DFF70AA6ACD', '2509roblox@gmail.com', 'admin@gmail.com', 'admin@gmail.com', '2025-03-23'),
-(18, 1, 1, 1, '10:12', 'canceled', '2025-03-26 03:12:42', '2025-03-27 02:51:31', 'RESERVATION_67E370AAEE2A1', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', '2025-03-26');
+(18, 1, 1, 1, '10:12', 'canceled', '2025-03-26 03:12:42', '2025-03-27 02:51:31', 'RESERVATION_67E370AAEE2A1', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', '2025-03-26'),
+(19, 1, 1, 1, '09:55', 'pending', '2025-03-27 02:55:59', '2025-03-27 02:55:59', 'RESERVATION_67E4BE3FA73D1', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', '2025-03-27');
 
 -- --------------------------------------------------------
 
@@ -909,7 +940,8 @@ INSERT INTO `roles` (`id`, `name`, `guard_name`, `code`, `created_at`, `updated_
 (4, 'Kế toán', 'web', NULL, '2025-03-15 03:55:54', '2025-03-15 03:55:54'),
 (5, 'Nhân viên thu ngân', 'web', NULL, '2025-03-15 03:56:03', '2025-03-15 03:56:03'),
 (6, 'Nhân viên phục vụ', 'web', NULL, '2025-03-15 03:56:16', '2025-03-15 03:56:16'),
-(7, 'Nhân viên bếp', 'web', NULL, '2025-03-15 03:56:23', '2025-03-15 03:56:23');
+(7, 'Nhân viên bếp', 'web', NULL, '2025-03-15 03:56:23', '2025-03-15 03:56:23'),
+(8, 'super_admin', 'web', NULL, '2025-03-27 02:52:45', '2025-03-27 02:52:45');
 
 -- --------------------------------------------------------
 
@@ -1078,7 +1110,215 @@ INSERT INTO `role_has_permissions` (`permission_id`, `role_id`) VALUES
 (185, 1),
 (186, 1),
 (187, 1),
-(188, 1);
+(189, 1),
+(190, 1),
+(191, 1),
+(192, 1),
+(193, 1),
+(194, 1),
+(195, 1),
+(196, 1),
+(197, 1),
+(198, 1),
+(199, 1),
+(200, 1),
+(201, 1),
+(202, 1),
+(203, 1),
+(204, 1),
+(205, 1),
+(206, 1),
+(207, 1),
+(208, 1),
+(209, 1),
+(210, 1),
+(211, 1),
+(212, 1),
+(213, 1),
+(214, 1),
+(215, 1),
+(216, 1),
+(217, 1),
+(1, 8),
+(2, 8),
+(3, 8),
+(4, 8),
+(5, 8),
+(6, 8),
+(7, 8),
+(8, 8),
+(9, 8),
+(10, 8),
+(11, 8),
+(12, 8),
+(13, 8),
+(14, 8),
+(15, 8),
+(16, 8),
+(17, 8),
+(18, 8),
+(19, 8),
+(20, 8),
+(21, 8),
+(22, 8),
+(23, 8),
+(24, 8),
+(25, 8),
+(26, 8),
+(27, 8),
+(28, 8),
+(29, 8),
+(30, 8),
+(31, 8),
+(32, 8),
+(33, 8),
+(34, 8),
+(35, 8),
+(36, 8),
+(37, 8),
+(38, 8),
+(39, 8),
+(40, 8),
+(41, 8),
+(42, 8),
+(43, 8),
+(44, 8),
+(45, 8),
+(46, 8),
+(47, 8),
+(48, 8),
+(49, 8),
+(50, 8),
+(51, 8),
+(52, 8),
+(53, 8),
+(54, 8),
+(55, 8),
+(56, 8),
+(57, 8),
+(58, 8),
+(59, 8),
+(60, 8),
+(61, 8),
+(62, 8),
+(63, 8),
+(64, 8),
+(65, 8),
+(66, 8),
+(79, 8),
+(80, 8),
+(81, 8),
+(82, 8),
+(83, 8),
+(84, 8),
+(85, 8),
+(86, 8),
+(87, 8),
+(88, 8),
+(89, 8),
+(90, 8),
+(91, 8),
+(92, 8),
+(93, 8),
+(94, 8),
+(95, 8),
+(96, 8),
+(97, 8),
+(98, 8),
+(99, 8),
+(100, 8),
+(101, 8),
+(102, 8),
+(103, 8),
+(104, 8),
+(105, 8),
+(106, 8),
+(107, 8),
+(108, 8),
+(109, 8),
+(110, 8),
+(111, 8),
+(112, 8),
+(113, 8),
+(114, 8),
+(115, 8),
+(116, 8),
+(117, 8),
+(118, 8),
+(119, 8),
+(120, 8),
+(121, 8),
+(122, 8),
+(123, 8),
+(124, 8),
+(125, 8),
+(126, 8),
+(127, 8),
+(128, 8),
+(129, 8),
+(130, 8),
+(131, 8),
+(132, 8),
+(133, 8),
+(134, 8),
+(135, 8),
+(136, 8),
+(137, 8),
+(138, 8),
+(163, 8),
+(164, 8),
+(165, 8),
+(166, 8),
+(167, 8),
+(168, 8),
+(169, 8),
+(170, 8),
+(171, 8),
+(172, 8),
+(173, 8),
+(174, 8),
+(175, 8),
+(176, 8),
+(177, 8),
+(178, 8),
+(179, 8),
+(180, 8),
+(181, 8),
+(182, 8),
+(183, 8),
+(184, 8),
+(185, 8),
+(186, 8),
+(187, 8),
+(189, 8),
+(190, 8),
+(191, 8),
+(192, 8),
+(193, 8),
+(194, 8),
+(195, 8),
+(196, 8),
+(197, 8),
+(198, 8),
+(199, 8),
+(200, 8),
+(201, 8),
+(202, 8),
+(203, 8),
+(204, 8),
+(205, 8),
+(206, 8),
+(207, 8),
+(208, 8),
+(209, 8),
+(210, 8),
+(211, 8),
+(212, 8),
+(213, 8),
+(214, 8),
+(215, 8),
+(216, 8),
+(217, 8);
 
 -- --------------------------------------------------------
 
@@ -1100,7 +1340,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('Cq9MK5SjfONXJqnqAvo176jGTfEXxUBedRqbwHJU', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo2OntzOjY6Il90b2tlbiI7czo0MDoiOFdqdGVMVEhDUUtyRVNMcWlnTlI0aG9HSkt3aUlkeXgweVFDQngxMiI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6NDU6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9teS1hY2NvdW50L3Jlc2VydmF0aW9ucyI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6MzoidXJsIjthOjA6e31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxO3M6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTIkYWlTOXVOeWt6TlZiN2xRdUI4SnRJLnhEZjI3cTgxanhIeFFIZ2dSSG40ZDJnQ2VKQ1l5SnEiO30=', 1743043891);
+('kya3ikyTPcjj8p40drAhP3FiVGW4vtsy0CEcj16R', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo2OntzOjY6Il90b2tlbiI7czo0MDoiMTBEVUhVcExmRVpxZTNnckFUZjRvdkxnU0M5bTJnN3ZQek53Nm9VciI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6NDA6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbi9zaGllbGQvcm9sZXMiO31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxO3M6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTIkYWlTOXVOeWt6TlZiN2xRdUI4SnRJLnhEZjI3cTgxanhIeFFIZ2dSSG40ZDJnQ2VKQ1l5SnEiO3M6ODoiZmlsYW1lbnQiO2E6MDp7fX0=', 1743044836);
 
 -- --------------------------------------------------------
 
@@ -1143,6 +1383,13 @@ CREATE TABLE `table_dishes` (
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Dumping data for table `table_dishes`
+--
+
+INSERT INTO `table_dishes` (`id`, `dish_id`, `table_id`, `quantity`, `served_at`, `status`, `created_at`, `updated_at`) VALUES
+(12, 14, 1, 1, NULL, 'pending', '2025-03-27 03:01:11', '2025-03-27 03:01:11');
+
 -- --------------------------------------------------------
 
 --
@@ -1171,7 +1418,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `is_locked`, `phone`, `created_at`, `updated_at`, `address`, `loyalty_points`, `theme`, `theme_color`) VALUES
-(1, 'admin@gmail.com', 'admin@gmail.com', NULL, '$2y$12$aiS9uNykzNVb7lQuB8JtI.xDf27q81jxHxQHggRHn4d2gCeJCYyJq', '8RWJv0LMlVxpyv4PIT05eK9hSjLVAiv1hh6TOZQtcA8m6HOaPr0pbeggd7wy', 0, 'admin@gmail.com', '2025-03-09 21:32:39', '2025-03-17 13:13:45', 'admin@gmail.com', 50000, 'default', NULL),
+(1, 'admin@gmail.com', 'admin@gmail.com', NULL, '$2y$12$aiS9uNykzNVb7lQuB8JtI.xDf27q81jxHxQHggRHn4d2gCeJCYyJq', 'uF40qmJZmXLhQHGAwReF6RztfzyKgkyIcL53vaP7bkeGnms7hPSeBqP4s2If', 0, 'admin@gmail.com', '2025-03-09 21:32:39', '2025-03-17 13:13:45', 'admin@gmail.com', 50000, 'default', NULL),
 (6, 'beptruong@gmail.com', 'beptruong@gmail.com', NULL, '$2y$12$AnKMLUKYHLoinNGtE/nrtu.gTPFi3XbDCaKYv.nwHSJ3EfL3cAr1a', NULL, 0, NULL, '2025-03-16 13:25:36', '2025-03-16 13:25:46', NULL, 0, 'default', NULL),
 (14, '2509roblox@gmail.com', '2509roblox@gmail.com', NULL, '$2y$12$WJAcdYedVhQ5KxyiCFKlxeaN6BEawaW80mEkbQeRQ6AaPuGsJOK7q', NULL, 0, '0999999999', '2025-03-26 11:14:13', '2025-03-26 11:14:13', NULL, 0, 'default', NULL);
 
@@ -1433,7 +1680,7 @@ ALTER TABLE `ingredients`
 -- AUTO_INCREMENT for table `invoices`
 --
 ALTER TABLE `invoices`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `invoice_items`
@@ -1475,7 +1722,7 @@ ALTER TABLE `order_items`
 -- AUTO_INCREMENT for table `permissions`
 --
 ALTER TABLE `permissions`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=189;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=218;
 
 --
 -- AUTO_INCREMENT for table `promotions`
@@ -1493,7 +1740,7 @@ ALTER TABLE `recipes`
 -- AUTO_INCREMENT for table `reservations`
 --
 ALTER TABLE `reservations`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- AUTO_INCREMENT for table `restaurants`
@@ -1505,7 +1752,7 @@ ALTER TABLE `restaurants`
 -- AUTO_INCREMENT for table `roles`
 --
 ALTER TABLE `roles`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `tables`
@@ -1517,7 +1764,7 @@ ALTER TABLE `tables`
 -- AUTO_INCREMENT for table `table_dishes`
 --
 ALTER TABLE `table_dishes`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `users`

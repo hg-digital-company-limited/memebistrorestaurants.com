@@ -25,7 +25,7 @@ class RoleResource extends Resource implements HasShieldPermissions
     protected static ?string $navigationGroup = 'Quản lý hệ thống';
     public static function getPluralModelLabel(): string
     {
-        return 'Danh sách chức vụ';
+        return 'Danh sách chức vụ & phân quyền';
     }
 
     protected static ?int $navigationSort = 2;

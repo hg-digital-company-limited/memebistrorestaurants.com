@@ -33,6 +33,7 @@ class TableDishRelationManagerRelationManager extends RelationManager
                 ->required()
                 ->numeric()
                 ->default(1)
+                ->minValue(1)
                 ->label('Số lượng'),
 
             // Forms\Components\DateTimePicker::make('served_at')

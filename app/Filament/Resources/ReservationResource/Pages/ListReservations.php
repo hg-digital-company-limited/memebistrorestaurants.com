@@ -9,11 +9,12 @@ use Filament\Resources\Pages\ListRecords;
 class ListReservations extends ListRecords
 {
     protected static string $resource = ReservationResource::class;
-
+    protected static ?string $title = 'Lịch đặt bàn';
     protected function getHeaderActions(): array
     {
         return [
-            Actions\CreateAction::make(),
+            Actions\CreateAction::make()
+                ->label('Thêm lịch đặt bàn'),
         ];
     }
 }

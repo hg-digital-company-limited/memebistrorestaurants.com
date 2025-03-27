@@ -1276,7 +1276,19 @@
                                                                     {{ $reservation->reservation_time }}
                                                                 </td>
                                                                 <td class="woocommerce-table__product-name product-name">
-                                                                    {{ $reservation->status }}
+                                                                    @switch($reservation->status)
+                                                                        @case('pending')
+                                                                            Chờ xác nhận
+                                                                            @break
+                                                                        @case('confirmed')
+                                                                            Đã xác nhận
+                                                                            @break
+                                                                        @case('cancelled')
+                                                                            Đã hủy
+                                                                            @break
+                                                                        @default
+                                                                            Khác
+                                                                    @endswitch
                                                                 </td>
                                                                 <td>
                                                                     @if ($reservation->status == 'pending')

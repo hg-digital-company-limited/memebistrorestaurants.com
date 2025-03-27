@@ -80,7 +80,7 @@ class Reservation extends Component
             'status' => 'pending',
         ]);
 
-        session()->flash('message', 'Reservation successfully created.');
+        session()->flash('message', 'Nhà hàng sẽ gọi điện xác nhận trong ít phút tới, quý khách vui lòng để ý điện thoại. Cảm ơn quý khách!');
         $this->downloadPDF($reservation->id);
         $this->reset();
     }

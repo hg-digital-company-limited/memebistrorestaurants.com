@@ -20,7 +20,7 @@ class ReservationResource extends Resource
     protected static ?string $navigationGroup = 'Quản lý Nhà Hàng';
     public static function getPluralModelLabel(): string
     {
-        return 'Danh sách đặt bàn';
+        return 'Danh sách Lịch đặt bàn';
     }
     protected static ?string $navigationIcon = 'heroicon-o-calendar';
     protected static ?int $navigationSort = 2;

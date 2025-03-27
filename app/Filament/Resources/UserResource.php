@@ -89,7 +89,7 @@ class UserResource extends Resource
                     ->label('Email')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('roles.name')
-                    ->label('Vai trò')
+                    ->label('Chức vụ')
                     ->badge()
                     ->color('success'),
                 // Tables\Columns\TextColumn::make('phone')
