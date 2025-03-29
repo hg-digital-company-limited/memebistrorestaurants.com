@@ -75,7 +75,7 @@ class Reservation extends Component
         $reservation_code = strtoupper(uniqid('RESERVATION_'));
 
         if ($this->name == null || $this->phone == null || $this->reservation_day == null || $this->reservation_time == null || $this->restaurant_id == null) {
-            dd($this->name, $this->phone, $this->email, $this->reservation_day, $this->reservation_time, $this->restaurant_id);
+            // dd($this->name, $this->phone, $this->email, $this->reservation_day, $this->reservation_time, $this->restaurant_id);
             session()->flash('error', 'Vui lòng điền đầy đủ thông tin.');
             return;
         }

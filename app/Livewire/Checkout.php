@@ -4,6 +4,7 @@ namespace App\Livewire;
 
 use App\Models\Customer;
 use App\Models\Dish;
+use App\Models\TableDish;
 use Illuminate\Support\Facades\Auth;
 use Livewire\Component;
 use App\Helpers\CartManagement;
@@ -98,6 +99,13 @@ class Checkout extends Component
                 'dish_id' => $item['product_id'],
                 'quantity' => $item['quantity'],
                 'price' => $item['unit_amount'],
+            ]);
+            TableDish::create([
+                'dish_id' => $item['product_id'],
+                'table_id' => null, // Assuming you have this value available
+                'quantity' => $item['quantity'],
+                'served_at' => now(), // You can adjust this as needed
+                'status' => 'pending', // Initial status, adjust as necessary
             ]);
         }
 
