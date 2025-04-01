@@ -43,6 +43,7 @@ class OrderReceived extends Component
         if (request()->vnp_ResponseCode != '00' && $this->order->payment_status == 'unpaid') {
             $this->order->payment_status = 'failed';
             $this->order->save();
+            Order::where('order_code', request()->vnp_TxnRef)->delete();
             session()->flash('message', 'Thanh toán thất bại!');
         } else if (request()->vnp_ResponseCode == '00' && $this->order->payment_status == 'unpaid') {
             // Add 5% of the total amount to the user's loyalty points
@@ -58,6 +59,7 @@ class OrderReceived extends Component
 
             session()->flash('message', 'Thanh toán thành công! Mã đơn hàng: ' . $this->order->order_code);
         } else {
+            Order::where('order_code', request()->vnp_TxnRef)->delete();
             session()->flash('message', 'Thanh toán thất bại!');
 
         }
