@@ -1,17 +1,7 @@
 <div>
 
     <head>
-        <link rel="profile" href="//gmpg.org/xfn/11">
         <title>Đăng nhập</title>
-        <meta name='robots' content='max-image-preview:large, noindex, follow' />
-        <link rel="dns-prefetch" href="//fonts.googleapis.com">
-        <link rel="dns-prefetch" href="//s.w.org">
-        <link rel='dns-prefetch' href='//demo2.themelexus.com' />
-        <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-        <link rel='dns-prefetch' href='//s.w.org' />
-        <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Feed" href="/delicioz/feed/" />
-        <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Comments Feed"
-            href="/delicioz/comments/feed/" />
         <script>
             window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/demo2.themelexus.com\/delicioz\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.2" } };
             /*! This file is auto-generated */
@@ -1283,7 +1273,7 @@
                                                             <input type="checkbox"
                                                                 class="woocommerce-form__input woocommerce-form__input-checkbox"
                                                                 wire:model="remember" />
-                                                            <span>Nhớ tôi</span>
+                                                            <span>Ghi nhớ đăng nhập</span>
                                                         </label>
                                                         <input type="hidden" id="woocommerce-login-nonce"
                                                             name="woocommerce-login-nonce" value="b8f5bb0097" /><input

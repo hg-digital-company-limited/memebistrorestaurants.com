@@ -64,6 +64,10 @@ class UserResource extends Resource
                         ->relationship('roles', 'name')
                         ->searchable(),
                 ]),
+                Forms\Components\Select::make('restaurant_id')
+                    ->label('Cơ sở')
+                    ->relationship('restaurant', 'name')
+                   ,
                 // Mật khẩu
                 Forms\Components\Section::make('Mật khẩu')->schema([
                     Forms\Components\TextInput::make('password')
@@ -93,18 +97,9 @@ class UserResource extends Resource
                     ->label('Chức vụ')
                     ->badge()
                     ->color('success'),
-                // Tables\Columns\TextColumn::make('phone')
-                //     ->searchable()
-                //     ->label('Số điện thoại'),
-                // Tables\Columns\TextColumn::make('address')
-                //     ->searchable()
-                //     ->label('Địa chỉ'),
-                // Tables\Columns\TextColumn::make('loyalty_points')
-                //     ->label('Điểm thưởng'),
-                // Tables\Columns\TextColumn::make('is_locked')
-                //     ->label('Khóa tài khoản')
-                //     ->badge()
-                //     ->color('success'),
+                Tables\Columns\TextColumn::make('restaurant.name')
+                    ->label('Cơ sở')
+                    ->searchable(),
                 Tables\Columns\TextColumn::make('created_at')
                     ->dateTime()
                     ->label('Ngày tạo')
