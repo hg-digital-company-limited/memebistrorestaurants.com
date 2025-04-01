@@ -63,11 +63,12 @@ class UserResource extends Resource
                         ->label('Vai trò')
                         ->relationship('roles', 'name')
                         ->searchable(),
+                        Forms\Components\Select::make('restaurant_id')
+                        ->label('Cơ sở')
+                        ->relationship('restaurant', 'name')
+                       ,
                 ]),
-                Forms\Components\Select::make('restaurant_id')
-                    ->label('Cơ sở')
-                    ->relationship('restaurant', 'name')
-                   ,
+
                 // Mật khẩu
                 Forms\Components\Section::make('Mật khẩu')->schema([
                     Forms\Components\TextInput::make('password')
