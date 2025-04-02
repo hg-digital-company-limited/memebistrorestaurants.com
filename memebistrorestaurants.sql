@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Apr 02, 2025 at 01:32 AM
+-- Generation Time: Apr 02, 2025 at 01:39 AM
 -- Server version: 8.0.30
 -- PHP Version: 8.2.27
 
@@ -514,7 +514,9 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (45, '2025_03_27_181252_create_warehouse_receipts_table', 34),
 (46, '2025_03_27_181255_create_warehouse_receipt_details_table', 34),
 (47, '2025_03_27_181258_create_return_ingredients_table', 34),
-(48, '2025_04_01_171308_add_restaurant_id_to_users_table', 35);
+(48, '2025_04_01_171308_add_restaurant_id_to_users_table', 35),
+(49, '2025_04_02_083435_add_custom_fields_to_users_table', 36),
+(50, '2025_04_02_083436_add_avatar_url_to_users_table', 36);
 
 -- --------------------------------------------------------
 
@@ -1562,7 +1564,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('8mFw5ELjjSDw1YaiNWD2c90da9FydXPWxO0g5ihz', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo2OntzOjY6Il90b2tlbiI7czo0MDoiWlRjVEZTZ3R5RmU4dFVyb1RvUlJjZkhtYkZFTVJmUXE4ZTBPek52WiI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzU6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbi9wcm9maWxlIjt9czo4OiJmaWxhbWVudCI7YTowOnt9czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTtzOjE3OiJwYXNzd29yZF9oYXNoX3dlYiI7czo2MDoiJDJ5JDEyJGFpUzl1Tnlrek5WYjdsUXVCOEp0SS54RGYyN3E4MWp4SHhRSGdnUkhuNGQyZ0NlSkNZeUpxIjt9', 1743557528);
+('8mFw5ELjjSDw1YaiNWD2c90da9FydXPWxO0g5ihz', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo2OntzOjY6Il90b2tlbiI7czo0MDoiWlRjVEZTZ3R5RmU4dFVyb1RvUlJjZkhtYkZFTVJmUXE4ZTBPek52WiI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjc6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbiI7fXM6ODoiZmlsYW1lbnQiO2E6MDp7fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7czoxNzoicGFzc3dvcmRfaGFzaF93ZWIiO3M6NjA6IiQyeSQxMiRhaVM5dU55a3pOVmI3bFF1QjhKdEkueERmMjdxODFqeEh4UUhnZ1JIbjRkMmdDZUpDWXlKcSI7fQ==', 1743557969);
 
 -- --------------------------------------------------------
 
@@ -1634,17 +1636,19 @@ CREATE TABLE `users` (
   `address` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `loyalty_points` int NOT NULL DEFAULT '0',
   `theme` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT 'default',
-  `theme_color` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL
+  `theme_color` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `custom_fields` json DEFAULT NULL,
+  `avatar_url` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `restaurant_id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `is_locked`, `phone`, `created_at`, `updated_at`, `address`, `loyalty_points`, `theme`, `theme_color`) VALUES
-(1, 2, 'admin@gmail.com', 'admin@gmail.com', NULL, '$2y$12$aiS9uNykzNVb7lQuB8JtI.xDf27q81jxHxQHggRHn4d2gCeJCYyJq', 'VNCallhNcX60PNRzBNPrJFARvj9un98JTNsyBdg9YSv6TrtuOwBlgqNkXHZx', 0, 'admin@gmail.com', '2025-03-09 21:32:39', '2025-04-01 10:14:39', 'admin@gmail.com', 50000, 'default', NULL),
-(6, 1, 'beptruong@gmail.com', 'beptruong@gmail.com', NULL, '$2y$12$AnKMLUKYHLoinNGtE/nrtu.gTPFi3XbDCaKYv.nwHSJ3EfL3cAr1a', NULL, 0, NULL, '2025-03-16 13:25:36', '2025-04-01 10:14:52', NULL, 0, 'default', NULL),
-(14, NULL, '2509roblox@gmail.com', '2509roblox@gmail.com', NULL, '$2y$12$t.TQzw.5aluw/Uv.sSaJIuJ65GkrdlFaOetIMxQtbPNg5EeqP75pO', '4Jg8OtmMfYzSIgCswLhr70kfOUKpJHMJT7Hd7LoWFZrV9M4YpvOi2JHCC4P8', 0, '0999999999', '2025-03-26 11:14:13', '2025-04-01 10:46:30', NULL, 0, 'default', NULL);
+INSERT INTO `users` (`id`, `restaurant_id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `is_locked`, `phone`, `created_at`, `updated_at`, `address`, `loyalty_points`, `theme`, `theme_color`, `custom_fields`, `avatar_url`) VALUES
+(1, 2, 'admin@gmail.com', 'admin@gmail.com', NULL, '$2y$12$aiS9uNykzNVb7lQuB8JtI.xDf27q81jxHxQHggRHn4d2gCeJCYyJq', 'VNCallhNcX60PNRzBNPrJFARvj9un98JTNsyBdg9YSv6TrtuOwBlgqNkXHZx', 0, 'admin@gmail.com', '2025-03-09 21:32:39', '2025-04-01 10:14:39', 'admin@gmail.com', 50000, 'default', NULL, NULL, NULL),
+(6, 1, 'beptruong@gmail.com', 'beptruong@gmail.com', NULL, '$2y$12$AnKMLUKYHLoinNGtE/nrtu.gTPFi3XbDCaKYv.nwHSJ3EfL3cAr1a', NULL, 0, NULL, '2025-03-16 13:25:36', '2025-04-01 10:14:52', NULL, 0, 'default', NULL, NULL, NULL),
+(14, NULL, '2509roblox@gmail.com', '2509roblox@gmail.com', NULL, '$2y$12$t.TQzw.5aluw/Uv.sSaJIuJ65GkrdlFaOetIMxQtbPNg5EeqP75pO', '4Jg8OtmMfYzSIgCswLhr70kfOUKpJHMJT7Hd7LoWFZrV9M4YpvOi2JHCC4P8', 0, '0999999999', '2025-03-26 11:14:13', '2025-04-01 10:46:30', NULL, 0, 'default', NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -2020,7 +2024,7 @@ ALTER TABLE `material_transactions`
 -- AUTO_INCREMENT for table `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=49;
+  MODIFY `id` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=51;
 
 --
 -- AUTO_INCREMENT for table `orders`
