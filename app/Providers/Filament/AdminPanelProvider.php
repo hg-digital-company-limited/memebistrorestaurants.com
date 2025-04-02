@@ -57,9 +57,8 @@ class AdminPanelProvider extends PanelProvider
             ])
             ->plugins([
                 \BezhanSalleh\FilamentShield\FilamentShieldPlugin::make(),
-                FilamentEditProfilePlugin::make()
-
-                // \Hasnayeen\Themes\ThemesPlugin::make()
+                FilamentEditProfilePlugin::make(),
+                \Hasnayeen\Themes\ThemesPlugin::make()
             ])
             ->brandName('ME ME BISTRO Admin');
     }

@@ -37,6 +37,10 @@ class UserResource extends Resource
                     //     ->label('Tên')
                     //     ->required()
                     //     ->maxLength(255),
+                    Forms\Components\FileUpload::make('avatar_url')
+                        ->label('Ảnh đại diện')
+                        ->image()
+                        ->avatar(),
                     Forms\Components\TextInput::make('email')
                         ->label('Email')
                         ->email()
@@ -88,6 +92,9 @@ class UserResource extends Resource
                 Tables\Columns\TextColumn::make('id')
                     ->label('ID')
                     ->sortable(),
+                Tables\Columns\ImageColumn::make('avatar_url')
+                    ->label('Ảnh đại diện')
+                    ->circular(),
                 // Tables\Columns\TextColumn::make('name')
                 //     ->label('Tên')
                 //     ->searchable(),
