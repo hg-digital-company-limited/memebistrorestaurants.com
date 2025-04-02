@@ -15,4 +15,17 @@ class ReturnIngredient extends Model
     {
         return $this->belongsTo(Ingredient::class);
     }
+    protected static function boot()
+    {
+        parent::boot();
+
+        static::created(function ($returnIngredient) {
+           MaterialTransaction::create([
+            'type' => 'export',
+            'quantity' => $returnIngredient->returned_quantity,
+            'ingredient_id' => $returnIngredient->ingredient_id,
+            'reason' => $returnIngredient->reason,
+           ]);
+        });
+    }
 }

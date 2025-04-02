@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Apr 02, 2025 at 02:10 AM
+-- Generation Time: Apr 02, 2025 at 03:10 AM
 -- Server version: 8.0.30
 -- PHP Version: 8.2.27
 
@@ -272,13 +272,6 @@ CREATE TABLE `import_requests` (
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
---
--- Dumping data for table `import_requests`
---
-
-INSERT INTO `import_requests` (`id`, `request_date`, `requested_by`, `status`, `created_at`, `updated_at`) VALUES
-(1, '2025-03-28', '6', 'pending', '2025-03-27 11:37:58', '2025-03-27 11:37:58');
-
 -- --------------------------------------------------------
 
 --
@@ -293,14 +286,6 @@ CREATE TABLE `import_request_details` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Dumping data for table `import_request_details`
---
-
-INSERT INTO `import_request_details` (`id`, `import_request_id`, `ingredient_id`, `requested_quantity`, `created_at`, `updated_at`) VALUES
-(1, 1, 1, 10000, '2025-03-27 12:05:15', '2025-03-27 12:05:15'),
-(2, 1, 1, 10000, '2025-03-27 12:14:04', '2025-03-27 12:14:04');
 
 -- --------------------------------------------------------
 
@@ -328,7 +313,7 @@ CREATE TABLE `ingredients` (
 --
 
 INSERT INTO `ingredients` (`id`, `name`, `image`, `quantity_in_stock`, `created_at`, `updated_at`, `minimum_threshold`, `unit`, `restaurant_id`, `expiration_date`, `status`, `quantity_auto`) VALUES
-(1, 'Bột tỏi', '01JPKPW1XFTPPNHS8G1XZE3W21.png', '999999.00', '2025-03-16 13:16:42', '2025-03-29 12:59:38', '100.00', 'gram', 1, '2025-03-18', 'in_stock', '0');
+(1, 'Bột tỏi', '01JPKPW1XFTPPNHS8G1XZE3W21.png', '100.00', '2025-03-16 13:16:42', '2025-04-02 03:09:57', '100.00', 'gram', 1, '2025-03-18', 'in_stock', '0');
 
 -- --------------------------------------------------------
 
@@ -355,7 +340,8 @@ INSERT INTO `invoices` (`id`, `invoice_code`, `restaurant_id`, `total_amount`, `
 (11, 'INV-67E36C3D4038A', 1, '450000.00', 'pending', '2025-03-26 02:53:49', '2025-03-26 02:55:35'),
 (12, 'INV-67E36DC252F18', 1, '490000.00', 'pending', '2025-03-26 03:00:18', '2025-03-26 03:00:18'),
 (13, 'INV-67E4BFA9C564B', 1, '0.00', 'pending', '2025-03-27 03:02:01', '2025-03-27 03:02:01'),
-(14, 'INV-67E7EDDE7CB58', 1, '170000.00', 'pending', '2025-03-29 12:55:58', '2025-03-29 12:55:58');
+(14, 'INV-67E7EDDE7CB58', 1, '170000.00', 'pending', '2025-03-29 12:55:58', '2025-03-29 12:55:58'),
+(15, 'INV-67ECA5F0F3CCA', 1, '245000.00', 'pending', '2025-04-02 02:50:24', '2025-04-02 02:54:11');
 
 -- --------------------------------------------------------
 
@@ -384,7 +370,8 @@ INSERT INTO `invoice_items` (`id`, `invoice_id`, `dish_id`, `quantity`, `unit_pr
 (6, 11, 13, 1, '205000.00', '205000.00', '2025-03-26 02:55:35', '2025-03-26 02:55:35'),
 (7, 12, 12, 1, '245000.00', '245000.00', '2025-03-26 03:00:18', '2025-03-26 03:00:18'),
 (8, 12, 12, 1, '245000.00', '245000.00', '2025-03-26 03:00:18', '2025-03-26 03:00:18'),
-(9, 14, 14, 1, '170000.00', '170000.00', '2025-03-29 12:55:58', '2025-03-29 12:55:58');
+(9, 14, 14, 1, '170000.00', '170000.00', '2025-03-29 12:55:58', '2025-03-29 12:55:58'),
+(10, 15, 12, 1, '245000.00', '245000.00', '2025-04-02 02:54:11', '2025-04-02 02:54:11');
 
 -- --------------------------------------------------------
 
@@ -444,7 +431,14 @@ CREATE TABLE `material_transactions` (
 INSERT INTO `material_transactions` (`id`, `ingredient_id`, `reason`, `quantity`, `type`, `created_at`, `updated_at`) VALUES
 (1, 1, 'đã hỏng', 100, 'export', '2025-03-19 13:25:35', '2025-03-19 13:30:12'),
 (2, 1, '123', 123, 'export', '2025-03-29 12:59:19', '2025-03-29 12:59:27'),
-(3, 1, '123', 123, 'export', '2025-03-29 12:59:38', '2025-03-29 12:59:38');
+(3, 1, '123', 123, 'export', '2025-03-29 12:59:38', '2025-03-29 12:59:38'),
+(4, 1, 'nhập hàng', 10000, 'import', '2025-04-02 03:05:21', '2025-04-02 03:05:21'),
+(5, 1, 'nhập hàng', 10000, 'import', '2025-04-02 03:05:21', '2025-04-02 03:05:21'),
+(6, 1, 'nhập hàng', 10000, 'import', '2025-04-02 03:06:20', '2025-04-02 03:06:20'),
+(7, 1, 'nhập hàng', 10000, 'import', '2025-04-02 03:06:20', '2025-04-02 03:06:20'),
+(8, 1, 'nhập hàng', 1000, 'import', '2025-04-02 03:07:26', '2025-04-02 03:07:26'),
+(9, 1, 'hỏng', 1000, 'import', '2025-04-02 03:09:25', '2025-04-02 03:09:25'),
+(10, 1, 'hỏng', 1000, 'export', '2025-04-02 03:09:57', '2025-04-02 03:09:57');
 
 -- --------------------------------------------------------
 
@@ -968,6 +962,13 @@ CREATE TABLE `recipes` (
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Dumping data for table `recipes`
+--
+
+INSERT INTO `recipes` (`id`, `dish_id`, `ingredient_id`, `quantity`, `created_at`, `updated_at`) VALUES
+(3, 12, 1, '11.00', '2025-04-02 02:58:58', '2025-04-02 02:58:58');
+
 -- --------------------------------------------------------
 
 --
@@ -1056,7 +1057,8 @@ CREATE TABLE `return_ingredients` (
 --
 
 INSERT INTO `return_ingredients` (`id`, `ingredient_id`, `returned_quantity`, `reason`, `created_at`, `updated_at`) VALUES
-(1, 1, 1000, '123123', '2025-03-27 11:32:28', '2025-03-27 11:32:28');
+(2, 1, 1000, 'hỏng', '2025-04-02 03:09:25', '2025-04-02 03:09:25'),
+(3, 1, 1000, 'hỏng', '2025-04-02 03:09:57', '2025-04-02 03:09:57');
 
 -- --------------------------------------------------------
 
@@ -1556,7 +1558,7 @@ CREATE TABLE `sessions` (
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
 ('BkI0YhO9O7GWoWS5ehZJc3hXguPxe7u2dN2wn5n1', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiNXduUWE4a0NVZ25xdER4R1ZyUTVIeFBLY2V6cFhTN2NjU1JBT1ZUcSI7czozOiJ1cmwiO2E6MTp7czo4OiJpbnRlbmRlZCI7czoyNzoiaHR0cDovLzEyNy4wLjAuMTo4MDAwL2FkbWluIjt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319fQ==', 1743559164),
-('iOufVXFWJGbeIYx878hNRFWz2zOn7dgO84y6oVDJ', 14, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo2OntzOjY6Il90b2tlbiI7czo0MDoiZnpvTklNcWE3Y2pYaTZkV3MwTTVSWFFHY2xyMjlLc0FpcjlITXZFbCI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjc6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbiI7fXM6ODoiZmlsYW1lbnQiO2E6MDp7fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE0O3M6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTIkQUlxY2RUMkZPV0p5UWxFakplb0I2ZUJ3S3pmSDJUQlZGZUtFTFY4ZElland0TEZCa0h4Q0siO30=', 1743559788),
+('iOufVXFWJGbeIYx878hNRFWz2zOn7dgO84y6oVDJ', 14, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo2OntzOjY6Il90b2tlbiI7czo0MDoiZnpvTklNcWE3Y2pYaTZkV3MwTTVSWFFHY2xyMjlLc0FpcjlITXZFbCI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mzk6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbi9pbmdyZWRpZW50cyI7fXM6ODoiZmlsYW1lbnQiO2E6MDp7fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE0O3M6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTIkQUlxY2RUMkZPV0p5UWxFakplb0I2ZUJ3S3pmSDJUQlZGZUtFTFY4ZElland0TEZCa0h4Q0siO30=', 1743563402),
 ('vC8CBbGzZiUyGEdbYkF0UHrN3th49HrUbdwzlOeB', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoiNG5WNFZVNnpKbjdia2lRdzhFVXFsQTdvaHhkakNJaHdGMlJ3ZVk4UCI7czozOiJ1cmwiO2E6MDp7fXM6OToiX3ByZXZpb3VzIjthOjE6e3M6MzoidXJsIjtzOjQwOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvYWRtaW4vdXNlcnMvMS9lZGl0Ijt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTtzOjE3OiJwYXNzd29yZF9oYXNoX3dlYiI7czo2MDoiJDJ5JDEyJGFpUzl1Tnlrek5WYjdsUXVCOEp0SS54RGYyN3E4MWp4SHhRSGdnUkhuNGQyZ0NlSkNZeUpxIjtzOjg6ImZpbGFtZW50IjthOjA6e319', 1743558941),
 ('xvECRCY1CZ70JC7XxfqfHJe8VeAzLIvET5QBNtX2', 15, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo2OntzOjY6Il90b2tlbiI7czo0MDoic3prMnkxbnpPbEtFZjB4aDdHOUxLRkdZSjhDMExYdER5OWUwTUE4QiI7czozOiJ1cmwiO2E6MTp7czo4OiJpbnRlbmRlZCI7czoyNzoiaHR0cDovLzEyNy4wLjAuMTo4MDAwL2FkbWluIjt9czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjc6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbiI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE1O3M6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTIkM0s4SnNsaGFEcFVYV2RkNjNjYmpLZVA5Yk1RbjFSeDFmWlg0QWtQSHpVelM2VElWWnhLRkMiO30=', 1743559280);
 
@@ -1595,9 +1597,9 @@ CREATE TABLE `table_dishes` (
   `dish_id` bigint UNSIGNED NOT NULL,
   `table_id` bigint UNSIGNED DEFAULT NULL,
   `quantity` int NOT NULL,
-  `served_at` timestamp NULL DEFAULT NULL,
   `status` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `order_code` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `invoice_code` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -1606,8 +1608,8 @@ CREATE TABLE `table_dishes` (
 -- Dumping data for table `table_dishes`
 --
 
-INSERT INTO `table_dishes` (`id`, `dish_id`, `table_id`, `quantity`, `served_at`, `status`, `order_code`, `created_at`, `updated_at`) VALUES
-(29, 13, NULL, 1, '2025-04-02 01:25:16', 'pending', 'ORDER_67EC91FC4EC09', '2025-04-02 01:25:16', '2025-04-02 01:25:16');
+INSERT INTO `table_dishes` (`id`, `dish_id`, `table_id`, `quantity`, `status`, `order_code`, `invoice_code`, `created_at`, `updated_at`) VALUES
+(31, 15, 1, 1, 'pending', NULL, NULL, '2025-04-02 02:45:17', '2025-04-02 02:45:17');
 
 -- --------------------------------------------------------
 
@@ -1978,13 +1980,13 @@ ALTER TABLE `food_categories`
 -- AUTO_INCREMENT for table `import_requests`
 --
 ALTER TABLE `import_requests`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `import_request_details`
 --
 ALTER TABLE `import_request_details`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `ingredients`
@@ -1996,13 +1998,13 @@ ALTER TABLE `ingredients`
 -- AUTO_INCREMENT for table `invoices`
 --
 ALTER TABLE `invoices`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `invoice_items`
 --
 ALTER TABLE `invoice_items`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `jobs`
@@ -2014,7 +2016,7 @@ ALTER TABLE `jobs`
 -- AUTO_INCREMENT for table `material_transactions`
 --
 ALTER TABLE `material_transactions`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `migrations`
@@ -2050,7 +2052,7 @@ ALTER TABLE `promotions`
 -- AUTO_INCREMENT for table `recipes`
 --
 ALTER TABLE `recipes`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `reservations`
@@ -2068,7 +2070,7 @@ ALTER TABLE `restaurants`
 -- AUTO_INCREMENT for table `return_ingredients`
 --
 ALTER TABLE `return_ingredients`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `roles`
@@ -2086,7 +2088,7 @@ ALTER TABLE `tables`
 -- AUTO_INCREMENT for table `table_dishes`
 --
 ALTER TABLE `table_dishes`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 
 --
 -- AUTO_INCREMENT for table `users`

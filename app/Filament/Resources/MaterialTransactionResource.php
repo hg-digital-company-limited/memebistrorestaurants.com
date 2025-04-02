@@ -19,6 +19,12 @@ class MaterialTransactionResource extends Resource
     protected static ?string $model = MaterialTransaction::class;
 
     protected static ?string $navigationGroup = 'Quản lý Nguyên Liệu';
+    protected static ?string $navigationLabel = 'Lịch sử nguyên liệu';
+    protected static ?string $title = 'Lịch sử nguyên liệu';
+    protected static ?string $pluralTitle = 'Lịch sử nguyên liệu';
+    protected static ?string $pluralModelLabel = 'Lịch sử nguyên liệu';
+    protected static ?string $modelLabel = 'Lịch sử nguyên liệu';
+    protected static ?string $navigationIcon = 'heroicon-o-arrow-path';
 
     public static function getPluralModelLabel(): string
     {
@@ -27,7 +33,6 @@ class MaterialTransactionResource extends Resource
     protected static ?int $navigationSort = 98;
 
 
-    protected static ?string $navigationIcon = 'heroicon-o-arrow-path';
 
     public static function form(Form $form): Form
     {
@@ -98,16 +103,16 @@ class MaterialTransactionResource extends Resource
                 Tables\Actions\ActionGroup::make([
                     Tables\Actions\ViewAction::make()
                         ->label('Xem'), // Đổi nhãn sang tiếng Việt
-                    Tables\Actions\EditAction::make()
-                        ->label('Chỉnh Sửa'), // Đổi nhãn sang tiếng Việt
-                    Tables\Actions\DeleteAction::make()
-                        ->label('Xóa'), // Đổi nhãn sang tiếng Việt
+                    // Tables\Actions\EditAction::make()
+                    //     ->label('Chỉnh Sửa'), // Đổi nhãn sang tiếng Việt
+                    // Tables\Actions\DeleteAction::make()
+                    //     ->label('Xóa'), // Đổi nhãn sang tiếng Việt
                 ])
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
-                    Tables\Actions\DeleteBulkAction::make()
-                        ->label('Xóa'), // Đổi nhãn sang tiếng Việt
+                    // Tables\Actions\DeleteBulkAction::make()
+                    //     ->label('Xóa'), // Đổi nhãn sang tiếng Việt
                         ExportBulkAction::make()
                         ->label('Xuất Excel'), // Đổi nhãn sang tiếng Việt
 
@@ -130,7 +135,7 @@ class MaterialTransactionResource extends Resource
         return [
             'index' => Pages\ListMaterialTransactions::route('/'),
             'create' => Pages\CreateMaterialTransaction::route('/create'),
-            'edit' => Pages\EditMaterialTransaction::route('/{record}/edit'),
+            // 'edit' => Pages\EditMaterialTransaction::route('/{record}/edit'),
         ];
     }
 }
