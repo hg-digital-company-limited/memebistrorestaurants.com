@@ -106,6 +106,7 @@ class Checkout extends Component
                 'quantity' => $item['quantity'],
                 'served_at' => now(), // You can adjust this as needed
                 'status' => 'pending', // Initial status, adjust as necessary
+                'order_code' => $order->order_code,
             ]);
         }
 

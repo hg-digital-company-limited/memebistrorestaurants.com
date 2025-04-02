@@ -45,6 +45,10 @@ class TableDishResource extends Resource
                     ->label('Số lượng')
                     ->required()
                     ->numeric(),
+                Forms\Components\TextInput::make('order_code')
+                    ->label('Mã đơn hàng')
+                    ->required()
+                    ->numeric(),
                 Forms\Components\DateTimePicker::make('served_at')
                     ->label('Thời gian phục vụ')
                     ->nullable(),
@@ -73,6 +77,10 @@ class TableDishResource extends Resource
                 Tables\Columns\TextColumn::make('quantity')
                     ->label('Số lượng')
                     ->numeric()
+                    ->sortable(),
+                Tables\Columns\TextColumn::make('order_code')
+                    ->label('Mã đơn hàng')
+                    ->searchable()
                     ->sortable(),
                 Tables\Columns\TextColumn::make('served_at')
                     ->label('Thời gian phục vụ')

@@ -3,6 +3,7 @@
 namespace App\Livewire;
 
 use App\Models\Order;
+use App\Models\TableDish;
 use App\Models\User; // Make sure to import the User model
 use Livewire\Component;
 
@@ -40,10 +41,15 @@ class OrderReceived extends Component
         // }
 
         // Handle payment response
+        // ORDER_67EC90E929B05
         if (request()->vnp_ResponseCode != '00' && $this->order->payment_status == 'unpaid') {
             $this->order->payment_status = 'failed';
             $this->order->save();
-            Order::where('order_code', request()->vnp_TxnRef)->delete();
+            $order = Order::where('order_code', request()->vnp_TxnRef)->first();
+            TableDish::where('order_code', request()->vnp_TxnRef)->delete();
+            if($order){
+                $order->delete();
+            }
             session()->flash('message', 'Thanh toán thất bại!');
         } else if (request()->vnp_ResponseCode == '00' && $this->order->payment_status == 'unpaid') {
             // Add 5% of the total amount to the user's loyalty points
