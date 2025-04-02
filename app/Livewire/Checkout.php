@@ -104,7 +104,6 @@ class Checkout extends Component
                 'dish_id' => $item['product_id'],
                 'table_id' => null, // Assuming you have this value available
                 'quantity' => $item['quantity'],
-                'served_at' => now(), // You can adjust this as needed
                 'status' => 'pending', // Initial status, adjust as necessary
                 'order_code' => $order->order_code,
             ]);
