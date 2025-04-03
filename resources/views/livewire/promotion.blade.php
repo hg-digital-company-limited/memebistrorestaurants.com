@@ -2,11 +2,11 @@
 
     <head>
         <title>Blog &#8211; Delicioz</title>
-        <link rel="dns-prefetch" href="//fonts.googleapis.com">
-        <link rel="dns-prefetch" href="//s.w.org">
-        <link rel='dns-prefetch' href='//demo2.themelexus.com' />
-        <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-        <link rel='dns-prefetch' href='//s.w.org' />
+      <style>
+        div#page {
+            background: white;
+        }
+      </style>
         <style>
             img.wp-smiley,
             img.emoji {

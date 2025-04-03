@@ -62,6 +62,7 @@ class AdminPanelProvider extends PanelProvider
                 \Hasnayeen\Themes\ThemesPlugin::make()
 
             ])
-            ->brandName('ME ME BISTRO Admin');
+            ->brandName('ME ME BISTRO Admin')
+            ->favicon('/logo.png');
     }
 }

@@ -1258,7 +1258,9 @@
                 </filter>
             </defs>
         </svg>
-        <div id="page" class="hfeed site">
+        <div id="page" class="hfeed site" style="
+        background: white;
+    ">
             @livewire('inc.header')
 
             <div class="breadcrumb-wrap">
@@ -1340,10 +1342,10 @@
                                             </div> --}}
 
                                             <p class="price"><del aria-hidden="true"><span
-                                                        class="woocommerce-Price-amount amount"><bdi><span
+                                                        class="woocommerce-Price-amount amount" style="color: black;"><bdi><span
                                                                 class="woocommerce-Price-currencySymbol"></span>{{ number_format($product->price, 0, ',', '.') }}
                                                             VNĐ </bdi></span></del>
-                                                <ins><span class="woocommerce-Price-amount amount"><bdi><span
+                                                <ins><span class="woocommerce-Price-amount amount" style="color: black;"><bdi><span
                                                                 class="woocommerce-Price-currencySymbol"></span>{{ number_format($product->price, 0, ',', '.') }}
                                                             VNĐ</bdi></span></ins>
                                             </p>
@@ -1363,7 +1365,7 @@
                                                             class="input-text qty text" step="1" min="1"
                                                             max="999" wire:model="quantity" name="quantity"
                                                             value="1" title="Qty" placeholder=""
-                                                            inputmode="numeric"><button type="button" class="plus"
+                                                            inputmode="numeric" style="color: black;"><button type="button" class="plus"
                                                             wire:click="incrementQuantity"><i
                                                                 class="delicioz-icon-plus"></i></button>
                                                     </div>
@@ -1381,7 +1383,7 @@
 
                                                 <span class="posted_in">Danh mục: <a
                                                         href="/shop?category={{ $product->food_category->id }}"
-                                                        rel="tag">{{ $product->food_category->name }}</a></span>
+                                                        rel="tag" style="color: black;">{{ $product->food_category->name }}</a></span>
 
                                             </div>
                                         </div>
@@ -1395,7 +1397,7 @@
                                         <ul class="tabs wc-tabs" role="tablist">
                                             <li class="description_tab" id="tab-title-description" role="tab"
                                                 aria-controls="tab-description">
-                                                <a href="#tab-description">
+                                                <a href="#tab-description" style="color: black;">
                                                     Mô tả </a>
                                             </li>
                                             {{-- <li class="reviews_tab" id="tab-title-reviews" role="tab"
@@ -1405,11 +1407,11 @@
                                             </li> --}}
                                         </ul>
                                         <h2 class="resp-accordion tab-description active" role="tab"
-                                            data-control=".description_tab" aria-controls="#tab-description">Mô tả
+                                            data-control=".description_tab" aria-controls="#tab-description" style="color: black;">Mô tả
                                         </h2>
                                         <div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--description panel entry-content wc-tab"
                                             id="tab-description" role="tabpanel"
-                                            aria-labelledby="tab-title-description">
+                                            aria-labelledby="tab-title-description" style="color: black;">
 
                                             {{ $product->description }}
 

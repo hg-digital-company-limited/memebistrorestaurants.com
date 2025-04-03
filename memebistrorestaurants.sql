@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Apr 03, 2025 at 02:36 AM
+-- Generation Time: Apr 03, 2025 at 02:52 AM
 -- Server version: 8.0.30
 -- PHP Version: 8.2.27
 
@@ -87,7 +87,8 @@ INSERT INTO `contacts` (`id`, `name`, `email`, `message`, `created_at`, `updated
 (4, '123', '2509roblox@gmail.com', '123', '2025-03-14 13:35:32', '2025-03-14 13:35:32', 'pending'),
 (5, '123', '2509roblox@gmail.com', '123', '2025-03-16 13:08:57', '2025-03-16 13:08:57', 'pending'),
 (6, 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', '2025-03-16 13:51:15', '2025-03-16 13:51:15', 'pending'),
-(7, '2509roblox@gmail.com', '2509roblox@gmail.com', '2509roblox@gmail.com', '2025-04-03 02:06:29', '2025-04-03 02:06:29', 'pending');
+(7, '2509roblox@gmail.com', '2509roblox@gmail.com', '2509roblox@gmail.com', '2025-04-03 02:06:29', '2025-04-03 02:06:29', 'pending'),
+(8, '123', '2509roblox@gmail.com', '123123', '2025-04-03 02:48:05', '2025-04-03 02:48:05', 'pending');
 
 -- --------------------------------------------------------
 
@@ -1884,7 +1885,7 @@ CREATE TABLE `sessions` (
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
 ('gqmpnw2fGkKjaneh5yUT6mqAxpYZ5xWaALS1xWk0', 6, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo2OntzOjY6Il90b2tlbiI7czo0MDoiRGR2eVl5Y2xrcGNSSWFjMXFGT3l6aGZYTVpiOVVaN2dIMmlVbGJETyI7czozOiJ1cmwiO2E6MDp7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjY7czoxNzoicGFzc3dvcmRfaGFzaF93ZWIiO3M6NjA6IiQyeSQxMiRBbktNTFVLWUhMb2luTkd0RS9ucnR1LmdUUEZpM1hiRENhS1l2Lm53SFNKM0VmTDNjQXIxYSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjc6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbiI7fX0=', 1743645870),
-('YAHwVb5BQ2BJUOYlTqs5Vyg51ovxDFdevfB0T3Fw', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoiVkM5S1dyQTFDUnVYeEdkRGpza1VSdDJnN2NpVGpuVzVTRE5iT3IwMSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6NDA6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbi9yZXNlcnZhdGlvbnMiO31zOjY6Il9mbGFzaCI7YToyOntzOjM6Im9sZCI7YTowOnt9czozOiJuZXciO2E6MDp7fX1zOjM6InVybCI7YTowOnt9czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTtzOjE3OiJwYXNzd29yZF9oYXNoX3dlYiI7czo2MDoiJDJ5JDEyJGFpUzl1Tnlrek5WYjdsUXVCOEp0SS54RGYyN3E4MWp4SHhRSGdnUkhuNGQyZ0NlSkNZeUpxIjtzOjg6ImZpbGFtZW50IjthOjA6e319', 1743647798);
+('YAHwVb5BQ2BJUOYlTqs5Vyg51ovxDFdevfB0T3Fw', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoiVkM5S1dyQTFDUnVYeEdkRGpza1VSdDJnN2NpVGpuVzVTRE5iT3IwMSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzU6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9wcm9tb3Rpb24vMTIzIjt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czozOiJ1cmwiO2E6MDp7fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7czoxNzoicGFzc3dvcmRfaGFzaF93ZWIiO3M6NjA6IiQyeSQxMiRhaVM5dU55a3pOVmI3bFF1QjhKdEkueERmMjdxODFqeEh4UUhnZ1JIbjRkMmdDZUpDWXlKcSI7czo4OiJmaWxhbWVudCI7YTowOnt9fQ==', 1743648760);
 
 -- --------------------------------------------------------
 
@@ -2279,7 +2280,7 @@ ALTER TABLE `warehouse_receipt_details`
 -- AUTO_INCREMENT for table `contacts`
 --
 ALTER TABLE `contacts`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `customers`

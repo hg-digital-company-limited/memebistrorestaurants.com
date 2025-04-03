@@ -2,6 +2,11 @@
     <head>
         <title>Liên hệ</title>
         <style>
+            input , select , textarea {
+                color: black !important;
+            }
+        </style>
+        <style>
             img.wp-smiley,
             img.emoji {
                 display: inline !important;
@@ -1184,7 +1189,9 @@
                 </filter>
             </defs>
         </svg>
-        <div id="page" class="hfeed site">
+        <div id="page" class="hfeed site" style="
+        background: white;
+    ">
         @livewire('inc.header')
 
             <div class="breadcrumb-wrap">
@@ -1271,7 +1278,7 @@
                                                                     }
                                                                 </style>
                                                                 <h2
-                                                                    class="elementor-heading-title elementor-size-default">
+                                                                    class="elementor-heading-title elementor-size-default" style="color: black;">
                                                                    Bạn có câu hỏi gì không?</h2>
                                                             </div>
                                                         </div>
