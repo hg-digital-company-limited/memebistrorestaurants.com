@@ -1279,7 +1279,22 @@
                                                                             placeholder="Số nhà và tên đường"
                                                                         value="" autocomplete="address-line1" /></span>
                                                             </p>
+                                                            <p class="form-row form-row-wide address-field validate-required"
+                                                            id="billing_address_1_field" data-priority="50"><label
+                                                                for="billing_address_1" class="">Nhà hàng&nbsp;<abbr
+                                                                    class="required"
+                                                                    title="required">*</abbr></label><span
+                                                                class="woocommerce-input-wrapper"><select
+                                                                    class="input-text " wire:model.live="restaurant_id"
+                                                                    id="billing_address_1"
+                                                                    placeholder="Số nhà và tên đường">
+                                                                    @foreach($restaurants as $restaurant)
+                                                                        <option value="{{ $restaurant->id }}">
+                                                                            {{ $restaurant->name }}</option>
+                                                                    @endforeach
+                                                                </select></span>
 
+                                                        </p>
                                                         </div>
 
                                                     </div>

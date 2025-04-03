@@ -5,7 +5,7 @@ namespace App\Filament\Resources\InvoiceResource\Pages;
 use App\Filament\Resources\InvoiceResource;
 use Filament\Actions;
 use Filament\Resources\Pages\ListRecords;
-
+use Illuminate\Database\Eloquent\Builder;
 class ListInvoices extends ListRecords
 {
     protected static string $resource = InvoiceResource::class;
@@ -15,5 +15,9 @@ class ListInvoices extends ListRecords
         return [
             Actions\CreateAction::make(),
         ];
+    }
+    protected function getTableQuery(): Builder
+    {
+        return parent::getTableQuery()->orderBy('created_at', 'desc');
     }
 }

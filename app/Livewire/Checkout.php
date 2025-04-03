@@ -10,7 +10,7 @@ use Livewire\Component;
 use App\Helpers\CartManagement;
 use App\Models\Order;
 use App\Models\OrderItem;
-
+use App\Models\Restaurant;
 class Checkout extends Component
 {
     public $cartItems = [];
@@ -21,13 +21,16 @@ class Checkout extends Component
     public $email;
     public $notes;
     public $paymentMethod; // New property for payment method
-
+    public $restaurant_id;
+    public $restaurants;
     public function mount()
     {
         $this->name = auth()->user()->name ?? '';
         $this->email = auth()->user()->email ?? '';
         $this->phone = auth()->user()->phone ?? '';
         $this->address = auth()->user()->address ?? '';
+        $this->restaurant_id = Restaurant::first()->id ?? '';
+        $this->restaurants = Restaurant::all();
         $this->paymentMethod = 'cod';
 
         $pd_id = request()->query('pd_id');
@@ -90,6 +93,7 @@ class Checkout extends Component
             'payment_method' => $this->paymentMethod,
             'order_code' => strtoupper(uniqid('ORDER_')),
             'notes' => $this->notes,
+            'restaurant_id' => $this->restaurant_id,
         ]);
 
         // Thêm sản phẩm vào đơn hàng

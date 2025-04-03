@@ -108,6 +108,13 @@ class DishResource extends Resource
                             ]),
                             Forms\Components\Tabs\Tab::make('Trạng thái món ăn')
                             ->schema([
+                                Forms\Components\TextInput::make('daily_sold_quantity')
+                                    ->label('Số lượng có thể bán trong ngày')
+                                    ->required()
+                                    ->default(0)
+                                    ->minValue(0)
+                                    ->numeric()
+                                    ->columnSpanFull(),
                                 Forms\Components\Select::make('status')
                                     ->label('Trạng thái')
                                     ->options([
@@ -127,23 +134,21 @@ class DishResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('id')
-                    ->label('Mã món ăn')
-                    ->sortable(),
                 Tables\Columns\ImageColumn::make('image')
                     ->label('Hình ảnh')
 
 
                   ,
-                Tables\Columns\TextColumn::make('food_category.name')
-                    ->label('Danh mục món ăn')
-                    ->sortable(),
+
                 // Tables\Columns\TextColumn::make('restaurant.name')
                 //     ->label('Nhà hàng')
                 //     ->sortable(),
                 Tables\Columns\TextColumn::make('name')
                     ->label('Tên món ăn')
                     ->searchable(),
+                Tables\Columns\TextInputColumn::make('daily_sold_quantity')
+                    ->label('Số lượng có thể bán trong ngày')
+                    ->sortable(),
                 Tables\Columns\TextColumn::make('price')
                     ->label('Giá')
                     ->money('VND')
@@ -154,6 +159,9 @@ class DishResource extends Resource
                         'available' => 'Có sẵn',
                         'unavailable' => 'Không có sẵn',
                     ])
+                    ->sortable(),
+                    Tables\Columns\TextColumn::make('food_category.name')
+                    ->label('Danh mục món ăn')
                     ->sortable(),
                 Tables\Columns\TextColumn::make('created_at')
                     ->label('Ngày tạo')
