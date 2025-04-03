@@ -13,9 +13,11 @@
             !function (e, a, t) { var n, r, o, i = a.createElement("canvas"), p = i.getContext && i.getContext("2d"); function s(e, t) { var a = String.fromCharCode, e = (p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0), i.toDataURL()); return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL() } function c(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0; r < o.length; r++)t.supports[o[r]] = function (e) { if (!p || !p.fillText) return !1; switch (p.textBaseline = "top", p.font = "600 32px Arial", e) { case "flag": return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]); case "emoji": return !s([129777, 127995, 8205, 129778, 127999], [129777, 127995, 8203, 129778, 127999]) }return !1 }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e.wpemoji))) }(window, document, window._wpemojiSettings);
         </script>
         <style>
-            input , select , textarea {
+            input,
+            select,
+            textarea {
                 color: black !important;
-}
+            }
         </style>
         <style>
             img.wp-smiley,
@@ -1266,8 +1268,8 @@
                                                                         font-size: 59px
                                                                     }
                                                                 </style>
-                                                                <h2
-                                                                    class="elementor-heading-title elementor-size-default" style="color: black;">
+                                                                <h2 class="elementor-heading-title elementor-size-default"
+                                                                    style="color: black;">
                                                                     Đặt bàn online</h2>
                                                             </div>
                                                         </div>
@@ -1360,18 +1362,23 @@
                                                                                 </div>
                                                                             </div>
                                                                         @endif
-
+                                                                        <style>
+                                                                            ::placeholder {
+                                                                                /* Most modern browsers support this now. */
+                                                                                color: rgb(3, 3, 3) !important;
+                                                                            }
+                                                                        </style>
                                                                         <div class="row row-form">
                                                                             <div class="column-tablet-6 column-12">
                                                                                 <p><span
                                                                                         class="wpcf7-form-control-wrap">
 
                                                                                         <input type="text" size="40"
-                                                                                            wire:model="name" style="
-                                                                                            width: 100%;
-                                                                                        "
+                                                                                            wire:model="name"
+                                                                                            style="width: 100%; color: black; ::placeholder { color: black !important; }, background-color: black;"
                                                                                             class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                                                            placeholder="Tên bạn" /></span>
+                                                                                            placeholder="Tên bạn" />
+                                                                                    </span>
                                                                                 </p>
                                                                             </div>
                                                                             <div class="column-tablet-6 column-12">
@@ -1380,8 +1387,7 @@
                                                                                             type="text" size="40"
                                                                                             wire:model="phone" style="
                                                                                             width: 100%;
-                                                                                        "
-                                                                                            class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                                                                                        " class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                                                             placeholder="Số điện thoại" /></span>
                                                                                 </p>
                                                                             </div>
@@ -1400,7 +1406,9 @@
                                                                                             max="20" required
                                                                                             class="wpcf7-form-control wpcf7-date wpcf7-validates-as-required wpcf7-validates-as-date"
                                                                                             aria-required="true"
-                                                                                            aria-invalid="false" style="
+                                                                                            aria-invalid="false"
+                                                                                            placeholder="Số người"
+                                                                                            style="
                                                                                                width: 100%;
                                                                                            ">
                                                                                     </span>
@@ -1478,7 +1486,8 @@
                                                                                     </span>
 
                                                                                 </p>
-                                                                                {{-- <p><span class="wpcf7-form-control-wrap"
+                                                                                {{-- <p><span
+                                                                                        class="wpcf7-form-control-wrap"
                                                                                         data-name="your-message">
                                                                                         <input type="text" size="40"
                                                                                             wire:model="email"
@@ -1696,148 +1705,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="elementor-section elementor-top-section elementor-element elementor-element-ad31b49 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                            data-id="ad31b49" data-element_type="section"
-                                            data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
-                                            <div class="elementor-container elementor-column-gap-no">
-                                                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-bc316e5"
-                                                    data-id="bc316e5" data-element_type="column">
-                                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                                        <div class="elementor-element elementor-element-f41b4b2 show-icon-deco-yes show-button-link-yes elementor-position-top elementor-position-below elementor-vertical-align-top elementor-widget elementor-widget-image-box"
-                                                            data-id="f41b4b2" data-element_type="widget"
-                                                            data-widget_type="image-box.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div class="elementor-image-box-wrapper">
-                                                                    <div class="elementor-image-box-content">
-                                                                        <div class="icon"></div>
-                                                                        <h3 class="elementor-image-box-title"><a
-                                                                                href="https://www.google.com/maps/place/Barbican+Centre/@51.5205487,-0.0936463,18z/data=!4m13!1m7!3m6!1s0x48761ca98744377d:0x9e296ec2b218ce78!2sSilk+St,+London,+UK!3b1!8m2!3d51.5198778!4d-0.0916239!3m4!1s0x48761b56fb64b275:0xc756e26675d21f40!8m2!3d51.5202077!4d-0.0937864">London</a>
-                                                                        </h3>
-                                                                        <div class="elementor-image-box-sub-title">
-                                                                            United Kingdom</div>
-                                                                        <p class="elementor-image-box-description">Silk
-                                                                            St, Barbican, London EC2Y 8DS<br />
-                                                                            <a href="/cdn-cgi/l/email-protection"
-                                                                                class="__cf_email__"
-                                                                                data-cfemail="3341564056414552475a5c5d4073564b525e435f561d505c5e">[email&#160;protected]</a><br />
-                                                                            +39 055 123 4567
-                                                                        </p>
-                                                                        <div class="elementor-image-box-button-wrapper">
-                                                                            <a href="https://www.google.com/maps/place/Barbican+Centre/@51.5205487,-0.0936463,18z/data=!4m13!1m7!3m6!1s0x48761ca98744377d:0x9e296ec2b218ce78!2sSilk+St,+London,+UK!3b1!8m2!3d51.5198778!4d-0.0916239!3m4!1s0x48761b56fb64b275:0xc756e26675d21f40!8m2!3d51.5202077!4d-0.0937864"
-                                                                                class="elementor-image-box-button"><span
-                                                                                    class="elementor-image-box-button-text">
-                                                                                    get directions</span></a>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-40108ca"
-                                                    data-id="40108ca" data-element_type="column">
-                                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                                        <div class="elementor-element elementor-element-3ffcec7 show-icon-deco-yes show-button-link-yes elementor-position-top elementor-position-below elementor-vertical-align-top elementor-widget elementor-widget-image-box"
-                                                            data-id="3ffcec7" data-element_type="widget"
-                                                            data-widget_type="image-box.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div class="elementor-image-box-wrapper">
-                                                                    <div class="elementor-image-box-content">
-                                                                        <div class="icon"></div>
-                                                                        <h3 class="elementor-image-box-title"><a
-                                                                                href="https://www.google.com/maps/place/Barbican+Centre/@51.5205487,-0.0936463,18z/data=!4m13!1m7!3m6!1s0x48761ca98744377d:0x9e296ec2b218ce78!2sSilk+St,+London,+UK!3b1!8m2!3d51.5198778!4d-0.0916239!3m4!1s0x48761b56fb64b275:0xc756e26675d21f40!8m2!3d51.5202077!4d-0.0937864">Tokyo</a>
-                                                                        </h3>
-                                                                        <div class="elementor-image-box-sub-title">Japan
-                                                                        </div>
-                                                                        <p class="elementor-image-box-description">
-                                                                            F564+FW Aoi Ward, Shizuoka, Japan<br />
-                                                                            <a href="/cdn-cgi/l/email-protection"
-                                                                                class="__cf_email__"
-                                                                                data-cfemail="512334223423273025383e3f22113429303c213d347f323e3c">[email&#160;protected]</a><br />
-                                                                            +39 055 123 4567
-                                                                        </p>
-                                                                        <div class="elementor-image-box-button-wrapper">
-                                                                            <a href="https://www.google.com/maps/place/Barbican+Centre/@51.5205487,-0.0936463,18z/data=!4m13!1m7!3m6!1s0x48761ca98744377d:0x9e296ec2b218ce78!2sSilk+St,+London,+UK!3b1!8m2!3d51.5198778!4d-0.0916239!3m4!1s0x48761b56fb64b275:0xc756e26675d21f40!8m2!3d51.5202077!4d-0.0937864"
-                                                                                class="elementor-image-box-button"><span
-                                                                                    class="elementor-image-box-button-text">
-                                                                                    get directions</span></a>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-09c96be"
-                                                    data-id="09c96be" data-element_type="column">
-                                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                                        <div class="elementor-element elementor-element-2a1764a show-icon-deco-yes show-button-link-yes elementor-position-top elementor-position-below elementor-vertical-align-top elementor-widget elementor-widget-image-box"
-                                                            data-id="2a1764a" data-element_type="widget"
-                                                            data-widget_type="image-box.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div class="elementor-image-box-wrapper">
-                                                                    <div class="elementor-image-box-content">
-                                                                        <div class="icon"></div>
-                                                                        <h3 class="elementor-image-box-title"><a
-                                                                                href="https://www.google.com/maps/place/Barbican+Centre/@51.5205487,-0.0936463,18z/data=!4m13!1m7!3m6!1s0x48761ca98744377d:0x9e296ec2b218ce78!2sSilk+St,+London,+UK!3b1!8m2!3d51.5198778!4d-0.0916239!3m4!1s0x48761b56fb64b275:0xc756e26675d21f40!8m2!3d51.5202077!4d-0.0937864">New
-                                                                                york</a></h3>
-                                                                        <div class="elementor-image-box-sub-title">
-                                                                            America</div>
-                                                                        <p class="elementor-image-box-description">71
-                                                                            Madison Ave, New York, USA<br />
-                                                                            <a href="/cdn-cgi/l/email-protection"
-                                                                                class="__cf_email__"
-                                                                                data-cfemail="b1c3d4c2d4c3c7d0c5d8dedfc2f1d4c9d0dcc1ddd49fd2dedc">[email&#160;protected]</a><br />
-                                                                            +39 055 123 4567
-                                                                        </p>
-                                                                        <div class="elementor-image-box-button-wrapper">
-                                                                            <a href="https://www.google.com/maps/place/Barbican+Centre/@51.5205487,-0.0936463,18z/data=!4m13!1m7!3m6!1s0x48761ca98744377d:0x9e296ec2b218ce78!2sSilk+St,+London,+UK!3b1!8m2!3d51.5198778!4d-0.0916239!3m4!1s0x48761b56fb64b275:0xc756e26675d21f40!8m2!3d51.5202077!4d-0.0937864"
-                                                                                class="elementor-image-box-button"><span
-                                                                                    class="elementor-image-box-button-text">
-                                                                                    get directions</span></a>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-270e2ed"
-                                                    data-id="270e2ed" data-element_type="column">
-                                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                                        <div class="elementor-element elementor-element-963aee2 show-icon-deco-yes show-button-link-yes elementor-position-top elementor-position-below elementor-vertical-align-top elementor-widget elementor-widget-image-box"
-                                                            data-id="963aee2" data-element_type="widget"
-                                                            data-widget_type="image-box.default">
-                                                            <div class="elementor-widget-container">
-                                                                <div class="elementor-image-box-wrapper">
-                                                                    <div class="elementor-image-box-content">
-                                                                        <div class="icon"></div>
-                                                                        <h3 class="elementor-image-box-title"><a
-                                                                                href="https://www.google.com/maps/place/Barbican+Centre/@51.5205487,-0.0936463,18z/data=!4m13!1m7!3m6!1s0x48761ca98744377d:0x9e296ec2b218ce78!2sSilk+St,+London,+UK!3b1!8m2!3d51.5198778!4d-0.0916239!3m4!1s0x48761b56fb64b275:0xc756e26675d21f40!8m2!3d51.5202077!4d-0.0937864">Paris</a>
-                                                                        </h3>
-                                                                        <div class="elementor-image-box-sub-title">
-                                                                            french</div>
-                                                                        <p class="elementor-image-box-description">4 Rue
-                                                                            des Meuniers, 93100 Montreuil, French<br />
-                                                                            <a href="/cdn-cgi/l/email-protection"
-                                                                                class="__cf_email__"
-                                                                                data-cfemail="097b6c7a6c7b7f687d6066677a496c71686479656c276a6664">[email&#160;protected]</a><br />
-                                                                            +39 055 123 4567
-                                                                        </p>
-                                                                        <div class="elementor-image-box-button-wrapper">
-                                                                            <a href="https://www.google.com/maps/place/Barbican+Centre/@51.5205487,-0.0936463,18z/data=!4m13!1m7!3m6!1s0x48761ca98744377d:0x9e296ec2b218ce78!2sSilk+St,+London,+UK!3b1!8m2!3d51.5198778!4d-0.0916239!3m4!1s0x48761b56fb64b275:0xc756e26675d21f40!8m2!3d51.5202077!4d-0.0937864"
-                                                                                class="elementor-image-box-button"><span
-                                                                                    class="elementor-image-box-button-text">
-                                                                                    get directions</span></a>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+
                                     </div>
                                 </div><!-- .entry-content -->
                             </article><!-- #post-## -->

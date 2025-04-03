@@ -3,17 +3,7 @@
 
     <head>
         <title>Trang chủ</title>
-        <meta name='robots' content='max-image-preview:large' />
-        <link rel="dns-prefetch" href="//fonts.googleapis.com">
-        <link rel="dns-prefetch" href="//s.w.org">
-        <link rel='dns-prefetch' href='//demo2.themelexus.com' />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-        <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-        <link rel='dns-prefetch' href='//s.w.org' />
-        <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Feed" href="/delicioz/feed/" />
-        <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Comments Feed"
-            href="/delicioz/comments/feed/" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
         <script>
             window._wpemojiSettings = {
                 "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -25,7 +15,7 @@
                 }
             };
             /*! This file is auto-generated */
-            ! function(e, a, t) {
+            ! function (e, a, t) {
                 var n, r, o, i = a.createElement("canvas"),
                     p = i.getContext && i.getContext("2d");
 
@@ -40,9 +30,9 @@
                     t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
                 }
                 for (o = Array("flag", "emoji"), t.supports = {
-                        everything: !0,
-                        everythingExceptFlag: !0
-                    }, r = 0; r < o.length; r++) t.supports[o[r]] = function(e) {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                }, r = 0; r < o.length; r++) t.supports[o[r]] = function (e) {
                     if (!p || !p.fillText) return !1;
                     switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
                         case "flag":
@@ -60,15 +50,15 @@
                 }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports
                     .everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
                 t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t
-                    .readyCallback = function() {
+                    .readyCallback = function () {
                         t.DOMReady = !0
-                    }, t.supports.everything || (n = function() {
+                    }, t.supports.everything || (n = function () {
                         t.readyCallback()
                     }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !
-                        1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
-                        "complete" === a.readyState && t.readyCallback()
-                    })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e
-                        .wpemoji)))
+                        1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () {
+                            "complete" === a.readyState && t.readyCallback()
+                        })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e
+                            .wpemoji)))
             }(window, document, window._wpemojiSettings);
         </script>
         <style>
@@ -534,8 +524,7 @@
             href='/delicioz/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.16.0'
             media='all' />
         <link rel='stylesheet' id='elementor-frontend-css'
-            href='/delicioz/wp-content/uploads/elementor/css/custom-frontend-lite.min.css?ver=1661932570'
-            media='all' />
+            href='/delicioz/wp-content/uploads/elementor/css/custom-frontend-lite.min.css?ver=1661932570' media='all' />
         <link rel='stylesheet' id='elementor-post-7-css'
             href='/delicioz/wp-content/uploads/elementor/css/post-7.css?ver=1661932570' media='all' />
         <link rel='stylesheet' id='elementor-global-css'
@@ -565,8 +554,7 @@
             }
         </style>
         <link rel='stylesheet' id='hint-css'
-            href='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/hint/hint.min.css?ver=6.0.2'
-            media='all' />
+            href='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/hint/hint.min.css?ver=6.0.2' media='all' />
         <link rel='stylesheet' id='perfect-scrollbar-css'
             href='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/perfect-scrollbar/css/perfect-scrollbar.min.css?ver=6.0.2'
             media='all' />
@@ -584,8 +572,7 @@
             href='/delicioz/wp-content/plugins/woo-smart-quick-view/assets/libs/feather/feather.css?ver=6.0.2'
             media='all' />
         <link rel='stylesheet' id='woosq-frontend-css'
-            href='/delicioz/wp-content/plugins/woo-smart-quick-view/assets/css/frontend.css?ver=3.1.2'
-            media='all' />
+            href='/delicioz/wp-content/plugins/woo-smart-quick-view/assets/css/frontend.css?ver=3.1.2' media='all' />
         <link rel='stylesheet' id='woosw-feather-css'
             href='/delicioz/wp-content/plugins/woo-smart-wishlist/assets/libs/feather/feather.css?ver=6.0.2'
             media='all' />
@@ -604,8 +591,8 @@
         <link rel='stylesheet' id='delicioz-fonts-css'
             href='//fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&#038;subset=latin%2Clatin-ext&#038;display=swap'
             media='all' />
-        <link rel='stylesheet' id='delicioz-style-css'
-            href='/delicioz/wp-content/themes/delicioz/style.css?ver=1.0.1' media='all' />
+        <link rel='stylesheet' id='delicioz-style-css' href='/delicioz/wp-content/themes/delicioz/style.css?ver=1.0.1'
+            media='all' />
         <style id='delicioz-style-inline-css'>
             .col-full {
                 max-width: 1290px
@@ -1030,8 +1017,7 @@
         <link rel='stylesheet' id='delicioz-elementor-css'
             href='/delicioz/wp-content/themes/delicioz/assets/css/base/elementor.css?ver=1.0.1' media='all' />
         <link rel='stylesheet' id='delicioz-woocommerce-style-css'
-            href='/delicioz/wp-content/themes/delicioz/assets/css/woocommerce/woocommerce.css?ver=1.0.1'
-            media='all' />
+            href='/delicioz/wp-content/themes/delicioz/assets/css/woocommerce/woocommerce.css?ver=1.0.1' media='all' />
         <link rel='stylesheet' id='delicioz-child-style-css'
             href='/delicioz/wp-content/themes/demo-child/style.css?ver=1.0.0' media='all' />
         <link rel='stylesheet' id='google-fonts-1-css'
@@ -1043,26 +1029,11 @@
         <link rel='stylesheet' id='elementor-icons-fa-brands-css'
             href='/delicioz/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3'
             media='all' />
-        <script type="text/template" id="tmpl-variation-template">
-</script>
-        <script type="text/template" id="tmpl-unavailable-variation-template">
-	<p>Sorry, this product is unavailable. Please choose a different combination.</p>
-</script>
+
         <script src='/delicioz/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
         <script src='/delicioz/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
-        <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/jarallax.js?ver=6.0.2' id='jarallax-js'></script>
-        <link rel="https://api.w.org/" href="/delicioz/wp-json/" />
-        <link rel="alternate" type="application/json" href="/delicioz/wp-json/wp/v2/pages/24" />
-        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/delicioz/xmlrpc.php?rsd" />
-        <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/delicioz/wp-includes/wlwmanifest.xml" />
-        <meta name="generator" content="WordPress 6.0.2" />
-        <meta name="generator" content="WooCommerce 6.8.2" />
-        <link rel="canonical" href="/delicioz/home-3/" />
-        <link rel='shortlink' href='/delicioz/?p=24' />
-        <link rel="alternate" type="application/json+oembed"
-            href="/delicioz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo2.themelexus.com%2Fdelicioz%2Fhome-3%2F" />
-        <link rel="alternate" type="text/xml+oembed"
-            href="/delicioz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo2.themelexus.com%2Fdelicioz%2Fhome-3%2F&#038;format=xml" />
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/jarallax.js?ver=6.0.2'
+            id='jarallax-js'></script>
         <noscript>
             <style>
                 .woocommerce-product-gallery {
@@ -1133,8 +1104,8 @@
 
     <body
         class="page-template page-template-template-homepage page-template-template-homepage-php page page-id-24 logged-in wp-custom-logo wp-embed-responsive theme-delicioz woocommerce-no-js ehf-header ehf-footer ehf-template-delicioz ehf-stylesheet-demo-child woo-variation-swatches wvs-behavior-blur wvs-theme-demo-child wvs-show-label wvs-tooltip chrome woocommerce-active product-block-style-1 elementor-default elementor-kit-7 elementor-page elementor-page-24">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
-            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
+            style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
             <defs>
                 <filter id="wp-duotone-dark-grayscale">
                     <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
@@ -1148,9 +1119,8 @@
                     <feComposite in2="SourceGraphic" operator="in" />
                 </filter>
             </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0"
-            focusable="false" role="none"
-            style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
             <defs>
                 <filter id="wp-duotone-grayscale">
                     <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
@@ -1164,9 +1134,8 @@
                     <feComposite in2="SourceGraphic" operator="in" />
                 </filter>
             </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0"
-            focusable="false" role="none"
-            style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
             <defs>
                 <filter id="wp-duotone-purple-yellow">
                     <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
@@ -1180,9 +1149,8 @@
                     <feComposite in2="SourceGraphic" operator="in" />
                 </filter>
             </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0"
-            focusable="false" role="none"
-            style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
             <defs>
                 <filter id="wp-duotone-blue-red">
                     <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
@@ -1196,9 +1164,8 @@
                     <feComposite in2="SourceGraphic" operator="in" />
                 </filter>
             </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0"
-            focusable="false" role="none"
-            style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
             <defs>
                 <filter id="wp-duotone-midnight">
                     <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
@@ -1212,9 +1179,8 @@
                     <feComposite in2="SourceGraphic" operator="in" />
                 </filter>
             </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0"
-            focusable="false" role="none"
-            style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
             <defs>
                 <filter id="wp-duotone-magenta-yellow">
                     <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
@@ -1228,9 +1194,8 @@
                     <feComposite in2="SourceGraphic" operator="in" />
                 </filter>
             </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0"
-            focusable="false" role="none"
-            style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
             <defs>
                 <filter id="wp-duotone-purple-green">
                     <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
@@ -1244,9 +1209,8 @@
                     <feComposite in2="SourceGraphic" operator="in" />
                 </filter>
             </defs>
-        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0"
-            focusable="false" role="none"
-            style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+            role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
             <defs>
                 <filter id="wp-duotone-blue-orange">
                     <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
@@ -1261,7 +1225,7 @@
                 </filter>
             </defs>
         </svg>
-        <div id="page" class="hfeed site">
+        <div id="page" class="hfeed site" style="background-color: white;">
             @livewire('inc.header-home')
 
             <div class="breadcrumb-wrap">
@@ -1298,8 +1262,14 @@
                         <main id="main" class="site-main">
                             <div data-elementor-type="wp-page" data-elementor-id="24" class="elementor elementor-24">
                                 <div class="elementor-section elementor-top-section elementor-element elementor-element-5e80539 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                    data-id="5e80539" data-element_type="section"
-                                    data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+                                    style="
+                                    background-color: #002B40;
+                                ">
+                                    <style>
+                                        .elementor-section.elementor-top-section.elementor-element.elementor-element-2ff0cd2.elementor-section-content-middle.elementor-section-stretched.elementor-hidden-tablet.elementor-hidden-mobile_extra.elementor-hidden-mobile.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default {
+                                            background-color: #002B40;
+                                        }
+                                    </style>
                                     <div class="elementor-container elementor-column-gap-no">
                                         <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6fbe15b"
                                             data-id="6fbe15b" data-element_type="column">
@@ -1324,8 +1294,8 @@
                                                                             data-anim="adpr:false;" data-in="o:0;"
                                                                             data-out="a:false;">
                                                                             <img src="//demo2.themelexus.com/delicioz/wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                                                alt="" title="rev_h3"
-                                                                                width="1920" height="800"
+                                                                                alt="" title="rev_h3" width="1920"
+                                                                                height="800"
                                                                                 class="rev-slidebg tp-rs-img rs-lazyload"
                                                                                 data-lazyload="//demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/rev_h3.jpg"
                                                                                 data-panzoom="d:10000;ss:100;se:110%;"
@@ -1416,8 +1386,8 @@
                                                                             data-anim="adpr:false;" data-in="o:0;"
                                                                             data-out="a:false;">
                                                                             <img src="//demo2.themelexus.com/delicioz/wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                                                alt="" title="rev_h3_01"
-                                                                                width="1920" height="800"
+                                                                                alt="" title="rev_h3_01" width="1920"
+                                                                                height="800"
                                                                                 class="rev-slidebg tp-rs-img rs-lazyload"
                                                                                 data-lazyload="//demo2.themelexus.com/delicioz/wp-content/uploads/2022/08/rev_h3_01.jpg"
                                                                                 data-panzoom="d:10000;ss:100;se:110%;"
@@ -1537,8 +1507,7 @@
                                                                                 data-dim="w:40px;h:40px;minh:0px,none,none,none;"
                                                                                 data-actions='o:click;a:jumptoslide;slide:next;'
                                                                                 data-rsp_o="off" data-rsp_bd="off"
-                                                                                data-onslides="s:1;"
-                                                                                data-margin="l:20;"
+                                                                                data-onslides="s:1;" data-margin="l:20;"
                                                                                 data-border="bos:solid;boc:#ffffff;bow:1px,1px,1px,1px;bor:30px,30px,30px,30px;"
                                                                                 data-frame_999="o:0;st:w;"
                                                                                 data-frame_hover="c:#ffdea0;bgc:rgba(0,0,0,0);boc:rgba(255,222,160,0.75);bor:30px,30px,30px,30px;bos:solid;bow:1px,1px,1px,1px;e:power1.inOut;"
@@ -1561,7 +1530,7 @@
                                                                         mh: "0"
                                                                     });
                                                                     if (window.RS_MODULES !== undefined && window.RS_MODULES.modules !== undefined && window.RS_MODULES.modules[
-                                                                            "revslider21"] !== undefined) {
+                                                                        "revslider21"] !== undefined) {
                                                                         window.RS_MODULES.modules["revslider21"].once = false;
                                                                         window.revapi2 = undefined;
                                                                         if (window.RS_MODULES.checkMinimal !== undefined) window.RS_MODULES.checkMinimal()
@@ -1803,7 +1772,7 @@
                                                                     data-widget_type="heading.default">
                                                                     <div class="elementor-widget-container">
                                                                         <h2
-                                                                            class="elementor-heading-title elementor-size-default">
+                                                                            class="elementor-heading-title elementor-size-default" style="color: black;">
                                                                             Nơi lý tưởng
                                                                             cho trải nghiệm tuyệt vời
                                                                         </h2>
@@ -1818,7 +1787,7 @@
                                                                 <div class="elementor-element elementor-element-90ea129 elementor-widget__width-initial elementor-widget-tablet__width-inherit elementor-widget elementor-widget-text-editor"
                                                                     data-id="90ea129" data-element_type="widget"
                                                                     data-widget_type="text-editor.default">
-                                                                    <div class="elementor-widget-container">
+                                                                    <div class="elementor-widget-container" style="color: black;">
                                                                         <style>
                                                                             /*! elementor - v3.7.3 - 29-08-2022 */
                                                                             .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
@@ -1864,7 +1833,7 @@
                                                                 <div class="elementor-element elementor-element-cdaebb3 elementor-widget__width-initial elementor-widget-tablet__width-inherit elementor-widget elementor-widget-text-editor"
                                                                     data-id="cdaebb3" data-element_type="widget"
                                                                     data-widget_type="text-editor.default">
-                                                                    <div class="elementor-widget-container">
+                                                                    <div class="elementor-widget-container" style="color: black;">
 
 
                                                                         Bất cứ đêm nào, cảnh sắc được thiết lập cho bất
@@ -1897,8 +1866,8 @@
                                                                     <div class="elementor-widget-container">
                                                                         <img width="530" height="620"
                                                                             src="/delicioz/wp-content/uploads/2022/08/home3_img-1.jpg"
-                                                                            class="attachment-full size-full"
-                                                                            alt="" loading="lazy"
+                                                                            class="attachment-full size-full" alt=""
+                                                                            loading="lazy"
                                                                             srcset="/delicioz/wp-content/uploads/2022/08/home3_img-1.jpg 530w, /delicioz/wp-content/uploads/2022/08/home3_img-1-256x300.jpg 256w"
                                                                             sizes="(max-width: 530px) 100vw, 530px" />
                                                                     </div>
@@ -1915,8 +1884,8 @@
                                                                     <div class="elementor-widget-container">
                                                                         <img width="580" height="390"
                                                                             src="/delicioz/wp-content/uploads/2022/08/home3_img-2.jpg"
-                                                                            class="attachment-full size-full"
-                                                                            alt="" loading="lazy"
+                                                                            class="attachment-full size-full" alt=""
+                                                                            loading="lazy"
                                                                             srcset="/delicioz/wp-content/uploads/2022/08/home3_img-2.jpg 580w, /delicioz/wp-content/uploads/2022/08/home3_img-2-300x202.jpg 300w"
                                                                             sizes="(max-width: 580px) 100vw, 580px" />
                                                                     </div>
@@ -1924,7 +1893,7 @@
                                                                 <div class="elementor-element elementor-element-5ca450f elementor-widget elementor-widget-text-editor"
                                                                     data-id="5ca450f" data-element_type="widget"
                                                                     data-widget_type="text-editor.default">
-                                                                    <div class="elementor-widget-container">
+                                                                    <div class="elementor-widget-container" style="color: black;">
                                                                         Đặt bàn </div>
                                                                 </div>
                                                                 <div class="elementor-element elementor-element-8b6de7a elementor-widget elementor-widget-heading"
@@ -1932,7 +1901,7 @@
                                                                     data-widget_type="heading.default">
                                                                     <div class="elementor-widget-container">
                                                                         <h2
-                                                                            class="elementor-heading-title elementor-size-default">
+                                                                            class="elementor-heading-title elementor-size-default" style="color: black;">
                                                                             0329 081 960</h2>
                                                                     </div>
                                                                 </div>
@@ -2153,9 +2122,9 @@
                                                                 <div class="icon"><i aria-hidden="true"
                                                                         class="delicioz-icon- delicioz-icon-fork-knife"></i>
                                                                 </div>
-                                                                <h3 class="elementor-image-box-title">Món ăn
+                                                                <h3 class="elementor-image-box-title" style="color: black;">Món ăn
                                                                 </h3>
-                                                                <div class="elementor-image-box-sub-title">Đặc sản
+                                                                <div class="elementor-image-box-sub-title" style="color: black;">Đặc sản
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -2195,11 +2164,10 @@
                                                                         </div>
                                                                         <div class="elementor-menu-list-text">
                                                                             <div class="elementor-menu-list-title"><a
-                                                                                    href="/product/{{ $dish->slug }}">{{ $dish->name }}</a>
+                                                                                    href="/product/{{ $dish->slug }}" style="color: black;">{{ Str::limit($dish->name, 25) }}</a>
                                                                             </div>
-                                                                            <div
-                                                                                class="elementor-menu-list-description">
-                                                                                {{ Str::limit($dish->description, 100) }}
+                                                                            <div class="elementor-menu-list-description" style="color: black;">
+                                                                                {{ Str::limit($dish->description, 30) }}
                                                                             </div>
                                                                             <div class="elementor-menu-list-price">
                                                                                 {{ number_format($dish->price, 0, ',', '.') }}
@@ -2207,10 +2175,12 @@
                                                                             </div>
                                                                         </div>
                                                                         <div class="elementor-menu-list-button">
-                                                                            <button class="icon-button" wire:click="addToCart({{ $dish->id }})">
+                                                                            <button class="icon-button"
+                                                                                wire:click="addToCart({{ $dish->id }})">
                                                                                 <i class="fas fa-cart-plus"></i>
                                                                             </button>
-                                                                            <button class="icon-button" wire:click="buyNow({{ $dish->id }})">
+                                                                            <button class="icon-button"
+                                                                                wire:click="buyNow({{ $dish->id }})">
                                                                                 <i class="fas fa-bolt"></i>
                                                                             </button>
                                                                         </div>
@@ -2347,7 +2317,7 @@
                                                                 class="elementor-button-link elementor-button elementor-size-sm"
                                                                 role="button">
                                                                 <span class="elementor-button-content-wrapper">
-                                                                    <span class="elementor-button-text">view all
+                                                                    <span class="elementor-button-text" style="color: black;">view all
                                                                         menu</span>
                                                                 </span>
                                                             </a>
@@ -3011,11 +2981,11 @@
                                                                 <div class="icon"><i aria-hidden="true"
                                                                         class="delicioz-icon- delicioz-icon-chef"></i>
                                                                 </div>
-                                                                <h3 class="elementor-image-box-title">Nhà hàng của
+                                                                <h3 class="elementor-image-box-title" style="color: black;">Nhà hàng của
                                                                     chúng
                                                                     tôi
                                                                 </h3>
-                                                                <div class="elementor-image-box-sub-title">Đội ngũ
+                                                                <div class="elementor-image-box-sub-title" style="color: black;">Đội ngũ
                                                                     tuyệt vời
                                                                 </div>
                                                             </div>
@@ -3044,13 +3014,13 @@
                                                                                     sizes="(max-width: 390px) 100vw, 390px" />
                                                                             </div>
                                                                             <div class="team-caption">
-                                                                                <div class="team-name"> Lorenzo
+                                                                                <div class="team-name" style="color: black;"> Lorenzo
                                                                                     Morelli
                                                                                 </div>
-                                                                                <div class="team-job"> CEO &amp;
+                                                                                <div class="team-job" style="color: black;"> CEO &amp;
                                                                                     FOUNDER
                                                                                 </div>
-                                                                                <div class="description-text">Aenean
+                                                                                <div class="description-text" style="color: black;">Aenean
                                                                                     commodo ligula eget dolor. Aenean
                                                                                     massa. Cum
                                                                                     sociis natoque penatibus et magnis
@@ -3060,28 +3030,28 @@
                                                                                         <li class="social">
                                                                                             <a
                                                                                                 href="https://www.facebook.com">
-                                                                                                <i aria-hidden="true"
+                                                                                                <i style="color: black;" aria-hidden="true"
                                                                                                     class="fab fa-facebook-f"></i>
                                                                                             </a>
                                                                                         </li>
                                                                                         <li class="social">
                                                                                             <a
                                                                                                 href="https://twitter.com">
-                                                                                                <i aria-hidden="true"
+                                                                                                <i style="color: black;" aria-hidden="true"
                                                                                                     class="fab fa-twitter"></i>
                                                                                             </a>
                                                                                         </li>
                                                                                         <li class="social">
                                                                                             <a
                                                                                                 href="https://www.instagram.com">
-                                                                                                <i aria-hidden="true"
+                                                                                                <i style="color: black;" aria-hidden="true"
                                                                                                     class="fab fa-instagram"></i>
                                                                                             </a>
                                                                                         </li>
                                                                                         <li class="social">
                                                                                             <a
                                                                                                 href="https://www.youtube.com/">
-                                                                                                <i aria-hidden="true"
+                                                                                                <i style="color: black;" aria-hidden="true"
                                                                                                     class="fab fa-youtube"></i>
                                                                                             </a>
                                                                                         </li>
@@ -3112,11 +3082,11 @@
                                                                                     sizes="(max-width: 390px) 100vw, 390px" />
                                                                             </div>
                                                                             <div class="team-caption">
-                                                                                <div class="team-name">Wesley Brewer
+                                                                                <div class="team-name" style="color: black;">Wesley Brewer
                                                                                 </div>
-                                                                                <div class="team-job">MASTER CHEF
+                                                                                <div class="team-job" style="color: black;">MASTER CHEF
                                                                                 </div>
-                                                                                <div class="description-text">Lorem
+                                                                                <div class="description-text" style="color: black;">Lorem
                                                                                     ipsum dolor sit amet, consectetuer
                                                                                     adipiscing elit.
                                                                                     Aenean commodo ligula eget dolor.
@@ -3126,28 +3096,28 @@
                                                                                         <li class="social">
                                                                                             <a
                                                                                                 href="https://www.facebook.com">
-                                                                                                <i aria-hidden="true"
+                                                                                                <i style="color: black;" aria-hidden="true"
                                                                                                     class="fab fa-facebook-f"></i>
                                                                                             </a>
                                                                                         </li>
                                                                                         <li class="social">
                                                                                             <a
                                                                                                 href="https://twitter.com">
-                                                                                                <i aria-hidden="true"
+                                                                                                <i style="color: black;" aria-hidden="true"
                                                                                                     class="fab fa-twitter"></i>
                                                                                             </a>
                                                                                         </li>
                                                                                         <li class="social">
                                                                                             <a
                                                                                                 href="https://www.instagram.com">
-                                                                                                <i aria-hidden="true"
+                                                                                                <i style="color: black;" aria-hidden="true"
                                                                                                     class="fab fa-instagram"></i>
                                                                                             </a>
                                                                                         </li>
                                                                                         <li class="social">
                                                                                             <a
                                                                                                 href="https://www.youtube.com/">
-                                                                                                <i aria-hidden="true"
+                                                                                                <i style="color: black;" aria-hidden="true"
                                                                                                     class="fab fa-youtube"></i>
                                                                                             </a>
                                                                                         </li>
@@ -3179,12 +3149,12 @@
                                                                                     sizes="(max-width: 390px) 100vw, 390px" />
                                                                             </div>
                                                                             <div class="team-caption">
-                                                                                <div class="team-name">Aaliyah
+                                                                                <div class="team-name" style="color: black;">Aaliyah
                                                                                     Williams
                                                                                 </div>
-                                                                                <div class="team-job">PASTRY CHEF
+                                                                                <div class="team-job" style="color: black;">PASTRY CHEF
                                                                                 </div>
-                                                                                <div class="description-text">Donec
+                                                                                <div class="description-text" style="color: black;">Donec
                                                                                     pede
                                                                                     justo, fringilla vel, aliquet nec,
                                                                                     vulputate eget.
@@ -3195,28 +3165,28 @@
                                                                                         <li class="social">
                                                                                             <a
                                                                                                 href="https://www.facebook.com">
-                                                                                                <i aria-hidden="true"
+                                                                                                <i style="color: black;" aria-hidden="true"
                                                                                                     class="fab fa-facebook-f"></i>
                                                                                             </a>
                                                                                         </li>
                                                                                         <li class="social">
                                                                                             <a
                                                                                                 href="https://twitter.com">
-                                                                                                <i aria-hidden="true"
+                                                                                                <i style="color: black;" aria-hidden="true"
                                                                                                     class="fab fa-twitter"></i>
                                                                                             </a>
                                                                                         </li>
                                                                                         <li class="social">
                                                                                             <a
                                                                                                 href="https://www.instagram.com">
-                                                                                                <i aria-hidden="true"
+                                                                                                <i style="color: black;" aria-hidden="true"
                                                                                                     class="fab fa-instagram"></i>
                                                                                             </a>
                                                                                         </li>
                                                                                         <li class="social">
                                                                                             <a
                                                                                                 href="https://www.youtube.com/">
-                                                                                                <i aria-hidden="true"
+                                                                                                <i style="color: black;" aria-hidden="true"
                                                                                                     class="fab fa-youtube"></i>
                                                                                             </a>
                                                                                         </li>
@@ -3348,8 +3318,7 @@
                                                     <div class="elementor-widget-container">
                                                         <img width="360" height="420"
                                                             src="/delicioz/wp-content/uploads/2022/08/home3_img-9.jpg"
-                                                            class="attachment-full size-full" alt=""
-                                                            loading="lazy"
+                                                            class="attachment-full size-full" alt="" loading="lazy"
                                                             srcset="/delicioz/wp-content/uploads/2022/08/home3_img-9.jpg 360w, /delicioz/wp-content/uploads/2022/08/home3_img-9-257x300.jpg 257w"
                                                             sizes="(max-width: 360px) 100vw, 360px" />
                                                     </div>
@@ -3374,9 +3343,10 @@
                                                                 <div class="icon"><i aria-hidden="true"
                                                                         class="delicioz-icon- delicioz-icon-event-like"></i>
                                                                 </div>
-                                                                <h3 class="elementor-image-box-title">Tin tức & Sự kiện
+                                                                <h3 class="elementor-image-box-title" style="color: black;">Tin tức & Sự kiện
                                                                 </h3>
-                                                                <div class="elementor-image-box-sub-title">Ưu đãi hôm nay
+                                                                <div class="elementor-image-box-sub-title" style="color: black;">Ưu đãi hôm
+                                                                    nay
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -3387,8 +3357,7 @@
                                                     data-widget_type="delicioz-post-grid.default">
                                                     <div class="elementor-widget-container">
                                                         <div class="elementor-post-wrapper layout-post-style-3">
-                                                            <div class=" row"
-                                                                data-elementor-columns-widescreen="3"
+                                                            <div class=" row" data-elementor-columns-widescreen="3"
                                                                 data-elementor-columns="3"
                                                                 data-elementor-columns-laptop="3"
                                                                 data-elementor-columns-tablet-extra="3"
@@ -3403,25 +3372,24 @@
                                                                                     href="/promotion/{{ $promotion->slug }}"
                                                                                     rel="bookmark">{{ $promotion->created_at->format('d/m/Y') }}</a>
                                                                             </div>
-                                                                            <div class="post-thumbnail"><img
-                                                                                    loading="lazy" width="820"
-                                                                                    height="500"
+                                                                            <div class="post-thumbnail"><img loading="lazy"
+                                                                                    width="820" height="500"
                                                                                     src="{{ asset('storage/' . $promotion->banner) }}"
                                                                                     class="attachment-delicioz-post-grid size-delicioz-post-grid wp-post-image"
                                                                                     alt="" /></div>
                                                                             <div class="entry-content">
-                                                                                <h3 class="entry-title"><a
+                                                                                <h3 class="entry-title"><a style="color: black;"
                                                                                         href="/promotion/{{ $promotion->slug }}"
                                                                                         rel="bookmark">{{ $promotion->title }}</a>
                                                                                 </h3>
-                                                                                <div class="excerpt-content">
+                                                                                <div class="excerpt-content" style="color: black;">
                                                                                     {{ Str::limit($promotion->description, 100) }}
                                                                                 </div>
 
                                                                                 <div class="more-link-wrap">
                                                                                     <a class="more-link"
                                                                                         href="/promotion/{{ $promotion->slug }}">
-                                                                                        <span>Read More</span>
+                                                                                        <span style="color: black;">Read More</span>
                                                                                     </a>
                                                                                 </div>
                                                                             </div>
@@ -3437,8 +3405,9 @@
                                                 <div class="elementor-element elementor-element-f886650 elementor-widget__width-initial elementor-widget elementor-widget-text-editor"
                                                     data-id="f886650" data-element_type="widget"
                                                     data-widget_type="text-editor.default">
-                                                    <div class="elementor-widget-container">
-                                                        Đọc tin tức của nhà hàng của chúng tôi, công thức cho đồ ăn ngon,
+                                                    <div class="elementor-widget-container" style="color: black;">
+                                                        Đọc tin tức của nhà hàng của chúng tôi, công thức cho đồ ăn
+                                                        ngon,
                                                         mẹo cho nhà bếp gia đình của bạn! </div>
                                                 </div>
                                                 <div class="elementor-element elementor-element-45e70b0 elementor-align-center elementor-button-outline elementor-widget elementor-widget-button"
@@ -3450,7 +3419,8 @@
                                                                 class="elementor-button-link elementor-button elementor-size-sm"
                                                                 role="button">
                                                                 <span class="elementor-button-content-wrapper">
-                                                                    <span class="elementor-button-text">Xem ƯU ĐÃI</span>
+                                                                    <span class="elementor-button-text" style="color: black;">Xem ƯU
+                                                                        ĐÃI</span>
                                                                 </span>
                                                             </a>
                                                         </div>
@@ -3483,9 +3453,9 @@
             window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
             window.RS_MODULES.type = 'compiled';
         </script>
-     @livewire('inc.search')
+        @livewire('inc.search')
         <script>
-            (function() {
+            (function () {
                 function maybePrefixUrlField() {
                     if (this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
                         this.value = "http://" + this.value;
@@ -3506,8 +3476,7 @@
                     <div class="woosc-popup-content-inner">
                         <div class="woosc-popup-close"></div>
                         <div class="woosc-search-input">
-                            <input type="search" id="woosc_search_input"
-                                placeholder="Type any keyword to search..." />
+                            <input type="search" id="woosc_search_input" placeholder="Type any keyword to search..." />
                         </div>
                         <div class="woosc-search-result"></div>
                     </div>
@@ -3529,52 +3498,37 @@
                         </ul>
                         Select the fields to be shown. Others will be hidden. Drag and drop to rearrange the order. <ul
                             class="woosc-settings-fields">
-                            <li class="woosc-settings-field-li"><input type="checkbox"
-                                    class="woosc-settings-field" value="image" checked /><span
-                                    class="label">Image</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox"
-                                    class="woosc-settings-field" value="sku" checked /><span
-                                    class="label">SKU</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox"
-                                    class="woosc-settings-field" value="rating" checked /><span
-                                    class="label">Rating</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox"
-                                    class="woosc-settings-field" value="price" checked /><span
-                                    class="label">Price</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox"
-                                    class="woosc-settings-field" value="stock" checked /><span
-                                    class="label">Stock</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox"
-                                    class="woosc-settings-field" value="availability" checked /><span
-                                    class="label">Availability</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox"
-                                    class="woosc-settings-field" value="add_to_cart" checked /><span
-                                    class="label">Add to cart</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox"
-                                    class="woosc-settings-field" value="description" checked /><span
-                                    class="label">Description</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox"
-                                    class="woosc-settings-field" value="content" checked /><span
-                                    class="label">Content</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox"
-                                    class="woosc-settings-field" value="weight" checked /><span
-                                    class="label">Weight</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox"
-                                    class="woosc-settings-field" value="dimensions" checked /><span
-                                    class="label">Dimensions</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox"
-                                    class="woosc-settings-field" value="additional" checked /><span
-                                    class="label">Additional information</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox"
-                                    class="woosc-settings-field" value="attributes" checked /><span
-                                    class="label">Attributes</span></li>
-                            <li class="woosc-settings-field-li"><input type="checkbox"
-                                    class="woosc-settings-field" value="custom_attributes" checked /><span
-                                    class="label">Custom attributes</span>
+                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
+                                    value="image" checked /><span class="label">Image</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
+                                    value="sku" checked /><span class="label">SKU</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
+                                    value="rating" checked /><span class="label">Rating</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
+                                    value="price" checked /><span class="label">Price</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
+                                    value="stock" checked /><span class="label">Stock</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
+                                    value="availability" checked /><span class="label">Availability</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
+                                    value="add_to_cart" checked /><span class="label">Add to cart</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
+                                    value="description" checked /><span class="label">Description</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
+                                    value="content" checked /><span class="label">Content</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
+                                    value="weight" checked /><span class="label">Weight</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
+                                    value="dimensions" checked /><span class="label">Dimensions</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
+                                    value="additional" checked /><span class="label">Additional information</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
+                                    value="attributes" checked /><span class="label">Attributes</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
+                                    value="custom_attributes" checked /><span class="label">Custom attributes</span>
                             </li>
-                            <li class="woosc-settings-field-li"><input type="checkbox"
-                                    class="woosc-settings-field" value="custom_fields" checked /><span
-                                    class="label">Custom fields</span></li>
+                            <li class="woosc-settings-field-li"><input type="checkbox" class="woosc-settings-field"
+                                    value="custom_fields" checked /><span class="label">Custom fields</span></li>
                         </ul>
                     </div>
                 </div>
@@ -3629,9 +3583,8 @@
                 </div>
             </div>
         </div>
-        <div id="woosw_wishlist" class="woosw-popup woosw-popup-center"></div><a href="#"
-            class="scrollup"><span class="scrollup-icon delicioz-icon-angle-up"></span><span
-                class="scrollup-label">Top</span></a>
+        <div id="woosw_wishlist" class="woosw-popup woosw-popup-center"></div><a href="#" class="scrollup"><span
+                class="scrollup-icon delicioz-icon-angle-up"></span><span class="scrollup-label">Top</span></a>
         <script type="text/html" id="tmpl-ajax-live-search-template">
 
         </script>
@@ -3641,7 +3594,7 @@
             rel="stylesheet" property="stylesheet" media="all" type="text/css">
 
         <script type="text/javascript">
-            (function() {
+            (function () {
                 var c = document.body.className;
                 c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
                 document.body.className = c;
@@ -3810,8 +3763,9 @@
                 -moz-osx-font-smoothing: grayscale
             }
         </style>
-        <script src='/delicioz/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9' id='regenerator-runtime-js'>
-        </script>
+        <script src='/delicioz/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9'
+            id='regenerator-runtime-js'>
+            </script>
         <script src='/delicioz/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
         <script id='contact-form-7-js-extra'>
             var wpcf7 = {
@@ -3826,9 +3780,11 @@
         </script>
         <script src='/delicioz/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.5.18' defer async
             id='tp-tools-js'></script>
-        <script src='/delicioz/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.5.31' defer async id='revmin-js'>
-        </script>
-        <script src='/delicioz/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.6.8.2'
+        <script src='/delicioz/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.5.31' defer async
+            id='revmin-js'>
+            </script>
+        <script
+            src='/delicioz/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.6.8.2'
             id='jquery-blockui-js'></script>
         <script id='wc-add-to-cart-js-extra'>
             var wc_add_to_cart_params = {
@@ -3888,7 +3844,8 @@
         </script>
         <script src='/delicioz/wp-content/plugins/woo-variation-swatches/assets/js/frontend.min.js?ver=1660386322'
             id='woo-variation-swatches-js'></script>
-        <script src='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/table-head-fixer/table-head-fixer.js?ver=5.1.5'
+        <script
+            src='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/table-head-fixer/table-head-fixer.js?ver=5.1.5'
             id='table-head-fixer-js'></script>
         <script
             src='/delicioz/wp-content/plugins/woo-smart-compare/assets/libs/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js?ver=5.1.5'
@@ -3928,8 +3885,9 @@
                 "button_text_added": "Compare"
             };
         </script>
-        <script src='/delicioz/wp-content/plugins/woo-smart-compare/assets/js/frontend.js?ver=5.1.5' id='woosc-frontend-js'>
-        </script>
+        <script src='/delicioz/wp-content/plugins/woo-smart-compare/assets/js/frontend.js?ver=5.1.5'
+            id='woosc-frontend-js'>
+            </script>
         <script id='wc-add-to-cart-variation-js-extra'>
             var wc_add_to_cart_variation_params = {
                 "wc_ajax_url": "\/delicioz\/?wc-ajax=%%endpoint%%",
@@ -3961,8 +3919,9 @@
                 "thumbnails_zoom_params": "{\"duration\":120,\"magnify\":1}"
             };
         </script>
-        <script src='/delicioz/wp-content/plugins/woo-smart-quick-view/assets/js/frontend.js?ver=3.1.2' id='woosq-frontend-js'>
-        </script>
+        <script src='/delicioz/wp-content/plugins/woo-smart-quick-view/assets/js/frontend.js?ver=3.1.2'
+            id='woosq-frontend-js'>
+            </script>
         <script id='woosw-frontend-js-extra'>
             var woosw_vars = {
                 "ajax_url": "https:\/\/demo2.themelexus.com\/delicioz\/wp-admin\/admin-ajax.php",
@@ -3980,14 +3939,16 @@
                 "button_text_added": "Browse wishlist"
             };
         </script>
-        <script src='/delicioz/wp-content/plugins/woo-smart-wishlist/assets/js/frontend.js?ver=4.3.1' id='woosw-frontend-js'>
-        </script>
+        <script src='/delicioz/wp-content/plugins/woo-smart-wishlist/assets/js/frontend.js?ver=4.3.1'
+            id='woosw-frontend-js'>
+            </script>
         <script id='delicioz-theme-js-extra'>
             var deliciozAjax = {
                 "ajaxurl": "https:\/\/demo2.themelexus.com\/delicioz\/wp-admin\/admin-ajax.php"
             };
         </script>
-        <script src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/main.js?ver=1.0.1' id='delicioz-theme-js'></script>
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/main.js?ver=1.0.1'
+            id='delicioz-theme-js'></script>
         <script src='/delicioz/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/search-popup.js?ver=1.0.1'
             id='delicioz-search-popup-js'></script>
@@ -3999,8 +3960,9 @@
             id='delicioz-megamenu-frontend-js'></script>
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/header-cart.min.js?ver=1.0.1'
             id='delicioz-header-cart-js'></script>
-        <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/tooltipster.bundle.js?ver=1.0.1' id='tooltipster-js'>
-        </script>
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/tooltipster.bundle.js?ver=1.0.1'
+            id='tooltipster-js'>
+            </script>
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/product-ajax-search.min.js?ver=1.0.1'
             id='delicioz-products-ajax-search-js'></script>
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/woocommerce/main.min.js?ver=1.0.1'
@@ -4139,28 +4101,34 @@
                 }
             };
         </script>
-        <script src='/delicioz/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.7.3' id='elementor-frontend-js'>
-        </script>
+        <script src='/delicioz/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.7.3'
+            id='elementor-frontend-js'>
+            </script>
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/elementor/reservation-form.js?ver=1.0.1'
             id='delicioz-elementor-reservation-form-js'></script>
-        <script src='/delicioz/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.1' id='jquery-ui-datepicker-js'></script>
+        <script src='/delicioz/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.1'
+            id='jquery-ui-datepicker-js'></script>
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/elementor/menu-list.js?ver=1.0.1'
             id='delicioz-elementor-menu-list-js'></script>
-        <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/TweenMax.min.js?ver=1.11.1' id='tweenmax-js'></script>
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/TweenMax.min.js?ver=1.11.1'
+            id='tweenmax-js'></script>
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/elementor/testimonial.js?ver=1.0.1'
             id='delicioz-elementor-testimonial-js'></script>
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/elementor/posts-grid.js?ver=1.0.1'
             id='delicioz-elementor-posts-grid-js'></script>
-        <script src='/delicioz/wp-content/plugins/make-column-clickable-elementor/assets/js/make-column-clickable.js?ver=1.4.0'
+        <script
+            src='/delicioz/wp-content/plugins/make-column-clickable-elementor/assets/js/make-column-clickable.js?ver=1.4.0'
             id='make-column-clickable-elementor-js'></script>
-        <script defer src='/delicioz/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.8.8' id='mc4wp-forms-api-js'>
-        </script>
+        <script defer src='/delicioz/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.8.8'
+            id='mc4wp-forms-api-js'>
+            </script>
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/elementor-frontend.js?ver=1.0.1'
             id='delicioz-elementor-frontend-js'></script>
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/frontend/jquery.sticky.js?ver=1.0.1'
             id='elementor-sticky-js'></script>
-        <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/sticky.js?ver=1.0.1' id='delicioz-elementor-sticky-js'>
-        </script>
+        <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/sticky.js?ver=1.0.1'
+            id='delicioz-elementor-sticky-js'>
+            </script>
         <script id="rs-initialisation-scripts">
             var tpj = jQuery;
 
@@ -4170,12 +4138,12 @@
             if (RS_MODULES.modules === undefined) RS_MODULES.modules = {};
             RS_MODULES.modules["revslider21"] = {
                 once: RS_MODULES.modules["revslider21"] !== undefined ? RS_MODULES.modules["revslider21"].once : undefined,
-                init: function() {
+                init: function () {
                     window.revapi2 = window.revapi2 === undefined || window.revapi2 === null || window.revapi2
                         .length === 0 ? document.getElementById("rev_slider_2_1") : window.revapi2;
                     if (window.revapi2 === null || window.revapi2 === undefined || window.revapi2.length == 0) {
                         window.revapi2initTry = window.revapi2initTry === undefined ? 0 : window.revapi2initTry + 1;
-                        if (window.revapi2initTry < 20) requestAnimationFrame(function() {
+                        if (window.revapi2initTry < 20) requestAnimationFrame(function () {
                             RS_MODULES.modules["revslider21"].init()
                         });
                         return;
@@ -4230,9 +4198,9 @@
             };
         </script>
     </body>
-<style>
-    .elementor-menu-list-image > img{
-        height: 280px !important;
-    }
-</style>
+    <style>
+        .elementor-menu-list-image>img {
+            height: 280px !important;
+        }
+    </style>
 </div>

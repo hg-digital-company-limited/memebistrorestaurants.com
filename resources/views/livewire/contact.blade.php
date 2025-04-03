@@ -1545,7 +1545,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="elementor-section elementor-top-section elementor-element elementor-element-d37b069 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                        {{-- <div class="elementor-section elementor-top-section elementor-element elementor-element-d37b069 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                             data-id="d37b069" data-element_type="section"
                                             data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
                                             <div class="elementor-container elementor-column-gap-no">
@@ -1838,7 +1838,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div><!-- .entry-content -->
                             </article><!-- #post-## -->
