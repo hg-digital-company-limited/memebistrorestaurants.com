@@ -21,7 +21,8 @@ class OrderResource extends Resource
     {
         return 'Danh sách đơn hàng';
     }
-    protected static ?string $navigationGroup = 'Quản lý Nhà Hàng';
+    protected static ?string $navigationGroup = 'Quản lý Hóa đơn';
+
     protected static ?string $navigationLabel = 'Đơn hàng trực tuyến';
     protected static ?string $navigationIcon = 'heroicon-o-shopping-cart';
     protected static ?int $navigationSort = 1;

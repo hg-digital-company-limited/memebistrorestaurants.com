@@ -1547,6 +1547,4 @@
         <script src='/delicioz/wp-content/themes/delicioz/assets/js/libs/sticky.js?ver=1.0.1'
             id='delicioz-elementor-sticky-js'></script>
     </body>
-
-
 </div>
