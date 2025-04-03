@@ -10,7 +10,7 @@ class TableDish extends Model
     use HasFactory;
 
     protected $fillable = [
-        'dish_id', 'table_id', 'quantity', 'served_at', 'status', 'order_code'
+        'dish_id', 'table_id', 'quantity', 'status', 'order_code'
     ];
 
     public function dish()
