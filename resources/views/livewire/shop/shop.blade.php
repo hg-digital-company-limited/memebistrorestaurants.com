@@ -11,7 +11,7 @@
                 <div class="delicioz-sorting"> <a href="#" class="filter-toggle" aria-expanded="false">
                         <i class="delicioz-icon-sliders-v"></i><span>Filter</span></a>
 
-                    <p class="woocommerce-result-count">
+                    <p class="woocommerce-result-count" style="color: black;">
                         Showing {{ $dishes->firstItem() }}&ndash;{{ $dishes->lastItem() }} of {{ $dishes->total() }}
                         results
                     </p>
@@ -65,25 +65,25 @@
                 <nav class="woocommerce-pagination">
                     <ul class='page-numbers'>
                         @if ($dishes->onFirstPage())
-                            <li><span aria-current="page" class="page-numbers current">{{ $dishes->currentPage() }}</span>
+                            <li><span aria-current="page" class="page-numbers current" style="color: black;">{{ $dishes->currentPage() }}</span>
                             </li>
                         @else
-                            <li><a class="page-numbers" wire:click.prevent="gotoPage(1)">1</a></li>
+                            <li><a class="page-numbers" wire:click.prevent="gotoPage(1)" style="color: black;">1</a></li>
                         @endif
 
                         @for ($i = 2; $i <= $dishes->lastPage(); $i++)
                             <li>
                                 @if ($i == $dishes->currentPage())
-                                    <span aria-current="page" class="page-numbers current">{{ $i }}</span>
+                                    <span aria-current="page" class="page-numbers current" style="color: black;">{{ $i }}</span>
                                 @else
-                                    <a class="page-numbers" wire:click.prevent="gotoPage({{ $i }})">{{ $i }}</a>
+                                    <a class="page-numbers" wire:click.prevent="gotoPage({{ $i }})" style="color: black;">{{ $i }}</a>
                                 @endif
                             </li>
                         @endfor
 
                         @if ($dishes->hasMorePages())
                             <li>
-                                <a class="next page-numbers" wire:click.prevent="nextPage">
+                                <a class="next page-numbers" wire:click.prevent="nextPage" style="color: black;">
                                     <span></span><i class="delicioz-icon delicioz-icon-angle-right"></i>
                                 </a>
                             </li>
@@ -94,13 +94,13 @@
         </div><!-- #primary -->
         <div id="secondary" class="widget-area" role="complementary">
             <div id="woocommerce_product_categories-2" class="widget woocommerce widget_product_categories">
-                <span class="gamma widget-title">Danh mục món ăn</span>
+                <span class="gamma widget-title" style="color: black;">Danh mục món ăn</span>
                 <div class="widget-content">
                     <ul class="product-categories">
                         @foreach ($categories as $category)
                             <li class="cat-item cat-item-42"><a
-                                    onclick="window.location.href='/shop?category={{ $category->id }}'">{{ $category->name }}</a>
-                                <span class="count">({{ $category->dishes_count }})</span>
+                                    onclick="window.location.href='/shop?category={{ $category->id }}'" style="color: black;">{{ $category->name }}</a>
+                                <span class="count" style="color: black;">({{ $category->dishes_count }})</span>
                             </li>
                         @endforeach
 
@@ -138,15 +138,15 @@
                                 </div>
 
                                 <div class="product-content">
-                                    <h3 class="woocommerce-loop-product__title"><a
-                                            href="/product/{{ $dish->slug }}">{{ $dish->name }}</a></h3>
+                                    <h3 class="woocommerce-loop-product__title" style="color: black;"><a
+                                            href="/product/{{ $dish->slug }}" style="color: black;">{{ $dish->name }}</a></h3>
                                     {{-- <div class="count-review">
                                         <div class="star-rating" role="img" aria-label="Rated 4.50 out of 5"><span
                                                 style="width:90%">Rated
                                                 <strong class="rating">4.50</strong> out of 5</span></div>
                                         <span></span>
                                     </div> --}}
-                                    <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span
+                                    <span class="price" style="color: black;"><span class="woocommerce-Price-amount amount"><bdi><span
                                                     class="woocommerce-Price-currencySymbol"></span>{{ number_format($dish->price, 0, ',', '.') }}
                                                     VNĐ</bdi></span></span>
                                 </div>

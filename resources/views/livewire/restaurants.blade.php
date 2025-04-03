@@ -2,12 +2,6 @@
 
     <head>
         <title>Danh sách cơ sở</title>
-        <meta name='robots' content='max-image-preview:large' />
-        <link rel="dns-prefetch" href="//fonts.googleapis.com">
-        <link rel="dns-prefetch" href="//s.w.org">
-        <link rel='dns-prefetch' href='//demo2.themelexus.com' />
-        <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-        <link rel='dns-prefetch' href='//s.w.org' />
         <script>
             window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/demo2.themelexus.com\/delicioz\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.2" } };
             /*! This file is auto-generated */
@@ -1176,7 +1170,8 @@
                 </filter>
             </defs>
         </svg>
-        <div id="page" class="hfeed site">
+        <div id="page" class="hfeed site"
+        style="background-color: white;">
             @livewire('inc.header')
 
             <div class="breadcrumb-wrap">
@@ -1225,18 +1220,18 @@
                                             </div>
                                             <div class="entry-content">
 
-                                                <h3 class="entry-title"><a href="/restaurant/{{ $restaurant->id }}"
-                                                        rel="bookmark">{{ $restaurant->name }}</a></h3>
+                                                <h3 class="entry-title" style="color: black;"><a href="/restaurant/{{ $restaurant->id }}"
+                                                        rel="bookmark" style="color: black;">{{ $restaurant->name }}</a></h3>
                                                 <div class="entry-meta">
                                                     <div class="categories-link"><span
                                                             class="screen-reader-text">Categories</span><a
                                                             href="/restaurant/{{ $restaurant->id }}"
-                                                            rel="category tag">{{ $restaurant->location }}</a></div>
+                                                            rel="category tag" style="color: black;">{{ $restaurant->location }}</a></div>
                                                 </div>
-                                                <div class="excerpt-content">{{ $restaurant->short_description }}</div>
+                                                <div class="excerpt-content" style="color: black;">{{ $restaurant->short_description }}</div>
 
                                                 <div class="more-link-wrap">
-                                                    <a class="more-link" href="/restaurant/{{ $restaurant->id }}">
+                                                    <a class="more-link" href="/restaurant/{{ $restaurant->id }}" style="color: black;">
                                                         <span>Read More</span>
                                                     </a>
                                                 </div>

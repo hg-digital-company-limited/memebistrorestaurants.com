@@ -2,20 +2,14 @@
 
     <head>
         <title>{{ $restaurant->name }}</title>
-        <meta name='robots' content='max-image-preview:large' />
-        <link rel="dns-prefetch" href="//fonts.googleapis.com">
-        <link rel="dns-prefetch" href="//s.w.org">
-        <link rel="pingback" href="https://demo2.themelexus.com/delicioz/xmlrpc.php">
-        <link rel='dns-prefetch' href='//demo2.themelexus.com' />
-        <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-        <link rel='dns-prefetch' href='//s.w.org' />
-        <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Feed"
-            href="https://demo2.themelexus.com/delicioz/feed/" />
-        <link rel="alternate" type="application/rss+xml" title="Delicioz &raquo; Comments Feed"
-            href="https://demo2.themelexus.com/delicioz/comments/feed/" />
-        <link rel="alternate" type="application/rss+xml"
-            title="Delicioz &raquo; 10 Restaurant patio decor ideas for summer Comments Feed"
-            href="https://demo2.themelexus.com/delicioz/10-restaurant-patio-decor-ideas-for-summer/feed/" />
+<style>
+    .entry-content p , .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6, .entry-content strong {
+        color: black !important;
+    }
+    .entry-content strong {
+        color: black !important;
+    }
+</style>
         <script>
             window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/demo2.themelexus.com\/delicioz\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.2" } };
             /*! This file is auto-generated */
@@ -1193,7 +1187,8 @@
                 </filter>
             </defs>
         </svg>
-        <div id="page" class="hfeed site">
+        <div id="page" class="hfeed site"
+        style="background-color: white;">
             @livewire('inc.header')
 
             <div class="breadcrumb-wrap">
@@ -1245,7 +1240,7 @@
                                             width: 100%;
                                         " class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
                                     </div>
-                                    <div class="entry-content"> {!! $restaurant->description !!}</div><!-- .entry-content -->
+                                    <div class="entry-content" style="color: black;"> {!! $restaurant->description !!}</div><!-- .entry-content -->
                                 </div>
 
                             </article><!-- #post-## -->
@@ -1350,15 +1345,15 @@
                                                             <div class="elementor-image-box-content">
                                                                 <div class="icon"></div>
                                                                 <h3 class="elementor-image-box-title"><a
-                                                                        href="/reservation/">About
+                                                                        href="/reservation/" style="color: black;">About
                                                                         Our Restaurant</a></h3>
-                                                                <p class="elementor-image-box-description">
+                                                                <p class="elementor-image-box-description" style="color: black;">
                                                                     Email: {{ $restaurant->email }} <br>
                                                                     Phone: {{ $restaurant->phone }} <br>
                                                                 </p>
                                                                 <div class="elementor-image-box-button-wrapper"><a
                                                                         href="/reservation/"
-                                                                        class="elementor-image-box-button"><span
+                                                                        class="elementor-image-box-button" style="color: black;"><span
                                                                             class="elementor-image-box-button-text">
                                                                             Book a table</span></a></div>
                                                             </div>
@@ -1374,7 +1369,7 @@
 
 
                         <div id="recent-posts-2" class="widget widget_recent_entries"> <span
-                                class="gamma widget-title">Món ăn</span>
+                                class="gamma widget-title" style="color: black;">Món ăn</span>
                             <div class="widget-content">
                                 <ul>
                                     @foreach ($dishbyrestaurant as $dish)
@@ -1389,9 +1384,9 @@
                                                     sizes="(max-width: 150px) 100vw, 150px"> </a>
                                         </div>
                                         <div class="recent-posts-info">
-                                            <span class="post-date">{{ number_format($dish->price, 0, ',', '.') }} VNĐ</span>
-                                            <h4 class="post-title"><a
-                                                    href="/dish/{{ $dish->slug }}">{{ Str::limit($dish->name, 100) }}</a></h4>
+                                            <span class="post-date" style="color: black;">{{ number_format($dish->price, 0, ',', '.') }} VNĐ</span>
+                                            <h4 class="post-title" style="color: black;"><a
+                                                    href="/dish/{{ $dish->slug }}" style="color: black;">{{ Str::limit($dish->name, 100) }}</a></h4>
                                         </div>
 
                                     </li>

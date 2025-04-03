@@ -1198,7 +1198,7 @@
                 </filter>
             </defs>
         </svg>
-        <div id="page" class="hfeed site">
+        <div id="page" class="hfeed site" style="background-color: white;">
             @livewire('inc.header')
 
             <div class="breadcrumb-wrap">
