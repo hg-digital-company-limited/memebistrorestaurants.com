@@ -1,5 +1,6 @@
 <?php
 use App\Http\Controllers\InvoiceController;
+use App\Http\Controllers\OrderController;
 use App\Livewire\ResetPassword;
 use App\Livewire\RestaurantStatistics;
 use App\Models\Invoice;
@@ -64,3 +65,4 @@ Route::get('/promotion/{slug}', PromotionDetail::class);
 Route::get('/restaurant', Restaurants::class);
 Route::get('/restaurant/{id}', RestaurantDetail::class);
 Route::get('/invoices/{invoice}/print', [InvoiceController::class, 'print'])->name('invoices.print');
+Route::get('/orders/{order}/print', [OrderController::class, 'print'])->name('orders.print');

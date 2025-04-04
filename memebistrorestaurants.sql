@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Apr 04, 2025 at 10:41 AM
+-- Generation Time: Apr 04, 2025 at 12:22 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.2.27
 
@@ -342,7 +342,10 @@ INSERT INTO `invoices` (`id`, `invoice_code`, `restaurant_id`, `total_amount`, `
 (15, 'INV-67ECA5F0F3CCA', 1, '245000.00', 'pending', '2025-04-02 02:50:24', '2025-04-02 02:54:11'),
 (16, 'INV-67EF6F5F9353C', 2, '3260000.00', 'pending', '2025-04-04 05:34:23', '2025-04-04 10:35:17'),
 (17, 'INV-67EFB4E8A2FE4', 2, '0.00', 'pending', '2025-04-04 10:31:04', '2025-04-04 10:31:04'),
-(18, 'INV-67EFB60344B9E', 2, '310000.00', 'pending', '2025-04-04 10:35:47', '2025-04-04 10:40:26');
+(18, 'INV-67EFB60344B9E', 2, '310000.00', 'pending', '2025-04-04 10:35:47', '2025-04-04 10:40:26'),
+(19, 'INV-67EFC96A8BBC9', 2, '160000.00', 'pending', '2025-04-04 11:58:34', '2025-04-04 11:58:34'),
+(20, 'INV-67EFCA6D558B1', 2, '90000.00', 'pending', '2025-04-04 12:02:53', '2025-04-04 12:02:53'),
+(21, 'INV-67EFCAAD2188D', 2, '90000.00', 'pending', '2025-04-04 12:03:57', '2025-04-04 12:03:57');
 
 -- --------------------------------------------------------
 
@@ -377,7 +380,10 @@ INSERT INTO `invoice_items` (`id`, `invoice_id`, `dish_id`, `quantity`, `unit_pr
 (12, 16, 27, 2, '160000.00', '320000.00', '2025-04-04 10:35:17', '2025-04-04 10:35:17'),
 (13, 18, 26, 1, '75000.00', '75000.00', '2025-04-04 10:35:47', '2025-04-04 10:35:47'),
 (14, 18, 27, 1, '160000.00', '160000.00', '2025-04-04 10:39:27', '2025-04-04 10:39:27'),
-(15, 18, 26, 1, '75000.00', '75000.00', '2025-04-04 10:40:26', '2025-04-04 10:40:26');
+(15, 18, 26, 1, '75000.00', '75000.00', '2025-04-04 10:40:26', '2025-04-04 10:40:26'),
+(16, 19, 27, 1, '160000.00', '160000.00', '2025-04-04 11:58:34', '2025-04-04 11:58:34'),
+(17, 20, 25, 1, '90000.00', '90000.00', '2025-04-04 12:02:53', '2025-04-04 12:02:53'),
+(18, 21, 25, 1, '90000.00', '90000.00', '2025-04-04 12:03:57', '2025-04-04 12:03:57');
 
 -- --------------------------------------------------------
 
@@ -603,11 +609,11 @@ INSERT INTO `orders` (`id`, `user_id`, `status`, `total_amount`, `payment_method
 (43, 1, 'pending', '170000.00', 'bank', '2025-04-01 10:52:52', '2025-04-01 10:52:55', 'failed', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'ORDER_67EBC58433A15', NULL, NULL),
 (45, 1, 'pending', '175000.00', 'cod', '2025-04-01 10:53:32', '2025-04-01 10:53:32', 'unpaid', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'ORDER_67EBC5AC9D68B', NULL, NULL),
 (52, 1, 'pending', '205000.00', 'cod', '2025-04-02 01:25:16', '2025-04-02 01:25:16', 'unpaid', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'ORDER_67EC91FC4EC09', NULL, NULL),
-(53, 1, 'pending', '205000.00', 'cod', '2025-04-03 02:19:05', '2025-04-03 02:19:05', 'unpaid', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'ORDER_67EDF0198D720', NULL, 2),
+(53, 1, 'confirmed', '205000.00', 'cod', '2025-04-03 02:19:05', '2025-04-04 12:14:33', 'unpaid', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'ORDER_67EDF0198D720', NULL, 2),
 (54, 1, 'pending', '205000.00', 'cod', '2025-04-03 02:19:57', '2025-04-03 02:19:57', 'unpaid', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'ORDER_67EDF04D493D6', NULL, 1),
-(55, 1, 'pending', '205000.00', 'cod', '2025-04-03 02:20:34', '2025-04-03 02:20:34', 'unpaid', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'ORDER_67EDF072645D8', NULL, 2),
+(55, 1, 'confirmed', '205000.00', 'cod', '2025-04-03 02:20:34', '2025-04-04 12:13:47', 'unpaid', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'ORDER_67EDF072645D8', NULL, 2),
 (56, 1, 'pending', '205000.00', 'cod', '2025-04-03 02:20:44', '2025-04-03 02:20:44', 'unpaid', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'ORDER_67EDF07CBA02D', NULL, 1),
-(57, 1, 'pending', '205000.00', 'cod', '2025-04-03 02:21:20', '2025-04-03 02:21:20', 'unpaid', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'ORDER_67EDF0A0A1EE4', NULL, 2);
+(57, 1, 'confirmed', '205000.00', 'cod', '2025-04-03 02:21:20', '2025-04-04 12:13:12', 'unpaid', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'ORDER_67EDF0A0A1EE4', NULL, 2);
 
 -- --------------------------------------------------------
 
@@ -1109,7 +1115,7 @@ CREATE TABLE `reservations` (
   `restaurant_id` bigint UNSIGNED DEFAULT NULL,
   `number_of_people` int NOT NULL,
   `reservation_time` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
-  `status` enum('pending','confirmed','canceled') CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `status` enum('pending','completed','confirmed','canceled') CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   `reservation_code` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
@@ -1125,7 +1131,7 @@ CREATE TABLE `reservations` (
 
 INSERT INTO `reservations` (`id`, `user_id`, `restaurant_id`, `number_of_people`, `reservation_time`, `status`, `created_at`, `updated_at`, `reservation_code`, `notes`, `name`, `phone`, `reservation_day`) VALUES
 (9, 1, 1, 1, '19:00:00', 'confirmed', '2025-03-17 10:52:33', '2025-03-18 03:36:31', 'RESERVATION_67D8018839DEA', '123', 'admin', '0999999999', '2025-03-20'),
-(10, 1, 2, 1, '18:03:00', 'pending', '2025-03-17 11:03:36', '2025-04-04 05:32:05', 'RESERVATION_67D8018839DEE', '23', 'admin@gmail.com', '0999999999', '2025-03-17'),
+(10, 1, 2, 1, '18:03:00', 'completed', '2025-03-17 11:03:36', '2025-04-04 12:21:35', 'RESERVATION_67D8018839DEE', '23', 'admin@gmail.com', '0999999999', '2025-03-17'),
 (11, 1, 1, 1, '18:07', 'canceled', '2025-03-17 11:07:41', '2025-03-17 12:38:48', 'RESERVATION_67D8027D45909', '123', 'admin@gmail.com1132', 'admin@gmail.com123', '2025-03-17'),
 (12, 1, 1, 1, '18:08', 'canceled', '2025-03-17 11:08:31', '2025-03-17 12:39:18', 'RESERVATION_67D802AFB99DB', NULL, 'admin@gmail.com', 'admin@gmail.com', '2025-03-17'),
 (13, 1, 1, 1, '20:03', 'canceled', '2025-03-17 13:03:21', '2025-03-27 02:50:50', 'RESERVATION_67D81D9985752', NULL, 'admin@gmail.com', 'admin@gmail.com', '2025-03-17'),
@@ -1142,7 +1148,8 @@ INSERT INTO `reservations` (`id`, `user_id`, `restaurant_id`, `number_of_people`
 (24, 1, 1, 1, '17:19', 'pending', '2025-04-04 10:19:41', '2025-04-04 10:19:41', 'RESERVATION_67EFB23D1DEF5', NULL, 'Trần Lê Huy Hoàng', '0999999999 a', '2025-04-04'),
 (25, 1, 1, 1, '17:21', 'pending', '2025-04-04 10:21:34', '2025-04-04 10:21:34', 'RESERVATION_67EFB2AE469E5', NULL, 'Trần Lê Huy Hoàng', '0999999999 a', '2025-04-04'),
 (26, 1, 1, 1, '17:21', 'pending', '2025-04-04 10:21:48', '2025-04-04 10:21:48', 'RESERVATION_67EFB2BC9BD37', NULL, 'Trần Lê Huy Hoàng', '0999999999 a', '2025-04-04'),
-(27, 1, 1, 1, '17:23', 'pending', '2025-04-04 10:23:09', '2025-04-04 10:23:09', 'RESERVATION_67EFB30D5F4AD', NULL, 'Trần Lê Huy Hoàng', '0999999999 a', '2025-04-04');
+(27, 1, 1, 1, '17:23', 'pending', '2025-04-04 10:23:09', '2025-04-04 10:23:09', 'RESERVATION_67EFB30D5F4AD', NULL, 'Trần Lê Huy Hoàng', '0999999999 a', '2025-04-04'),
+(28, 1, 1, 1, '19:15', 'pending', '2025-04-04 12:15:33', '2025-04-04 12:15:33', 'RESERVATION_67EFCD657160A', NULL, 'Trần Lê Huy Hoàng', '0999999999 a', '2025-04-04');
 
 -- --------------------------------------------------------
 
@@ -1893,7 +1900,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('xNLzxNrAuemdBDeqekyMZMdSgxWQQhWrjTFrxilw', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoiQ2pCWHJFUm1wN3hxUFVHZmJJQmllNmN0OXV4c3Q3cjNEZGhRRWNOYyI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzY6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbi9pbnZvaWNlcyI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6MzoidXJsIjthOjA6e31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxO3M6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTIkYWlTOXVOeWt6TlZiN2xRdUI4SnRJLnhEZjI3cTgxanhIeFFIZ2dSSG40ZDJnQ2VKQ1l5SnEiO3M6ODoiZmlsYW1lbnQiO2E6MDp7fX0=', 1743763252);
+('xNLzxNrAuemdBDeqekyMZMdSgxWQQhWrjTFrxilw', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoiQ2pCWHJFUm1wN3hxUFVHZmJJQmllNmN0OXV4c3Q3cjNEZGhRRWNOYyI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6NDA6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbi9yZXNlcnZhdGlvbnMiO31zOjY6Il9mbGFzaCI7YToyOntzOjM6Im9sZCI7YTowOnt9czozOiJuZXciO2E6MDp7fX1zOjM6InVybCI7YTowOnt9czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTtzOjE3OiJwYXNzd29yZF9oYXNoX3dlYiI7czo2MDoiJDJ5JDEyJGFpUzl1Tnlrek5WYjdsUXVCOEp0SS54RGYyN3E4MWp4SHhRSGdnUkhuNGQyZ0NlSkNZeUpxIjtzOjg6ImZpbGFtZW50IjthOjA6e319', 1743769298);
 
 -- --------------------------------------------------------
 
@@ -1946,7 +1953,9 @@ INSERT INTO `table_dishes` (`id`, `dish_id`, `table_id`, `quantity`, `status`, `
 (31, 15, 1, 1, 'pending', NULL, NULL, '2025-04-02 02:45:17', '2025-04-02 02:45:17'),
 (32, 13, NULL, 1, 'pending', 'ORDER_67EDF0198D720', NULL, '2025-04-03 02:19:05', '2025-04-03 02:19:05'),
 (33, 13, NULL, 1, 'pending', 'ORDER_67EDF07CBA02D', NULL, '2025-04-03 02:20:44', '2025-04-03 02:20:44'),
-(34, 13, NULL, 1, 'pending', 'ORDER_67EDF0A0A1EE4', NULL, '2025-04-03 02:21:20', '2025-04-03 02:21:20');
+(34, 13, NULL, 1, 'pending', 'ORDER_67EDF0A0A1EE4', NULL, '2025-04-03 02:21:20', '2025-04-03 02:21:20'),
+(35, 25, NULL, 1, 'pending', NULL, NULL, '2025-04-04 12:03:57', '2025-04-04 12:03:57'),
+(36, 13, NULL, 1, 'pending', NULL, NULL, '2025-04-04 12:14:33', '2025-04-04 12:14:33');
 
 -- --------------------------------------------------------
 
@@ -2337,13 +2346,13 @@ ALTER TABLE `ingredients`
 -- AUTO_INCREMENT for table `invoices`
 --
 ALTER TABLE `invoices`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
 -- AUTO_INCREMENT for table `invoice_items`
 --
 ALTER TABLE `invoice_items`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- AUTO_INCREMENT for table `jobs`
@@ -2397,7 +2406,7 @@ ALTER TABLE `recipes`
 -- AUTO_INCREMENT for table `reservations`
 --
 ALTER TABLE `reservations`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
 
 --
 -- AUTO_INCREMENT for table `restaurants`
@@ -2427,7 +2436,7 @@ ALTER TABLE `tables`
 -- AUTO_INCREMENT for table `table_dishes`
 --
 ALTER TABLE `table_dishes`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
 
 --
 -- AUTO_INCREMENT for table `users`

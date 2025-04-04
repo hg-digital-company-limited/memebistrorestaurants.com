@@ -5,6 +5,8 @@ namespace App\Filament\Resources;
 use App\Filament\Resources\OrderResource\Pages;
 use App\Filament\Resources\OrderResource\RelationManagers;
 use App\Models\Order;
+use App\Models\OrderItem;
+use App\Models\TableDish;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -127,6 +129,18 @@ class OrderResource extends Resource
                         'delivered' => 'Đã giao hàng',
                         'canceled' => 'Đã hủy',
                     ])
+                    ->afterStateUpdated(function ($state, $record) {
+                        if ($state == 'confirmed') {
+                            $orderItems = OrderItem::where('order_id', $record->id)->get();
+                            foreach ($orderItems as $item) {
+                                TableDish::create([
+                                    'dish_id' => $item->dish_id,
+                                    'quantity' => $item->quantity,
+                                    'status' => 'pending',
+                                ]);
+                            }
+                        }
+                    })
                     ->label('Trạng thái'),
                 Tables\Columns\TextColumn::make('restaurant.name')
                     ->label('Cơ sở'),
@@ -172,6 +186,11 @@ class OrderResource extends Resource
                         ->label('Chỉnh Sửa'), // Đổi nhãn sang tiếng Việt
                     Tables\Actions\DeleteAction::make()
                         ->label('Xóa'), // Đổi nhãn sang tiếng Việt
+                        Tables\Actions\Action::make('print')
+                        ->label('In đơn hàng')
+                        ->icon('heroicon-o-printer')
+                        ->url(fn (Order $record) => route('orders.print', $record))
+                        ->openUrlInNewTab(), // Mở file PDF trong tab mới
                 ])
             ])
             ->bulkActions([

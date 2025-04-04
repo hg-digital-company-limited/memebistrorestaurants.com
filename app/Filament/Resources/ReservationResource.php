@@ -78,6 +78,7 @@ class ReservationResource extends Resource
                             ->options([
                                 'pending' => 'Chờ xác nhận',
                                 'confirmed' => 'Đã xác nhận',
+                                'completed' => 'Đã hoàn thành',
                                 'cancelled' => 'Đã hủy',
                             ])
                             ->label('Trạng thái'),
@@ -128,6 +129,7 @@ class ReservationResource extends Resource
                     ->options([
                         'pending' => 'Chờ xác nhận',
                         'confirmed' => 'Đã xác nhận',
+                        'completed' => 'Đã hoàn thành',
                         'cancelled' => 'Đã hủy',
                     ])
                     ->label('Trạng thái'),
