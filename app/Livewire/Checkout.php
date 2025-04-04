@@ -11,6 +11,8 @@ use App\Helpers\CartManagement;
 use App\Models\Order;
 use App\Models\OrderItem;
 use App\Models\Restaurant;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Session;
 class Checkout extends Component
 {
     public $cartItems = [];
@@ -23,6 +25,9 @@ class Checkout extends Component
     public $paymentMethod; // New property for payment method
     public $restaurant_id;
     public $restaurants;
+    public $verificationCode;
+public $enteredCode;
+public $emailVerified = false;
     public function mount()
     {
         $this->name = auth()->user()->name ?? '';
@@ -67,10 +72,39 @@ class Checkout extends Component
         }
 
     }
+    public function sendVerificationCode()
+    {
+        if (empty($this->email)) {
+            session()->flash('error', 'Vui lòng nhập email.');
+            return;
+        }
+
+        // Tạo mã xác thực ngẫu nhiên
+        $this->verificationCode = rand(100000, 999999);
+
+        // Lưu mã vào session để kiểm tra
+        Session::put('verification_code', $this->verificationCode);
+        Session::put('verification_email', $this->email);
+        Session::put('email_verified', false); // Đặt lại trạng thái
+
+        // Gửi mã qua email
+        Mail::raw("Mã xác thực của bạn là: " . $this->verificationCode, function ($message) {
+            $message->to($this->email)
+                ->subject('Mã xác thực đặt hàng');
+        });
+
+        session()->flash('message', 'Mã xác thực đã được gửi đến email của bạn.');
+    }
 
 
     public function placeOrder()
     {
+        if (!auth()->check()) {
+            if (!$this->emailVerified) {
+                session()->flash('error', 'Bạn cần xác thực email trước khi đặt hàng.');
+                return;
+            }
+        }
         if (empty($this->address) || empty($this->name) || empty($this->phone) || empty($this->email)) {
             session()->flash('error', 'Vui lòng điền đầy đủ các trường bắt buộc.');
             return redirect('/checkout');
@@ -136,6 +170,16 @@ class Checkout extends Component
         }
 
         session()->flash('message', 'Đặt hàng thành công!');
+    }
+    public function verifyCode()
+    {
+        if ($this->enteredCode == Session::get('verification_code') && $this->email == Session::get('verification_email')) {
+            Session::put('email_verified', true);
+            $this->emailVerified = true;
+            session()->flash('message', 'Xác thực email thành công.');
+        } else {
+            session()->flash('error', 'Mã xác thực không đúng.');
+        }
     }
 
     public function paymentVNPAY($order_id,$total_amount,$order_code)

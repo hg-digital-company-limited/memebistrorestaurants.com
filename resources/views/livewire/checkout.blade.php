@@ -1265,10 +1265,25 @@
                                                                 data-priority="30"><label for="billing_company"
                                                                     class="">Email&nbsp;<span
                                                                         class="optional">(tùy chọn)</span></label><span
-                                                                    class="woocommerce-input-wrapper"><input type="text"
+                                                                    class="woocommerce-input-wrapper" style="
+                                                                    display: flex;
+                                                                "><input type="text"
                                                                         class="input-text " wire:model="email"
                                                                         id="billing_company" placeholder="" value=""
-                                                                        autocomplete="organization" /></span></p>
+                                                                        autocomplete="organization" />
+                                                                        @if (!auth()->check())
+                                                                        <button type="button" wire:click="sendVerificationCode">Gửi mã xác thực</button></span>
+                                                                        @endif
+                                                                     </p>
+                                                                     @if (!auth()->check())
+                                                                        <p class="form-row">
+                                                                            <label for="verification_code">Nhập mã xác thực:</label>
+                                                                            <div style="display: flex;">
+                                                                                <input style="width: 100%;" type="text" wire:model="enteredCode">
+                                                                                <button type="button" wire:click="verifyCode">Xác thực</button>
+                                                                            </div>
+                                                                        </p>
+                                                                        @endif
                                                             <p class="form-row form-row-wide address-field validate-required"
                                                                 id="billing_address_1_field" data-priority="50"><label
                                                                     for="billing_address_1" class="">Địa chỉ&nbsp;<abbr class="required"

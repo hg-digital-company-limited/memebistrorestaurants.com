@@ -99,7 +99,7 @@ class OrderResource extends Resource
                         Forms\Components\Textarea::make('notes')
                             ->label('Ghi chú')
                             ->rows(3),
-                    ]),
+                    ])->columns(4),
             ]);
     }
 

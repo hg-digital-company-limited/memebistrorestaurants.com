@@ -70,7 +70,7 @@ class InvoiceResource extends Resource
                                     ->default('pending')
                                     ->required()
                                     , // Description
-                            ]),
+                            ])->columns(3),
 
                         Tabs\Tab::make('Chi tiết hóa đơn') // Tab for invoice details
                             ->schema([
@@ -124,7 +124,7 @@ class InvoiceResource extends Resource
                                                 $set('total_price', $get('quantity') * $get('unit_price')); // Calculate total price
                                             })
                                           , // Description
-                                    ]),
+                                    ])->columns(4),
                             ]),
                     ])->columnSpanFull(),
             ]);
