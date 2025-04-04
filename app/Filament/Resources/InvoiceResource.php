@@ -1,7 +1,9 @@
 <?php
 
 namespace App\Filament\Resources;
+use App\Models\Dish;
 use Barryvdh\DomPDF\Facade\Pdf;
+use Filament\Forms\Components\Tabs;
 use Illuminate\Support\Facades\Storage;
 use Filament\Tables\Actions\Action;
 use App\Filament\Resources\InvoiceResource\Pages;
@@ -37,35 +39,94 @@ class InvoiceResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\TextInput::make('invoice_code')
-                    ->label('Mã hóa đơn')
-                    ->required()
-                    ->maxLength(255)
-                    ->default(function () {
-                        do {
-                            $code = 'INV-' . strtoupper(uniqid());
-                        } while (Invoice::where('invoice_code', $code)->exists());
+                Tabs::make('Thông tin hóa đơn') // Tab title in Vietnamese
+                    ->tabs([
+                        Tabs\Tab::make('Thông tin chung') // Tab for general information
+                            ->schema([
+                                Forms\Components\TextInput::make('invoice_code')
+                                    ->label('Mã hóa đơn')
+                                    ->required()
+                                    ->maxLength(255)
+                                    ->default(function () {
+                                        do {
+                                            $code = 'INV-' . strtoupper(uniqid());
+                                        } while (Invoice::where('invoice_code', $code)->exists());
 
-                        return $code;
-                    }),
-                Forms\Components\Select::make('restaurant_id')
-                    ->label('Nhà hàng')
-                    ->options(Restaurant::all()->pluck('name', 'id'))
-                    ->required()
-                   ,
-                // Forms\Components\TextInput::make('total_amount')
-                //     ->label('Tổng tiền')
-                //     ->required()
-                //     ->numeric()
-                //     ->suffix('VNĐ'),
-                Forms\Components\Select::make('status')
-                    ->label('Trạng thái')
-                    ->options([
-                        'pending' => 'Chưa thanh toán',
-                        'paid' => 'Đã thanh toán',
-                    ])
-                    ->default('pending')
-                    ->required(),
+                                        return $code;
+                                    }),
+
+                                Forms\Components\Select::make('restaurant_id')
+                                    ->label('Nhà hàng')
+                                    ->options(Restaurant::all()->pluck('name', 'id'))
+                                    ->required()
+                                    , // Description
+
+                                Forms\Components\Select::make('status')
+                                    ->label('Trạng thái')
+                                    ->options([
+                                        'pending' => 'Chưa thanh toán',
+                                        'paid' => 'Đã thanh toán',
+                                    ])
+                                    ->default('pending')
+                                    ->required()
+                                    , // Description
+                            ]),
+
+                        Tabs\Tab::make('Chi tiết hóa đơn') // Tab for invoice details
+                            ->schema([
+                                Forms\Components\Repeater::make('invoiceItems')
+                                    ->label('Món ăn')
+                                    ->relationship('invoiceItems')
+                                    ->schema([
+                                        Forms\Components\Select::make('dish_id')
+                                            ->label('Món ăn')
+                                            ->options(Dish::pluck('name', 'id'))
+                                            ->required()
+                                            ->reactive() // Make the select reactive to trigger updates
+                                            ->afterStateUpdated(function ($state, callable $set, $get) {
+                                                $dish = Dish::find($state);
+                                                if ($dish) {
+                                                    $set('unit_price', $dish->price); // Set unit price based on the selected dish
+                                                    $set('total_price',  $dish->price * $get('quantity')); // Update total price when dish is selected
+                                                } else {
+                                                    $set('unit_price', 0); // Reset if not found
+                                                    $set('total_price', 0); // Reset total price
+                                                }
+                                            })
+                                            , // Description
+
+                                        Forms\Components\TextInput::make('quantity')
+                                            ->label('Số lượng')
+                                            ->required()
+                                            ->numeric()
+                                            ->default(1)
+                                            ->reactive() // Make quantity reactive for total price calculation
+                                            ->afterStateUpdated(function ($state, callable $set, $get) {
+                                                $set('total_price', $state * $get('unit_price')); // Update total price when quantity changes
+                                            })
+                                            , // Description
+
+                                        Forms\Components\TextInput::make('unit_price')
+                                            ->label('Đơn giá')
+                                            ->numeric()
+                                            ->suffix('VNĐ')
+                                            ->required()
+                                         , // Description
+
+                                        Forms\Components\TextInput::make('total_price')
+                                            ->label('Thành tiền')
+                                            ->numeric()
+                                            ->suffix('VNĐ')
+                                            ->required()
+                                            ->dehydrated(true) // Ensure this value is sent to the database
+                                            ->reactive() // Make total price reactive
+                                            ->afterStateUpdated(function ($state, callable $set, $get) {
+                                                $set('total_price', $get('quantity') * $get('unit_price')); // Calculate total price
+                                            })
+                                          , // Description
+                                    ]),
+                            ]),
+                    ])->columnSpanFull(),
             ]);
     }
 
@@ -117,7 +178,7 @@ class InvoiceResource extends Resource
     public static function getRelations(): array
     {
         return [
-            InvoiceItemsRelationManager::class,
+            // InvoiceItemsRelationManager::class,
         ];
     }
 

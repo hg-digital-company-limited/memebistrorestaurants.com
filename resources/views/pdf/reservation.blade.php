@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservation Details</title>
     <style>
+
         body {
-            font-family: Arial, sans-serif;
+            font-family: DejaVu Sans;
             margin: 0;
             padding: 20px;
             background-color: #f4f4f4;
@@ -41,17 +44,17 @@
 </head>
 <body>
     <div class="container">
-        <h1>Reservation Details</h1>
-        <p><span class="label">Name:</span> {{ $reservation->name }}</p>
-        <p><span class="label">Phone:</span> {{ $reservation->phone }}</p>
-        <p><span class="label">Reservation Day:</span> {{ $reservation->reservation_day }}</p>
-        <p><span class="label">Number of People:</span> {{ $reservation->number_of_people }}</p>
-        <p><span class="label">Reservation Time:</span> {{ $reservation->reservation_time }}</p>
-        <p><span class="label">Restaurant:</span> {{ $reservation->restaurant->name }}</p>
-        <p><span class="label">Notes:</span> {{ $reservation->notes }}</p>
-        <p><span class="label">Reservation Code:</span> {{ $reservation->reservation_code }}</p>
+        <h1>Thông Tin Đặt Chỗ</h1>
+        <p><span class="label">Tên:</span> {{ $reservation->name }}</p>
+        <p><span class="label">Điện Thoại:</span> {{ $reservation->phone }}</p>
+        <p><span class="label">Ngày Đặt:</span> {{ $reservation->reservation_day }}</p>
+        <p><span class="label">Số Người:</span> {{ $reservation->number_of_people }}</p>
+        <p><span class="label">Thời Gian Đặt:</span> {{ $reservation->reservation_time }}</p>
+        <p><span class="label">Nhà Hàng:</span> {{ $reservation->restaurant->name }}</p>
+        <p><span class="label">Ghi Chú:</span> {{ $reservation->notes }}</p>
+        <p><span class="label">Mã Đặt Chỗ:</span> {{ $reservation->reservation_code }}</p>
         <div class="footer">
-            Thank you for choosing us!
+            Cảm ơn bạn đã chọn chúng tôi!
         </div>
     </div>
 </body>
