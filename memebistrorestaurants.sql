@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Apr 04, 2025 at 12:22 PM
+-- Generation Time: Apr 04, 2025 at 01:28 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.2.27
 
@@ -270,6 +270,13 @@ CREATE TABLE `import_requests` (
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Dumping data for table `import_requests`
+--
+
+INSERT INTO `import_requests` (`id`, `request_date`, `requested_by`, `status`, `created_at`, `updated_at`) VALUES
+(4, '2025-04-18', '1', 'pending', '2025-04-04 13:11:34', '2025-04-04 13:11:34');
+
 -- --------------------------------------------------------
 
 --
@@ -284,6 +291,13 @@ CREATE TABLE `import_request_details` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `import_request_details`
+--
+
+INSERT INTO `import_request_details` (`id`, `import_request_id`, `ingredient_id`, `requested_quantity`, `created_at`, `updated_at`) VALUES
+(5, 4, 1, 100, '2025-04-04 13:11:34', '2025-04-04 13:11:34');
 
 -- --------------------------------------------------------
 
@@ -613,7 +627,13 @@ INSERT INTO `orders` (`id`, `user_id`, `status`, `total_amount`, `payment_method
 (54, 1, 'pending', '205000.00', 'cod', '2025-04-03 02:19:57', '2025-04-03 02:19:57', 'unpaid', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'ORDER_67EDF04D493D6', NULL, 1),
 (55, 1, 'confirmed', '205000.00', 'cod', '2025-04-03 02:20:34', '2025-04-04 12:13:47', 'unpaid', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'ORDER_67EDF072645D8', NULL, 2),
 (56, 1, 'pending', '205000.00', 'cod', '2025-04-03 02:20:44', '2025-04-03 02:20:44', 'unpaid', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'ORDER_67EDF07CBA02D', NULL, 1),
-(57, 1, 'confirmed', '205000.00', 'cod', '2025-04-03 02:21:20', '2025-04-04 12:13:12', 'unpaid', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'ORDER_67EDF0A0A1EE4', NULL, 2);
+(57, 1, 'confirmed', '205000.00', 'cod', '2025-04-03 02:21:20', '2025-04-04 12:13:12', 'unpaid', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'ORDER_67EDF0A0A1EE4', NULL, 2),
+(58, NULL, 'pending', '205000.00', 'cod', '2025-04-04 13:03:59', '2025-04-04 13:03:59', 'unpaid', 'admin@gmail.com', '2509roblox@gmail.com', '2509roblox@gmail.com', '2509roblox@gmail.com', 'ORDER_67EFD8BF79C44', NULL, 1),
+(59, NULL, 'pending', '205000.00', 'cod', '2025-04-04 13:04:38', '2025-04-04 13:04:38', 'unpaid', '2509roblox@gmail.com', '2509roblox@gmail.com', '2509roblox@gmail.com', '2509roblox@gmail.com', 'ORDER_67EFD8E6A035F', NULL, 1),
+(60, NULL, 'pending', '205000.00', 'cod', '2025-04-04 13:05:45', '2025-04-04 13:05:45', 'unpaid', '2509roblox@gmail.com', '2509roblox@gmail.com', '2509roblox@gmail.com', '2509roblox@gmail.com', 'ORDER_67EFD9294AEFB', NULL, 1),
+(61, NULL, 'pending', '205000.00', 'cod', '2025-04-04 13:06:51', '2025-04-04 13:06:51', 'unpaid', '2509roblox@gmail.com', '2509roblox@gmail.com', '2509roblox@gmail.com', '2509roblox@gmail.com', 'ORDER_67EFD96B419A0', NULL, 1),
+(62, 1, 'pending', '520000.00', 'cod', '2025-04-04 13:08:53', '2025-04-04 13:08:53', 'unpaid', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'ORDER_67EFD9E5A7DEC', NULL, 1),
+(63, 1, 'pending', '205000.00', 'cod', '2025-04-04 13:09:40', '2025-04-04 13:09:40', 'unpaid', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'admin@gmail.com', 'ORDER_67EFDA149A8C8', NULL, 1);
 
 -- --------------------------------------------------------
 
@@ -658,7 +678,14 @@ INSERT INTO `order_items` (`id`, `order_id`, `dish_id`, `quantity`, `price`, `cr
 (48, 52, 13, 1, '205000.00', '2025-04-02 01:25:16', '2025-04-02 01:25:16'),
 (49, 53, 13, 1, '205000.00', '2025-04-03 02:19:05', '2025-04-03 02:19:05'),
 (50, 56, 13, 1, '205000.00', '2025-04-03 02:20:44', '2025-04-03 02:20:44'),
-(51, 57, 13, 1, '205000.00', '2025-04-03 02:21:20', '2025-04-03 02:21:20');
+(51, 57, 13, 1, '205000.00', '2025-04-03 02:21:20', '2025-04-03 02:21:20'),
+(52, 58, 13, 1, '205000.00', '2025-04-04 13:03:59', '2025-04-04 13:03:59'),
+(53, 59, 13, 1, '205000.00', '2025-04-04 13:04:38', '2025-04-04 13:04:38'),
+(54, 60, 13, 1, '205000.00', '2025-04-04 13:05:45', '2025-04-04 13:05:45'),
+(55, 61, 13, 1, '205000.00', '2025-04-04 13:06:51', '2025-04-04 13:06:51'),
+(56, 62, 13, 2, '205000.00', '2025-04-04 13:08:53', '2025-04-04 13:08:53'),
+(57, 62, 18, 1, '110000.00', '2025-04-04 13:08:53', '2025-04-04 13:08:53'),
+(58, 63, 13, 1, '205000.00', '2025-04-04 13:09:40', '2025-04-04 13:09:40');
 
 -- --------------------------------------------------------
 
@@ -1149,7 +1176,10 @@ INSERT INTO `reservations` (`id`, `user_id`, `restaurant_id`, `number_of_people`
 (25, 1, 1, 1, '17:21', 'pending', '2025-04-04 10:21:34', '2025-04-04 10:21:34', 'RESERVATION_67EFB2AE469E5', NULL, 'Trần Lê Huy Hoàng', '0999999999 a', '2025-04-04'),
 (26, 1, 1, 1, '17:21', 'pending', '2025-04-04 10:21:48', '2025-04-04 10:21:48', 'RESERVATION_67EFB2BC9BD37', NULL, 'Trần Lê Huy Hoàng', '0999999999 a', '2025-04-04'),
 (27, 1, 1, 1, '17:23', 'pending', '2025-04-04 10:23:09', '2025-04-04 10:23:09', 'RESERVATION_67EFB30D5F4AD', NULL, 'Trần Lê Huy Hoàng', '0999999999 a', '2025-04-04'),
-(28, 1, 1, 1, '19:15', 'pending', '2025-04-04 12:15:33', '2025-04-04 12:15:33', 'RESERVATION_67EFCD657160A', NULL, 'Trần Lê Huy Hoàng', '0999999999 a', '2025-04-04');
+(28, 1, 1, 1, '19:15', 'pending', '2025-04-04 12:15:33', '2025-04-04 12:15:33', 'RESERVATION_67EFCD657160A', NULL, 'Trần Lê Huy Hoàng', '0999999999 a', '2025-04-04'),
+(29, 1, 1, 1, '20:21', 'pending', '2025-04-04 13:18:33', '2025-04-04 13:18:33', 'RESERVATION_67EFDC2960866', NULL, 'Trần Lê Huy Hoàng', '0999999999 a', '2025-04-04'),
+(30, 1, 1, 1, '20:24', 'pending', '2025-04-04 13:19:39', '2025-04-04 13:19:39', 'RESERVATION_67EFDC6B040B6', NULL, 'Trần Lê Huy Hoàng', '0999999999 a', '2025-04-24'),
+(31, 1, 1, 1, '20:28', 'pending', '2025-04-04 13:26:57', '2025-04-04 13:26:57', 'RESERVATION_67EFDE2186F9C', NULL, 'Trần Lê Huy Hoàng', '0999999999 a', '2025-04-11');
 
 -- --------------------------------------------------------
 
@@ -1900,7 +1930,8 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('xNLzxNrAuemdBDeqekyMZMdSgxWQQhWrjTFrxilw', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoiQ2pCWHJFUm1wN3hxUFVHZmJJQmllNmN0OXV4c3Q3cjNEZGhRRWNOYyI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6NDA6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbi9yZXNlcnZhdGlvbnMiO31zOjY6Il9mbGFzaCI7YToyOntzOjM6Im9sZCI7YTowOnt9czozOiJuZXciO2E6MDp7fX1zOjM6InVybCI7YTowOnt9czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTtzOjE3OiJwYXNzd29yZF9oYXNoX3dlYiI7czo2MDoiJDJ5JDEyJGFpUzl1Tnlrek5WYjdsUXVCOEp0SS54RGYyN3E4MWp4SHhRSGdnUkhuNGQyZ0NlSkNZeUpxIjtzOjg6ImZpbGFtZW50IjthOjA6e319', 1743769298);
+('1riocSFPxiCm2lPA3kgj717LzvdCUIt3Ekrg4TEL', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo2OntzOjY6Il90b2tlbiI7czo0MDoiWEZyejgxVFdMSU1taWNyNXpNSzZPN2NVTVJ0dWtKVTNDZkNaTFlrVSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mzk6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9jaGVja291dD9wZF9pZD0xMyI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6MTc6InZlcmlmaWNhdGlvbl9jb2RlIjtpOjMxNTExMDtzOjE4OiJ2ZXJpZmljYXRpb25fZW1haWwiO3M6MjA6IjI1MDlyb2Jsb3hAZ21haWwuY29tIjtzOjE0OiJlbWFpbF92ZXJpZmllZCI7YjoxO30=', 1743772108),
+('xNLzxNrAuemdBDeqekyMZMdSgxWQQhWrjTFrxilw', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoiQ2pCWHJFUm1wN3hxUFVHZmJJQmllNmN0OXV4c3Q3cjNEZGhRRWNOYyI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjc6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbiI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6MzoidXJsIjthOjA6e31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxO3M6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTIkYWlTOXVOeWt6TlZiN2xRdUI4SnRJLnhEZjI3cTgxanhIeFFIZ2dSSG40ZDJnQ2VKQ1l5SnEiO3M6ODoiZmlsYW1lbnQiO2E6MDp7fX0=', 1743773275);
 
 -- --------------------------------------------------------
 
@@ -1955,7 +1986,14 @@ INSERT INTO `table_dishes` (`id`, `dish_id`, `table_id`, `quantity`, `status`, `
 (33, 13, NULL, 1, 'pending', 'ORDER_67EDF07CBA02D', NULL, '2025-04-03 02:20:44', '2025-04-03 02:20:44'),
 (34, 13, NULL, 1, 'pending', 'ORDER_67EDF0A0A1EE4', NULL, '2025-04-03 02:21:20', '2025-04-03 02:21:20'),
 (35, 25, NULL, 1, 'pending', NULL, NULL, '2025-04-04 12:03:57', '2025-04-04 12:03:57'),
-(36, 13, NULL, 1, 'pending', NULL, NULL, '2025-04-04 12:14:33', '2025-04-04 12:14:33');
+(36, 13, NULL, 1, 'pending', NULL, NULL, '2025-04-04 12:14:33', '2025-04-04 12:14:33'),
+(37, 13, NULL, 1, 'pending', 'ORDER_67EFD8BF79C44', NULL, '2025-04-04 13:03:59', '2025-04-04 13:03:59'),
+(38, 13, NULL, 1, 'pending', 'ORDER_67EFD8E6A035F', NULL, '2025-04-04 13:04:38', '2025-04-04 13:04:38'),
+(39, 13, NULL, 1, 'pending', 'ORDER_67EFD9294AEFB', NULL, '2025-04-04 13:05:45', '2025-04-04 13:05:45'),
+(40, 13, NULL, 1, 'pending', 'ORDER_67EFD96B419A0', NULL, '2025-04-04 13:06:51', '2025-04-04 13:06:51'),
+(41, 13, NULL, 2, 'pending', 'ORDER_67EFD9E5A7DEC', NULL, '2025-04-04 13:08:53', '2025-04-04 13:08:53'),
+(42, 18, NULL, 1, 'pending', 'ORDER_67EFD9E5A7DEC', NULL, '2025-04-04 13:08:53', '2025-04-04 13:08:53'),
+(43, 13, NULL, 1, 'pending', 'ORDER_67EFDA149A8C8', NULL, '2025-04-04 13:09:40', '2025-04-04 13:09:40');
 
 -- --------------------------------------------------------
 
@@ -2328,13 +2366,13 @@ ALTER TABLE `food_categories`
 -- AUTO_INCREMENT for table `import_requests`
 --
 ALTER TABLE `import_requests`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `import_request_details`
 --
 ALTER TABLE `import_request_details`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `ingredients`
@@ -2376,13 +2414,13 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=58;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=64;
 
 --
 -- AUTO_INCREMENT for table `order_items`
 --
 ALTER TABLE `order_items`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=52;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=59;
 
 --
 -- AUTO_INCREMENT for table `permissions`
@@ -2406,7 +2444,7 @@ ALTER TABLE `recipes`
 -- AUTO_INCREMENT for table `reservations`
 --
 ALTER TABLE `reservations`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 
 --
 -- AUTO_INCREMENT for table `restaurants`
@@ -2436,7 +2474,7 @@ ALTER TABLE `tables`
 -- AUTO_INCREMENT for table `table_dishes`
 --
 ALTER TABLE `table_dishes`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
 
 --
 -- AUTO_INCREMENT for table `users`

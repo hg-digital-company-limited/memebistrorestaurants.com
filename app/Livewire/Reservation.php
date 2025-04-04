@@ -36,8 +36,8 @@ class Reservation extends Component
             $this->email = null;
         }
 
-        $this->reservation_time = date('H:i');
-        $this->reservation_day = date('Y-m-d');
+        $this->reservation_time = null;
+        $this->reservation_day = null;
         $this->restaurant_id = Restaurant::first()->id;
         $this->number_of_people = 1;
     }
