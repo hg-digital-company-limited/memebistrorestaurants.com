@@ -49,9 +49,9 @@ class ReservationResource extends Resource
                         Forms\Components\TextInput::make('user_id')
                             ->numeric()
                             ->label('ID người dùng'),
-                        Forms\Components\TextInput::make('restaurant_id')
-                            ->numeric()
-                            ->label('ID nhà hàng'),
+                        Forms\Components\Select::make('restaurant_id')
+                            ->options(Restaurant::all()->pluck('name', 'id'))
+                            ->label('Nhà hàng'),
                         Forms\Components\TextInput::make('number_of_people')
                             ->required()
                             ->numeric()

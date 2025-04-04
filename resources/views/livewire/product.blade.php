@@ -1324,7 +1324,7 @@
 
                                     <div class="summary entry-summary ">
                                         <div class="left">
-                                            <h1 class="product_title entry-title">{{ $product->name }}</h1>
+                                            <h1 class="product_title entry-title" style="color: black;">{{ $product->name }}</h1>
                                             {{-- <div class="product_after_title">
                                                 <span class="sku_wrapper">SKU: <span
                                                         class="sku">{{ $product->id }}</span></span>
@@ -1456,7 +1456,7 @@
 
                                 <section class="related products">
 
-                                    <h2>Sản phẩm liên quan</h2>
+                                    <h2 style="color: black;">Sản phẩm liên quan</h2>
                                     <div class="woocommerce delicioz-theme-carousel"
                                         data-settings="{&quot;navigation&quot;:&quot;dots&quot;,&quot;items&quot;:4,&quot;items_laptop&quot;:&quot;2&quot;,&quot;items_tablet_extra&quot;:false,&quot;items_tablet&quot;:false,&quot;items_mobile_extra&quot;:false,&quot;items_mobile&quot;:&quot;2&quot;}">
                                         <div class="delicioz-products-spacing ">
